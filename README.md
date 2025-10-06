@@ -1,2 +1,1 @@
-# Dragonvale D & D 3.5e Campaign Setting
-
+# D&D 3.5e References and Resources
