@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      DiceSage
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+  <!--
+  function call_me(max_length) {
+   if((document.form2.user.value == null ) || (document.form2.user.value == "" )) document.form2.user.size = size;
+   if((document.form2.user.value.length >= size)&&(document.form2.user.value.length <= max_length)) document.form2.user.size = document.form2.user.value.length;
+   else document.form2.user.size = size;
+   fieldWidth = 115 + Number(document.form2.user.size)*8;
+   if(Width < 1000){
+      if(Width < fieldWidth){
+       boost = Number(fieldWidth) - Number(Width);
+       parent.window.resizeBy(boost, 0);
+       prevWidth = Width;
+       Width = prevWidth + boost;
+      }
+     }
+  }
+
+
+  var tableempty = true;
+  var Width = 300;
+  var neededWidth = 5;
+  var boost = 0;
+
+  function roll()
+  {
+    count = 0;
+    rCount = 0;
+    sum = 0;
+    prevSum = 0;
+    b4 = getBefore();
+    diceRoll = getDice();
+    aT = getAfter();
+    dS = getDiceSize();
+    dN = getDiceNumber();
+    tb = getTBody();
+    neededWidthPrev = neededWidth;
+    neededWidth = (neededWidthPrev + 22 + dN*3)*6;
+    if(dN > 4){
+    neededWidthPrev = neededWidth;
+    neededWidth = neededWidthPrev + 10;
+    }
+    if(dN > 9){
+    neededWidthPrev = neededWidth;
+    neededWidth = neededWidthPrev + 11;
+    }
+    if(dN > 14){
+    neededWidthPrev = neededWidth;
+    neededWidth = neededWidthPrev + 12;
+    }
+    if(dN > 19){
+    neededWidthPrev = neededWidth;
+    neededWidth = neededWidthPrev + 13;
+    }
+    if(dN > 24){
+    neededWidthPrev = neededWidth;
+    neededWidth = neededWidthPrev + 20;
+    }
+    if(dN > 29){
+    neededWidthPrev = neededWidth;
+    neededWidth = neededWidthPrev + 20;
+    }
+    if(dN > 34){
+    neededWidthPrev = neededWidth;
+    neededWidth = neededWidthPrev + 30;
+    }
+
+
+    for(rCount=0; rCount < dM; rCount++) {
+     count = 0;
+     prevSum = 0;
+     sum = 0;
+     for(count=0; count < dN; count++) {
+     var ranNum = 1 + Math.floor(Math.random()*dS);
+     prevSum = sum;
+     sum = prevSum + ranNum;
+     insertroll(tb, ranNum);
+     }
+    }
+    document.form2.user.focus();
+
+  }
+
+  function getBefore() {
+    allText = document.form2.user.value;
+     beforeText = allText.slice(0, allText.indexOf("["));
+     neededWidth = eval(beforeText.length);
+     return beforeText;
+    }
+
+  function getDice() {
+     var allText = document.form2.user.value;
+     var dice = allText.slice(allText.indexOf("[")+1, allText.indexOf("]"));
+     if(dice.indexOf("*") < 0) {
+     dM = 1;
+     neededWidthPrev = neededWidth;
+     neededWidth = eval(neededWidthPrev + eval(dice.length));
+     return dice;
+     }
+     else {
+     dM = dice.substring(0, dice.indexOf("*"));
+     dices = dice.slice(dice.indexOf("*")+1, dice.length);
+     neededWidthPrev = neededWidth;
+     neededWidth = eval(neededWidthPrev + eval(dices.length));
+     return dices;
+     }
+    }
+
+  function getAfter() {
+    allText = document.form2.user.value;
+    afterText = allText.slice(allText.indexOf("]")+1, allText.length);
+    neededWidthPrev = neededWidth;
+    neededWidth = eval(neededWidthPrev + eval(afterText.length));
+    return afterText;
+    }
+
+  function getDiceSize() {
+     if(diceRoll.indexOf("+") > -1){
+     diceLength = diceRoll.substring(diceRoll.indexOf("d")+1, diceRoll.indexOf("+"));
+     add = diceRoll.slice(diceRoll.indexOf("+"), diceRoll.length);
+     return diceLength;
+     }
+     else {
+     if(diceRoll.indexOf("-") > -1){
+     diceLength = diceRoll.substring(diceRoll.indexOf("d")+1, diceRoll.indexOf("-"));
+     add = diceRoll.slice(diceRoll.indexOf("-"), diceRoll.length);
+     return diceLength;
+     } else {
+     diceLength = diceRoll.substring(diceRoll.indexOf("d")+1, diceRoll.length);
+     add = 0;
+     return diceLength;
+     }
+     }
+
+  }
+
+  function getDiceNumber() {
+     dicePlace = diceRoll.indexOf("d")
+     diceNumber = diceRoll.substring(diceRoll.Length, diceRoll.indexOf("d"));
+     return diceNumber;
+  }
+
+  function getTBody(){
+  tableContent = document.getElementsByTagName("TABLE")[0];
+  return tableContent.getElementsByTagName("TBODY")[0];
+  }
+
+  function clearTable() {
+  parent.window.resizeTo(300,500);
+  Width = 300;
+  neededWidth = 5;
+  while (tb.getElementsByTagName('TR').length > 0) {
+    tb.removeChild(tb.getElementsByTagName('TR')[2]);
+  }
+  tableempty = true;
+  return true;
+}
+
+  function insertroll(tb, ranNum)   {
+   marvSum = eval(b4.length + diceRoll.length + 4);
+
+   if (tableempty) {
+    insertHeader(tb);
+    tableempty = false;
+   }
+
+   if(count == (dN-1)) {
+    prevSum = sum;
+    sum = (eval(prevSum) + eval(add));
+   }
+
+   if(rCount == 0) {
+    if (dN == 1) {
+     tdn = document.createElement("TD");
+     if(add == 0) {
+      add = '+0';
+     }
+     tdn.innerHTML = '<b>' + b4 + '<\/b>' + '[' + diceRoll + ']' + '->' + '[' + ranNum + add + ']' + ' ' + '=' + ' ' + '<b>' + sum + '<\/b>' + aT;
+     tr = document.createElement("TR");
+     tr.appendChild(tdn);
+     tb.appendChild(tr);
+    }
+    else {
+     if(count == 0) {
+      tdn = document.createElement("TD");
+      tdn.innerHTML = '<b>' + b4 + '<\/b>' + '[' + diceRoll + ']' + '->' +  '[' + ranNum + ',' + ' ';
+      tr = document.createElement("TR");
+      tr.appendChild(tdn);
+      tb.appendChild(tr);
+     }
+     else {
+      if(count < (dN-1)) {
+       former = tdn.innerHTML;
+       tdn.innerHTML = former + ranNum + ',' + ' ';
+      }
+      else {
+       former = tdn.innerHTML;
+        if(add == 0) {
+         add = '+0';
+        }
+        tdn.innerHTML = former + ranNum + add + ']' + ' ' + '=' + ' ' + '<b>' + sum + '<\/b>' + ' ' + aT;
+       }
+      }
+     }
+    }
+
+
+
+   else {
+    if(rCount < dM-1) {
+     if (dN == 1) {
+      tdn = document.createElement("TD");
+      if(add == 0) {
+         add = '+0';
+      }
+      tdn.innerHTML = '<span style="color: white">' + '<b>' + b4 + '<\/b>' + '[' + diceRoll + ']' + '<\/span>' + '->' +  '[' + ranNum + add + ']' + ' ' + '=' + ' ' + '<b>' + sum + '<\/b>' + aT;
+      tr = document.createElement("TR");
+      tr.appendChild(tdn);
+      tb.appendChild(tr);
+     }
+
+   else {
+    if(count == 0) {
+     tdn = document.createElement("TD");
+      tdn.innerHTML = '<span style="color: white">' + '<b>' + b4 + '<\/b>' + '[' + diceRoll + ']' + '<\/span>' + '->' +  '[' + ranNum + ',' + ' ';
+      tr = document.createElement("TR");
+      tr.appendChild(tdn);
+      tb.appendChild(tr);
+    }
+    else {
+     if(count < (dN-1)) {
+      former = tdn.innerHTML;
+      tdn.innerHTML = former + ranNum + ',' + ' ';
+     }
+     else {
+      former = tdn.innerHTML;
+      if(add == 0) {
+       add = '+0 ';
+      }
+      tdn.innerHTML = former + ranNum + add + ']' + ' ' + '=' + ' ' + '<b>' + sum + '<\/b>' + aT;
+     }
+    }
+   }
+    }
+
+
+
+
+   else {
+    if (dN == 1) {
+     tdn = document.createElement("TD");
+     if(add == 0) {
+         add = '+0';
+     }
+      tdn.innerHTML = '<span style="color: white">' + '<b>' + b4 + '<\/b>' + '[' + diceRoll + ']' + '<\/span>' + '->' +  '[' + ranNum + add + ']' + ' ' + '=' + ' ' + '<b>' + sum + '<\/b>' + aT;
+      tr = document.createElement("TR");
+      tr.appendChild(tdn);
+      tb.appendChild(tr);
+    }
+   else {
+    if(count == 0) {
+     tdn = document.createElement("TD");
+      tdn.innerHTML = '<span style="color: white">' + '<b>' + b4 + '<\/b>' + '[' + diceRoll + ']' + '<\/span>' + '->' +  '[' + ranNum + ',' + ' ';
+      tr = document.createElement("TR");
+      tr.appendChild(tdn);
+      tb.appendChild(tr);
+    }
+    else {
+     if(count < (dN-1)) {
+      former = tdn.innerHTML;
+      tdn.innerHTML = former + ranNum + ',' + ' ';
+     }
+     else {
+      former = tdn.innerHTML;
+      if(add == 0) {
+       add = '+0';
+      }
+      tdn.innerHTML = former + ranNum + add + ']' + ' ' + '=' + ' ' + '<b>' + sum + '<\/b>' + ' ' + aT;
+     }
+    }
+   }
+   }
+ }
+
+     if(Width < 1000){
+      if(Width < neededWidth){
+       boost = Number(neededWidth) - Number(Width);
+       parent.window.resizeBy(boost, 0);
+       prevWidth = Width;
+       Width = prevWidth + boost;
+      }
+     }
+
+    return true;
+  }
+
+  function insertHeader(tb) {
+  thn  = document.createElement("TD");
+  thn.innerHTML  = '<B>Results:<\/B>';
+  tr = document.createElement("TR");
+  tr.appendChild(thn);
+  tb.appendChild(tr);
+  return true;
+}
+
+
+  //-->
+  //]]>
+</script>
+  </head>
+  <body>
+
+    <table cellspacing="0" width="100%">
+      <tbody>
+        <tr bgcolor="#8B2323">
+          <td bgcolor="white">
+          <img src="DiceSageLogo red.jpg">
+          </td>
+          <td width="5px">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <form name="form2" id="form2">
+              <input name="user" type="text" maxlength="400" size="20" onfocus="
+              setInterval('call_me(document.form2.user.maxLength)', 1)" />
+              <input type="text" name="dummy" style="display:none" />
+              <input type="button" value="roll!" onclick="roll()" />
+              <input type="button" value="clear" onclick=" clearTable()" />
+            </form>
+            <div style="margin-left: 1.5em">
+              <i>Example: Goblin attacks: [5*1d20+3] =AC
+              hit</i><br />
+
+              <br />
+            </div><script type="text/javascript" language="
+            javascript">
+//<![CDATA[
+     <!--
+     document.form2.user.focus();
+     var size = document.form2.user.size; //Global Variable keeps original size
+     //-->
+//]]>
+</script>
+          </td>
+          <td rowspan="1000" bgcolor="#8B2323"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+</html>
+

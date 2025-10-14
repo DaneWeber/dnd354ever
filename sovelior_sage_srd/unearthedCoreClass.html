@@ -1,0 +1,4222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=windows-1250" http-equiv="content-type" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>
+      SRD - Core Class Variants
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+      <tbody>
+        <tr>
+          <td style="width: 170px; text-align: right">
+            <img alt="d20 Logo" src="d20.jpg" />
+          </td>
+          <td style="width: 30px"></td>
+          <td colspan="3" id="title">
+            System Reference Document v3.5
+          </td>
+          <td rowspan="3" style="background-color: #8B2323; width: 15px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="height: 15px"></td>
+          <td rowspan="2" style="width: 15px"></td>
+        </tr>
+        <tr valign="top">
+          <td>
+            <!-- left-hand navigation / menu -->
+<table width="170px">
+<tr><td style="width: 100%; background-color: #8b2323">
+<div class="menu2">
+<ul>
+<li><a href="home.html">SRD Home</a>
+ <ul> 
+ <li><a href="tips.html">Tips and Stuff</a></li>
+ <li><a href="siteMap.html">Site Map</a></li>
+ </ul>
+</li>
+<li><a href="legal.html">Legal Information</a></li>
+<li><a href="tools.html">Tools</a>
+ <ul>
+ <li><a href="toolsScreen.html">DM Screen</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('anchorSearch.html', 'anchor_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+     Site Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('spellSearch.html', 'spell_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Spell Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('powerSearch.html', 'power_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Power Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="toolsSpellIndex.html">Spell Index</a></li>
+ <li><a href="toolsPowerIndex.html">Power Index</a></li>
+ <li><a href="toolsMonsterIndex.html">Monster Index</a></li>
+ <li><a href="toolsMagicItemIndex.html">Wondrous Item Index</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('toolsDiceSage.html', 'dicesage', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=300px,height=500px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    DiceSage</a></li>
+ </ul>
+</li>
+<li><a href="basics.html">Basics &amp; Ability Scores</a></li>
+<li><a href="description.html">Alignment &amp; Description</a></li>
+<li><a href="races.html">Races</a></li>
+<li><a href="classes.html">Character Classes</a>
+ <ul>
+ <li><a href="barbarian.html">Barbarian</a></li>
+ <li><a href="bard.html">Bard</a></li>
+ <li><a href="cleric.html">Cleric</a></li>
+ <li><a href="druid.html">Druid</a></li>
+ <li><a href="fighter.html">Fighter</a></li>
+ <li><a href="monk.html">Monk</a></li>
+ <li><a href="paladin.html">Paladin</a></li>
+ <li><a href="ranger.html">Ranger</a></li>
+ <li><a href="rogue.html">Rogue</a></li>
+ <li><a href="sorcerer.html">Sorcerer</a></li>
+ <li><a href="wizard.html">Wizard</a></li>
+ </ul>
+</li>
+<li><a href="skills.html">Skills</a>
+ <ul>
+ <li><a href="skillsAll.html">In Alphabetical Order</a></li>
+ <li><a href="skillsStr.html">Strength-Based</a></li>
+ <li><a href="skillsDex.html">Dexterity-Based</a></li>
+ <li><a href="skillsCon.html">Constitution-Based</a></li>
+ <li><a href="skillsInt.html">Intelligence-Based</a></li>
+ <li><a href="skillsWis.html">Wisdom-Based</a></li>
+ <li><a href="skillsCha.html">Charisma-Based</a></li>
+ <li><a href="skillsTro.html">Trained Only</a></li>
+ <li><a href="skillsAcp.html">With Armor Check Penalty</a></li>
+ </ul>
+</li>
+<li><a href="feats.html">Feats</a>
+ <ul>
+ <li><a href="featsAll.html">In Alphabetical Order</a></li>
+ <li><a href="featsGen.html">General</a></li>
+ <li><a href="featsFtb.html">Fighter Bonus</a></li>
+ <li><a href="featsItc.html">Item Creation</a></li>
+ <li><a href="featsMtm.html">Metamagic</a></li>
+ <li><a href="featsList.html">Compiled</a></li>
+ </ul>
+</li>
+<li><a href="equipment.html">Equipment</a>
+ <ul>
+ <li><a href="weapons.html">Weapons</a></li>
+ <li><a href="armor.html">Armor</a></li>
+ <li><a href="goodsAndServices.html">Goods &amp; Services</a></li>
+ </ul>
+</li>
+<li><a href="specialMaterials.html">Special Materials</a></li>
+<li><a href="combat.html">Combat</a>
+ <ul>
+ <li><a href="initiativeAndAoO.html">Initiative &amp; Attacks of Opportunity</a></li>
+ <li><a href="actionsInCombat.html">Actions In Combat</a></li>
+ <li><a href="injuryAndDeath.html">Injury &amp; Death</a></li>
+ <li><a href="movement.html">Movement, Position, &amp; Distance</a></li>
+ <li><a href="combatModifiers.html">Combat Modifiers</a></li>
+ <li><a href="specialAttacks.html">Special Attacks</a></li>
+ <li><a href="initiativeActions.html">Special Initiative Actions</a></li>
+ </ul>
+</li>
+<li><a href="abilitiesAndConditions.html">Special Abilities &amp; Conditions</a></li>
+<li><a href="npcClasses.html">NPC Classes</a></li>
+<li><a href="prestigeClasses.html">Prestige Classes</a>
+ <ul>
+ <li><a href="arcaneArcher.html">Arcane Archer</a></li>
+ <li><a href="arcaneTrickster.html">Arcane Trickster</a></li>
+ <li><a href="archmage.html">Archmage</a></li>
+ <li><a href="assassin.html">Assassin</a></li>
+ <li><a href="blackguard.html">Blackguard</a></li>
+ <li><a href="dragonDisciple.html">Dragon Disciple</a></li>
+ <li><a href="duelist.html">Duelist</a></li>
+ <li><a href="dwarvenDefender.html">Dwarven Defender</a></li>
+ <li><a href="eldritchKnight.html">Eldritch Knight</a></li>
+ <li><a href="hierophant.html">Hierophant</a></li>
+ <li><a href="horizonWalker.html">Horizon Walker</a></li>
+ <li><a href="loremaster.html">Loremaster</a></li>
+ <li><a href="mysticTheurge.html">Mystic Theurge</a></li>
+ <li><a href="shadowdancer.html">Shadowdancer</a></li>
+ <li><a href="thaumaturgist.html">Thaumaturgist</a></li>
+ </ul>
+</li>
+<li><a href="epicLevels.html">Epic Levels</a>
+ <ul>
+ <li><a href="epicClasses.html">Epic Classes</a></li>
+ <li><a href="epicSkills.html">Epic Skills</a></li>
+ <li><a href="epicFeats.html">Epic Feats</a></li>
+ <li><a href="epicPrestigeClasses.html">Epic Prestige Classes</a>
+  <ul>
+  <li><a href="agentRetriever.html">Agent Retriever</a></li>
+  <li><a href="cosmicDescryer.html">Cosmic Descryer</a></li>
+  <li><a href="divineEmissary.html">Divine Emissary</a></li>
+  <li><a href="epicInfiltrator.html">Epic Infiltrator</a></li>
+  <li><a href="guardianParamount.html">Guardian Paramount</a></li>
+  <li><a href="highProselytizer.html">High Proselytizer</a></li>
+  <li><a href="legendaryDreadnought.html">Legendary Dreadnought</a></li>
+  <li><a href="perfectWight.html">Perfect Wight</a></li>
+  <li><a href="unionSentinel.html">Union Sentinel</a></li>
+  </ul>
+ </li>
+ <li><a href="epicSpells.html">Epic Spells</a>
+  <ul>
+  <li><a href="epicSpellDevelopment.html">Developing</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMagicItems.html">Epic Magic Items</a>
+  <ul>
+  <li><a href="epicMagicItemsOther.html">Other Items</a></li>
+  <li><a href="epicArtifacts.html">Intelligent Items and Artifacts</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMonsters.html">Epic Monsters</a>
+  <ul>
+  <li><a href="epicNonAbominations.html">Non-Abominations</a></li>
+  </ul>
+ </li>
+ <li><a href="epicObstacles.html">Epic Obstacles</a></li>
+ </ul>
+</li>
+<li><a href="magicOverview.html">Magic Overview</a>
+ <ul>
+ <li><a href="magicSchools.html">Schools of Magic</a></li>
+ <li><a href="arcaneSpells.html">Arcane Magic</a></li>
+ <li><a href="divineSpells.html">Divine Magic</a></li>
+ <li><a href="specialAbilities.html">Special Abilities</a></li>
+ </ul>
+</li>
+<li><a href="spellList.html">Spell List</a>
+ <ul>
+ <li><a href="#" onclick="var w = window.open('spellSearch.html', 'spell_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Spell Search</a></li>
+ <li><a href="bardSpells.html">Bard Spells</a></li>
+ <li><a href="clericSpells.html">Cleric Spells</a></li>
+ <li><a href="clericDomains.html">Cleric Domains</a></li>
+ <li><a href="druidSpells.html">Druid Spells</a></li>
+ <li><a href="paladinSpells.html">Paladin Spells</a></li>
+ <li><a href="rangerSpells.html">Ranger Spells</a></li>
+ <li><a href="wizardSpells.html">Sorcerer/Wizard Spells</a></li>
+ <li><a href="spellsAtoZ.html">Spells A to Z</a>
+  <ul>
+  <li><a href="spellsAtoB.html">Acid Arrow &mdash; Burning&nbsp;Hands</a></li>
+  <li><a href="spellsC.html">Call Lightning &mdash; Curse&nbsp;Water</a></li>
+  <li><a href="spellsDtoE.html">Dancing Lights &mdash; Eyebite</a></li>
+  <li><a href="spellsFtoG.html">Fabricate &mdash; Gust&nbsp;of&nbsp;Wind</a></li>
+  <li><a href="spellsHtoL.html">Hallow &mdash; Lullaby</a></li>
+  <li><a href="spellsMtoO.html">Mage Armor &mdash; Owl's&nbsp;Wisdom</a></li>
+  <li><a href="spellsPtoR.html">Passwall &mdash; Rusting&nbsp;Grasp</a></li>
+  <li><a href="spellsS.html">Sanctuary &mdash; Sympathy</a></li>
+  <li><a href="spellsTtoZ.html">Telekinesis &mdash; Zone&nbsp;of&nbsp;Truth</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+<li><a href="magicItems.html">Magic Items</a>
+ <ul>
+ <li><a href="magicItemsCreation.html">Creating Magic Items</a></li>
+ <li><a href="magicItemsAW.html#armor">Armor</a></li>
+ <li><a href="magicItemsPRR.html#potions">Potions</a></li>
+ <li><a href="magicItemsPRR.html#rings">Rings</a></li>
+ <li><a href="magicItemsPRR.html#rods">Rods</a></li>
+ <li><a href="magicItemsSSW.html#scrolls">Scrolls</a></li>
+ <li><a href="magicItemsSSW.html#staffs">Staffs</a></li>
+ <li><a href="magicItemsSSW.html#wands">Wands</a></li>
+ <li><a href="magicItemsAW.html#weapons">Weapons</a></li>
+ <li><a href="magicItemsWI.html">Wondrous Items</a></li>
+ <li><a href="magicItemsICA.html">Intelligent, Cursed, &amp; Artifacts</a></li>
+ </ul>
+</li>
+<li><a href="monsters.html">Monsters</a>
+ <ul>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="monstersAtoZ.html">Monsters A to Z</a>
+  <ul>
+  <li><a href="monstersA.html">Aboleth &mdash; Azer</a></li>
+  <li><a href="monstersBtoC.html">Barghest &mdash; Couatl</a></li>
+  <li><a href="monstersDtoDe.html">Dark&nbsp;Mantle &mdash; Devourer</a></li>
+  <li><a href="monstersDitoDo.html">Digester &mdash; Doppleganger</a></li>
+  <li><a href="monstersDrtoDw.html">Dragon &mdash; Dwarf</a></li>
+  <li><a href="monstersEtoF.html">Eagle &mdash; Fungus</a></li>
+  <li><a href="monstersG.html">Gargoyle &mdash; Grimlock</a></li>
+  <li><a href="monstersHtoI.html">Hag &mdash; Invisible&nbsp;Stalker</a></li>
+  <li><a href="monstersKtoL.html">Kobold &mdash; Lycanthrope</a></li>
+  <li><a href="monstersMtoN.html">Magmin &mdash; Nymph</a></li>
+  <li><a href="monstersOtoR.html">Ogre &mdash; Rust&nbsp;Monster</a></li>
+  <li><a href="monstersS.html">Sahuagin &mdash; Swarm</a></li>
+  <li><a href="monstersTtoZ.html">Tarrasque &mdash; Zombie</a></li>
+  </ul>
+ </li>
+ <li><a href="monstersAnimal.html">Animals</a></li>
+ <li><a href="monstersVermin.html">Vermin</a></li>
+ <li><a href="monsterTypes.html">Types, Subtypes, &amp; Special Abilities</a></li>
+ <li><a href="improvingMonsters.html">Improving Monsters</a></li>
+ <li><a href="monsterFeats.html">Monster Feats</a></li>
+ <li><a href="monstersAsRaces.html">Monsters as Races</a></li>
+ </ul>
+</li>
+<li><a href="carryingAndExploration.html">Carrying, Movement, and Exploration</a></li>
+<li><a href="treasure.html">Treasure</a></li>
+<li><a href="wildernessAndEnvironment.html">Wilderness, Weather, and Environment</a></li>
+<li><a href="traps.html">Traps</a></li>
+<li><a href="planes.html">Planes</a></li>
+<li><a href="psionic.html">Psionic</a>
+ <ul>
+ <li><a href="psionicRaces.html">Races</a></li>
+ <li><a href="psionicClasses.html">Classes</a>
+  <ul>
+  <li><a href="psionicPsion.html">Psion</a></li>
+  <li><a href="psionicPsychicWarrior.html">Psychic Warrior</a></li>
+  <li><a href="psionicSoulknife.html">Soulknife</a></li>
+  <li><a href="psionicWilder.html">Wilder</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicSkills.html">Skills</a></li>
+ <li><a href="psionicFeats.html">Feats</a></li>
+ <li><a href="psionicPrestigeClasses.html">Prestige Classes</a>
+  <ul>
+  <li><a href="psionicCerebremancer.html">Cerebremancer</a></li>
+  <li><a href="psionicElocater.html">Elocater</a></li>
+  <li><a href="psionicFist.html">Psionic Fist</a></li>
+  <li><a href="psionicSlayer.html">Slayer</a></li>
+  <li><a href="psionicMetamind.html">Metamind</a></li>
+  <li><a href="psionicPsionUncarnate.html">Psion Uncarnate</a></li>
+  <li><a href="psionicPyrokineticist.html">Pyrokineticist</a></li>
+  <li><a href="psionicThrallherd.html">Thrallherd</a></li>
+  <li><a href="psionicWarMind.html">War Mind</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicPowers.html">Powers</a>
+  <ul>
+  <li><a href="#" onclick="
+var w = window.open('powerSearch.html', 'power_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Power Search</a></li>
+  <li><a href="psionicDescriptions.html">Descriptions Format</a></li>
+  <li><a href="psionicPsionList.html">Psion/Wilder List</a></li>
+  <li><a href="psionicDisciplineList.html">Discipline List</a></li>
+  <li><a href="psionicWarriorList.html">Psychic Warrior List</a></li>
+  <li><a href="psionicPowersAtoC.html">Adapt Body &mdash; Crystallize</a></li>
+  <li><a href="psionicPowersDtoF.html">Danger Sense &mdash; Fusion</a></li>
+  <li><a href="psionicPowersGtoP.html">Genesis &mdash; Psychofeedback</a></li>
+  <li><a href="psionicPowersQtoW.html">Quintessence &mdash; Weapon of Energy</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicItems.html">Psionic Items</a>
+  <ul>
+  <li><a href="psionicItemsAW.html">Armor &amp; Weapons</a></li>
+  <li><a href="psionicItemsCCDT.html">Cognizance Crystals, Dorjes &amp; Tatoos</a></li>
+  <li><a href="psionicItemsPSP.html">Power Stones &amp; Psicrowns</a></li>
+  <li><a href="psionicItemsU.html">Universal Items</a></li>
+  <li><a href="psionicItemsCA.html">Cursed &amp; Aritfacts</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicMonsters.html">Monsters</a></li>
+ </ul>
+</li>
+<li><a href="divine.html">Divine</a>
+ <ul>
+ <li><a href="salientAbilities.html">Salient Divine Abilities</a></li>
+ <li><a href="divineFeats.html">Feats</a></li>
+ <li><a href="divineDomains.html">Domains</a></li>
+ <li><a href="divineNewSpells.html">Spells</a></li>
+ <li><a href="divineMinions.html">Minions</a></li>
+ </ul>
+</li>
+<li><a href="unearthedArcana.html">Unearthed Arcana</a></li>
+ <li><a href="unearthedCharacter.html"><div style="margin-left: 10px">Character</div></a>
+  <ul>
+  <li><a href="unearthedContacts.html">Contacts</a></li>
+  <li><a href="unearthedReputation.html">Reputation</a></li>
+  <li><a href="unearthedHonor.html">Honor</a></li>
+  <li><a href="unearthedTaint.html">Taint</a></li>
+  <li><a href="unearthedSanity.html">Sanity</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedRaces.html"><div style="margin-left: 10px">Racial Variants</div></a>
+  <ul>
+  <li><a href="unearthedEnvironmentalVariants.html">Environmental Variants</a></li>
+  <li><a href="unearthedElementalVariants.html">Elemental Variants</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedBloodlines.html"><div style="margin-left: 10px">Bloodlines</div></a></li>
+ <li><a href="unearthedClasses.html"><div style="margin-left: 10px">Class Variants</div></a></li>
+  <li class="selected"><a href="unearthedCoreClass.html"><div style="margin-left: 20px">Core Class Variants</div></a></li>
+  <li><a href="unearthedSpecialist.html"><div style="margin-left: 20px">Specialist Wizard Variants</div></a></li>
+  <li><a href="unearthedGestalt.html"><div style="margin-left: 20px">Gestalt Characters</div></a></li>
+ <li><a href="unearthedNewClasses.html"><div style="margin-left: 10px">New Classes</div></a>
+  <ul>
+  <li><a href="unearthedPrestige.html">Prestigious Classes</a></li>
+  <li><a href="unearthedParagon.html">Racial Paragon Classes</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedSkills.html"><div style="margin-left: 10px">Skills Variants</div></a>
+  <ul>
+  <li><a href="unearthedAlternativeSkills.html">Alternative Skill Systems</a></li>
+  <li><a href="unearthedCraftPoints.html">Craft Points</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedFeats.html"><div style="margin-left: 10px">Feats Variants</div></a>
+  <ul>
+  <li><a href="unearthedTraits.html">Traits</a></li>
+  <li><a href="unearthedFlaws.html">Flaws</a></li>
+  <li><a href="unearthedSpelltouchedFeats.html">Spelltouched Feats</a></li>
+  <li><a href="unearthedTests.html">Test-Based Prerequisites</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedCombat.html"><div style="margin-left: 10px">Combat Variants</div></a>
+  <ul>
+  <li><a href="unearthedFacing.html">Facing and Hex Grids</a></li>
+  <li><a href="unearthedDefence.html">Defence and Armor</a></li>
+  <li><a href="unearthedInjury.html">Injury and Death</a></li>
+  <li><a href="unearthedRolls.html">Rolls and Modifiers</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedMagic.html"><div style="margin-left: 10px">Magic</div></a>
+  <ul>
+  <li><a href="unearthedRecharge.html">Recharge Magic</a></li>
+  <li><a href="unearthedSpellPoints.html">Spell Points</a></li>
+  <li><a href="unearthedMetamagic.html">Metamagic Variants</a></li>
+  <li><a href="unearthedSummon.html">Summon Monster Variants</a></li>
+  <li><a href="unearthedIncantations.html">Incantations</a></li>
+  <li><a href="unearthedItems.html">Magic Items</a></li>
+  </ul>
+ </li>
+</ul>
+</div>
+</td><td></td></tr></table>
+    </td>
+          <td style="width: 30px"></td>
+          <td>
+            <!-- main contents -->
+           <h2>Unearthed Arcana<br />
+            </h2>
+            <h3>
+              VARIANT CHARACTER CLASSES
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+
+                  <td class="line"></td>
+                </tr>
+              </tbody>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width: 20%">
+                    <a style="color: #579EB6" href="#barbarian"><b>Barbarian</b></a><br />
+                    <a style="color: #579EB6" href="#totem-barbarian">Totem Barbarian</a><br />
+                    <a style="color: #579EB6" href="#simple-barbarian">Simple Variant</a><br /><br />
+                    <a style="color: #579EB6" href="#bard"><b>Bard</b></a><br />
+                    <a style="color: #579EB6" href="#bardic-sage">Bardic Sage</a><br />
+                    <a style="color: #579EB6" href="#divine-bard">Divine Bard</a><br />
+                    <a style="color: #579EB6" href="#savage-bard">Savage Bard</a><br />
+                    <a style="color: #579EB6" href="#simple-bard">Simple Variant</a><br />
+                  </td>
+                  <td valign="top" style="width: 20%">
+                    <a style="color: #579EB6" href="#cleric"><b>Cleric</b></a><br />
+                    <a style="color: #579EB6" href="#cloistered-cleric">Cloistered Cleric</a><br />
+                    <a style="color: #579EB6" href="#simple-cleric">Simple Variant</a><br /><br />
+                    <a style="color: #579EB6" href="#druid"><b>Druid</b></a><br />
+                    <a style="color: #579EB6" href="#druidic-avenger">Druidic Avenger</a><br />
+                    <a style="color: #579EB6" href="#simple-druid">Simple Variant</a><br /><br />
+                    <a style="color: #579EB6" href="#fighter"><b>Fighter</b></a><br />
+                    <a style="color: #579EB6" href="#thug">Thug</a><br />
+                    <a style="color: #579EB6" href="#simple-fighter">Simple Variant</a><br />
+                  </td>
+                  <td valign="top" style="width: 20%">
+                    <a style="color: #579EB6" href="#monk"><b>Monk</b></a><br />
+                    <a style="color: #579EB6" href="#fighting-styles">Fighting Styles</a><br />
+                    <a style="color: #579EB6" href="#simple-monk">Simple Variant</a><br /><br />
+                    <a style="color: #579EB6" href="#paladin"><b>Paladin</b></a><br />
+                    <a style="color: #579EB6" href="#freedom-slaughter-and-tyranny">Freedom, Slaughter, and Tyranny</a><br />
+                    <a style="color: #579EB6" href="#simple-paladin">Simple Variant</a><br />
+                  </td>
+                  <td valign="top" style="width: 20%">
+                    <a style="color: #579EB6" href="#ranger"><b>Ranger</b></a><br />
+                    <a style="color: #579EB6" href="#planar-ranger">Planar Ranger</a><br />
+                    <a style="color: #579EB6" href="#urban-ranger">Urban Ranger</a><br />
+                    <a style="color: #579EB6" href="#urban-tracking">Feat: Urban Tracking</a><br />
+                    <a style="color: #579EB6" href="#simple-ranger">Simple Variant</a><br /><br />
+                    <a style="color: #579EB6" href="#rogue"><b>Rogue</b></a><br />
+                    <a style="color: #579EB6" href="#wilderness-rogue">Wilderness Rogue</a><br />
+                    <a style="color: #579EB6" href="#simple-rogue">Simple Variant</a><br />
+                  </td>
+                  <td valign="top" style="width: 20%">
+                    <a style="color: #579EB6" href="#sorcerer"><b>Sorcerer</b></a><br />
+                    <a style="color: #579EB6" href="#battle-sorcerer">Battle Sorcerer</a><br />
+                    <a style="color: #579EB6" href="#simple-sorcerer">Simple Variant</a><br /><br />
+                    <a style="color: #579EB6" href="#wizard"><b>Wizard</b></a><br />
+                    <a style="color: #579EB6" href="#domain-wizard">Domain Wizard</a><br />
+                    <a style="color: #579EB6" href="#simple-wizard">Simple Variant</a><br />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>
+              This section presents sixteen variant versions of the
+              standard character classes, along with several
+              additional variants created by swapping one or more
+              class features for features of other classes.
+            </p>
+            <p>
+              Each fully detailed variant has entries for one or
+              more of the following topics. If an entry does not
+              appear, use the material for the standard class.
+            </p>
+
+            <h6>
+              Alignment
+            </h6>Changes to the class's alignment restrictions.
+            <h6>
+              Hit Die
+            </h6>Changes to the class's Hit Die.
+            <h6>
+              Base Attack Bonus
+            </h6>If the class uses a different base attack bonus,
+            this entry gives the column to use (good, average, or
+            poor).
+            <h6>
+              Base Save Bonuses
+            </h6>If the class has a different mix of good and poor
+            saves, this entry gives the appropriate column for each
+            save.
+            <h6>
+
+              Class Skills
+            </h6>Additions or subtractions from the class skill
+            list, and/or changes in the number of skill points
+            gained per level.
+            <h6>
+              Class Features
+            </h6>Changes, additions, or subtractions to the class's
+            special features, including spellcasting.
+            <h6>
+              Multiclassing And Variant Classes
+            </h6>Multiclassing between variants of the same class
+            is a tricky subject. In cases where a single class
+            offers a variety of paths (such as the <a style="color: #579EB6" href="#totem-barbarian">totem
+            barbarian</a> or the monk <a style="color: #579EB6" href="
+            #fighting-styles">fighting styles</a>), the easiest
+            solution is simply to bar multiclassing between
+            different versions of the same class (just as a
+            character can't multiclass between different versions
+            of specialist wizards). For variants that are wholly
+            separate from the character class - such as the
+            <a style="color: #579EB6" href="#bardic-sage">bardic sage</a> or the <a style="color: #579EB6" href="#urban-ranger">urban
+            ranger</a> - multiclassing, even into multiple variants
+            of the same class, is probably okay. Identical class
+            features should stack if gained from multiple versions
+            of the same class (except for spellcasting, which is
+            always separate).
+            <p>
+
+              In any case, only the first version of a favored
+              class is treated as favored; a halfling rogue/wizard
+              who later begins gaining levels in the <a style="color: #579EB6" href="#wilderness-rogue">
+              wilderness rogue</a> variant class can't treat both
+              the rogue and wilderness rogue classes as favored,
+              only the class gained first (in this case, rogue).
+              Under no circumstances does spellcasting ability from
+              multiple classes (even variants of the same class)
+              stack. A character with levels of bard and levels of
+              <a style="color: #579EB6" href="#bardic-sage">
+              bardic sage</a> has two separate caster levels and
+              two separate sets of spells per day, even though the
+              classes are very similar.
+            </p>
+            <h5>
+              Simple Variants
+            </h5>These variants simply swap one or more of that
+            class's features for one or more class features of
+            another class. A class feature gained works just as it
+            did for its original class, including the level at
+            which it is gained and any other effects, except as
+            noted below.<br />
+
+            <h3>
+              <a id="barbarian"></a> BARBARIAN VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+              </tbody>
+
+            </table>
+            <h4>
+              <a id="totem-barbarian"></a><b>Totem Barbarian</b>
+            </h4><a href="http://www.wizards.com/dnd/images/UnA_Gallery/79146.jpg"><img class="art-wide" src="pict.jpg" alt="pict" style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+            In a <a style="color: #579EB6" href="barbarian.html">barbarian</a>-heavy
+            campaign, you can increase the variation between
+            barbarian characters if each barbarian tribe dedicates
+            itself to a different totem creature, such as the
+            <a style="color: #579EB6" href="#bear-totem">bear</a> or the <a style="color: #579EB6" href="#jaguar-totem">jaguar</a>.
+            The choice of a totem must be taken at 1st level, and
+            cannot be changed later except under extreme
+            circumstances (such as the barbarian being adopted by
+            another tribe).
+            <p>
+
+              If you use this variant, the barbarian loses one or
+              more of the following standard class features: fast
+              movement, uncanny dodge, trap sense, and improved
+              uncanny dodge. In place of these abilities, the
+              barbarian gains class features as determined by his
+              totem. All totems do not necessarily grant abilities
+              at the same levels, nor do they all grant the same
+              number of abilities. These class features are
+              extraordinary abilities unless otherwise indicated.
+            </p>
+            <p>
+              The list of totems discussed here is by no means
+              exhaustive. If you prefer to use other totems, you
+              can either substitute the totem name for that of a
+              similar creature (such as changing the <a style="color: #579EB6" href="#lion-totem">
+              Lion Totem</a> to the Tiger Totem) or create a new
+              set of totem abilities, using the information here as
+              a guide.
+            </p>
+            <h5>
+              <a id="ape-totem"></a> APE TOTEM CLASS FEATURES
+            </h5>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> dedicated
+            to the ape totem does not gain the standard fast
+            movement, uncanny dodge, trap sense, and improved
+            uncanny dodge barbarian class features, and instead
+            gains the following abilities.
+            <ul>
+
+              <li>At 1st level, an ape-totem barbarian gains a
+              climb speed equal to one-half his base land speed
+              (round down to the nearest 5-foot interval). For
+              instance, a human, elf, half-elf, or half-orc
+              ape-totem barbarian has a climb speed of 15 feet,
+              while a dwarf, gnome, or halfling ape-totem barbarian
+              has a climb speed of 10 feet.
+              </li>
+              <li>At 2nd level, an ape-totem barbarian gains a +2
+              bonus on <a style="color: #579EB6" href="skillsAll.html#intimidate">
+                Intimidate</a> checks.
+              </li>
+              <li>A 3rd level ape-totem barbarian gains <a style="color: #579EB6" href="featsAll.html#power-attack">
+                Power Attack</a> as a bonus feat.
+              </li>
+
+              <li>At 5th level, an ape-totem barbarian's climb
+              speed equals his base land speed.
+              </li>
+            </ul>
+            <h5>
+              <a id="bear-totem"></a> BEAR TOTEM CLASS FEATURES
+            </h5>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> dedicated
+            to the bear totem does not gain the standard fast
+            movement, uncanny dodge, trap sense, and improved
+            uncanny dodge barbarian class features, and instead
+            gains the following abilities.
+            <ul>
+              <li>A 1st-level bear-totem barbarian gains <a style="color: #579EB6" href="featsAll.html#toughness">
+
+                Toughness</a> as a bonus feat.
+              </li>
+              <li>At 2nd level, a bear-totem barbarian gains
+              <a style="color: #579EB6" href="featsAll.html#improved-grapple">Improved
+              Grapple</a> as a bonus feat, even if he doesn't meet
+              the normal prerequisites.
+              </li>
+              <li>A 3rd-level bear-totem barbarian gains <a style="color: #579EB6" href="featsAll.html#great-fortitude">
+                Great Fortitude</a> as a bonus feat.
+              </li>
+
+              <li>Beginning at 5th level, a bear-totem barbarian
+              gains a +4 bonus on <a style="color: #579EB6" href="specialAttacks.html#grapple">
+                grapple</a> checks when raging.
+              </li>
+            </ul>
+            <h5>
+              <a id="boar-totem"></a> BOAR TOTEM CLASS FEATURES
+            </h5>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> dedicated
+            to the boar totem does not gain the standard fast
+            movement, uncanny dodge, trap sense, and improved
+            uncanny dodge barbarian class features, and instead
+            gains the following abilities.
+            <ul>
+
+              <li>When raging, a 1st-level boar-totem barbarian is
+              treated as having the <a style="color: #579EB6" href="featsAll.html#diehard">
+                Diehard</a> feat, even if he doesn't meet the
+                normal prerequisites.
+              </li>
+              <li>At 3rd level and higher, a boar-totem barbarian's
+              rage lasts for 2 rounds longer than normal.
+              </li>
+              <li>Beginning at 7th level, a boar-totem barbarian's
+              <a style="color: #579EB6" href="monsterTypes.html#DR">damage reduction</a>
+              is 1 point higher than the normal value. Thus, at 7th
+              level, a boar-totem barbarian's damage reduction is
+              2/-, and it rises by 1 point every three levels
+              thereafter.
+              </li>
+
+            </ul>
+            <h5>
+              <a id="dragon-totem"></a> DRAGON TOTEM CLASS
+              FEATURES
+            </h5>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> dedicated
+            to the dragon totem does not gain the standard fast
+            movement, uncanny dodge, trap sense, and improved
+            uncanny dodge barbarian class features, and instead
+            gains the following abilities.
+            <ul>
+              <li>A 1st-level dragon-totem barbarian gains
+                <a style="color: #579EB6" href="featsAll.html#blind-fight">Blind-Fight</a>
+                as a bonus feat.
+              </li>
+
+              <li>At 2nd level, a dragon-totem barbarian gains a +2
+              bonus on saves against <a style="color: #579EB6" href="abilitiesAndConditions.html#paralyzed">
+                paralysis</a> and sleep effects.
+              </li>
+              <li>At 5th level, a dragon-totem barbarian gains the
+              <a style="color: #579EB6" href="monsterTypes.html#frightful-presence">
+                frightful presence</a> ability. The save DC is
+                equal to 10 + 1/2 barbarian level + barbarian's Cha
+                modifier.
+              </li>
+            </ul>
+
+            <h5>
+              <a id="eagle-totem"></a> EAGLE TOTEM CLASS FEATURES
+            </h5>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> dedicated
+            to the eagle totem does not gain the standard fast
+            movement and trap sense barbarian class features, and
+            instead gains the following abilities.
+            <ul>
+              <li>At 1st level, an eagle-totem barbarian's keen
+              vision grants him a +2 bonus on <a style="color: #579EB6" href="skillsAll.html#spot">
+                Spot</a> checks.
+              </li>
+
+              <li>An eagle-totem barbarian gains <a style="color: #579EB6" href="featsAll.html#lightning-reflexes">
+                Lightning Reflexes</a> as a bonus feat at 3rd
+                level.
+              </li>
+            </ul>
+            <h5>
+              <a id="horse-totem"></a> HORSE TOTEM CLASS FEATURES
+            </h5>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> dedicated
+            to the horse totem does not gain the standard uncanny
+            dodge, trap sense, and improved uncanny dodge barbarian
+            class features, and instead gains the following
+            abilities.
+            <ul>
+
+              <li>At 2nd level, a horse-totem barbarian gains
+              <a style="color: #579EB6" href="featsAll.html#run">Run</a> as a bonus feat.
+              </li>
+              <li>A 3rd-level horse-totem barbarian gains a +2
+              bonus on <a style="color: #579EB6" href="skillsAll.html#handle-animal">
+                Handle Animal</a> checks made with regard to horses
+                and a +2 bonus on <a style="color: #579EB6" href="
+                skillsAll.html#ride">Ride</a> checks made to ride
+                a horse.
+              </li>
+
+              <li>At 5th level, a horse-totem barbarian gains
+              <a style="color: #579EB6" href="featsAll.html#endurance">Endurance</a> as a
+              bonus feat.
+              </li>
+            </ul>
+            <h5>
+              <a id="jaguar-totem"></a> JAGUAR TOTEM CLASS
+              FEATURES
+            </h5>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> dedicated
+            to the jaguar totem represents the "standard" barbarian
+            and gains the standard barbarian class features.
+            <h5>
+
+              <a id="lion-totem"></a> LION TOTEM CLASS FEATURES
+            </h5>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> dedicated
+            to the lion totem does not gain the standard fast
+            movement, uncanny dodge, and improved uncanny dodge
+            barbarian class features, and instead gains the
+            following abilities.
+            <ul>
+              <li>At 1st level, a lion-totem barbarian gains
+              <a style="color: #579EB6" href="featsAll.html#run">Run</a> as a bonus feat.
+              </li>
+              <li>A 2nd-level lion-totem barbarian gains a +2 bonus
+              on <a style="color: #579EB6" href="skillsAll.html#hide">Hide</a> checks.
+              </li>
+
+              <li>A 5th-level lion-totem barbarian gains a +2 bonus
+              on damage rolls whenever he <a style="color: #579EB6" href="specialAttacks.html#charge">
+                charges</a>.
+              </li>
+            </ul>
+            <h5>
+              <a id="serpent-totem"></a> SERPENT TOTEM CLASS
+              FEATURES
+            </h5>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> dedicated
+            to the serpent totem does not gain the standard fast
+            movement, uncanny dodge, trap sense, and improved
+            uncanny dodge barbarian class features, and instead
+            gains the following abilities.
+            <ul>
+
+              <li>At 1st level, a serpent-totem barbarian gains a
+              +2 bonus on Fortitude saves against <a style="color: #579EB6" href="abilitiesAndConditions.html#poison">
+                poison</a>.
+              </li>
+              <li>A 2nd-level serpent-totem barbarian gains a +2
+              bonus on <a style="color: #579EB6" href="skillsAll.html#move-silently">Move
+              Silently</a> checks.
+              </li>
+              <li>At 3rd level, a serpent-totem barbarian gains
+              <a style="color: #579EB6" href="featsAll.html#improved-grapple">Improved
+              Grapple</a> as a bonus feat, even if he doesn't meet
+              the normal prerequisites.
+              </li>
+
+              <li>A serpent-totem barbarian gains <a style="color: #579EB6" href="featsAll.html#improved-initiative">
+                Improved Initiative</a> as a bonus feat at 5th
+                level.
+              </li>
+            </ul>
+            <h5>
+              <a id="wolf-totem"></a> WOLF TOTEM CLASS FEATURES
+            </h5>A barbarian dedicated to the wolf totem does not
+            gain the standard uncanny dodge, trap sense, and
+            improved uncanny dodge barbarian class features, and
+            instead gains the following abilities.
+            <ul>
+
+              <li>A 2nd-level wolf-totem barbarian gains <a style="color: #579EB6" href="featsAll.html#improved-trip">
+                Improved Trip</a> as a bonus feat, even if he
+                doesn't meet the normal prerequisites.
+              </li>
+              <li>A 5th-level wolf-totem barbarian gains <a style="color: #579EB6" href="featsAll.html#track">
+                Track</a> as a bonus feat.
+              </li>
+            </ul>
+
+            <h4>
+              <a id="simple-barbarian"></a>Simple Variant
+            </h4>A <a style="color: #579EB6" href="barbarian.html">barbarian</a> who
+            prefers crafty hunting over pure ferocity might choose
+            to exchange his rage ability for certain <a style="color: #579EB6" href="ranger.html">ranger</a>
+            class features.
+            <h6>
+              Gain
+            </h6>Favored enemy (as <a style="color: #579EB6" href="ranger.html">ranger</a>);
+            archery combat style, improved archery combat style,
+            and archery combat style mastery (as <a style="color: #579EB6" href="
+            ranger.html">ranger</a>).
+            <h6>
+
+              Lose
+            </h6>Rage, greater rage, indomitable will, tireless
+            rage, mighty rage.
+            <h3>
+              <a id="bard"></a> BARD VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+
+              </tbody>
+            </table>
+            <h4>
+              <a id="bardic-sage"></a> Bard Variant: Bardic Sage
+            </h4>The bardic sage focuses his efforts on learning,
+            research, and the power of knowledge.
+            <h6>
+              Alignment
+            </h6>The bardic sage must be neutral good, neutral, or
+            neutral evil. The true pursuit of knowledge cares
+            little for ethical extremes. A bardic sage who becomes
+            chaotic or lawful cannot progress in levels as a bardic
+            sage, though he retains all his bardic sage abilities.
+            <h6>
+              Base Save Bonuses
+            </h6>The bardic sage has good will saves, but has poor
+            Fortitude and Reflex saves.
+            <h5>
+
+              CLASS FEATURES
+            </h5>The bardic sage has all the standard <a style="color: #579EB6" href="bard.html">bard</a>
+            class features, except as noted below.
+            <h6>
+              Spellcasting
+            </h6>A bardic sage learns and casts spells as a normal
+            <a style="color: #579EB6" href="bard.html">bard</a>, with a few exceptions. In
+            addition to the normal number of spells known, a bardic
+            sage knows one divination spell of each spell level he
+            is capable of casting. For example, a 1st-level bardic
+            sage knows four 0-level bard spells plus one 0-level
+            bard spell of the divination school (such as <a style="color: #579EB6" href="spellsDtoE.html#detect-magic">
+            detect magic</a>, <a style="color: #579EB6" href="
+            spellsHtoL.html#know-direction">know direction</a>, or
+            <a style="color: #579EB6" href="spellsPtoR.html#read-magic">
+
+            read magic</a>). The bardic sage's number of spells per
+            day does not change.
+            <p>
+              To learn or cast a spell, a bardic sage must have an
+              intelligence score (not Charisma score) equal to at
+              least 10 + the spell level. All other spellcasting
+              factors, including bonus spells and save DCs, are
+              still determined using the bardic sage's Charisma
+              score. Add the following spells to the bardic sage's
+              class spell list:&nbsp;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsDtoE.html#detect-chaos">detect
+              chaos</a>/<a style="color: #579EB6" href="spellsDtoE.html#detect-evil">evil</a>/<a style="color: #579EB6" href="spellsDtoE.html#detect-good">good</a>/<a style="color: #579EB6" href="spellsDtoE.html#detect-law">law</a>;&nbsp;
+
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsTtoZ.html#zone-of-truth">zone of
+              truth</a>;&nbsp;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsAtoB.html#arcane-sight">arcane
+              sight</a>;&nbsp;
+
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsAtoB.html#analyze-dweomer">
+              analyze dweomer</a> (lowered from 6th), <a style="color: #579EB6" href="spellsS.html#sending">
+              sending</a>;&nbsp;
+            </p>
+
+            <p>
+              5th - <a style="color: #579EB6" href="spellsC.html#contact-other-plane">
+              contact other plane</a>, <a style="color: #579EB6" href="spellsS.html#greater-scrying">
+              greater scrying</a> (lowered from 6th);&nbsp;
+            </p>
+            <p>
+
+              6th - <a style="color: #579EB6" href="spellsTtoZ.html#true-seeing">true
+              seeing</a>, <a style="color: #579EB6" href="spellsTtoZ.html#vision">
+              vision</a>.
+            </p>
+            <h6>
+              Bardic Knowledge
+            </h6>A bardic sage gains a +2 bonus on all <a style="color: #579EB6" href="bard.html">bardic
+            knowledge</a> checks.
+            <h6>
+
+              Bardic Music
+            </h6>A bardic sage's powers of inspiration are not as
+            persistent as those of a traditional <a style="color: #579EB6" href="bard.html">bard</a>.
+            His ability to inspire courage, inspire greatness, or
+            inspire heroics lasts only 3 rounds after the ally can
+            no longer hear the bardic sage sing, rather than the
+            normal 5 rounds.
+            <h4>
+              <a id="divine-bard"></a> Divine Bard
+            </h4>Not all <a style="color: #579EB6" href="bard.html">bards</a> are
+            arcanists; some derive their special powers from a
+            divine tradition. In many primitive cultures, the
+            divine bard takes the place of the <a style="color: #579EB6" href="cleric.html">cleric</a>
+            or the <a style="color: #579EB6" href="npcClasses.html#adept">
+
+            adept</a> as the guide of the people's religious
+            beliefs.
+            <h5>
+              CLASS FEATURES
+            </h5>The divine bard has all the standard <a style="color: #579EB6" href="bard.html">bard</a>
+            class features, except as noted below.
+            <h6>
+              Spellcasting
+            </h6>A divine bard learns and casts spells as a normal
+            <a style="color: #579EB6" href="bard.html">bard</a>, with some minor
+            exceptions. A divine bard's spells are divine spells,
+            not arcane spells.
+            <p>
+
+              To learn or cast a spell, a divine bard must have a
+              Wisdom score (not Charisma score) equal to at least
+              10 + the spell level. All other Spellcasting factors,
+              including bonus spells and save DCs, are still
+              determined using the divine bard's Charisma score.
+            </p>
+            <p>
+              Like druids, paladins, and rangers, divine bards need
+              not designate a specific deity as the source of their
+              spells. However, a divine bard can't cast spells of
+              an alignment that doesn't match his. Thus, divine
+              bards cannot cast lawful spells (since bards can't be
+              lawful). Neutral divine bards can't cast any spells
+              associated with an alignment (and are thus relatively
+              rare).
+            </p>
+            <p>
+              Add the following spells to the divine bard's class
+              spell list:&nbsp;
+            </p>
+            <p>
+
+              0 - <a style="color: #579EB6" href="spellsC.html#create-water">create
+              water</a>, <a style="color: #579EB6" href="spellsC.html#cure-minor-wounds">
+              cure minor wounds</a>;&nbsp;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsDtoE.html#detect-evil">detect
+              evil</a>/<a style="color: #579EB6" href="spellsDtoE.html#detect-good">good</a>/l<a style="color: #579EB6" href="spellsDtoE.html#detect-law">aw</a>,
+              <a style="color: #579EB6" href="spellsPtoR.html#protection-from-evil">
+
+              protection from evil</a>/<a style="color: #579EB6" href="spellsPtoR.html#protection-from-good">good</a>/<a style="color: #579EB6" href="spellsPtoR.html#protection-from-law">law</a>;&nbsp;
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsC.html#consecrate">
+              consecrate</a>, <a style="color: #579EB6" href="spellsDtoE.html#desecrate">
+
+              desecrate</a>, <a style="color: #579EB6" href="spellsFtoG.html#gentle-repose">
+              gentle repose</a>;&nbsp;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsMtoO.html#magic-circle-against-evil">
+              magic circle against evil</a>/<a style="color: #579EB6" href="spellsMtoO.html#magic-circle-against-good">good</a>/<a style="color: #579EB6" href="spellsMtoO.html#magic-circle-against-law">law</a>,
+              <a style="color: #579EB6" href="spellsPtoR.html#prayer">prayer</a>;&nbsp;
+
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsPtoR.html#remove-disease">remove
+              disease</a>, <a style="color: #579EB6" href="spellsS.html#speak-with-dead">
+              speak with dead</a>, <a style="color: #579EB6" href="
+              spellsS.html#sending">sending</a>;&nbsp;
+            </p>
+
+            <p>
+              5th - <a style="color: #579EB6" href="spellsDtoE.html#divination">
+              divination</a>, <a style="color: #579EB6" href="spellsPtoR.html#restoration">
+              restoration</a>;&nbsp;
+            </p>
+            <p>
+
+              6th - <a style="color: #579EB6" href="spellsC.html#commune">commune</a>,
+              <a style="color: #579EB6" href="spellsHtoL.html#hallow">hallow</a>, <a style="color: #579EB6" href="
+              spellsTtoZ.html#unhallow">
+              unhallow</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#raise-dead">
+              raise dead</a>.
+            </p>
+            <h4>
+
+              <a id="savage-bard"></a> Savage Bard
+            </h4><a href="http://www.wizards.com/dnd/images/UnA_Gallery/79147.jpg"><img class="art-wide" src="pict.jpg" alt="pict" style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+            The savage bard is a warrior at heart, though his
+            arcane powers strike fear into the enemies of his
+            tribe. Savage bards often multi-class as <a style="color: #579EB6" href="
+            barbarian.html">barbarians</a>
+            to improve their combat prowess.
+            <h6>
+              Alignment
+            </h6>A savage bard must be chaotic in alignment. A
+            savage bard who becomes nonchaotic cannot progress in
+            levels as a bard, though he retains all his bard
+            abilities.
+            <h6>
+              Base Save Bonuses
+            </h6>A savage bard has good Fortitude and Will saves,
+            but has poor Reflex saves.
+            <h6>
+
+              Class Skills
+            </h6>A savage bard loses <a style="color: #579EB6" href="
+            skillsAll.html#decipher-script">
+            Decipher Script</a> and <a style="color: #579EB6" href="
+            skillsAll.html#speak-language">Speak Language</a> as
+            class skills. He adds <a style="color: #579EB6" href="
+            skillsAll.html#survival">
+            Survival</a> to his list of class skills.
+            <h5>
+
+              CLASS FEATURES
+            </h5>The savage bard has all the standard <a style="color: #579EB6" href="bard.html">bard</a>
+            class features, except as noted below.
+            <h6>
+              Illiteracy
+            </h6>A savage bard is illiterate, just as a <a style="color: #579EB6" href="
+            barbarian.html">barbarian</a>
+            is. An illiterate savage bard cannot use or scribe
+            scrolls.
+            <h6>
+              Spellcasting
+            </h6>Remove the following spells from the savage bard's
+            class spell list: <a style="color: #579EB6" href="
+            spellsC.html#calm-emotions">
+
+            calm emotions</a>, <a style="color: #579EB6" href="
+            spellsC.html#comprehend-languages">comprehend
+            languages</a>, <a style="color: #579EB6" href="spellsDtoE.html#detect-secret-doors">
+            detect secret doors</a>, <a style="color: #579EB6" href="spellsDtoE.html#erase">erase</a>, <a style="color: #579EB6" href="
+            spellsPtoR.html#prestidigation">
+            prestidigitation</a>, <a style="color: #579EB6" href="
+            spellsPtoR.html#read-magic">read magic</a>, <a style="color: #579EB6" href="
+            spellsS.html#sepia-snake-sigil">sepia snake sigil</a>,
+            <a style="color: #579EB6" href="
+            spellsS.html#summon-monster-i">
+
+            summon monster</a> (I through VI).
+            <p>
+              Add the following spells to the savage bard's class
+              spell list:&nbsp;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsC.html#calm-animals">calm
+              animals</a>, <a style="color: #579EB6" href="spellsDtoE.html#detect-snares-and-pits">
+
+              detect snares and pits</a>, <a style="color: #579EB6" href="spellsDtoE.html#endure-elements">
+              endure elements</a>, <a style="color: #579EB6" href="
+              spellsS.html#summon-natures-ally-i">
+              summon nature's ally I</a>;&nbsp;
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsAtoB.html#bulls-strength">bull's
+              strength</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#pass-without-trace">
+
+              pass without trace</a>, <a style="color: #579EB6" href="
+              spellsS.html#summon-natures-ally-ii">
+              summon nature's ally II</a>;&nbsp;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsS.html#snare">snare</a>,
+              <a style="color: #579EB6" href="spellsS.html#summon-natures-ally-iii">summon
+              nature's ally III</a>;&nbsp;
+
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsHtoL.html#insect-plague">insect
+              plague</a>, <a style="color: #579EB6" href="
+              spellsS.html#summon-natures-ally-iv">
+              summon nature's ally IV</a>;&nbsp;
+            </p>
+            <p>
+
+              5th - <a style="color: #579EB6" href="
+              spellsC.html#commune-with-nature">
+              commune with nature</a>, <a style="color: #579EB6" href="
+              spellsS.html#summon-natures-ally-v">
+              summon nature's ally V</a>;&nbsp;
+            </p>
+            <p>
+              6th - <a style="color: #579EB6" href="spellsC.html#creeping-doom">creeping
+              doom</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#reincarnate">
+
+              reincarnate</a>, <a style="color: #579EB6" href="
+              spellsS.html#summon-natures-ally-vi">summon nature's
+              ally VI</a>.
+            </p>
+            <h4>
+              <a id="simple-bard"></a> Simple Variant
+            </h4>A rare <a style="color: #579EB6" href="bard.html">bard</a> might display
+            a special link to nature and the mysterious world of
+            the fey. Such characters tend to be more aloof and less
+            inspiring than standard bards.
+            <h6>
+              Gain
+            </h6>Animal companion (as <a style="color: #579EB6" href="
+            druid.html">druid</a>),
+            nature sense (as <a style="color: #579EB6" href="
+            druid.html">druid</a>),
+            resist nature's lure (as <a style="color: #579EB6" href="
+            druid.html">druid</a>), wild empathy (as <a style="color: #579EB6" href="
+            druid.html">druid</a>).
+            <h6>
+
+              Lose
+            </h6>Bardic knowledge, inspire courage, inspire
+            competence, inspire greatness, inspire heroics.
+            <h3>
+              <a id="cleric"></a> CLERIC VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+
+              </tbody>
+            </table>
+            <h4>
+              <a id="cloistered-cleric"></a> Cloistered Cleric
+            </h4>The cloistered cleric spends more time than other
+            clerics in study and prayer and less in martial
+            training. He gives up some of the cleric's combat
+            prowess in exchange for greater skill access and a
+            wider range of spells devoted to knowledge (and the
+            protection of knowledge).
+            <p>
+              Most cloistered clerics are nonchaotic, since they
+              believe that a disciplined lifestyle lends itself
+              better to learning.
+            </p>
+            <h6>
+              Hit Die
+            </h6>The cloistered cleric uses a d6 for his Hit Die
+            (and has hit points at 1st level equal to 6 + Con
+            modifier).
+            <h6>
+
+              Base Attack Bonus
+            </h6>The cloistered cleric's lack of martial training
+            means that he uses the poor base attack bonus.
+            <h6>
+              Class Skills
+            </h6>The cloistered cleric's class skill list includes
+            <a style="color: #579EB6" href="skillsAll.html#decipher-script">Decipher
+            Script</a>, <a style="color: #579EB6" href="
+            skillsAll.html#speak-language">
+            Speak Language</a>, and all <a style="color: #579EB6" href="
+            skillsAll.html#knowledge">Knowledge</a> skills (from
+            the <a style="color: #579EB6" href="
+            clericDomains.html#knowledge">
+
+            Knowledge domain</a>, see below). The cloistered cleric
+            gains skill points per level equal to 6 + Int modifier
+            (and has this number x4 at 1st level).
+            <h5>
+              CLASS FEATURES
+            </h5>The cloistered cleric has all the standard
+            <a style="color: #579EB6" href="cleric.html">cleric</a> class features, except
+            as noted below.
+            <h6>
+              Weapon and Armor Proficiency
+            </h6>Cloistered clerics are proficient with <a style="color: #579EB6" href="
+            featsAll.html#simple-weapon-proficiency">
+            simple weapons</a> and with <a style="color: #579EB6" href="
+            featsAll.html#armor-proficiency-light">
+
+            light armor</a>.
+            <h6>
+              Lore (Ex)
+            </h6>Thanks to long hours of study, a cloistered cleric
+            has a wide range of stray knowledge. This ability is
+            identical to the <a style="color: #579EB6" href="bard.html">bard's</a> bardic
+            knowledge class feature, using the cloistered cleric's
+            class level in place of the bard level.
+            <h6>
+              Deity, Domains, and Domain Spells
+            </h6>Most cloistered clerics worship deities associated
+            with knowledge and learning.
+            <p>
+              In addition to any domains selected from his deity's
+              list, a cloistered cleric automatically gains the
+              <a style="color: #579EB6" href="clericDomains.html#knowledge">Knowledge
+              domain</a> as a bonus domain (even if the Knowledge
+              domain is not normally available to clerics of that
+              deity). He gains the Knowledge domain granted power
+              and may select his bonus domain spell from the
+              Knowledge domain or from one of his two regular
+              domains.
+            </p>
+
+            <h6>
+              Spellcasting
+            </h6>Add the following spells to the cloistered
+            cleric's class spell list:<br />
+            <p>
+              0 - <a style="color: #579EB6" href="spellsMtoO.html#message">message</a>;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsDtoE.html#erase">erase</a>,
+              <a style="color: #579EB6" href="spellsHtoL.html#identify">identify</a>,
+              <a style="color: #579EB6" href="spellsTtoZ.html#unseen-servant">unseen
+              servant</a>;
+            </p>
+
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsFtoG.html#foxs-cunning">fox's
+              cunning</a>;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="
+              spellsHtoL.html#illusory-script">
+              illusory script</a>, <a style="color: #579EB6" href="
+              spellsS.html#secret-page">secret page</a>, <a style="color: #579EB6" href="
+              spellsTtoZ.html#tongues">
+
+              tongues</a> (reduced from 4th level);
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsDtoE.html#detect-scrying">detect
+              scrying</a>;
+            </p>
+            <p>
+              6th - <a style="color: #579EB6" href="
+              spellsAtoB.html#analyze-dweomer">
+
+              analyze dweomer</a>;
+            </p>
+            <p>
+              7th - <a style="color: #579EB6" href="spellsS.html#sequester">sequester</a>;
+            </p>
+            <p>
+              9th - <a style="color: #579EB6" href="spellsTtoZ.html#vision">vision</a>.
+            </p>
+
+            <h4>
+              <a id="simple-cleric"></a> Simple Variant
+            </h4>Some <a style="color: #579EB6" href="cleric.html">clerics</a> prefer to
+            be champions of good (or evil), standing at the
+            forefront of the battle against the enemy.
+            <h6>
+              Gain
+            </h6>Smite evil, if the cleric would normally channel
+            positive energy, or smite good, if the cleric would
+            normally channel negative energy (as <a style="color: #579EB6" href="
+            paladin.html">paladin</a>);
+            aura of courage (as <a style="color: #579EB6" href="
+            paladin.html">paladin</a>).
+            <h6>
+
+              Lose
+            </h6>Turn undead.
+            <h3>
+              <a id="druid"></a> DRUID VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+
+              </tbody>
+            </table>
+            <h4>
+              <a id="druidic-avenger"></a><a href="http://www.wizards.com/dnd/images/UnA_Gallery/79152.jpg"><img class="art-wide" src="pict.jpg" alt="pict" style="border: 0px solid ; width: 73px; height: 75px;" /></a>Druidic Avenger
+            </h4>The druidic avenger channels her inner fury to
+            wreak vengeance upon those who injure the natural
+            world. This comes at a price, however, since the
+            avenger must give up some of her own sensitivity to
+            nature.
+            <h6>
+              Class Skills
+            </h6>Add <a style="color: #579EB6" href="
+            skillsAll.html#intimidate">
+            Intimidate</a> to the avenger's list of class skills.
+            Eliminate <a style="color: #579EB6" href="
+            skillsAll.html#diplomacy">
+
+            Diplomacy</a> from the avenger's list of class skills.
+            <h5>
+              CLASS FEATURES
+            </h5>The druidic avenger has all the standard <a style="color: #579EB6" href="
+            druid.html">druid</a>
+            class features, except as noted below.
+            <h6>
+              Animal Companion
+            </h6>An avenger does not gain the service of an animal
+            companion.
+            <h6>
+
+              Fast Movement (Ex)
+            </h6>A druidic avenger's base land speed is faster than
+            the norm for her race by 10 feet. This ability is
+            identical to the <a style="color: #579EB6" href="barbarian.html">barbarian</a>
+            ability of the same name.
+            <h6>
+              Rage (Ex)
+            </h6>An avenger can enter a furious rage, identical to
+            that of a <a style="color: #579EB6" href="barbarian.html">barbarian</a>. An
+            avenger can use this ability once per day at 1st level,
+            and one additional time per day for every five levels
+            above 1st.
+            <p>
+              An avenger does not gain the greater rage,
+              indomitable will, or mighty rage abilities.
+            </p>
+
+            <h6>
+              Spontaneous Casting
+            </h6>An avenger cannot channel stored spell energy into
+            <a style="color: #579EB6" href="
+            spellsS.html#summon-natures-ally-i">
+            summoning</a> spells.
+            <h6>
+              Tireless Rage (Ex)
+            </h6>At 17th level and higher, an avenger no longer
+            becomes <a style="color: #579EB6" href="
+            abilitiesAndConditions.html#fatigued">
+            fatigued</a> at the end of her rage.
+            <h6>
+
+              Wild Empathy
+            </h6>A druidic avenger takes a -4 penalty on wild
+            empathy checks.
+            <h4>
+              <a id="simple-druid"></a> Simple Variant
+            </h4>The druid might choose to give up her wild shape
+            ability in exchange for becoming a swift and deadly
+            hunter.
+            <h6>
+              Gain
+            </h6>Bonus to Armor Class when unarmored (as <a style="color: #579EB6" href="
+            monk.html">monk</a>,
+            including Wisdom bonus to AC), fast movement (as
+            <a style="color: #579EB6" href="monk.html">monk</a>), favored enemy (as
+            <a style="color: #579EB6" href="ranger.html">ranger</a>), swift tracker (as
+            <a style="color: #579EB6" href="ranger.html">ranger</a>), <a style="color: #579EB6" href="
+            featsAll.html#track">Track</a> feat (as <a style="color: #579EB6" href="
+            ranger.html">ranger</a>).
+            <h6>
+
+              Lose
+            </h6>Armor and shield proficiency, wild shape (all
+            versions).
+            <h3>
+              <a id="fighter"></a> FIGHTER VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+
+              </tbody>
+            </table>
+            <h4>
+              <a id="thug"></a> Thug
+            </h4>The thug is a street fighter, a survivor who
+            learns to mix brute force with a bit of craftiness. He
+            has most of the fighter's strengths, along with some
+            additional skills to help keep him alive on the mean
+            streets. Despite the name, not all thugs are mere
+            hooligans - many are crafty veterans who use their
+            knowledge of the streets to gain an advantage against
+            their opponents.
+            <p>
+              Most thugs are nonlawful, though sometimes gangs of
+              thugs with a lawful streak band together.
+            </p>
+            <h6>
+              Class Skills
+            </h6>Add the following skills to the fighter's class
+            skill list: <a style="color: #579EB6" href="skillsAll.html#bluff">Bluff</a>,
+            <a style="color: #579EB6" href="skillsAll.html#gather-information">Gather
+            Information</a>, <a style="color: #579EB6" href="
+            skillsAll.html#knowledge">
+
+            Knowledge</a> (local), and <a style="color: #579EB6" href="
+            skillsAll.html#sleight-of-hand">Sleight of Hand</a>.
+            The thug gains skill points per level equal to 4 + Int
+            modifier (and has this number x4 at 1st level).
+            <h5>
+              CLASS FEATURES
+            </h5>The thug has all the standard <a style="color: #579EB6" href="
+            fighter.html">fighter</a>
+            class features, except as noted below.
+            <h6>
+              Weapon and Armor Proficiency
+            </h6>Thugs are proficient with all <a style="color: #579EB6" href="
+            featsAll.html#simple-weapon-proficiency">
+
+            simple</a> and <a style="color: #579EB6" href="
+            featsAll.html#martial-weapon-proficiency">
+            martial weapons</a> and with <a style="color: #579EB6" href="
+            featsAll.html#armor-proficiency-light">
+            light armor</a>.
+            <h6>
+              Bonus Feats
+            </h6>A thug doesn't gain the normal fighter bonus feat
+            at 1st level. Also, add <a style="color: #579EB6" href="#urban-tracking">Urban
+            Tracking</a> to the list of fighter bonus feats
+            available to the thug.
+            <h4>
+
+              <a id="simple-fighter"></a> Simple Variant
+            </h4>Some <a style="color: #579EB6" href="fighter.html">fighters</a> prefer
+            stealth and cunning over martial skill. This variant
+            can also be combined with the thug variant described
+            earlier in this chapter.
+            <h6>
+              Gain
+            </h6>Sneak attack (as <a style="color: #579EB6" href="rogue.html">rogue</a>).
+            <h6>
+              Lose
+            </h6>Bonus feats.
+            <h3>
+
+              <a id="monk"></a> MONK VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h4>
+              <a id="fighting-styles"></a>Fighting Styles
+            </h4>In literature and lore, the combat styles and
+            aptitudes of a <a style="color: #579EB6" href="monk.html">monk</a> depend
+            greatly on where (or by whom) she was trained. The
+            standard monk, however, presents only a relatively
+            limited variety of options to personalize your monk.
+            <p>
+              A 1st-level monk (regardless of character level) may
+              select one of the fighting styles described below. By
+              selecting one of these fighting styles, she dictates
+              which bonus feats she gains at 1st, 2nd, and 6th
+              level (when a standard monk normally gains one of two
+              bonus feats). In addition, at 1st level she gets a +2
+              bonus on checks involving a skill of her selection
+              (in exchange for the freedom of choice she gives up
+              by preselecting her bonus feats). Finally, she gains
+              a bonus ability at 6th level if she has met the
+              listed prerequisites by that time. If the character
+              hasn't yet met the prerequisites, she doesn't gain
+              the bonus ability, even if she meets the
+              prerequisites at some later time.
+            </p>
+            <p>
+              These fighting styles serve a variety of purposes in
+              a campaign. Each one might symbolize a different
+              monastery, creating a rivalry (friendly or
+              unfriendly) between their students. Perhaps a
+              specific master teaches each style only to a few
+              select students, meaning that a monk must prove
+              herself worthy before pursuing the training. Or maybe
+              each monk simply chooses her own way in life, styling
+              herself after great martial artists of the past.
+            </p>
+
+            <p>
+              A monk can abandon her fighting style by selecting a
+              different bonus feat at 2nd or 6th level; however, if
+              she does so, she loses the bonus on skill checks
+              gained at 1st level and never gains the bonus ability
+              of the fighting style (even if she meets the
+              prerequisites).
+            </p>
+            <h5>
+              <a id="cobra-strike"></a> COBRA STRIKE
+            </h5>Monks of the Cobra Strike School specialize in
+            agility and defense. By making herself hard to pin
+            down, the Cobra Strike monk forces the enemy to fight
+            on her terms.
+            <table cellpadding="1" cellspacing="0" style="width: 100%">
+              <tbody>
+                <tr>
+                  <th style="width: 25%">
+
+                    1st-Level Skill Bonus:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#escape-artist">Escape
+                    Artist</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+
+                    1st-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#dodge">Dodge</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    2nd-Level Feat:
+                  </th>
+
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#mobility">Mobility</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Feat:
+                  </th>
+                  <td>
+
+                    <a style="color: #579EB6" href="featsAll.html#spring-attack">Spring
+                    Attack</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Bonus Ability:
+                  </th>
+                  <td>
+                    The dodge bonus to Armor Class granted by your
+                    <a style="color: #579EB6" href="featsAll.html#dodge">Dodge</a> feat
+                    increases to +2.
+                  </td>
+
+                </tr>
+                <tr>
+                  <th>
+                    Prerequisites:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#balance">Balance</a> 4
+                    ranks, <a style="color: #579EB6" href="
+                    skillsAll.html#escape-artist">
+                    Escape Artist</a> 9 ranks.
+                  </td>
+
+                </tr>
+              </tbody>
+            </table>
+            <h5>
+              <a id="denying-stance"></a> DENYING STANCE
+            </h5>The Denying Stance monk seeks to neutralize the
+            opponent's maneuvers, thwarting him at every turn until
+            he becomes so frustrated that he makes a crucial error.
+            <table cellpadding="1" cellspacing="0" style="width: 100%">
+              <tbody>
+                <tr>
+
+                  <th style="width: 25%">
+                    1st-Level Skill Bonus:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#tumble">Tumble</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+
+                    1st-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="
+                    featsAll.html#improved-grapple">
+                    Improved Grapple</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+
+                    2nd-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#combat-reflexes">Combat
+                    Reflexes</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Feat:
+                  </th>
+
+                  <td>
+                    <a style="color: #579EB6" href="
+                    featsAll.html#improved-disarm">
+                    Improved Disarm</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Bonus Ability:
+                  </th>
+
+                  <td>
+                    When fighting defensively or using the <a style="color: #579EB6" href="
+                    featsAll.html#combat-expertise">
+                    Combat Expertise</a> feat, you gain a +2 bonus
+                    on <a style="color: #579EB6" href="
+                    specialAttacks.html#grapple">
+                    grapple</a> checks and <a style="color: #579EB6" href="
+                    specialAttacks.html#disarm">
+                    disarm</a> attempts.
+                  </td>
+
+                </tr>
+                <tr>
+                  <th>
+                    Prerequisites:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#tumble">Tumble</a> 9
+                    ranks, <a style="color: #579EB6" href="
+                    featsAll.html#combat-expertise">
+                    Combat Expertise</a>.
+                  </td>
+
+                </tr>
+              </tbody>
+            </table>
+            <h5>
+              <a id="hand-and-foot"></a> HAND AND FOOT
+            </h5>Students of the Hand and Foot style learn to use
+            their appendages for both offense and defense.
+            <table cellpadding="1" cellspacing="0" style="width: 100%">
+              <tbody>
+                <tr>
+
+                  <th style="width: 25%">
+                    1st-Level Skill Bonus:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#balance">Balance</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+
+                    1st-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#stunning-fist">Stunning
+                    Fist</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    2nd-Level Feat:
+                  </th>
+
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#deflect-arrows">Deflect
+                    Arrows</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Feat:
+                  </th>
+                  <td>
+
+                    <a style="color: #579EB6" href="featsAll.html#improved-trip">Improved
+                    Trip</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Bonus Ability:
+                  </th>
+                  <td>
+                    You gain a +2 bonus on attacks of opportunity
+                    made against an opponent attempting to <a style="color: #579EB6" href="
+                    specialAttacks.html#bull-rush">
+
+                    bull rush</a> or <a style="color: #579EB6" href="
+                    specialAttacks.html#trip">trip</a> you, and a
+                    +4 bonus on Dexterity or Strength checks to
+                    avoid being tripped or bull rushed.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Prerequisites:
+                  </th>
+
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#balance">Balance</a> 9
+                    ranks, <a style="color: #579EB6" href="
+                    skillsAll.html#tumble">
+                    Tumble</a> 4 ranks.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h5>
+              <a id="invisible-eye"></a> INVISIBLE EYE
+            </h5>Monks of the Invisible Eye rely on their senses,
+            particularly hearing, to aid them in combat.
+            <table cellpadding="1" cellspacing="0" style="width: 100%">
+              <tbody>
+                <tr>
+                  <th style="width: 25%">
+                    1st-Level Skill Bonus:
+                  </th>
+                  <td>
+
+                    <a style="color: #579EB6" href="skillsAll.html#listen">Listen</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    1st-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#combat-reflexes">Combat
+                    Reflexes</a>.
+                  </td>
+
+                </tr>
+                <tr>
+                  <th>
+                    2nd-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="
+                    featsAll.html#lightning-reflexes">
+                    Lightning Reflexes</a>.
+                  </td>
+
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="
+                    featsAll.html#blind-fight">
+                    Blind-Fight</a>.
+                  </td>
+
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Bonus Ability:
+                  </th>
+                  <td>
+                    When unarmed and fighting defensively, using
+                    <a style="color: #579EB6" href="featsAll.html#combat-expertise">Combat
+                    Expertise</a>, or using the total defense
+                    action, increase the dodge bonus to Armor Class
+                    that you gain from using that tactic by 1.
+                  </td>
+                </tr>
+
+                <tr>
+                  <th>
+                    Prerequisites:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#listen">Listen</a> 9
+                    ranks, <a style="color: #579EB6" href="featsAll.html#agile">Agile</a>.
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+            <h5>
+              <a id="overwhelming-attack"></a> OVERWHELMING
+              ATTACK
+            </h5>A monk trained in the Overwhelming Attack style
+            always presses the advantage, preferring a showy
+            display of all-out offense to any form of defense.
+            <table cellpadding="1" cellspacing="0" style="width: 100%">
+              <tbody>
+                <tr>
+                  <th style="width: 25%">
+
+                    1st-Level skill Bonus:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="
+                    skillsAll.html#intimidate">
+                    Intimidate</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+
+                    1st-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#power-attack">Power
+                    Attack</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    2nd-Level Feat:
+                  </th>
+
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#bull-rush">Improved Bull
+                    Rush</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Feat:
+                  </th>
+                  <td>
+
+                    <a style="color: #579EB6" href="
+                    featsAll.html#improved-overrun">
+                    Improved Overrun</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Bonus Ability:
+                  </th>
+                  <td>
+
+                    If you have used <a style="color: #579EB6" href="
+                    skillsAll.html#intimidate">
+                    Intimidate</a> to demoralize your opponent at
+                    any time within the previous 10 rounds, you
+                    gain a +4 bonus on Strength checks made to
+                    <a style="color: #579EB6" href="
+                    specialAttacks.html#bull-rush">
+                    bull rush</a> or <a style="color: #579EB6" href="
+                    specialAttacks.html#overrun">
+                    overrun</a> that opponent.
+                  </td>
+
+                </tr>
+                <tr>
+                  <th>
+                    Prerequisites:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="
+                    skillsAll.html#intimidate">
+                    Intimidate</a> 4 ranks, <a style="color: #579EB6" href="
+                    skillsAll.html#perform">
+
+                    Perform</a> (dance) 4 ranks.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <h5>
+              <a id="passive-way"></a> PASSIVE WAY
+            </h5>The Passive Way focuses on making your opponent
+            overreach himself or underestimate your skill.
+            <table cellpadding="1" cellspacing="0" style="width: 100%">
+
+              <tbody>
+                <tr>
+                  <th style="width: 25%">
+                    1st-Level Skill Bonus:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#bluff">Bluff</a>.
+                  </td>
+                </tr>
+
+                <tr>
+                  <th>
+                    1st-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#combat-expertise">Combat
+                    Expertise</a>.
+                  </td>
+                </tr>
+                <tr>
+
+                  <th>
+                    2nd-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#improved-trip">Improved
+                    Trip</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+
+                    6th-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#improved-feint">Improved
+                    Feint</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Bonus Ability:
+                  </th>
+
+                  <td>
+                    You gain a +4 bonus on Strength checks made to
+                    <a style="color: #579EB6" href="specialAttacks.html#trip">trip</a> an
+                    opponent who is denied his Dexterity bonus to
+                    Armor Class.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Prerequisites:
+                  </th>
+
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#bluff">Bluff</a> 4
+                    ranks, <a style="color: #579EB6" href="
+                    skillsAll.html#sense-motive">
+                    Sense Motive</a> 4 ranks, <a style="color: #579EB6" href="
+                    featsAll.html#skill-focus">
+                    Skill Focus</a> (Bluff).
+                  </td>
+
+                </tr>
+              </tbody>
+            </table>
+            <h5>
+              <a id="sleeping-tiger"></a> SLEEPING TIGER
+            </h5>The Sleeping Tiger style mixes smooth motions with
+            powerful strikes. It favors a quick, first strike
+            approach, preferably from a position of ambush.
+            <table cellpadding="1" cellspacing="0" style="width: 100%">
+              <tbody>
+                <tr>
+
+                  <th style="width: 25%">
+                    1st-Level Skill Bonus:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#hide">Hide</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+
+                    1st-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#weapon-finesse">Weapon
+                    Finesse</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    2nd-Level Feat:
+                  </th>
+
+                  <td>
+                    <a style="color: #579EB6" href="
+                    featsAll.html#improved-initiative">
+                    Improved Initiative</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Feat:
+                  </th>
+
+                  <td>
+                    <a style="color: #579EB6" href="
+                    featsAll.html#improved-sunder">
+                    Improved Sunder</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    6th-Level Bonus Ability:
+                  </th>
+
+                  <td>
+                    Once per round, when an opponent would be
+                    denied his Dexterity bonus to Armor Class, the
+                    monk deals an extra 1d6 points of damage with a
+                    melee attack made with a light weapon. Any
+                    creature immune to sneak attacks is immune to
+                    this ability.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    Prerequisites:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="skillsAll.html#hide">Hide</a> 9 ranks,
+                    <a style="color: #579EB6" href="featsAll.html#power-attack">Power
+                    Attack</a>.
+                  </td>
+
+                </tr>
+              </tbody>
+            </table>
+            <h5>
+              <a id="undying-way"></a> UNDYING WAY
+            </h5>Monks of the Undying Way believe in patience above
+            all else. They work to outlast their opponents by means
+            of superior endurance.
+            <table cellpadding="1" cellspacing="0" style="width: 100%">
+              <tbody>
+                <tr>
+
+                  <th style="width: 25%">
+                    1st-Level Skill Bonus:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="
+                    skillsAll.html#concentration">
+                    Concentration</a>.
+                  </td>
+                </tr>
+                <tr>
+
+                  <th>
+                    1st-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="
+                    featsAll.html#toughness">
+                    Toughness</a>.
+                  </td>
+                </tr>
+                <tr>
+
+                  <th>
+                    2nd-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="
+                    featsAll.html#endurance">
+                    Endurance</a>.
+                  </td>
+                </tr>
+                <tr>
+
+                  <th>
+                    6th-Level Feat:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="featsAll.html#diehard">Diehard</a>.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+
+                    6th-Level Bonus Ability:
+                  </th>
+                  <td>
+                    When fighting defensively, using <a style="color: #579EB6" href="
+                    featsAll.html#combat-expertise">
+                    Combat Expertise</a>, or using the total
+                    defense action, the monk gains damage reduction
+                    2/-.
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+
+                    Prerequisites:
+                  </th>
+                  <td>
+                    <a style="color: #579EB6" href="
+                    skillsAll.html#concentration">
+                    Concentration</a> 9 ranks.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h4>
+              <a id="simple-monk"></a> Simple Variant
+            </h4>A <a style="color: #579EB6" href="monk.html">monk</a> might choose to
+            give up some of her mobility in exchange for the
+            ability to withstand attacks.
+            <h6>
+              Gain
+            </h6>Damage reduction (as <a style="color: #579EB6" href="
+            barbarian.html">barbarian</a>).
+            <h6>
+              Lose
+            </h6>Enhancement bonus to unarmored speed, bonus to
+            Armor Class when unarmored (retain Wisdom bonus to AC
+            when unarmored).
+            <h3>
+
+              <a id="paladin"></a> PALADIN VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h4>
+              <a id="freedom-slaughter-and-tyranny"></a> Freedom,
+              Slaughter, and Tyranny
+            </h4><a href="http://www.wizards.com/dnd/images/UnA_Gallery/79148.jpg"><img class="art-wide" src="pict.jpg" alt="pict" style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+            The three <a style="color: #579EB6" href="paladin.html">paladin</a>
+            variants presented here demonstrate examples of
+            alternative-alignment paladins. Each one follows a
+            specific code of conduct tailored to its specific
+            alignment. The paladin of freedom is chaotic good,
+            dedicated to liberty and free thought. The paladin of
+            tyranny is the opposite, a lawful evil villain bent on
+            dominating those weaker than she. The paladin of
+            slaughter is a brutal champion of chaos and evil who
+            leaves only destruction trailing in his wake. (If you
+            use these versions of the paladin class, you might
+            consider designating the standard paladin as the
+            "paladin of honor" to differentiate it from the
+            variants.)
+            <p>
+              These paladin variants aren't meant to be unique
+              classes in and of themselves, but rather
+              alignment-based variations of the paladin. They have
+              the same Hit Die, skill points per level, weapon and
+              armor proficiencies, and spells per day as the
+              standard paladin. Their class skill lists are nearly
+              identical, with exceptions noted below. Their
+              spellcasting functions identically to that of the
+              standard paladin (though their spell lists are
+              somewhat different). When a class feature has the
+              same name as a paladin class feature, it functions
+              the same as the one described for the standard
+              paladin.
+            </p><b>Table: Variant Paladin Class Features</b>
+            <table border="0" cellpadding="1" cellspacing="0"
+            style="width: 100%">
+
+              <tbody>
+                <tr>
+                  <th>
+                    Level
+                  </th>
+                  <th align="left">
+                    Freedom
+                  </th>
+                  <th align="left">
+                    Tyranny
+                  </th>
+
+                  <th align="left">
+                    Slaughter
+                  </th>
+                </tr>
+                <tr class="odd-row">
+                  <td align="center">
+                    1st
+                  </td>
+                  <td>
+                    Aura of good, detect evil, smite evil 1/day
+                  </td>
+
+                  <td>
+                    Aura of evil, detect good, smite good 1/day
+                  </td>
+                  <td>
+                    Aura of evil, detect good, smite good 1/day
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    2nd
+                  </td>
+
+                  <td>
+                    Divine grace, lay on hands
+                  </td>
+                  <td>
+                    Divine grace, deadly touch
+                  </td>
+                  <td>
+                    Divine grace, deadly touch
+                  </td>
+                </tr>
+
+                <tr class="odd-row">
+                  <td align="center">
+                    3rd
+                  </td>
+                  <td>
+                    Aura of resolve, divine health
+                  </td>
+                  <td>
+                    Aura of despair, divine health
+                  </td>
+
+                  <td>
+                    Debilitating aura, divine health
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    4th
+                  </td>
+                  <td>
+                    Turn undead
+                  </td>
+
+                  <td>
+                    Rebuke undead
+                  </td>
+                  <td>
+                    Rebuke undead
+                  </td>
+                </tr>
+                <tr class="odd-row">
+                  <td align="center">
+                    5th
+                  </td>
+
+                  <td>
+                    Smite evil 2/day, special mount
+                  </td>
+                  <td>
+                    Smite good 2/day, special mount
+                  </td>
+                  <td>
+                    Smite good 2/day, special mount
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="center">
+                    6th
+                  </td>
+                  <td>
+                    Remove disease 1/week
+                  </td>
+                  <td>
+                    Cause disease 1/week
+                  </td>
+
+                  <td>
+                    Cause disease 1/week
+                  </td>
+                </tr>
+                <tr class="odd-row">
+                  <td align="center">
+                    7th
+                  </td>
+                  <td>
+                    ?
+                  </td>
+
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    8th
+                  </td>
+
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                </tr>
+
+                <tr class="odd-row">
+                  <td align="center">
+                    9th
+                  </td>
+                  <td>
+                    Remove disease 2/week
+                  </td>
+                  <td>
+                    Cause disease 2/week
+                  </td>
+
+                  <td>
+                    Cause disease 2/week
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    10th
+                  </td>
+                  <td>
+                    Smite evil 3/day
+                  </td>
+
+                  <td>
+                    Smite good 3/day
+                  </td>
+                  <td>
+                    Smite good 3/day
+                  </td>
+                </tr>
+                <tr class="odd-row">
+                  <td align="center">
+                    11th
+                  </td>
+
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="center">
+                    12th
+                  </td>
+                  <td>
+                    Remove disease 3/week
+                  </td>
+                  <td>
+                    Cause disease 3/week
+                  </td>
+
+                  <td>
+                    Cause disease 3/week
+                  </td>
+                </tr>
+                <tr class="odd-row">
+                  <td align="center">
+                    13th
+                  </td>
+                  <td>
+                    ?
+                  </td>
+
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    14th
+                  </td>
+
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                </tr>
+
+                <tr class="odd-row">
+                  <td align="center">
+                    15th
+                  </td>
+                  <td>
+                    Remove disease 4/week, smite evil 4/day
+                  </td>
+                  <td>
+                    cause disease 4/week, smite good 4/day
+                  </td>
+
+                  <td>
+                    cause disease 4/week, smite good 4/day
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    16th
+                  </td>
+                  <td>
+                    ?
+                  </td>
+
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                </tr>
+                <tr class="odd-row">
+                  <td align="center">
+                    17th
+                  </td>
+
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="center">
+                    18th
+                  </td>
+                  <td>
+                    Remove disease 5/week
+                  </td>
+                  <td>
+                    Cause disease 5/week
+                  </td>
+
+                  <td>
+                    Cause disease 5/week
+                  </td>
+                </tr>
+                <tr class="odd-row">
+                  <td align="center">
+                    19th
+                  </td>
+                  <td>
+                    ?
+                  </td>
+
+                  <td>
+                    ?
+                  </td>
+                  <td>
+                    ?
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    20th
+                  </td>
+
+                  <td>
+                    Smite evil 5/day
+                  </td>
+                  <td>
+                    Smite good 5/day
+                  </td>
+                  <td>
+                    Smite good 5/day
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+            <h5>
+              <a id="paladin-of-freedom"></a> PALADIN OF FREEDOM
+              CLASS FEATURES
+            </h5>The paladin of freedom has all the standard
+            <a style="color: #579EB6" href="paladin.html">paladin</a> class features,
+            except as noted below.
+            <h6>
+              Class Skills
+            </h6>Replace <a style="color: #579EB6" href="
+            skillsAll.html#diplomacy">
+
+            Diplomacy</a> with <a style="color: #579EB6" href="
+            skillsAll.html#bluff">
+            Bluff</a> on the class skill list.
+            <h6>
+              Aura of Resolve (Su)
+            </h6>Beginning at 3rd level, a paladin of freedom is
+            immune to compulsion effects. Each ally within 10 feet
+            of him gains a +4 morale bonus on saving throws against
+            compulsion effects. This ability otherwise functions
+            identically to the paladin's aura of courage class
+            feature.
+            <h6>
+              Spellcasting
+            </h6>Remove the following spells from the paladin's
+            spell list: <a style="color: #579EB6" href="spellsDtoE.html#death-ward">death
+            ward</a>, <a style="color: #579EB6" href="spellsDtoE.html#discern-lies">
+
+            discern lies</a>, <a style="color: #579EB6" href="spellsDtoE.html#dispel-chaos">dispel chaos</a>,
+            <a style="color: #579EB6" href="
+            spellsMtoO.html#magic-circle-against-chaos">
+            magic circle against chaos</a>, <a style="color: #579EB6" href="
+            spellsPtoR.html#protection-from-chaos">
+            protection from chaos</a>.
+            <p>
+              Add the following spells to the paladin's spell
+              list:&nbsp;
+
+            </p>
+            <p>
+              1st -&nbsp;<a style="color: #579EB6" href="
+              spellsPtoR.html#protection-from-law">protection
+              from law</a>;&nbsp;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="
+              spellsMtoO.html#magic-circle-against-law">
+              magic circle against law</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#remove-curse">
+
+              remove curse</a>;&nbsp;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsDtoE.html#dispel-law">dispel
+              law</a>, <a style="color: #579EB6" href="
+              spellsFtoG.html#freedom-of-movement">
+              freedom of movement</a>.
+            </p>
+
+            <h6>
+              Code of Conduct
+            </h6>A paladin of freedom must be of chaotic good
+            alignment and loses all class abilities if he ever
+            willingly commits an evil act. Additionally, a paladin
+            of freedom's code requires that he respect individual
+            liberty, help those in need (provided they do not use
+            the help for lawful or evil ends), and punish those who
+            threaten or curtail personal liberty.
+            <h6>
+              Associates
+            </h6>While he may adventure with characters of any good
+            or neutral alignment, a paladin of freedom will never
+            knowingly associate with evil characters (except on
+            some sort of undercover mission), nor will he continue
+            an association with someone who consistently offends
+            his moral code. A paladin of freedom may accept only
+            henchmen, followers, or cohorts who are chaotic good.
+            <h5>
+              <a id="paladin-of-slaughter"></a> PALADIN OF
+              SLAUGHTER CLASS FEATURES
+            </h5>The paladin of slaughter has all the standard
+            <a style="color: #579EB6" href="paladin.html">paladin</a> class features,
+            except as noted below.
+            <h6>
+
+              Class Skills
+            </h6>Replace <a style="color: #579EB6" href="
+            skillsAll.html#diplomacy">
+            Diplomacy</a> with <a style="color: #579EB6" href="
+            skillsAll.html#intimidate">
+            Intimidate</a> on the class skill list.
+            <h6>
+              Aura of Evil (Ex)
+            </h6>The power of a paladin of slaughter's aura of evil
+            (see the <a style="color: #579EB6" href="spellsDtoE.html#detect-evil">detect
+            evil</a> spell) is equal to her paladin of slaughter
+            level, just as with the aura of a cleric of an evil
+            deity.
+            <h6>
+
+              Detect Good (Sp)
+            </h6>At will, a paladin of slaughter can use <a style="color: #579EB6" href="spellsDtoE.html#detect-good">
+            detect good</a>, as the spell.
+            <h6>
+              Smite Good (Su)
+            </h6>Once per day, a paladin of slaughter may attempt
+            to smite good with one normal melee attack. This
+            ability is otherwise identical to the standard
+            paladin's ability to smite evil, including increased
+            daily uses as the paladin of slaughter gains class
+            levels.
+            <h6>
+              Deadly Touch (Su)
+            </h6>Beginning at 2nd level, a paladin of slaughter can
+            cause wounds with a successful touch attack. Each day
+            she can deal a total number of hit points of damage
+            equal to her paladin level x her Charisma bonus. An
+            opponent subjected to this attack can make a Will save
+            (DC 10 + 1/2 paladin level + paladin's Cha modifier) to
+            halve the damage dealt.
+            <p>
+              Alternatively, a paladin of slaughter can use any or
+              all of this power to cure damage to undead creatures,
+              just as an <a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-light-wounds">
+
+              inflict wounds</a> spell does. This power otherwise
+              functions identically to the paladin's lay on hands
+              ability.
+            </p>
+            <h6>
+              Debilitating Aura (Su)
+            </h6>Beginning at 3rd level, a paladin of slaughter
+            radiates a malign aura that causes enemies within 10
+            feet of her to take a -1 penalty to Armor Class. This
+            ability otherwise functions identically to the
+            paladin's aura of courage class feature.
+            <h6>
+              Rebuke Undead (Su)
+            </h6>A paladin of slaughter rebukes undead rather than
+            turning undead.
+            <h6>
+              Cause Disease (Sp)
+            </h6>A paladin of slaughter can inflict disease with
+            her touch (as the <a style="color: #579EB6" href="
+            spellsC.html#contagion">
+
+            contagion</a> spell) a number of times per week that a
+            standard paladin of her level would normally be able to
+            remove disease.
+            <h6>
+              Spellcasting
+            </h6>Replace the standard paladin's spell list with the
+            following spell list:<br />
+            <p>
+              1st - <a style="color: #579EB6" href="spellsAtoB.html#bane">bane</a>,
+              <a style="color: #579EB6" href="spellsC.html#cause-fear">cause fear</a>,
+              corrupt weapon, <a style="color: #579EB6" href="
+              spellsC.html#create-water">create water</a>,
+              <a style="color: #579EB6" href="spellsC.html#curse-water">curse water</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#detect-poison">detect
+              poison</a>, <a style="color: #579EB6" href="spellsDtoE.html#detect-undead">detect undead</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#divine-favor">divine
+              favor</a>, <a style="color: #579EB6" href="spellsDtoE.html#endure-elements">endure
+              elements</a>, <a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-light-wounds">inflict light
+              wounds</a>,&nbsp;<a style="color: #579EB6" href="
+              spellsMtoO.html#magic-weapon">magic
+              weapon</a>,&nbsp; <a style="color: #579EB6" href="
+              spellsPtoR.html#protection-from-good">protection
+              from good</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#protection-from-law">protection from
+              law</a>,&nbsp;<a style="color: #579EB6" href="
+              spellsPtoR.html#read-magic">read magic</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#resistance">resistance</a>, <a style="color: #579EB6" href="
+              spellsTtoZ.html#virtue">virtue</a>;
+            </p>
+
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsAtoB.html#bulls-strength">bull's
+              strength</a>, <a style="color: #579EB6" href="
+              spellsC.html#cure-light-wounds">cure light
+              wounds</a>, <a style="color: #579EB6" href="spellsDtoE.html#darkness">darkness</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#delay-poison">delay poison</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#eagles-splendor">eagle's
+              splendor</a>, <a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-moderate-wounds">inflict
+              moderate wounds</a>, <a style="color: #579EB6" href="
+              spellsMtoO.html#owls-wisdom">owls wisdom</a>,
+              <a style="color: #579EB6" href="spellsPtoR.html#resist-energy">resist
+              energy</a>, <a style="color: #579EB6" href="
+              spellsTtoZ.html#undetectable-alignment">undetectable
+              alignment</a>;
+            </p>
+
+            <p>
+              3rd - <a style="color: #579EB6" href="
+              spellsAtoB.html#blindness-deafness">blindness/deafness</a>,
+              <a style="color: #579EB6" href="spellsC.html#cure-moderate-wounds">cure
+              moderate wounds</a>, <a style="color: #579EB6" href="spellsDtoE.html#deeper-darkness">deeper
+              darkness</a>, <a style="color: #579EB6" href="spellsDtoE.html#dispel-magic">dispel magic</a>,
+              <a style="color: #579EB6" href="
+              spellsMtoO.html#greater-magic-weapon">greater magic
+              weapon</a>, <a style="color: #579EB6" href="spellsHtoL.html#heal-mount">heal
+              mount</a>,&nbsp;<a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-serious-wounds">inflict
+              serious wounds</a>, <a style="color: #579EB6" href="
+              spellsMtoO.html#magic-circle-against-good">magic
+              circle against good/law</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#prayer">prayer</a>;&nbsp;
+
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="
+              spellsAtoB.html#break-enchantment">break
+              enchantment</a>, <a style="color: #579EB6" href="
+              spellsC.html#cure-serious-wounds">cure serious
+              wounds</a>, <a style="color: #579EB6" href="spellsDtoE.html#dispel-good">dispel good</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#dispel-law">dispel law</a>,
+              <a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-critical-wounds">inflict
+              critical wounds</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#poison">poison</a>, unholy sword.
+            </p>
+
+            <h6>
+              Code of Conduct
+            </h6>A paladin of slaughter must be of chaotic evil
+            alignment and loses all class abilities if she ever
+            willingly commits a good act. Additionally, a paladin
+            of slaughter's code requires that she disrespect all
+            authority figures who have not proven their physical
+            superiority to her, refuse help to those in need, and
+            sow destruction and death at all opportunities.
+            <h6>
+              Associates
+            </h6>While she may adventure with characters of any
+            evil or neutral alignment, a paladin of slaughter will
+            never knowingly associate with good characters, nor
+            will she continue an association with someone who
+            consistently offends her moral code. A paladin of
+            slaughter may accept only henchmen, followers, and
+            cohorts who are chaotic evil.
+            <h5>
+              <a id="paladin-of-tyranny"></a> PALADIN OF TYRANNY
+              CLASS FEATURES
+            </h5>The paladin of tyranny has all the standard
+            <a style="color: #579EB6" href="paladin.html">paladin</a> class features,
+            except as noted below.
+            <h6>
+
+              Aura of Evil (Ex)
+            </h6>The power of a paladin of tyranny's aura of evil
+            (see the&nbsp;<a style="color: #579EB6" href="spellsDtoE.html#detect-evil">detect
+            evil</a> spell) is equal to his paladin of tyranny
+            level, just as with the aura of a cleric of an evil
+            deity.
+            <h6>
+              Detect Good (Sp)
+            </h6>At will, a paladin of tyranny can
+            use&nbsp;<a style="color: #579EB6" href="spellsDtoE.html#detect-good">detect
+            good</a>, as the spell.
+            <h6>
+              Smite Good (Su)
+            </h6>Once per day, a paladin of tyranny may attempt to
+            smite good with one normal melee attack. This ability
+            is otherwise identical to the standard paladin's
+            ability to smite evil, including increased daily uses
+            as the paladin of tyranny gains class levels.
+            <h6>
+
+              Deadly Touch (Su)
+            </h6>Beginning at 2nd level, a paladin of tyranny can
+            cause wounds with a successful touch attack. Each day
+            she can deal a total number of hit points of damage
+            equal to her paladin level x her Charisma bonus. An
+            opponent subjected to this attack can make a Will save
+            (DC 10 + 1/2 paladin level paladin's Cha modifier) to
+            halve the damage dealt.
+            <p>
+              Alternatively, a paladin of tyranny can use any or
+              all of this power to cure damage to undead creatures,
+              just as an&nbsp;<a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-light-wounds">inflict
+              wounds</a> spell does. This power otherwise functions
+              identically to the paladin's lay on hands ability.
+            </p>
+            <h6>
+              Aura of Despair (Su)
+            </h6>Beginning at 3rd level, a paladin of tyranny
+            radiates a malign aura that causes enemies within 10
+            feet of him to take a -2 penalty on all saving throws.
+            This ability otherwise functions identically to the
+            paladin's aura of courage class feature.
+            <h6>
+              Rebuke Undead (Su)
+            </h6>A paladin of tyranny rebukes undead rather than
+            turning undead.
+            <h6>
+
+              Cause Disease (Sp)
+            </h6>A paladin of tyranny can inflict disease with his
+            touch (as the&nbsp;<a style="color: #579EB6" href="
+            spellsC.html#contagion">contagion</a>
+            spell) a number of times per week that a standard
+            paladin of her level would normally be able to remove
+            disease.
+            <h6>
+              Spellcasting
+            </h6>Replace the paladin's spell list with the
+            following spell list:<br />
+            <p>
+              1st - <a style="color: #579EB6" href="spellsAtoB.html#bane">bane</a>,
+              corrupt weapon, <a style="color: #579EB6" href="
+              spellsC.html#create-water">create water</a>,
+              <a style="color: #579EB6" href="spellsC.html#curse-water">curse water</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#detect-poison">detect
+              poison</a>, <a style="color: #579EB6" href="spellsDtoE.html#detect-undead">detect undead</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#divine-favor">divine
+              favor</a>, <a style="color: #579EB6" href="spellsDtoE.html#doom">doom</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#endure-elements">endure
+              elements</a>, <a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-light-wounds">inflict light
+              wounds</a>, <a style="color: #579EB6" href="
+              spellsMtoO.html#magic-weapon">magic weapon</a>,
+              <a style="color: #579EB6" href="
+              spellsPtoR.html#protection-from-chaos">protection
+              from chaos</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#protection-from-good">protection
+              from good</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#read-magic">read magic</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#resistance">resistance</a>, <a style="color: #579EB6" href="
+              spellsTtoZ.html#virtue">virtue</a>;&nbsp;
+
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsAtoB.html#bulls-strength">bull's
+              strength</a>, <a style="color: #579EB6" href="
+              spellsC.html#cure-light-wounds">cure light
+              wounds</a>, <a style="color: #579EB6" href="spellsDtoE.html#darkness">darkness</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#delay-poison">delay poison</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#eagles-splendor">eagle's
+              splendor</a>, <a style="color: #579EB6" href="
+              spellsHtoL.html#hold-person">hold person</a>,
+              <a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-moderate-wounds">inflict
+              moderate wounds</a>, <a style="color: #579EB6" href="
+              spellsMtoO.html#owls-wisdom">owl's wisdom</a>,
+              <a style="color: #579EB6" href="spellsPtoR.html#resist-energy">resist
+              energy</a>, <a style="color: #579EB6" href="
+              spellsTtoZ.html#undetectable-alignment">undetectable
+              alignment</a>;&nbsp;
+
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsAtoB.html#bestow-curse">bestow
+              curse</a>, <a style="color: #579EB6" href="
+              spellsC.html#cure-moderate-wounds">cure moderate
+              wounds</a>, <a style="color: #579EB6" href="spellsDtoE.html#deeper-darkness">deeper
+              darkness</a>, <a style="color: #579EB6" href="spellsDtoE.html#discern-lies">discern lies</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#dispel-magic">dispel
+              magic</a>, <a style="color: #579EB6" href="
+              spellsMtoO.html#greater-magic-weapon">greater magic
+              weapon</a>, <a style="color: #579EB6" href="spellsHtoL.html#heal-mount">heal
+              mount</a>,&nbsp;<a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-serious-wounds">inflict
+              serious wounds</a>, <a style="color: #579EB6" href="
+              spellsMtoO.html#magic-circle-against-chaos">magic
+              circle against chaos/good</a>, <a style="color: #579EB6" href="
+              spellsPtoR.html#prayer">prayer</a>;&nbsp;
+
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="
+              spellsAtoB.html#break-enchantment">break
+              enchantment</a>, <a style="color: #579EB6" href="
+              spellsC.html#cure-serious-wounds">cure serious
+              wounds</a>, <a style="color: #579EB6" href="spellsDtoE.html#dispel-chaos">dispel chaos</a>,
+              <a style="color: #579EB6" href="spellsDtoE.html#dispel-good">dispel
+              good</a>, <a style="color: #579EB6" href="spellsDtoE.html#dominate-person">dominate
+              person</a>, <a style="color: #579EB6" href="
+              spellsHtoL.html#inflict-critical-wounds">inflict
+              critical wounds</a>, unholy sword.
+            </p>
+
+            <h6>
+              Code of conduct
+            </h6>A paladin of tyranny must be of lawful evil
+            alignment and loses all class abilities if he ever
+            willingly commits a good act. Additionally, a paladin
+            of tyranny's code requires that he respect authority
+            figures as long as they have the strength to rule over
+            the weak, act with discipline (not engaging in random
+            slaughter, keeping firm control over those beneath his
+            station, and so forth), help only those who help him
+            maintain or improve his status, and punish those who
+            challenge authority (unless, of course, such
+            challengers prove more worthy to hold that authority).
+            <h6>
+              Associates
+            </h6>While he may adventure with characters of any evil
+            or neutral alignment, a paladin of tyranny will never
+            knowingly associate with good characters unless it
+            serves his needs, nor will he continue an association
+            with someone who consistently offends his moral code. A
+            paladin of tyranny may accept henchmen and followers of
+            any alignment, but may only accept cohorts who are
+            lawful evil.
+            <h4>
+              <a id="simple-paladin"></a> Simple Variant
+            </h4>The <a style="color: #579EB6" href="paladin.html">paladin</a> who takes
+            an active role in hunting her foul enemies must give up
+            her defensive powers.
+            <h6>
+
+              Gain
+            </h6>Favored enemy (as <a style="color: #579EB6" href="
+            ranger.html">ranger</a>;
+            may only select aberrations, dragons, giants, monstrous
+            humanoids, evil outsiders, or undead).
+            <h6>
+              Lose
+            </h6>Lay on hands, turn undead, remove disease.
+            <h3>
+              <a id="ranger"></a> RANGER VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+
+                <tr>
+                  <td class="line"></td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>
+              <a id="planar-ranger"></a> Planar Ranger
+            </h4>The planar ranger roams the multiverse instead of
+            the wilderness, learning the secrets of the planes.
+            <h6>
+
+              Class Skills
+            </h6>Eliminate <a style="color: #579EB6" href="
+            skillsAll.html#knowledge">
+            Knowledge</a> (nature) and <a style="color: #579EB6" href="
+            skillsAll.html#knowledge">Knowledge</a>
+            (dungeoneering) from the ranger's class skill list.
+            <p>
+              Add <a style="color: #579EB6" href="skillsAll.html#knowledge">Knowledge</a>
+
+              (the planes) and <a style="color: #579EB6" href="
+              skillsAll.html#speak-language">
+              Speak Language</a> (Abyssal, Aquan, Auran, Celestial,
+              Ignan, Infernal, Terran only) to the class skill
+              list.
+            </p>
+            <h5>
+              CLASS FEATURES
+            </h5>The planar ranger has all the standard <a style="color: #579EB6" href="
+            ranger.html">ranger</a>
+            class features, except as noted below.
+            <h6>
+
+              Wild Empathy
+            </h6>A planar ranger takes no penalty on wild empathy
+            checks made to influence magical beasts with the
+            <a style="color: #579EB6" href="
+            monstersBtoC.html#celestial-creature">
+            celestial</a> or <a style="color: #579EB6" href="
+            monstersEtoF.html#fiendish-creature">
+            fiendish</a> templates. However, he takes a -4 penalty
+            when using this ability against animals.
+            <h6>
+              Animal Companion
+            </h6>A nonevil planar ranger may have a <a style="color: #579EB6" href="
+            monstersBtoC.html#celestial-creature">
+
+            celestial</a> version of a normal <a style="color: #579EB6" href="
+            monstersAnimal.html">
+            animal</a> as his animal companion. A nongood ranger
+            may have a <a style="color: #579EB6" href="
+            monstersEtoF.html#fiendish">
+            fiendish</a> version of a normal animal as his animal
+            companion.
+            <h6>
+              Spellcasting
+            </h6>A planar ranger's spellcasting ability is largely
+            unchanged from that of the standard ranger, with one
+            exception: Any ranger spell that normally affects
+            animals also affects <a style="color: #579EB6" href="
+            monstersBtoC.html#celestial">
+
+            celestial</a> or <a style="color: #579EB6" href="
+            monstersEtoF.html#fiendish">
+            fiendish</a> versions of animals when cast by a planar
+            ranger.
+            <h4>
+              <a id="urban-ranger"></a> Urban Ranger
+            </h4><a href="http://www.wizards.com/dnd/images/UnA_Gallery/79149.jpg"><img class="art-wide" src="pict.jpg" alt="pict" style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+            The urban ranger stalks the treacherous streets of
+            the city, relying on his knowledge of alleyways and
+            underworld contacts to keep him alive.
+            <h6>
+              Class Skills
+            </h6>Eliminate <a style="color: #579EB6" href="
+            skillsAll.html#knowledge">
+
+            Knowledge</a> (nature), <a style="color: #579EB6" href="
+            skillsAll.html#knowledge">Knowledge</a>
+            (dungeoneering), and <a style="color: #579EB6" href="
+            skillsAll.html#survival">
+            Survival</a> from the ranger's class skill list. Add
+            <a style="color: #579EB6" href="
+            skillsAll.html#gather-information">
+            Gather Information</a>, <a style="color: #579EB6" href="
+            skillsAll.html#knowledge">
+
+            Knowledge</a> (local), and <a style="color: #579EB6" href="
+            skillsAll.html#sense-motive">Sense Motive</a> to the
+            class skill list.
+            <h5>
+              CLASS FEATURES
+            </h5>The urban ranger has all the standard <a style="color: #579EB6" href="
+            ranger.html">ranger</a>
+            class features, except as noted below.
+            <h6>
+              Animal Companion
+            </h6>An urban ranger cannot have an animal larger than
+            Medium as his animal companion.
+            <h6>
+
+              Urban Tracking
+            </h6>An urban ranger does not gain the <a style="color: #579EB6" href="
+            featsAll.html#track">
+            Track</a> feat at 1st level. Instead, he gains the
+            <a style="color: #579EB6" href="#urban-tracking">Urban Tracking</a> feat (see
+            below), which allows him to use <a style="color: #579EB6" href="
+            skillsAll.html#gather-information">Gather
+            Information</a> to track down a missing person,
+            suspect, or other individual within a community.
+            <h6>
+              Wild Empathy
+            </h6>An urban ranger adds only one-half his class level
+            to wild empathy checks, reflecting his limited
+            connection with the natural world.
+            <h6>
+
+              Favored Enemy
+            </h6>At the game master's discretion, an urban ranger
+            may select an organization instead of a creature type
+            as his favored enemy. For example, a character might
+            select a particular thieves' guild, merchant house, or
+            even the city guard. The favored enemy bonuses would
+            apply to all members of the chosen organization,
+            regardless of their creature type or subtype.
+            <h6>
+              Spellcasting
+            </h6>The urban ranger's spell list is different from
+            the standard ranger list. The following spells are
+            eliminated from the urban ranger's spell list: animal
+            messenger, charm animal, detect animals or plants,
+            speak with animals, bear's endurance, hold animal,
+            snare, speak with plants, command plants, diminish
+            plants, plant growth, reduce animal, tree shape, water
+            walk, commune with nature, and tree stride.
+            <p>
+              In exchange, the urban ranger adds the following
+              spells to his class spell list:&nbsp;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="
+              spellsC.html#comprehend-languages">comprehend
+              languages</a>, <a style="color: #579EB6" href="spellsDtoE.html#detect-evil">detect
+              chaos/good/evil/law</a>, <a style="color: #579EB6" href="spellsDtoE.html#detect-doors">detect secret
+              doors</a>, <a style="color: #579EB6" href="
+              spellsMtoO.html#message">message</a>;&nbsp;
+
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsDtoE.html#detect-thoughts">detect
+              thoughts</a>, <a style="color: #579EB6" href="spellsDtoE.html#eagles-splendor">eagle's
+              splendor</a>, <a style="color: #579EB6" href="
+              spellsHtoL.html#knock">knock</a>, <a style="color: #579EB6" href="
+              spellsHtoL.html#locate-object">locate
+              object</a>;&nbsp;
+            </p>
+
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsDtoE.html#discern-lies">discern
+              lies</a>, <a style="color: #579EB6" href="
+              spellsHtoL.html#invisibility">invisibility</a>,
+              <a style="color: #579EB6" href="spellsS.html#speak-with-dead">speak with
+              dead</a>, <a style="color: #579EB6" href="
+              spellsTtoZ.html#tongues">tongues</a>;&nbsp;
+            </p>
+            <p>
+
+              4th - <a style="color: #579EB6" href="spellsDtoE.html#dimensional-anchor">dimensional
+              anchor</a>, <a style="color: #579EB6" href="
+              spellsHtoL.html#locate-creature">locate
+              creature</a>, <a style="color: #579EB6" href="
+              spellsMtoO.html#mages-faithful-hound">mage's
+              faithful hound</a>, <a style="color: #579EB6" href="
+              spellsTtoZ.html#true-seeing">true seeing</a>.
+            </p>
+            <h6>
+              Woodland Stride
+            </h6>An urban ranger does not gain this ability.
+            <h6>
+
+              Swift Tracker (Ex)
+            </h6>Beginning at 8th level, am urban ranger may make a
+            <a style="color: #579EB6" href="skillsAll.html#gather-information">Gather
+            Information</a> check for his <a style="color: #579EB6" href="
+            #urban-tracking">Urban
+            Tracking</a> feat every half hour without taking the
+            normal -5 penalty.
+            <h6>
+              Camouflage
+            </h6>An urban ranger does not gain this ability.
+            <h6>
+              Hide in Plain Sight (Ex)
+            </h6>An urban ranger can use this ability in any area,
+            whether natural terrain or not.
+            <h5>
+
+              <a id="urban-tracking"></a> URBAN TRACKING
+              [GENERAL]
+            </h5>
+            <table border="0" cellpadding="1" cellspacing="0" style="width: 40%">
+              <tbody>
+                <tr>
+                  <th align="left">
+                    Community Size
+                  </th>
+                  <th align="right">
+
+                    DC
+                  </th>
+                  <th align="left">
+                    Checks Required
+                  </th>
+                </tr>
+                <tr class="odd-row">
+                  <td>
+                    Thorp, hamlet, or village
+                  </td>
+
+                  <td>
+                    5
+                  </td>
+                  <td>
+                    1d3
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Small or large town
+                  </td>
+
+                  <td>
+                    10
+                  </td>
+                  <td>
+                    1d4+1
+                  </td>
+                </tr>
+                <tr class="odd-row">
+                  <td>
+                    Small or large city
+                  </td>
+
+                  <td>
+                    15
+                  </td>
+                  <td>
+                    2d4
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Metropolis
+                  </td>
+
+                  <td>
+                    20
+                  </td>
+                  <td>
+                    2d4+2
+                  </td>
+                </tr>
+              </tbody>
+            </table><br />
+            <table border="0" cellpadding="1" cellspacing="0" style="width: 40%">
+
+              <tbody>
+                <tr>
+                  <th align="left">
+                    Conditions
+                  </th>
+                  <th>
+                    DC Modifier
+                  </th>
+                </tr>
+                <tr class="odd-row">
+
+                  <td>
+                    Every three creatures in the group being sought
+                  </td>
+                  <td align="center">
+                    -1
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Every 24 hours party has been missing/sought
+                  </td>
+
+                  <td align="center">
+                    +1
+                  </td>
+                </tr>
+                <tr class="odd-row">
+                  <td>
+                    Tracked party "lies low"
+                  </td>
+                  <td align="center">
+                    +5
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>
+                    Tracked party matches community's<br />
+                    primary racial demographic
+                  </td>
+                  <td align="center">
+                    +2
+                  </td>
+
+                </tr>
+                <tr class="odd-row">
+                  <td>
+                    Tracked party does not match community's<br />
+                    primary, or secondary racial demographic
+                  </td>
+                  <td align="center">
+                    -2
+                  </td>
+
+                </tr>
+              </tbody>
+            </table>
+            <p>
+              You can track down the location of missing persons or
+              wanted individuals within communities.
+            </p><b>Benefit:</b> To find the trail of an individual
+            or to follow it for 1 hour requires a <a style="color: #579EB6" href="
+            skillsAll.html#gather-information">
+            Gather Information</a> check. You must make another
+            Gather Information check every hour of the search, as
+            well as each time the trail becomes difficult to
+            follow, such as when it moves to a different area of
+            town.
+            <p>
+
+              The DC of the check, and the number of checks
+              required to track down your quarry, depends on the
+              community size and the conditions:
+            </p>
+            <p>
+              If you fail a Gather Information check, you can retry
+              after 1 hour of questioning. The game master should
+              roll the number of checks required secretly, so that
+              the player doesn't know exactly how long the task
+              will require.
+            </p><b>Normal:</b> A character without this feat can
+            use <a style="color: #579EB6" href="skillsAll.html#gather-information">Gather
+            Information</a> to find out information about a
+            particular individual, but each check takes 1d4+1 hours
+            and doesn't allow effective trailing. <b><br />
+            <br />
+            Special:</b> A character with 5 ranks in <a style="color: #579EB6" href="
+            skillsAll.html#knowledge">
+
+            Knowledge</a> (local) gains a +2 bonus on the <a style="color: #579EB6" href="
+            skillsAll.html#gather-information">
+            Gather Information</a> check to use this feat.
+            <p>
+              You can cut the time between Gather Information
+              checks in half (to 30 minutes per check rather than 1
+              hour), but you take a -5 penalty on the check.
+            </p>
+            <h4>
+              <a id="simple-ranger"></a> Simple Variant
+            </h4>A <a style="color: #579EB6" href="ranger.html">ranger</a> might forgo
+            training in weapon combat in exchange for the ability
+            to take animal form and move swiftly through the
+            woodlands.
+            <h6>
+
+              Gain
+            </h6>Wild shape (as <a style="color: #579EB6" href="druid.html">druid</a>;
+            Small or Medium animals only), fast movement (as
+            <a style="color: #579EB6" href="barbarian.html">barbarian</a>).
+            <h6>
+              Lose
+            </h6>Combat style, improved combat style, combat style
+            mastery.
+            <h3>
+              <a id="rogue"></a> ROGUE VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>
+              <a id="wilderness-rogue"></a> Wilderness Rogue
+            </h4>The wilderness rogue prefers to put her skills to
+            use in the great outdoors, rather than in cramped
+            alleys and dungeon corridors. In many ways, she is
+            similar to the traditional ranger, though with less
+            combat savvy and with none of the ranger's divine link
+            to the natural world.
+            <h6>
+
+              Class Skills
+            </h6>Remove the following rogue class skills from the
+            wilderness rogue's class skill list: <a style="color: #579EB6" href="
+            skillsAll.html#appraise">
+            Appraise</a>, <a style="color: #579EB6" href="
+            skillsAll.html#diplomacy">
+            Diplomacy</a>, <a style="color: #579EB6" href="
+            skillsAll.html#decipher-script">
+            Decipher Script</a>, <a style="color: #579EB6" href="
+            skillsAll.html#forgery">Forgery</a>, and <a style="color: #579EB6" href="
+            skillsAll.html#gather-information">Gather
+            Information</a>.
+            <p>
+
+              Add the following skills to the wilderness rogue's
+              class skill list: <a style="color: #579EB6" href="
+              skillsAll.html#handle-animal">
+              Handle Animal</a>, <a style="color: #579EB6" href="
+              skillsAll.html#knowledge">Knowledge</a> (geography),
+              <a style="color: #579EB6" href="
+              skillsAll.html#knowledge">
+              Knowledge</a> (nature), <a style="color: #579EB6" href="
+              skillsAll.html#ride">Ride</a>, and <a style="color: #579EB6" href="
+              skillsAll.html#survival">
+
+              Survival</a>.
+            </p>
+            <h5>
+              CLASS FEATURES
+            </h5>The wilderness rogue has all the standard <a style="color: #579EB6" href="
+            rogue.html">rogue</a>
+            class features, except as noted below.
+            <h6>
+              Special Abilities
+            </h6>Add woodland stride (as the 7th-level <a style="color: #579EB6" href="
+            ranger.html">ranger</a>
+
+            ability), camouflage (as the 13th-level <a style="color: #579EB6" href="
+            ranger.html">ranger</a> ability) and hide in plain
+            sight (as the 17th-level <a style="color: #579EB6" href="
+            ranger.html">ranger</a>
+            ability, requires the rogue to already have the
+            camouflage ability) to the list of special abilities
+            that can be chosen by the wilderness rogue.
+            <h4>
+              <a id="simple-rogue"></a> Simple Variant
+            </h4>The <a style="color: #579EB6" href="rogue.html">rogue</a> who favors
+            martial training over stealth and cunning can profit if
+            she chooses her fights carefully.
+            <h6>
+
+              Gain
+            </h6>Bonus feats (as <a style="color: #579EB6" href="
+            fighter.html">fighter</a>).
+            <h6>
+              Lose
+            </h6>Sneak attack.
+            <h3>
+              <a id="sorcerer"></a> SORCERER VARIANTS
+            </h3>
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+
+                <tr>
+                  <td class="line"></td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>
+              <a id="battle-sorcerer"></a>Battle Sorcerer
+            </h4><a href="http://www.wizards.com/dnd/images/UnA_Gallery/79150.jpg"><img class="art-wide" src="pict.jpg" alt="pict" style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+            The battle sorcerer is no weak arcanist, hiding
+            behind the fighters. Instead, she is a capable physical
+            combatant who mixes magical prowess with fighting
+            skill.
+            <h6>
+
+              Hit Die
+            </h6>d8.
+            <h6>
+              Base Attack Bonus
+            </h6>The battle sorcerer uses the base attack bonus
+            progression of the <a style="color: #579EB6" href="cleric.html">cleric</a>.
+            <h6>
+              Class Skills
+            </h6>Remove <a style="color: #579EB6" href="skillsAll.html#bluff">Bluff</a>
+            from the battle sorcerer's class skill list. Add
+            <a style="color: #579EB6" href="skillsAll.html#intimidate">Intimidate</a> to
+            the battle sorcerer's class skill list.
+            <h5>
+
+              CLASS FEATURES
+            </h5>The battle sorcerer has all the standard <a style="color: #579EB6" href="
+            sorcerer.html">sorcerer</a>
+            class features, except as noted below.
+            <h6>
+              Weapon and Armor Proficiency
+            </h6>At 1st level, a battle sorcerer gains proficiency
+            with any light or one-handed martial weapon of the
+            character's choice. She also gains proficiency with
+            <a style="color: #579EB6" href="featsAll.html#armor-proficiency-light">light
+            armor</a>.
+            <h6>
+              Spellcasting
+            </h6>A battle sorcerer can cast sorcerer spells derived
+            from her class levels of battle sorcerer while in light
+            armor without the normal arcane spell failure chance.
+            <p>
+
+              A battle sorcerer has fewer daily spell slots than a
+              standard <a style="color: #579EB6" href="sorcerer.html">sorcerer</a>.
+              Subtract one spell per day from each spell level on
+              Table: The Sorcerer (to a minimum of zero spells per
+              day). For example, a 1st-level battle sorcerer may
+              cast four 0-level spells and two 1st-level spells per
+              day (plus bonus spells, if any).
+            </p>
+            <p>
+              A battle sorcerer knows fewer spells per spell level
+              than a standard <a style="color: #579EB6" href="sorcerer.html">sorcerer</a>.
+              Subtract one spell known from each spell level on
+              Table: Sorcerer Spells Known (to a minimum of one
+              spell per spell level). For example, a 4th-level
+              battle sorcerer knows five 0-level spells, two
+              1st-level spells, and one 2nd-level spell. When she
+              reaches 5th level, the battle sorcerer learns one
+              additional 1st-level spell, but doesn't learn an
+              additional 2nd-level spell (since two minus one is
+              one).
+            </p>
+            <h4>
+              <a id="simple-sorcerer"></a> Simple Variant
+            </h4>A <a style="color: #579EB6" href="sorcerer.html">sorcerer</a> or <a style="color: #579EB6" href="
+            wizard.html">wizard</a>
+
+            might desire a more durable companion to accompany him
+            on excursions into the wilderness.
+            <h6>
+              Gain
+            </h6>Animal companion (as <a style="color: #579EB6" href="
+            druid.html">druid</a>;
+            treat sorcerer or wizard as a druid ofhalf his class
+            level).
+            <h6>
+              Lose
+            </h6>Familiar.
+            <h3>
+              <a id="wizard"></a> WIZARD VARIANTS
+            </h3>
+
+            <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+              </tbody>
+            </table>
+            <h4>
+              <a id="domain-wizard"></a> Domain Wizard
+            </h4>A wizard who uses the arcane domain system (called
+            a domain wizard) selects a specific arcane domain of
+            spells, much like a cleric selects a pair of domains
+            associated with his deity. A domain wizard cannot also
+            be a specialist wizard; in exchange for the versatility
+            given up by specializing in a domain instead of an
+            entire school, the domain wizard casts her chosen
+            spells with increased power.
+            <p>
+
+              Some of the arcane domains described below have the
+              same name as a divine domain. Regardless of any
+              apparent similarity, these domains have no connection
+              to one another.
+            </p>
+            <h5>
+              CLASS FEATURES
+            </h5>The domain wizard has all the standard <a style="color: #579EB6" href="
+            wizard.html">wizard</a>
+            class features, except as noted below.
+            <h6>
+              Arcane Domain
+            </h6>At 1st level, a domain wizard selects an arcane
+            domain from those listed below. (At the game master's
+            discretion, the player might create an alternatively
+            themed domain instead.) Once selected, the domain may
+            never be changed.
+            <p>
+
+              A domain wizard automatically adds each new domain
+              spell to her list of known spells as soon as she
+              becomes able to cast it. These spells do not count
+              against her two new spells known per wizard level.
+            </p>
+            <p>
+              A domain wizard casts spells from her chosen domain
+              (regardless of whether the spell was prepared as a
+              domain spell or a normal spell) as a caster one level
+              higher than her normal level. This bonus applies only
+              to the spells listed for the domain, not all spells
+              of the school or subtype whose name matches the
+              domain name.
+            </p>
+            <p>
+              In some cases, an arcane domain includes spells not
+              normally on the wizard's class spell list. These
+              spells are treated as being on the character's class
+              spell list (and thus she can use wands or arcane
+              scrolls that hold those spells, or even prepare those
+              spells in her normal wizard spell slots).
+            </p>
+            <h6>
+              Spellcasting
+            </h6>A domain wizard prepares and casts spells like a
+            normal wizard. However, a domain wizard gains one bonus
+            spell per spell level, which must be filled with the
+            spell from that level of the domain spell list (or with
+            a lower-level domain spell that has been altered with a
+            <a style="color: #579EB6" href="featsMtm.html">metamagic feat</a>).
+            <h6>
+
+              No Prohibited Schools
+            </h6>Unlike a specialist wizard, a domain wizard need
+            not select any prohibited schools or domains. All
+            wizard spells are available to her to learn.
+            <h5>
+              <a id="abjuration-domain"></a> ABJURATION DOMAIN
+            </h5>
+            <p>
+              0 - <a style="color: #579EB6" href="
+              spellsPtoR.html#reistance">resistance</a>;
+            </p>
+            <p>
+
+              1st - <a style="color: #579EB6" href="spellsS.html#shield">shield</a>;
+            </p>2nd - <a style="color: #579EB6" href="
+            spellsPtoR.html#resist-energy">resist energy</a>;
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsDtoE.html#dispel-magic">dispel
+              magic</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsPtoR.html#remove-curse">remove
+              curse</a>;
+            </p>5th - <a style="color: #579EB6" href="
+            spellsMtoO.html#mages-private-sanctum">mage's private
+            sanctum</a>;
+            <p>
+
+              6th - <a style="color: #579EB6" href="spellsDtoE.html#greater-dispel-magic">greater dispel
+              magic</a>;
+            </p>
+            <p>
+              7th - <a style="color: #579EB6" href="
+              spellsAtoB.html#banishment">banishment</a>;
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="spellsMtoO.html#mind-blank">mind
+              blank</a>;
+            </p>
+
+            <p>
+              9th - <a style="color: #579EB6" href="
+              spellsPtoR.html#prismatic-sphere">prismatic
+              sphere</a>.
+            </p>
+            <h5>
+              <a id="antimagic-domain"></a> ANTIMAGIC DOMAIN
+            </h5>
+            <p>
+              0 - <a style="color: #579EB6" href="spellsDtoE.html#detect-magic">detect
+              magic</a>;
+            </p>
+
+            <p>
+              1st - <a style="color: #579EB6" href="
+              spellsPtoR.html#protection-from-evil">protection
+              from chaos/evil/good/law</a>;
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="
+              spellsMtoO.html#obscure-object">obscure object</a>;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsDtoE.html#dispel-magic">dispel
+              magic</a>;
+            </p>
+
+            <p>
+              4th - <a style="color: #579EB6" href="
+              spellsFtoG.html#lesser-globe-of-invulnerability">lesser
+              globe of invulnerability</a>;
+            </p>
+            <p>
+              5th - <a style="color: #579EB6" href="
+              spellsAtoB.html#break-enchantment">break
+              enchantment</a>;
+            </p>
+            <p>
+              6th - <a style="color: #579EB6" href="
+              spellsAtoB.html#anitmagic-field">antimagic
+              field</a>;
+            </p>
+
+            <p>
+              7th - <a style="color: #579EB6" href="spellsS.html#spell-turning">spell
+              turning</a>;
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="
+              spellsPtoR.html#protection-from-spells">protection
+              from spells</a>;
+            </p>
+            <p>
+              9th - <a style="color: #579EB6" href="
+              spellsMtoO.html#mages-disjunction">mage's
+              disjunction</a>.
+            </p>
+
+            <h5>
+              <a id="battle-domain"></a> BATTLE DOMAIN
+            </h5>
+            <p>
+              0 - <a style="color: #579EB6" href="spellsDtoE.html#daze">daze</a>;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsTtoZ.html#true-strike">true
+              strike</a>;
+            </p>
+
+            <p>
+              2nd - <a style="color: #579EB6" href="
+              spellsPtoR.html#protection-from-arrows">protection
+              from arrows</a>;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="
+              spellsMtoO.html#greater-magic-weapon">greater magic
+              weapon</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsFtoG.html#fire-shield">fire
+              shield</a>;
+            </p>
+
+            <p>
+              5th - <a style="color: #579EB6" href="
+              spellsHtoL.html#interposing-hand">interposing
+              hand</a>;
+            </p>
+            <p>
+              6th - <a style="color: #579EB6" href="
+              spellsTtoZ.html#transformation">transformation</a>;
+            </p>
+            <p>
+              7th - <a style="color: #579EB6" href="
+              spellsPtoR.html#power-word-blind">power word
+              blind</a>;
+            </p>
+
+            <p>
+              8th - <a style="color: #579EB6" href="
+              spellsMtoO.html#moment-of-prescience">moment of
+              prescience</a>;
+            </p>
+            <p>
+              9th - <a style="color: #579EB6" href="spellsTtoZ.html#time-stop">time
+              stop</a>.
+            </p>
+            <h5>
+              <a id="cold-domain"></a> COLD DOMAIN
+            </h5>
+
+            <p>
+              0 - <a style="color: #579EB6" href="spellsPtoR.html#ray-of-frost">ray of
+              frost</a>;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsC.html#chill-touch">chill
+              touch</a>;
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsC.html#chill-metal">chill
+              metal</a> (as 2nd-level <a style="color: #579EB6" href="
+              druidSpells.html">druid spell</a>);
+            </p>
+
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsS.html#sleet-storm">sleet
+              storm</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsTtoZ.html#wall-of-ice">wall of
+              ice</a>;
+            </p>
+            <p>
+              5th - <a style="color: #579EB6" href="spellsC.html#cone-of-cold">cone of
+              cold</a>;
+            </p>
+
+            <p>
+              6th - <a style="color: #579EB6" href="
+              spellsFtoG.html#freezing-sphere">freezing
+              sphere</a>;
+            </p>
+            <p>
+              7th - delayed blast frostball (as <a style="color: #579EB6" href="spellsDtoE.html#delayed-blast-fireball">delayed
+              blast fireball</a>, but deals cold damage instead of
+              fire damage);
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="spellsPtoR.html#polar-ray">polar
+              ray</a>;
+            </p>
+
+            <p>
+              9th - comet swarm (as <a style="color: #579EB6" href="
+              spellsMtoO.html#meteor-swarm">meteor swarm</a>, but
+              deals cold damage instead of fire damage).
+            </p>
+            <h5>
+              <a id="conjuration-domain"></a> CONJURATION DOMAIN
+            </h5>
+            <p>
+              0 - <a style="color: #579EB6" href="spellsAtoB.html#acid-splash">acid
+              splash</a>;
+            </p>
+
+            <p>
+              1st - <a style="color: #579EB6" href="spellsMtoO.html#mage-armor">mage
+              armor</a>;
+            </p>2nd - <a style="color: #579EB6" href="spellsTtoZ.html#web">web</a>;
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsS.html#stingking-cloud">stinking
+              cloud</a>;
+            </p>
+            <p>
+
+              4th - <a style="color: #579EB6" href="spellsS.html#summon-monster-iv">summon
+              monster IV</a>;
+            </p>
+            <p>
+              5th - <a style="color: #579EB6" href="spellsTtoZ.html#wall-of-stone">wall of
+              stone</a>;
+            </p>
+            <p>
+              6th - <a style="color: #579EB6" href="spellsAtoB.html#acid-fog">acid
+              fog</a>;
+            </p>
+
+            <p>
+              7th - <a style="color: #579EB6" href="
+              spellsS.html#summon-monster-vii">summon monster
+              VII</a>;
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="spellsMtoO.html#maze">maze</a>;
+            </p>
+            <p>
+              9th - <a style="color: #579EB6" href="spellsFtoG.html#gate">gate</a>.
+            </p>
+
+            <h5>
+              <a id="divination-domain"></a> DIVINATION DOMAIN
+            </h5>
+            <p>
+              0 - <a style="color: #579EB6" href="spellsDtoE.html#detect-magic">detect
+              magic</a>;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsDtoE.html#detect-secret-doors">detect secret
+              doors</a>;
+            </p>
+
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsS.html#see-invisibility">see
+              invisibility</a>;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsAtoB.html#arcane-sight">arcane
+              sight</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsAtoB.html#arcane-eye">arcane
+              eye</a>;
+            </p>
+
+            <p>
+              5th - <a style="color: #579EB6" href="spellsPtoR.html#prying-eyes">prying
+              eyes</a>;
+            </p>
+            <p>
+              6th - <a style="color: #579EB6" href="spellsTtoZ.html#true-seeing">true
+              seeing</a>;
+            </p>
+            <p>
+              7th - <a style="color: #579EB6" href="
+              spellsAtoB.html#greater-arcane-sight">greater arcane
+              sight</a>;
+            </p>
+
+            <p>
+              8th - <a style="color: #579EB6" href="spellsDtoE.html#discern-location">discern
+              location</a>;
+            </p>
+            <p>
+              9th - <a style="color: #579EB6" href="
+              spellsFtoG.html#foresight">foresight</a>.
+            </p>
+            <h5>
+              <a id="enchantment-domain"></a> ENCHANTMENT DOMAIN
+            </h5>
+
+            <p>
+              0 - <a style="color: #579EB6" href="spellsDtoE.html#daze">daze</a>;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsC.html#charm-person">charm
+              person</a>;
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="
+              spellsHtoL.html#hideous-laughter">hideous
+              laughter</a>;
+            </p>
+
+            <p>
+              3rd - <a style="color: #579EB6" href="
+              spellsS.html#suggestion">suggestion</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsC.html#confusion">confusion</a>;
+            </p>
+            <p>
+              5th - <a style="color: #579EB6" href="spellsHtoL.html#hold-monster">hold
+              monster</a>;
+            </p>
+
+            <p>
+              6th - <a style="color: #579EB6" href="
+              spellsHtoL.html#greater-heroism">greater
+              heroism</a>;
+            </p>
+            <p>
+              7th - <a style="color: #579EB6" href="
+              spellsHtoL.html#insanity">insanity</a>;
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="spellsC.html#mass-charm-monster">mass
+              charm monster</a>;
+            </p>
+
+            <p>
+              9th - <a style="color: #579EB6" href="spellsDtoE.html#dominate-monster">dominate
+              monster</a>.
+            </p>
+            <h5>
+              <a id="evocation-domain"></a> EVOCATION DOMAIN
+            </h5>
+            <p>
+              0 - <a style="color: #579EB6" href="spellsHtoL.html#light">light</a>;
+            </p>
+
+            <p>
+              1st - <a style="color: #579EB6" href="spellsMtoO.html#magic-missile">magic
+              missile</a>;
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="
+              spellsFtoG.html#flaming-sphere">flaming sphere</a>;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="
+              spellsHtoL.html#lightning-bolt">lightning bolt</a>;
+            </p>
+
+            <p>
+              4th - <a style="color: #579EB6" href="spellsS.html#shout">shout</a>;
+            </p>
+            <p>
+              5th - <a style="color: #579EB6" href="spellsTtoZ.html#wall-of-force">wall of
+              force</a>;
+            </p>
+            <p>
+              6th - <a style="color: #579EB6" href="
+              spellsFtoG.html#forceful-hand">forceful hand</a>;
+            </p>
+
+            <p>
+              7th - <a style="color: #579EB6" href="spellsMtoO.html#mages-sword">mage's
+              sword</a>;
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="
+              spellsTtoZ.html#telekinetic-sphere">telekinetic
+              sphere</a>;
+            </p>
+            <p>
+              9th - <a style="color: #579EB6" href="spellsC.html#crushing-hand">crushing
+              hand</a>.
+            </p>
+
+            <h5>
+              <a id="fire-domain"></a> FIRE DOMAIN
+            </h5>
+            <p>
+              0 - flare;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsAtoB.html#burning-hands">burning
+              hands</a>;
+            </p>
+
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsS.html#scorching-ray">scorching
+              ray</a>;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="
+              spellsFtoG.html#fireball">fireball</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsTtoZ.html#wall-of-fire">wall of
+              fire</a>;
+            </p>
+
+            <p>
+              5th - cone of fire (as <a style="color: #579EB6" href="
+              spellsC.html#cone-of-cold">cone of cold</a>, but
+              deals fire damage instead of cold damage);
+            </p>
+            <p>
+              6th - <a style="color: #579EB6" href="spellsS.html#summon-monster-vi">summon
+              monster VI</a> (fire creatures only);
+            </p>
+            <p>
+
+              7th - <a style="color: #579EB6" href="spellsDtoE.html#delayed-blast-fireball">delayed
+              blast fireball</a>;
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="
+              spellsHtoL.html#incendiary-cloud">incendiary
+              cloud</a>;
+            </p>
+            <p>
+              9th - <a style="color: #579EB6" href="spellsMtoO.html#meteor-swarm">meteor
+              swarm</a>.
+            </p>
+
+            <h5>
+              <a id="illusion-domain"></a> ILLUSION DOMAIN
+            </h5>
+            <p>
+              0 - <a style="color: #579EB6" href="spellsFtoG.html#ghost-sound">ghost
+              sound</a>;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsDtoE.html#disguise-self">disguise self</a>;
+            </p>
+
+            <p>
+              2nd - <a style="color: #579EB6" href="
+              spellsHtoL.html#invisibility">invisibility</a>;
+            </p>
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsMtoO.html#major-image">major
+              image</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="
+              spellsPtoR.html#phantasmal-killer">phantasmal
+              killer</a>;
+            </p>
+
+            <p>
+              5th - <a style="color: #579EB6" href="spellsS.html#shadow-evocation">shadow
+              evocation</a>;
+            </p>
+            <p>
+              6th - <a style="color: #579EB6" href="spellsMtoO.html#mislead">mislead</a>;
+            </p>
+            <p>
+              7th - <a style="color: #579EB6" href="
+              spellsHtoL.html#mass-invisibility">mass
+              invisibility</a>;
+            </p>
+
+            <p>
+              8th - <a style="color: #579EB6" href="
+              spellsS.html#scintillating-pattern">scintillating
+              pattern</a>;
+            </p>
+            <p>
+              9th - <a style="color: #579EB6" href="spellsS.html#shades">shades</a>.
+            </p>
+            <h5>
+              <a id="necromancy-domain"></a> NECROMANCY DOMAIN
+            </h5>
+
+            <p>
+              0 - <a style="color: #579EB6" href="spellsDtoE.html#disrupt-undead">disrupt
+              undead</a>;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="
+              spellsPtoR.html#ray-of-enfeeblement">ray of
+              enfeeblement</a>;
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsFtoG.html#false-life">false
+              life</a>;
+            </p>
+
+            <p>
+              3rd - <a style="color: #579EB6" href="
+              spellsTtoZ.html#vampiric-touch">vampiric touch</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsFtoG.html#fear">fear</a>;
+            </p>
+            <p>
+              5th - <a style="color: #579EB6" href="
+              spellsTtoZ.html#waves-of-fatigue">waves of
+              fatigue</a>;
+            </p>
+
+            <p>
+              6th - <a style="color: #579EB6" href="spellsC.html#circle-of-death">circle
+              of death</a>;
+            </p>
+            <p>
+              7th - <a style="color: #579EB6" href="spellsC.html#control-undead">control
+              undead</a>;
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="spellsHtoL.html#horrid-wilting">horrid
+              wilting</a>;
+            </p>
+
+            <p>
+              9th - <a style="color: #579EB6" href="spellsDtoE.html#energy-drain">energy
+              drain</a>.
+            </p>
+            <h5>
+              <a id="storm-domain"></a> STORM DOMAIN
+            </h5>
+            <p>
+              0 - <a style="color: #579EB6" href="spellsPtoR.html#ray-of-frost">ray of
+              frost</a>;
+            </p>
+
+            <p>
+              1st - <a style="color: #579EB6" href="
+              spellsMtoO.html#obscuring-mist">obscuring mist</a>
+              (as 1st-level <a style="color: #579EB6" href="clericSpells.html">cleric
+              spell</a>);
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="spellsFtoG.html#gust-of-wind">gust of
+              wind</a>;
+            </p>
+
+            <p>
+              3rd - <a style="color: #579EB6" href="
+              spellsHtoL.html#lightning-bolt">lightning bolt</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="spellsHtoL.html#ice-storm">ice
+              storm</a>;
+            </p>
+            <p>
+              5th - <a style="color: #579EB6" href="spellsC.html#control-winds">control
+              winds</a> (as 5th-level <a style="color: #579EB6" href="
+              druidSpells.html">druid spell</a>);
+            </p>
+
+            <p>
+              6th - <a style="color: #579EB6" href="spellsC.html#chain-lightning">chain
+              lightning</a>;
+            </p>
+            <p>
+              7th - <a style="color: #579EB6" href="spellsC.html#control-weather">control
+              weather</a>;
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="
+              spellsTtoZ.html#whirlwind">whirlwind</a> (as
+              8th-level <a style="color: #579EB6" href="druidSpells.html">druid
+              spell</a>);
+            </p>
+
+            <p>
+              9th - <a style="color: #579EB6" href="spellsS.html#storm-of-vengeance">storm
+              of vengeance</a> (as 9th-level <a style="color: #579EB6" href="
+              clericSpells.html">cleric spell</a>).
+            </p>
+            <h5>
+              <a id="transmutation-domain"></a> TRANSMUTATION
+              DOMAIN
+            </h5>
+            <p>
+
+              0 - <a style="color: #579EB6" href="spellsMtoO.html#mage-hand">mage
+              hand</a>;
+            </p>
+            <p>
+              1st - <a style="color: #579EB6" href="spellsDtoE.html#expeditious-retreat">expeditious
+              retreat</a>;
+            </p>
+            <p>
+              2nd - <a style="color: #579EB6" href="
+              spellsHtoL.html#levitate">levitate</a>;
+            </p>
+
+            <p>
+              3rd - <a style="color: #579EB6" href="spellsHtoL.html#haste">haste</a>;
+            </p>
+            <p>
+              4th - <a style="color: #579EB6" href="
+              spellsPtoR.html#polymorph">polymorph</a>;
+            </p>
+            <p>
+              5th - <a style="color: #579EB6" href="
+              spellsAtoB.html#baleful-polymorph">baleful
+              polymorph</a>;
+            </p>
+
+            <p>
+              6th - <a style="color: #579EB6" href="spellsDtoE.html#disintegrate">disintegrate</a>;
+            </p>
+            <p>
+              7th - <a style="color: #579EB6" href="
+              spellsPtoR.html#reverse-gravity">reverse
+              gravity</a>;
+            </p>
+            <p>
+              8th - <a style="color: #579EB6" href="spellsHtoL.html#iron-body">iron
+              body</a>;
+            </p>
+
+            <p>
+              9th - <a style="color: #579EB6" href="
+              spellsS.html#shapechange">shapechange</a>.
+            </p>
+            <h4>
+              <a id="simple-wizard"></a> Simple Variant
+            </h4>Some <a style="color: #579EB6" href="wizard.html">wizards</a> trade their
+            knowledge of magic and craft to improve their combat
+            prowess.
+            <h6>
+
+              Gain
+            </h6>Bonus feat list (as <a style="color: #579EB6" href="
+            fighter.html">fighter</a>;
+            bonus feats gained at 1st level and every five levels
+            as wizard).
+            <h6>
+              Lose
+            </h6>Scribe Scroll, wizard bonus feat list.
+            <p>
+              Wizards can also take the simple sorcerer variant.
+            </p><br />
+            <br />
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+

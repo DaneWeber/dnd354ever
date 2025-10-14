@@ -1,0 +1,1650 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=windows-1250" http-equiv="content-type" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>
+      SRD - Complex Skill Checks
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+      <tbody>
+        <tr>
+          <td style="width: 170px; text-align: right">
+            <img alt="d20 Logo" src="d20.jpg" />
+          </td>
+          <td style="width: 30px"></td>
+          <td colspan="3" id="title">
+            System Reference Document v3.5
+          </td>
+          <td rowspan="3" style="background-color: #8B2323; width: 15px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="height: 15px"></td>
+          <td rowspan="2" style="width: 15px"></td>
+        </tr>
+        <tr valign="top">
+          <td>
+            <!-- left-hand navigation / menu -->
+<table width="170px">
+<tr><td style="width: 100%; background-color: #8b2323">
+<div class="menu2">
+<ul>
+<li><a href="home.html">SRD Home</a>
+ <ul> 
+ <li><a href="tips.html">Tips and Stuff</a></li>
+ <li><a href="siteMap.html">Site Map</a></li>
+ </ul>
+</li>
+<li><a href="legal.html">Legal Information</a></li>
+<li><a href="tools.html">Tools</a>
+ <ul>
+ <li><a href="toolsScreen.html">DM Screen</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('anchorSearch.html', 'anchor_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+     Site Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('spellSearch.html', 'spell_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Spell Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('powerSearch.html', 'power_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Power Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="toolsSpellIndex.html">Spell Index</a></li>
+ <li><a href="toolsPowerIndex.html">Power Index</a></li>
+ <li><a href="toolsMonsterIndex.html">Monster Index</a></li>
+ <li><a href="toolsMagicItemIndex.html">Wondrous Item Index</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('toolsDiceSage.html', 'dicesage', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=300px,height=500px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    DiceSage</a></li>
+ </ul>
+</li>
+<li><a href="basics.html">Basics &amp; Ability Scores</a></li>
+<li><a href="description.html">Alignment &amp; Description</a></li>
+<li><a href="races.html">Races</a></li>
+<li><a href="classes.html">Character Classes</a>
+ <ul>
+ <li><a href="barbarian.html">Barbarian</a></li>
+ <li><a href="bard.html">Bard</a></li>
+ <li><a href="cleric.html">Cleric</a></li>
+ <li><a href="druid.html">Druid</a></li>
+ <li><a href="fighter.html">Fighter</a></li>
+ <li><a href="monk.html">Monk</a></li>
+ <li><a href="paladin.html">Paladin</a></li>
+ <li><a href="ranger.html">Ranger</a></li>
+ <li><a href="rogue.html">Rogue</a></li>
+ <li><a href="sorcerer.html">Sorcerer</a></li>
+ <li><a href="wizard.html">Wizard</a></li>
+ </ul>
+</li>
+<li><a href="skills.html">Skills</a>
+ <ul>
+ <li><a href="skillsAll.html">In Alphabetical Order</a></li>
+ <li><a href="skillsStr.html">Strength-Based</a></li>
+ <li><a href="skillsDex.html">Dexterity-Based</a></li>
+ <li><a href="skillsCon.html">Constitution-Based</a></li>
+ <li><a href="skillsInt.html">Intelligence-Based</a></li>
+ <li><a href="skillsWis.html">Wisdom-Based</a></li>
+ <li><a href="skillsCha.html">Charisma-Based</a></li>
+ <li><a href="skillsTro.html">Trained Only</a></li>
+ <li><a href="skillsAcp.html">With Armor Check Penalty</a></li>
+ </ul>
+</li>
+<li><a href="feats.html">Feats</a>
+ <ul>
+ <li><a href="featsAll.html">In Alphabetical Order</a></li>
+ <li><a href="featsGen.html">General</a></li>
+ <li><a href="featsFtb.html">Fighter Bonus</a></li>
+ <li><a href="featsItc.html">Item Creation</a></li>
+ <li><a href="featsMtm.html">Metamagic</a></li>
+ <li><a href="featsList.html">Compiled</a></li>
+ </ul>
+</li>
+<li><a href="equipment.html">Equipment</a>
+ <ul>
+ <li><a href="weapons.html">Weapons</a></li>
+ <li><a href="armor.html">Armor</a></li>
+ <li><a href="goodsAndServices.html">Goods &amp; Services</a></li>
+ </ul>
+</li>
+<li><a href="specialMaterials.html">Special Materials</a></li>
+<li><a href="combat.html">Combat</a>
+ <ul>
+ <li><a href="initiativeAndAoO.html">Initiative &amp; Attacks of Opportunity</a></li>
+ <li><a href="actionsInCombat.html">Actions In Combat</a></li>
+ <li><a href="injuryAndDeath.html">Injury &amp; Death</a></li>
+ <li><a href="movement.html">Movement, Position, &amp; Distance</a></li>
+ <li><a href="combatModifiers.html">Combat Modifiers</a></li>
+ <li><a href="specialAttacks.html">Special Attacks</a></li>
+ <li><a href="initiativeActions.html">Special Initiative Actions</a></li>
+ </ul>
+</li>
+<li><a href="abilitiesAndConditions.html">Special Abilities &amp; Conditions</a></li>
+<li><a href="npcClasses.html">NPC Classes</a></li>
+<li><a href="prestigeClasses.html">Prestige Classes</a>
+ <ul>
+ <li><a href="arcaneArcher.html">Arcane Archer</a></li>
+ <li><a href="arcaneTrickster.html">Arcane Trickster</a></li>
+ <li><a href="archmage.html">Archmage</a></li>
+ <li><a href="assassin.html">Assassin</a></li>
+ <li><a href="blackguard.html">Blackguard</a></li>
+ <li><a href="dragonDisciple.html">Dragon Disciple</a></li>
+ <li><a href="duelist.html">Duelist</a></li>
+ <li><a href="dwarvenDefender.html">Dwarven Defender</a></li>
+ <li><a href="eldritchKnight.html">Eldritch Knight</a></li>
+ <li><a href="hierophant.html">Hierophant</a></li>
+ <li><a href="horizonWalker.html">Horizon Walker</a></li>
+ <li><a href="loremaster.html">Loremaster</a></li>
+ <li><a href="mysticTheurge.html">Mystic Theurge</a></li>
+ <li><a href="shadowdancer.html">Shadowdancer</a></li>
+ <li><a href="thaumaturgist.html">Thaumaturgist</a></li>
+ </ul>
+</li>
+<li><a href="epicLevels.html">Epic Levels</a>
+ <ul>
+ <li><a href="epicClasses.html">Epic Classes</a></li>
+ <li><a href="epicSkills.html">Epic Skills</a></li>
+ <li><a href="epicFeats.html">Epic Feats</a></li>
+ <li><a href="epicPrestigeClasses.html">Epic Prestige Classes</a>
+  <ul>
+  <li><a href="agentRetriever.html">Agent Retriever</a></li>
+  <li><a href="cosmicDescryer.html">Cosmic Descryer</a></li>
+  <li><a href="divineEmissary.html">Divine Emissary</a></li>
+  <li><a href="epicInfiltrator.html">Epic Infiltrator</a></li>
+  <li><a href="guardianParamount.html">Guardian Paramount</a></li>
+  <li><a href="highProselytizer.html">High Proselytizer</a></li>
+  <li><a href="legendaryDreadnought.html">Legendary Dreadnought</a></li>
+  <li><a href="perfectWight.html">Perfect Wight</a></li>
+  <li><a href="unionSentinel.html">Union Sentinel</a></li>
+  </ul>
+ </li>
+ <li><a href="epicSpells.html">Epic Spells</a>
+  <ul>
+  <li><a href="epicSpellDevelopment.html">Developing</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMagicItems.html">Epic Magic Items</a>
+  <ul>
+  <li><a href="epicMagicItemsOther.html">Other Items</a></li>
+  <li><a href="epicArtifacts.html">Intelligent Items and Artifacts</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMonsters.html">Epic Monsters</a>
+  <ul>
+  <li><a href="epicNonAbominations.html">Non-Abominations</a></li>
+  </ul>
+ </li>
+ <li><a href="epicObstacles.html">Epic Obstacles</a></li>
+ </ul>
+</li>
+<li><a href="magicOverview.html">Magic Overview</a>
+ <ul>
+ <li><a href="magicSchools.html">Schools of Magic</a></li>
+ <li><a href="arcaneSpells.html">Arcane Magic</a></li>
+ <li><a href="divineSpells.html">Divine Magic</a></li>
+ <li><a href="specialAbilities.html">Special Abilities</a></li>
+ </ul>
+</li>
+<li><a href="spellList.html">Spell List</a>
+ <ul>
+ <li><a href="#" onclick="var w = window.open('spellSearch.html', 'spell_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Spell Search</a></li>
+ <li><a href="bardSpells.html">Bard Spells</a></li>
+ <li><a href="clericSpells.html">Cleric Spells</a></li>
+ <li><a href="clericDomains.html">Cleric Domains</a></li>
+ <li><a href="druidSpells.html">Druid Spells</a></li>
+ <li><a href="paladinSpells.html">Paladin Spells</a></li>
+ <li><a href="rangerSpells.html">Ranger Spells</a></li>
+ <li><a href="wizardSpells.html">Sorcerer/Wizard Spells</a></li>
+ <li><a href="spellsAtoZ.html">Spells A to Z</a>
+  <ul>
+  <li><a href="spellsAtoB.html">Acid Arrow &mdash; Burning&nbsp;Hands</a></li>
+  <li><a href="spellsC.html">Call Lightning &mdash; Curse&nbsp;Water</a></li>
+  <li><a href="spellsDtoE.html">Dancing Lights &mdash; Eyebite</a></li>
+  <li><a href="spellsFtoG.html">Fabricate &mdash; Gust&nbsp;of&nbsp;Wind</a></li>
+  <li><a href="spellsHtoL.html">Hallow &mdash; Lullaby</a></li>
+  <li><a href="spellsMtoO.html">Mage Armor &mdash; Owl's&nbsp;Wisdom</a></li>
+  <li><a href="spellsPtoR.html">Passwall &mdash; Rusting&nbsp;Grasp</a></li>
+  <li><a href="spellsS.html">Sanctuary &mdash; Sympathy</a></li>
+  <li><a href="spellsTtoZ.html">Telekinesis &mdash; Zone&nbsp;of&nbsp;Truth</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+<li><a href="magicItems.html">Magic Items</a>
+ <ul>
+ <li><a href="magicItemsCreation.html">Creating Magic Items</a></li>
+ <li><a href="magicItemsAW.html#armor">Armor</a></li>
+ <li><a href="magicItemsPRR.html#potions">Potions</a></li>
+ <li><a href="magicItemsPRR.html#rings">Rings</a></li>
+ <li><a href="magicItemsPRR.html#rods">Rods</a></li>
+ <li><a href="magicItemsSSW.html#scrolls">Scrolls</a></li>
+ <li><a href="magicItemsSSW.html#staffs">Staffs</a></li>
+ <li><a href="magicItemsSSW.html#wands">Wands</a></li>
+ <li><a href="magicItemsAW.html#weapons">Weapons</a></li>
+ <li><a href="magicItemsWI.html">Wondrous Items</a></li>
+ <li><a href="magicItemsICA.html">Intelligent, Cursed, &amp; Artifacts</a></li>
+ </ul>
+</li>
+<li><a href="monsters.html">Monsters</a>
+ <ul>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="monstersAtoZ.html">Monsters A to Z</a>
+  <ul>
+  <li><a href="monstersA.html">Aboleth &mdash; Azer</a></li>
+  <li><a href="monstersBtoC.html">Barghest &mdash; Couatl</a></li>
+  <li><a href="monstersDtoDe.html">Dark&nbsp;Mantle &mdash; Devourer</a></li>
+  <li><a href="monstersDitoDo.html">Digester &mdash; Doppleganger</a></li>
+  <li><a href="monstersDrtoDw.html">Dragon &mdash; Dwarf</a></li>
+  <li><a href="monstersEtoF.html">Eagle &mdash; Fungus</a></li>
+  <li><a href="monstersG.html">Gargoyle &mdash; Grimlock</a></li>
+  <li><a href="monstersHtoI.html">Hag &mdash; Invisible&nbsp;Stalker</a></li>
+  <li><a href="monstersKtoL.html">Kobold &mdash; Lycanthrope</a></li>
+  <li><a href="monstersMtoN.html">Magmin &mdash; Nymph</a></li>
+  <li><a href="monstersOtoR.html">Ogre &mdash; Rust&nbsp;Monster</a></li>
+  <li><a href="monstersS.html">Sahuagin &mdash; Swarm</a></li>
+  <li><a href="monstersTtoZ.html">Tarrasque &mdash; Zombie</a></li>
+  </ul>
+ </li>
+ <li><a href="monstersAnimal.html">Animals</a></li>
+ <li><a href="monstersVermin.html">Vermin</a></li>
+ <li><a href="monsterTypes.html">Types, Subtypes, &amp; Special Abilities</a></li>
+ <li><a href="improvingMonsters.html">Improving Monsters</a></li>
+ <li><a href="monsterFeats.html">Monster Feats</a></li>
+ <li><a href="monstersAsRaces.html">Monsters as Races</a></li>
+ </ul>
+</li>
+<li><a href="carryingAndExploration.html">Carrying, Movement, and Exploration</a></li>
+<li><a href="treasure.html">Treasure</a></li>
+<li><a href="wildernessAndEnvironment.html">Wilderness, Weather, and Environment</a></li>
+<li><a href="traps.html">Traps</a></li>
+<li><a href="planes.html">Planes</a></li>
+<li><a href="psionic.html">Psionic</a>
+ <ul>
+ <li><a href="psionicRaces.html">Races</a></li>
+ <li><a href="psionicClasses.html">Classes</a>
+  <ul>
+  <li><a href="psionicPsion.html">Psion</a></li>
+  <li><a href="psionicPsychicWarrior.html">Psychic Warrior</a></li>
+  <li><a href="psionicSoulknife.html">Soulknife</a></li>
+  <li><a href="psionicWilder.html">Wilder</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicSkills.html">Skills</a></li>
+ <li><a href="psionicFeats.html">Feats</a></li>
+ <li><a href="psionicPrestigeClasses.html">Prestige Classes</a>
+  <ul>
+  <li><a href="psionicCerebremancer.html">Cerebremancer</a></li>
+  <li><a href="psionicElocater.html">Elocater</a></li>
+  <li><a href="psionicFist.html">Psionic Fist</a></li>
+  <li><a href="psionicSlayer.html">Slayer</a></li>
+  <li><a href="psionicMetamind.html">Metamind</a></li>
+  <li><a href="psionicPsionUncarnate.html">Psion Uncarnate</a></li>
+  <li><a href="psionicPyrokineticist.html">Pyrokineticist</a></li>
+  <li><a href="psionicThrallherd.html">Thrallherd</a></li>
+  <li><a href="psionicWarMind.html">War Mind</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicPowers.html">Powers</a>
+  <ul>
+  <li><a href="#" onclick="
+var w = window.open('powerSearch.html', 'power_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Power Search</a></li>
+  <li><a href="psionicDescriptions.html">Descriptions Format</a></li>
+  <li><a href="psionicPsionList.html">Psion/Wilder List</a></li>
+  <li><a href="psionicDisciplineList.html">Discipline List</a></li>
+  <li><a href="psionicWarriorList.html">Psychic Warrior List</a></li>
+  <li><a href="psionicPowersAtoC.html">Adapt Body &mdash; Crystallize</a></li>
+  <li><a href="psionicPowersDtoF.html">Danger Sense &mdash; Fusion</a></li>
+  <li><a href="psionicPowersGtoP.html">Genesis &mdash; Psychofeedback</a></li>
+  <li><a href="psionicPowersQtoW.html">Quintessence &mdash; Weapon of Energy</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicItems.html">Psionic Items</a>
+  <ul>
+  <li><a href="psionicItemsAW.html">Armor &amp; Weapons</a></li>
+  <li><a href="psionicItemsCCDT.html">Cognizance Crystals, Dorjes &amp; Tatoos</a></li>
+  <li><a href="psionicItemsPSP.html">Power Stones &amp; Psicrowns</a></li>
+  <li><a href="psionicItemsU.html">Universal Items</a></li>
+  <li><a href="psionicItemsCA.html">Cursed &amp; Aritfacts</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicMonsters.html">Monsters</a></li>
+ </ul>
+</li>
+<li><a href="divine.html">Divine</a>
+ <ul>
+ <li><a href="salientAbilities.html">Salient Divine Abilities</a></li>
+ <li><a href="divineFeats.html">Feats</a></li>
+ <li><a href="divineDomains.html">Domains</a></li>
+ <li><a href="divineNewSpells.html">Spells</a></li>
+ <li><a href="divineMinions.html">Minions</a></li>
+ </ul>
+</li>
+<li><a href="unearthedArcana.html">Unearthed Arcana</a></li>
+ <li><a href="unearthedCharacter.html"><div style="margin-left: 10px">Character</div></a>
+  <ul>
+  <li><a href="unearthedContacts.html">Contacts</a></li>
+  <li><a href="unearthedReputation.html">Reputation</a></li>
+  <li><a href="unearthedHonor.html">Honor</a></li>
+  <li><a href="unearthedTaint.html">Taint</a></li>
+  <li><a href="unearthedSanity.html">Sanity</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedRaces.html"><div style="margin-left: 10px">Racial Variants</div></a>
+  <ul>
+  <li><a href="unearthedEnvironmentalVariants.html">Environmental Variants</a></li>
+  <li><a href="unearthedElementalVariants.html">Elemental Variants</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedBloodlines.html"><div style="margin-left: 10px">Bloodlines</div></a></li>
+ <li><a href="unearthedClasses.html"><div style="margin-left: 10px">Class Variants</div></a>
+  <ul>
+  <li><a href="unearthedCoreClass.html">Core Class Variants</a></li>
+  <li><a href="unearthedSpecialist.html">Specialist Wizard Variants</a></li>
+  <li><a href="unearthedGestalt.html">Gestalt Characters</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedNewClasses.html"><div style="margin-left: 10px">New Classes</div></a>
+  <ul>
+  <li><a href="unearthedPrestige.html">Prestigious Classes</a></li>
+  <li><a href="unearthedParagon.html">Racial Paragon Classes</a></li>
+  </ul>
+ </li>
+ <li class="selected"><a href="unearthedSkills.html"><div style="margin-left: 10px">Skills Variants</div></a></li>
+  <li><a href="unearthedAlternativeSkills.html"><div style="margin-left: 20px">Alternative Skill Systems</div></a></li>
+  <li><a href="unearthedCraftPoints.html"><div style="margin-left: 20px">Craft Points</div></a></li>
+ <li><a href="unearthedFeats.html"><div style="margin-left: 10px">Feats Variants</div></a>
+  <ul>
+  <li><a href="unearthedTraits.html">Traits</a></li>
+  <li><a href="unearthedFlaws.html">Flaws</a></li>
+  <li><a href="unearthedSpelltouchedFeats.html">Spelltouched Feats</a></li>
+  <li><a href="unearthedTests.html">Test-Based Prerequisites</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedCombat.html"><div style="margin-left: 10px">Combat Variants</div></a>
+  <ul>
+  <li><a href="unearthedFacing.html">Facing and Hex Grids</a></li>
+  <li><a href="unearthedDefence.html">Defence and Armor</a></li>
+  <li><a href="unearthedInjury.html">Injury and Death</a></li>
+  <li><a href="unearthedRolls.html">Rolls and Modifiers</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedMagic.html"><div style="margin-left: 10px">Magic</div></a>
+  <ul>
+  <li><a href="unearthedRecharge.html">Recharge Magic</a></li>
+  <li><a href="unearthedSpellPoints.html">Spell Points</a></li>
+  <li><a href="unearthedMetamagic.html">Metamagic Variants</a></li>
+  <li><a href="unearthedSummon.html">Summon Monster Variants</a></li>
+  <li><a href="unearthedIncantations.html">Incantations</a></li>
+  <li><a href="unearthedItems.html">Magic Items</a></li>
+  </ul>
+ </li>
+</ul>
+</div>
+</td><td></td></tr></table>
+    </td>
+          <td style="width: 30px"></td>
+          <td>
+            <!-- main contents -->
+      
+      <h2>Unearthed Arcana</h2>
+        <h3><a id="complex-skill-checks"></a>
+      COMPLEX SKILL CHECKS
+    </h3>
+    <table border="0" cellpadding="0" cellspacing="0"
+            style="width: 100%">
+              <tbody>
+                <tr>
+                  <td class="line"></td>
+                </tr>
+              </tbody>
+            </table>
+                <a href="http://www.wizards.com/dnd/images/UnA_Gallery/79161.jpg"><img
+ class="art-wide" src="pict.jpg" title="" alt="pict"
+ style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+
+      With most skill
+      checks, a single die roll immediately determines whether or not a
+      character succeeds. If a character wants to jump across a chasm or recall
+      a specific piece of information, his success or failure is apparent after
+      a single check.
+    <p>
+      For complicated and time-consuming tasks (such as disabling a very complex
+      trap or researching an obscure bit of knowledge), or at times when the
+      game master wants to build tension and suspense, the complex skill check variant
+      described here might be called for. In such a case, a specific number of
+      successful skill checks must be achieved to complete the task. The
+      complexity of the task is reflected in the DC of the required check, the
+      number of successful rolls required to complete the task, and the maximum
+      number of failed rolls that can occur before the attempt fails. In most
+      cases, one or two failed rolls does not mean that a complex skill check
+      has failed, but if three failed rolls occur before the character makes the
+      required number of successful rolls, the attempt fails. Although three
+      failures is a common baseline, game masters are encouraged to change the
+      number if the situation warrants it.
+    </p>
+    <p>
+      The game master can also apply a penalty to future rolls in the complex
+      check if the character rolls one or more failures. For instance, an
+      intricate trade negotiation requiring a complex <a style="color: #579eb6" href="skillsAll.html#diplomacy">Diplomacy</a> check might
+      assess the character a -2 penalty on her checks for each failed check made
+      as part of the complex check (representing the tide of the negotiation
+      turning against her).
+    </p>
+    <b><a id="table-example-complex-skill-checks"></a>Table: Example Complex Skill Checks</b>
+    <table cellspacing="0" border="0" cellpadding="0" style="width: 50%">
+      <tr>
+        <th>
+          Successes<br />
+          Required
+        </th>
+        <th align="left">
+
+          Complexity
+        </th>
+        <th align="left">
+          Example (Skill)
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          2 or 3
+        </td>
+
+        <td>
+          Slight
+        </td>
+        <td>
+          Training a riding horse (<a style="color: #579eb6" href="skillsAll.html#handle-animal">Handle Animal</a>)
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          4 to 6
+        </td>
+
+        <td>
+          Ordinary
+        </td>
+        <td>
+          Making a crossbow (<a style="color: #579eb6" href="skillsAll.html#craft">Craft</a> [weaponsmithing])
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          7 to 9
+        </td>
+
+        <td>
+          Good
+        </td>
+        <td>
+          Bypassing a fiendish trap (<a style="color: #579eb6" href="skillsAll.html#disable-device">Disable Device</a>)
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          10 or more
+        </td>
+
+        <td>
+          Amazing
+        </td>
+        <td>
+          Pick an amazing lock (Open Lock)
+        </td>
+      </tr>
+    </table>
+    <p>
+      Each die roll is one portion of a complex skill check, and each die
+      roll in the attempt represents at least 1 round of effort (it might
+      represent more time, depending on the skill or task in question).
+    </p>
+    <p>
+      Like skill checks, ability checks can
+      also be complex.
+    </p>
+    <p>
+      Complex skill checks
+      are rarely used in situations that call for opposed checks.
+    </p>
+    <h5><a id="behind-the-curtains-how-many-successes"></a>
+      BEHIND THE CURTAIN: HOW MANY SuCCESSES?
+    </h5>
+    <div style="margin-left: 40px">
+      During play, the game master will encounter additional situations in which
+      complex skill checks may be appropriate. Two questions then arise: How high should the DC be,
+      and how many successes should the task require? The answers to both of
+      those questions depend on how great a chance of success the game master
+      wants the players to have.
+    <p>
+      Although making these determinations might seem daunting, the system for
+      complex skill checks actually provides the game master a great deal of flexibility. Under the
+      standard rules, game masters have only one tool to represent increasingly
+      difficult tasks: increasing the DC. With complex checks, the game master
+      can also use the number of successful attempts required to achieve overall
+      success to control a skill check's difficulty.
+    </p></div>
+    <h5><a id="trying-again"></a>
+      TRYING AGAIN
+    </h5>
+      Complex skill checks
+      can usually be retried. However, like normal skill checks, some complex
+      skill checks have consequences, and those consequences must be taken into
+      account. (For example, a trap that requires a complex <a style="color: #579eb6" href="skillsAll.html#disable-device">Disable Device</a> check
+      to disarm is triggered if the attempt fails, just as with a normal trap
+      and a normal Disable Device check.)
+    <p>
+      Some skills are virtually useless for a particular task once an attempt to
+      accomplish that task has failed, and this includes complex checks as well
+      as regular skill checks. The <a style="color: #579eb6" href="#complex-skill-use">Complex Skill Use</a> section, below, describes which skills
+      can be used in complex skill checks and which allow retries after failed
+      attempts.
+    </p>
+    <h5><a id="interrupting-a-complex-skill-check"></a>
+      INTERRUPTING A COMPLEX SKILL CHECK
+    </h5>
+      Most complex skill checks can be interrupted without adversely affecting the result of
+      the check. However, the game master is free to rule that interrupting a
+      specific check affects the result. At the game master's discretion, an
+      interruption can count as one failed roll in the check's progression or
+      can mean that the complex check fails.
+    <h5><a id="aid-another"></a>
+      AID ANOTHER
+    </h5>
+      You can use the aid another action normally with complex skill checks. Characters
+      aiding the character making the attempt must roll their aid another
+      attempts each time the character makes a new die roll that is part of the
+      complex skill check.
+    <h5><a id="taking-10-and-taking-20"></a>
+      TAKING 10 AND TAKING 20
+    </h5>
+      You can take 10 on a die roll during a complex skill check in any situation
+      when you could take to on a normal check using that skill.
+    <p>
+      You can't take 20 when making a complex skill check. Taking 20
+      represents making the same skill check repeatedly until you succeed, but
+      each successful die roll in a complex skill check represents only a
+      portion of the success you must achieve to complete the skill check.
+    </p>
+    <h5><a id="why-complex-checks"></a>
+      WHY COMPLEX CHECKS?
+    </h5>
+    <div style="margin-left: 40px">
+      Complex skill checks
+      allow the game master to build suspense in critical situations, add
+      tension to multiple-round tasks during combat, enhance special
+      adventure-specific tasks, and resolve complex activities more quickly.
+    <p>
+      To build suspense with complex skill checks, the game
+      master can simply substitute a complex skill check for a normal skill
+      check during a critical task. In most such situations, using a complex
+      check lessens the likelihood that one failed roll will cause the party a
+      significant setback.
+    </p>
+    <p>
+      Complex skill checks
+      provide a more balanced way of creating combat-affecting situations that
+      depend on skill checks. For example, a complex <a style="color: #579eb6" href="skillsAll.html#knowledge">Knowledge</a> (architecture and
+      engineering) check made to find the weak spot in a narrow stone bridge
+      might allow the characters to collapse the bridge more easily and elude a
+      group of powerful pursuers.
+    </p>
+    <p>
+      Complex skill checks
+      can also enhance adventure-specific or location-specific tasks such as
+      disabling a particularly complex trap, appraising an extremely rare work
+      of art, and so on.
+    </p>
+    <p>
+      Complex skill checks
+      let players resolve complicated situations with fewer die rolls. This is
+      especially true of complex social interactions requiring multiple <a style="color: #579eb6" href="skillsAll.html#bluff">Bluff</a>,
+      <a style="color: #579eb6" href="skillsAll.html#diplomacy">Diplomacy</a>, or <a style="color: #579eb6" href="skillsAll.html#intimidate">Intimidate</a> checks.
+    </p>
+    <b><a id="table-chance-for-success"></a>Table: Chance for Success</b>
+    <table cellspacing="0" style="width: 50%">
+      <thead>
+        <tr>
+          <th>
+            Required<br />
+            Roll
+          </th>
+          <th>
+            Simple<br />
+            Check
+          </th>
+
+          <th>
+            Complex<br />
+            Check (3<sup>1</sup>)
+          </th>
+          <th>
+            Complex<br />
+            Check (5<sup>1</sup>)
+          </th>
+
+          <th>
+            Complex<br />
+            Check (10<sup>1</sup>)
+          </th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="5">
+            <ol>
+              <li>Number of successes required. (In each case, three failures
+              ends the attempt.)
+              </li>
+              <li>If character can take 10, success is guaranteed.
+              </li>
+            </ol>
+          </td>
+        </tr>
+      </tfoot>
+
+      <tbody>
+        <tr class="odd-row">
+          <td align="center">
+            2<sup>2</sup>
+          </td>
+          <td align="center">
+            95%
+          </td>
+
+          <td align="center">
+            99.88%
+          </td>
+          <td align="center">
+            99.62%
+          </td>
+          <td align="center">
+            98.04%
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center">
+            6<sup>2</sup>
+          </td>
+          <td align="center">
+            75%
+          </td>
+          <td align="center">
+
+            89.65%
+          </td>
+          <td align="center">
+            75.64%
+          </td>
+          <td align="center">
+            37.07%
+          </td>
+        </tr>
+        <tr class="odd-row">
+
+          <td align="center">
+            11
+          </td>
+          <td align="center">
+            50%
+          </td>
+          <td align="center">
+            50%
+          </td>
+          <td align="center">
+
+            22.66%
+          </td>
+          <td align="center">
+            1.93%
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            16
+          </td>
+
+          <td align="center">
+            25%
+          </td>
+          <td align="center">
+            10.35%
+          </td>
+          <td align="center">
+            1.29%
+          </td>
+          <td align="center">
+
+            0.004%
+          </td>
+        </tr>
+        <tr class="odd-row">
+          <td align="center">
+            20
+          </td>
+          <td align="center">
+            5%
+          </td>
+
+          <td align="center">
+            0.12%
+          </td>
+          <td align="center">
+            0%
+          </td>
+          <td align="center">
+            0%
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+    <p>
+      In most situations when the game master feels a complex skill check is warranted,
+      it's appropriate for the DC of a complex skill check to match the DC of a
+      simple check involving the same activity. This decreases the character's
+      chance of achieving overall success, but because complex skill checks are
+      used to best effect in tense situations and climactic encounters,
+      increasing the difficulty adds spice to the scenario.
+    </p>
+    <p>
+      Increasing the number of successes required always increases the
+      difficulty of the task, but the degree of increase depends greatly on how
+      likely the character attempting the check is to get a success each time he
+      rolls the die.
+    </p>
+    <p>
+      For example, Freeble has a <a style="color: #579eb6" href="skillsAll.html#disable-device">Disable Device</a> modifier of +14 and he
+      encounters a trap with a DC of 25. Under the normal rules, Freeble has a
+      50-50 chance of successfully disarming the trap (because half of the
+      possible results on a d20 are 11 or higher, granting her a success). If
+      the trap requires a complex check to disarm, however, these odds can
+      change. If succeeding on the complex check requires a certain number of
+      successful die rolls before the same number of failures are recorded,
+      Freeble's chance of overall success is essentially unchanged, but if the
+      trap requires more successes to disarm than the number of failures
+      required to fail the complex check, the chance of overall success drops.
+      The more difficult it is for the character to meet or exceed the DC, the
+      more pronounced the difference. If in the above example Freeble had a
+      Disable Device modifier of +9 (meaning that he has to roll a 16 or higher
+      to get a success), increasing the number of required successes reduces the
+      chance of overall success much more rapidly.
+    </p>
+    <p>
+      To determine the likelihood of overall success on a given complex skill check, compare the
+      number that the character must roll on a d20 (obtained by subtracting the
+      character's skill modifier from the check's DC) to the number of successes
+      on <a style="color: #579eb6" href="#table-chance-for-success">Table: Chance for Success</a>. By using this table to guide the choice of
+      DC and number of successes, the game master can give two checks with an
+      equal likelihood of success vastly different flavors.
+    </p></div>
+    <h5><a id="complex-skill-use"></a>
+      COMPLEX SKILL USE
+    </h5>
+      The following section provides general guidelines for using the complex
+      skill check variant with each skill in the d20 game system.
+    <h6><a id="complex-appraise"></a>
+      Appraise
+    </h6>
+    <p>
+      The <a style="color: #579eb6" href="skillsAll.html#appraise">Appraise</a> skill seldom lends itself to complex skill checks. In rare cases,
+      the game master might rule that a relic from a lost civilization or an
+      extremely powerful magic item might require a complex skill check to
+      appraise properly. In these cases, the DC and number of successes required
+      should be determined by the game master specifically for the item in
+      question.
+    </p>
+    <p>
+      Alternatively, if an item has a common value that is accepted in most of
+      the campaign world but a drastically different value in one small portion
+      of the setting, it might require one simple check to appraise the item's
+      common value and a second, complex check (usually at a higher DC) to
+      assess the item's worth in the specific area.
+    </p>
+    <h6><a id="complex-balance"></a>
+      Balance
+    </h6>
+      Since one <a style="color: #579eb6" href="skillsAll.html#balance">Balance</a> check covers movement over a short distance, using the
+      skill does not lend itself to complex skill checks. Situations
+      that call for multiple Balance checks always require multiple simple
+      checks, not one complex check.
+
+    <h6><a id="complex-bluff"></a>
+      Bluff
+    </h6>
+      Almost all uses of the <a style="color: #579eb6" href="skillsAll.html#bluff">Bluff</a> skill require only a single roll to indicate
+      whether or not you successfully fool an individual or a small group.
+      However, in certain complicated social situations, a game master might
+      want to speed the game along by requiring one complex Bluff check rather
+      than many simple checks.
+    <p>
+      For example, one of the characters wants to spend several days in a
+      noble's court trying to convince the people there that he and his
+      adventuring companions are more capable than they really are. Rather than
+      roleplay the many individual interactions, the game master decides to
+      simulate this activity with a complex <a style="color: #579eb6" href="skillsAll.html#bluff">Bluff</a> check. Because the nobles have
+      heard little of the group's exploits, the game master sets the DC at 25
+      and requires that the player achieve five successful rolls before rolling
+      three failures. Although this is a good simulation of the character
+      interacting with a series of minor NPCs over several days, the game master
+      still decides that interactions with a few individuals (the duke, his
+      chancellor, and one renowned knight in the duke's service) are too
+      important to incorporate into the complex check, and decides that the
+      player should roleplay short encounters with each of the three and make
+      separate, simple Bluff checks for each of them.
+    </p>
+    <h6><a id="complex-climb"></a>
+      Climb
+    </h6>
+      Because one <a style="color: #579eb6" href="skillsAll.html#climb">Climb</a> check covers movement over a short distance, using the
+      skill does not lend itself to complex skill checks. Situations
+      that call for multiple Climb checks always require multiple simple checks,
+      not one complex check.
+
+    <h6><a id="complex-concentration"></a>
+      Concentration
+    </h6>
+      Typical use of the <a style="color: #579eb6" href="skillsAll.html#concentration">Concentration</a> skill never requires a complex
+      skill check, but special
+      circumstances might require complex checks as determined by the game
+      master.
+    <p>
+      For example, the entrance to an enchanter's laboratory might be magically
+      enhanced with mental barriers to entry and require a complex <a style="color: #579eb6" href="skillsAll.html#concentration">Concentration</a>
+      check to pass through.
+    </p>
+    <h6><a id="complex-craft"></a>
+      Craft
+    </h6>
+      Normal use of the <a style="color: #579eb6" href="skillsAll.html#craft">Craft</a> skill in many ways resembles a complex
+      skill check, though it
+      penalizes the character on each failure (rather than only after three
+      failures).
+    <p>
+      You can replace the standard <a style="color: #579eb6" href="skillsAll.html#craft">Craft</a> check rules with a complex Craft check.
+      In that case, a single failed check doesn't ruin one third of the raw
+      materials; instead, rolling three failures before achieving the requisite
+      number of successes ruins one third of the raw materials, requiring the
+      character to start over. Each check represents a single day (if the item's
+      value is no more than 1 gp) or a full week (if the item's value is higher
+      than 1 gp) of work.
+    </p>
+    <b><a id="table-complex-craft-checks"></a>Table: Complex Craft Checks</b>
+    <table cellspacing="0" style="width: 50%">
+      <tr>
+        <th align="left">
+          Craft DC
+        </th>
+        <th>
+          Successes<br />
+          Required
+        </th>
+      </tr>
+
+      <tr class="odd-row">
+        <td>
+          9 or lower
+        </td>
+        <td align="center">
+          1
+        </td>
+      </tr>
+      <tr>
+        <td>
+
+          10-14
+        </td>
+        <td align="center">
+          3
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          15-19
+        </td>
+
+        <td align="center">
+          5
+        </td>
+      </tr>
+      <tr>
+        <td>
+          20-24
+        </td>
+        <td align="center">
+          7
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td>
+          25 or higher
+        </td>
+        <td align="center">
+          10
+        </td>
+      </tr>
+    </table>
+
+    <h6><a id="complex-decipher-script"></a>
+      Decipher Script
+    </h6>
+      Complicated books, convoluted essays, or coded documents might require a
+      complex <a style="color: #579eb6" href="skillsAll.html#decipher-script">Decipher Script</a> check. When a character attempts to decipher an
+      extremely long document, the game master can require one complex skill check rather than a
+      simple skill check for each page. The DCs for complex checks follow the
+      same guidelines that normal Decipher Script checks follow (DC 20 for
+      simple messages, DC 25 for standard texts, and DC 30 or higher for
+      intricate, exotic, or very old writing). Succeeding on the complex check
+      requires that the character achieve one successful attempt for every ten
+      pages of the manuscript before failing the check three times.
+    <h6><a id="complex-diplomacy"></a>
+      Diplomacy
+    </h6>
+      Although typical use of the <a style="color: #579eb6" href="skillsAll.html#diplomacy">Diplomacy</a> skill does not allow retries or lend
+      itself to complex skill
+      checks, a game master might choose to simulate an unusually long
+      diplomatic session or interactions with multiple small groups for an
+      extended period of time with one complex Diplomacy check.
+    <p>
+      For example, a character wants to convince a large and fractious group of
+      merchants to suspend travel through a dangerous area for a short amount of
+      time so that he and his companions can adventure in the area and confront
+      the monsters there without exposing innocent travelers to danger. Instead
+      of rolling thirty or more <a style="color: #579eb6" href="skillsAll.html#diplomacy">Diplomacy</a> checks and roleplaying the reaction of
+      each merchant in the group, the game master uses one complex skill check with a DC of 30
+      (representing the extreme difficulty of getting all the quarrelsome
+      merchants to agree) that requires five successes before rolling three
+      failures. The game master also might rule that because the tide of opinion
+      can turn against the character very quickly in this case, each failed roil
+      applies a cumulative 2 penalty to further rolls in the complex skill
+      check.
+    </p>
+    <h6><a id="complex-disable-device"></a>
+      Disable Device
+    </h6>
+      Nearly any trap can be made to require a complex <a style="color: #579eb6" href="skillsAll.html#disable-device">Disable Device</a> check
+      rather than a simple one. If the trap requires a large number of successes
+      (six or more) or if the attempt is ruined by less than three failures,
+      adjust the Challenge Rating of the trap up by 1 or 2 to reflect the
+      greater difficulty of disarming the trap.
+    <p>
+      A trap that requires a complex skill check may have a
+      higher cost and Challenge Rating than a trap of the same sort that only
+      requires a simple check; see <a style="color: #579eb6" href="#table-complex-disable-device-checks">Table: Complex Disable Device Checks</a>. See the
+      <a style="color: #579eb6" href="traps.html#mechanical-trap-cost">standard rules for trap
+      costs</a>.
+    </p>
+    <b><a id="table-complex-disable-device-checks"></a>Table: Complex Disable Device Checks</b>
+    <table cellspacing="0" style="width: 70%">
+      <tr>
+        <th align="left">
+          Feature
+        </th>
+        <th align="left">
+          Cost Modifier
+        </th>
+
+        <th align="left">
+          CR Modifier
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          3 or more<br />
+          successes
+        </td>
+
+        <td>
+          +250 gp per<br />
+          additional success
+        </td>
+        <td>
+          &mdash; (up to 6) or<br />
+          +1 (7 or more)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          3 failures
+        </td>
+        <td>
+          +0 gp
+        </td>
+        <td>
+          &mdash;
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td>
+          2 failures
+        </td>
+        <td>
+          +500 gp
+        </td>
+        <td>
+          +1
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          1 failure
+        </td>
+        <td>
+          +1,500 gp
+        </td>
+        <td>
+          +1
+        </td>
+
+      </tr>
+    </table>
+
+    <h6><a id="complex-disguise"></a>
+      Disguise
+    </h6>
+      Although typical use of the <a style="color: #579eb6" href="skillsAll.html#disguise">Disguise</a> skill does not allow retries or lend
+      itself to complex skill checks, game masters might require that the disguised character make a
+      complex Disguise check in the same complicated social situations that
+      require a complex <a style="color: #579eb6" href="#complex-bluff">Bluff</a>, <a style="color: #579eb6" href="#complex-diplomacy">Diplomacy</a>, or <a style="color: #579eb6" href="#complex-intimidate">Intimidate</a> check.
+    <h6><a id="complex-escape-artist"></a>
+      Escape Artist
+    </h6>
+      Although normal use of the <a style="color: #579eb6" href="skillsAll.html#escape-artist">Escape Artist</a> skill does not lend itself to
+      complex skill
+      checks, a few specific environmental situations might call for a
+      complex Escape Artist check. The most obvious of these and by far the most
+      common is a long, extremely narrow passage that is only wide enough to let
+      a character wiggle through. In this case, each successful roll made in the
+      complex check represents navigating a portion of the passage, and a failed
+      complex check means the character is stuck somewhere within the passage.
+    <h6><a id="complex-forgery"></a>
+      Forgery
+    </h6>
+      As with <a style="color: #579eb6" href="#complex-disguise">Disguise</a>, <a style="color: #579eb6" href="skillsAll.html#forgery">this skill</a> rarely lends itself to complex checks, but in
+      unusual situations where a forged document must go through the hands of
+      several individuals, the game master might substitute a complex check for
+      a simple Forgery check.
+    <h6><a id="complex-gather-information"></a>
+      Gather Information
+    </h6>
+      Typically, the <a style="color: #579eb6" href="skillsAll.html#gather-information">Gather Information</a> skill allows characters to get a general
+      impression of major news items in a city or to find the answer to a
+      specific question or information about a specific rumor. As long as the
+      character has only a few questions or rumors to follow up on, a simple
+      skill check should
+      be used. In situations where the characters have half a dozen or more
+      leads and questions to follow, the game master might want to use one
+      complex skill check to resolve the information-gathering attempts. In this
+      case, the number of successes required equals the number of questions or
+      leads pursued, and the game master determines the number of failures that
+      ruin the complex check.
+    <p>
+      In a complex <a style="color: #579eb6" href="skillsAll.html#gather-information">Gather information</a> check, each die roll represents 2 hours
+      spent pursuing each individual question or lead.
+    </p>
+
+    <h6><a id="complex-handle-animal"></a>
+      Handle Animal
+    </h6>
+      Complex skill checks
+      work well with the extended training times that some uses of the <a style="color: #579eb6" href="skillsAll.html#handle-animal">Handle
+      Animal</a> skill require. When an animal is trained for a general purpose such
+      as combat riding or hunting, it requires several weeks of work and one
+      simple Handle Animal check under the normal rules. With the complex skill
+      checks variant, this use of the skill always involves a complex skill
+      check, with each die roll representing one week of training time. Rolling
+      three failed results during the complex check means that the entire
+      attempt fails and that training must begin again.
+        <b><a id="table-complex-handle-animal-checks"></a>Table: Complex Handle Animal Checks</b>
+    <table cellspacing="0" style="width: 50%">
+      <tr>
+        <th align="left">
+          General Purpose
+        </th>
+        <th align="left">
+          Time
+        </th>
+
+        <th>
+          DC
+        </th>
+        <th>
+          Successes
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Combat riding
+        </td>
+
+        <td>
+          6 weeks
+        </td>
+        <td align="center">
+          20
+        </td>
+        <td align="center">
+          6
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Fighting
+        </td>
+        <td>
+          3 weeks
+        </td>
+        <td align="center">
+          20
+        </td>
+
+        <td align="center">
+          3
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Guarding
+        </td>
+        <td>
+          4 weeks
+        </td>
+
+        <td align="center">
+          20
+        </td>
+        <td align="center">
+          4
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Heavy labor
+        </td>
+
+        <td>
+          2 weeks
+        </td>
+        <td align="center">
+          15
+        </td>
+        <td align="center">
+          2
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td>
+          Hunting
+        </td>
+        <td>
+          6 weeks
+        </td>
+        <td align="center">
+          20
+        </td>
+
+        <td align="center">
+          6
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Performance
+        </td>
+        <td>
+          4 weeks
+        </td>
+
+        <td align="center">
+          15
+        </td>
+        <td align="center">
+          4
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Riding
+        </td>
+
+        <td>
+          3 weeks
+        </td>
+        <td align="center">
+          15
+        </td>
+        <td align="center">
+          3
+        </td>
+      </tr></table>
+    <h6><a id="complex-heal"></a>
+      Heal
+    </h6>
+      Although normal use of the <a style="color: #579eb6" href="skillsAll.html#heal">Heal</a> skill does not lend itself to complex
+      skill checks, game
+      masters are free to require complex skill checks to treat particularly
+      virulent strains of a disease or especially effective mixes of certain
+      poisons.
+    <h6><a id="complex-hide"></a>
+      Hide
+    </h6>
+      Normal use of the <a style="color: #579eb6" href="skillsAll.html#hide">Hide</a> skill does not lend itself to complex
+      skill checks. In certain
+      unusual situations, a game master might use a complex skill check to
+      simulate navigating an intricate environment such as an urban area while
+      remaining unnoticed (this might mean blending in rather than remaining
+      entirely out of sight in particularly crowded areas). For example, if a
+      character wants to move from one place to another within a large city
+      without being seen by members of the city watch, the game master might use
+      a complex skill check to simulate the character's progress without having
+      to determine the location of every guard or roleplaying each encounter.
+    <h6><a id="complex-intimidate"></a>
+      Intimidate
+    </h6>
+      Although typical use of the intimidate skill does not allow retries or
+      lend itself to complex skill checks, a game master
+      might choose to simulate an unusually complicated series of social
+      encounters with one complex skill check in the same way that <a style="color: #579eb6" href="#complex-bluff">Bluff</a> and
+      <a style="color: #579eb6" href="#complex-diplomacy">Diplomacy</a> can be used in such situations.
+    <h6><a id="complex-jump"></a>
+      Jump
+    </h6>
+      Since one <a style="color: #579eb6" href="skillsAll.html#jump">Jump</a> check represents one jump attempt, using the skill does not
+      lend itself to complex skill checks. Situations
+      that call for multiple jump checks always require multiple simple checks,
+      not one complex check.
+    <h6><a id="complex-knowledge"></a>
+      Knowledge
+    </h6>
+      Researching rare or lost knowledge is an excellent use of the complex
+      skill check variant.
+    <p>
+      To attempt a complex <a style="color: #579eb6" href="skillsAll.html#knowledge">Knowledge</a> check, a character must have access to a
+      library that the game master decides is sufficient for the task. The game
+      master is also free to rule that several successful rolls in a complex
+      Knowledge check exhaust a particular library or tome's resources and lead
+      the character to another work or library. In this way, a complex Knowledge
+      check can become an adventure in itself as the character searches out rare
+      or lost volumes of information.
+    </p>
+    <h6><a id="complex-listen"></a>
+      Listen
+    </h6>
+      Since one <a style="color: #579eb6" href="skillsAll.html#listen">Listen</a> check represents one attempt to hear something, using the
+      skill does not lend itself to complex skill checks. Situations
+      that call for multiple Listen checks always require multiple simple
+      checks, not one complex check.
+    <h6><a id="complex-move-silently"></a>
+      Move Silently
+    </h6>
+      Using the <a style="color: #579eb6" href="skillsAll.html#move-silently">Move Silently</a> skill does not normally lend itself to complex
+      skill checks, but a
+      complex check can be used to simulate an unusually long period of moving
+      silently in the same way that a complex <a style="color: #579eb6" href="#complex-hide">Hide</a> check might be used.
+
+    <h6><a id="complex-open-lock"></a>
+      Open Lock
+    </h6>
+      Although normal locks require only one <a style="color: #579eb6" href="skillsAll.html#open-lock">Open Lock</a> check, the game master is
+      free to include locks or a series of locks that requires a complex check
+      to open. (He can also rule that each casting of a <a style="color: #579eb6" href="spellsHtoL.html#knock">knock</a> spell counts as
+      six successes toward opening a complex lock.) Particulars for complex
+      locks are given in this table:
+    <b><a id="table-complex-open-locks-checks"></a>Table: Complex Open Locks Checks</b>
+    <table cellspacing="0" style="width: 50%">
+      <tr>
+        <th align="left">
+          Lock Quality
+        </th>
+        <th>
+          DC
+        </th>
+
+        <th>
+          Successes
+        </th>
+        <th>
+          Price
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Very simple
+        </td>
+
+        <td align="center">
+          20
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          25 gp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Very simple
+        </td>
+        <td align="center">
+          20
+        </td>
+        <td align="center">
+          3
+        </td>
+
+        <td align="center">
+          30 gp
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Average
+        </td>
+        <td align="center">
+          25
+        </td>
+
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          50 gp
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Average
+        </td>
+
+        <td align="center">
+          25
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          60 gp
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td>
+          Average
+        </td>
+        <td align="center">
+          25
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          70 gp
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Good
+        </td>
+        <td align="center">
+          30
+        </td>
+
+        <td align="center">
+          7
+        </td>
+        <td align="center">
+          100 gp
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Good
+        </td>
+
+        <td align="center">
+          30
+        </td>
+        <td align="center">
+          8
+        </td>
+        <td align="center">
+          120 gp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Good
+        </td>
+        <td align="center">
+          30
+        </td>
+        <td align="center">
+          9
+        </td>
+
+        <td align="center">
+          140 gp
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Amazing
+        </td>
+        <td align="center">
+          40
+        </td>
+
+        <td align="center">
+          10
+        </td>
+        <td align="center">
+          200 gp
+        </td>
+      </tr>
+    </table>
+    <h6><a id="complex-perform"></a>
+      Perform
+    </h6>
+      Normal use of the <a style="color: #579eb6" href="skillsAll.html#perform">Perform</a> skill does not lend itself to complex
+      skill checks. At the game
+      master's discretion, a few rare and powerful magic instruments might
+      require a complex Perform check to activate.
+    <h6><a id="complex-profession"></a>
+      Profession
+    </h6>
+      Because each <a style="color: #579eb6" href="skillsAll.html#profession">Profession</a> check already represents a week of work, the use
+      of the Profession skill does not lend itself to complex skill checks.
+    <h6><a id="complex-ride"></a>
+      Ride
+    </h6>
+      Normal use of the <a style="color: #579eb6" href="skillsAll.html#ride">Ride</a> skill does not lend itself to complex
+      skill checks. A character
+      performing a lengthy demonstration of difficult or trick riding, or
+      competing in a race, might have to make a complex Ride check to pull off
+      the entire show or finish the race; one roll per round is probably
+      appropriate.
+    <h6><a id="complex-search"></a>
+      Search
+    </h6>
+      At the game master's discretion, certain very well-hidden items might
+      require a complex <a style="color: #579eb6" href="skillsAll.html#search">Search</a> check to find. Usually this activity represents
+      several individual Search attempts made in sequence and is typically
+      better handled by treating each separate attempt as a normal Search check.
+
+    <h6><a id="complex-sense-motive"></a>
+      Sense Motive
+    </h6>
+      Although typical use of the <a style="color: #579eb6" href="skillsAll.html#sense-motive">Sense Motive</a> skill does not allow retries or
+      lend itself to complex skill checks, a game master
+      might choose to simulate an unusually complicated series of social
+      encounters in a deceit-filled environment with a complex skill check like
+      those described under the <a style="color: #579eb6" href="#complex-bluff">Bluff</a> and <a style="color: #579eb6" href="#complex-diplomacy">Diplomacy</a> descriptions.
+    <h6><a id="complex-sleight-of-hand"></a>
+      Sleight of Hand
+    </h6>
+      Normal use of the <a style="color: #579eb6" href="skillsAll.html#sleight-of-hand">Sleight of Hand</a> skill does not lend itself to complex
+      skill checks. A character performing a lengthy demonstration of legerdemain (such as a
+      magic show relying on sleight of hand) might have to make a complex
+      Sleight of Hand check to pull off the entire show, one roll per 15 minutes
+      is probably appropriate.
+    <h6><a id="complex-spellcraft"></a>
+      Spellcraft
+    </h6>
+      Although use of the <a style="color: #579eb6" href="skillsAll.html#spellcraft">Spellcraft</a> skill does not normally lend itself to
+      complex skill
+      checks, the game master is free to rule that examining a complicated
+      magical effect might require a complex Spellcraft check.
+    <h6><a id="complex-spot"></a>
+      Spot
+    </h6>
+      Since one <a style="color: #579eb6" href="skillsAll.html#spot">Spot</a> check represents one attempt to notice something, using the
+      skill does not lend itself to complex skill checks.
+      Situations that call for multiple Spot checks always require multiple
+      simple checks, not one complex check.
+    <h6><a id="complex-survival"></a>
+      Survival
+    </h6>
+      The game master might rule that a complex <a style="color: #579eb6" href="skillsAll.html#survival">Survival</a> check allows long-term
+      survival in one type of climate or terrain, raising the required number of
+      successes for extreme environments such as arctic regions or deserts.
+<h6><a id="complex-swim"></a>
+      Swim
+    </h6>
+      The game master might rule that a complex <a style="color: #579eb6" href="skillsAll.html#swim">Swim</a> check allows a character to
+      successfully swim for a longer period of time than I round. The amount of
+      time each successful complex skill check allows the
+      character to swim, along with the required number of successes and the DC,
+      is given in <a style="color: #579eb6" href="#table-complex-swim-checks">Table: Complex Swim Checks</a>. (The DC is slightly higher than
+      for simple round-by-round checks to reflect the fact that the character is
+      making many fewer checks.)
+        <b><a id="table-complex-swim-checks"></a>Table: Complex Swim Checks</b>
+    <table cellspacing="0" style="width: 50%">
+      <tr>
+        <th align="left">
+          Water Condition
+        </th>
+        <th>
+          Successes
+        </th>
+        <th align="left">
+          Time
+        </th>
+
+        <th>
+          DC
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Calm water
+        </td>
+        <td align="center">
+          2
+        </td>
+
+        <td>
+          1 hour
+        </td>
+        <td align="center">
+          12
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Rough water
+        </td>
+
+        <td align="center">
+          4
+        </td>
+        <td>
+          30 minutes
+        </td>
+        <td align="center">
+          18
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td>
+          Stormy water
+        </td>
+        <td align="center">
+          8
+        </td>
+        <td>
+          10 minutes
+        </td>
+
+        <td align="center">
+          25
+        </td>
+      </tr>
+    </table>
+    <h6><a id="complex-tumble"></a>
+      Tumble
+    </h6>
+      Normal use of the <a style="color: #579eb6" href="skillsAll.html#tumble">Tumble</a> skill does not lend itself to complex skill checks. A character
+      performing a lengthy routine of acrobatics might have to make a complex
+      Tumble check to pull off the entire show. The frequency of the checks
+      depends on the complexity of the routine.
+    <h6><a id="complex-use-magic-device"></a>
+      Use Magic Device
+    </h6>
+      Normal use of the <a style="color: #579eb6" href="skillsAll.html#use-magic-device">Use Magic Device</a> skill does not lend itself to complex
+      skill checks.
+      However, when a character makes a check to activate a magic item
+      (especially a complicated one, or one with several different functions)
+      for the first time, the game master might find a complex skill check
+      appropriate. In very special cases, this check might require a full round
+      of concentration per roll, but it should usually be part of the action
+      required to activate the item.
+    <h6><a id="complex-use-rope"></a>
+      Use Rope
+    </h6>
+      Since one <a style="color: #579eb6" href="skillsAll.html#use-rope">Use Rope</a> check represents one attempt to manipulate a rope,
+      using the skill does not lend itself to complex skill checks. Situations
+      that call for multiple Use Rope checks always require multiple simple
+      checks, not one complex check.
+      <br />
+      </td>
+
+    </tr>
+
+
+  </tbody>
+</table>
+
+</body>
+</html>

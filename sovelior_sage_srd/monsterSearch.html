@@ -1,0 +1,139 @@
+<HTML>
+<HEAD>
+<TITLE>SRD 3.5 Monster Search</TITLE>
+<LINK rel="stylesheet" type="text/css" href="style.css">
+<TABLE cellspacing=20 cellpading=0 border=0 width=100% height=100%><TR><TD valign=top>
+ <SCRIPT LANGUAGE="JavaScript" src="monsterSearch.js"></SCRIPT> <SCRIPT LANGUAGE="JavaScript" src="monsterList.js"></SCRIPT>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+</HEAD>
+
+
+<BODY>
+<H2>Monster Search</H2>
+<p>A note when searching the text, DR and SR are both spelled out, so if you want a creature with DR, search for "damage reduction."
+<p>
+<FORM name=form1 onSubmit="searchMonster(document.form1, spelllist); return false">
+<TABLE border=0 cellspacing=0><TR class="odd-row"><TD valign=center>
+
+	<B>Search text in Name&nbsp;&nbsp;&nbsp;</B></TD><TD><INPUT maxLength=60 size=30 value="" name="name">&nbsp;&nbsp;&nbsp;</TD>
+	<TD valign=center><B>Search Special Qualities</B>&nbsp;&nbsp;&nbsp;</TD><TD><INPUT type=checkbox name=shortd></TD><TD></TD></TR>
+
+<TR><TD valign=center><B>Search by Type</B></TD><TD><SELECT name=school>
+	<OPTION value="">Any Type
+	<OPTION value='Aberration'>Aberration
+	<OPTION value='Air'>(Air)
+	<OPTION value='Angel'>(Angel)
+	<OPTION value='Animal'>Animal
+	<OPTION value='Aquatic'>(Aquatic)
+	<OPTION value='Archon'>(Archon)
+	<OPTION value='Augmented'>(Augmented)
+	<OPTION value='Baatezu'>(Baatezu)
+	<OPTION value='Cold'>(Cold)
+	<OPTION value='Construct'>Construct
+	<OPTION value='Dragon'>Dragon
+	<OPTION value='Earth'>(Earth)
+	<OPTION value='Eladrin'>(Eladrin)
+	<OPTION value='Elemental'>Elemental
+	<OPTION value='Extraplanar'>(Extraplanar)
+	<OPTION value='Fey'>Fey
+	<OPTION value='Fire'>(Fire)
+	<OPTION value='Giant'>Giant
+	<OPTION value='Goblinoid'>(Goblinoid)
+	<OPTION value='Guardinal'>(Guardinal)
+	<OPTION value='Humanoid'>Humanoid
+	<OPTION value='Incorporeal'>(Incorporeal)
+	<OPTION value='Magical Beast'>Magical Beast
+	<OPTION value='Monstrous Humanoid'>Monstrous Humanoid
+	<OPTION value='Native'>(Native)
+	<OPTION value='Ooze'>Ooze
+	<OPTION value='Outsider'>Outsider
+	<OPTION value='Plant'>Plant
+	<OPTION value='Reptilian'>(Reptilian)
+	<OPTION value='Shapechanger'>(Shapechanger)
+	<OPTION value='Swarm'>(Swarm)
+	<OPTION value='Tarar`ri'>(Tanar`ri)
+	<OPTION value='Undead'>Undead
+	<OPTION value='Vermin'>Vermin
+	<OPTION value='Water'>(Water)
+</SELECT></TD>
+
+<TD valign=center><B>By CR</B></TD><TD><SELECT name=descriptor>
+	<OPTION value="">Any CR
+	<OPTION value='1/10'>1/10
+	<OPTION value='1/8'>1/8
+	<OPTION value='1/6'>1/6
+	<OPTION value='1/4'>1/4
+	<OPTION value='1/3'>1/3
+	<OPTION value='1/2'>1/2
+	<OPTION value='01'>1
+	<OPTION value='02'>2
+	<OPTION value='03'>3
+	<OPTION value='04'>4
+	<OPTION value='05'>5
+	<OPTION value='06'>6
+	<OPTION value='07'>7
+	<OPTION value='08'>8
+	<OPTION value='09'>9
+	<OPTION value='10'>10
+	<OPTION value='11'>11
+	<OPTION value='12'>12
+	<OPTION value='13'>13
+	<OPTION value='14'>14
+	<OPTION value='15'>15
+	<OPTION value='16'>16
+	<OPTION value='17'>17
+	<OPTION value='18'>18
+	<OPTION value='19'>19
+	<OPTION value='20'>20 </SELECT></TD></TR>
+
+<TR class="odd-row"><TD valign=center><B>By Environment</B></TD><TD><SELECT name=cl>
+	<OPTION value="">All locations
+	<OPTION value='Any'>Any location
+	<OPTION value='Cold'>Cold
+	<OPTION value='Temperate'>Temperate
+	<OPTION value='Warm'>Warm
+	<OPTION value='Plane'>Planar
+	<OPTION value='Underground'>Underground </SELECT>
+
+<SELECT name=level>
+	<OPTION value="">Any Region
+	<OPTION value='aquatic'>Aquatic
+	<OPTION value='desert'>Desert
+	<OPTION value='forest'>Forests
+	<OPTION value='hills'>Hills
+	<OPTION value='marsh'>Marshes
+	<OPTION value='mountain'>Mountains
+	<OPTION value='plains'>Plains </SELECT></TD>
+
+<TD valign=center><B>By Level Adjustment</B></TD><TD valign=center><SELECT name=components>
+	<OPTION value="">Any
+	<OPTION value='cohort'>Cohorts
+	<OPTION value='Familiar'>Familiars
+	<OPTION value='0'>+0
+	<OPTION value='1'>+1
+	<OPTION value='2'>+2
+	<OPTION value='3'>+3
+	<OPTION value='4'>+4
+	<OPTION value='5'>+5
+	<OPTION value='6'>+6
+	<OPTION value='7'>+7
+	<OPTION value='8'>+8
+	<OPTION value='9'>+9 </SELECT></TD></tr><Tr>
+
+<TD valign=center><B>N. of Results</B></TD><TD><SELECT name=stop>
+	<OPTION value="0">Don't stop search 
+	<OPTION value="30">Stop search at 30 results 
+	<OPTION value="50" selected>Stop search at 50 results 
+	<OPTION value="100">Stop search at 100 results 
+	<OPTION value="200">Stop search at 200 results </SELECT><BR></TD></TR></TABLE>
+<p>
+<INPUT type="submit" name="search" value="Search"><INPUT type="reset" name="clear" value="Clear form" /></FORM><BR><BR>
+<TABLE width=100% border=0 cellspacing=0><TBODY> </TABLE></TD></TR></TABLE></BODY></HTML>

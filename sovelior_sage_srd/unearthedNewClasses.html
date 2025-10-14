@@ -1,0 +1,3335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=windows-1250" http-equiv="content-type" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>
+      SRD - Generic Classes
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+      <tbody>
+        <tr>
+          <td style="width: 170px; text-align: right">
+            <img alt="d20 Logo" src="d20.jpg" />
+          </td>
+          <td style="width: 30px"></td>
+          <td colspan="3" id="title">
+            System Reference Document v3.5
+          </td>
+          <td rowspan="3" style="background-color: #8B2323; width: 15px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="height: 15px"></td>
+          <td rowspan="2" style="width: 15px"></td>
+        </tr>
+        <tr valign="top">
+          <td>
+            <!-- left-hand navigation / menu -->
+<table width="170px">
+<tr><td style="width: 100%; background-color: #8b2323">
+<div class="menu2">
+<ul>
+<li><a href="home.html">SRD Home</a>
+ <ul> 
+ <li><a href="tips.html">Tips and Stuff</a></li>
+ <li><a href="siteMap.html">Site Map</a></li>
+ </ul>
+</li>
+<li><a href="legal.html">Legal Information</a></li>
+<li><a href="tools.html">Tools</a>
+ <ul>
+ <li><a href="toolsScreen.html">DM Screen</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('anchorSearch.html', 'anchor_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+     Site Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('spellSearch.html', 'spell_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Spell Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('powerSearch.html', 'power_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Power Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="toolsSpellIndex.html">Spell Index</a></li>
+ <li><a href="toolsPowerIndex.html">Power Index</a></li>
+ <li><a href="toolsMonsterIndex.html">Monster Index</a></li>
+ <li><a href="toolsMagicItemIndex.html">Wondrous Item Index</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('toolsDiceSage.html', 'dicesage', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=300px,height=500px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    DiceSage</a></li>
+ </ul>
+</li>
+<li><a href="basics.html">Basics &amp; Ability Scores</a></li>
+<li><a href="description.html">Alignment &amp; Description</a></li>
+<li><a href="races.html">Races</a></li>
+<li><a href="classes.html">Character Classes</a>
+ <ul>
+ <li><a href="barbarian.html">Barbarian</a></li>
+ <li><a href="bard.html">Bard</a></li>
+ <li><a href="cleric.html">Cleric</a></li>
+ <li><a href="druid.html">Druid</a></li>
+ <li><a href="fighter.html">Fighter</a></li>
+ <li><a href="monk.html">Monk</a></li>
+ <li><a href="paladin.html">Paladin</a></li>
+ <li><a href="ranger.html">Ranger</a></li>
+ <li><a href="rogue.html">Rogue</a></li>
+ <li><a href="sorcerer.html">Sorcerer</a></li>
+ <li><a href="wizard.html">Wizard</a></li>
+ </ul>
+</li>
+<li><a href="skills.html">Skills</a>
+ <ul>
+ <li><a href="skillsAll.html">In Alphabetical Order</a></li>
+ <li><a href="skillsStr.html">Strength-Based</a></li>
+ <li><a href="skillsDex.html">Dexterity-Based</a></li>
+ <li><a href="skillsCon.html">Constitution-Based</a></li>
+ <li><a href="skillsInt.html">Intelligence-Based</a></li>
+ <li><a href="skillsWis.html">Wisdom-Based</a></li>
+ <li><a href="skillsCha.html">Charisma-Based</a></li>
+ <li><a href="skillsTro.html">Trained Only</a></li>
+ <li><a href="skillsAcp.html">With Armor Check Penalty</a></li>
+ </ul>
+</li>
+<li><a href="feats.html">Feats</a>
+ <ul>
+ <li><a href="featsAll.html">In Alphabetical Order</a></li>
+ <li><a href="featsGen.html">General</a></li>
+ <li><a href="featsFtb.html">Fighter Bonus</a></li>
+ <li><a href="featsItc.html">Item Creation</a></li>
+ <li><a href="featsMtm.html">Metamagic</a></li>
+ <li><a href="featsList.html">Compiled</a></li>
+ </ul>
+</li>
+<li><a href="equipment.html">Equipment</a>
+ <ul>
+ <li><a href="weapons.html">Weapons</a></li>
+ <li><a href="armor.html">Armor</a></li>
+ <li><a href="goodsAndServices.html">Goods &amp; Services</a></li>
+ </ul>
+</li>
+<li><a href="specialMaterials.html">Special Materials</a></li>
+<li><a href="combat.html">Combat</a>
+ <ul>
+ <li><a href="initiativeAndAoO.html">Initiative &amp; Attacks of Opportunity</a></li>
+ <li><a href="actionsInCombat.html">Actions In Combat</a></li>
+ <li><a href="injuryAndDeath.html">Injury &amp; Death</a></li>
+ <li><a href="movement.html">Movement, Position, &amp; Distance</a></li>
+ <li><a href="combatModifiers.html">Combat Modifiers</a></li>
+ <li><a href="specialAttacks.html">Special Attacks</a></li>
+ <li><a href="initiativeActions.html">Special Initiative Actions</a></li>
+ </ul>
+</li>
+<li><a href="abilitiesAndConditions.html">Special Abilities &amp; Conditions</a></li>
+<li><a href="npcClasses.html">NPC Classes</a></li>
+<li><a href="prestigeClasses.html">Prestige Classes</a>
+ <ul>
+ <li><a href="arcaneArcher.html">Arcane Archer</a></li>
+ <li><a href="arcaneTrickster.html">Arcane Trickster</a></li>
+ <li><a href="archmage.html">Archmage</a></li>
+ <li><a href="assassin.html">Assassin</a></li>
+ <li><a href="blackguard.html">Blackguard</a></li>
+ <li><a href="dragonDisciple.html">Dragon Disciple</a></li>
+ <li><a href="duelist.html">Duelist</a></li>
+ <li><a href="dwarvenDefender.html">Dwarven Defender</a></li>
+ <li><a href="eldritchKnight.html">Eldritch Knight</a></li>
+ <li><a href="hierophant.html">Hierophant</a></li>
+ <li><a href="horizonWalker.html">Horizon Walker</a></li>
+ <li><a href="loremaster.html">Loremaster</a></li>
+ <li><a href="mysticTheurge.html">Mystic Theurge</a></li>
+ <li><a href="shadowdancer.html">Shadowdancer</a></li>
+ <li><a href="thaumaturgist.html">Thaumaturgist</a></li>
+ </ul>
+</li>
+<li><a href="epicLevels.html">Epic Levels</a>
+ <ul>
+ <li><a href="epicClasses.html">Epic Classes</a></li>
+ <li><a href="epicSkills.html">Epic Skills</a></li>
+ <li><a href="epicFeats.html">Epic Feats</a></li>
+ <li><a href="epicPrestigeClasses.html">Epic Prestige Classes</a>
+  <ul>
+  <li><a href="agentRetriever.html">Agent Retriever</a></li>
+  <li><a href="cosmicDescryer.html">Cosmic Descryer</a></li>
+  <li><a href="divineEmissary.html">Divine Emissary</a></li>
+  <li><a href="epicInfiltrator.html">Epic Infiltrator</a></li>
+  <li><a href="guardianParamount.html">Guardian Paramount</a></li>
+  <li><a href="highProselytizer.html">High Proselytizer</a></li>
+  <li><a href="legendaryDreadnought.html">Legendary Dreadnought</a></li>
+  <li><a href="perfectWight.html">Perfect Wight</a></li>
+  <li><a href="unionSentinel.html">Union Sentinel</a></li>
+  </ul>
+ </li>
+ <li><a href="epicSpells.html">Epic Spells</a>
+  <ul>
+  <li><a href="epicSpellDevelopment.html">Developing</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMagicItems.html">Epic Magic Items</a>
+  <ul>
+  <li><a href="epicMagicItemsOther.html">Other Items</a></li>
+  <li><a href="epicArtifacts.html">Intelligent Items and Artifacts</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMonsters.html">Epic Monsters</a>
+  <ul>
+  <li><a href="epicNonAbominations.html">Non-Abominations</a></li>
+  </ul>
+ </li>
+ <li><a href="epicObstacles.html">Epic Obstacles</a></li>
+ </ul>
+</li>
+<li><a href="magicOverview.html">Magic Overview</a>
+ <ul>
+ <li><a href="magicSchools.html">Schools of Magic</a></li>
+ <li><a href="arcaneSpells.html">Arcane Magic</a></li>
+ <li><a href="divineSpells.html">Divine Magic</a></li>
+ <li><a href="specialAbilities.html">Special Abilities</a></li>
+ </ul>
+</li>
+<li><a href="spellList.html">Spell List</a>
+ <ul>
+ <li><a href="#" onclick="var w = window.open('spellSearch.html', 'spell_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Spell Search</a></li>
+ <li><a href="bardSpells.html">Bard Spells</a></li>
+ <li><a href="clericSpells.html">Cleric Spells</a></li>
+ <li><a href="clericDomains.html">Cleric Domains</a></li>
+ <li><a href="druidSpells.html">Druid Spells</a></li>
+ <li><a href="paladinSpells.html">Paladin Spells</a></li>
+ <li><a href="rangerSpells.html">Ranger Spells</a></li>
+ <li><a href="wizardSpells.html">Sorcerer/Wizard Spells</a></li>
+ <li><a href="spellsAtoZ.html">Spells A to Z</a>
+  <ul>
+  <li><a href="spellsAtoB.html">Acid Arrow &mdash; Burning&nbsp;Hands</a></li>
+  <li><a href="spellsC.html">Call Lightning &mdash; Curse&nbsp;Water</a></li>
+  <li><a href="spellsDtoE.html">Dancing Lights &mdash; Eyebite</a></li>
+  <li><a href="spellsFtoG.html">Fabricate &mdash; Gust&nbsp;of&nbsp;Wind</a></li>
+  <li><a href="spellsHtoL.html">Hallow &mdash; Lullaby</a></li>
+  <li><a href="spellsMtoO.html">Mage Armor &mdash; Owl's&nbsp;Wisdom</a></li>
+  <li><a href="spellsPtoR.html">Passwall &mdash; Rusting&nbsp;Grasp</a></li>
+  <li><a href="spellsS.html">Sanctuary &mdash; Sympathy</a></li>
+  <li><a href="spellsTtoZ.html">Telekinesis &mdash; Zone&nbsp;of&nbsp;Truth</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+<li><a href="magicItems.html">Magic Items</a>
+ <ul>
+ <li><a href="magicItemsCreation.html">Creating Magic Items</a></li>
+ <li><a href="magicItemsAW.html#armor">Armor</a></li>
+ <li><a href="magicItemsPRR.html#potions">Potions</a></li>
+ <li><a href="magicItemsPRR.html#rings">Rings</a></li>
+ <li><a href="magicItemsPRR.html#rods">Rods</a></li>
+ <li><a href="magicItemsSSW.html#scrolls">Scrolls</a></li>
+ <li><a href="magicItemsSSW.html#staffs">Staffs</a></li>
+ <li><a href="magicItemsSSW.html#wands">Wands</a></li>
+ <li><a href="magicItemsAW.html#weapons">Weapons</a></li>
+ <li><a href="magicItemsWI.html">Wondrous Items</a></li>
+ <li><a href="magicItemsICA.html">Intelligent, Cursed, &amp; Artifacts</a></li>
+ </ul>
+</li>
+<li><a href="monsters.html">Monsters</a>
+ <ul>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="monstersAtoZ.html">Monsters A to Z</a>
+  <ul>
+  <li><a href="monstersA.html">Aboleth &mdash; Azer</a></li>
+  <li><a href="monstersBtoC.html">Barghest &mdash; Couatl</a></li>
+  <li><a href="monstersDtoDe.html">Dark&nbsp;Mantle &mdash; Devourer</a></li>
+  <li><a href="monstersDitoDo.html">Digester &mdash; Doppleganger</a></li>
+  <li><a href="monstersDrtoDw.html">Dragon &mdash; Dwarf</a></li>
+  <li><a href="monstersEtoF.html">Eagle &mdash; Fungus</a></li>
+  <li><a href="monstersG.html">Gargoyle &mdash; Grimlock</a></li>
+  <li><a href="monstersHtoI.html">Hag &mdash; Invisible&nbsp;Stalker</a></li>
+  <li><a href="monstersKtoL.html">Kobold &mdash; Lycanthrope</a></li>
+  <li><a href="monstersMtoN.html">Magmin &mdash; Nymph</a></li>
+  <li><a href="monstersOtoR.html">Ogre &mdash; Rust&nbsp;Monster</a></li>
+  <li><a href="monstersS.html">Sahuagin &mdash; Swarm</a></li>
+  <li><a href="monstersTtoZ.html">Tarrasque &mdash; Zombie</a></li>
+  </ul>
+ </li>
+ <li><a href="monstersAnimal.html">Animals</a></li>
+ <li><a href="monstersVermin.html">Vermin</a></li>
+ <li><a href="monsterTypes.html">Types, Subtypes, &amp; Special Abilities</a></li>
+ <li><a href="improvingMonsters.html">Improving Monsters</a></li>
+ <li><a href="monsterFeats.html">Monster Feats</a></li>
+ <li><a href="monstersAsRaces.html">Monsters as Races</a></li>
+ </ul>
+</li>
+<li><a href="carryingAndExploration.html">Carrying, Movement, and Exploration</a></li>
+<li><a href="treasure.html">Treasure</a></li>
+<li><a href="wildernessAndEnvironment.html">Wilderness, Weather, and Environment</a></li>
+<li><a href="traps.html">Traps</a></li>
+<li><a href="planes.html">Planes</a></li>
+<li><a href="psionic.html">Psionic</a>
+ <ul>
+ <li><a href="psionicRaces.html">Races</a></li>
+ <li><a href="psionicClasses.html">Classes</a>
+  <ul>
+  <li><a href="psionicPsion.html">Psion</a></li>
+  <li><a href="psionicPsychicWarrior.html">Psychic Warrior</a></li>
+  <li><a href="psionicSoulknife.html">Soulknife</a></li>
+  <li><a href="psionicWilder.html">Wilder</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicSkills.html">Skills</a></li>
+ <li><a href="psionicFeats.html">Feats</a></li>
+ <li><a href="psionicPrestigeClasses.html">Prestige Classes</a>
+  <ul>
+  <li><a href="psionicCerebremancer.html">Cerebremancer</a></li>
+  <li><a href="psionicElocater.html">Elocater</a></li>
+  <li><a href="psionicFist.html">Psionic Fist</a></li>
+  <li><a href="psionicSlayer.html">Slayer</a></li>
+  <li><a href="psionicMetamind.html">Metamind</a></li>
+  <li><a href="psionicPsionUncarnate.html">Psion Uncarnate</a></li>
+  <li><a href="psionicPyrokineticist.html">Pyrokineticist</a></li>
+  <li><a href="psionicThrallherd.html">Thrallherd</a></li>
+  <li><a href="psionicWarMind.html">War Mind</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicPowers.html">Powers</a>
+  <ul>
+  <li><a href="#" onclick="
+var w = window.open('powerSearch.html', 'power_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Power Search</a></li>
+  <li><a href="psionicDescriptions.html">Descriptions Format</a></li>
+  <li><a href="psionicPsionList.html">Psion/Wilder List</a></li>
+  <li><a href="psionicDisciplineList.html">Discipline List</a></li>
+  <li><a href="psionicWarriorList.html">Psychic Warrior List</a></li>
+  <li><a href="psionicPowersAtoC.html">Adapt Body &mdash; Crystallize</a></li>
+  <li><a href="psionicPowersDtoF.html">Danger Sense &mdash; Fusion</a></li>
+  <li><a href="psionicPowersGtoP.html">Genesis &mdash; Psychofeedback</a></li>
+  <li><a href="psionicPowersQtoW.html">Quintessence &mdash; Weapon of Energy</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicItems.html">Psionic Items</a>
+  <ul>
+  <li><a href="psionicItemsAW.html">Armor &amp; Weapons</a></li>
+  <li><a href="psionicItemsCCDT.html">Cognizance Crystals, Dorjes &amp; Tatoos</a></li>
+  <li><a href="psionicItemsPSP.html">Power Stones &amp; Psicrowns</a></li>
+  <li><a href="psionicItemsU.html">Universal Items</a></li>
+  <li><a href="psionicItemsCA.html">Cursed &amp; Aritfacts</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicMonsters.html">Monsters</a></li>
+ </ul>
+</li>
+<li><a href="divine.html">Divine</a>
+ <ul>
+ <li><a href="salientAbilities.html">Salient Divine Abilities</a></li>
+ <li><a href="divineFeats.html">Feats</a></li>
+ <li><a href="divineDomains.html">Domains</a></li>
+ <li><a href="divineNewSpells.html">Spells</a></li>
+ <li><a href="divineMinions.html">Minions</a></li>
+ </ul>
+</li>
+<li><a href="unearthedArcana.html">Unearthed Arcana</a></li>
+ <li><a href="unearthedCharacter.html"><div style="margin-left: 10px">Character</div></a>
+  <ul>
+  <li><a href="unearthedContacts.html">Contacts</a></li>
+  <li><a href="unearthedReputation.html">Reputation</a></li>
+  <li><a href="unearthedHonor.html">Honor</a></li>
+  <li><a href="unearthedTaint.html">Taint</a></li>
+  <li><a href="unearthedSanity.html">Sanity</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedRaces.html"><div style="margin-left: 10px">Racial Variants</div></a>
+  <ul>
+  <li><a href="unearthedEnvironmentalVariants.html">Environmental Variants</a></li>
+  <li><a href="unearthedElementalVariants.html">Elemental Variants</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedBloodlines.html"><div style="margin-left: 10px">Bloodlines</div></a></li>
+ <li><a href="unearthedClasses.html"><div style="margin-left: 10px">Class Variants</div></a>
+  <ul>
+  <li><a href="unearthedCoreClass.html">Core Class Variants</a></li>
+  <li><a href="unearthedSpecialist.html">Specialist Wizard Variants</a></li>
+  <li><a href="unearthedGestalt.html">Gestalt Characters</a></li>
+  </ul>
+ </li>
+ <li class="selected"><a href="unearthedNewClasses.html"><div style="margin-left: 10px">New Classes</div></a></li>
+  <li><a href="unearthedPrestige.html"><div style="margin-left: 20px">Prestigious Classes</div></a></li>
+  <li><a href="unearthedParagon.html"><div style="margin-left: 20px">Racial Paragon Classes</div></a></li>
+ <li><a href="unearthedSkills.html"><div style="margin-left: 10px">Skills Variants</div></a>
+  <ul>
+  <li><a href="unearthedAlternativeSkills.html">Alternative Skill Systems</a></li>
+  <li><a href="unearthedCraftPoints.html">Craft Points</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedFeats.html"><div style="margin-left: 10px">Feats Variants</div></a>
+  <ul>
+  <li><a href="unearthedTraits.html">Traits</a></li>
+  <li><a href="unearthedFlaws.html">Flaws</a></li>
+  <li><a href="unearthedSpelltouchedFeats.html">Spelltouched Feats</a></li>
+  <li><a href="unearthedTests.html">Test-Based Prerequisites</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedCombat.html"><div style="margin-left: 10px">Combat Variants</div></a>
+  <ul>
+  <li><a href="unearthedFacing.html">Facing and Hex Grids</a></li>
+  <li><a href="unearthedDefence.html">Defence and Armor</a></li>
+  <li><a href="unearthedInjury.html">Injury and Death</a></li>
+  <li><a href="unearthedRolls.html">Rolls and Modifiers</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedMagic.html"><div style="margin-left: 10px">Magic</div></a>
+  <ul>
+  <li><a href="unearthedRecharge.html">Recharge Magic</a></li>
+  <li><a href="unearthedSpellPoints.html">Spell Points</a></li>
+  <li><a href="unearthedMetamagic.html">Metamagic Variants</a></li>
+  <li><a href="unearthedSummon.html">Summon Monster Variants</a></li>
+  <li><a href="unearthedIncantations.html">Incantations</a></li>
+  <li><a href="unearthedItems.html">Magic Items</a></li>
+  </ul>
+ </li>
+</ul>
+</div>
+</td><td></td></tr></table>
+    </td>
+          <td style="width: 30px"></td>
+          <td>
+            <!-- main contents -->
+
+      <h2><a id="unearthed-arcana"></a>Unearthed Arcana</h2>
+      <h3><a id="generic-classes"></a>GENERIC CLASSES</h3>
+      <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+        <tbody>
+          <tr>
+            <td class="line"></td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="http://www.wizards.com/dnd/images/UnA_Gallery/79156.jpg"><img
+ class="art-wide" src="pict.jpg" title="" alt="pict"
+ style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+      The variety of class options available to characters can seem
+      overwhelming. Though that variety can lead to interesting and exciting
+      combinations, a game master who desires to run a simpler campaign (while
+      still allowing for character variety) can use these "generic" character
+      classes in place of the standard character classes.
+    <p>
+      The three generic classes here - <a style="color: #579eb6" href="#warrior">warrior</a>, <a style="color: #579eb6" href="#expert">expert</a>, and <a style="color: #579eb6" href="#spellcaster">spellcaster</a> - cover the
+      common roles of a group of adventurers. (Despite sharing names with NPC
+      classes, the warrior and expert presented here are very different from
+      those classes.) But despite these classes' basic approaches to character
+      building, each one allows a wide variety of archetypes through the
+      selection of skills and feats.
+    </p>
+    <p>
+      If you use these generic classes, you shouldn't also use the standard
+      character classes (or variants of those classes). You can still include
+      prestige classes, if you wish to add that level of complexity to your
+      game, but you may have to tweak some prestige class prerequisites that
+      include class features not available to these classes.
+    </p>
+    <h5><a id="saving-throws"></a>
+      SAVING THROWS
+    </h5>
+      Each generic class has one or two good saves and one or two poor saves. At
+      1st level, the character designates which saves are good or poor. If the
+      character later gains a level in a different class, he designates which
+      saves are good or poor for that class.
+    <p>
+      For example, Daniel is creating a 1st-level <a style="color: #579eb6" href="#warrior">warrior</a>, a class with one good
+      save and two poor saves. He wants to create a swashbuckling-type
+      character, so he designates his good save as Reflex and his poor saves as
+      Fortitude and Will.
+    </p>
+    <p>
+      Later, Daniel's warrior gains a level of <a style="color: #579eb6" href="#expert">expert</a>, a class with two good saves
+      and one poor save. He wants to keep his Reflex save high, so he designates
+      that as a good save. He also decides that he wants his character to become
+      better at resisting enchantments, so he designates Will as his other good
+      save, and Fortitude is left as his poor save.
+    </p>
+    <h5><a  id="class-skills"></a>
+      CLASS SKILLS
+    </h5>
+      Each generic class has a specific number of class skills, as given in the
+      class description. When a character takes his first level in a generic
+      class, he chooses which skills to designate as class skills. Once these
+      are selected, the character can't change his choice of class skills
+      (though if he gains a level in another class, he can choose different
+      skills as class skills for that class).
+    <p>
+      For example, a <a style="color: #579eb6" href="#warrior">warrior</a> has six class skills, plus <a style="color: #579eb6" href="skillsAll.html#craft">Craft</a>.
+      Daniel wants to play an agile, crafty warrior who uses his high Dexterity and Charisma
+      scores to good effect. At 1st level, the character designates his class
+      skills as <a style="color: #579eb6" href="skillsAll.html#bluff">Bluff</a> (Cha), <a style="color: #579eb6" href="skillsAll.html#craft">Craft</a> (Int),
+      <a style="color: #579eb6" href="skillsAll.html#hide">Hide</a> (Dex), <a style="color: #579eb6" href="skillsAll.html#intimidate">Intimidate</a> (Cha),
+      <a style="color: #579eb6" href="skillsAll.html#jump">Jump</a> (Str), <a style="color: #579eb6" href="skillsAll.html#move-silently">Move Silently</a>
+      (Dex), <a style="color: #579eb6" href="skillsAll.html#profession">Profession</a> (Wis), and <a style="color: #579eb6" href="skillsAll.html#tumble">Tumble</a> (Dex).
+    </p>
+    <p>
+      When Daniel's warrior gains a level of <a style="color: #579eb6" href="#expert">expert</a> a class with twelve class
+      skills plus <a style="color: #579eb6" href="skillsAll.html#craft">Craft</a> and <a style="color: #579eb6" href="skillsAll.html#profession">Profession</a>,
+      he must choose a new set of class skills. Daniel wants his character to be able to continue purchasing the
+      same skills as class skills, so he starts by designating all the skills he
+      chose for his warrior as class skills. Since his character has taken up
+      life as a thief and second story artist, he adds <a style="color: #579eb6" href="skillsAll.html#balance">Balance</a> (Dex), <a style="color: #579eb6" href="skillsAll.html#climb">Climb</a>
+      (Str), <a style="color: #579eb6" href="skillsAll.html#disable-device">Disable Device</a> (Int), <a style="color: #579eb6" href="skillsAll.html#knowledge">Knowledge</a> (local) (Int),
+      <a style="color: #579eb6" href="skillsAll.html#listen">Listen</a> (Wis), and <a style="color: #579eb6" href="skillsAll.html#open-lock">Open Lock</a> (Dex) to his list of class skills.
+    </p>
+    <h5><a id="bonus-feats"></a>
+      BONUS FEATS
+    </h5>
+      Each class gains a bonus feat at 1st level, and additional bonus feats at
+      specific levels throughout the character's career. Each time the character
+      gains a bonus feat, he may select any feat for which he meets the
+      prerequisites. There is no list of bonus feats to select from.
+    <p>
+      For the purposes of these classes, the following class features can be
+      selected in place of bonus feats (unless noted, each may only be selected
+      once).
+    </p>
+    <p><a id="evasion"></a><b>Evasion (Ex):</b> As the <a style="color: #579eb6" href="monk.html#monk-evasion">monk ability</a>. <i>Prerequisite:</i> Base Reflex save +3.</p>
+    <p><a id="familiar"></a><b>Familiar:</b> As the <a style="color: #579eb6" href="sorcerer.html#sorcerer-familiar">sorcerer ability</a>. Use spellcaster level to determine <a style="color: #579eb6" href="wizard.html#familiars">familiar's</a> abilities.
+      <i>Prerequisite:</i> ability to cast arcane spells.</p>
+    <p><a id="favored-enemy"></a><b>Favored Enemy (Ex):</b> As the <a style="color: #579eb6" href="ranger.html#ranger-favored-enemy">ranger ability</a>. May be selected more than once; each additional
+      selection improves any one favored enemy bonus (including the one just selected) by 2.</p>
+    <p><a id="greater-sneak-attack"></a><b>Greater Sneak Attack (Ex):</b> Add +4d6 to your sneak attack damage. <i>Prerequisites:</i> <a style="color: #579eb6" href="skillsAll.html#hide">Hide</a> 18 ranks, <a style="color: #579eb6" href="skillsAll.html#move-silently">Move
+      Silently</a> 18 ranks, <a style="color: #579eb6" href="#sneak-attack">sneak attack</a>, <a style="color: #579eb6" href="#improved-sneak-attack">improved sneak attack</a>.</p>
+    <p><a id="improved-evasion"></a><b>Improved Evasion (Ex):</b> As the <a style="color: #579eb6" href="monk.html#monk-improved-evasion">monk ability</a>. <i>Prerequisites:</i> Base Reflex save +7, <a style="color: #579eb6" href="#evasion">evasion</a>.</p>
+    <p><a id="improved-sneak-attack"></a><b>Improved Sneak Attack (Ex):</b> Add +3d6 to your sneak attack damage. <i>Prerequisites:</i> <a style="color: #579eb6" href="skillsAll.html#hide">Hide</a> 11 ranks, <a style="color: #579eb6" href="skillsAll.html#move-silently">Move
+      Silently</a> 11 ranks, <a style="color: #579eb6" href="#sneak-attack">sneak attack</a>.</p>
+    <p><a id="smite-evil"></a><b>Smite Evil (Su):</b> As the <a style="color: #579eb6" href="paladin.html#paladin-smite-evil">paladin ability</a>, once per day, plus one additional daily use per
+      five character levels. <i>Prerequisite:</i> good alignment.</p>
+    <p><a id="sneak-attack"></a><b>Sneak Attack (Ex):</b> As the <a style="color: #579eb6" href="rogue.html#rogue-sneak-attack">rogue ability</a>, but +2d6 on damage rolls. <i>Prerequisites:</i> <a style="color: #579eb6" href="skillsAll.html#hide">Hide</a> 4
+      ranks, <a style="color: #579eb6" href="skillsAll.html#move-silently">Move Silently</a> 4 ranks.</p>
+    <p><a id="turn-undead"></a><b>Turn undead (Su):</b> As the <a style="color: #579eb6" href="cleric.html#cleric-turn-or-rebuke-undead">cleric ability</a>. <i>Prerequisite:</i> ability to cast divine spells.</p>
+    <p><a id="trap-sense"></a><b>Trap Sense (Ex):</b> Combines the rogue class features <a style="color: #579eb6" href="rogue.html#rogue-trap-sense">trap sense</a> and <a style="color: #579eb6" href="rogue.html#rogue-trapfinding">trapfinding</a>.
+      <i>Prerequisite:</i> Search 4 ranks.</p>
+    <p><a id="uncanny-dodge"></a><b>Uncanny Dodge (Ex):</b> Combines the barbarian class features <a style="color: #579eb6" href="barbarian.html#barbarian-uncanny-dodge">uncanny dodge</a> and <a style="color: #579eb6" href="barbarian.html#barbarian-improved-uncanny-dodge">improved uncanny
+      dodge</a>. All class levels stack to determine the minimum character level required to sneak attack the character.</p>
+    <p><a id="wild-empathy"></a><b>Wild Empathy (Ex):</b> As the <a style="color: #579eb6" href="druid.html#druid-wild-empathy">druid ability</a>. <i>Prerequisite:</i> <a style="color: #579eb6" href="skillsAll.html#handle-animal">Handle Animal</a> 4 ranks.</p>
+    <p>
+      You can't recreate all of the standard character classes with these
+      generic versions, particularly classes with complicated, unique, or
+      specialized features such as bardic music, a wizard's familiar, or a
+      druid's wild shape ability. If your game master allows it, you might be
+      able to select other class features in place of one or more feats.
+    </p>
+    <h5><a id="expert"></a>
+      EXPERT
+    </h5>
+    <a id="table-the-expert"></a><b>Table: The Expert</b>
+    <table cellspacing="0" cellpadding="0" border="0" style="width: 50%">
+      <tr>
+        <th>
+          Level
+        </th>
+        <th align="left">
+          Base<br />
+          Attack Bonus
+        </th>
+        <th>
+          Good<br />
+          Saves
+        </th>
+        <th>
+
+          Poor<br />
+          Save
+        </th>
+        <th align="left">
+          Special
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+
+          1st
+        </td>
+        <td>
+          +0
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+          +0
+        </td>
+
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          2nd
+        </td>
+        <td>
+          +1
+        </td>
+
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          3rd
+        </td>
+        <td>
+          +2
+        </td>
+        <td align="center">
+          +3
+        </td>
+
+        <td align="center">
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          4th
+        </td>
+
+        <td>
+          +3
+        </td>
+        <td align="center">
+          +4
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+
+          Bonus feat
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          5th
+        </td>
+        <td>
+          +3
+        </td>
+
+        <td align="center">
+          +4
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          6th
+        </td>
+        <td>
+          +4
+        </td>
+        <td align="center">
+          +5
+        </td>
+
+        <td align="center">
+          +2
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          7th
+        </td>
+
+        <td>
+          +5
+        </td>
+        <td align="center">
+          +5
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          8th
+        </td>
+        <td>
+          +6/+1
+        </td>
+
+        <td align="center">
+          +6
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          9th
+        </td>
+        <td>
+          +6/+1
+        </td>
+        <td align="center">
+          +6
+        </td>
+
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          10th
+        </td>
+
+        <td>
+          +7/+2
+        </td>
+        <td align="center">
+          +7
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          11th
+        </td>
+        <td>
+          +8/+3
+        </td>
+
+        <td align="center">
+          +7
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          12th
+        </td>
+        <td>
+          +9/+4
+        </td>
+        <td align="center">
+          +8
+        </td>
+
+        <td align="center">
+          +4
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          13th
+        </td>
+
+        <td>
+          +9/+4
+        </td>
+        <td align="center">
+          +8
+        </td>
+        <td align="center">
+          +4
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          14th
+        </td>
+        <td>
+          +10/+5
+        </td>
+
+        <td align="center">
+          +9
+        </td>
+        <td align="center">
+          +4
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          15th
+        </td>
+        <td>
+          +11/+6/+1
+        </td>
+        <td align="center">
+          +9
+        </td>
+
+        <td align="center">
+          +5
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          16th
+        </td>
+
+        <td>
+          +12/+7/+2
+        </td>
+        <td align="center">
+          +10
+        </td>
+        <td align="center">
+          +5
+        </td>
+        <td>
+
+          Bonus feat
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          17th
+        </td>
+        <td>
+          +12/+7/+2
+        </td>
+
+        <td align="center">
+          +10
+        </td>
+        <td align="center">
+          +5
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          18th
+        </td>
+        <td>
+          +13/+8/+3
+        </td>
+        <td align="center">
+          +11
+        </td>
+
+        <td align="center">
+          +6
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          19th
+        </td>
+
+        <td>
+          +14/+9/+4
+        </td>
+        <td align="center">
+          +11
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          20th
+        </td>
+        <td>
+          +15/+10/+5
+        </td>
+
+        <td align="center">
+          +12
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+
+    </table>
+    <p>
+      The expert can be a jack-of-all-trades or a master of a limited area of
+      expertise. Based on his selection of skills and feats, he can focus on
+      diplomatic matters, stealth, combat, wilderness survival, thievery, or any
+      of a number of critical tasks.
+    </p>
+    <p>
+      At first glance, the expert appears similar to the <a style="color: #579eb6" href="rogue.html">rogue</a>; it shares that
+      class's combat ability, wide range of class skills, and tendency toward
+      simple weapons and light armor. Unlike a rogue, however, the expert has no
+      special class features, but instead defines his specialty by his selection
+      of bonus feats.
+    </p>
+    <p><b>Hit Die:</b> d6.</p>
+    <p><b>Base Save Bonuses:</b> Two good saves and one poor save.</p>
+    <p><b>Class Skills:</b> Choose any twelve <a style="color: #579eb6" href="skillsAll.html">skills</a> as class skills, plus <a style="color: #579eb6" href="skillsAll.html#craft">Craft</a> and <a style="color: #579eb6" href="skillsAll.html#profession">Profession</a>.</p>
+    <p><b>Skill Points:</b> 6 + Int modifier (or four times this number at 1st level).</p>
+    <p><b>Weapon and Armor Proficiency:</b> All simple weapons, one martial weapon; light armor.</p>
+    <p><b>Bonus Feats:</b> The expert gets one bonus feat at 1st level, another at 2nd level, one at
+      4th level, and another one at every fourth class level thereafter (8th,
+      12th, and so on).</p>
+
+    <h5><a id="spellcaster"></a>
+      SPELLCASTER
+    </h5>
+    <b><a id="table-the-spellcaster"></a>Table: The Spellcaster</b>
+    <table cellspacing="0" cellpadding="0" border="0" style="width: 100%">
+     <tbody>
+      <tr>
+       <td style="width: 65%">
+    <table cellspacing="0" cellpadding="0" border="0" style="width: 100%">
+      <tr>
+        <th rowspan="2">
+          Level
+        </th>
+        <th rowspan="2" align="left">
+          Base<br />
+          Attack<br />
+          Bonus
+        </th>
+        <th rowspan="2">
+
+          Good<br />
+          Save
+        </th>
+        <th rowspan="2">
+          Poor<br />
+          Saves
+        </th>
+        <th rowspan="2" align="left">
+          Special
+        </th>
+
+        <th colspan="10">
+          <br />
+          Spells per Day
+        </th>
+      </tr>
+      <tr>
+        <th>
+          0
+        </th>
+        <th>
+
+          1st
+        </th>
+        <th>
+          2nd
+        </th>
+        <th>
+          3rd
+        </th>
+        <th>
+          4th
+        </th>
+
+        <th>
+          5th
+        </th>
+        <th>
+          6th
+        </th>
+        <th>
+          7th
+        </th>
+        <th>
+
+          8th
+        </th>
+        <th>
+          9th
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          1st
+        </td>
+
+        <td>
+          +0
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td>
+
+          Bonus feat
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          2nd
+        </td>
+        <td>
+          +1
+        </td>
+        <td align="center">
+          +3
+        </td>
+
+        <td align="center">
+          +0
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+
+          3
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          3rd
+        </td>
+
+        <td>
+          +1
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          4th
+        </td>
+        <td>
+          +2
+        </td>
+        <td align="center">
+          +4
+        </td>
+
+        <td align="center">
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          5
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          5th
+        </td>
+
+        <td>
+          +2
+        </td>
+        <td align="center">
+          +4
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+
+          Bonus feat
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          3
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          6th
+        </td>
+        <td>
+          +3
+        </td>
+        <td align="center">
+          +5
+        </td>
+
+        <td align="center">
+          +2
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          7th
+        </td>
+
+        <td>
+          +3
+        </td>
+        <td align="center">
+          +5
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          8th
+        </td>
+        <td>
+          +4
+        </td>
+        <td align="center">
+          +6
+        </td>
+
+        <td align="center">
+          +2
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          2
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          9th
+        </td>
+
+        <td>
+          +4
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          10th
+        </td>
+        <td>
+          +5
+        </td>
+        <td align="center">
+          +7
+        </td>
+
+        <td align="center">
+          +3
+        </td>
+        <td>
+          Bonus feat
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          11th
+        </td>
+
+        <td>
+          +5
+        </td>
+        <td align="center">
+          +7
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          12th
+        </td>
+        <td>
+          +6/+1
+        </td>
+        <td align="center">
+          +8
+        </td>
+
+        <td align="center">
+          +4
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          13th
+        </td>
+
+        <td>
+          +6/+1
+        </td>
+        <td align="center">
+          +8
+        </td>
+        <td align="center">
+          +4
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+
+          3
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          14th
+        </td>
+        <td>
+          +7/+2
+        </td>
+        <td align="center">
+          +9
+        </td>
+
+        <td align="center">
+          +4
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          15th
+        </td>
+
+        <td>
+          +7/+2
+        </td>
+        <td align="center">
+          +9
+        </td>
+        <td align="center">
+          +5
+        </td>
+        <td>
+
+          Bonus feat
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          5
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          16th
+        </td>
+        <td>
+          +8/+3
+        </td>
+        <td align="center">
+          +10
+        </td>
+
+        <td align="center">
+          +5
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+
+          2
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          17th
+        </td>
+
+        <td>
+          +8/+3
+        </td>
+        <td align="center">
+          +10
+        </td>
+        <td align="center">
+          +5
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td>
+          &mdash;
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          18th
+        </td>
+        <td>
+          +9/+4
+        </td>
+        <td align="center">
+          +11
+        </td>
+
+        <td align="center">
+          +6
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+
+          4
+        </td>
+        <td align="center">
+          2
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          19th
+        </td>
+
+        <td>
+          +9/+4
+        </td>
+        <td align="center">
+          +11
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          3
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          20th
+        </td>
+        <td>
+          +10/+5
+        </td>
+        <td align="center">
+          +12
+        </td>
+
+        <td align="center">
+          +6
+        </td>
+        <td>
+          Bonus feat
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+
+          6
+        </td>
+        <td align="center">
+          5
+        </td>
+      </tr>
+    </table>
+    </td>
+    <td style="width: 5%"></td>
+    <td style="width: 30%">
+    <b><a id="table-spellcaster-spells-known"></a>Table: Spellcaster Spells Known</b>
+    <table cellpadding="0" border="0" cellspacing="0" style="width: 100%">
+      <tr>
+        <th rowspan="2">
+          Level
+        </th>
+        <th colspan="10">
+          Spells Known
+        </th>
+      </tr>
+      <tr>
+        <th>
+
+          0
+        </th>
+        <th>
+          1st
+        </th>
+        <th>
+          2nd
+        </th>
+        <th>
+          3rd
+        </th>
+
+        <th>
+          4th
+        </th>
+        <th>
+          5th
+        </th>
+        <th>
+          6th
+        </th>
+        <th>
+
+          7th
+        </th>
+        <th>
+          8th
+        </th>
+        <th>
+          9th
+        </th>
+      </tr>
+      <tr class="odd-row">
+
+        <td align="center">
+          1st
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          2nd
+        </td>
+        <td align="center">
+          5
+        </td>
+
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          3rd
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          4th
+        </td>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          3
+        </td>
+
+        <td align="center">
+          1
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          5th
+        </td>
+        <td align="center">
+          6
+        </td>
+
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          6th
+        </td>
+
+        <td align="center">
+          7
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+
+          1
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          7th
+        </td>
+        <td align="center">
+          7
+        </td>
+        <td align="center">
+          5
+        </td>
+
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          8th
+        </td>
+        <td align="center">
+          8
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+
+          1
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          9th
+        </td>
+
+        <td align="center">
+          8
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          10th
+        </td>
+        <td align="center">
+          9
+        </td>
+        <td align="center">
+          5
+        </td>
+
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+
+          1
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          11th
+        </td>
+        <td align="center">
+          9
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          12th
+        </td>
+
+        <td align="center">
+          9
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+
+          4
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          1
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          13th
+        </td>
+        <td align="center">
+          9
+        </td>
+        <td align="center">
+          5
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          14th
+        </td>
+        <td align="center">
+          9
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+
+          4
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          1
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          15th
+        </td>
+
+        <td align="center">
+          9
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+
+          4
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          3
+        </td>
+
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          16th
+        </td>
+        <td align="center">
+          9
+        </td>
+        <td align="center">
+          5
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+
+          4
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          1
+        </td>
+
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          17th
+        </td>
+        <td align="center">
+          9
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+
+          4
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          3
+        </td>
+
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          18th
+        </td>
+
+        <td align="center">
+          9
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+
+          4
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          3
+        </td>
+
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          1
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          19th
+        </td>
+        <td align="center">
+          9
+        </td>
+        <td align="center">
+          5
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+
+          4
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          3
+        </td>
+
+        <td align="center">
+          2
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          20th
+        </td>
+        <td align="center">
+          9
+        </td>
+
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+
+          4
+        </td>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          3
+        </td>
+
+        <td align="center">
+          3
+        </td>
+        <td align="center">
+          3
+        </td>
+      </tr>
+    </table>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <p>
+      Whether arcane or divine, the spellcaster has an array of magical effects
+      at her beck and call. Depending on her choice of spells, she can be a
+      healer or an enchanter, a necromancer or a trickster.
+    </p>
+    <p>
+      The spellcaster most closely resembles the <a style="color: #579eb6" href="sorcerer.html">sorcerer</a>, though she has fewer
+      spells per day than that class. In exchange, she gains a number of bonus
+      feats that she can use to improve her magical aptitude, increase her
+      survivability, heighten her combat skills, or achieve any of a wide
+      variety of other goals.
+    </p>
+    <p><b>Hit Die:</b> d4.</p>
+    <p><b>Base Save Bonuses:</b> One good save and two poor saves.</p>
+    <p><b>Class Skills:</b> Choose any four <a style="color: #579eb6" href="skillsAll.html">skills</a> as class skills, plus <a style="color: #579eb6" href="skillsAll.html#craft">Craft</a>, <a style="color: #579eb6" href="skillsAll.html#knowledge">Knowledge</a> (all), and
+      <a style="color: #579eb6" href="skillsAll.html#profession">Profession</a>.</p>
+    <p><b>Skill Points:</b> 2 + Int modifier (or four times this number at 1st level).</p>
+    <p><b>Weapon and Armor Proficiency:</b> One simple weapon; no armor.</p>
+    <p><b>Bonus Feats:</b> The spellcaster gets one bonus feat at 1st level, one at 5th level, and
+      another one at every fifth class level thereafter (10th, 15th, and so on).</p>
+    <p><b>Spellcasting:</b> A spellcaster learns and casts spells as a <a style="color: #579eb6" href="sorcerer.html">sorcerer</a>. She may select her
+      spells known from the <a style="color: #579eb6" href="clericSpells.html">cleric</a>, <a style="color: #579eb6" href="druidSpells.html">druid</a>, and <a style="color: #579eb6" href="wizardSpells.html">sorcerer/wizard</a> spell lists.</p>
+    <p>
+      A spellcaster must choose at 1st level whether to be an arcane spellcaster
+      or a divine spellcaster. This choice has no impact on the spells that she
+      may learn, but affects what kinds of scrolls she can use and which ability
+      score controls her spellcasting. An arcane spellcaster may designate
+      either Intelligence or Charisma as the ability score that determines the
+      highest-level spell she can learn or cast, and the Difficulty Class of her
+      spell's saving throws. A divine spellcaster must use Wisdom to determine
+      the highest-level spell she can learn or cast, and the DC of her spell's
+      saving throws.
+    </p>
+    <p><b>Multiclassing:</b> A character can multiclass between arcane spellcaster and divine
+      spellcaster.</p>
+
+    <h5><a id="warrior"></a>
+      WARRIOR
+    </h5>
+    <b><a id="table-the-warrior"></a>Table: The Warrior</b>
+    <table border="0" cellspacing="0" style="width: 50%">
+      <tr>
+        <th>
+          Level
+        </th>
+        <th align="left">
+          Base<br />
+          Attack Bonus
+        </th>
+        <th>
+          Good<br />
+          Save
+        </th>
+        <th>
+          Poor<br />
+          Saves
+        </th>
+        <th align="left">
+          Special
+        </th>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          1st
+        </td>
+        <td>
+          +1
+        </td>
+        <td align="center">
+          +2
+        </td>
+
+        <td align="center">
+          +0
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          2nd
+        </td>
+
+        <td>
+          +2
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td>
+
+          Bonus feat
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          3rd
+        </td>
+        <td>
+          +3
+        </td>
+
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          4th
+        </td>
+        <td>
+          +4
+        </td>
+        <td align="center">
+          +4
+        </td>
+
+        <td align="center">
+          +1
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          5th
+        </td>
+
+        <td>
+          +5
+        </td>
+        <td align="center">
+          +4
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          6th
+        </td>
+        <td>
+          +6/+1
+        </td>
+
+        <td align="center">
+          +5
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          7th
+        </td>
+        <td>
+          +7/+2
+        </td>
+        <td align="center">
+          +5
+        </td>
+
+        <td align="center">
+          +2
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          8th
+        </td>
+
+        <td>
+          +8/+3
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+
+          Bonus feat
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          9th
+        </td>
+        <td>
+          +9/+4
+        </td>
+
+        <td align="center">
+          +6
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          10th
+        </td>
+        <td>
+          +10/+5
+        </td>
+        <td align="center">
+          +7
+        </td>
+
+        <td align="center">
+          +3
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          11th
+        </td>
+
+        <td>
+          +11/+6/+1
+        </td>
+        <td align="center">
+          +7
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          12th
+        </td>
+        <td>
+          +12/+7/+2
+        </td>
+
+        <td align="center">
+          +8
+        </td>
+        <td align="center">
+          +4
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          13th
+        </td>
+        <td>
+          +13/+8/+3
+        </td>
+        <td align="center">
+          +8
+        </td>
+
+        <td align="center">
+          +4
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          14th
+        </td>
+
+        <td>
+          +14/+9/+4
+        </td>
+        <td align="center">
+          +9
+        </td>
+        <td align="center">
+          +4
+        </td>
+        <td>
+
+          Bonus feat
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          15th
+        </td>
+        <td>
+          +15/+10/+5
+        </td>
+
+        <td align="center">
+          +9
+        </td>
+        <td align="center">
+          +5
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          16th
+        </td>
+        <td>
+          +16/+11/+6/+1
+        </td>
+        <td align="center">
+          +10
+        </td>
+
+        <td align="center">
+          +5
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          17th
+        </td>
+
+        <td>
+          +17/+12/+7/+2
+        </td>
+        <td align="center">
+          +10
+        </td>
+        <td align="center">
+          +5
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          18th
+        </td>
+        <td>
+          +18/+13/+8/+3
+        </td>
+
+        <td align="center">
+          +11
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td>
+          Bonus feat
+        </td>
+      </tr>
+
+      <tr class="odd-row">
+        <td align="center">
+          19th
+        </td>
+        <td>
+          +19/+14/+9/+4
+        </td>
+        <td align="center">
+          +11
+        </td>
+
+        <td align="center">
+          +6
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          20th
+        </td>
+
+        <td>
+          +20/+15/+10/+5
+        </td>
+        <td align="center">
+          +12
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td>
+
+          Bonus feat
+        </td>
+      </tr>
+    </table>
+    <p>
+      The warrior is the basic combatant of the trio of generic classes. He has
+      the <a style="color: #579eb6" href="fighter.html">fighter's</a> hit points, combat prowess, bonus feats, and weapon
+      selection.
+    </p>
+    <p>
+      Unlike the fighter, the warrior can choose a different array of class
+      skills, can designate any one of his saves as a good save, and can select
+      his bonus feats from the entire list of feats available. Also, if he wants
+      to be proficient in heavy armor, he must take the <a style="color: #579eb6" href="featsAll.html#armor-proficiency-heavy">Armor Proficiency (heavy)</a> feat.
+    </p>
+    <p><b>Hit Die:</b> d10.</p>
+    <p><b>Base Save Bonuses:</b> One good save and two poor saves.</p>
+    <p><b>Class Skills:</b> Choose any six <a style="color: #579eb6" href="skillsAll.html">skills</a> as class skills, plus <a style="color: #579eb6" href="skillsAll.html#craft">Craft</a>.</p>
+    <p><b>Skill Points:</b> 2 + Int modifier (or four times this number at 1st level).</p>
+    <p><b>Weapon and Armor Proficiency:</b> All simple and martial weapons; light and medium armor; shields (but not
+      tower shields).</p>
+    <p><b>Bonus Feats:</b>A warrior gets one bonus feat at 1st level, one at 2nd level, and another
+      one at every second class level (4th, 6th, and so on).</p>
+    <h5><a id="milticlass-generic-characters"></a>
+      MULTICLASS GENERIC CHARACTERS
+    </h5>
+      With only three classes to choose from (four if you count arcane
+      spellcasters and divine spellcasters as separate classes), multiclassing
+      in this variant system offers a much smaller variety of combinations than
+      in the standard game. Thus, the game master probably shouldn't apply an XP
+      penalty for characters who multiclass.
+    <p>
+      If you wish to retain the "favored class" element of the standard game,
+      treat any race whose favored class is barbarian, fighter, monk, or paladin
+      as having warrior as its favored class. A race whose favored class is
+      bard, ranger, or rogue has expert as its favored class. A race that has
+      cleric or druid as its favored class treats divine spellcaster as favored,
+      while a race with a favored class of sorcerer or wizard treats arcane
+      spellcaster as its favored class.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

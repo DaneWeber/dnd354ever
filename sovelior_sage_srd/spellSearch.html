@@ -1,0 +1,300 @@
+<HTML>
+  <HEAD>
+    <TITLE>SRD 3.5 Spell Search</TITLE>
+    <LINK rel="stylesheet" type="text/css" href="style.css">
+      <TABLE cellspacing=20 cellpading=0 border=0 width=100% height=100%><TR><TD valign=top>
+<!-- Sviluppato da Mauro Donati -->
+<!-- Modified by Jason O. Jensen and Eric Jensen -->
+    <SCRIPT LANGUAGE="JavaScript" src="spellSearch.js"></SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" src="spellList.js"></SCRIPT>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+  </HEAD>
+  <BODY>
+    <H2>Spell Search</H2>
+    <FORM name=form1 onSubmit="searchSpell(document.form1, spelllist); return false">
+      <TABLE border=0 cellspacing=0 style="width: 100%">
+        <TR class="odd-row">
+          <TD valign=center><B>Search text in Name&nbsp;&nbsp;&nbsp;</B></TD>					<!--search box-->
+          <TD><INPUT id="input" maxLength=60 size=30 value="" name="name">&nbsp;&nbsp;&nbsp;</TD>
+          <TD valign=center colspan="2"><B>Also Search Short Descriptions</B>&nbsp;&nbsp;&nbsp;<br />		<!--also search checkboxes-->
+          <B>Also Search Target/Area/Effect</B>&nbsp;&nbsp;&nbsp;
+          </TD>
+          <TD><INPUT type=checkbox name=shortd onClick="tsd.checked=true";><br />
+          <INPUT type=checkbox name=target onClick="tt.checked=true";>
+          </TD>
+          <TD valign=center></TD>
+        </TR>
+        <TR>
+          <TD valign=center><B>Search by School</B></TD>							<!--school dropdown menu-->
+          <TD>
+      <SELECT name=school onClick="ts.checked=true; tsb.checked=true"; >
+        <OPTION value="">Any Schools</OPTION>
+	<OPTION value='Abjuration'>Abjuration</OPTION>
+	<OPTION value='Conjuration'>Conjuration</OPTION>
+	<OPTION value='Calling'>Conjuration (Calling)</OPTION>
+	<OPTION value='Creation'>Conjuration (Creation)</OPTION>
+	<OPTION value='Healing'>Conjuration (Healing)</OPTION>
+	<OPTION value='Summoning'>Conjuration (Summoning)</OPTION>
+	<OPTION value='Teleportation'>Conjuration (Teleportation)</OPTION>
+	<OPTION value='Divination'>Divination</OPTION>
+	<OPTION value='Scrying'>Divination (Scrying)</OPTION>
+	<OPTION value='Enchantment'>Enchantment</OPTION>
+	<OPTION value='Charm'>Enchantment (Charm)</OPTION>
+	<OPTION value='Compulsion'>Enchantment (Compulsion)</OPTION>
+	<OPTION value='Evocation'>Evocation</OPTION>
+	<OPTION value='Illusion'>Illusion</OPTION>
+	<OPTION value='Figment'>Illusion (Figment)</OPTION>
+	<OPTION value='Glamer'>Illusion (Glamer)</OPTION>
+	<OPTION value='Pattern'>Illusion (Pattern)</OPTION>
+	<OPTION value='Phantasm'>Illusion (Phantasm)</OPTION>
+	<OPTION value='Shadow'>Illusion (Shadow)</OPTION>
+	<OPTION value='Necromancy'>Necromancy</OPTION>
+	<OPTION value='Transmutation'>Transmutation</OPTION>
+	<OPTION value='Universal'>Universal</OPTION>
+      </SELECT>
+          </TD>
+          <TD valign=center><B>By Descriptor</B></TD>
+          <TD>
+      <SELECT name=descriptor onClick="td.checked=true";>							<!--descriptor dropdown menu-->
+        <OPTION value="">Any or No Descriptors</OPTION>
+	<OPTION value='Chaotic'>Chaotic</OPTION>
+	<OPTION value='Good'>Good</OPTION>
+	<OPTION value='Lawful'>Lawful</OPTION>
+	<OPTION value='Evil'>Evil</OPTION>
+	<OPTION value='Air'>Air</OPTION>
+	<OPTION value='Water'>Water</OPTION>
+	<OPTION value='Earth'>Earth</OPTION>
+	<OPTION value='Fire'>Fire</OPTION>
+	<OPTION value='Cold'>Cold</OPTION>
+	<OPTION value='Acid'>Acid</OPTION>
+	<OPTION value='Electricity'>Electricity</OPTION>
+	<OPTION value='Sonic'>Sonic</OPTION>
+	<OPTION value='Force'>Force</OPTION>
+	<OPTION value='Creation'>Creation</OPTION>
+	<OPTION value='Darkness'>Darkness</OPTION>
+	<OPTION value='Death'>Death</OPTION>
+	<OPTION value='Fear'>Fear</OPTION>
+	<OPTION value='Light'>Light</OPTION>
+	<OPTION value='Language-Dependent'>Language-Dependent</OPTION>
+	<OPTION value='Mind-Affecting'>Mind-Affecting</OPTION>
+      </SELECT>
+          </TD>
+        </TR>
+        <TR class="odd-row">
+          <TD valign=center><B>By Class and Level</B></TD>							<!--class dropdown menu-->
+          <TD>
+      <SELECT name=cl onClick="tl.checked=true";>
+        <OPTION value="">Any Classes</OPTION>
+	<OPTION value='Brd'>Brd</OPTION>
+	<OPTION value='Clr'>Clr</OPTION>
+	<OPTION value='Drd'>Drd</OPTION>
+	<OPTION value='Pal'>Pal</OPTION>
+	<OPTION value='Rgr'>Rgr</OPTION>
+	<OPTION value='Sor/Wiz'>Sor/Wiz</OPTION>
+	<OPTION value='Wiz'>Wiz</OPTION>
+	<OPTION value='Chaos'>Chaos</OPTION>
+	<OPTION value='Good'>Good</OPTION>
+	<OPTION value='Law'>Law</OPTION>
+	<OPTION value='Evil'>Evil</OPTION>
+	<OPTION value='Air'>Air</OPTION>
+	<OPTION value='Water'>Water</OPTION>
+	<OPTION value='Earth'>Earth</OPTION>
+	<OPTION value='Fire'>Fire</OPTION>
+	<OPTION value='Animal'>Animal</OPTION>
+	<OPTION value='Death'>Death</OPTION>
+	<OPTION value='Destruction'>Destruction</OPTION>
+	<OPTION value='Healing'>Healing</OPTION>
+	<OPTION value='Knowledge'>Knowledge</OPTION>
+	<OPTION value='Luck'>Luck</OPTION>
+	<OPTION value='Magic'>Magic</OPTION>
+	<OPTION value='Plant'>Plant</OPTION>
+	<OPTION value='Protection'>Protection</OPTION>
+	<OPTION value='Strength'>Strength</OPTION>
+	<OPTION value='Sun'>Sun</OPTION>
+	<OPTION value='Travel'>Travel</OPTION>
+	<OPTION value='Trickery'>Trickery</OPTION>
+	<OPTION value='War'>War</OPTION>
+      </SELECT>
+      <SELECT name=level onClick="tl.checked=true";>								<!--level dropdown menu-->
+        <OPTION value="">Any Levels</OPTION>
+	<OPTION value='0'>0</OPTION>
+	<OPTION value='1'>1</OPTION>
+	<OPTION value='2'>2</OPTION>
+	<OPTION value='3'>3</OPTION>
+	<OPTION value='4'>4</OPTION>
+	<OPTION value='5'>5</OPTION>
+	<OPTION value='6'>6</OPTION>
+	<OPTION value='7'>7</OPTION>
+	<OPTION value='8'>8</OPTION>
+	<OPTION value='9'>9</OPTION>
+      </SELECT>
+          </TD>
+          <TD valign=center><B>By Component</B></TD>								<!--components dropdown menu-->
+          <TD valign=center>
+      <SELECT name=components onClick="tc.checked=true";>
+        <OPTION value="">Any Components</OPTION>
+	<OPTION value='V'>V</OPTION>
+	<OPTION value='S'>S</OPTION>
+	<OPTION value='M'>M</OPTION>
+	<OPTION value='F'>F</OPTION>
+	<OPTION value='DF'>DF</OPTION>
+	<OPTION value='XP'>XP</OPTION>
+      </SELECT>
+</TD>
+<TD colspan="2">
+<script>
+var componentCheck
+</script>
+<input type="radio" value="with" name="RadioButton" checked onClick="componentCheck=0">With			<!--component radiobuttons-->
+<input type="radio" value="without" name="RadioButton" onClick="componentCheck=1">Without
+
+          </TD>
+        </TR>
+        <TR>
+         <TD><b>By Saving Throw</b></TD>									<!--saving throw dropdown menu-->
+         <TD>
+      <SELECT name=savingthrow onClick="tst.checked=true";>
+        <OPTION value="">Any Saving Throw</OPTION>
+        <OPTION value="None">None</OPTION>
+        <OPTION value="Fortitude">Fortitude</OPTION>
+        <OPTION value="Fortitude negates"> - negates</OPTION>
+        <OPTION value="Fortitude half"> - half</OPTION>
+        <OPTION value="Fortitude partial"> - partial</OPTION>
+        <OPTION value="Reflex">Reflex</OPTION>
+        <OPTION value="Reflex negates"> - negates</OPTION>
+        <OPTION value="Reflex half"> - half</OPTION>
+        <OPTION value="Reflex partial"> - partial</OPTION>
+        <OPTION value="Will">Will</OPTION>
+        <OPTION value="Will negates"> - negates</OPTION>
+        <OPTION value="Will partial"> - partial</OPTION>
+        <OPTION value="Will disbelief"> - disbelief</OPTION>
+        <OPTION value="harmless">Harmless</OPTION>
+        <OPTION value="object">Object</OPTION>
+
+      </SELECT><BR>
+          </TD>
+         <TD><b>By Spell Resistance</b></TD>									<!--spell resistance dropdown menu-->
+         <TD>
+      <SELECT name=spellresistance onClick="tsr.checked=true";>
+        <OPTION value="">Any Spell Resistance</OPTION>
+        <OPTION value="Yes">Yes</OPTION>
+        <OPTION value="No">No</OPTION>
+      </SELECT><BR>
+          </TD>
+        </TR>
+        <tr class="odd-row">
+        <TD colspan="2"><b>By Target/Area/Effect</b></TD>							<!--target dropdown menu-->
+         <TD colspan="5">
+         <SELECT name=effect onClick="tt.checked=true";>
+        <OPTION value="">Any</OPTION>
+        <OPTION value="spread">Spread</OPTION>
+        <OPTION value="burst">Burst</OPTION>
+        <OPTION value="cone">Cone</OPTION>
+        <OPTION value="ray">Ray</OPTION>
+        <OPTION value="You">target: You</OPTION>
+        <OPTION value="one creature">One Creature</OPTION>
+        <OPTION value="creature touched">Creature Touched</OPTION>
+        <OPTION value="creature per level">X Creatures Per Level</OPTION>
+        <OPTION value="object">Object</OPTION>
+        <OPTION value="undead">Undead</OPTION>
+        <OPTION value="animal">Animal</OPTION>
+        <OPTION value="plant">Plant</OPTION>
+      </SELECT>
+      </td>
+      </tr>
+      <tr>
+       <td colspan="2">
+          <b>Display:</b><br />											<!--display options checkboxes-->
+          <INPUT type=checkbox checked="true" name="ts">School&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <INPUT type=checkbox checked="true" name="tsb">Subschool&nbsp;&nbsp;
+          <INPUT type=checkbox checked="true" name="td">Descriptor&nbsp;&nbsp;<br />
+          <INPUT type=checkbox checked="true" name="tl">Class/Level&nbsp;&nbsp;
+          <INPUT type=checkbox checked="true" name="tc">Components&nbsp;&nbsp;
+       </td>
+       <td colspaN="5">
+       <br />
+          <INPUT type=checkbox name="tst">Saving Throw&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <INPUT type=checkbox name="tsr">Spell Resistance&nbsp;&nbsp;<br />
+          <INPUT type=checkbox name="tt">Target/Area/Effect&nbsp;&nbsp;
+          <INPUT type=checkbox checked="true" name="tsd">Short Description&nbsp;&nbsp;
+       </td>
+      </tr>
+        <TR class="odd-row">
+          <TD valign=center><B>N. of Results</B></TD>								<!--number of results dropdown menu-->
+          <TD colspan="6">
+      <SELECT name=stop>
+        <OPTION value="0">Don't stop search</OPTION>
+        <OPTION value="30">Stop search at 30 results</OPTION>
+        <OPTION value="50" selected>Stop search at 50 results</OPTION>
+        <OPTION value="100">Stop search at 100 results</OPTION>
+        <OPTION value="200">Stop search at 200 results</OPTION>
+      </SELECT><BR>
+          </TD>
+        </TR>
+      </TABLE>
+      <INPUT type="submit" name="search"  value="Search">							<!--search button-->
+      <INPUT type="reset"  name="clear" value="Clear form" />							<!--clear form button-->
+    </FORM>
+
+    <BR><BR>
+    <TABLE width=100% border=0 cellspacing=0>
+      <TBODY>
+      </TBODY>
+    </TABLE>
+    </TD></TR></TABLE>
+    <script type="text/javascript">
+document.getElementById('input').focus();
+</script>
+  </BODY>
+</HTML>
+
+<!--20-ft.-radius spread
+40-ft.-radius spread
+10-ft.-radius emanation
+20-ft.-radius emanation
+15-ft.-burst
+40-ft.-burst
+50-ft.-burst
+cone-shaped burst
+creature touched
+weapon touched
+target: You
+one creature
+creature per caster level
+creature per level
+creature touched per two levels
+object
+corpse
+plant
+undead
+location
+animal
+tree
+all within 50 ft. (within 50 ft.)
+magical sensor
+ray
+
+
+spread
+emanation
+burst
+cone
+target: You
+one creature/creature touched
+weapon touched
+creature per level/creature per caster level
+object
+corpse
+undead
+plant/tree
+animal
+ray-->
+

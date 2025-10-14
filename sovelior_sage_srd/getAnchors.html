@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <script src="anchorList.js"></script>
+        <script language="javascript">
+        
+        var content;
+       
+        function getNumofAnchors()
+        {
+            return anchorlist.length;
+        }
+        
+        function CrawlSingleAnchor(index)
+        {
+            var Anchors = anchorlist;
+            var mycontent = "";
+            var i;
+            var j;
+
+            mycontent += "<Page>";
+            mycontent += "<Title>";
+            mycontent += XMLEncode(Anchors[index][0]);
+            mycontent += "</Title>"; 
+            mycontent += "<FileName>";
+            mycontent += XMLEncode(Anchors[index][1]);
+            mycontent += "</FileName>"; 
+            var SubAnchors = Anchors[index][2];
+            var subcontent = "";
+            for (j=0;j<SubAnchors.length;j++)
+            {
+                var Part = SubAnchors[j];
+                subcontent += "<Part>";
+                subcontent += "<Anchor>";
+                subcontent += XMLEncode(Part[0]);
+                subcontent += "</Anchor>"; 
+                subcontent += "<Title>";
+                subcontent += XMLEncode(Part[1]);
+                subcontent += "</Title>"; 
+                subcontent += "</Part>";
+            }
+            mycontent += subcontent;
+            mycontent += "</Page>";  
+            return mycontent;          
+        }
+        
+        function XMLEncode(text)
+        {
+            var myText = new String(text);
+            myText = myText.replace(/</g,"&lt;");
+            myText = myText.replace(/>/g,"&gt;");
+            myText = myText.replace(/&/g,"&amp;");
+            myText = myText.replace(/""/g,"&quot;");
+            myText = myText.replace(/'/g,"&apos; "); 
+            return myText;
+        }
+        </script>
+    </head>
+    <body>
+        <div onclick="javascript:exportList();">Export</div>
+        <div id="content"></div>
+    </body>
+</html>

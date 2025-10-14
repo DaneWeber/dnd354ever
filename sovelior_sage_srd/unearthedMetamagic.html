@@ -1,0 +1,4409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=windows-1250" http-equiv="content-type" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>
+      SRD - Metamagic Variants
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="sorttable.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+      <tbody>
+        <tr>
+          <td style="width: 170px; text-align: right">
+            <img alt="d20 Logo" src="d20.jpg" />
+          </td>
+          <td style="width: 30px"></td>
+          <td colspan="3" id="title">
+            System Reference Document v3.5
+          </td>
+          <td rowspan="3" style="background-color: #8B2323; width: 15px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="height: 15px"></td>
+          <td rowspan="2" style="width: 15px"></td>
+        </tr>
+        <tr valign="top">
+          <td>
+            <!-- left-hand navigation / menu -->
+<table width="170px">
+<tr><td style="width: 100%; background-color: #8b2323">
+<div class="menu2">
+<ul>
+<li><a href="home.html">SRD Home</a>
+ <ul> 
+ <li><a href="tips.html">Tips and Stuff</a></li>
+ <li><a href="siteMap.html">Site Map</a></li>
+ </ul>
+</li>
+<li><a href="legal.html">Legal Information</a></li>
+<li><a href="tools.html">Tools</a>
+ <ul>
+ <li><a href="toolsScreen.html">DM Screen</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('anchorSearch.html', 'anchor_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+     Site Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('spellSearch.html', 'spell_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Spell Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('powerSearch.html', 'power_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Power Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="toolsSpellIndex.html">Spell Index</a></li>
+ <li><a href="toolsPowerIndex.html">Power Index</a></li>
+ <li><a href="toolsMonsterIndex.html">Monster Index</a></li>
+ <li><a href="toolsMagicItemIndex.html">Wondrous Item Index</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('toolsDiceSage.html', 'dicesage', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=300px,height=500px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    DiceSage</a></li>
+ </ul>
+</li>
+<li><a href="basics.html">Basics &amp; Ability Scores</a></li>
+<li><a href="description.html">Alignment &amp; Description</a></li>
+<li><a href="races.html">Races</a></li>
+<li><a href="classes.html">Character Classes</a>
+ <ul>
+ <li><a href="barbarian.html">Barbarian</a></li>
+ <li><a href="bard.html">Bard</a></li>
+ <li><a href="cleric.html">Cleric</a></li>
+ <li><a href="druid.html">Druid</a></li>
+ <li><a href="fighter.html">Fighter</a></li>
+ <li><a href="monk.html">Monk</a></li>
+ <li><a href="paladin.html">Paladin</a></li>
+ <li><a href="ranger.html">Ranger</a></li>
+ <li><a href="rogue.html">Rogue</a></li>
+ <li><a href="sorcerer.html">Sorcerer</a></li>
+ <li><a href="wizard.html">Wizard</a></li>
+ </ul>
+</li>
+<li><a href="skills.html">Skills</a>
+ <ul>
+ <li><a href="skillsAll.html">In Alphabetical Order</a></li>
+ <li><a href="skillsStr.html">Strength-Based</a></li>
+ <li><a href="skillsDex.html">Dexterity-Based</a></li>
+ <li><a href="skillsCon.html">Constitution-Based</a></li>
+ <li><a href="skillsInt.html">Intelligence-Based</a></li>
+ <li><a href="skillsWis.html">Wisdom-Based</a></li>
+ <li><a href="skillsCha.html">Charisma-Based</a></li>
+ <li><a href="skillsTro.html">Trained Only</a></li>
+ <li><a href="skillsAcp.html">With Armor Check Penalty</a></li>
+ </ul>
+</li>
+<li><a href="feats.html">Feats</a>
+ <ul>
+ <li><a href="featsAll.html">In Alphabetical Order</a></li>
+ <li><a href="featsGen.html">General</a></li>
+ <li><a href="featsFtb.html">Fighter Bonus</a></li>
+ <li><a href="featsItc.html">Item Creation</a></li>
+ <li><a href="featsMtm.html">Metamagic</a></li>
+ <li><a href="featsList.html">Compiled</a></li>
+ </ul>
+</li>
+<li><a href="equipment.html">Equipment</a>
+ <ul>
+ <li><a href="weapons.html">Weapons</a></li>
+ <li><a href="armor.html">Armor</a></li>
+ <li><a href="goodsAndServices.html">Goods &amp; Services</a></li>
+ </ul>
+</li>
+<li><a href="specialMaterials.html">Special Materials</a></li>
+<li><a href="combat.html">Combat</a>
+ <ul>
+ <li><a href="initiativeAndAoO.html">Initiative &amp; Attacks of Opportunity</a></li>
+ <li><a href="actionsInCombat.html">Actions In Combat</a></li>
+ <li><a href="injuryAndDeath.html">Injury &amp; Death</a></li>
+ <li><a href="movement.html">Movement, Position, &amp; Distance</a></li>
+ <li><a href="combatModifiers.html">Combat Modifiers</a></li>
+ <li><a href="specialAttacks.html">Special Attacks</a></li>
+ <li><a href="initiativeActions.html">Special Initiative Actions</a></li>
+ </ul>
+</li>
+<li><a href="abilitiesAndConditions.html">Special Abilities &amp; Conditions</a></li>
+<li><a href="npcClasses.html">NPC Classes</a></li>
+<li><a href="prestigeClasses.html">Prestige Classes</a>
+ <ul>
+ <li><a href="arcaneArcher.html">Arcane Archer</a></li>
+ <li><a href="arcaneTrickster.html">Arcane Trickster</a></li>
+ <li><a href="archmage.html">Archmage</a></li>
+ <li><a href="assassin.html">Assassin</a></li>
+ <li><a href="blackguard.html">Blackguard</a></li>
+ <li><a href="dragonDisciple.html">Dragon Disciple</a></li>
+ <li><a href="duelist.html">Duelist</a></li>
+ <li><a href="dwarvenDefender.html">Dwarven Defender</a></li>
+ <li><a href="eldritchKnight.html">Eldritch Knight</a></li>
+ <li><a href="hierophant.html">Hierophant</a></li>
+ <li><a href="horizonWalker.html">Horizon Walker</a></li>
+ <li><a href="loremaster.html">Loremaster</a></li>
+ <li><a href="mysticTheurge.html">Mystic Theurge</a></li>
+ <li><a href="shadowdancer.html">Shadowdancer</a></li>
+ <li><a href="thaumaturgist.html">Thaumaturgist</a></li>
+ </ul>
+</li>
+<li><a href="epicLevels.html">Epic Levels</a>
+ <ul>
+ <li><a href="epicClasses.html">Epic Classes</a></li>
+ <li><a href="epicSkills.html">Epic Skills</a></li>
+ <li><a href="epicFeats.html">Epic Feats</a></li>
+ <li><a href="epicPrestigeClasses.html">Epic Prestige Classes</a>
+  <ul>
+  <li><a href="agentRetriever.html">Agent Retriever</a></li>
+  <li><a href="cosmicDescryer.html">Cosmic Descryer</a></li>
+  <li><a href="divineEmissary.html">Divine Emissary</a></li>
+  <li><a href="epicInfiltrator.html">Epic Infiltrator</a></li>
+  <li><a href="guardianParamount.html">Guardian Paramount</a></li>
+  <li><a href="highProselytizer.html">High Proselytizer</a></li>
+  <li><a href="legendaryDreadnought.html">Legendary Dreadnought</a></li>
+  <li><a href="perfectWight.html">Perfect Wight</a></li>
+  <li><a href="unionSentinel.html">Union Sentinel</a></li>
+  </ul>
+ </li>
+ <li><a href="epicSpells.html">Epic Spells</a>
+  <ul>
+  <li><a href="epicSpellDevelopment.html">Developing</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMagicItems.html">Epic Magic Items</a>
+  <ul>
+  <li><a href="epicMagicItemsOther.html">Other Items</a></li>
+  <li><a href="epicArtifacts.html">Intelligent Items and Artifacts</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMonsters.html">Epic Monsters</a>
+  <ul>
+  <li><a href="epicNonAbominations.html">Non-Abominations</a></li>
+  </ul>
+ </li>
+ <li><a href="epicObstacles.html">Epic Obstacles</a></li>
+ </ul>
+</li>
+<li><a href="magicOverview.html">Magic Overview</a>
+ <ul>
+ <li><a href="magicSchools.html">Schools of Magic</a></li>
+ <li><a href="arcaneSpells.html">Arcane Magic</a></li>
+ <li><a href="divineSpells.html">Divine Magic</a></li>
+ <li><a href="specialAbilities.html">Special Abilities</a></li>
+ </ul>
+</li>
+<li><a href="spellList.html">Spell List</a>
+ <ul>
+ <li><a href="#" onclick="var w = window.open('spellSearch.html', 'spell_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Spell Search</a></li>
+ <li><a href="bardSpells.html">Bard Spells</a></li>
+ <li><a href="clericSpells.html">Cleric Spells</a></li>
+ <li><a href="clericDomains.html">Cleric Domains</a></li>
+ <li><a href="druidSpells.html">Druid Spells</a></li>
+ <li><a href="paladinSpells.html">Paladin Spells</a></li>
+ <li><a href="rangerSpells.html">Ranger Spells</a></li>
+ <li><a href="wizardSpells.html">Sorcerer/Wizard Spells</a></li>
+ <li><a href="spellsAtoZ.html">Spells A to Z</a>
+  <ul>
+  <li><a href="spellsAtoB.html">Acid Arrow &mdash; Burning&nbsp;Hands</a></li>
+  <li><a href="spellsC.html">Call Lightning &mdash; Curse&nbsp;Water</a></li>
+  <li><a href="spellsDtoE.html">Dancing Lights &mdash; Eyebite</a></li>
+  <li><a href="spellsFtoG.html">Fabricate &mdash; Gust&nbsp;of&nbsp;Wind</a></li>
+  <li><a href="spellsHtoL.html">Hallow &mdash; Lullaby</a></li>
+  <li><a href="spellsMtoO.html">Mage Armor &mdash; Owl's&nbsp;Wisdom</a></li>
+  <li><a href="spellsPtoR.html">Passwall &mdash; Rusting&nbsp;Grasp</a></li>
+  <li><a href="spellsS.html">Sanctuary &mdash; Sympathy</a></li>
+  <li><a href="spellsTtoZ.html">Telekinesis &mdash; Zone&nbsp;of&nbsp;Truth</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+<li><a href="magicItems.html">Magic Items</a>
+ <ul>
+ <li><a href="magicItemsCreation.html">Creating Magic Items</a></li>
+ <li><a href="magicItemsAW.html#armor">Armor</a></li>
+ <li><a href="magicItemsPRR.html#potions">Potions</a></li>
+ <li><a href="magicItemsPRR.html#rings">Rings</a></li>
+ <li><a href="magicItemsPRR.html#rods">Rods</a></li>
+ <li><a href="magicItemsSSW.html#scrolls">Scrolls</a></li>
+ <li><a href="magicItemsSSW.html#staffs">Staffs</a></li>
+ <li><a href="magicItemsSSW.html#wands">Wands</a></li>
+ <li><a href="magicItemsAW.html#weapons">Weapons</a></li>
+ <li><a href="magicItemsWI.html">Wondrous Items</a></li>
+ <li><a href="magicItemsICA.html">Intelligent, Cursed, &amp; Artifacts</a></li>
+ </ul>
+</li>
+<li><a href="monsters.html">Monsters</a>
+ <ul>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="monstersAtoZ.html">Monsters A to Z</a>
+  <ul>
+  <li><a href="monstersA.html">Aboleth &mdash; Azer</a></li>
+  <li><a href="monstersBtoC.html">Barghest &mdash; Couatl</a></li>
+  <li><a href="monstersDtoDe.html">Dark&nbsp;Mantle &mdash; Devourer</a></li>
+  <li><a href="monstersDitoDo.html">Digester &mdash; Doppleganger</a></li>
+  <li><a href="monstersDrtoDw.html">Dragon &mdash; Dwarf</a></li>
+  <li><a href="monstersEtoF.html">Eagle &mdash; Fungus</a></li>
+  <li><a href="monstersG.html">Gargoyle &mdash; Grimlock</a></li>
+  <li><a href="monstersHtoI.html">Hag &mdash; Invisible&nbsp;Stalker</a></li>
+  <li><a href="monstersKtoL.html">Kobold &mdash; Lycanthrope</a></li>
+  <li><a href="monstersMtoN.html">Magmin &mdash; Nymph</a></li>
+  <li><a href="monstersOtoR.html">Ogre &mdash; Rust&nbsp;Monster</a></li>
+  <li><a href="monstersS.html">Sahuagin &mdash; Swarm</a></li>
+  <li><a href="monstersTtoZ.html">Tarrasque &mdash; Zombie</a></li>
+  </ul>
+ </li>
+ <li><a href="monstersAnimal.html">Animals</a></li>
+ <li><a href="monstersVermin.html">Vermin</a></li>
+ <li><a href="monsterTypes.html">Types, Subtypes, &amp; Special Abilities</a></li>
+ <li><a href="improvingMonsters.html">Improving Monsters</a></li>
+ <li><a href="monsterFeats.html">Monster Feats</a></li>
+ <li><a href="monstersAsRaces.html">Monsters as Races</a></li>
+ </ul>
+</li>
+<li><a href="carryingAndExploration.html">Carrying, Movement, and Exploration</a></li>
+<li><a href="treasure.html">Treasure</a></li>
+<li><a href="wildernessAndEnvironment.html">Wilderness, Weather, and Environment</a></li>
+<li><a href="traps.html">Traps</a></li>
+<li><a href="planes.html">Planes</a></li>
+<li><a href="psionic.html">Psionic</a>
+ <ul>
+ <li><a href="psionicRaces.html">Races</a></li>
+ <li><a href="psionicClasses.html">Classes</a>
+  <ul>
+  <li><a href="psionicPsion.html">Psion</a></li>
+  <li><a href="psionicPsychicWarrior.html">Psychic Warrior</a></li>
+  <li><a href="psionicSoulknife.html">Soulknife</a></li>
+  <li><a href="psionicWilder.html">Wilder</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicSkills.html">Skills</a></li>
+ <li><a href="psionicFeats.html">Feats</a></li>
+ <li><a href="psionicPrestigeClasses.html">Prestige Classes</a>
+  <ul>
+  <li><a href="psionicCerebremancer.html">Cerebremancer</a></li>
+  <li><a href="psionicElocater.html">Elocater</a></li>
+  <li><a href="psionicFist.html">Psionic Fist</a></li>
+  <li><a href="psionicSlayer.html">Slayer</a></li>
+  <li><a href="psionicMetamind.html">Metamind</a></li>
+  <li><a href="psionicPsionUncarnate.html">Psion Uncarnate</a></li>
+  <li><a href="psionicPyrokineticist.html">Pyrokineticist</a></li>
+  <li><a href="psionicThrallherd.html">Thrallherd</a></li>
+  <li><a href="psionicWarMind.html">War Mind</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicPowers.html">Powers</a>
+  <ul>
+  <li><a href="#" onclick="
+var w = window.open('powerSearch.html', 'power_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Power Search</a></li>
+  <li><a href="psionicDescriptions.html">Descriptions Format</a></li>
+  <li><a href="psionicPsionList.html">Psion/Wilder List</a></li>
+  <li><a href="psionicDisciplineList.html">Discipline List</a></li>
+  <li><a href="psionicWarriorList.html">Psychic Warrior List</a></li>
+  <li><a href="psionicPowersAtoC.html">Adapt Body &mdash; Crystallize</a></li>
+  <li><a href="psionicPowersDtoF.html">Danger Sense &mdash; Fusion</a></li>
+  <li><a href="psionicPowersGtoP.html">Genesis &mdash; Psychofeedback</a></li>
+  <li><a href="psionicPowersQtoW.html">Quintessence &mdash; Weapon of Energy</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicItems.html">Psionic Items</a>
+  <ul>
+  <li><a href="psionicItemsAW.html">Armor &amp; Weapons</a></li>
+  <li><a href="psionicItemsCCDT.html">Cognizance Crystals, Dorjes &amp; Tatoos</a></li>
+  <li><a href="psionicItemsPSP.html">Power Stones &amp; Psicrowns</a></li>
+  <li><a href="psionicItemsU.html">Universal Items</a></li>
+  <li><a href="psionicItemsCA.html">Cursed &amp; Aritfacts</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicMonsters.html">Monsters</a></li>
+ </ul>
+</li>
+<li><a href="divine.html">Divine</a>
+ <ul>
+ <li><a href="salientAbilities.html">Salient Divine Abilities</a></li>
+ <li><a href="divineFeats.html">Feats</a></li>
+ <li><a href="divineDomains.html">Domains</a></li>
+ <li><a href="divineNewSpells.html">Spells</a></li>
+ <li><a href="divineMinions.html">Minions</a></li>
+ </ul>
+</li>
+<li><a href="unearthedArcana.html">Unearthed Arcana</a></li>
+ <li><a href="unearthedCharacter.html"><div style="margin-left: 10px">Character</div></a>
+  <ul>
+  <li><a href="unearthedContacts.html">Contacts</a></li>
+  <li><a href="unearthedReputation.html">Reputation</a></li>
+  <li><a href="unearthedHonor.html">Honor</a></li>
+  <li><a href="unearthedTaint.html">Taint</a></li>
+  <li><a href="unearthedSanity.html">Sanity</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedRaces.html"><div style="margin-left: 10px">Racial Variants</div></a>
+  <ul>
+  <li><a href="unearthedEnvironmentalVariants.html">Environmental Variants</a></li>
+  <li><a href="unearthedElementalVariants.html">Elemental Variants</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedBloodlines.html"><div style="margin-left: 10px">Bloodlines</div></a></li>
+ <li><a href="unearthedClasses.html"><div style="margin-left: 10px">Class Variants</div></a>
+  <ul>
+  <li><a href="unearthedCoreClass.html">Core Class Variants</a></li>
+  <li><a href="unearthedSpecialist.html">Specialist Wizard Variants</a></li>
+  <li><a href="unearthedGestalt.html">Gestalt Characters</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedNewClasses.html"><div style="margin-left: 10px">New Classes</div></a>
+  <ul>
+  <li><a href="unearthedPrestige.html">Prestigious Classes</a></li>
+  <li><a href="unearthedParagon.html">Racial Paragon Classes</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedSkills.html"><div style="margin-left: 10px">Skills Variants</div></a>
+  <ul>
+  <li><a href="unearthedAlternativeSkills.html">Alternative Skill Systems</a></li>
+  <li><a href="unearthedCraftPoints.html">Craft Points</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedFeats.html"><div style="margin-left: 10px">Feats Variants</div></a>
+  <ul>
+  <li><a href="unearthedTraits.html">Traits</a></li>
+  <li><a href="unearthedFlaws.html">Flaws</a></li>
+  <li><a href="unearthedSpelltouchedFeats.html">Spelltouched Feats</a></li>
+  <li><a href="unearthedTests.html">Test-Based Prerequisites</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedCombat.html"><div style="margin-left: 10px">Combat Variants</div></a>
+  <ul>
+  <li><a href="unearthedFacing.html">Facing and Hex Grids</a></li>
+  <li><a href="unearthedDefence.html">Defence and Armor</a></li>
+  <li><a href="unearthedInjury.html">Injury and Death</a></li>
+  <li><a href="unearthedRolls.html">Rolls and Modifiers</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedMagic.html"><div style="margin-left: 10px">Magic</div></a></li>
+  <li><a href="unearthedRecharge.html"><div style="margin-left: 20px">Recharge Magic</div></a></li>
+  <li><a href="unearthedSpellPoints.html"><div style="margin-left: 20px">Spell Points</div></a></li>
+  <li class="selected"><a href="unearthedMetamagic.html"><div style="margin-left: 20px">Metamagic Variants</div></a></li>
+  <li><a href="unearthedSummon.html"><div style="margin-left: 20px">Summon Monster Variants</div></a></li>
+  <li><a href="unearthedIncantations.html"><div style="margin-left: 20px">Incantations</div></a></li>
+  <li><a href="unearthedItems.html"><div style="margin-left: 20px">Magic Items</div></a></li>
+</ul>
+</div>
+</td><td></td></tr></table>
+    </td>
+          <td style="width: 30px"></td>
+          <td>
+            <!-- main contents -->
+      
+      <h2>Unearthed Arcana</h2>
+<h3><a id="spontaneous-metamagic"></a>SPONTANEOUS METAMAGIC</h3>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+        <tbody>
+          <tr>
+            <td class="line"></td>
+          </tr>
+        </tbody>
+      </table>
+One of the more radical concepts recently introduced to the D&#38;D game is the metamagic
+feat. These feats allow spellcasters to tinker with their spells' range, area, damage,
+components required, and even casting time. While such options existed in previous
+editions of the game, they usually required the caster to use other spells to affect
+his magic, tather than relying on pure talent.
+<p>However, this new option comes with a significant cost, particularly for those
+casters who prepare spells (such as clerics, druids, and wizards). Such characters
+must plan in advance which spells they wish to use their metamagic feats on, and
+prepare those spells in the appropriate higher-level spells slot. This requirement
+forces the character to guess which spells will be needed in which situations. If
+a caster anticipates being grappled, a <a style="color: #579eb6" href="featsAll.html#still-spell">stilled spell</a> would be extraordinarily valuable
+- but which one? If a character expects to be sneaking around, she should consider
+using <a style="color: #579eb6" href="featsAll.html#silent-spell">Silent Spell</a> on one or more of her
+spells - but how many? In many cases, these choices are for naught, since the caster
+ends up using her silent <a style="color: #579eb6" href="spellsMtoO.html#magic-missile">magic missile</a>
+in ordinary combat or her enlarged <a style="color: #579eb6" href="spellsFtoG#fireball">fireball</a> in
+a space to small to take advantage of the expanded range.</p>
+<p>Characters who son't prepare spells in advance (such as bards and sorcerers)
+have a distict advantage in that they can choose to use their metamagic feats "on
+the fly"; that is, at the time of casting. The cost is an extended casting time
+(making <a style="color: #579eb6" href="featsAll.html#quicken-spell">Quicken Spell</a> a useless option
+for such characters), but this cost is rarely balanced with that paid by other spellcasters.</p>
+<p>The two variant systems descibed below give more variety and options to the metamagic-using
+spellcaster. With either of these variants, a spellcaster doesn't have to prepare
+metamagic versions of her spells in advance (if she normally prepares spells) or
+spend full-round actions to cast metamagic spells (if she doesn't prepare spells).
+Nor do metamagic spells take up higher-level spell slots.</p>
+<p>Instead the "cost" for using a metamagic feat is applied in one of two different
+manners. The first applies the cost as additional spell slots. The second restricts
+the number of times per day the feat can be used.</p>
+<p>Regardless of the variant you use, the Insidious Magic and Tenacious Magic feats
+(both from the <i>Forgotten Realms(R) Campaign Setting</i>) don't use the normal
+metamagic rules. Since they automatically affect all of a caster's spells, they
+never require higher-level slots or have any limit on the maximum spell level affected.</p>
+<p>For both of these variants, the prerequisites for selecting a metamagic feat,
+and the effects of the feat itself, remain the same as given in the feats' descriptions
+(except when otherwise noted).</p>
+<h5><a id="daily-uses"></a>DAILY USES</h5>
+With this variant, a character who selects a metamagic feat gains three daily uses
+of that feat that she can opt to use "on the fly" without previous preparation,
+increased spell level, or extended casting time. Tha character must decide when
+casting the spell if she wishes to apply the effect of one of her metamagic feats
+to the spell.
+<p>The macimum level of spell to which a caster can apply a metamagic feat is equal
+to the maximum spell level she is capable of casting (based on her level and ability
+scores), minus the spell level adjustment of the metamagic feat. If the result of
+this calculation is less than 0, the character can't apply the metamagic feat to
+any of her spells.</p>
+<p>For instance, a 5th-level wizard is normally capable of casting spells of up
+to 3rd level. If she chooses to apply her <a style="color: #579eb6" href="featsAll.html#silent-spell">Silent Spell</a>
+metamagic feat (which uses a spell slot one level higher than normal) to a spell,
+the maximum level of spell that she can apply it to is equal to 3 minus 1, or 2nd.
+Thus, she may make any of her 0-, 1st-, or 2nd-level spells silent. If she had the
+<a style="color: #579eb6" href="featsAll.html#maximize-spell">Maximize Spells</a> feat, she could apply
+it only to 0-level spells (since a maximized spell is normally cast as a spell three
+levels higher, and 3 minus 3 is 0). <a style="color: #579eb6" href="featsAll.html#quicken-spell">Quicken Spell</a>
+woulc be of no use to this wizard, since she couldn't even apply is to 0-level spells.</p>
+<p>A caster can apply more than one metamagic feat to a spell, or even the same
+metamagic effect more than once (if allowed by the feat's description). However,
+to determine the maximum level of spell that can be so affected, add together all
+the spell level adjustments given for the various feats. A 9th-level wizard could
+enlarge and empower any spell of 2nd level of lower (since her maximum spell level
+is 5th, and the total spell level adjustment for <a style="color: #579eb6" href="featsAll.html#empower-spell">Empower Spell</a>
+and <a style="color: #579eb6" href="featsAll.html#enlarge-spell">Enlarge Spell</a> is 3). If a feat may
+be applied more than once to the same spell (such as Empower Spell), each application
+counts as one of the caster's three daily uses.</p>
+<p>Each time a character selects a metamagic feat, she gains three daily uses of
+that feat- Multiple selections of the same feat are cumulative. For instance, if
+a caster selects <a style="color: #579eb6" href="featsAll.html#empower-spell">Empower Spell</a> twice,
+she may use the feat six times per day rather than three.</p>
+<p>In this variant system, the <a style="color: #579eb6" href="featsAll.html#heighten-spell">Heighten Spell</a>
+feat functions slightly differently from other metamagic feats. You may use the
+Heighten Spell feat to increase a spell's effective level (for purposes of such
+factors as save DCs and so on) up to the maximum spell level you are capable of
+casting. For instance, a 3rd-level cleric could heighten a 0-, or 1st-level spell
+to 2nd-level, while a 7th-level druid could heighten a 0- through 8th-level spell
+to 9th level. The spell is treated as a spell of that level for purposes of save
+DC and similar effects, but doesn't require a higher-level spell slot.</p>
+
+<h5><a id="extra-spell-slots"></a>EXTRA SPELL SLOTS</h5>
+With this variant, a caster mist expend ectra spell slots in order to apply the
+effects of a metamagic feat. These spell slots must be of a level equal to or higher
+than that of the spell being modified by the metamagic feat. In essence, the character
+pays for the metamagic effect by "using up" other spells of the same of higher level.
+The caster need not prepare the metamagic version of the spell ahead of time, and
+the spell's actual level and casting time are unchanged from normal.
+<p>The number of extra spell slots required is equal to the spell level adjustment
+of the feat. For example, a wizard who wants to cast a quickened <a style="color: #579eb6" href="spellsMtoO.html#magic-missile">magic missile</a>
+would expend the magic missile spell, plus four additional spells of 1st-level or
+higher.</p>
+<p>If the caster has more than one spellcasting class, all extra spell slots expended
+must come from the same spellcasting class as the spell to be modified. A 7th-level
+cleric/4th-level wizard who wants to cast a maximized <a style="color: #579eb6" href="spellsC.html#cure-moderate-wounds">cure moderate wounds</a>
+can't spend any of her wizard spell slots - they all must be from her cleric spellcasting
+ability.</p>
+<p>A character may only expend bonus eplls from school specilization on spells of
+that school (so an evoker could speld her bonus 3rd-level evocation spell to pay
+for a metamagic feat applied to another evocation spell, but not to a spell of any
+other school). She can't expend domain spells to pay for a metamagic feat's added
+spell slot cost, even if the spell is a domain spell.</p>
+<p>In the case of the <a style="color: #579eb6" href="featsAll.html#heighten-spell">Heighten Spell</a>
+feat, a caster expends one additional spell slot for each effective level she wishes
+to add to the spell. To heighten a <a style="color: #579eb6" href="spellsFtoG.html#fireball">fireball</a>
+to the equivalent of a 5th-level spell, a caster must expend two extra spell slots
+of 3rd level or higher.</p>
+<p>A caster can apply more than one metamagic feat to a spell, or even the same
+metamagic feat more than once (ig allowed by the feat's description). She must simply
+pay the additional cost in spell slots. Fir instance, a wizard casting a stilled
+and silent <a style="color: #579eb6" href="spellsHtoL.html#invisibility">invisibility</a> spell would spend
+two spell slots in addition to the invisibility spell: one for <a style="color: #579eb6" href="featsAll.html#still-spell">Still Spell</a>
+and a second for <a style="color: #579eb6" href="featsAll.html#silent-spell">Silent Spell</a>.</p>
+<p>If a caster doesn't have enough remaining spell slots to cast the metamagic spell,
+she can't apply that metamagic effect to the spell.</p>
+
+<h5><a id="combining-the-variants"></a>COMBINING THE VARIANTS</h5>
+You could combine the two metamagic variants presented above. Using a combined system,
+a metamagic-enhanced spell would cost additional slots (as noted in the second variant),
+but the caster would have a maximum spell level to which she could apply her metamagic
+feats (as in the first variant). This combined approach limits the immediate effect
+of metamagic feats in the game (because of the spell level limit) while simultaneously
+assigning a very real cost to their use (additional spell slots).
+
+<h5><a id="behind-the-curtain-spontaneous-metamagic"></a>BEHIND THE CURTAIN: SPONTANEOUS METAMAGIC</h5>
+<div style="margin-left: 40px">The first variant limits the immediate effect of metamagic feats on a character's
+power level, just as in the standard rules. A character who picks up <a style="color: #579eb6" href="featsAll.html#quicken-spell">Quicken Spell</a>
+can't immediately begin quickening her most powerful spells - she must initially
+be content using the feat only on her weakest spells. Again as with the standard
+rules, the variant establishes a default "minimum caster level" for each feat, since
+the feats are useless until a caster is capable og casting spells of high enough
+level to take advantage of the metamagic feat.
+<p>Unlike in the standard rules, however, a character with a metamagic feat need not
+weigh the value of a metamagic-affected spell against a spell of a higher level.
+The caster doen't have to decide whether she'd rather have an empowered <a style="color: #579eb6" href="spellsMtoO.html#magic-missile">magic missile</a>
+or a normal <a style="color: #579eb6" href="spellsHtoL.html#ligtning-bolt">lightning bolt</a>, since the
+empowered magic missile doesn't require a higher-level spell slot than normal.<br />
+A character using the first variant - particularly one who must prepare spells ahead
+of time - almost certainly uses her metamagic feats much more often than she would
+withuot the variant. As first, it may seem as if the character has gained significant
+power, but that's to be expected when a new oprion becomes available. Ultimately,
+the limit of daily uses keeps this new ability from getting out of hand, and the
+simple fact that the character had to spend a feat slot to gain the ability in the
+first place is still a balancing factor.</p>
+<p>The second variant is both more and less restrictive than either the standard version
+of metamagic or the first variant. On one hand, a character whi relies on metamagic
+feats to boost her spell power goes through her available spells at a dramatically
+faster rate. A spellcaster who isn't careful could find her entire spell selection
+drained by a single battle!</p>
+<p>On the other hand, this variant allows a spellcaster to apply a metamagic feat to
+her most powerful spells right away. A 9th-level caster whi picks up <a style="color: #579eb6" href="featsAll.html#quicken-spell">Quicken Spell</a>
+can quicken even her 5th-level spells - but at a cost of four additional 5th-level
+spell slots, which few 9th-level spellcasters have. This means that metamagic feats
+have a more dramatic effect on combat, as characters "juice up" their most powerful
+spells from the moment they select the feat.</p></div>
+
+<h3><a id="metamagic-components"></a>METAMAGIC COMPONENTS</h3>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+        <tbody>
+          <tr>
+            <td class="line"></td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="http://www.wizards.com/dnd/images/UnA_Gallery/79171.jpg"><img
+ class="art-wide" src="pict.jpg" title="" alt="pict"
+ style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+With this variant, casters can produce more potent spells by using a rare and exotic
+metamagic component in the casting of a spell, in place of the spells's standard
+material component (or in addition to the spell's other components, if it has no
+material component).
+<p>
+A spellcaster who uses a metamagic component casts a spell as if a specific metamagic
+feat had been applied to the spell. The casting process otherwise functions as it
+would if the character cast the standard version of the spell. For example, a wizard
+can cast a widened <a style="color: #579eb6" href="spellsFtoG.html#fireball">fireball</a> by using a 1,900 gp fire opal (the metamagic
+component) instead of a tiny ball of bat guano and sulfur (the material component).
+A wizard doesn't neet to prepare such a spell as a higher-level spell, and a sorcerer
+doesn't use a higher-level spell slot or take a full-round action to cast the spell.
+A spellcaster can use a metamagic component without having the relevant metamagic
+feat. The spellcaster merely chooses at the moment of casting whether to employ the
+material component (if any) given in the spell description or the metamagic component
+given in these variant rules. In either case, the casting process consumes the material
+component or metamagic component.
+</p>
+<p>
+A character can't use a metamagic components to add the effect of a metamagic feat
+to a spell or effect created by a magic item. If a spell has an arcane material
+component or a divine forcus (shown in the spell description as M/DF), then a divine
+spellcaster must have the relevant metamagic component in addition to his holy symbol.
+Som spells that have expensive material components can't be made more potent by
+the use of metamagic components, and a few spells don't have metamagic components
+because there's no useful way to add the effect of a metamagic feat to them.
+</p>
+
+<h5><a id="specific-metamagic-components"></a>SPECIFIC METAMAGIC COMPONENTS</h5>
+Table: Metamagic Components (below) presents a list of metamagic components for
+the spells in the <a style="color: #579eb6" href="spellsAtoZ.html">spells</a> sections of the srd. There's
+plenty of room to add metamagic components unique to your campaign, because each
+spell as presented here has only one metamagic component and thus only one metamagic
+effect associated with it. Doing so is a good way to add specific flavor to your
+campaign world. Perhaps all your metamagic components are chemical reagents, or
+maybe the dwarves in your campaign truly only use uncut gems as metamagic components.
+Truly evil spellcasters might use vile, disgusting metamagic components. Discovering
+a new metamagic component is also a useful activity for spellcasters who have time
+for spell research.
+<p>
+The table entires present a wide variety of metamagic components each belonging
+to one of the following categories.
+</p>
+<h6><a id="expensive-versions-of-existing-metarial-components"></a>Expensive Versions of Existing Material Components</h6>
+<a style="color: #579eb6" href="spellsTtoZ.html#true-seeing">True seeing</a>, for example, requires a rare
+ointment as a material component. It's easy enough to imagine that by using more
+ointment, the spells duration can be extended. Just saying "more of the same" is
+a fine metamagic component for spells that already have ecpensive material components.
+It's also possible to design a metamagic component that's an expensive version of
+a free material component. <a style="color: #579eb6" href="spellsPtoR#resilient-sphere">Resilient sphere</a>
+has a hemispherical piece of clear crystal as its material component. It has no cost,
+and you could find that piece of crystal in a spell component pouch. The spells
+metamagic component is a sphere of pure crystal worth 850 gp - just an expensive
+ersion of the material component given in the spell description.
+
+<h6><a id="gems"></a>Gems</h6>
+Many spells already require expensive gems as material componens, and players are
+used to the idea that powerful magical effects sometimes require gemstones, whether
+cut or ground into powder. Gems make good metamagic components (from a character's
+point of view) becasue they're easy to carry around, they can be found as treasure,
+an there's the established precendent of gemstones as a source of magic power. They're
+a particularly good choice for particularly potent metamagic components (ones that
+<a style="color: #579eb6" href="featsAll.html#maximize-spell">maximize</a>, <a style="color: #579eb6" href="featsAll.html#widen-spell">widen</a>, or <a style="color: #579eb6" href="featsAll.html#quicken-spell">quicken</a> spells),
+because gems can easily be woth 5,000 gp or more.
+
+<h6><a id="jewelry-and-art-objects"></a>Jewelry and Art Objects</h6>
+Jewelry - everything from aklets to headbands - and art objects such as statuettes
+and carvings also make good choices for metamagic components. It feels appropriately
+mystical to use a golden medallion as a metamagic component for <a style="color: #579eb6" href="spellsHtoL.html#hypnotism">hypnotism</a>,
+for example. Like gems, jewelry and art objects seem to work well as particularly
+expensive metamagic components because it's easy to imagine them being worth that
+much, and they can be found in treasure hoards.
+
+<h6><a id="other-treasure"></a>Other Treasure</h6>
+Occasionally, a weapon or other bit of treasure (usually magical in nature) finds
+its way into the metamagic component list when thematically appropriate. For characters
+who face a lot of well-equipped NPCs, being able to use treasure as a metamagic
+component is often a useful alternative to simply carrying an item back to town
+to sell it. High-level characters who would ordinarily disdain a mere +1 enhancement
+bonus might think twice if they know it's the metamagic component for a quickened
+version of <a style="color: #579eb6" href="spellsAtoB.html#align-weapon">align weapon</a>.
+
+<h6><a id="plant-based-metamagic-components"></a>Plant-Based Metamagic Components</h6>
+Some spells, especially druid spells, have mushrooms, herbs, or other meramagic
+components derived from rare plants carefully grown by experts. These metamagic
+components, often reffered to as "druid-tended" items in Table: Metamagic Components,
+have a potential advantage for PCs because some characters might have the ability
+to grow and cultivate these plants - thereby saving some money.
+<p>
+To grow and harvest a plant-based metamagic component, a character mut first sow
+and tend the seeds, which takes one month per 1,000 gp value (or fraction thereof)
+of the metamagic component. At the end of that time, the character must make a
+<a style="color: #579eb6" href="skillsAll.html#profession">Profession (herbalist)</a> check (DC 20 + 1 per
+1,000 gp value of the metamagic component) in order to harvest the plant successfully.
+A character can grow multiple metamagic components at a time, but each plant beyond
+the first one being tended adds 1 to the DC of all Profession (herbalist) checks
+made during that time.
+</p>
+
+<h6><a id="alchemical-metamagic-components"></a>Alchemical Metamagic Components</h6>
+Alchemy provides another traditional source for metamagic components - there's a
+strong fantasy archetype of the wizard comcocting powerful substances in his dank
+laboratory. An entry in Table: Metamagic Components that contains some form of the
+word "alchemical" is a metamagic component created by the use of the <a style="color: #579eb6" href="skillsAll.html#craft">Craft (alchemy)</a> skill.
+<p>
+When a character sets out to concoct an alchemical metamagic component, the rules
+in the <a style="color: #579eb6" href="skillsAll.html#craft">Craft</a> skill description apply, except
+that the calculations are done in gold pieces, not silver pieces. Any new alchemical
+substance (such as the alchemical dreamwisp dust that is the metamagic componens
+for <a style="color: #579eb6" href="spellsS.html#sleep">sleep</a>) an anything alchemically treated or
+alchemically prepared has a Craft (alchemy) DC of 15. Alchemically distilled metamagic
+components (for example see ray of exhaustion) have a DC of 20, and alchemically
+purified metamagic components (see polymorph any object) have a DC of 25.
+</p>
+<p>
+Alchemical metamagic components can take a very long time to make, so theyřre often
+a poor choice (from a character's point of view) for particularly expensive metamagic
+components.
+</p>
+
+<h6><a id="planar-metamagic-components"></a>Planar Metamagic Components</h6>
+Some metamagic components come from places beyond the Material Plane, especially
+in games where planar travel is common. The planes have exotic substances as well
+as purer, enhanced versions of common substances, and it makes sense that (for instance)
+rare soils from the <a style="color: #579eb6" href="planes.html#earth">Elemental Plane of Earth</a> might
+make your <a style="color: #579eb6" href="spellsMtoO.html#move-earth">move earth</a> spell more potent.
+<p>
+purity is a major consideration for metamagic components of this sort; obtaining
+one is not simply a matter of going to the appropriate plane and scooping up a handfull
+of stuff. In general, it takes a day of scavenging and a DC 30 <a style="color: #579eb6" href="skillsAll.html#knowledge">Knowledge (the planes)</a>
+check to find enough of the relevant raw material in its purest form to serve as
+a metamagic component. Because there's no raw materials cost, planar metamagic components
+are a poor choice (from the DM's point of view) for more expensive metamagic components,
+although this is ameliorated somewhat by the fact that it takes high-level spells
+to reach other planes, and those other planes are perilous places.
+</p>
+
+<h6><a id="ritual-metamagic-components"></a>Ritual Metamagic Components</h6>
+Some items become metamagic components after they have been prepared during a series
+of ancient rituals. Performing the entire ritual takes one day for every 500 gp
+(or fraction thereof) of the value of the metamagic component. At the end of that
+time, the preparer must make a DC 25 <a style="color: #579eb6" href="skillsAll.html#knowledge">Knowledge (religion)</a>
+check if the components is for a divine spell or a DC 25 Knowledge (arcana) check
+if it's for an arcane spell in order to successfully finish the creation process.
+<p>
+Unless the item used for a ritual component has some intrinsic value, ritual metamagic
+component can be poor choies for powerful metamagic and high-level spells (from
+the DM's perspective), because a character with enough ranks in the relevant skill
+need only spend the time to aquire the component.
+</p>
+
+<h6><a id="fanciful-metamagic-components"></a>Fanciful Metamagic Components</h6>
+The <a style="color: #579eb6" href="spellsDtoE.html#darkness">darkness</a> spell has a metamagic component
+of "coal mined and kept in total darkness." While evocative, such an item is not
+necessarily hard for the PCs to obtain - although there's an inherent disadvantage
+involved because the component can become "spoiled" - a consideration that doesn't
+affect the other kinds of metamagic components. For instance, if the coal needed
+for a <a style="color: #579eb6" href="spellsDtoE.html#darkness">darkness</a> spell (or the oil needed for <a style="color: #579eb6" href="spellDtoE#deeper-darkness">deeper darkness</a>)
+is ever exposed to light before the spell is cast, it looses its special properties
+and becomes ordinary. But legen and folk tales are rife with examlpes of extra power
+coming from ordinary items handled in a fanciful way. If you use such fanciful metamagic
+components - which appear on table: Metamagic Components only rarely - keep a close
+watch on how they change the economy of the game. If the PCs shy away from adventuring
+in favor of working as metamagic-component coal miners, the situation is out of
+hand.
+
+<h6><a id="monster-parts"></a>Monster Parts</h6>
+A few of the metamagic components listed on table: Metamagic Components are parts
+of monsters. Some players want their characters to dissect their slain foes, "harvesting"
+metamagic components for later use and sale.
+<p>
+There's a fair amount of real-world precedent for the notion that some part of a
+creature's power remains in its body after it's dead. Dozens of real-world cultures
+have rituals involving animal parts for this very reason. Fantasy literature has
+a rich tradition of using strange ingredients such as unicorn horns and dragon scales
+to accomplish great feats of magic.
+</p>
+<p>
+But harvesting monster parts is not without it's problems. From a game balance standpoint,
+saying a rakshasa hide is worth 1,250 gp is tantamount to giving every rakshasa
+in the game world an extra 1,250 gp in treasure - yet it's treasure that the rakshasa
+can't use itself (other than in the obvious way). It's also treasure that the PCs
+can't aquire any way other than killing a rakshasa, as opposed to normal treasure,
+which the PCs could obtain by tricking the rakshasa or driving it off. Requiring
+the monster parts to be specially prepared ameliorates the problem to a degree -
+and generally that's what we've done - because it's assumed that much of the cost
+lies in the special preparation, not the on-site butchery. That pushes the problem
+into a corner, but it doesn't eliminate it, because a player who has enough ranks in
+<a style="color: #579eb6" href="skillsAll.html#profession">Profession</a> (taxidermy) skill may want to
+know the DC for preparing the metamagic component himself. If monster part harvesting
+becomes a frequent exercise in your game, carefully moniter the amount of other
+treasure you give out. But extracting the teech of an accasional dragonne won't
+break the game.
+</p>
+<p>
+A second and thornier problem is that many players find harvesting monster parts
+distasteful, and some players who don't mind the idea might play characters who
+would be aghast at the very notion of cutting up the dead. Not only is the actual
+harvesting objectionable to some, but it builds in a potential conflict between
+characters who want to capture their foes (whether for mercy or imformation) and
+those who want to slay them and begin dissection. Consider carefully the perspectives
+of your players and their characters, and think hard about what kind of D&#38;D game
+you want to run.
+</p>
+<p>
+If your characters are interessted in doing some monster part harvesting themselves,
+it takes 10 minutes and a DC 15 <a style="color: #579eb6" href="skillsAll.html#profession">Profession</a>
+(taxidermy) check to carefully remove the relevant part, then 1 hour and a DC 20
+Profession (taxidermy) check to preserve it so it won't rot or otherwise deteriorate.
+The embalming materials themselves cost one-tenth of the market price of the finished
+metamagic component. Unless you use <a style="color: #579eb6" href="spellsFtoG.html#gentle-repose">gentle repose</a>,
+the monster's body deteriorates enough after 15 minutes that you can't get a metamagic
+component from it.
+</p>
+<p>
+With some monsters, it's obvious how many of a particular part they have - a beholder
+has only one central eye that can be used for a <a style="color: #579eb6" href="spellsPtoR.html#greater-prying-eyes">greater prying eyes</a>
+metamagic component. As a general rule, one monster provides enough substance for
+a single casting of the relevant spell (such as the dire bat fur needed for
+<a style="color: #579eb6" href="spellsAtoB.html#arcane-eye">arcane eye</a> or the chimera scales needed
+for <a style="color: #579eb6" href="spellsMtoO.html#obscure-object">obscure object</a>). On some cases,
+the number of parts that can be obtained from one creature is obvious by the nature
+of the monster (one minotaur can supply enough metamagic components for two castings
+of <a style="color: #579eb6" href="spellsMtoO.html#maze">maze</a>, and each of a gorgon's four hoves can
+be used for a separate casting of <a style="color: #579eb6" href="spellsAtoB.html#acid-fog">acid fog</a>).
+If the number of parts is not obvious or doesn't necessarily follow the general rule,
+assume that one monster can provide up to 1d4 separate parts that are suitable for
+metamagic components. (This guideline applies to such components as the janni eyelash
+needed for <a style="color: #579eb6" href="spellsHtoL.html#invisibility">invisibility</a> and the troll
+blood needed for <a style="color: #579eb6" href="spellsPtoR.html#regenerate">regenerate</a>.)
+</p>
+<b><a id="table-metamagic-components"></a>Table: Metamagic Components</b>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+<tbody>
+<tr>
+<td valign="top" style="width: 47%">
+          <table class="sortable" border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+           <tbody>
+            <tr>
+             <th valign="bottom">Spell Name</th>
+             <th valign="bottom">Metamagic Effect</th>
+             <th valign="bottom">Metamagic Component</th>
+             <th>Minimum<br /> Cost</th>
+            </tr>
+            <tr>
+ <td>Acid Arrow</td>
+ <td>Empowered</td>
+ <td>Four masterwork darts</td>
+ <td>1,200 gp</td>
+</tr>
+            <tr>
+             <td>Acid fog</td>
+             <td>Extended</td>
+             <td>Powdered Gorgon hoof</td>
+             <td>940 gp</td>
+            </tr>
+            <tr>
+             <td>Acid splash</td>
+             <td>Enlarged</td>
+             <td>Rare toad skin</td>
+             <td>20 gp</td>
+            </tr>
+            <tr>
+             <td>Aid</td>
+             <td>Extended</td>
+             <td>Specially consecrated water</td>
+             <td>340 gp</td>
+            </tr>
+            <tr>
+             <td>Air walk</td>
+             <td>Quickened</td>
+             <td>Stoppered vial of elemental air</td>
+             <td>3,500 gp</td>
+            </tr>
+            <tr>
+             <td>Alarm</td>
+             <td>Widened</td>
+             <td>Rare chalk</td>
+             <td>1,000 gp</td>
+            </tr>
+            <tr>
+             <td>Align weapon</td>
+             <td>Quickened</td>
+             <td>Weapon with +1 enhancement bonus</td>
+             <td>2,300 gp</td>
+            </tr>
+            <tr>
+             <td>Alter self</td>
+             <td>Silent and stilled</td>
+             <td>Mirror with silver filigree</td>
+             <td>830 gp</td>
+            </tr>
+            <tr>
+             <td>Analyze dweomer</td>
+             <td>Enlarged</td>
+             <td>Herbs sprinkled on tinderwig</td>
+             <td>940 gp</td>
+            </tr>
+            <tr>
+             <td>Animal growth</td>
+             <td>Extended</td>
+             <td>Albino stag horn</td>
+             <td>790 gp</td>
+            </tr>
+            <tr>
+             <td>Animal messenger</td>
+             <td>Extended</td>
+             <td>Miniscule collar with golden bell</td>
+             <td>340 gp</td>
+            </tr>
+            <tr>
+             <td>Animal shapes</td>
+             <td>Extended</td>
+             <td>Rare variety of mistletoe</td>
+             <td>1,200 gp</td>
+            </tr>
+            <tr>
+             <td>Animate dead</td>
+             <td>Silent</td>
+             <td>Blood onyx</td>
+             <td>570 gp</td>
+            </tr>
+            <tr>
+             <td>Animate objects</td>
+             <td>Enlarged</td>
+             <td>Gold-spun marionette strings</td>
+             <td>940 gp</td>
+            </tr>
+            <tr>
+             <td>Animate plants</td>
+             <td>Silent</td>
+             <td>Rare uprooted sapling</td>
+             <td>1,100 gp</td>
+            </tr>
+            <tr>
+             <td>Animate rope</td>
+             <td>Enlarged</td>
+             <td>Brass thread</td>
+             <td>190 gp</td>
+            </tr>
+            <tr>
+             <td>Antilife shell</td>
+             <td>Widened</td>
+             <td>Skull with graven runes</td>
+             <td>3,300 gp</td>
+            </tr>
+            <tr>
+             <td>Antimagic field</td>
+             <td>Widened</td>
+             <td>Cold iron filings</td>
+             <td>3,700 gp</td>
+            </tr>
+            <tr>
+             <td>Antipathy</td>
+             <td>Extended</td>
+             <td>Alum soaked in ancient blood</td>
+             <td>1,200 gp</td>
+            </tr>
+            <tr>
+             <td>Antiplant shell</td>
+             <td>Extended</td>
+             <td>Rare oils</td>
+             <td>640 gp</td>
+            </tr>
+            <tr>
+             <td>Arcane eye</td>
+             <td>Silent</td>
+             <td>Dire bat fur</td>
+             <td>640 gp</td>
+            </tr>
+            <tr>
+             <td>Arcane lock</td>
+             <td>Quickened</td>
+             <td>Platinum dust</td>
+             <td>2,300 gp</td>
+            </tr>
+            <tr>
+             <td>Arcane mark</td>
+             <td>Silent</td>
+             <td>Rare paints</td>
+             <td>20 gp</td>
+            </tr>
+            <tr>
+             <td>Arcane sight</td>
+             <td>Extended</td>
+             <td>Ground quartz</td>
+             <td>970 gp</td>
+            </tr>
+            <tr>
+             <td>Greater arcane sight</td>
+             <td>Extended</td>
+             <td>Ground quartz</td>
+             <td>1,100 gp</td>
+            </tr>
+            <tr>
+             <td>Awaken</td>
+             <td>Empowered</td>
+             <td>Specially prepared otyugh dung</td>
+             <td>1,700 gp</td>
+            </tr>
+            <tr>
+             <td>Baleful polymorph</td>
+             <td>Enlarged</td>
+             <td>Miniature silver cage</td>
+             <td>790 gp</td>
+            </tr>
+            <tr>
+             <td>Bane</td>
+             <td>Silent</td>
+             <td>Miniature clay mask</td>
+             <td>190 gp</td>
+            </tr>
+            <tr>
+             <td>Barkskin</td>
+             <td>Extended</td>
+             <td>Heartwood of venerable oak</td>
+             <td>340 gp</td>
+            </tr>
+            <tr>
+             <td>Bear's endurance</td>
+             <td>Extended</td>
+             <td>Distilled alcohol</td>
+             <td>340 gp</td>
+            </tr>
+            <tr>
+             <td>Mass bear's endurance</td>
+             <td>Extended</td>
+             <td>Distilled alcohol</td>
+             <td>940 gp</td>
+            </tr>
+            <tr>
+             <td>Bestow curse</td>
+             <td>Heightened +1</td>
+             <td>Eye of firenewt</td>
+             <td>720 gp</td>
+            </tr>
+            <tr>
+ <td>Black Tentacles</td>
+ <td>Widened</td>
+ <td>Nightcrawler essence</td>
+ <td>3,150 gp</td>
+</tr>
+            <tr>
+             <td>Blade barrier</td>
+             <td>Empowered</td>
+             <td>Slashing weapon with +1 enhancement bonus</td>
+             <td>2,300 gp</td>
+            </tr>
+            <tr>
+             <td>Blasphemy</td>
+             <td>Heightened +2</td>
+             <td>Specially prepared feather of an archon's wing</td>
+             <td>3,100 gp</td>
+            </tr>
+            <tr>
+             <td>Bull's strength</td>
+             <td>Extended</td>
+             <td>Adamantine powder</td>
+             <td>340 gp</td>
+            </tr>
+            <tr>
+             <td>Mass bull's strength</td>
+             <td>Extended</td>
+             <td>Adamantine powder</td>
+             <td>940 gp</td>
+            </tr>
+            <tr>
+             <td>Cat's grace</td>
+             <td>Extended</td>
+             <td>Vial of quicksilver (mercury)</td>
+             <td>340 gp</td>
+            </tr>
+            <tr>
+             <td>Mass cat's grace</td>
+             <td>Extended</td>
+             <td>Vial of quicksilver (mercury)</td>
+             <td>940 gp</td>
+            </tr>
+            <tr>
+             <td>Cause fear</td>
+             <td>Empowered</td>
+             <td>Ancient bones ground to powder</td>
+             <td>700 gp</td>
+            </tr>
+            <tr>
+             <td>Chain lightning</td>
+             <td>Maximized</td>
+             <td>Fist-sized chunk of magnetic stone</td>
+             <td>4,350 gp</td>
+            </tr>
+            <tr>
+             <td>Changestaff</td>
+             <td>Extended</td>
+             <td>+1 quarterstaff</td>
+             <td>2,301 gp</td>
+            </tr>
+            <tr>
+             <td>Chaos hammer</td>
+             <td>Empowered</td>
+             <td>Protoplasm from strongly chaos-aligned, sporadic element-dominated outer plane</td>
+             <td>1,900 gp</td>
+            </tr>
+            <tr>
+             <td>Charm animal</td>
+             <td>Silent</td>
+             <td>materwork whip</td>
+             <td>301 gp</td>
+            </tr>
+            <tr>
+             <td>Charm monster</td>
+             <td>Quickened</td>
+             <td>Garnets</td>
+             <td>4,600 gp</td>
+            </tr>
+            <tr>
+             <td>Mass charm monster</td>
+             <td>Silent</td>
+             <td>Garnets</td>
+             <td>1,600 gp</td>
+            </tr>
+            <tr>
+             <td>Charm person</td>
+             <td>Stilled</td>
+             <td>Rare oils</td>
+             <td>250 gp</td>
+            </tr>
+            <tr>
+             <td>Chill metal</td>
+             <td>Extended</td>
+             <td>Glacial spring water</td>
+             <td>450 gp</td>
+            </tr>
+            <tr>
+             <td>Chill touch</td>
+             <td>Empowered</td>
+             <td>Gauntlet made of bone</td>
+             <td>700 gp</td>
+            </tr>
+            <tr>
+             <td>Circle of death</td>
+             <td>Widened</td>
+             <td>Powder of crushed black pearl</td>
+             <td>4,850 gp</td>
+            </tr>
+            <tr>
+             <td>Clairaudience/Clairvoyance</td>
+             <td>Extended</td>
+             <td>Quartz</td>
+             <td>650 gp</td>
+            </tr>
+            <tr>
+             <td>Clenched fist</td>
+             <td>Stilled</td>
+             <td>Ornate gold knuckles</td>
+             <td>1,200 gp</td>
+            </tr>
+            <tr>
+             <td>Cloak of chaos</td>
+             <td>Extended</td>
+             <td>Shield with +1 enhancement bonus</td>
+             <td>1,153 gp</td>
+            </tr>
+            <tr>
+             <td>Clone</td>
+             <td>-</td>
+             <td>-</td>
+             <td>-</td>
+            </tr>
+            <tr>
+             <td>Cloudkill</td>
+             <td>Heightened +2</td>
+             <td>Distilled chlorine</td>
+             <td>2,300 gp</td>
+            </tr>
+            <tr>
+             <td>Color spray</td>
+             <td>Silent and stilled</td>
+             <td>Crushed rubies, diamonds, and sapphires</td>
+             <td>700 gp</td>
+            </tr>
+            <tr>
+             <td>Command</td>
+             <td>Heightened +3</td>
+             <td>Carved Ivory mask</td>
+             <td>1,350 gp</td>
+            </tr>
+            <tr>
+             <td>Greater command</td>
+             <td>Extended</td>
+             <td>Carved ivory mask</td>
+             <td>1,350 gp</td>
+            </tr>
+            <tr>
+             <td>Command plants</td>
+             <td>Heightened +2</td>
+             <td>Alchemical defoliant</td>
+             <td>1,900 gp</td>
+            </tr>
+            <tr>
+             <td>Command undead</td>
+             <td>Extended</td>
+             <td>Ritually defaced holy symbol of good diety</td>
+             <td>450 gp</td>
+            </tr>
+            <tr>
+             <td>Commune</td>
+             <td>-</td>
+             <td>-</td>
+             <td>-</td>
+            </tr>
+            <tr>
+             <td>Commune with nature</td>
+             <td>Widened (see spell text)</td>
+             <td>Runic map of area</td>
+             <td>3,750 gp</td>
+            </tr>
+            <tr>
+ <td>Comprehend languages</td>
+ <td>Extended</td>
+ <td>Foreign lexicon</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Cone of cold</td>
+ <td>Heightened +1</td>
+ <td>Cone of carved quartz</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Confusion</td>
+ <td>Widened</td>
+ <td>Nutshells from treant</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+ <td>Lesser confusion</td>
+ <td>Extended</td>
+ <td>Nutshells from druid-tended beech</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Consecrate</td>
+ <td>Extended</td>
+ <td>Holy water and gold dust</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Contact other plane</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Contagion</td>
+ <td>Silent</td>
+ <td>Skull of animal that died from disease</td>
+ <td>750 gp</td>
+</tr>
+<tr>
+ <td>Contingency</td>
+ <td>Extended</td>
+ <td>Rakshasa hide</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Continual flame</td>
+ <td>Heightened +1</td>
+ <td>Ruby dust</td>
+ <td>500 gp</td>
+</tr>
+<tr>
+ <td>Control plants</td>
+ <td>Extended</td>
+ <td>Alchemical defoilant</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Control undead</td>
+ <td>Heigtened +2</td>
+ <td>Carved bone mask</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Control water</td>
+ <td>Extended</td>
+ <td>Water from the briny deep or sand from the trackless desert</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Control weather</td>
+ <td>Extended</td>
+ <td>Crystal sphere</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Control winds</td>
+ <td>Heightened +2</td>
+ <td>Bottled smoke from the Elemental Plane of Air</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Create food and water</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Create greater undead</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Create undead</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Create water</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Creeping doom</td>
+ <td>Extended</td>
+ <td>Rare jungle centipedes</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Crushing despair</td>
+ <td>Widened</td>
+ <td>Couatl tears</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+             <td>Crushing hand</td>
+             <td>Stilled</td>
+             <td>Ornate platinum knuckles</td>
+             <td>1,400 gp</td>
+            </tr>
+<tr>
+ <td>Cure critical wounds</td>
+ <td>Empowered</td>
+ <td>Alchemical salve</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Mass cure critical wounds</td>
+ <td>Empowered</td>
+ <td>Copper loop from Positive Energy Plane</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Cure light wounds</td>
+ <td>Empowered</td>
+ <td>Alchemical salve</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Mass cure light wounds</td>
+ <td>Empowered</td>
+ <td>Copper loop from Positive Energy Plane</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Cure minor wounds</td>
+ <td>Quickened</td>
+ <td>Alchemical salve</td>
+ <td>1,375 gp</td>
+</tr>
+<tr>
+ <td>Cure moderate wounds</td>
+ <td>Empowered</td>
+ <td>Alchemical salve</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Mass cure moderate wounds</td>
+ <td>Empowered</td>
+ <td>Copper loop from Positive Energy Plane</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Cure serious wounds</td>
+ <td>Empowered</td>
+ <td>Alchemical salve</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Mass cure serious wounds</td>
+ <td>Empowered</td>
+ <td>Copper loop from Positive Energy Plane</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Curse water</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Dancing lights</td>
+ <td>Extended</td>
+ <td>Anarchic fireflies from strongly chaos-aligned sporadic element-dominated outer plane</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Darkness</td>
+ <td>Silent</td>
+ <td>Coal mined and kept in total darkness</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Darkvision</td>
+ <td>Extended</td>
+ <td>Agate</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Daylight</td>
+ <td>Silent and stilled</td>
+ <td>Alchemical polish</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Daze</td>
+ <td>Extended</td>
+ <td>Wool from satyr-tended sheep</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Daze monster</td>
+ <td>Quickened</td>
+ <td>Umber hulk mandible</td>
+ <td>3,000 gp</td>
+</tr>
+<tr>
+ <td>Death knell</td>
+ <td>Heightened +3</td>
+ <td>Runic funerary blessings</td>
+ <td>1,950 gp</td>
+</tr>
+<tr>
+ <td>Death ward</td>
+ <td>Extended</td>
+ <td>Henna, which tattoos creature touched</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Deathwatch</td>
+ <td>Widened</td>
+ <td>Black crystal lenses</td>
+ <td>1,350 gp</td>
+</tr>
+<tr>
+ <td>Deep slumber</td>
+ <td>Heightened +2</td>
+ <td>Alchemical dreamwisp dust</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Deeper darkness</td>
+ <td>Silent</td>
+ <td>Oil extracted and kept in total darkness</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Delay poison</td>
+ <td>Extended</td>
+ <td>Specially prepared armadillo scales</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Delayed blast fireball</td>
+ <td>Extended</td>
+ <td>Fire opal</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Demand</td>
+ <td>Heightened +1</td>
+ <td>Gold wire and small part of the subject</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Desecrate</td>
+ <td>Extended</td>
+ <td>Unholy water and gold dust</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Desturction</td>
+ <td>Silent and stilled</td>
+ <td>Holy or unholy symbol marked with anathema</td>
+ <td>4,400 gp</td>
+</tr>
+<tr>
+ <td>Detect animals or plants</td>
+ <td>Enlarged</td>
+ <td>Five +1 arrows</td>
+ <td>235 gp</td>
+</tr>
+<tr>
+ <td>Detect chaos</td>
+ <td>Silent and stilled</td>
+ <td>Ground glass lens</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Detect evil</td>
+ <td>Silent and stilled</td>
+ <td>Ground glass lens</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Detect good</td>
+ <td>Silent and stilled</td>
+ <td>Ground glass lens</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Detect law</td>
+ <td>Silent and stilled</td>
+ <td>Ground glass lens</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Detect magic</td>
+ <td>Silent and stilled</td>
+ <td>Short cold iron rod</td>
+ <td>275 gp</td>
+</tr>
+<tr>
+ <td>Detect poison</td>
+ <td>Enlarged</td>
+ <td>Specially prepared snake tongue</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Detect scrying</td>
+ <td>Widened</td>
+ <td>Jewel-studed domino mask</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+ <td>Detect secret doors</td>
+ <td>Extended</td>
+ <td>Tangle of copper and silver wires</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Detect snares and pits</td>
+ <td>Extended</td>
+ <td>Darkwood divining rod</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Detect thoughts</td>
+ <td>Heightened +2</td>
+ <td>Platinum disc</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Detect undead</td>
+ <td>Extended</td>
+ <td>Specially prepared jawless skull</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Dictum</td>
+ <td>Heightend +2</td>
+ <td>Specially prepared protoplasm of a chaos beast</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Dimension door</td>
+ <td>Quickened</td>
+ <td>Gold ore mined from Astral Plane</td>
+ <td>4,600 gp</td>
+</tr>
+<tr>
+ <td>Dimensional anchor</td>
+ <td>Extended</td>
+ <td>Rune-engraved miniature anchor</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Dimensional lock</td>
+ <td>Widened</td>
+ <td>Adamantine weapon</td>
+ <td>varies</td>
+</tr>
+<tr>
+ <td>Diminish plants</td>
+ <td>Enlarged</td>
+ <td>Masterwork pruning shears</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Discern lies</td>
+ <td>Enlarged</td>
+ <td>Set of golden scales</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Discern location</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Disguise self</td>
+ <td>Extended</td>
+ <td>Masterwork greasepaint</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Disintegrate</td>
+ <td>Empowered</td>
+ <td>Trapped voidstone</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Dismissal</td>
+ <td>Hightened +2</td>
+ <td>Specially blessed holy symbol</td>
+ <td>2,100 gp</td>
+</tr>
+<tr>
+ <td>Dispel chaos</td>
+ <td>Quickened</td>
+ <td>Sapphire</td>
+ <td>5,400 gp</td>
+</tr>
+<tr>
+ <td>Dispel evil</td>
+ <td>Quickened</td>
+ <td>Diamond</td>
+ <td>5,400 gp</td>
+</tr>
+<tr>
+ <td>Dispel good</td>
+ <td>Quickened</td>
+ <td>Black opal</td>
+ <td>5,400 gp</td>
+</tr>
+<tr>
+ <td>Dispel law</td>
+ <td>Quickened</td>
+ <td>Yellow corundum</td>
+ <td>5,400 gp</td>
+</tr>
+<tr>
+ <td>Dispel magic</td>
+ <td>Widened</td>
+ <td>Cold iron statuette</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Greater dispel magic</td>
+ <td>Widened</td>
+ <td>Cold iron statuette</td>
+ <td>4,350 gp</td>
+</tr>
+<tr>
+ <td>Displacement</td>
+ <td>Extended</td>
+ <td>Specially prepared teeth from displacing magical beast</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Disrupt undead</td>
+ <td>Enlarged</td>
+ <td>Dirt from hallowed grave</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Disrupting weapon</td>
+ <td>Extended</td>
+ <td>Whetstone made from tombstone</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Divination</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Divine favor</td>
+ <td>Extended</td>
+ <td>Calligraphic scriptures</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Divine power</td>
+ <td>Silent and stilled</td>
+ <td>Holy symbol made of platinum and gems</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Dominate animal</td>
+ <td>Enlarged</td>
+ <td>Adamantine collar</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Dominate monster</td>
+ <td>Enlarged</td>
+ <td>Emrald-studded adamantine collar</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Dominate person</td>
+ <td>Quickened</td>
+ <td>Sapphire-studded adamantine collar</td>
+ <td>5,400 gp</td>
+</tr>
+<tr>
+ <td>Doom</td>
+ <td>Heightened +2</td>
+ <td>Carved doll</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Dream</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Eagle's splendor</td>
+ <td>Extended</td>
+ <td>Emrald</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Mass eagle's splendor</td>
+ <td>Extended</td>
+ <td>Emrald</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Earthquake</td>
+ <td>Widened</td>
+ <td>White granite from Elemental Plane of Earth</td>
+ <td>5,550 gp</td>
+</tr>
+<tr>
+ <td>Elemental swarm</td>
+ <td>Empowered</td>
+ <td>Rare incense (air), alchemical liquids (water), gems (fire), or mithral ore (earth)</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Endure elements</td>
+ <td>Extended</td>
+ <td>Potion of cure modeate wounds</td>
+ <td>300 gp</td>
+</tr>
+<tr>
+ <td>Energy drain</td>
+ <td>Empowered</td>
+ <td>Specially prepared vampire's skull</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Enervation</td>
+ <td>Empowered</td>
+ <td>Specially prepared wight's skull</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Enlarge person</td>
+ <td>Extended</td>
+ <td>Rare druid-tended beans</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Mass enlarge person</td>
+ <td>Extended</td>
+ <td>Rare druid-tended berries</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Entangle</td>
+ <td>Widened</td>
+ <td>Alchemical fertilizer</td>
+ <td>1,350 gp</td>
+</tr>
+<tr>
+ <td>Enthrall</td>
+ <td>Heightened +2</td>
+ <td>Golden figurines</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Entropic shield</td>
+ <td>Quickened</td>
+ <td>Finely engraved platinum dice</td>
+ <td>2,200 gp</td>
+</tr>
+<tr>
+ <td>Erase</td>
+ <td>Enlarged</td>
+ <td>Rubber plant sap</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Ethereal jaunt</td>
+ <td>Extended</td>
+ <td>Chunk of ethereal solid</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Etherealness</td>
+ <td>Extended</td>
+ <td>Figurine encarved from ethereal solid</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Expeditious retreat</td>
+ <td>Extended</td>
+ <td>Rare peppers</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Explosive runes</td>
+ <td>Heightened +3</td>
+ <td>Rare pigments</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Eyebite</td>
+ <td>Extended</td>
+ <td>Specially prepared eyestalk of many-eyed flying aberration</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Fabricate</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Faerie fire</td>
+ <td>Widened</td>
+ <td>Druid-tended mushroms</td>
+ <td>1,350 gp</td>
+</tr>
+<tr>
+ <td>False life</td>
+ <td>Extended</td>
+ <td>Rare alcohol</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>False vision</td>
+ <td>Widened</td>
+ <td>Ground jade dust</td>
+ <td>4,000 gp</td>
+</tr>
+<tr>
+ <td>Fear</td>
+ <td>Heightened +2</td>
+ <td>Pinfeather from giant eagle</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Feather fall</td>
+ <td>Enlarged</td>
+ <td>Down from black goose</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Feeblemind</td>
+ <td>Heightend +2</td>
+ <td>Polished obsidian spheres</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Find the path</td>
+ <td>Extended</td>
+ <td>Bracelet of lodestone</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Find traps</td>
+ <td>Extended</td>
+ <td>Golden magnifying glass</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Finger of death</td>
+ <td>Enlarged</td>
+ <td>Specially embalmed finger</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Fire seeds</td>
+ <td>Empowered</td>
+ <td>Druid-tended acorns or berries</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Fire shield (either version)</td>
+ <td>Extended</td>
+ <td>Alchemically prepared phosphorus</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Fire storm</td>
+ <td>Maximized</td>
+ <td>Cooled lava from erupting volcano</td>
+ <td>7,000 gp</td>
+</tr>
+<tr>
+ <td>Fire trap</td>
+ <td>Heightened +3</td>
+ <td>Gold dust</td>
+ <td>1,975 gp</td>
+</tr>
+<tr>
+ <td>Fireball</td>
+ <td>Widened</td>
+ <td>Fire opal</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Flame arrow</td>
+ <td>Empowered</td>
+ <td>Carved flint arrowhead</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Flame blade</td>
+ <td>Extended</td>
+ <td>Masterwork scimitar</td>
+ <td>315 gp</td>
+</tr>
+<tr>
+ <td>Flame strike</td>
+ <td>Empowered</td>
+ <td>Brimstone from Elemental Plane of Fire</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Flaming sphere</td>
+ <td>Enlarged</td>
+ <td>Powdered cold iron</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Flare</td>
+ <td>Silent</td>
+ <td>Powdered magnesium</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Flesh to stone</td>
+ <td>Heightened +2</td>
+ <td>Medusa head-snake</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Floating disk</td>
+ <td>Extended</td>
+ <td>Flask of mercury</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Fly</td>
+ <td>Extended</td>
+ <td>Feather from albino flacon</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Fog cloud</td>
+ <td>Quickened</td>
+ <td>Cloudy diamonds</td>
+ <td>3,000 gp</td>
+</tr>
+<tr>
+ <td>Forbiddance</td>
+ <td>Empowered</td>
+ <td>Holy water and are incenses</td>
+ <td>4,200 gp plus 1,500 gp per 60 ft. cube</td>
+</tr>
+<tr>
+ <td>Forcecage</td>
+ <td>Enlarged</td>
+ <td>Ruby dust</td>
+ <td>3,000 gp</td>
+</tr>
+<tr>
+             <td>Forceful hand</td>
+             <td>Stilled</td>
+             <td>Ornate bronze knuckles</td>
+             <td>940 gp</td>
+            </tr>
+<tr>
+ <td>Foresight</td>
+ <td>Extended</td>
+ <td>A celestial hummingbird's feather</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Fox's cunning</td>
+ <td>Extended</td>
+ <td>Garnet</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Mass fox's cunning</td>
+ <td>Extended</td>
+ <td>Garnet</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Freedom</td>
+ <td>Stilled</td>
+ <td>Salve of slipperiness</td>
+ <td>1,000 gp</td>
+</tr>
+<tr>
+ <td>Freedom of movement</td>
+ <td>Stilled</td>
+ <td>Salve of slipperiness</td>
+ <td>1,000 gp</td>
+</tr>
+<tr>
+ <td>Freezing sphere</td>
+ <td>Empowered</td>
+ <td>Crystal sphere</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Gaseous form</td>
+ <td>Stilled</td>
+ <td>Bottled smoke from a vocano's crater</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Gate</td>
+ <td>Quickened</td>
+ <td>Black pearl</td>
+ <td>8,600 gp</td>
+</tr>
+<tr>
+ <td>Geas/Quest</td>
+ <td>Extended</td>
+ <td>Golden armband</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Lesser geas</td>
+ <td>Extended</td>
+ <td>Jeweled armband</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Gentle repose</td>
+ <td>Extended</td>
+ <td>Embalming fluid</td>
+ <td>550 gp</td>
+</tr>
+<tr>
+ <td>Ghost sound</td>
+ <td>Heightened +2</td>
+ <td>Wax from sacred candle</td>
+ <td>275 gp</td>
+</tr>
+<tr>
+ <td>Ghoul touch</td>
+ <td>Extended</td>
+ <td>Earth from ghast's lair</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Giant vermin</td>
+ <td>Extended</td>
+ <td>Rare insect parts</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Glibness</td>
+ <td>Stilled</td>
+ <td>Fancy liquor</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Glitterdust</td>
+ <td>Widened</td>
+ <td>Ground topaz</td>
+ <td>1,950 gp</td>
+</tr>
+<tr>
+ <td>Globe of invulnerability</td>
+ <td>Widened</td>
+ <td>Pearls</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+ <td>Lesser globe of invulnerability</td>
+ <td>Widened</td>
+ <td>Pearls</td>
+ <td>4,350 gp</td>
+</tr>
+<tr>
+ <td>Glyph of warding</td>
+ <td>Heightened +2</td>
+ <td>Incense and powdered diamond</td>
+ <td>1,700 gp</td>
+</tr>
+<tr>
+ <td>Greater glyph of warding</td>
+ <td>Heightened +2</td>
+ <td>Incense and powdered diamond</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Goodberry</td>
+ <td>Empowered</td>
+ <td>Treant sap</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Good hope</td>
+ <td>Extended</td>
+ <td>Engraved brass torc</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+             <td>Grasping hand</td>
+             <td>Stilled</td>
+             <td>Ornate silver knuckles</td>
+             <td>1,100 gp</td>
+            </tr>
+<tr>
+ <td>Grease</td>
+ <td>Enlarged</td>
+ <td>Rind of a boar</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Guard and wards</td>
+ <td>Heightened +1</td>
+ <td>Rare incense</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Guidance</td>
+ <td>Extended</td>
+ <td>Book of prayers</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Gust of wind</td>
+ <td>Widened</td>
+ <td>Elaborate laquered fan</td>
+ <td>1,950 gp</td>
+</tr>
+<tr>
+ <td>Hallow</td>
+ <td>Widened</td>
+ <td>Herbs, oils, and incense</td>
+ <td>4,750 gp plus extra fro spell</td>
+</tr>
+<tr>
+ <td>Hallucinatory terrain</td>
+ <td>Heightened +3</td>
+ <td>Twigs and plants from mildly good-aligned, mildly chaos-aligned outer plane</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+ <td>Halt undead</td>
+ <td>Heightend +2</td>
+ <td>Sulfur from mildly evil-aligned, mildly-chaos aligned outer plane</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Harm</td>
+ <td>Heightened +1</td>
+ <td>Heart carved from onyx</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Haste</td>
+ <td>Extended</td>
+ <td>Rare cofee beans</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Heal</td>
+ <td>Heightend +1</td>
+ <td>Heart carved from alabaster</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Mass heal</td>
+ <td>Heightened +1</td>
+ <td>Heart carved from alabaster</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Heal mount</td>
+ <td>Quickened</td>
+ <td>Alchemical salve</td>
+ <td>3,800 gp</td>
+</tr>
+<tr>
+ <td>Heat metal</td>
+ <td>Extended</td>
+ <td>Mithral forge dross</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Helping hand</td>
+ <td>Enlarged</td>
+ <td>Ivory carving of hand</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Heroes' feast</td>
+ <td>Extended</td>
+ <td>Rare spices</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Heroism</td>
+ <td>Extended</td>
+ <td>Fine brandy</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Greater heroism</td>
+ <td>Extended</td>
+ <td>Fine whiskey</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Hide from animals</td>
+ <td>Extended</td>
+ <td>Stitched velvet blindfold</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Hide from undead</td>
+ <td>Heightened +3</td>
+ <td>Embroidered slik shawl</td>
+ <td>1,350 gp</td>
+</tr>
+<tr>
+ <td>Hideous laughter</td>
+ <td>Enlarged</td>
+ <td>Masterwork greasepaint</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Hold animal</td>
+ <td>Heightened +2</td>
+ <td>Decorative steel gauntlet</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Hold monster</td>
+ <td>Heightened +2</td>
+ <td>Engraved rod of cold iron</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Mass hold monster</td>
+ <td>Heightend +2</td>
+ <td>Engraved rod of cold iron</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Hold person</td>
+ <td>Heightened +2</td>
+ <td>Engraved ingot of cold iron</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Mass hold person</td>
+ <td>Heightened +2</td>
+ <td>Engraved ingot of cold iron</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Hold portal</td>
+ <td>Quickened</td>
+ <td>Ebony key</td>
+ <td>2,200 gp</td>
+</tr>
+<tr>
+ <td>Holy aura</td>
+ <td>Extended</td>
+ <td>Shield with +1 enhancement bonus</td>
+ <td>1,153 fp</td>
+</tr>
+<tr>
+ <td>Holy smite</td>
+ <td>Empowered</td>
+ <td>Spring water from strongly good-aligned, mildly positive-dominant outer plane</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Holy sword</td>
+ <td>Extended</td>
+ <td>Sacred candles</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Holy word</td>
+ <td>Heightened +2</td>
+ <td>Specially prepared fiend's tail</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Horrid wilting</td>
+ <td>Empowered</td>
+ <td>Sponge from Elemental Plane of Water</td>
+ <td>3,500 gp</td>
+</tr>
+<tr>
+ <td>Hypnotic pattern</td>
+ <td>Heightened +2</td>
+ <td>Stick of incense</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Hypnotism</td>
+ <td>Silent and stilled</td>
+ <td>Golden medallion</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Ice storm</td>
+ <td>Extended</td>
+ <td>Ivory stick with engraved snowflake pattern</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Identify</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Illusory script</td>
+ <td>Heightened +4</td>
+ <td>Rare inks</td>
+ <td>3,850 gp</td>
+</tr>
+<tr>
+ <td>Illusory wall</td>
+ <td>Heightened +2</td>
+ <td>Sunrod and ground glass lenses</td>
+ <td>1,900 g</td>
+</tr>
+<tr>
+ <td>Imbue with spell ability</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Implosion</td>
+ <td>Extended</td>
+ <td>Glass statuette</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Imprisonment</td>
+ <td>Heightened +2</td>
+ <td>Carved jade sphere</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Incendiary cloud</td>
+ <td>Extended</td>
+ <td>Bottled brimstone and sea mist</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Inflict critical wunds</td>
+ <td>Maximized</td>
+ <td>Obsidian holy symbol</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+ <td>Mass inflict critical wounds</td>
+ <td>Maximized</td>
+ <td>Obsidian holy symbol</td>
+ <td>5,550 gp</td>
+</tr>
+<tr>
+ <td>Inflict light wounds</td>
+ <td>Maximized</td>
+ <td>Obsidian holy symbol</td>
+ <td>1,350 gp</td>
+</tr>
+<tr>
+ <td>Mass inflict light wounds</td>
+ <td>Maximized</td>
+ <td>Obsidian holy symbol</td>
+ <td>3,750 gp</td>
+</tr>
+<tr>
+ <td>Inflict minor wounds</td>
+ <td>Quickened</td>
+ <td>Obsidian holy symbol</td>
+ <td>1,375 gp</td>
+</tr>
+<tr>
+ <td>Inflict moderate wounds</td>
+ <td>Maximized</td>
+ <td>Obsidian holy symbol</td>
+ <td>1,950 gp</td>
+</tr>
+<tr>
+ <td>Mass inflict moderate wounds</td>
+ <td>Maximized</td>
+ <td>Obsidian holy symbol</td>
+ <td>4,350 gp</td>
+</tr>
+<tr>
+ <td>Inflict serious wounds</td>
+ <td>Maximized</td>
+ <td>Obsidian holy symbol</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Mass inflict serious wounds</td>
+ <td>Maximized</td>
+ <td>Obsidian holy symbol</td>
+ <td>4,950 gp</td>
+</tr>
+<tr>
+ <td>Insanity</td>
+ <td>Heightened +1</td>
+ <td>Distilled water from strongly chaos-aligned, sporadic element-dominated outer plane</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Insect plague</td>
+ <td>Extended</td>
+ <td>Crooked staff with carved runes</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Instant Summons</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+             <td>Interposing hand</td>
+             <td>Stilled</td>
+             <td>Ornate brass knuckles</td>
+             <td>790 gp</td>
+            </tr>
+<tr>
+ <td>Invisibility</td>
+ <td>Extended</td>
+ <td>Janni eyelash</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Greater invisibility</td>
+ <td>Extended</td>
+ <td>Djinni eyelash</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Mass invisibility</td>
+ <td>Extended</td>
+ <td>Efreeti eyelash</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Invisibility purge</td>
+ <td>Extended</td>
+ <td>Crystal prism</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Iron body</td>
+ <td>Extended</td>
+ <td>Articulated iron doll</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Ironwood</td>
+ <td>Extended</td>
+ <td>Darkwood shaped into the object's form</td>
+ <td>varies</td>
+</tr>
+<tr>
+ <td>Irresistible dance</td>
+ <td>Silent</td>
+ <td>Embroidered shoes with gold buttons</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Jump</td>
+ <td>Quickened</td>
+ <td>Mithral springs</td>
+ <td>2,200 gp</td>
+</tr>
+<tr>
+ <td>Keen edge</td>
+ <td>Extended</td>
+ <td>Whetstone with pyrite veins running through it</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Knock</td>
+ <td>Silent</td>
+ <td>Golden key</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Know direction</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Legend lore</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Levitate</td>
+ <td>Enlarged</td>
+ <td>Loop of manticore hide</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Light</td>
+ <td>Silent</td>
+ <td>Phosphorescent moss</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Lightning bolt</td>
+ <td>Widened</td>
+ <td>Blue dragon scales</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Limited wish</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Liveoak</td>
+ <td>Extended</td>
+ <td>Alchemical fertilizer</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Locate creature</td>
+ <td>Enlarged</td>
+ <td>Specially tanned hellhound fur</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Locate object</td>
+ <td>Enlarged</td>
+ <td>Forked twig of darkwood</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Longstrider</td>
+ <td>Extended</td>
+ <td>Cobblestone from ancient hippodrome</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Lullaby</td>
+ <td>Widened</td>
+ <td>Fancy resin</td>
+ <td>725 gp</td>
+</tr>
+<tr>
+ <td>Mage armor</td>
+ <td>Extended</td>
+ <td>Links of Mithral Chain</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Mage hand</td>
+ <td>Enlarged</td>
+ <td>Monkey's paw</td>
+ <td>25 gp</td>
+</tr>
+
+           </tbody>
+          </table>
+</td>
+<td style="width: 6%">
+</td>
+<td valign="top" style="width: 47%">
+<table class="sortable" border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+           <tbody>
+           <tr>
+             <th valign="bottom">Spell Name</th>
+             <th valign="bottom">Metamagic Effect</th>
+             <th valign="bottom">Metamagic Component</th>
+             <th>Minimum<br /> Cost</th>
+            </tr>
+            <tr>
+ <td>Magic aura</td>
+ <td>Heightened +3</td>
+ <td>Amethyst necklace</td>
+ <td>1,350 gp</td>
+</tr>
+ <tr>
+ <td>Magic circle against chaos</td>
+ <td>Widened</td>
+ <td>Specially prepared holy symbol</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Magic cirlce against evil</td>
+ <td>Widened</td>
+ <td>Specially prepared holy symbol</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Magic cirlce against good</td>
+ <td>Widened</td>
+ <td>Specially prepared holy symbol</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Magic cirlce against law</td>
+ <td>Widened</td>
+ <td>Specially prepared holy symbol</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Magic fang</td>
+ <td>Extended</td>
+ <td>Specially prepared shark tooth</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Greater magic fang</td>
+ <td>Extended</td>
+ <td>Specially prepared dire shark tooth</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Magic jar</td>
+ <td>Extended</td>
+ <td>Gem or crystal</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Magic missile</td>
+ <td>Empowered</td>
+ <td>Two +3 arrows</td>
+ <td>734 gp</td>
+</tr>
+<tr>
+ <td>Magic mouth</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Magic stone</td>
+ <td>Empowered</td>
+ <td>Colorful marbles</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Magic vestment</td>
+ <td>Extended</td>
+ <td>Embroidered sash</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Magic weapon</td>
+ <td>Extended</td>
+ <td>Alchemically distilled blood</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Greater magic weapon</td>
+ <td>Extended</td>
+ <td>Alchemically purified blood</td>
+ <td>750 gp</td>
+</tr>
+<tr>
+ <td>Major creation</td>
+ <td>Extended</td>
+ <td>Phasm essence</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Major image</td>
+ <td>Heightened +2</td>
+ <td>Rare pigments</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Make whole</td>
+ <td>Enlarged</td>
+ <td>Alchemical adhesive</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Mark of justice</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Maze</td>
+ <td>Enlarged</td>
+ <td>Engraved minotaur horn</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Meld into stone</td>
+ <td>Extended</td>
+ <td>Carved stone figurine</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Mending</td>
+ <td>Enlarged</td>
+ <td>Alchemical adhesive</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Message</td>
+ <td>Enlarged</td>
+ <td>Calligraphic inscriptions on vellum</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Meteor swarm</td>
+ <td>Maximized</td>
+ <td>Chunk of meteorite</td>
+ <td>8,600 gp</td>
+</tr>
+<tr>
+ <td>Mind blank</td>
+ <td>extended</td>
+ <td>Malachite-studded headband</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Mind fog</td>
+ <td>Heightened +3</td>
+ <td>Specially prepared tentacle from mind-sucking monstrous humanoid</td>
+ <td>3,750 gp</td>
+</tr>
+<tr>
+ <td>Minor creation</td>
+ <td>Extended</td>
+ <td>Roper sap</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Minor image</td>
+ <td>Heightened +2</td>
+ <td>Rare pigments</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Miracle</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Mirage arcana</td>
+ <td>Hightened +3</td>
+ <td>Mirror silvered in a mildly good-aligned outer plane</td>
+ <td></td>
+</tr>
+<tr>
+ <td>Mirror image</td>
+ <td>Extended</td>
+ <td>Miniscule dolls of yourself</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Misdirection</td>
+ <td>Heightened +2</td>
+ <td>Gold wire bent into a creature's silhouette</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Mislead</td>
+ <td>Heightened +1</td>
+ <td>Fancy marionette</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Mnemonic enhancer</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Modify memory</td>
+ <td>Heightened +2</td>
+ <td>Alchemical smelling salts</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Moment of prescience</td>
+ <td>Quickened</td>
+ <td>Fine Wine from strongly good-aligned, mildly positive-dominant outer plane</td>
+ <td>7,800 gp</td>
+</tr>
+<tr>
+ <td>Mage's disjunction</td>
+ <td>Enlarged and widened</td>
+ <td>Trapped voidstone</td>
+ <td>8,600 gp</td>
+</tr>
+<tr>
+ <td>Mage's faithful hound</td>
+ <td>Extended</td>
+ <td>Specially prepared blink dog teeth</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Mage's lucubration</td>
+ <td>Quickened</td>
+ <td>Ruby ring</td>
+ <td>6,200 gp</td>
+</tr>
+<tr>
+ <td>Mage's magnificient mansion</td>
+ <td>Extended</td>
+ <td>Miniature portal</td>
+ <td>1,465 gp</td>
+</tr>
+<tr>
+ <td>Mage's private sanctum</td>
+ <td>Extended</td>
+ <td>Trapped fog from the Plane of Shadow</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Mount</td>
+ <td>Quickened</td>
+ <td>Specially prepared hair from pegasus or nightmare</td>
+ <td>2,200 gp</td>
+</tr>
+<tr>
+ <td>Move earth</td>
+ <td>Enlarged</td>
+ <td>Rare soils form Elemental Plane of Earth</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Neutralize poison</td>
+ <td>Extended</td>
+ <td>Specially prepared tongue from snake-like monstrous humanoid</td>
+ <td>750 gp</td>
+</tr>
+<tr>
+ <td>Nightmare</td>
+ <td>Heightened +2</td>
+ <td>Rare spices</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Nondetection</td>
+ <td>Extended</td>
+ <td>Carved ebony lattice</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Obscure object</td>
+ <td>Extended</td>
+ <td>Chimera scales</td>
+ <td>550 gp</td>
+</tr>
+<tr>
+ <td>Obscuring mist</td>
+ <td>Extended</td>
+ <td>Silver chalice</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Open/close</td>
+ <td>Enlarged</td>
+ <td>Silver key</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Order's wrath</td>
+ <td>Empowered</td>
+ <td>Gear cog from strongly law-aligned outer plane</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Overland flight</td>
+ <td>Extended</td>
+ <td>Specially prepared drago wing-hide</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Owl's wisdom</td>
+ <td>Extended</td>
+ <td>Opal</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Mass owl's wisdom</td>
+ <td>Extended</td>
+ <td>Opal</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Passwall</td>
+ <td>Extended</td>
+ <td>Golden miniature shovel</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Pass without trace</td>
+ <td>Extended</td>
+ <td>Cloak of feathers</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Permanency</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Permanent image</td>
+ <td>Heightened +2</td>
+ <td>Rare pigments</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Persistent image</td>
+ <td>Heightened +2</td>
+ <td>Rare pigments</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Phantansmal killer</td>
+ <td>Heightened +1</td>
+ <td>Nightmarish etchings</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Phantom steed</td>
+ <td>Extended</td>
+ <td>Platinum horseshoe</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Phase door</td>
+ <td>Silent</td>
+ <td>Jasper-studded key</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Planar ally</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Greater planar ally</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Lesser planar ally</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Planar binding</td>
+ <td>Heightened +2</td>
+ <td>Silver filigree around magic circle</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Greater planar binding</td>
+ <td>Heightened +2</td>
+ <td>Gold filigree around magic circle</td>
+ <td>3,500 gp</td>
+</tr>
+<tr>
+ <td>Lesser planar binding</td>
+ <td>Heightenend +2</td>
+ <td>Copper filigree around magic circle</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Plane shift</td>
+ <td>Quickened</td>
+ <td>Silk mantle with moonstones</td>
+ <td>6,200 gp</td>
+</tr>
+<tr>
+ <td>Plant growth</td>
+ <td>Enlarged</td>
+ <td>Alchemically treated seeds</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Poison</td>
+ <td>Maximized</td>
+ <td>Wyver poison</td>
+ <td>3,000 gp</td>
+</tr>
+<tr>
+ <td>Polar ray</td>
+ <td>Enlarged</td>
+ <td>Pale sapphire</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Polymorph</td>
+ <td>Extended</td>
+ <td>Druid-tended silkworm cocoon</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Polymorph any object</td>
+ <td>Extended</td>
+ <td>Alchemically purified mercury</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Power word blind</td>
+ <td>Enlarged</td>
+ <td>Corundum</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Power word kill</td>
+ <td>Enlarged</td>
+ <td>Corundum</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Power word stun</td>
+ <td>Enlarged</td>
+ <td>Corundum</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Prayer</td>
+ <td>Widened</td>
+ <td>Blessed scriptures on vellum</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Prestidigation</td>
+ <td>Enlarged</td>
+ <td>White silk gloves</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Prismatic sphere</td>
+ <td>Heightened +2</td>
+ <td>Diamonds</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Prismatic spray</td>
+ <td>Heightened +2</td>
+ <td>Diamonds</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Prismatic wall</td>
+ <td>Heightened +2</td>
+ <td>Diamonds</td>
+ <td>3,500 gp</td>
+</tr>
+<tr>
+ <td>Produce flame</td>
+ <td>Silent</td>
+ <td>Ring carved from flint</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Programmed image</td>
+ <td>Heightened +2</td>
+ <td>Rare pigments</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Project image</td>
+ <td>Extended</td>
+ <td>Distorted mirror</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Protection from arrows</td>
+ <td>Extended</td>
+ <td>Piece of bulette hide</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Protection from chaos</td>
+ <td>Extended</td>
+ <td>Powdered platinum</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Protection from energy</td>
+ <td>Extended</td>
+ <td>Spinels of red (fire), black (acid), green (sonic), blue (electricity), or white (cold)</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Protection from evil</td>
+ <td>Extended</td>
+ <td>Powdered platinum</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Protection from good</td>
+ <td>Extended</td>
+ <td>Powdered platinum</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Protection from law</td>
+ <td>Extended</td>
+ <td>Powdered platinum</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Protection from spells</td>
+ <td>Extended</td>
+ <td>Crushed diamond</td>
+ <td>2,150 gp</td>
+</tr>
+<tr>
+ <td>Prying eyes</td>
+ <td>Enlarged</td>
+ <td>Specially prepared eyestalk of many-eyed flying aberration</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Greater prying eyes</td>
+ <td>Enlarged</td>
+ <td>Specially prepared center eye of many-eyed flying aberration</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Purify food and drink</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Pyrotechnics</td>
+ <td>Heightened +2</td>
+ <td>Fire source and alchemical accelerants</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Quench</td>
+ <td>Enlarged</td>
+ <td>Water from the extraplanar river spanning several upper outer planes</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Rage</td>
+ <td>Extended</td>
+ <td>Fine mead</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Rainbow pattern</td>
+ <td>Heightened +2</td>
+ <td>Smoky quartz prism</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Raise dead</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Ray of enfeeblement</td>
+ <td>Enlarged</td>
+ <td>Ceremonial electrum dagger</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Ray of exhaustion</td>
+ <td>Heightened +1</td>
+ <td>Alchemically distilled perspiration</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Ray of frost</td>
+ <td>Enlarged</td>
+ <td>White marble carved in icicle shape</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Read magic</td>
+ <td>Extended</td>
+ <td>Mineral prism</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Reduce animal</td>
+ <td>Heightened +3</td>
+ <td>Topaz-studded links of iron</td>
+ <td>1,950 gp</td>
+</tr>
+<tr>
+ <td>Reduce person</td>
+ <td>Heightened +3</td>
+ <td>Turquoise-studded links of iron</td>
+ <td>1,350 gp</td>
+</tr>
+<tr>
+ <td>Mass reduce person</td>
+ <td>Heightened +3</td>
+ <td>Turquoise-studded links of iron</td>
+ <td>3,150</td>
+</tr>
+<tr>
+ <td>Refuge</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Regenerate</td>
+ <td>Empowered</td>
+ <td>Specially prepared troll blood</td>
+ <td>3,500 gp</td>
+</tr>
+<tr>
+ <td>Reincarnate</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Remove blindness/deafness</td>
+ <td>Silent</td>
+ <td>Pearl-studded circlet</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Remove curse</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Remove disease</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Remove fear</td>
+ <td>Extended</td>
+ <td>Alchemically prepared war paint</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Remove paralysis</td>
+ <td>Enlarged</td>
+ <td>Burnind incense</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Repel metal or stone</td>
+ <td>Widened</td>
+ <td>Druid-tended sapling</td>
+ <td>5,550 gp</td>
+</tr>
+<tr>
+ <td>Repel vermin</td>
+ <td>Widened</td>
+ <td>Rare snakeskin</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+ <td>Repel wood</td>
+ <td>Widened</td>
+ <td>Miniature jewel lantern</td>
+ <td>4,350 gp</td>
+</tr>
+<tr>
+ <td>Repulsion</td>
+ <td>Widened</td>
+ <td>Alchemical-ink tattoo (temporary)</td>
+ <td>4,700 gp</td>
+</tr>
+<tr>
+ <td>Resilient sphere</td>
+ <td>Enlarged</td>
+ <td>Crystal sphere</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Resistance</td>
+ <td>Extended</td>
+ <td>Silk cloak</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Resist energy</td>
+ <td>Extended</td>
+ <td>Spinel of red (fire), black (acid), green (sonic), blue (electricity), or white (cold)</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Restoration</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Greater restoration</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Lesser restoration</td>
+ <td>Empowered</td>
+ <td>Alchemical balm</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Resurrection</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Reverse gravity</td>
+ <td>Quickened</td>
+ <td>Lodestone mined in a mildly chaos-aligned outer plane</td>
+ <td>7,400 gp</td>
+</tr>
+<tr>
+ <td>Righteous might</td>
+ <td>Extended</td>
+ <td>Ritually prepared holy symbol</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Rope trick</td>
+ <td>Extended</td>
+ <td>Rope braided from spider silk</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Rusting grasp</td>
+ <td>Empowered</td>
+ <td>Ornate mithral gauntlet</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Sanctuary</td>
+ <td>Heightened +2</td>
+ <td>Jasper necklace</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Scare</td>
+ <td>Extended</td>
+ <td>Ritually prepared bone from corporeal undead</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Scintillating pattern</td>
+ <td>Widened</td>
+ <td>Pearlescent prism</td>
+ <td>5,550 gp</td>
+</tr>
+<tr>
+ <td>Scorching ray</td>
+ <td>Empowered</td>
+ <td>Ruby form Elemental Plane of Fire</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Screen</td>
+ <td>Heightened +2</td>
+ <td>Embroidered gauze scrim</td>
+ <td>3,500 gp</td>
+</tr>
+<tr>
+ <td>Scrying</td>
+ <td>Heightened +3</td>
+ <td>Alchemically purified nitric acid</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+ <td>Greater scrying</td>
+ <td>Heightened +2</td>
+ <td>Alchmically purified nitric acid</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Sculpt sound</td>
+ <td>Enlarged</td>
+ <td>Rare clay</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Searing light</td>
+ <td>Maximized</td>
+ <td>Yellow topaz</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Secret chest</td>
+ <td>Extended</td>
+ <td>Net made of ethereal solids</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Secret page</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Secure shelter</td>
+ <td>Extended</td>
+ <td>Miniscule model of cottage</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>See invisibility</td>
+ <td>Extended</td>
+ <td>Powdered turquoise</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Seeming</td>
+ <td>Heightened +2</td>
+ <td>Coral figurines</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Sending</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Sepia snake sigil</td>
+ <td>Heightened +2</td>
+ <td>Powdered amber</td>
+ <td>2,000 gp</td>
+</tr>
+<tr>
+ <td>Sequester</td>
+ <td>Extended</td>
+ <td>Alchemical ointment</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Shades</td>
+ <td>Heightened +1</td>
+ <td>Pearl from the Plane of Shadow</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Shadow conjuration</td>
+ <td>Heightened +1</td>
+ <td>Pearl from the Plane of Shadow</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Greater shadow conjuration</td>
+ <td>Heightened +1</td>
+ <td>Pearl from the Plane of Shadow</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Shadow evocation</td>
+ <td>Heightened +1</td>
+ <td>Diamond from the Plane of Shadow</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Greater shadow evocation</td>
+ <td>Heightened +1</td>
+ <td>Diamond from the Plane of Shadow</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Shadow walk</td>
+ <td>Extended</td>
+ <td>Black tourmaline</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Shambler</td>
+ <td>Empowered</td>
+ <td>Rare herbs</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Shapechange</td>
+ <td>Extended</td>
+ <td>Aquamarine circlet</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Shatter</td>
+ <td>Widened</td>
+ <td>Carved crystal cubes</td>
+ <td>1,950 gp</td>
+</tr>
+<tr>
+ <td>Shield</td>
+ <td>Quickened</td>
+ <td>Jeweled bracelet</td>
+ <td>2,200 gp</td>
+</tr>
+<tr>
+ <td>Shield of faith</td>
+ <td>Extended</td>
+ <td>Ritually prepared parchment</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Shield of law</td>
+ <td>Extended</td>
+ <td>Shield with +1 enhancement bonus</td>
+ <td>1,153 gp</td>
+</tr>
+<tr>
+ <td>Shield other</td>
+ <td>Enlarged</td>
+ <td>Two emrald and platinum rings</td>
+ <td>550 gp</td>
+</tr>
+<tr>
+ <td>Shillelagh</td>
+ <td>Extended</td>
+ <td>Druid-tended oak club or quarterstaff</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Shocking grasp</td>
+ <td>Maximized</td>
+ <td>Ornate electrum gauntlet</td>
+ <td>1,350 gp</td>
+</tr>
+<tr>
+ <td>Shout</td>
+ <td>Widened</td>
+ <td>Ornate platinum gong</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+ <td>Greater shout</td>
+ <td>Widened</td>
+ <td>Ornate platinum trumpet</td>
+ <td>5,550 gp</td>
+</tr>
+<tr>
+ <td>Shrink item</td>
+ <td>Extended</td>
+ <td>Alchemically purified mica</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Silence</td>
+ <td>Silent</td>
+ <td>Silver mask</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Silent image</td>
+ <td>Heightened +2</td>
+ <td>Rare pigments</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Simulacrum</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Slay living</td>
+ <td>Heightened +3</td>
+ <td>Obsidian headpiece</td>
+ <td>3,750 gp</td>
+</tr>
+<tr>
+ <td>Sleep</td>
+ <td>Heightened +2</td>
+ <td>Alchemical dreamwisp dust</td>
+ <td>700 gp</td>
+</tr>
+<tr>
+ <td>Sleet storm</td>
+ <td>Extended</td>
+ <td>Hollow ivory bottle</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Slow</td>
+ <td>Heightened +2</td>
+ <td>Liquid amber</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Snare</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Soften earth and stone</td>
+ <td>Enlarged</td>
+ <td>Specially prepared mud from strongly evil-aligned outer plane</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Solid fog</td>
+ <td>Quickened</td>
+ <td>Cloudy diamonds</td>
+ <td>4,600 gp</td>
+</tr>
+<tr>
+ <td>Song of discord</td>
+ <td>Widened</td>
+ <td>Rune-carved conch shell</td>
+ <td>3,750 gp</td>
+</tr>
+<tr>
+ <td>Soul bind</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Sound burst</td>
+ <td>Heightened +1</td>
+ <td>Bone whistle</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Speak with animals</td>
+ <td>Extended</td>
+ <td>Animal mask</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Speak with dead</td>
+ <td>Heightened +3</td>
+ <td>Golden caduceus</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Speak with plants</td>
+ <td>Extended</td>
+ <td>Jade-studded mask</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Spectral hand</td>
+ <td>Enlarged</td>
+ <td>Phosphor-limned glove</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Spell immunity</td>
+ <td>Extended</td>
+ <td>Moonstone</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Greater spell immunity</td>
+ <td>Extended</td>
+ <td>Moonstone</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Spell resistance</td>
+ <td>Extended</td>
+ <td>Rakshasa claw</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Spellstaff</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Spell turning</td>
+ <td>Empowered</td>
+ <td>Zircon</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Spider climb</td>
+ <td>Extended</td>
+ <td>Drider fur</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Spike growth</td>
+ <td>Heightened +2</td>
+ <td>Carved basalt dagger</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Spike stones</td>
+ <td>Heightened +2</td>
+ <td>Carved obsidian dagger</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Spiritual weapon</td>
+ <td>Enlarged</td>
+ <td>Masterwork version of weapon</td>
+ <td>varies</td>
+</tr>
+<tr>
+ <td>Statue</td>
+ <td>Extended</td>
+ <td>Limestone figurine</td>
+ <td>1,450 gp</td>
+</tr>
+<tr>
+ <td>Status</td>
+ <td>Extended</td>
+ <td>Electrum headband</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Stinking cloud</td>
+ <td>Empowered</td>
+ <td>Sulfur from Elemental Plane of Fire</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Stone shape</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Stoneskin</td>
+ <td>Extended</td>
+ <td>Diamond dsut</td>
+ <td>1,300 gp</td>
+</tr>
+<tr>
+ <td>Stone tell</td>
+ <td>Extended</td>
+ <td>Stone mask</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Stone to flesh</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Storm of vengeance</td>
+ <td>Empowered</td>
+ <td>Heartwood from oak split by lightning</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Suggestion</td>
+ <td>Heightened +2</td>
+ <td>Druid-tended honey</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Mass suggestion</td>
+ <td>Heightened +2</td>
+ <td>Druid-tended honey</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Summon Instrument</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Summon monster I</td>
+ <td>Extended</td>
+ <td>Pearl</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Summon monster II</td>
+ <td>Empowered</td>
+ <td>Pearl</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Summon monster III</td>
+ <td>Empowered</td>
+ <td>Pearl</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Summon monster IV</td>
+ <td>Empowered</td>
+ <td>Pearl</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Summon monster V</td>
+ <td>Empowered</td>
+ <td>Pearl</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Summon monster VI</td>
+ <td>Empowered</td>
+ <td>Pearl</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Summon monster VII</td>
+ <td>Empowered</td>
+ <td>Pearl</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Summon monster VIII</td>
+ <td>Empowered</td>
+ <td>Pearl</td>
+ <td>3,500 gp</td>
+</tr>
+<tr>
+ <td>Summon monster IX</td>
+ <td>Empowered</td>
+ <td>Pearl</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Summon nature's ally I</td>
+ <td>Extended</td>
+ <td>Druid-tended mistletoe</td>
+ <td>250</td>
+</tr>
+<tr>
+ <td>Summon nature's ally II</td>
+ <td>Empowered</td>
+ <td>Druid-tended mistletoe</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Summon nature's ally III</td>
+ <td>Empowered</td>
+ <td>Druid-tended mistletoe</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>Summon nature's ally IV</td>
+ <td>Empowered</td>
+ <td>Druid-tended mistletoe</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Summon nature's ally V</td>
+ <td>Empowered</td>
+ <td>Druid-tended mistletoe</td>
+ <td>2,300 gp</td>
+</tr>
+<tr>
+ <td>Summon nature's ally VI</td>
+ <td>Empowered</td>
+ <td>Druid-tended mistletoe</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Summon nature's ally VII</td>
+ <td>Empowered</td>
+ <td>Druid-tended mistletoe</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Summon nature's ally VIII</td>
+ <td>Empowered</td>
+ <td>Druid-tended mistletoe</td>
+ <td>3,500 gp</td>
+</tr>
+<tr>
+ <td>Summon nature's ally IX</td>
+ <td>Empowered</td>
+ <td>Druid-tended mistletoe</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Sumon swarm</td>
+ <td>Extended</td>
+ <td>Rune-embroidered red cloth</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Sunbeam</td>
+ <td>Widened</td>
+ <td>Javelin with phosphorus runes</td>
+ <td>4,950 gp</td>
+</tr>
+<tr>
+ <td>Sunburst</td>
+ <td>Widened</td>
+ <td>Sunstone carved into graven image</td>
+ <td>5,550 gp</td>
+</tr>
+<tr>
+ <td>Symbol of death</td>
+ <td>Heightened +2</td>
+ <td>Powdered diamond and opal</td>
+ <td>13,500 gp</td>
+</tr>
+<tr>
+ <td>Symbol of fear</td>
+ <td>Heightened +2</td>
+ <td>Powdered diamond and opal</td>
+ <td>3,700 gp</td>
+</tr>
+<tr>
+ <td>Symbol of insanity</td>
+ <td>Heightened +2</td>
+ <td>Powdered diamond and opal</td>
+ <td>8,500 gp</td>
+</tr>
+<tr>
+ <td>Symbol of pain</td>
+ <td>Heightened +2</td>
+ <td>Powdered diamond and opal</td>
+ <td>3,300 gp</td>
+</tr>
+<tr>
+ <td>Symbol of persuasion</td>
+ <td>Heightened +2</td>
+ <td>Powdered diamond and opal</td>
+ <td>7,700 gp</td>
+</tr>
+<tr>
+ <td>Symbol of sleep</td>
+ <td>Heightened +2</td>
+ <td>Powdered diamond and opal</td>
+ <td>3,300 gp</td>
+</tr>
+<tr>
+ <td>Symbol of stunning</td>
+ <td>Heightened +2</td>
+ <td>Powdered diamond and opal</td>
+ <td>8,100 gp</td>
+</tr>
+<tr>
+ <td>Symbol of weakness</td>
+ <td>Heightened +2</td>
+ <td>Powdered diamond and opal</td>
+ <td>8,100 gp</td>
+</tr>
+<tr>
+ <td>Sympathetic vibration</td>
+ <td>Extended</td>
+ <td>Set of masterwork tuning forks</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Sympathy</td>
+ <td>Extended</td>
+ <td>Crushed pearls</td>
+ <td>2,150 gp</td>
+</tr>
+<tr>
+ <td>Telekinesis</td>
+ <td>Enlarged</td>
+ <td>Iron rod with silver filigree</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Telekinetic sphere</td>
+ <td>Enlarged</td>
+ <td>Crystal sphere</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Telepathic bond</td>
+ <td>Extended</td>
+ <td>Dragon eggshells</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Teleport</td>
+ <td>Quickened</td>
+ <td>Amber and emrald pendant</td>
+ <td>5,400 gp</td>
+</tr>
+<tr>
+ <td>Teleport object</td>
+ <td>Quickened</td>
+ <td>Amber and emrald bracelet</td>
+ <td>7,000 gp</td>
+</tr>
+<tr>
+ <td>Greater teleport</td>
+ <td>Quickened</td>
+ <td>Amber and emrald necklace</td>
+ <td>7,000 gp</td>
+</tr>
+<tr>
+ <td>Teleportation circle</td>
+ <td>Extended</td>
+ <td>Amber dust</td>
+ <td>2,850 gp</td>
+</tr>
+<tr>
+ <td>Temporal stasis</td>
+ <td>Heightened +2</td>
+ <td>Powdered diamond, emrald, ruby, and sapphire</td>
+ <td>8,500 gp</td>
+</tr>
+<tr>
+ <td>Tiny hut</td>
+ <td>Extended</td>
+ <td>Necklace of crystal beads</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Transformation</td>
+ <td>Extended</td>
+ <td>Potion of bear's endurance, bull's strength, cat's grace, and heroism</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Trap</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Time stop</td>
+ <td>Empowered</td>
+ <td>Specially prepared titan's knucklebone</td>
+ <td>3,900 gp</td>
+</tr>
+<tr>
+ <td>Tongues</td>
+ <td>Extended</td>
+ <td>Brass model of ziggurat</td>
+ <td>750 gp</td>
+</tr>
+<tr>
+ <td>Touch of fatigue</td>
+ <td>Heightened +2</td>
+ <td>Wolverine perspiration</td>
+ <td>275 gp</td>
+</tr>
+<tr>
+ <td>Touch of idiocy</td>
+ <td>Silent</td>
+ <td>Ornate bronze gauntlet</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Transmute metal to wood</td>
+ <td>Widened</td>
+ <td>Finely carved darkwood-and-pearl holy symbol</td>
+ <td>4,950 gp</td>
+</tr>
+<tr>
+ <td>Transmute mud to rock</td>
+ <td>Heightened +1</td>
+ <td>Alchemically treaded clay</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Transmute rock to mud</td>
+ <td>Heightened +1</td>
+ <td>Alchemically treated clay</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Transport via plants</td>
+ <td>Silent</td>
+ <td>Rare herbs</td>
+ <td>1,250 gp</td>
+</tr>
+<tr>
+ <td>Trap the soul</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Tree shape</td>
+ <td>Extended</td>
+ <td>Shawl woven from druid-tended leaves</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Tree stride</td>
+ <td>Silent</td>
+ <td>Rare herbs</td>
+ <td>1,050 g</td>
+</tr>
+<tr>
+ <td>True resurrection</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>True seeing</td>
+ <td>Extended</td>
+ <td>Eye ointment</td>
+ <td>1,500 gp</td>
+</tr>
+<tr>
+ <td>True strike</td>
+ <td>Quickened</td>
+ <td>Bow with +1 enhancement bonus</td>
+ <td>2,330 gp</td>
+</tr>
+<tr>
+ <td>Undeath to death</td>
+ <td>Widened</td>
+ <td>Crushed diamond</td>
+ <td>4,850 gp</td>
+</tr>
+<tr>
+ <td>Undetectable alignment</td>
+ <td>Extended</td>
+ <td>Embroidered velvet shroud</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Unhallow</td>
+ <td>Widened</td>
+ <td>Herbs, oils, and incense</td>
+ <td>4,750 gp plus extra for spell</td>
+</tr>
+<tr>
+ <td>Unholy aura</td>
+ <td>Extended</td>
+ <td>Shield with +1 enhancement bonus</td>
+ <td>1,153 gp</td>
+</tr>
+<tr>
+ <td>Unholy blight</td>
+ <td>Empowered</td>
+ <td>Dust from strongly evil-aligned outer plane</td>
+ <td>1,900 gp</td>
+</tr>
+<tr>
+ <td>Unseen servant</td>
+ <td>Extended</td>
+ <td>Fancy valet's uniform</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Vampiric touch</td>
+ <td>Maximized</td>
+ <td>Specially prepared vampire's fang</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Veil</td>
+ <td>Heightened +2</td>
+ <td>Veil spun from electrum thread</td>
+ <td>2,700 gp</td>
+</tr>
+<tr>
+ <td>Ventriloquism</td>
+ <td>Enlarged</td>
+ <td>Calligraphy on fine parchement, rolled into cone</td>
+ <td>250 gp</td>
+</tr>
+<tr>
+ <td>Virtue</td>
+ <td>Extended</td>
+ <td>Brass medallion</td>
+ <td>25 gp</td>
+</tr>
+<tr>
+ <td>Vision</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Wail of the banshee</td>
+ <td>Enlarged and widened</td>
+ <td>Trapped banshee essence</td>
+ <td>8,600 gp</td>
+</tr>
+<tr>
+ <td>Wall of fire</td>
+ <td>Extended</td>
+ <td>Ground phosphorus and magnesium</td>
+ <td>950 gp</td>
+</tr>
+<tr>
+ <td>Wall of force</td>
+ <td>Extended</td>
+ <td>Any clear gem</td>
+ <td>1, 050 gp</td>
+</tr>
+<tr>
+ <td>Wall of ice</td>
+ <td>Extended</td>
+ <td>Rune-engraved quartz</td>
+ <td>850 gp</td>
+</tr>
+<tr>
+ <td>Wall of iron</td>
+ <td>Enlarged</td>
+ <td>Alchemically purified iron and gold dust</td>
+ <td>1,300 gp</td>
+</tr>
+<tr>
+ <td>Wall of stone</td>
+ <td>Enlarged</td>
+ <td>Rune-engraved granite</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Wall of thorns</td>
+ <td>Extended</td>
+ <td>Thorns from rare blood-roses</td>
+ <td>1,050 gp</td>
+</tr>
+<tr>
+ <td>Warp wood</td>
+ <td>Enlarged</td>
+ <td>Switch carved from druid-tende black oak</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Water breathing</td>
+ <td>Extended</td>
+ <td>Ornately carved reed</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Water walk</td>
+ <td>Extended</td>
+ <td>Coral armbands</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Waves of exhaustion</td>
+ <td>Widened</td>
+ <td>Occluded diamond</td>
+ <td>4,950 gp</td>
+</tr>
+<tr>
+ <td>Waves of fatigue</td>
+ <td>Widened</td>
+ <td>Occluded diamond</td>
+ <td>2,550 gp</td>
+</tr>
+<tr>
+ <td>Web</td>
+ <td>Heightened +2</td>
+ <td>Ritually prepared drider silk</td>
+ <td>1,100 gp</td>
+</tr>
+<tr>
+ <td>Weird</td>
+ <td>Heightened +1</td>
+ <td>Nightmarish etchings</td>
+ <td>1,850 gp</td>
+</tr>
+<tr>
+ <td>Whirlwind</td>
+ <td>Extended</td>
+ <td>Bottled gale-force wind from the Elemental Plane of Air</td>
+ <td>1,650 gp</td>
+</tr>
+<tr>
+ <td>Whispering wind</td>
+ <td>Extended</td>
+ <td>Bottled last breath of a druid</td>
+ <td>450 gp</td>
+</tr>
+<tr>
+ <td>Wind walk</td>
+ <td>Extended</td>
+ <td>Cloud vapor from mildly law-aligned outer plane</td>
+ <td>1,350 gp</td>
+</tr>
+<tr>
+ <td>Wind wall</td>
+ <td>Extended</td>
+ <td>Specially prepared lillend feather</td>
+ <td>650 gp</td>
+</tr>
+<tr>
+ <td>Wish</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Wood shape</td>
+ <td>-</td>
+ <td>-</td>
+ <td>-</td>
+</tr>
+<tr>
+ <td>Word of chaos</td>
+ <td>Heightened +2</td>
+ <td>Specially prepared stinger of formian myrmarch</td>
+ <td>3,100 gp</td>
+</tr>
+<tr>
+ <td>Word of recall</td>
+ <td>Quickened</td>
+ <td>Ornate emrald holy symbol</td>
+ <td>7,000 gp</td>
+</tr>
+<tr>
+ <td>Zone of silence</td>
+ <td>Widened</td>
+ <td>Miniature platinum lute with strings cut</td>
+ <td>3,150 gp</td>
+</tr>
+<tr>
+ <td>Zone of truth</td>
+ <td>Heightened +2</td>
+ <td>Silver and gold gavel</td>
+ <td>1,100 gp</td>
+</tr>
+</tbody>
+</table>
+
+</td></tr>
+</tbody>
+</table>
+<h5><a id="house-rule-metamagic-and-sorcerers-i"></a>HOUSE RULE: METAMAGIC AND SORCERERS I</h5>
+<div style="margin-left: 40px">A sorcerer who wants to make better use of his metamagic feats, including the
+possibility of using <a style="color: #579eb6" href="featsAll.html#quicken-spell">Quicken Spell</a> can
+treat a metamagic version of a spell as a unique spell known. He must know any metamagic
+feats he applies to the spell, and he must know the unmodified version of the spell.
+For example, a 10the-level sorcerer who knows <a style="color: #579eb6" href="spellsMtoO.html#magic-missile">magic missile</a>
+and the Quicken Spell feat can add "quickened magic missile" to his list of spells
+known, counting as his one 5th-level spell.</div>
+<div style="margin-left: 80px"><i>-James Wyatt</i></div>
+
+<h5><a id="house-rule-metamagic-and-sorcerer-ii"></a>HOUSE RULE: METAMAGIC AND SORCERERS II</h5>
+<div style="margin-left: 40px">Som players in my game who run sorcerers feel they get short-changed by the rules
+for metamagic feats. They don't like spending a full-round action to use the few
+metamagic feats they know, and they especially don't like being no able to use the
+<a style="color: #579eb6" href="featsAll.html#quicken-spell">Quicken Spell</a> feat. I came up with a solution
+that works for me.
+<p>I allow sorcerers who know metamagic feats to "reserve" (essentially, prepare) spell
+slots for use with metamagic feats they know. For example, a 10th-level sorcerer
+can cast three 5th-level spells and five 4th-level spells per day (plus a buch of
+lower-level spells). I let him mark any or all of those slots (or any others he has)
+as reserved for use with particular metamagic feats. He might say that one of his
+5th-level spells slots is a <a style="color: #579eb6" href="featsAll.html#quicken-spell">Quicken Spells</a>
+slot and two of his 4th-level spells slots are reserved for <a style="color: #579eb6" href="featsAll.html#empower-spell">Empower Spell</a>.
+I rule that it takes 15 minutes per spell slot for the sorcerer to reserve these slots.</p>
+<p>The sorcerer, when he reserves the slots, does not have to specify the exact spells
+that occupy them. He has, of course, designated the level of the spell: Only a 0-
+or 1st-level spells can fill up the <a style="color: #579eb6" href="featsAll.html#quicken-spell">Quicken Spell</a>
+slot - it could be <a style="color: #579eb6" href="spellsMtoO.html#magic-missile">magic missile</a>,
+<a style="color: #579eb6" href="spellsMtoO.html#mage-armor">mage armor</a>, or any other 1st-level spell
+he knows. <a style="color: #579eb6" href="featsAll.html#empower-spell">Empower Spell</a> adds two levels
+to a spells effective level, so empowered versions of 2nd-level spells occupy the
+4th-level slots. If the sorcerer changes his mind later in the day, he can "unreserve"
+the slots by taking 15 minutes of time per slot to do so. Otherwise, the slots remain
+reserved until the sorcerer either casts spells using those slots or sleeps for
+a night, resetting all his spell slots to normal.</p></div>
+<div style="margin-left: 80px"><i>-Ed Stark</i></div>
+
+<h5><a id="behind-the-curtain-metamagic-components"></a>BEHIND THE CURTAIN: METAMAGIC COMPONENTS</h5>
+<div style="margin-left: 40px">If you use this variant,
+you may find that characters are less likely to take metamagic feats because they
+can just pay for the occasional metamagic effect by using a metamagic component
+instead. Spellcasters who use metamagic components repeatedly may all behing the
+other PCs in terms of wealth, because metamagic components are quite expensive.
+Although using a metamagic component is more expensive than casting from a scroll
+with the metamagic version of the spell, a spellcaster gets more bang for her buck
+with a metamagic component, because she can use her own caster level and ability
+score to set the spell's parameters such as save DC, damage, and range. Metamagic
+components give spellcasters more flexibility, becuase they can either cast a spell
+normally or get the extra benefit of the metamagic component, and they don't have
+to decide until the moment spellcasting begins.
+<p>Metamagic components are an effective tool for NPC spellcasters in particular,
+who often have only a few rounds to cast spells before the encounter ends. But because
+metamagic components are expensive, such NPCs may use up more of their treasure
+than is typical.</p></div>
+
+
+      </td>
+
+    </tr>
+
+  
+  </tbody>
+</table>
+
+</body>
+</html>

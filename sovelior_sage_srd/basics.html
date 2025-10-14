@@ -1,0 +1,1448 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=windows-1250" http-equiv="content-type" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>
+      SRD - Basics
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+      <tbody>
+        <tr>
+          <td style="width: 170px; text-align: right">
+            <img alt="d20 Logo" src="d20.jpg" />
+          </td>
+          <td style="width: 30px"></td>
+          <td colspan="3" id="title">
+            System Reference Document v3.5
+          </td>
+          <td rowspan="3" style="background-color: #8B2323; width: 15px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="height: 15px"></td>
+          <td rowspan="2" style="width: 15px"></td>
+        </tr>
+        <tr valign="top">
+          <td>
+            <!-- left-hand navigation / menu -->
+<table width="170px">
+<tr><td style="width: 100%; background-color: #8b2323">
+<div class="menu2">
+<ul>
+<li><a href="home.html">SRD Home</a>
+ <ul> 
+ <li><a href="tips.html">Tips and Stuff</a></li>
+ <li><a href="siteMap.html">Site Map</a></li>
+ </ul>
+</li>
+<li><a href="legal.html">Legal Information</a></li>
+<li><a href="tools.html">Tools</a>
+ <ul>
+ <li><a href="toolsScreen.html">DM Screen</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('anchorSearch.html', 'anchor_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+     Site Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('spellSearch.html', 'spell_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Spell Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('powerSearch.html', 'power_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Power Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="toolsSpellIndex.html">Spell Index</a></li>
+ <li><a href="toolsPowerIndex.html">Power Index</a></li>
+ <li><a href="toolsMonsterIndex.html">Monster Index</a></li>
+ <li><a href="toolsMagicItemIndex.html">Wondrous Item Index</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('toolsDiceSage.html', 'dicesage', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=300px,height=500px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    DiceSage</a></li>
+ </ul>
+</li>
+<li class="selected"><a href="basics.html">Basics &amp; Ability Scores</a></li>
+<li><a href="description.html">Alignment &amp; Description</a></li>
+<li><a href="races.html">Races</a></li>
+<li><a href="classes.html">Character Classes</a>
+ <ul>
+ <li><a href="barbarian.html">Barbarian</a></li>
+ <li><a href="bard.html">Bard</a></li>
+ <li><a href="cleric.html">Cleric</a></li>
+ <li><a href="druid.html">Druid</a></li>
+ <li><a href="fighter.html">Fighter</a></li>
+ <li><a href="monk.html">Monk</a></li>
+ <li><a href="paladin.html">Paladin</a></li>
+ <li><a href="ranger.html">Ranger</a></li>
+ <li><a href="rogue.html">Rogue</a></li>
+ <li><a href="sorcerer.html">Sorcerer</a></li>
+ <li><a href="wizard.html">Wizard</a></li>
+ </ul>
+</li>
+<li><a href="skills.html">Skills</a>
+ <ul>
+ <li><a href="skillsAll.html">In Alphabetical Order</a></li>
+ <li><a href="skillsStr.html">Strength-Based</a></li>
+ <li><a href="skillsDex.html">Dexterity-Based</a></li>
+ <li><a href="skillsCon.html">Constitution-Based</a></li>
+ <li><a href="skillsInt.html">Intelligence-Based</a></li>
+ <li><a href="skillsWis.html">Wisdom-Based</a></li>
+ <li><a href="skillsCha.html">Charisma-Based</a></li>
+ <li><a href="skillsTro.html">Trained Only</a></li>
+ <li><a href="skillsAcp.html">With Armor Check Penalty</a></li>
+ </ul>
+</li>
+<li><a href="feats.html">Feats</a>
+ <ul>
+ <li><a href="featsAll.html">In Alphabetical Order</a></li>
+ <li><a href="featsGen.html">General</a></li>
+ <li><a href="featsFtb.html">Fighter Bonus</a></li>
+ <li><a href="featsItc.html">Item Creation</a></li>
+ <li><a href="featsMtm.html">Metamagic</a></li>
+ <li><a href="featsList.html">Compiled</a></li>
+ </ul>
+</li>
+<li><a href="equipment.html">Equipment</a>
+ <ul>
+ <li><a href="weapons.html">Weapons</a></li>
+ <li><a href="armor.html">Armor</a></li>
+ <li><a href="goodsAndServices.html">Goods &amp; Services</a></li>
+ </ul>
+</li>
+<li><a href="specialMaterials.html">Special Materials</a></li>
+<li><a href="combat.html">Combat</a>
+ <ul>
+ <li><a href="initiativeAndAoO.html">Initiative &amp; Attacks of Opportunity</a></li>
+ <li><a href="actionsInCombat.html">Actions In Combat</a></li>
+ <li><a href="injuryAndDeath.html">Injury &amp; Death</a></li>
+ <li><a href="movement.html">Movement, Position, &amp; Distance</a></li>
+ <li><a href="combatModifiers.html">Combat Modifiers</a></li>
+ <li><a href="specialAttacks.html">Special Attacks</a></li>
+ <li><a href="initiativeActions.html">Special Initiative Actions</a></li>
+ </ul>
+</li>
+<li><a href="abilitiesAndConditions.html">Special Abilities &amp; Conditions</a></li>
+<li><a href="npcClasses.html">NPC Classes</a></li>
+<li><a href="prestigeClasses.html">Prestige Classes</a>
+ <ul>
+ <li><a href="arcaneArcher.html">Arcane Archer</a></li>
+ <li><a href="arcaneTrickster.html">Arcane Trickster</a></li>
+ <li><a href="archmage.html">Archmage</a></li>
+ <li><a href="assassin.html">Assassin</a></li>
+ <li><a href="blackguard.html">Blackguard</a></li>
+ <li><a href="dragonDisciple.html">Dragon Disciple</a></li>
+ <li><a href="duelist.html">Duelist</a></li>
+ <li><a href="dwarvenDefender.html">Dwarven Defender</a></li>
+ <li><a href="eldritchKnight.html">Eldritch Knight</a></li>
+ <li><a href="hierophant.html">Hierophant</a></li>
+ <li><a href="horizonWalker.html">Horizon Walker</a></li>
+ <li><a href="loremaster.html">Loremaster</a></li>
+ <li><a href="mysticTheurge.html">Mystic Theurge</a></li>
+ <li><a href="shadowdancer.html">Shadowdancer</a></li>
+ <li><a href="thaumaturgist.html">Thaumaturgist</a></li>
+ </ul>
+</li>
+<li><a href="epicLevels.html">Epic Levels</a>
+ <ul>
+ <li><a href="epicClasses.html">Epic Classes</a></li>
+ <li><a href="epicSkills.html">Epic Skills</a></li>
+ <li><a href="epicFeats.html">Epic Feats</a></li>
+ <li><a href="epicPrestigeClasses.html">Epic Prestige Classes</a>
+  <ul>
+  <li><a href="agentRetriever.html">Agent Retriever</a></li>
+  <li><a href="cosmicDescryer.html">Cosmic Descryer</a></li>
+  <li><a href="divineEmissary.html">Divine Emissary</a></li>
+  <li><a href="epicInfiltrator.html">Epic Infiltrator</a></li>
+  <li><a href="guardianParamount.html">Guardian Paramount</a></li>
+  <li><a href="highProselytizer.html">High Proselytizer</a></li>
+  <li><a href="legendaryDreadnought.html">Legendary Dreadnought</a></li>
+  <li><a href="perfectWight.html">Perfect Wight</a></li>
+  <li><a href="unionSentinel.html">Union Sentinel</a></li>
+  </ul>
+ </li>
+ <li><a href="epicSpells.html">Epic Spells</a>
+  <ul>
+  <li><a href="epicSpellDevelopment.html">Developing</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMagicItems.html">Epic Magic Items</a>
+  <ul>
+  <li><a href="epicMagicItemsOther.html">Other Items</a></li>
+  <li><a href="epicArtifacts.html">Intelligent Items and Artifacts</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMonsters.html">Epic Monsters</a>
+  <ul>
+  <li><a href="epicNonAbominations.html">Non-Abominations</a></li>
+  </ul>
+ </li>
+ <li><a href="epicObstacles.html">Epic Obstacles</a></li>
+ </ul>
+</li>
+<li><a href="magicOverview.html">Magic Overview</a>
+ <ul>
+ <li><a href="magicSchools.html">Schools of Magic</a></li>
+ <li><a href="arcaneSpells.html">Arcane Magic</a></li>
+ <li><a href="divineSpells.html">Divine Magic</a></li>
+ <li><a href="specialAbilities.html">Special Abilities</a></li>
+ </ul>
+</li>
+<li><a href="spellList.html">Spell List</a>
+ <ul>
+ <li><a href="#" onclick="var w = window.open('spellSearch.html', 'spell_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Spell Search</a></li>
+ <li><a href="bardSpells.html">Bard Spells</a></li>
+ <li><a href="clericSpells.html">Cleric Spells</a></li>
+ <li><a href="clericDomains.html">Cleric Domains</a></li>
+ <li><a href="druidSpells.html">Druid Spells</a></li>
+ <li><a href="paladinSpells.html">Paladin Spells</a></li>
+ <li><a href="rangerSpells.html">Ranger Spells</a></li>
+ <li><a href="wizardSpells.html">Sorcerer/Wizard Spells</a></li>
+ <li><a href="spellsAtoZ.html">Spells A to Z</a>
+  <ul>
+  <li><a href="spellsAtoB.html">Acid Arrow &mdash; Burning&nbsp;Hands</a></li>
+  <li><a href="spellsC.html">Call Lightning &mdash; Curse&nbsp;Water</a></li>
+  <li><a href="spellsDtoE.html">Dancing Lights &mdash; Eyebite</a></li>
+  <li><a href="spellsFtoG.html">Fabricate &mdash; Gust&nbsp;of&nbsp;Wind</a></li>
+  <li><a href="spellsHtoL.html">Hallow &mdash; Lullaby</a></li>
+  <li><a href="spellsMtoO.html">Mage Armor &mdash; Owl's&nbsp;Wisdom</a></li>
+  <li><a href="spellsPtoR.html">Passwall &mdash; Rusting&nbsp;Grasp</a></li>
+  <li><a href="spellsS.html">Sanctuary &mdash; Sympathy</a></li>
+  <li><a href="spellsTtoZ.html">Telekinesis &mdash; Zone&nbsp;of&nbsp;Truth</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+<li><a href="magicItems.html">Magic Items</a>
+ <ul>
+ <li><a href="magicItemsCreation.html">Creating Magic Items</a></li>
+ <li><a href="magicItemsAW.html#armor">Armor</a></li>
+ <li><a href="magicItemsPRR.html#potions">Potions</a></li>
+ <li><a href="magicItemsPRR.html#rings">Rings</a></li>
+ <li><a href="magicItemsPRR.html#rods">Rods</a></li>
+ <li><a href="magicItemsSSW.html#scrolls">Scrolls</a></li>
+ <li><a href="magicItemsSSW.html#staffs">Staffs</a></li>
+ <li><a href="magicItemsSSW.html#wands">Wands</a></li>
+ <li><a href="magicItemsAW.html#weapons">Weapons</a></li>
+ <li><a href="magicItemsWI.html">Wondrous Items</a></li>
+ <li><a href="magicItemsICA.html">Intelligent, Cursed, &amp; Artifacts</a></li>
+ </ul>
+</li>
+<li><a href="monsters.html">Monsters</a>
+ <ul>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="monstersAtoZ.html">Monsters A to Z</a>
+  <ul>
+  <li><a href="monstersA.html">Aboleth &mdash; Azer</a></li>
+  <li><a href="monstersBtoC.html">Barghest &mdash; Couatl</a></li>
+  <li><a href="monstersDtoDe.html">Dark&nbsp;Mantle &mdash; Devourer</a></li>
+  <li><a href="monstersDitoDo.html">Digester &mdash; Doppleganger</a></li>
+  <li><a href="monstersDrtoDw.html">Dragon &mdash; Dwarf</a></li>
+  <li><a href="monstersEtoF.html">Eagle &mdash; Fungus</a></li>
+  <li><a href="monstersG.html">Gargoyle &mdash; Grimlock</a></li>
+  <li><a href="monstersHtoI.html">Hag &mdash; Invisible&nbsp;Stalker</a></li>
+  <li><a href="monstersKtoL.html">Kobold &mdash; Lycanthrope</a></li>
+  <li><a href="monstersMtoN.html">Magmin &mdash; Nymph</a></li>
+  <li><a href="monstersOtoR.html">Ogre &mdash; Rust&nbsp;Monster</a></li>
+  <li><a href="monstersS.html">Sahuagin &mdash; Swarm</a></li>
+  <li><a href="monstersTtoZ.html">Tarrasque &mdash; Zombie</a></li>
+  </ul>
+ </li>
+ <li><a href="monstersAnimal.html">Animals</a></li>
+ <li><a href="monstersVermin.html">Vermin</a></li>
+ <li><a href="monsterTypes.html">Types, Subtypes, &amp; Special Abilities</a></li>
+ <li><a href="improvingMonsters.html">Improving Monsters</a></li>
+ <li><a href="monsterFeats.html">Monster Feats</a></li>
+ <li><a href="monstersAsRaces.html">Monsters as Races</a></li>
+ </ul>
+</li>
+<li><a href="carryingAndExploration.html">Carrying, Movement, and Exploration</a></li>
+<li><a href="treasure.html">Treasure</a></li>
+<li><a href="wildernessAndEnvironment.html">Wilderness, Weather, and Environment</a></li>
+<li><a href="traps.html">Traps</a></li>
+<li><a href="planes.html">Planes</a></li>
+<li><a href="psionic.html">Psionic</a>
+ <ul>
+ <li><a href="psionicRaces.html">Races</a></li>
+ <li><a href="psionicClasses.html">Classes</a>
+  <ul>
+  <li><a href="psionicPsion.html">Psion</a></li>
+  <li><a href="psionicPsychicWarrior.html">Psychic Warrior</a></li>
+  <li><a href="psionicSoulknife.html">Soulknife</a></li>
+  <li><a href="psionicWilder.html">Wilder</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicSkills.html">Skills</a></li>
+ <li><a href="psionicFeats.html">Feats</a></li>
+ <li><a href="psionicPrestigeClasses.html">Prestige Classes</a>
+  <ul>
+  <li><a href="psionicCerebremancer.html">Cerebremancer</a></li>
+  <li><a href="psionicElocater.html">Elocater</a></li>
+  <li><a href="psionicFist.html">Psionic Fist</a></li>
+  <li><a href="psionicSlayer.html">Slayer</a></li>
+  <li><a href="psionicMetamind.html">Metamind</a></li>
+  <li><a href="psionicPsionUncarnate.html">Psion Uncarnate</a></li>
+  <li><a href="psionicPyrokineticist.html">Pyrokineticist</a></li>
+  <li><a href="psionicThrallherd.html">Thrallherd</a></li>
+  <li><a href="psionicWarMind.html">War Mind</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicPowers.html">Powers</a>
+  <ul>
+  <li><a href="#" onclick="
+var w = window.open('powerSearch.html', 'power_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Power Search</a></li>
+  <li><a href="psionicDescriptions.html">Descriptions Format</a></li>
+  <li><a href="psionicPsionList.html">Psion/Wilder List</a></li>
+  <li><a href="psionicDisciplineList.html">Discipline List</a></li>
+  <li><a href="psionicWarriorList.html">Psychic Warrior List</a></li>
+  <li><a href="psionicPowersAtoC.html">Adapt Body &mdash; Crystallize</a></li>
+  <li><a href="psionicPowersDtoF.html">Danger Sense &mdash; Fusion</a></li>
+  <li><a href="psionicPowersGtoP.html">Genesis &mdash; Psychofeedback</a></li>
+  <li><a href="psionicPowersQtoW.html">Quintessence &mdash; Weapon of Energy</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicItems.html">Psionic Items</a>
+  <ul>
+  <li><a href="psionicItemsAW.html">Armor &amp; Weapons</a></li>
+  <li><a href="psionicItemsCCDT.html">Cognizance Crystals, Dorjes &amp; Tatoos</a></li>
+  <li><a href="psionicItemsPSP.html">Power Stones &amp; Psicrowns</a></li>
+  <li><a href="psionicItemsU.html">Universal Items</a></li>
+  <li><a href="psionicItemsCA.html">Cursed &amp; Aritfacts</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicMonsters.html">Monsters</a></li>
+ </ul>
+</li>
+<li><a href="divine.html">Divine</a>
+ <ul>
+ <li><a href="salientAbilities.html">Salient Divine Abilities</a></li>
+ <li><a href="divineFeats.html">Feats</a></li>
+ <li><a href="divineDomains.html">Domains</a></li>
+ <li><a href="divineNewSpells.html">Spells</a></li>
+ <li><a href="divineMinions.html">Minions</a></li>
+ </ul>
+</li>
+<li><a href="unearthedArcana.html">Unearthed Arcana</a>
+ <ul>
+ <li><a href="unearthedCharacter.html">Character</a>
+  <ul>
+  <li><a href="unearthedContacts.html">Contacts</a></li>
+  <li><a href="unearthedReputation.html">Reputation</a></li>
+  <li><a href="unearthedHonor.html">Honor</a></li>
+  <li><a href="unearthedTaint.html">Taint</a></li>
+  <li><a href="unearthedSanity.html">Sanity</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedRaces.html">Racial Variants</a>
+  <ul>
+  <li><a href="unearthedEnvironmentalVariants.html">Environmental Variants</a></li>
+  <li><a href="unearthedElementalVariants.html">Elemental Variants</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedBloodlines.html">Bloodlines</a></li>
+ <li><a href="unearthedClasses.html">Class Variants</a>
+  <ul>
+  <li><a href="unearthedCoreClass.html">Core Class Variants</a></li>
+  <li><a href="unearthedSpecialist.html">Specialist Wizard Variants</a></li>
+  <li><a href="unearthedGestalt.html">Gestalt Characters</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedNewClasses.html">New Classes</a>
+  <ul>
+  <li><a href="unearthedPrestige.html">Prestigious Classes</a></li>
+  <li><a href="unearthedParagon.html">Racial Paragon Classes</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedSkills.html">Skills Variants</a>
+  <ul>
+  <li><a href="unearthedAlternativeSkills.html">Alternative Skill Systems</a></li>
+  <li><a href="unearthedCraftPoints.html">Craft Points</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedFeats.html">Feats Variants</a>
+  <ul>
+  <li><a href="unearthedTraits.html">Traits</a></li>
+  <li><a href="unearthedFlaws.html">Flaws</a></li>
+  <li><a href="unearthedSpelltouchedFeats.html">Spelltouched Feats</a></li>
+  <li><a href="unearthedTests.html">Test-Based Prerequisites</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedCombat.html">Combat Variants</a>
+  <ul>
+  <li><a href="unearthedFacing.html">Facing and Hex Grids</a></li>
+  <li><a href="unearthedDefence.html">Defence and Armor</a></li>
+  <li><a href="unearthedInjury.html">Injury and Death</a></li>
+  <li><a href="unearthedRolls.html">Rolls and Modifiers</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedMagic.html">Magic</a>
+  <ul>
+  <li><a href="unearthedRecharge.html">Recharge Magic</a></li>
+  <li><a href="unearthedSpellPoints.html">Spell Points</a></li>
+  <li><a href="unearthedMetamagic.html">Metamagic Variants</a></li>
+  <li><a href="unearthedSummon.html">Summon Monster Variants</a></li>
+  <li><a href="unearthedIncantations.html">Incantations</a></li>
+  <li><a href="unearthedItems.html">Magic Items</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+</ul>
+</div>
+</td><td></td></tr></table>
+    </td>
+          <td style="width: 30px"></td>
+          <td>
+            <!-- main contents -->
+      
+      <h2><a id="basics-and-ability-scores"></a>Basics &amp; Ability Scores</h2>
+
+      
+      <h3><a id="the-basics"></a>THE BASICS</h3>
+
+      
+      <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+
+        <tbody>
+
+          <tr>
+
+            <td class="line"></td>
+
+          </tr>
+
+        
+        </tbody>
+      
+      </table>
+
+      
+     <p class="initial"><a id="the-core-mechanic"></a><b>The Core Mechanic</b>: Whenever you attempt
+an action that has some chance of failure, you roll a twenty-sided die
+(d20). To determine if your character succeeds at a task you do this:</p>
+
+      
+      <ul>
+
+        <li>Roll a d20.</li>
+
+        <li>Add any relevant modifiers.</li>
+
+        <li>Compare the result to a target number.</li>
+
+      
+      </ul>
+
+      
+      <p>If the result equals or exceeds the target number, your
+character succeeds. If the result is lower than the target number, you
+fail.</p>
+
+      
+      <h5><a id="dice"></a>DICE</h5>
+
+      
+      <p class="initial">Dice rolls are described with expressions such
+as &ldquo;3d4+3,&rdquo; which means &ldquo;roll three four-sided dice and add 3&rdquo;
+(resulting in a number between 6 and 15). The first number tells you
+how many dice to roll (adding the results together). The number
+immediately after the &ldquo;d&rdquo; tells you the type of die to use. Any number
+after that indicates a quantity that is added or subtracted from the
+result.</p>
+
+      
+      <p><b>d%</b>: Percentile dice work a little differently. You
+generate a number between 1 and 100 by rolling two different ten-sided
+dice. One (designated before you roll) is the tens digit. The other is
+the ones digit. Two 0s represent 100.</p>
+
+      
+      <h5><a id="rounding-fractions"></a>ROUNDING FRACTIONS</h5>
+
+      
+      <p class="initial">In general, if you wind up with a fraction,
+round down, even if the fraction is one-half or larger.</p>
+
+      
+      <p><i>Exception</i>: Certain rolls, such as damage and hit
+points, have a minimum of 1.</p>
+
+      
+      <h5><a id="multiplying"></a>MULTIPLYING</h5>
+
+      
+      <p class="initial">Sometimes a rule makes you multiply a number
+or a die roll. As long as you&rsquo;re applying a single multiplier, multiply
+the number normally. When two or more multipliers apply to any abstract
+value (such as a modifier or a die roll), however, combine them into a
+single multiple, with each extra multiple adding 1 less than its value
+to the first multiple. Thus, a double (&times;2) and a double
+(&times;2) applied to the same number results in a triple (&times;3,
+because 2 + 1 = 3).</p>
+
+      
+      <p>When applying multipliers to real-world values (such as weight
+or distance), normal rules of math apply instead. A creature whose size
+doubles (thus multiplying its weight by 8) and then is turned to stone
+(which would multiply its weight by a factor of roughly 3) now weighs
+about 24 times normal, not 10 times normal. Similarly, a <a href="abilitiesAndConditions.html#blinded" style="color: rgb(87, 158, 182);">blinded</a> creature attempting to
+negotiate difficult terrain would count each square as 4 squares
+(doubling the cost twice, for a total multiplier of &times;4), rather
+than as 3 squares (adding 100% twice).</p>
+
+      
+      <h3><a id="ability-scores"></a>ABILITY SCORES</h3>
+
+  
+      <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+
+        <tbody>
+
+          <tr>
+
+            <td class="line"></td>
+
+          </tr>
+
+        
+        </tbody>
+      
+      </table>
+
+      
+      <h5><a id="ability-modifiers"></a>ABILITY MODIFIERS</h5>
+
+      
+      <p class="initial">Each ability, after changes made because of <a href="races.html" style="color: rgb(87, 158, 182);">race</a>, has a
+modifier ranging from &ndash;5 to +5. Table: Ability Modifiers and Bonus
+Spells shows the modifier for each score. It also shows bonus spells,
+which you&rsquo;ll need to know about if your character is a spellcaster.</p>
+
+      
+      <p>The modifier is the number you apply to the die roll when your
+character tries to do something related to that ability. You also use
+the modifier with some numbers that aren&rsquo;t die rolls. A positive
+modifier is called a bonus, and a negative modifier is called a penalty.</p>
+
+      
+      <p><a id="table-ability-modifiers-and-bonus-spells"></a><b>Table: Ability Modifiers and Bonus Spells</b></p>
+
+      
+      <table border="0" cellpadding="1" cellspacing="0" style="width: 100%">
+
+        <tbody>
+
+          <tr>
+
+            <th>&nbsp;</th>
+
+            <th>&nbsp;</th>
+
+            <th colspan="10" class="center">Bonus Spells (by Spell
+Level)</th>
+
+          </tr>
+
+          <tr>
+
+            <th style="width: 15%">Score</th>
+
+            <th style="width: 15%">Modifier</th>
+
+            <th style="width: 7%">0</th>
+
+            <th style="width: 7%">1st</th>
+
+            <th style="width: 7%">2nd</th>
+
+            <th style="width: 7%">3rd</th>
+
+            <th style="width: 7%">4th</th>
+
+            <th style="width: 7%">5th</th>
+
+            <th style="width: 7%">6th</th>
+
+            <th style="width: 7%">7th</th>
+
+            <th style="width: 7%">8th</th>
+
+            <th style="width: 7%">9th</th>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>1</td>
+
+            <td>-5</td>
+
+            <td colspan="10" align="center">Can't cast spells tied to
+this ability</td>
+
+          </tr>
+
+          <tr>
+
+            <td>2-3</td>
+
+            <td>-4</td>
+
+            <td colspan="10" align="center">Can't cast spells tied to
+this ability</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>4-5</td>
+
+            <td>-3</td>
+
+            <td colspan="10" align="center">Can't cast spells tied to
+this ability</td>
+
+          </tr>
+
+          <tr>
+
+            <td>6-7</td>
+
+            <td>-2</td>
+
+            <td colspan="10" align="center">Can't cast spells tied to
+this ability</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>8-9</td>
+
+            <td>-1</td>
+
+            <td colspan="10" align="center">Can't cast spells tied to
+this ability</td>
+
+          </tr>
+
+          <tr>
+
+            <td>10-11</td>
+
+            <td>0</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>12-13</td>
+
+            <td>+1</td>
+
+            <td>&mdash;</td>
+
+            <td>1</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+          </tr>
+
+          <tr>
+
+            <td>14-15</td>
+
+            <td>+2</td>
+
+            <td>&mdash;</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>16-17</td>
+
+            <td>+3</td>
+
+            <td>&mdash;</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+          </tr>
+
+          <tr>
+
+            <td>18-19</td>
+
+            <td>+4</td>
+
+            <td>&mdash;</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>20-21</td>
+
+            <td>+5</td>
+
+            <td>&mdash;</td>
+
+            <td>2</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+          </tr>
+
+          <tr>
+
+            <td>22-23</td>
+
+            <td>+6</td>
+
+            <td>&mdash;</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>24-25</td>
+
+            <td>+7</td>
+
+            <td>&mdash;</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>&mdash;</td>
+
+            <td>&mdash;</td>
+
+          </tr>
+
+          <tr>
+
+            <td>26-27</td>
+
+            <td>+8</td>
+
+            <td>&mdash;</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>&mdash;</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>28-29</td>
+
+            <td>+9</td>
+
+            <td>&mdash;</td>
+
+            <td>3</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+          </tr>
+
+          <tr>
+
+            <td>30-31</td>
+
+            <td>+10</td>
+
+            <td>&mdash;</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>32-33</td>
+
+            <td>+11</td>
+
+            <td>&mdash;</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>1</td>
+
+            <td>1</td>
+
+          </tr>
+
+          <tr>
+
+            <td>34-35</td>
+
+            <td>+12</td>
+
+            <td>&mdash;</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>1</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>36-37</td>
+
+            <td>+13</td>
+
+            <td>&mdash;</td>
+
+            <td>4</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+          </tr>
+
+          <tr>
+
+            <td>38-39</td>
+
+            <td>+14</td>
+
+            <td>&mdash;</td>
+
+            <td>4</td>
+
+            <td>4</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>40-41</td>
+
+            <td>+15</td>
+
+            <td>&mdash;</td>
+
+            <td>4</td>
+
+            <td>4</td>
+
+            <td>4</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>2</td>
+
+            <td>2</td>
+
+          </tr>
+
+          <tr>
+
+            <td>42-43</td>
+
+            <td>+16</td>
+
+            <td>&mdash;</td>
+
+            <td>4</td>
+
+            <td>4</td>
+
+            <td>4</td>
+
+            <td>4</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>2</td>
+
+          </tr>
+
+          <tr class="odd-row">
+
+            <td>44-45</td>
+
+            <td>+17</td>
+
+            <td>&mdash;</td>
+
+            <td>5</td>
+
+            <td>4</td>
+
+            <td>4</td>
+
+            <td>4</td>
+
+            <td>4</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+            <td>3</td>
+
+          </tr>
+
+          <tr>
+
+            <td class="last-row" colspan="12">etc...</td>
+
+          </tr>
+
+        
+        </tbody>
+      
+      </table>
+
+      
+      <h5><a id="abilities-and-spellcasters"></a>ABILITIES AND SPELLCASTERS</h5>
+
+      
+      <p class="initial">The ability that governs bonus spells depends
+on what type of spellcaster your character is: Intelligence for <a href="wizard.html" style="color: rgb(87, 158, 182);">wizards</a>;
+Wisdom for <a href="cleric.html" style="color: rgb(87, 158, 182);">clerics</a>,
+      <a href="druid.html" style="color: rgb(87, 158, 182);">druids</a>,
+      <a href="paladin.html" style="color: rgb(87, 158, 182);">paladins</a>,
+and <a href="ranger.html" style="color: rgb(87, 158, 182);">rangers</a>;
+or Charisma for <a href="sorcerer.html" style="color: rgb(87, 158, 182);">sorcerers</a> and <a href="bard.html" style="color: rgb(87, 158, 182);">bards</a>. In
+addition to having a high ability score, a spellcaster must be of high
+enough class level to be able to cast spells of a given spell level.
+(See the <a href="classes.html" style="color: rgb(87, 158, 182);">class
+descriptions</a> for details.)</p>
+
+      
+      <h3><a id="the-abilities"></a>THE ABILITIES</h3>
+
+   
+      <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+
+        <tbody>
+
+          <tr>
+
+            <td class="line"></td>
+
+          </tr>
+
+        
+        </tbody>
+      
+      </table>
+
+      
+      <p class="initial">Each ability partially describes your
+character and affects some of his or her actions.</p>
+
+      
+      <h5><a id="strength"></a><a id="str"></a>STRENGTH (STR)</h5>
+
+      
+      <p class="initial">Strength measures your character&rsquo;s muscle and
+physical power. This ability is especially important for <a href="fighter.html" style="color: rgb(87, 158, 182);">fighters</a>, <a href="barbarian.html" style="color: rgb(87, 158, 182);">barbarians</a>,
+      <a href="paladin.html" style="color: rgb(87, 158, 182);">paladins</a>,
+      <a href="ranger.html" style="color: rgb(87, 158, 182);">rangers</a>,
+and <a href="monk.html" style="color: rgb(87, 158, 182);">monks</a>
+because it helps them prevail in combat. Strength also limits the
+amount of equipment your character can carry.</p>
+
+      
+      <p>You apply your character&rsquo;s Strength modifier to:</p>
+
+      
+      <ul>
+
+        <li>Melee attack rolls.</li>
+
+        <li>Damage rolls when using a melee weapon or a thrown weapon
+(including a sling). (Exceptions: Off-hand attacks receive only
+one-half the character&rsquo;s Strength bonus, while two-handed attacks
+receive one and a half times the Strength bonus. A Strength penalty,
+but not a bonus, applies to attacks made with a bow that is not a
+composite bow.)</li>
+
+        <li><a href="skillsAll.html#climb" style="color: rgb(87, 158, 182);">Climb</a>, <a href="skillsAll.html#jump" style="color: rgb(87, 158, 182);">Jump</a>,
+and <a href="skillsAll.html#swim" style="color: rgb(87, 158, 182);">Swim</a>
+checks. These are the skills that have Strength as their key ability.</li>
+
+        <li>Strength checks (for breaking down doors and the like).</li>
+
+      
+      </ul>
+
+      
+      <h5><a id="dexterity"></a><a id="dex"></a>DEXTERITY (DEX)</h5>
+
+      
+      <p class="initial">Dexterity measures hand-eye coordination,
+agility, reflexes, and balance. This ability is the most important one
+for <a href="rogue.html" style="color: rgb(87, 158, 182);">rogues</a>,
+but it&rsquo;s also high on the list for characters who typically wear light
+or medium armor (<a href="ranger.html" style="color: rgb(87, 158, 182);">rangers</a>
+and <a href="barbarian.html" style="color: rgb(87, 158, 182);">barbarians</a>)
+or no armor at all (<a href="monk.html" style="color: rgb(87, 158, 182);">monks</a>, <a href="wizard.html" style="color: rgb(87, 158, 182);">wizards</a>, and <a href="sorcerer.html" style="color: rgb(87, 158, 182);">sorcerers</a>),
+and for anyone who wants to be a skilled archer.</p>
+
+      
+      <p>You apply your character&rsquo;s Dexterity modifier to:</p>
+
+      
+      <ul>
+
+        <li>Ranged attack rolls, including those for attacks made with
+bows, crossbows, throwing axes, and other ranged weapons.</li>
+
+        <li>Armor Class (AC), provided that the character can react to
+the attack.</li>
+
+        <li>Reflex saving throws, for avoiding fireballs and other
+attacks that you can escape by moving quickly.</li>
+
+        <li><a href="skillsAll.html#balance" style="color: rgb(87, 158, 182);">Balance</a>, <a href="skillsAll.html#escape-artist" style="color: rgb(87, 158, 182);">Escape
+Artist</a>, <a href="skillsAll.html#hide" style="color: rgb(87, 158, 182);">Hide</a>, <a href="skillsAll.html#move-silently" style="color: rgb(87, 158, 182);">Move
+Silently</a>, <a href="skillsAll.html#open-lock" style="color: rgb(87, 158, 182);">Open Lock</a>, <a href="skillsAll.html#ride" style="color: rgb(87, 158, 182);">Ride</a>,
+          <a href="skillsAll.html#sleight-of-hand" style="color: rgb(87, 158, 182);">Sleight of Hand</a>, <a href="skillsAll.html#tumble" style="color: rgb(87, 158, 182);">Tumble</a>,
+and <a href="skillsAll.html#use-rope" style="color: rgb(87, 158, 182);">Use
+Rope</a> checks. These are the skills that have Dexterity as their key
+ability.</li>
+
+      
+      </ul>
+
+      
+      <h5><a id="constitution"></a><a id="con"></a>CONSTITUTION (CON)</h5>
+
+      
+      <p class="initial">Constitution represents your character&rsquo;s
+health and stamina. A Constitution bonus increases a character&rsquo;s hit
+points, so the ability is important for all classes.</p>
+
+      
+      <p>You apply your character&rsquo;s Constitution modifier to:</p>
+
+      
+      <ul>
+
+        <li>Each roll of a Hit Die (though a penalty can never drop a
+result below 1&mdash;that is, a character always gains at least 1 hit point
+each time he or she advances in level).</li>
+
+        <li>Fortitude saving throws, for resisting poison and similar
+threats.</li>
+
+        <li><a href="skillsAll.html#concentration" style="color: rgb(87, 158, 182);">Concentration</a> checks. <a href="skillsAll.html#concentration" style="color: rgb(87, 158, 182);">Concentration</a>
+is a skill, important to spellcasters, that has Constitution as its key
+ability.</li>
+
+      
+      </ul>
+
+      
+      <p>If a character&rsquo;s Constitution score changes enough to alter
+his or her Constitution modifier, the character&rsquo;s hit points also
+increase or decrease accordingly.</p>
+
+      
+      <h5><a id="intelligence"></a><a id="int"></a>INTELLIGENCE (INT)</h5>
+
+      
+      <p class="initial">Intelligence determines how well your
+character learns and reasons. This ability is important for <a href="wizard.html" style="color: rgb(87, 158, 182);">wizards</a>
+because it affects how many spells they can cast, how hard their spells
+are to resist, and how powerful their spells can be. It&rsquo;s also
+important for any character who wants to have a wide assortment of
+skills.</p>
+
+      
+      <p>You apply your character&rsquo;s Intelligence modifier to:</p>
+
+      
+      <ul>
+
+        <li>The number of languages your character knows at the start
+of the game.</li>
+
+        <li>The number of skill points gained each level. (But your
+character always gets at least 1 skill point per level.)</li>
+
+        <li><a href="skillsAll.html#appraise" style="color: rgb(87, 158, 182);">Appraise</a>, <a href="skillsAll.html#craft" style="color: rgb(87, 158, 182);">Craft</a>,
+          <a href="skillsAll.html#decipher-script" style="color: rgb(87, 158, 182);">Decipher Script</a>, <a href="skillsAll.html#disable-device" style="color: rgb(87, 158, 182);">Disable
+Device</a>, <a href="skillsAll.html#forgery" style="color: rgb(87, 158, 182);">Forgery</a>, <a href="skillsAll.html#knowledge" style="color: rgb(87, 158, 182);">Knowledge</a>,
+          <a href="skillsAll.html#search" style="color: rgb(87, 158, 182);">Search</a>, and <a href="skillsAll.html#spellcraft" style="color: rgb(87, 158, 182);">Spellcraft</a>
+checks. These are the skills that have Intelligence as their key
+ability.</li>
+
+      
+      </ul>
+
+      
+      <p>A <a href="wizard.html" style="color: rgb(87, 158, 182);">wizard</a>
+gains bonus spells based on her Intelligence score. The minimum
+Intelligence score needed to cast a wizard spell is 10 + the spell&rsquo;s
+level.</p>
+
+      
+      <p>An animal has an Intelligence score of 1 or 2. A creature of
+humanlike intelligence has a score of at least 3.</p>
+
+      
+      <h5><a id="wisdom"></a><a id="wis"></a>WISDOM (WIS)</h5>
+
+      
+      <p class="initial">Wisdom describes a character&rsquo;s willpower,
+common sense, perception, and intuition. While Intelligence represents
+one&rsquo;s ability to analyze information, Wisdom represents being in tune
+with and aware of one&rsquo;s surroundings. Wisdom is the most important
+ability for <a href="cleric.html" style="color: rgb(87, 158, 182);">clerics</a>
+and <a href="druid.html" style="color: rgb(87, 158, 182);">druids</a>,
+and it is also important for <a href="paladin.html" style="color: rgb(87, 158, 182);">paladins</a> and <a href="ranger.html" style="color: rgb(87, 158, 182);">rangers</a>. If
+you want your character to have acute senses, put a high score in
+Wisdom. Every creature has a Wisdom score.</p>
+
+      
+      <p>You apply your character&rsquo;s Wisdom modifier to:</p>
+
+      
+      <ul>
+
+        <li>Will saving throws (for negating the effect of charm person
+and other spells).</li>
+
+        <li><a href="skillsAll.html#heal" style="color: rgb(87, 158, 182);">Heal</a>, <a href="skillsAll.html#listen" style="color: rgb(87, 158, 182);">Listen</a>,
+          <a href="skillsAll.html#profession" style="color: rgb(87, 158, 182);">Profession</a>, <a href="skillsAll.html#sense-motive" style="color: rgb(87, 158, 182);">Sense
+Motive</a>, <a href="skillsAll.html#spot" style="color: rgb(87, 158, 182);">Spot</a>, and <a href="skillsAll.html#survival" style="color: rgb(87, 158, 182);">Survival</a>
+checks. These are the skills that have Wisdom as their key ability.</li>
+
+      
+      </ul>
+
+      
+      <p><a href="cleric.html" style="color: rgb(87, 158, 182);">Clerics</a>,
+      <a href="druid.html" style="color: rgb(87, 158, 182);">druids</a>,
+      <a href="paladin.html" style="color: rgb(87, 158, 182);">paladins</a>,
+and <a href="ranger.html" style="color: rgb(87, 158, 182);">rangers</a>
+get bonus spells based on their Wisdom scores. The minimum Wisdom score
+needed to cast a cleric, druid, paladin, or ranger spell is 10 + the
+spell&rsquo;s level.</p>
+
+      
+      <h5><a id="charisma"></a><a id="cha"></a>CHARISMA (CHA)</h5>
+
+      
+      <p class="initial">Charisma measures a character&rsquo;s force of
+personality, persuasiveness, personal magnetism, ability to lead, and
+physical attractiveness. This ability represents actual strength of
+personality, not merely how one is perceived by others in a social
+setting. Charisma is most important for <a href="paladin.html" style="color: rgb(87, 158, 182);">paladins</a>, <a href="sorcerer.html" style="color: rgb(87, 158, 182);">sorcerers</a>,
+and <a href="bard.html" style="color: rgb(87, 158, 182);">bards</a>.
+It is also important for <a href="cleric.html" style="color: rgb(87, 158, 182);">clerics</a>, since it affects their
+ability to <a href="specialAttacks.html#turn" style="color: rgb(87, 158, 182);">turn undead</a>. Every creature has
+a Charisma score.</p>
+
+      
+      <p>You apply your character&rsquo;s Charisma modifier to:</p>
+
+      
+      <ul>
+
+        <li><a href="skillsAll.html#bluff" style="color: rgb(87, 158, 182);">Bluff</a>, <a href="skillsAll.html#diplomacy" style="color: rgb(87, 158, 182);">Diplomacy</a>,
+          <a href="skillsAll.html#disguise" style="color: rgb(87, 158, 182);">Disguise</a>, <a href="skillsAll.html#gather-information" style="color: rgb(87, 158, 182);">Gather Information</a>, <a href="skillsAll.html#handle-animal" style="color: rgb(87, 158, 182);">Handle
+Animal</a>, <a href="skillsAll.html#intimidate" style="color: rgb(87, 158, 182);">Intimidate</a>, <a href="skillsAll.html#perform" style="color: rgb(87, 158, 182);">Perform</a>,
+and <a href="skillsAll.html#use-magic-device" style="color: rgb(87, 158, 182);">Use Magic Device</a> checks. These
+are the skills that have Charisma as their key ability.</li>
+
+        <li>Checks that represent attempts to influence others.</li>
+
+        <li>Turning checks for <a href="cleric.html" style="color: rgb(87, 158, 182);">clerics</a> and <a href="paladin.html" style="color: rgb(87, 158, 182);">paladins</a>
+attempting to turn zombies, vampires, and other undead.</li>
+
+      
+      </ul>
+
+      
+      <p><a href="sorcerer.html" style="color: rgb(87, 158, 182);">Sorcerers</a>
+and <a href="bard.html" style="color: rgb(87, 158, 182);">bards</a>
+get bonus spells based on their Charisma scores. The minimum Charisma
+score needed to cast a sorcerer or bard spell is 10 + the spell&rsquo;s level.</p>
+
+      
+      <p>When an ability score changes, all attributes associated with
+that score change accordingly. A character does not retroactively get
+additional skill points for previous levels if she increases her
+intelligence.</p>
+
+      <br />
+
+      </td>
+
+    </tr>
+
+  
+  </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,842 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=windows-1250" http-equiv="content-type" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>
+      SRD - Magic Item Basics
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+      <tbody>
+        <tr>
+          <td style="width: 170px; text-align: right">
+            <img alt="d20 Logo" src="d20.jpg" />
+          </td>
+          <td style="width: 30px"></td>
+          <td colspan="3" id="title">
+            System Reference Document v3.5
+          </td>
+          <td rowspan="3" style="background-color: #8B2323; width: 15px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="height: 15px"></td>
+          <td rowspan="2" style="width: 15px"></td>
+        </tr>
+        <tr valign="top">
+          <td>
+            <!-- left-hand navigation / menu -->
+<table width="170px">
+<tr><td style="width: 100%; background-color: #8b2323">
+<div class="menu2">
+<ul>
+<li><a href="home.html">SRD Home</a>
+ <ul> 
+ <li><a href="tips.html">Tips and Stuff</a></li>
+ <li><a href="siteMap.html">Site Map</a></li>
+ </ul>
+</li>
+<li><a href="legal.html">Legal Information</a></li>
+<li><a href="tools.html">Tools</a>
+ <ul>
+ <li><a href="toolsScreen.html">DM Screen</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('anchorSearch.html', 'anchor_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+     Site Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('spellSearch.html', 'spell_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Spell Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('powerSearch.html', 'power_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Power Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="toolsSpellIndex.html">Spell Index</a></li>
+ <li><a href="toolsPowerIndex.html">Power Index</a></li>
+ <li><a href="toolsMonsterIndex.html">Monster Index</a></li>
+ <li><a href="toolsMagicItemIndex.html">Wondrous Item Index</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('toolsDiceSage.html', 'dicesage', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=300px,height=500px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    DiceSage</a></li>
+ </ul>
+</li>
+<li><a href="basics.html">Basics &amp; Ability Scores</a></li>
+<li><a href="description.html">Alignment &amp; Description</a></li>
+<li><a href="races.html">Races</a></li>
+<li><a href="classes.html">Character Classes</a>
+ <ul>
+ <li><a href="barbarian.html">Barbarian</a></li>
+ <li><a href="bard.html">Bard</a></li>
+ <li><a href="cleric.html">Cleric</a></li>
+ <li><a href="druid.html">Druid</a></li>
+ <li><a href="fighter.html">Fighter</a></li>
+ <li><a href="monk.html">Monk</a></li>
+ <li><a href="paladin.html">Paladin</a></li>
+ <li><a href="ranger.html">Ranger</a></li>
+ <li><a href="rogue.html">Rogue</a></li>
+ <li><a href="sorcerer.html">Sorcerer</a></li>
+ <li><a href="wizard.html">Wizard</a></li>
+ </ul>
+</li>
+<li><a href="skills.html">Skills</a>
+ <ul>
+ <li><a href="skillsAll.html">In Alphabetical Order</a></li>
+ <li><a href="skillsStr.html">Strength-Based</a></li>
+ <li><a href="skillsDex.html">Dexterity-Based</a></li>
+ <li><a href="skillsCon.html">Constitution-Based</a></li>
+ <li><a href="skillsInt.html">Intelligence-Based</a></li>
+ <li><a href="skillsWis.html">Wisdom-Based</a></li>
+ <li><a href="skillsCha.html">Charisma-Based</a></li>
+ <li><a href="skillsTro.html">Trained Only</a></li>
+ <li><a href="skillsAcp.html">With Armor Check Penalty</a></li>
+ </ul>
+</li>
+<li><a href="feats.html">Feats</a>
+ <ul>
+ <li><a href="featsAll.html">In Alphabetical Order</a></li>
+ <li><a href="featsGen.html">General</a></li>
+ <li><a href="featsFtb.html">Fighter Bonus</a></li>
+ <li><a href="featsItc.html">Item Creation</a></li>
+ <li><a href="featsMtm.html">Metamagic</a></li>
+ <li><a href="featsList.html">Compiled</a></li>
+ </ul>
+</li>
+<li><a href="equipment.html">Equipment</a>
+ <ul>
+ <li><a href="weapons.html">Weapons</a></li>
+ <li><a href="armor.html">Armor</a></li>
+ <li><a href="goodsAndServices.html">Goods &amp; Services</a></li>
+ </ul>
+</li>
+<li><a href="specialMaterials.html">Special Materials</a></li>
+<li><a href="combat.html">Combat</a>
+ <ul>
+ <li><a href="initiativeAndAoO.html">Initiative &amp; Attacks of Opportunity</a></li>
+ <li><a href="actionsInCombat.html">Actions In Combat</a></li>
+ <li><a href="injuryAndDeath.html">Injury &amp; Death</a></li>
+ <li><a href="movement.html">Movement, Position, &amp; Distance</a></li>
+ <li><a href="combatModifiers.html">Combat Modifiers</a></li>
+ <li><a href="specialAttacks.html">Special Attacks</a></li>
+ <li><a href="initiativeActions.html">Special Initiative Actions</a></li>
+ </ul>
+</li>
+<li><a href="abilitiesAndConditions.html">Special Abilities &amp; Conditions</a></li>
+<li><a href="npcClasses.html">NPC Classes</a></li>
+<li><a href="prestigeClasses.html">Prestige Classes</a>
+ <ul>
+ <li><a href="arcaneArcher.html">Arcane Archer</a></li>
+ <li><a href="arcaneTrickster.html">Arcane Trickster</a></li>
+ <li><a href="archmage.html">Archmage</a></li>
+ <li><a href="assassin.html">Assassin</a></li>
+ <li><a href="blackguard.html">Blackguard</a></li>
+ <li><a href="dragonDisciple.html">Dragon Disciple</a></li>
+ <li><a href="duelist.html">Duelist</a></li>
+ <li><a href="dwarvenDefender.html">Dwarven Defender</a></li>
+ <li><a href="eldritchKnight.html">Eldritch Knight</a></li>
+ <li><a href="hierophant.html">Hierophant</a></li>
+ <li><a href="horizonWalker.html">Horizon Walker</a></li>
+ <li><a href="loremaster.html">Loremaster</a></li>
+ <li><a href="mysticTheurge.html">Mystic Theurge</a></li>
+ <li><a href="shadowdancer.html">Shadowdancer</a></li>
+ <li><a href="thaumaturgist.html">Thaumaturgist</a></li>
+ </ul>
+</li>
+<li><a href="epicLevels.html">Epic Levels</a>
+ <ul>
+ <li><a href="epicClasses.html">Epic Classes</a></li>
+ <li><a href="epicSkills.html">Epic Skills</a></li>
+ <li><a href="epicFeats.html">Epic Feats</a></li>
+ <li><a href="epicPrestigeClasses.html">Epic Prestige Classes</a>
+  <ul>
+  <li><a href="agentRetriever.html">Agent Retriever</a></li>
+  <li><a href="cosmicDescryer.html">Cosmic Descryer</a></li>
+  <li><a href="divineEmissary.html">Divine Emissary</a></li>
+  <li><a href="epicInfiltrator.html">Epic Infiltrator</a></li>
+  <li><a href="guardianParamount.html">Guardian Paramount</a></li>
+  <li><a href="highProselytizer.html">High Proselytizer</a></li>
+  <li><a href="legendaryDreadnought.html">Legendary Dreadnought</a></li>
+  <li><a href="perfectWight.html">Perfect Wight</a></li>
+  <li><a href="unionSentinel.html">Union Sentinel</a></li>
+  </ul>
+ </li>
+ <li><a href="epicSpells.html">Epic Spells</a>
+  <ul>
+  <li><a href="epicSpellDevelopment.html">Developing</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMagicItems.html">Epic Magic Items</a>
+  <ul>
+  <li><a href="epicMagicItemsOther.html">Other Items</a></li>
+  <li><a href="epicArtifacts.html">Intelligent Items and Artifacts</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMonsters.html">Epic Monsters</a>
+  <ul>
+  <li><a href="epicNonAbominations.html">Non-Abominations</a></li>
+  </ul>
+ </li>
+ <li><a href="epicObstacles.html">Epic Obstacles</a></li>
+ </ul>
+</li>
+<li><a href="magicOverview.html">Magic Overview</a>
+ <ul>
+ <li><a href="magicSchools.html">Schools of Magic</a></li>
+ <li><a href="arcaneSpells.html">Arcane Magic</a></li>
+ <li><a href="divineSpells.html">Divine Magic</a></li>
+ <li><a href="specialAbilities.html">Special Abilities</a></li>
+ </ul>
+</li>
+<li><a href="spellList.html">Spell List</a>
+ <ul>
+ <li><a href="#" onclick="var w = window.open('spellSearch.html', 'spell_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Spell Search</a></li>
+ <li><a href="bardSpells.html">Bard Spells</a></li>
+ <li><a href="clericSpells.html">Cleric Spells</a></li>
+ <li><a href="clericDomains.html">Cleric Domains</a></li>
+ <li><a href="druidSpells.html">Druid Spells</a></li>
+ <li><a href="paladinSpells.html">Paladin Spells</a></li>
+ <li><a href="rangerSpells.html">Ranger Spells</a></li>
+ <li><a href="wizardSpells.html">Sorcerer/Wizard Spells</a></li>
+ <li><a href="spellsAtoZ.html">Spells A to Z</a>
+  <ul>
+  <li><a href="spellsAtoB.html">Acid Arrow &mdash; Burning&nbsp;Hands</a></li>
+  <li><a href="spellsC.html">Call Lightning &mdash; Curse&nbsp;Water</a></li>
+  <li><a href="spellsDtoE.html">Dancing Lights &mdash; Eyebite</a></li>
+  <li><a href="spellsFtoG.html">Fabricate &mdash; Gust&nbsp;of&nbsp;Wind</a></li>
+  <li><a href="spellsHtoL.html">Hallow &mdash; Lullaby</a></li>
+  <li><a href="spellsMtoO.html">Mage Armor &mdash; Owl's&nbsp;Wisdom</a></li>
+  <li><a href="spellsPtoR.html">Passwall &mdash; Rusting&nbsp;Grasp</a></li>
+  <li><a href="spellsS.html">Sanctuary &mdash; Sympathy</a></li>
+  <li><a href="spellsTtoZ.html">Telekinesis &mdash; Zone&nbsp;of&nbsp;Truth</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+<li class="selected"><a href="magicItems.html">Magic Items</a></li>
+ <li><a href="magicItemsCreation.html"><div style="margin-left: 10px">Creating Magic Items</div></a></li>
+ <li><a href="magicItemsAW.html#armor"><div style="margin-left: 10px">Armor</div></a></li>
+ <li><a href="magicItemsPRR.html#potions"><div style="margin-left: 10px">Potions</div></a></li>
+ <li><a href="magicItemsPRR.html#rings"><div style="margin-left: 10px">Rings</div></a></li>
+ <li><a href="magicItemsPRR.html#rods"><div style="margin-left: 10px">Rods</div></a></li>
+ <li><a href="magicItemsSSW.html#scrolls"><div style="margin-left: 10px">Scrolls</div></a></li>
+ <li><a href="magicItemsSSW.html#staffs"><div style="margin-left: 10px">Staffs</div></a></li>
+ <li><a href="magicItemsSSW.html#wands"><div style="margin-left: 10px">Wands</div></a></li>
+ <li><a href="magicItemsAW.html#weapons"><div style="margin-left: 10px">Weapons</div></a></li>
+ <li><a href="magicItemsWI.html"><div style="margin-left: 10px">Wondrous Items</div></a></li>
+ <li><a href="magicItemsICA.html"><div style="margin-left: 10px">Intelligent, Cursed, &amp; Artifacts</div></a></li>
+<li><a href="monsters.html">Monsters</a>
+ <ul>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="monstersAtoZ.html">Monsters A to Z</a>
+  <ul>
+  <li><a href="monstersA.html">Aboleth &mdash; Azer</a></li>
+  <li><a href="monstersBtoC.html">Barghest &mdash; Couatl</a></li>
+  <li><a href="monstersDtoDe.html">Dark&nbsp;Mantle &mdash; Devourer</a></li>
+  <li><a href="monstersDitoDo.html">Digester &mdash; Doppleganger</a></li>
+  <li><a href="monstersDrtoDw.html">Dragon &mdash; Dwarf</a></li>
+  <li><a href="monstersEtoF.html">Eagle &mdash; Fungus</a></li>
+  <li><a href="monstersG.html">Gargoyle &mdash; Grimlock</a></li>
+  <li><a href="monstersHtoI.html">Hag &mdash; Invisible&nbsp;Stalker</a></li>
+  <li><a href="monstersKtoL.html">Kobold &mdash; Lycanthrope</a></li>
+  <li><a href="monstersMtoN.html">Magmin &mdash; Nymph</a></li>
+  <li><a href="monstersOtoR.html">Ogre &mdash; Rust&nbsp;Monster</a></li>
+  <li><a href="monstersS.html">Sahuagin &mdash; Swarm</a></li>
+  <li><a href="monstersTtoZ.html">Tarrasque &mdash; Zombie</a></li>
+  </ul>
+ </li>
+ <li><a href="monstersAnimal.html">Animals</a></li>
+ <li><a href="monstersVermin.html">Vermin</a></li>
+ <li><a href="monsterTypes.html">Types, Subtypes, &amp; Special Abilities</a></li>
+ <li><a href="improvingMonsters.html">Improving Monsters</a></li>
+ <li><a href="monsterFeats.html">Monster Feats</a></li>
+ <li><a href="monstersAsRaces.html">Monsters as Races</a></li>
+ </ul>
+</li>
+<li><a href="carryingAndExploration.html">Carrying, Movement, and Exploration</a></li>
+<li><a href="treasure.html">Treasure</a></li>
+<li><a href="wildernessAndEnvironment.html">Wilderness, Weather, and Environment</a></li>
+<li><a href="traps.html">Traps</a></li>
+<li><a href="planes.html">Planes</a></li>
+<li><a href="psionic.html">Psionic</a>
+ <ul>
+ <li><a href="psionicRaces.html">Races</a></li>
+ <li><a href="psionicClasses.html">Classes</a>
+  <ul>
+  <li><a href="psionicPsion.html">Psion</a></li>
+  <li><a href="psionicPsychicWarrior.html">Psychic Warrior</a></li>
+  <li><a href="psionicSoulknife.html">Soulknife</a></li>
+  <li><a href="psionicWilder.html">Wilder</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicSkills.html">Skills</a></li>
+ <li><a href="psionicFeats.html">Feats</a></li>
+ <li><a href="psionicPrestigeClasses.html">Prestige Classes</a>
+  <ul>
+  <li><a href="psionicCerebremancer.html">Cerebremancer</a></li>
+  <li><a href="psionicElocater.html">Elocater</a></li>
+  <li><a href="psionicFist.html">Psionic Fist</a></li>
+  <li><a href="psionicSlayer.html">Slayer</a></li>
+  <li><a href="psionicMetamind.html">Metamind</a></li>
+  <li><a href="psionicPsionUncarnate.html">Psion Uncarnate</a></li>
+  <li><a href="psionicPyrokineticist.html">Pyrokineticist</a></li>
+  <li><a href="psionicThrallherd.html">Thrallherd</a></li>
+  <li><a href="psionicWarMind.html">War Mind</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicPowers.html">Powers</a>
+  <ul>
+  <li><a href="#" onclick="
+var w = window.open('powerSearch.html', 'power_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Power Search</a></li>
+  <li><a href="psionicDescriptions.html">Descriptions Format</a></li>
+  <li><a href="psionicPsionList.html">Psion/Wilder List</a></li>
+  <li><a href="psionicDisciplineList.html">Discipline List</a></li>
+  <li><a href="psionicWarriorList.html">Psychic Warrior List</a></li>
+  <li><a href="psionicPowersAtoC.html">Adapt Body &mdash; Crystallize</a></li>
+  <li><a href="psionicPowersDtoF.html">Danger Sense &mdash; Fusion</a></li>
+  <li><a href="psionicPowersGtoP.html">Genesis &mdash; Psychofeedback</a></li>
+  <li><a href="psionicPowersQtoW.html">Quintessence &mdash; Weapon of Energy</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicItems.html">Psionic Items</a>
+  <ul>
+  <li><a href="psionicItemsAW.html">Armor &amp; Weapons</a></li>
+  <li><a href="psionicItemsCCDT.html">Cognizance Crystals, Dorjes &amp; Tatoos</a></li>
+  <li><a href="psionicItemsPSP.html">Power Stones &amp; Psicrowns</a></li>
+  <li><a href="psionicItemsU.html">Universal Items</a></li>
+  <li><a href="psionicItemsCA.html">Cursed &amp; Aritfacts</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicMonsters.html">Monsters</a></li>
+ </ul>
+</li>
+<li><a href="divine.html">Divine</a>
+ <ul>
+ <li><a href="salientAbilities.html">Salient Divine Abilities</a></li>
+ <li><a href="divineFeats.html">Feats</a></li>
+ <li><a href="divineDomains.html">Domains</a></li>
+ <li><a href="divineNewSpells.html">Spells</a></li>
+ <li><a href="divineMinions.html">Minions</a></li>
+ </ul>
+</li>
+<li><a href="unearthedArcana.html">Unearthed Arcana</a>
+ <ul>
+ <li><a href="unearthedCharacter.html">Character</a>
+  <ul>
+  <li><a href="unearthedContacts.html">Contacts</a></li>
+  <li><a href="unearthedReputation.html">Reputation</a></li>
+  <li><a href="unearthedHonor.html">Honor</a></li>
+  <li><a href="unearthedTaint.html">Taint</a></li>
+  <li><a href="unearthedSanity.html">Sanity</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedRaces.html">Racial Variants</a>
+  <ul>
+  <li><a href="unearthedEnvironmentalVariants.html">Environmental Variants</a></li>
+  <li><a href="unearthedElementalVariants.html">Elemental Variants</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedBloodlines.html">Bloodlines</a></li>
+ <li><a href="unearthedClasses.html">Class Variants</a>
+  <ul>
+  <li><a href="unearthedCoreClass.html">Core Class Variants</a></li>
+  <li><a href="unearthedSpecialist.html">Specialist Wizard Variants</a></li>
+  <li><a href="unearthedGestalt.html">Gestalt Characters</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedNewClasses.html">New Classes</a>
+  <ul>
+  <li><a href="unearthedPrestige.html">Prestigious Classes</a></li>
+  <li><a href="unearthedParagon.html">Racial Paragon Classes</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedSkills.html">Skills Variants</a>
+  <ul>
+  <li><a href="unearthedAlternativeSkills.html">Alternative Skill Systems</a></li>
+  <li><a href="unearthedCraftPoints.html">Craft Points</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedFeats.html">Feats Variants</a>
+  <ul>
+  <li><a href="unearthedTraits.html">Traits</a></li>
+  <li><a href="unearthedFlaws.html">Flaws</a></li>
+  <li><a href="unearthedSpelltouchedFeats.html">Spelltouched Feats</a></li>
+  <li><a href="unearthedTests.html">Test-Based Prerequisites</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedCombat.html">Combat Variants</a>
+  <ul>
+  <li><a href="unearthedFacing.html">Facing and Hex Grids</a></li>
+  <li><a href="unearthedDefence.html">Defence and Armor</a></li>
+  <li><a href="unearthedInjury.html">Injury and Death</a></li>
+  <li><a href="unearthedRolls.html">Rolls and Modifiers</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedMagic.html">Magic</a>
+  <ul>
+  <li><a href="unearthedRecharge.html">Recharge Magic</a></li>
+  <li><a href="unearthedSpellPoints.html">Spell Points</a></li>
+  <li><a href="unearthedMetamagic.html">Metamagic Variants</a></li>
+  <li><a href="unearthedSummon.html">Summon Monster Variants</a></li>
+  <li><a href="unearthedIncantations.html">Incantations</a></li>
+  <li><a href="unearthedItems.html">Magic Items</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+</ul>
+</div>
+</td><td></td></tr></table>
+    </td>
+          <td style="width: 30px"></td>
+          <td>
+            <!-- main contents -->
+      <a id="magic-items"></a><h2>Magic Items</h2><br />
+      <h2 style="margin-top: -40px; margin-bottom: 0px"><span class="subtitle">The Basics</span>
+      </h2>
+      <p class="initial">Magic items are divided into categories:
+armor, weapons, potions, rings, rods, scrolls, staffs, wands, and
+wondrous items. In addition, some magic items are cursed or
+intelligent. Finally, a few magic items are of such rarity and power
+that they are considered to belong to a category of their own:
+artifacts. Artifacts are classified in turn as minor (extremely rare
+but not one-of-a-kind items) or major (each one unique and extremely
+potent).</p>
+      <a id="magic-armor-and-shields"></a><p><b>Armor and Shields</b>: Magic armor (including shields)
+offers improved, magical protection to the wearer. Some of these items
+confer abilities beyond a benefit to Armor Class. </p>
+      <a id="magic-weapons"></a><p><b>Weapons</b>: Magic weapons are created with a variety of
+combat powers and almost always improve the attack and damage rolls of
+the wielder as well.</p>
+      <a id="magic-potions"></a><p><b>Potions</b>: A potion is an elixir concocted with a
+spell-like effect that affects only the drinker.</p>
+      <a id="magic-rings"></a><p><b>Rings</b>: A ring is a circular metal band worn on the
+finger (no more than two rings per wearer) that has a spell-like power
+(often a constant effect that affects the wearer).</p>
+      <a id="magic-rods"></a><p><b>Rods</b>: A rod is a scepter-like item with a special power
+unlike that of any known spell.</p>
+      <a id="magic-scrolls"></a><p><b>Scrolls</b>: A scroll is a spell magically inscribed onto
+paper or parchment so that it can be used later.</p>
+      <a id="magic-staffs"></a><p><b>Staffs</b>: A staff has a number of different (but often
+related) spell effects. A newly created staff has 50 charges, and each
+use of the staff depletes one or more of those charges.</p>
+      <a id="magic-wands"></a><p><b>Wands</b>: A wand is a short stick imbued with the power to
+cast a specific spell. A newly created wand has 50 charges, and each
+use of the wand depletes one of those charges.</p>
+      <a id="magic-wondrous-items"></a><p><b>Wondrous Items</b>: These objects include magic jewelry,
+tools, books, clothing, and much more.</p>
+      <a id="magic-items-and-detect-magic"></a><h6>Magic Items and Detect Magic</h6>
+      <p class="initial">When detect magic identifies a magic
+item&rsquo;s
+school of magic, this information refers to the school of the spell
+placed within the potion, scroll, or wand, or the prerequisite given
+for the item. The description of each item provides its aura strength
+and the school it belongs to.</p>
+      <p>If more than one spell is given as a prerequisite, use the
+highest-level spell. If no spells are included in the prerequisites,
+use the following default guidelines.</p>
+      <a id="table-magic-aura-guidelines"></a><table border="0" cellpadding="1" cellspacing="0">
+        <tbody>
+          <tr>
+            <th style="width: 250px">Item Nature</th>
+            <th style="width: 100px">School</th>
+          </tr>
+          <tr class="odd-row">
+            <td>Armor and protection items</td>
+            <td>Abjuration</td>
+          </tr>
+          <tr>
+            <td>Weapons or offensive items</td>
+            <td>Evocation</td>
+          </tr>
+          <tr class="odd-row">
+            <td>Bonus to ability score, on skill check, etc.</td>
+            <td>Transmutation</td>
+          </tr>
+        </tbody>
+      </table>
+      <a id="using-items"></a><h5>USING ITEMS</h5>
+      <p class="initial">To use a magic item, it must be activated,
+although sometimes activation simply means putting a ring on your
+finger. Some items, once donned, function constantly. In most cases,
+using an item requires a standard action that does not provoke attacks
+of opportunity. By contrast, spell completion items are treated like
+spells in combat and do provoke attacks of opportunity.</p>
+      <p>Activating a magic item is a standard action unless the item
+description indicates otherwise. However, the casting time of a spell
+is the time required to activate the same power in an item, regardless
+of the type of magic item, unless the item description specifically
+states otherwise.</p>
+      <p>The four ways to activate magic items are described below.</p>
+      <a id="spell-completion"></a><p><b>Spell Completion</b>: This is the activation method for
+scrolls. A scroll is a spell that is mostly finished. The preparation
+is done for the caster, so no preparation time is needed beforehand as
+with normal spellcasting. All that&rsquo;s left to do is perform the
+finishing parts of the spellcasting (the final gestures, words, and so
+on). To use a spell completion item safely, a character must be of high
+enough level in the right class to cast the spell already. If he
+can&rsquo;t
+already cast the spell, there&rsquo;s a chance he&rsquo;ll make a
+mistake.
+Activating a spell completion item is a standard action and provokes
+attacks of opportunity exactly as casting a spell does.</p>
+      <a id="spell-trigger"></a><p><b>Spell Trigger</b>: Spell trigger activation is similar to
+spell completion, but it&rsquo;s even simpler. No gestures or spell
+finishing
+is needed, just a special knowledge of spellcasting that an appropriate
+character would know, and a single word that must be spoken. Anyone
+with a spell on his or her spell list knows how to use a spell trigger
+item that stores that spell. (This is the case even for a character who
+can&rsquo;t actually cast spells, such as a 3rd-level paladin.) The
+user must
+still determine what spell is stored in the item before she can
+activate it. Activating a spell trigger item is a standard action and
+does not provoke attacks of opportunity.</p>
+      <a id="command-word"></a><p><b>Command Word</b>: If no activation method is suggested
+either in the magic item description or by the nature of the item,
+assume that a command word is needed to activate it. Command word
+activation means that a character speaks the word and the item
+activates. No other special knowledge is needed.</p>
+      <p>A command word can be a real word, but when this is the case,
+the holder of the item runs the risk of activating the item
+accidentally by speaking the word in normal conversation. More often,
+the command word is some seemingly nonsensical word, or a word or
+phrase from an ancient language no longer in common use. Activating a
+command word magic item is a standard action and does not provoke
+attacks of opportunity.</p>
+      <p>Sometimes the command word to activate an item is written
+right on the item. Occasionally, it might be hidden within a pattern or
+design engraved on, carved into, or built into the item, or the item
+might bear a clue to the command word.</p>
+      <p>The Knowledge (arcana) and Knowledge (history) skills might be
+useful in helping to identify command words or deciphering clues
+regarding them. A successful check against DC 30 is needed to come up
+with the word itself. If that check is failed, succeeding on a second
+check (DC 25) might provide some insight into a clue.</p>
+      <p>The spells identify and analyze dweomer both reveal command
+words.</p>
+      <a id="use-activated"></a><p><b>Use Activated</b>: This type of item simply has to be used
+in order to activate it. A character has to drink a potion, swing a
+sword, interpose a shield to deflect a blow in combat, look through a
+lens, sprinkle dust, wear a ring, or don a hat. Use activation is
+generally straightforward and self-explanatory.</p>
+      <p>Many use-activated items are objects that a character wears.
+Continually functioning items are practically always items that one
+wears. A few must simply be in the character&rsquo;s possession (on his
+person). However, some items made for wearing must still be activated.
+Although this activation sometimes requires a command word (see above),
+usually it means mentally willing the activation to happen. The
+description of an item states whether a command word is needed in such
+a case.</p>
+      <p>Unless stated otherwise, activating a use-activated magic item
+is either a standard action or not an action at all and does not
+provoke attacks of opportunity, unless the use involves performing an
+action that provokes an attack of opportunity in itself. If the use of
+the item takes time before a magical effect occurs, then use activation
+is a standard action. If the item&rsquo;s activation is subsumed in its
+use
+and takes no extra time use activation is not an action at all.</p>
+      <p>Use activation doesn&rsquo;t mean that if you use an item, you
+automatically know what it can do. You must know (or at least guess)
+what the item can do and then use the item in order to activate it,
+unless the benefit of the item comes automatically, such from drinking
+a potion or swinging a sword.</p>
+      <a id="size-and-magic-items"></a><h5>SIZE AND MAGIC ITEMS</h5>
+      <p class="initial">When an article of magic clothing or jewelry
+is discovered, most of the time size shouldn&rsquo;t be an issue. Many
+magic
+garments are made to be easily adjustable, or they adjust themselves
+magically to the wearer. Size should not keep characters of various
+kinds from using magic items.</p>
+      <p>There may be rare exceptions, especially with racial specific
+items. </p>
+      <a id="armor-and-weapon-sizes"></a><p><b>Armor and Weapon Sizes</b>: Armor and weapons that are
+found at random have a 30% chance of being Small (01&ndash;30), a 60%
+chance
+of being Medium (31&ndash;90), and a 10% chance of being any other size
+(91&ndash;100).</p>
+      <a id="magic-items-on-the-body"></a><h5>MAGIC ITEMS ON THE BODY</h5>
+      <p class="initial">Many magic items need to be donned by a
+character who wants to employ them or benefit from their abilities.
+It&rsquo;s possible for a creature with a humanoid-shaped body to wear
+as
+many as twelve magic items at the same time. However, each of those
+items must be worn on (or over) a particular part of the body.</p>
+      <p>A humanoid-shaped body can be decked out in magic gear
+consisting of one item from each of the following groups, keyed to
+which place on the body the item is worn.</p>
+      <ul>
+        <li>One headband, hat, helmet, or phylactery on the head</li>
+        <li>One pair of eye lenses or goggles on or over the eyes</li>
+        <li>One amulet, brooch, medallion, necklace, periapt, or scarab
+around the neck</li>
+        <li>One vest, vestment, or shirt on the torso</li>
+        <li>One robe or suit of armor on the body (over a vest,
+vestment, or shirt)</li>
+        <li>One belt around the waist (over a robe or suit of armor)</li>
+        <li>One cloak, cape, or mantle around the shoulders (over a
+robe or suit of armor)</li>
+        <li>One pair of bracers or bracelets on the arms or wrists</li>
+        <li>One glove, pair of gloves, or pair of gauntlets on the hands</li>
+        <li>One ring on each hand (or two rings on one hand)</li>
+        <li>One pair of boots or shoes on the feet</li>
+      </ul>
+      <p>Of course, a character may carry or possess as many items of
+the same type as he wishes. However, additional items beyond those
+listed above have no effect. </p>
+      <p>Some items can be worn or carried without taking up space on a
+character&rsquo;s body. The description of an item indicates when an
+item has
+this property.</p>
+      <a id="saving-throws-against-magic-item-powers"></a><h5>SAVING THROWS AGAINST MAGIC ITEM POWERS</h5>
+      <p class="initial">Magic items produce spells or spell-like
+effects. For a saving throw against a spell or spell-like effect from a
+magic item, the DC is 10 + the level of the spell or effect + the
+ability modifier of the minimum ability score needed to cast that level
+of spell. </p>
+      <p>Staffs are an exception to the rule. Treat the saving throw as
+if the wielder cast the spell, including caster level and all modifiers
+to save DC. </p>
+      <p>Most item descriptions give saving throw DCs for various
+effects, particularly when the effect has no exact spell equivalent
+(making its level otherwise difficult to determine quickly).</p>
+      <a id="damaging-magic-items"></a><h5>DAMAGING MAGIC ITEMS</h5>
+      <p class="initial">A magic item doesn&rsquo;t need to make a
+saving
+throw unless it is unattended, it is specifically targeted by the
+effect, or its wielder rolls a natural 1 on his save. Magic items
+should always get a saving throw against spells that might deal damage
+to them&mdash; even against attacks from which a nonmagical item would
+normally get no chance to save. Magic items use the same saving throw
+bonus for all saves, no matter what the type (Fortitude, Reflex, or
+Will). A magic item&rsquo;s saving throw bonus equals 2 + one-half its
+caster
+level (round down). The only exceptions to this are intelligent magic
+items, which make Will saves based on their own Wisdom scores.</p>
+      <p>Magic items, unless otherwise noted, take damage as nonmagical
+items of the same sort. A damaged magic item continues to function, but
+if it is destroyed, all its magical power is lost.</p>
+      <a id="repairing-magic-items"></a><h5>REPAIRING MAGIC ITEMS</h5>
+      <p class="initial">Some magic items take damage over the course
+of an adventure. It costs no more to repair a magic item with the Craft
+skill than it does to repair its nonmagical counterpart. The make whole
+spell also repairs a damaged&mdash;but not completely
+broken&mdash;magic item.</p>
+      <a id="intelligent-items"></a><h5>INTELLIGENT ITEMS</h5>
+      <p class="initial">Some magic items, particularly weapons, have
+an intelligence all their own. Only permanent magic items (as opposed
+to those with a single use or those with charges) can be intelligent.
+(This means that potions, scrolls, and wands, among other items, are
+never intelligent.)</p>
+      <p>In general, less than 1% of magic items have intelligence. </p>
+      <a id="cursed-items"></a><h5>CURSED ITEMS</h5>
+      <p class="initial">Some items are cursed&mdash;incorrectly made,
+or
+corrupted by outside forces. Cursed items might be particularly
+dangerous to the user, or they might be normal items with a minor flaw,
+an inconvenient requirement, or an unpredictable nature. Randomly
+generated items are cursed 5% of the time. </p>
+      <a id="charges-doses-and-multiple-uses"></a><h5>CHARGES, DOSES, AND MULTIPLE USES</h5>
+      <p class="initial">Many items, particularly wands and staffs, are
+limited in power by the number of charges they hold. Normally, charged
+items have 50 charges at most. If such an item is found as a random
+part of a treasure, roll d% and divide by 2 to determine the number of
+charges left (round down, minimum 1). If the item has a maximum number
+of charges other than 50, roll randomly to determine how many charges
+are left. </p>
+      <p>Prices listed are always for fully charged items. (When an
+item is created, it is fully charged.) For an item that&rsquo;s
+worthless
+when its charges run out (which is the case for almost all charged
+items), the value of the partially used item is proportional to the
+number of charges left. For an item that has usefulness in addition to
+its charges, only part of the item&rsquo;s value is based on the number
+of
+charges left.</p>
+      <a id="magic-item-descriptions"></a><h3>MAGIC ITEM DESCRIPTIONS</h3>
+           <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+        <tbody>
+          <tr>
+            <td class="line"></td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="initial">Each general type of magic item gets an
+overall description, followed by descriptions of specific items.</p>
+      <p>General descriptions include notes on activation, random
+generation, and other material. The AC, hardness, hit points, and break
+DC are given for typical examples of some magic items. The AC assumes
+that the item is unattended and includes a &ndash;5 penalty for the
+item&rsquo;s
+effective Dexterity of 0. If a creature holds the item, use the
+creature&rsquo;s Dexterity modifier in place of the &ndash;5 penalty.</p>
+      <p>Some individual items, notably those that simply store spells
+and nothing else, don&rsquo;t get full-blown descriptions. Reference
+the
+spell&rsquo;s description for details, modified by the form of the item
+(potion, scroll, wand, and so on). Assume that the spell is cast at the
+minimum level required to cast it</p>
+      <p>Items with full descriptions have their powers detailed, and
+each of the following topics is covered in notational form at the end
+of the description.</p>
+      <a id="aura"></a><p><b>Aura</b>: Most of the time, a detect magic spell will
+reveal the school of magic associated with a magic item and the
+strength of the aura an item emits. This information (when applicable)
+is given at the beginning of the item&rsquo;s notational entry. See the
+detect magic spell description for details.</p>
+      <a id="caster-level"></a><p><b>Caster Level</b>: The next item in a notational entry gives
+the caster level of the item, indicating its relative power. The caster
+level determines the item&rsquo;s saving throw bonus, as well as range
+or
+other level-dependent aspects of the powers of the item (if variable).
+It also determines the level that must be contended with should the
+item come under the effect of a dispel magic spell or similar
+situation. This information is given in the form &ldquo;CL x,&rdquo;
+where &ldquo;CL&rdquo; is
+an abbreviation for caster level and &ldquo;x&rdquo; is an ordinal
+number
+representing the caster level itself.</p>
+      <p>For potions, scrolls, and wands, the creator can set the
+caster level of an item at any number high enough to cast the stored
+spell and not higher than her own caster level. For other magic items,
+the caster level is determined by the creator. The minimum caster level
+is that which is needed to meet the prerequisites given.</p>
+      <a id="prerequisites"></a><p><b>Prerequisites</b>: Certain requirements must be met in
+order for a character to create a magic item. These include feats,
+spells, and miscellaneous requirements such as level, alignment, and
+race or kind. The prerequisites for creation of an item are given
+immediately following the item&rsquo;s caster level.</p>
+      <p>A spell prerequisite may be provided by a character who has
+prepared the spell (or who knows the spell, in the case of a sorcerer
+or bard), or through the use of a spell completion or spell trigger
+magic item or a spell-like ability that produces the desired spell
+effect. For each day that passes in the creation process, the creator
+must expend one spell completion item or one charge from a spell
+trigger item if either of those objects is used to supply a
+prerequisite.</p>
+      <p>It is possible for more than one character to cooperate in the
+creation of an item, with each participant providing one or more of the
+prerequisites. In some cases, cooperation may even be necessary.</p>
+      <p>If two or more characters cooperate to create an item, they
+must agree among themselves who will be considered the creator for the
+purpose of determinations where the creator&rsquo;s level must be
+known. The
+character designated as the creator pays the XP required to make the
+item.</p>
+      <p>Typically, a list of prerequisites includes one feat and one
+or more spells (or some other requirement in addition to the feat).
+When two spells at the end of a list are separated by &ldquo;or,&rdquo;
+one of
+those spells is required in addition to every other spell mentioned
+prior to the last two.</p>
+      <a id="market-price"></a><p><b>Market Price</b>: This gold piece value, given following
+the word &ldquo;Price,&rdquo; represents the price someone should
+expect to pay to
+buy the item. The market price for an item that can be constructed with
+an item creation feat is usually equal to the base price plus the price
+for any components (material or XP).</p>
+      <a id="cost-to-create"></a><p><b>Cost to Create</b>: The next part of a notational entry is
+the cost in gp and XP to create the item, given following the word
+&ldquo;Cost.&rdquo; This information appears only for items with
+components
+(material or XP), which make their market prices higher than their base
+prices. The cost to create includes the costs derived from the base
+cost plus the costs of the components. Items without components do not
+have a &ldquo;Cost&rdquo; entry. For them, the market price and the
+base price are
+the same. The cost in gp is 1/2 the market price, and the cost in XP is
+1/25 the market price.</p>
+      <a id="weight"></a><p><b>Weight</b>: The notational entry for many wondrous items
+ends with a value for the item&rsquo;s weight. When a weight figure is
+not
+given, the item has no weight worth noting (for purposes of determining
+how much of a load a character can carry).</p>
+      <a id="table-random-item-generation"></a><p><b>Table: Random Magic Item Generation</b></p>
+      <table border="0" cellpadding="1" cellspacing="0">
+        <tbody>
+          <tr>
+            <th style="width: 75">Minor</th>
+            <th style="width: 75px">Medium</th>
+            <th style="width: 75px">Major</th>
+            <th style="width: 125px">Item</th>
+          </tr>
+          <tr class="odd-row">
+            <td>01&ndash;04</td>
+            <td>01&ndash;10</td>
+            <td>01&ndash;10</td>
+            <td>Armor and shields</td>
+          </tr>
+          <tr>
+            <td>05&ndash;09</td>
+            <td>11&ndash;20</td>
+            <td>11&ndash;20</td>
+            <td>Weapons</td>
+          </tr>
+          <tr class="odd-row">
+            <td>10&ndash;44</td>
+            <td>21&ndash;30</td>
+            <td>21&ndash;25</td>
+            <td>Potions</td>
+          </tr>
+          <tr>
+            <td>45&ndash;46</td>
+            <td>31&ndash;40</td>
+            <td>26&ndash;35</td>
+            <td>Rings</td>
+          </tr>
+          <tr class="odd-row">
+            <td>&mdash;</td>
+            <td>41&ndash;50</td>
+            <td>36&ndash;45</td>
+            <td>Rods</td>
+          </tr>
+          <tr>
+            <td>47&ndash;81</td>
+            <td>51&ndash;65</td>
+            <td>46&ndash;55</td>
+            <td>Scrolls</td>
+          </tr>
+          <tr class="odd-row">
+            <td>&mdash;</td>
+            <td>66&ndash;68</td>
+            <td>56&ndash;75</td>
+            <td>Staffs</td>
+          </tr>
+          <tr>
+            <td>82&ndash;91</td>
+            <td>69&ndash;83</td>
+            <td>76&ndash;80</td>
+            <td>Wands</td>
+          </tr>
+          <tr class="odd-row">
+            <td>92&ndash;100</td>
+            <td>84&ndash;100</td>
+            <td>81&ndash;100</td>
+            <td>Wondrous items</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

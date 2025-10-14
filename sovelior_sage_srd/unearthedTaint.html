@@ -1,0 +1,1944 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=windows-1250" http-equiv="content-type" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>
+      SRD - Taint
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+      <tbody>
+        <tr>
+          <td style="width: 170px; text-align: right">
+            <img alt="d20 Logo" src="d20.jpg" />
+          </td>
+          <td style="width: 30px"></td>
+          <td colspan="3" id="title">
+            System Reference Document v3.5
+          </td>
+          <td rowspan="3" style="background-color: #8B2323; width: 15px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="height: 15px"></td>
+          <td rowspan="2" style="width: 15px"></td>
+        </tr>
+        <tr valign="top">
+          <td>
+            <!-- left-hand navigation / menu -->
+<table width="170px">
+<tr><td style="width: 100%; background-color: #8b2323">
+<div class="menu2">
+<ul>
+<li><a href="home.html">SRD Home</a>
+ <ul> 
+ <li><a href="tips.html">Tips and Stuff</a></li>
+ <li><a href="siteMap.html">Site Map</a></li>
+ </ul>
+</li>
+<li><a href="legal.html">Legal Information</a></li>
+<li><a href="tools.html">Tools</a>
+ <ul>
+ <li><a href="toolsScreen.html">DM Screen</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('anchorSearch.html', 'anchor_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+     Site Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('spellSearch.html', 'spell_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Spell Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('powerSearch.html', 'power_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Power Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="toolsSpellIndex.html">Spell Index</a></li>
+ <li><a href="toolsPowerIndex.html">Power Index</a></li>
+ <li><a href="toolsMonsterIndex.html">Monster Index</a></li>
+ <li><a href="toolsMagicItemIndex.html">Wondrous Item Index</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('toolsDiceSage.html', 'dicesage', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=300px,height=500px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    DiceSage</a></li>
+ </ul>
+</li>
+<li><a href="basics.html">Basics &amp; Ability Scores</a></li>
+<li><a href="description.html">Alignment &amp; Description</a></li>
+<li><a href="races.html">Races</a></li>
+<li><a href="classes.html">Character Classes</a>
+ <ul>
+ <li><a href="barbarian.html">Barbarian</a></li>
+ <li><a href="bard.html">Bard</a></li>
+ <li><a href="cleric.html">Cleric</a></li>
+ <li><a href="druid.html">Druid</a></li>
+ <li><a href="fighter.html">Fighter</a></li>
+ <li><a href="monk.html">Monk</a></li>
+ <li><a href="paladin.html">Paladin</a></li>
+ <li><a href="ranger.html">Ranger</a></li>
+ <li><a href="rogue.html">Rogue</a></li>
+ <li><a href="sorcerer.html">Sorcerer</a></li>
+ <li><a href="wizard.html">Wizard</a></li>
+ </ul>
+</li>
+<li><a href="skills.html">Skills</a>
+ <ul>
+ <li><a href="skillsAll.html">In Alphabetical Order</a></li>
+ <li><a href="skillsStr.html">Strength-Based</a></li>
+ <li><a href="skillsDex.html">Dexterity-Based</a></li>
+ <li><a href="skillsCon.html">Constitution-Based</a></li>
+ <li><a href="skillsInt.html">Intelligence-Based</a></li>
+ <li><a href="skillsWis.html">Wisdom-Based</a></li>
+ <li><a href="skillsCha.html">Charisma-Based</a></li>
+ <li><a href="skillsTro.html">Trained Only</a></li>
+ <li><a href="skillsAcp.html">With Armor Check Penalty</a></li>
+ </ul>
+</li>
+<li><a href="feats.html">Feats</a>
+ <ul>
+ <li><a href="featsAll.html">In Alphabetical Order</a></li>
+ <li><a href="featsGen.html">General</a></li>
+ <li><a href="featsFtb.html">Fighter Bonus</a></li>
+ <li><a href="featsItc.html">Item Creation</a></li>
+ <li><a href="featsMtm.html">Metamagic</a></li>
+ <li><a href="featsList.html">Compiled</a></li>
+ </ul>
+</li>
+<li><a href="equipment.html">Equipment</a>
+ <ul>
+ <li><a href="weapons.html">Weapons</a></li>
+ <li><a href="armor.html">Armor</a></li>
+ <li><a href="goodsAndServices.html">Goods &amp; Services</a></li>
+ </ul>
+</li>
+<li><a href="specialMaterials.html">Special Materials</a></li>
+<li><a href="combat.html">Combat</a>
+ <ul>
+ <li><a href="initiativeAndAoO.html">Initiative &amp; Attacks of Opportunity</a></li>
+ <li><a href="actionsInCombat.html">Actions In Combat</a></li>
+ <li><a href="injuryAndDeath.html">Injury &amp; Death</a></li>
+ <li><a href="movement.html">Movement, Position, &amp; Distance</a></li>
+ <li><a href="combatModifiers.html">Combat Modifiers</a></li>
+ <li><a href="specialAttacks.html">Special Attacks</a></li>
+ <li><a href="initiativeActions.html">Special Initiative Actions</a></li>
+ </ul>
+</li>
+<li><a href="abilitiesAndConditions.html">Special Abilities &amp; Conditions</a></li>
+<li><a href="npcClasses.html">NPC Classes</a></li>
+<li><a href="prestigeClasses.html">Prestige Classes</a>
+ <ul>
+ <li><a href="arcaneArcher.html">Arcane Archer</a></li>
+ <li><a href="arcaneTrickster.html">Arcane Trickster</a></li>
+ <li><a href="archmage.html">Archmage</a></li>
+ <li><a href="assassin.html">Assassin</a></li>
+ <li><a href="blackguard.html">Blackguard</a></li>
+ <li><a href="dragonDisciple.html">Dragon Disciple</a></li>
+ <li><a href="duelist.html">Duelist</a></li>
+ <li><a href="dwarvenDefender.html">Dwarven Defender</a></li>
+ <li><a href="eldritchKnight.html">Eldritch Knight</a></li>
+ <li><a href="hierophant.html">Hierophant</a></li>
+ <li><a href="horizonWalker.html">Horizon Walker</a></li>
+ <li><a href="loremaster.html">Loremaster</a></li>
+ <li><a href="mysticTheurge.html">Mystic Theurge</a></li>
+ <li><a href="shadowdancer.html">Shadowdancer</a></li>
+ <li><a href="thaumaturgist.html">Thaumaturgist</a></li>
+ </ul>
+</li>
+<li><a href="epicLevels.html">Epic Levels</a>
+ <ul>
+ <li><a href="epicClasses.html">Epic Classes</a></li>
+ <li><a href="epicSkills.html">Epic Skills</a></li>
+ <li><a href="epicFeats.html">Epic Feats</a></li>
+ <li><a href="epicPrestigeClasses.html">Epic Prestige Classes</a>
+  <ul>
+  <li><a href="agentRetriever.html">Agent Retriever</a></li>
+  <li><a href="cosmicDescryer.html">Cosmic Descryer</a></li>
+  <li><a href="divineEmissary.html">Divine Emissary</a></li>
+  <li><a href="epicInfiltrator.html">Epic Infiltrator</a></li>
+  <li><a href="guardianParamount.html">Guardian Paramount</a></li>
+  <li><a href="highProselytizer.html">High Proselytizer</a></li>
+  <li><a href="legendaryDreadnought.html">Legendary Dreadnought</a></li>
+  <li><a href="perfectWight.html">Perfect Wight</a></li>
+  <li><a href="unionSentinel.html">Union Sentinel</a></li>
+  </ul>
+ </li>
+ <li><a href="epicSpells.html">Epic Spells</a>
+  <ul>
+  <li><a href="epicSpellDevelopment.html">Developing</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMagicItems.html">Epic Magic Items</a>
+  <ul>
+  <li><a href="epicMagicItemsOther.html">Other Items</a></li>
+  <li><a href="epicArtifacts.html">Intelligent Items and Artifacts</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMonsters.html">Epic Monsters</a>
+  <ul>
+  <li><a href="epicNonAbominations.html">Non-Abominations</a></li>
+  </ul>
+ </li>
+ <li><a href="epicObstacles.html">Epic Obstacles</a></li>
+ </ul>
+</li>
+<li><a href="magicOverview.html">Magic Overview</a>
+ <ul>
+ <li><a href="magicSchools.html">Schools of Magic</a></li>
+ <li><a href="arcaneSpells.html">Arcane Magic</a></li>
+ <li><a href="divineSpells.html">Divine Magic</a></li>
+ <li><a href="specialAbilities.html">Special Abilities</a></li>
+ </ul>
+</li>
+<li><a href="spellList.html">Spell List</a>
+ <ul>
+ <li><a href="#" onclick="var w = window.open('spellSearch.html', 'spell_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Spell Search</a></li>
+ <li><a href="bardSpells.html">Bard Spells</a></li>
+ <li><a href="clericSpells.html">Cleric Spells</a></li>
+ <li><a href="clericDomains.html">Cleric Domains</a></li>
+ <li><a href="druidSpells.html">Druid Spells</a></li>
+ <li><a href="paladinSpells.html">Paladin Spells</a></li>
+ <li><a href="rangerSpells.html">Ranger Spells</a></li>
+ <li><a href="wizardSpells.html">Sorcerer/Wizard Spells</a></li>
+ <li><a href="spellsAtoZ.html">Spells A to Z</a>
+  <ul>
+  <li><a href="spellsAtoB.html">Acid Arrow &mdash; Burning&nbsp;Hands</a></li>
+  <li><a href="spellsC.html">Call Lightning &mdash; Curse&nbsp;Water</a></li>
+  <li><a href="spellsDtoE.html">Dancing Lights &mdash; Eyebite</a></li>
+  <li><a href="spellsFtoG.html">Fabricate &mdash; Gust&nbsp;of&nbsp;Wind</a></li>
+  <li><a href="spellsHtoL.html">Hallow &mdash; Lullaby</a></li>
+  <li><a href="spellsMtoO.html">Mage Armor &mdash; Owl's&nbsp;Wisdom</a></li>
+  <li><a href="spellsPtoR.html">Passwall &mdash; Rusting&nbsp;Grasp</a></li>
+  <li><a href="spellsS.html">Sanctuary &mdash; Sympathy</a></li>
+  <li><a href="spellsTtoZ.html">Telekinesis &mdash; Zone&nbsp;of&nbsp;Truth</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+<li><a href="magicItems.html">Magic Items</a>
+ <ul>
+ <li><a href="magicItemsCreation.html">Creating Magic Items</a></li>
+ <li><a href="magicItemsAW.html#armor">Armor</a></li>
+ <li><a href="magicItemsPRR.html#potions">Potions</a></li>
+ <li><a href="magicItemsPRR.html#rings">Rings</a></li>
+ <li><a href="magicItemsPRR.html#rods">Rods</a></li>
+ <li><a href="magicItemsSSW.html#scrolls">Scrolls</a></li>
+ <li><a href="magicItemsSSW.html#staffs">Staffs</a></li>
+ <li><a href="magicItemsSSW.html#wands">Wands</a></li>
+ <li><a href="magicItemsAW.html#weapons">Weapons</a></li>
+ <li><a href="magicItemsWI.html">Wondrous Items</a></li>
+ <li><a href="magicItemsICA.html">Intelligent, Cursed, &amp; Artifacts</a></li>
+ </ul>
+</li>
+<li><a href="monsters.html">Monsters</a>
+ <ul>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="monstersAtoZ.html">Monsters A to Z</a>
+  <ul>
+  <li><a href="monstersA.html">Aboleth &mdash; Azer</a></li>
+  <li><a href="monstersBtoC.html">Barghest &mdash; Couatl</a></li>
+  <li><a href="monstersDtoDe.html">Dark&nbsp;Mantle &mdash; Devourer</a></li>
+  <li><a href="monstersDitoDo.html">Digester &mdash; Doppleganger</a></li>
+  <li><a href="monstersDrtoDw.html">Dragon &mdash; Dwarf</a></li>
+  <li><a href="monstersEtoF.html">Eagle &mdash; Fungus</a></li>
+  <li><a href="monstersG.html">Gargoyle &mdash; Grimlock</a></li>
+  <li><a href="monstersHtoI.html">Hag &mdash; Invisible&nbsp;Stalker</a></li>
+  <li><a href="monstersKtoL.html">Kobold &mdash; Lycanthrope</a></li>
+  <li><a href="monstersMtoN.html">Magmin &mdash; Nymph</a></li>
+  <li><a href="monstersOtoR.html">Ogre &mdash; Rust&nbsp;Monster</a></li>
+  <li><a href="monstersS.html">Sahuagin &mdash; Swarm</a></li>
+  <li><a href="monstersTtoZ.html">Tarrasque &mdash; Zombie</a></li>
+  </ul>
+ </li>
+ <li><a href="monstersAnimal.html">Animals</a></li>
+ <li><a href="monstersVermin.html">Vermin</a></li>
+ <li><a href="monsterTypes.html">Types, Subtypes, &amp; Special Abilities</a></li>
+ <li><a href="improvingMonsters.html">Improving Monsters</a></li>
+ <li><a href="monsterFeats.html">Monster Feats</a></li>
+ <li><a href="monstersAsRaces.html">Monsters as Races</a></li>
+ </ul>
+</li>
+<li><a href="carryingAndExploration.html">Carrying, Movement, and Exploration</a></li>
+<li><a href="treasure.html">Treasure</a></li>
+<li><a href="wildernessAndEnvironment.html">Wilderness, Weather, and Environment</a></li>
+<li><a href="traps.html">Traps</a></li>
+<li><a href="planes.html">Planes</a></li>
+<li><a href="psionic.html">Psionic</a>
+ <ul>
+ <li><a href="psionicRaces.html">Races</a></li>
+ <li><a href="psionicClasses.html">Classes</a>
+  <ul>
+  <li><a href="psionicPsion.html">Psion</a></li>
+  <li><a href="psionicPsychicWarrior.html">Psychic Warrior</a></li>
+  <li><a href="psionicSoulknife.html">Soulknife</a></li>
+  <li><a href="psionicWilder.html">Wilder</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicSkills.html">Skills</a></li>
+ <li><a href="psionicFeats.html">Feats</a></li>
+ <li><a href="psionicPrestigeClasses.html">Prestige Classes</a>
+  <ul>
+  <li><a href="psionicCerebremancer.html">Cerebremancer</a></li>
+  <li><a href="psionicElocater.html">Elocater</a></li>
+  <li><a href="psionicFist.html">Psionic Fist</a></li>
+  <li><a href="psionicSlayer.html">Slayer</a></li>
+  <li><a href="psionicMetamind.html">Metamind</a></li>
+  <li><a href="psionicPsionUncarnate.html">Psion Uncarnate</a></li>
+  <li><a href="psionicPyrokineticist.html">Pyrokineticist</a></li>
+  <li><a href="psionicThrallherd.html">Thrallherd</a></li>
+  <li><a href="psionicWarMind.html">War Mind</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicPowers.html">Powers</a>
+  <ul>
+  <li><a href="#" onclick="
+var w = window.open('powerSearch.html', 'power_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Power Search</a></li>
+  <li><a href="psionicDescriptions.html">Descriptions Format</a></li>
+  <li><a href="psionicPsionList.html">Psion/Wilder List</a></li>
+  <li><a href="psionicDisciplineList.html">Discipline List</a></li>
+  <li><a href="psionicWarriorList.html">Psychic Warrior List</a></li>
+  <li><a href="psionicPowersAtoC.html">Adapt Body &mdash; Crystallize</a></li>
+  <li><a href="psionicPowersDtoF.html">Danger Sense &mdash; Fusion</a></li>
+  <li><a href="psionicPowersGtoP.html">Genesis &mdash; Psychofeedback</a></li>
+  <li><a href="psionicPowersQtoW.html">Quintessence &mdash; Weapon of Energy</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicItems.html">Psionic Items</a>
+  <ul>
+  <li><a href="psionicItemsAW.html">Armor &amp; Weapons</a></li>
+  <li><a href="psionicItemsCCDT.html">Cognizance Crystals, Dorjes &amp; Tatoos</a></li>
+  <li><a href="psionicItemsPSP.html">Power Stones &amp; Psicrowns</a></li>
+  <li><a href="psionicItemsU.html">Universal Items</a></li>
+  <li><a href="psionicItemsCA.html">Cursed &amp; Aritfacts</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicMonsters.html">Monsters</a></li>
+ </ul>
+</li>
+<li><a href="divine.html">Divine</a>
+ <ul>
+ <li><a href="salientAbilities.html">Salient Divine Abilities</a></li>
+ <li><a href="divineFeats.html">Feats</a></li>
+ <li><a href="divineDomains.html">Domains</a></li>
+ <li><a href="divineNewSpells.html">Spells</a></li>
+ <li><a href="divineMinions.html">Minions</a></li>
+ </ul>
+</li>
+<li><a href="unearthedArcana.html">Unearthed Arcana</a></li>
+ <li><a href="unearthedCharacter.html"><div style="margin-left: 10px">Character</div></a></li>
+  <li><a href="unearthedContacts.html"><div style="margin-left: 20px">Contacts</div></a></li>
+  <li><a href="unearthedReputation.html"><div style="margin-left: 20px">Reputation</div></a></li>
+  <li><a href="unearthedHonor.html"><div style="margin-left: 20px">Honor</div></a></li>
+  <li class="selected"><a href="unearthedTaint.html"><div style="margin-left: 20px">Taint</div></a></li>
+  <li><a href="unearthedSanity.html"><div style="margin-left: 20px">Sanity</div></a></li>
+ <li><a href="unearthedRaces.html"><div style="margin-left: 10px">Racial Variants</div></a>
+  <ul>
+  <li><a href="unearthedEnvironmentalVariants.html">Environmental Variants</a></li>
+  <li><a href="unearthedElementalVariants.html">Elemental Variants</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedBloodlines.html"><div style="margin-left: 10px">Bloodlines</div></a></li>
+ <li><a href="unearthedClasses.html"><div style="margin-left: 10px">Class Variants</div></a>
+  <ul>
+  <li><a href="unearthedCoreClass.html">Core Class Variants</a></li>
+  <li><a href="unearthedSpecialist.html">Specialist Wizard Variants</a></li>
+  <li><a href="unearthedGestalt.html">Gestalt Characters</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedNewClasses.html"><div style="margin-left: 10px">New Classes</div></a>
+  <ul>
+  <li><a href="unearthedPrestige.html">Prestigious Classes</a></li>
+  <li><a href="unearthedParagon.html">Racial Paragon Classes</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedSkills.html"><div style="margin-left: 10px">Skills Variants</div></a>
+  <ul>
+  <li><a href="unearthedAlternativeSkills.html">Alternative Skill Systems</a></li>
+  <li><a href="unearthedCraftPoints.html">Craft Points</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedFeats.html"><div style="margin-left: 10px">Feats Variants</div></a>
+  <ul>
+  <li><a href="unearthedTraits.html">Traits</a></li>
+  <li><a href="unearthedFlaws.html">Flaws</a></li>
+  <li><a href="unearthedSpelltouchedFeats.html">Spelltouched Feats</a></li>
+  <li><a href="unearthedTests.html">Test-Based Prerequisites</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedCombat.html"><div style="margin-left: 10px">Combat Variants</div></a>
+  <ul>
+  <li><a href="unearthedFacing.html">Facing and Hex Grids</a></li>
+  <li><a href="unearthedDefence.html">Defence and Armor</a></li>
+  <li><a href="unearthedInjury.html">Injury and Death</a></li>
+  <li><a href="unearthedRolls.html">Rolls and Modifiers</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedMagic.html"><div style="margin-left: 10px">Magic</div></a>
+  <ul>
+  <li><a href="unearthedRecharge.html">Recharge Magic</a></li>
+  <li><a href="unearthedSpellPoints.html">Spell Points</a></li>
+  <li><a href="unearthedMetamagic.html">Metamagic Variants</a></li>
+  <li><a href="unearthedSummon.html">Summon Monster Variants</a></li>
+  <li><a href="unearthedIncantations.html">Incantations</a></li>
+  <li><a href="unearthedItems.html">Magic Items</a></li>
+  </ul>
+ </li>
+</ul>
+</div>
+</td><td></td></tr></table>
+    </td>
+          <td style="width: 30px"></td>
+          <td>
+            <!-- main contents -->
+      <h2><a id="unearthed-arcana"></a>Unearthed Arcana</h2>
+    <h3><a id="taint"></a>
+      TAINT
+    </h3>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+        <tbody>
+          <tr>
+            <td class="line"></td>
+          </tr>
+        </tbody>
+    </table>
+      Some places and items are so evil that exposure to them marks, or taints,
+      a character in a very real and difficult-to-cleanse way. Taint is evil. It
+      is a corruption so deep it warps the very plane of reality. A weapon used
+      to slaughter thousands of innocents, a forest grown on land soaked in the
+      blood of an evil deity, a book bound in the flesh of an archfiend for his
+      own horrible purposes, and the presence of an evil deity are all sources
+      of taint. Then, of course, there are rings&hellip;
+    <h5><a id="behind-the-curtain-taint"></a>
+      BEHIND THE CURTAIN: TAINT
+    </h5>
+      <div style="margin-left: 40px">Taint can be added to campaigns fairly seamlessly. it's generally best to
+      limit the number of places and items that can impart taint, to reduce the
+      bookkeeping load on players and the GM.
+    <p>
+      Taint makes evil a physical threat to the well-being of characters. It can
+      have a lasting impact on characters, even killing those who remain exposed
+      too long.
+    </p></div>
+    <h5><a id="taint-and-alignment"></a>
+      TAINT AND ALIGNMENT
+    </h5>
+      One way of using this variant system is to replace alignment with taint.
+      As a way of describing characters, taint works somewhat differently, since
+      the standard alignment system uses sets of opposites (law vs. chaos, good
+      vs. evil) and taint has no opposite. you're either tainted, or you're not.
+    <p>
+      In such a system, tainted characters are "evil", considered a threat to
+      common people and, in sufficient numbers, to entire nations. Characters
+      without taint may act altruistically or selfishly, kindly or cruelly,
+      generously or miserly, as their personalities dictate. An evil monster has
+      a taint score equal to one-half its Charisma score, with evil undead
+      getting a +1 modifier and evil outsiders a +2 modifier.
+    </p>
+    <p>
+      Alternatively, taint can be used in addition to alignment. While
+      characters with a minor amount of taint aren't necessarily evil, they
+      probably are. The more taint they acquire, the more evil they become. The
+      GM should monitor taint carefully and provide a warning when a character
+      disregards its effect, just as he would when a character acts outside his
+      alignment.
+    </p>
+    <p>
+      If you include taint in your campaign, you can add a detect taint spell to
+      the cleric's spell list. If you are not using alignment, change the
+      paladin's detect evil ability to detect taint.
+    </p>
+    <p>
+      The detect taint spell or spell-like ability is identical to <a style="color: #579eb5" href="spellsDtoE.html#detect-evil">detect evil</a>,
+      except that it detects the presence of taint within a creature or object.
+      When determining the power of a tainted aura, refer to the table in the
+      detect evil spell description. Find the creature or object's taint score
+      on the row for "Cleric of an evil deity"; the aura's power corresponds to
+      the column in which the taint score is contained.
+    </p>
+    <h5><a id="becoming-tainted"></a>
+      BECOMING TAINTED
+    </h5>
+      Initial exposure to a tainted place or tainted object gives a character
+      1d3 points of taint.
+    <p>
+      For every 24 hours spent in a tainted place, or spent carrying a tainted
+      object, a character must make a Fortitude saving throw. The base DC is 10,
+      +5 for every consecutive 24 hours of exposure. Multiple simultaneous
+      exposures (such as carrying a tainted weapon in a tainted place) increase
+      the DC by +5 per source of exposure every 24 hours. If the character fails
+      his saving throw, his taint score increases by 1.
+    </p>
+    <p>
+      Because of their good Fortitude saves, most <a style="color: #579eb5" href="barbarian.html">barbarians</a>, <a style="color: #579eb5" href="fighter.html">fighters</a>, <a style="color: #579eb5" href="monk.html">monks</a>,
+      <a style="color: #579eb5" href="paladin.html">paladins</a>, and <a style="color: #579eb5" href="ranger.html">rangers</a> resist taint better than members of other classes.
+      <a style="color: #579eb5" href="bard.html">Bards</a>, <a style="color: #579eb5" href="rogue.html">rogues</a>, <a style="color: #579eb5" href="sorcerer.html">sorcerers</a>, and <a style="color: #579eb5" href="wizard.html">wizards</a> are much more susceptible to taint.
+    </p>
+    <h6><a id="taint-absorbing-items"></a>
+      Taint-Absorbing Items
+    </h6>
+      Some natural substances absorb taint and thus protect those who are
+      exposed to carry them. Examples include a pure jade rod the size of a
+      human finger, a sheet of vellum prepared from a year-old lamb, an
+      intricately carved piece of lightning-struck oak, or a silk sash. The GM
+      can create other examples appropriate to the campaign as well. Regardless
+      of the shape or substance of the item, taint-absorbing items cost 100 gp
+      each.
+    <p>
+      As an item absorbs taint, it darkens, softens, and gradually rots away
+      over seven days. During that time, it absorbs all taint to which the
+      carrier is exposed. Possessing multiple taint-absorbing items at the same
+      time can protect a character for longer than seven days, but the benefit
+      does not accumulate indefinitely, as shown on <a style="color: #579eb5" href="#table-taint-absorbing-items">Table: Taint-Absorbing
+      Items</a>.
+    </p>
+    <b><a id="table-taint-absorbing-items"></a>Table: Taint-Absorbing Items</b>
+    <table cellspacing="0" cellpadding="0" border="0" style="width: 30%">
+      <tr>
+        <th>
+          Items Possessed
+        </th>
+        <th>
+          Days of
+          Protection
+        </th>
+
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          1
+        </td>
+        <td align="center">
+          7
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          2
+        </td>
+        <td align="center">
+          12
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          3
+        </td>
+
+        <td align="center">
+          15
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          4
+        </td>
+        <td align="center">
+          16
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          5
+        </td>
+        <td align="center">
+          15
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          6
+        </td>
+        <td align="center">
+          12
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          7 or more
+        </td>
+        <td align="center">
+          1
+        </td>
+      </tr>
+    </table>
+    <h6><a id="evil-and-taint"></a>
+      Evil and Taint
+    </h6>
+      Simply having an evil alignment is no defense against taint&mdash;it is too
+      profound an effect for personal beliefs or moral codes to ward it off.
+      Only <a style="color: #579eb5" href="monsterTypes.html#undead">undead</a> and creatures with the <a style="color: #579eb5" href="monsterTypes.html#evil">evil subtype</a> can ignore taint.
+    <p>
+      Of course, you may choose for evil creatures to become tainted by good.
+      You can create sacred places and objects in your campaign that taint evil
+      characters as well. You could say that creatures with the <a style="color: #579eb5" href="monsterTypes.html#good">good subtype</a> are
+      immune to the effects of taint in such sacred places, but those sacred
+      places would rot away creatures of the <a style="color: #579eb5" href="monsterTypes.html#evil">evil subtype</a>.
+    </p>
+    <p>
+      Alternatively, you could inflict taint according to the conflict between
+      law and chaos, along with or instead of taint associated with the
+      good-vs.-evil conflict.
+    </p>
+    <h6><a id="alternative-saving-throws"></a>
+      Alternative Saving Throws
+    </h6>
+      Often, fantasy literature portrays characters who delve into ancient,
+      lost, or forbidden knowledge as becoming warped by their exposure to such
+      knowledge. In campaigns with the same conceit, the Fortitude saving throw
+      makes sense. However, you could easily use a Will saving throw instead to
+      determine whether a character picks up taint. This would mean that <a style="color: #579eb5" href="bard.html">bards</a>,
+      <a style="color: #579eb5" href="cleric.html">clerics</a>, <a style="color: #579eb5" href="sorcerer.html">sorcerers</a>, and <a style="color: #579eb5" href="wizard.html">wizards</a> develop a resistance to taint as they go
+      up in levels (because of their good Will saves), but other classes would
+      have a much harder time resisting.
+    <p>
+      Whether a Fortitude save or a Will save is used, <a style="color: #579eb5" href="cleric.html">clerics</a>, <a style="color: #579eb5" href="druid.html">druids</a>, and
+      <a style="color: #579eb5" href="monk.html">monks</a> are equally resistant to taint, which supports the genre conceit of
+      horrible secrets hidden in inaccessible temples and monasteries. <a style="color: #579eb5" href="rogue.html">Rogues</a>
+      are vulnerable either way, explaining how thieves often appear in the
+      genre as unwittingly releasing horror on the world when they steal
+      something that was better left lost and protected.
+    </p>
+    <h5><a id="tainted-places"></a>
+      TAINTED PLACES
+    </h5>
+      When a character casts an evil spell in a tainted area, treat the caster
+      as +1 caster level for spell effects that depend on caster level. When a
+      character casts a good spell in a tainted area, treat the caster as -1
+      caster level for spell effects that depend on caster level. These changes
+      in caster level have no effect on spells known, spells per day, or highest
+      level of spell available.
+    <p>
+      If you are using Manual of the Planes, entire planes may inflict taint.
+      Mildly aligned planes inflict taint as outlined in <a style="color: #579eb5" href="#becoming-tainted">Becoming Tainted</a>.
+      On strongly aligned planes, the saving throw DC increases by +5
+      every 12 hours instead of every 24 hours.
+    </p>
+    <h5><a id="effects-of-taint"></a>
+      EFFECTS OF TAINT
+    </h5>
+    <b><a id="table-taint-effects"></a>Table: Taint Effects</b>
+    <table cellspacing="0" cellpadding="0" style="width: 100%">
+    <tr>
+     <td valign="top" style="width: 32%">
+      <table cellspacing="0" cellpadding="0" border="0" style="width: 100%">
+      <tr>
+        <th align="left">
+          Mild
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Occasional nausea or vomiting
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pain in joints
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Hair goes white
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Mild paranoia
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Disorientation
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Increased aggressiveness
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Mild hallucinations
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Phlegmy, wracking cough
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Eyelid swells, obscuring vision
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Pale, grayish, dead complexion
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Sunken eyes, cracked lips
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Skin seeps greasy, yellowish "sweat"
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Skin thickens, cracks, and turns leathery
+        </td>
+      </tr>
+     </table>
+     </td>
+     <td style="width: 2%"></td>
+     <td valign="top" style="width: 32%">
+      <table cellspacing="0" cellpadding="0" border="0" style="width: 100%">
+      <tr>
+        <th align="left">
+          Moderate
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Bones begin to warp and thicken
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Black, lichenlike growth across skin itches incessantly
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Reddened, burnlike sores and scars
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Eye clouds or blood vessels break, obscuring vision
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Lips shrink back from gums
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gums swell, bleed, and rot
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Bleeding from eyes, nose, mouth, ears, or lips
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Hair falls out
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Uncontrollable seizures that wrack the body with spasms
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Eruption of painful sores
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Sores ooze blood, pus, foul-smelling ooze, spiders or insects,
+          thick pasty substance, maggots, or acidic green slime
+        </td>
+      </tr>
+      <tr>
+        <td>
+
+          Hears voices of evil spirits
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Severe paranoia
+        </td>
+      </tr>
+      <tr>
+        <td>
+
+          Fits of uncontrollable, disturbing laughter
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Disregard for hygiene and cultural mores
+        </td>
+      </tr>
+      </table>
+      </td>
+      <td style="width: 2%"></td>
+      <td valign="top" style="width: 32%">
+      <table cellspacing="0" cellpadding="0" border="0" style="width: 100%">
+
+       <tr>
+        <th>Severe</th>
+       </tr>
+       <tr class="odd-row">
+        <td>
+          Flesh of nose rots away, leaving skull-like openings
+        </td>
+      </tr>
+      <tr>
+        <td>
+
+          Mutated, deformed fingers, toes, leg, arm, head, ear, eye,
+          or teeth begin to grow on inappropriate parts of the body,
+          then shrivel, rot, and eventually fall off
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Spine twists, back hunches
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          Severe warping of skeleton; skull enlarges and deforms
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Great swollen growths on the body
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          Lungs eaten away from inside&mdash;wet, labored, and painful breathing
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+          Eye falls out, leaving gaping socket that glows with eerie green light
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          Skin peels off in papery sloughs at the slightest touch, leaving
+          raw, red flesh beneath
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+
+          Fingers or toes begin to web and fuse
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Irresistible murderous urges
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td>
+
+          Reduced to primitive behavior
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Eats inedible or still-living things
+        </td>
+      </tr>
+    </table>
+    </td></tr></table>
+    <p>
+      A character's taint score applies as a penalty to his Constitution and
+      Wisdom scores. Thus a character with a 16 Constitution and a 14 Wisdom who
+      acquires a taint score of 4 has an effective Constitution of 12 and an
+      effective Wisdom of 10. These penalties reflect the taint's impact on the
+      character's physical and mental health.
+    </p>
+    <p>
+      Characters who embrace taint (see below) and make use of it can ignore
+      some of these penalties. Though it reduces ability scores, the effect of
+      taint is not treated as <a style="color: #579eb5" href="abilitiesAndConditions.html#ability-damage">ability damage</a>, <a style="color: #579eb5" href="abilitiesAndConditions.html#ability-drain">ability drain</a>, or any other
+      penalty to an ability score that can be removed by magic.
+    </p>
+    <p>
+      A tainted character experiences the Constitution and Wisdom penalties in a
+      variety of ways, from mild nausea, joint pain, or disorientation to
+      rotting flesh, severe skeletal warping, and irresistible murderous urges.
+      <a style="color: #579eb5" href="#table-taint-effects">Table: Taint Effects</a> is categorized according to whether a character is
+      mildly, moderately, or severely tainted. A character who has lost 25% of
+      his Constitution to taint is mildly tainted. A character who has lost 50%
+      of his Constitution to taint is moderately tainted. A character who has
+      lost 75% of his Constitution to taint is severely tainted. The effects on
+      Table: Taint Effects are primarily meant as role-playing features, though
+      the GM can apply minor game-related modifiers to represent some of these
+      effects if he so chooses.
+    </p>
+    <p>
+      If a character's Constitution score reaches 0 from the effects of taint,
+      he dies&mdash;and 1d6 hours later he rises as a hideous, evil creature under the
+      control of the GM. What sort of creature he becomes depends on his
+      character level before dying.
+    </p>
+    <table cellspacing="0">
+      <thead>
+        <tr>
+          <th>
+            Character Level Before Death
+          </th>
+          <th>
+            Transforms Into
+          </th>
+        </tr>
+
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="2">
+            <ol>
+              <li>Advance the bodak until its HD equals the character's level
+              before death.
+              </li>
+            </ol>
+          </td>
+
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr class="odd-row">
+          <td align="center">
+            2nd or lower
+          </td>
+          <td align="center">
+            <a style="color: #579eb5" href="monstersG.html#ghoul">Ghoul</a>
+          </td>
+
+        </tr>
+        <tr>
+          <td align="center">
+            3rd-5th
+          </td>
+          <td align="center">
+            <a style="color: #579eb5" href="monstersG.html#ghoul">Ghast</a>
+          </td>
+        </tr>
+        <tr class="odd-row">
+
+          <td align="center">
+            6th-8th
+          </td>
+          <td align="center">
+            <a style="color: #579eb5" href="monstersTtoZ.html#wraith">Wraith</a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            9th or higher
+          </td>
+
+          <td align="center">
+            <a style="color: #579eb5" href="monstersBtoC.html#bodak">Bodak</a><sup><sub>1</sub></sup>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      As terrible as the effects of taint are upon the living, they are even
+      worse upon the dead. Any creature that dies while exposed to taint
+      animates in 1d4 hours as an undead creature, usually a <a style="color: #579eb5" href="monstersTtoZ.html#zombie">zombie</a> of the
+      appropriate size. Burning a corpse protects it from this effect.
+    </p>
+    <h6><a id="embracing-taint"></a>
+      Embracing Taint
+    </h6>
+      Once a character's taint score reaches 10 (assuming he is still alive), he
+      may seek out forces of great evil and pledge himself to their cause. Often
+      evil cults, temples of evil deities, and the militaries of evil warlords
+      eagerly accept such pledges, giving the character access to new sources of
+      power (see <a style="color: #579eb5" href="#tainted-prestige-classes">Tainted Prestige Classes</a>).
+    <h5><a id="cleansing-taint"></a>
+      CLEANSING TAINT
+    </h5>
+      It is possible to remove taint from characters in several ways, including
+      through the use of spells, the performance of good deeds, and cleansing in
+      a sacred spring. Taint cannot be removed unless the tainted character
+      wants to be cleansed.
+    <h6><a id="cleansing-with-spells"></a>
+      Spells
+    </h6>
+      The following spells can reduce taint scores when cast outside tainted
+      areas. No character can have his taint score reduced by any particular
+      spell more than once per day (though different spells can reduce taint if
+      cast on the same character in the same day).
+     <p><a id="cleansing-with-atonement"></a><b><a style="color: black" href="spellsAtoB.html#atonement">Atonement</a>:</b> This spell can remove taint, but with limits. First, it always requires a
+      quest. Second, the caster decides how much taint to remove when casting
+      atonement, up to a maximum equal to the caster's level. This use of
+      atonement costs the caster 500 XP. Atonement can reduce a taint score to
+      0.
+    </p>
+    <p><a id="cleansing-with-heal"></a><b><a style="color: black" href="spellsHtoL.html#heal">Heal</a>:</b> This spell reduces a character's taint score by 1 point per three caster
+      levels, but it cannot reduce a taint score below 1.
+    </p>
+    <p><a id="cleansing-with-miracle-or-wish"></a><b><a style="color: black" href="spellsMtoO.html#miracle">Miracle</a>, <a style="color: black" href="spellsTtoZ.html#wish">Wish</a>:</b> These spells cannot remove taint except by duplicating the effects of
+      other spells mentioned here.
+    </p>
+    <p><a id="cleansing-with-remove-curse-or-remove-disease"></a><b><a style="color: black" href="spellsPtor.html#remove-curse">Remove curse</a>, <a style="color: black" href="spellsPtoR.html#remove-disease">remove disease</a>:</b>
+      These spells reduce a character's taint score by 1 point, but they cannot
+      reduce a taint score below 1.
+    </p>
+    <p><a id="cleansing-with-restoration"></a><b><a style="color: black" href="spellsPtoR.html#restoration">Restoration</a>:</b> This spell reduces a character's taint score by 1 point per four caster
+      levels, but it cannot reduce a taint score below 1.
+    </p>
+    <p><a id="cleansing-with-greater-restoration"></a><b><a style="color: black" href="spellsPtoR.html#greater-restoration">Greater Restoration</a>:</b>
+    This spell reduces a character's taint score by a number of points equal
+      to the caster level of the cleric casting greater restoration. Greater
+      restoration can reduce a taint score to 0.
+    </p>
+    <h6><a id="good-deeds"></a>
+      Good Deeds
+    </h6>
+      Simple good deeds are not enough to remove taint. A character wishing to
+      reduce his taint score through good deeds must undertake a particular
+      ritual under the guidance of one of his deity's clerics. The ritual
+      prepares the character to undertake the deed.
+    <p>
+      Each deity's faith has a list of ritual good deeds that the faithful may
+      perform to prove their dedication to their deity. For example, church
+      followers may choose to put on garments sacred to their faith (and which
+      identify their faith to anyone who sees them) and patrol a particular part
+      of their home as part of the militia or city guard. Adventuring is never
+      part of a good deed, and a character who undertakes an adventure prior to
+      completing his good deed must begin again with the ritual.
+    </p>
+    <p>
+      Deeds must be repeated every day for a week. Upon completion, the
+      character's taint score is reduced by 1 point. The character may continue
+      the deed for another week to continue losing taint, or may return to the
+      temple to undertake the ritual again and begin a different deed.
+    </p>
+    <p>
+      Alternatively, deeds may be quests undertaken on behalf of the deity.
+      After the quest ends, the character's taint score is reduced by 1 point
+      per week required to complete the quest.
+    </p>
+    <p>
+      Good deeds may reduce a character's taint score to 0.
+    </p>
+    <h6><a id="sacred-spring"></a>
+      Sacred Spring
+    </h6>
+      Springs sacred to a particular deity or cause are located in remote
+      regions, requiring long and dangerous travel to reach. For each day a
+      character spends resting and cleansing himself at a sacred spring, his
+      taint score is reduced by 1 point. A characters using this method to
+      reduce his taint score can undertake no activities other than resting,
+      eating, sleeping, and normal conversation.
+    <p>
+      Cleansing at a sacred spring may reduce a character's taint score to 0.
+    </p>
+    <h6><a id="cleansing-places-and-objects"></a>
+      Cleansing Places and Objects
+    </h6>
+      Clerics may use <a style="color: #579eb5" href="spellsHtoL.html#hallow">hallow</a> to remove taint from an area, but it takes time.
+      The spell must remain intact for a year and a day to remove the taint from
+      the area. If, during that time, an opposing character casts <a style="color: #579eb5" href="spellsTtoZ.html#unhallow">unhallow</a> on
+      some or all of the area, the effort is lost and must be reinstated by
+      another casting of hallow. (The hallow spell only affects a 40-foot-radius
+      area, so large areas may require many clerics working simultaneously to
+      completely guard them.)
+    <p>
+      Unintelligent items left in a hallowed area for a year and a day lose
+      their taint. Items that have an Intelligence score (and are thus treated
+      as constructs for this purpose) can only be cleansed by using the spells
+      mentioned above.
+    </p>
+    <h3><a id="tainted-prestige-classes"></a>
+      TAINTED PRESTIGE CLASSES
+    </h3>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+        <tbody>
+          <tr>
+            <td class="line"></td>
+          </tr>
+        </tbody>
+    </table>
+      The two prestige classes presented here use taint as a source of power.
+      Depending on your campaign, certain taint scores (or lack thereof) could
+      be prerequisites for other published prestige classes, such as the
+      alienist or the blood magus (both from Tome and Blood)
+    <h5><a id="tainted-sorcerer"></a>
+      TAINTED SORCERER
+    </h5>
+    <a href="http://www.wizards.com/dnd/images/UnA_Gallery/79177.jpg"><img
+ class="art-wide" src="pict.jpg" title="" alt="pict"
+ style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+      Tainted sorcerers find an easy path to tremendous magical power. Young
+      wizards frustrated at the slow pace of their studies, old scholars chafing
+      at the limitations of traditional magic, peasant folk-magic practitioners,
+      even those who wage endless battle against unspeakable evil and thus
+      succumb to taint&mdash;for all these spellcasters, taint offers a way to
+      overcome obstacles that the sanctioned magic of the world cannot provide.
+      At the mere cost of the character's soul&hellip;
+    <p>
+      Tainted sorcerers come from a variety of backgrounds. Many are <a style="color: #579eb5" href="sorcerer.html">sorcerers</a>
+      or <a style="color: #579eb5" href="wizard.html">wizards</a>&mdash;some inexperienced, some quite advanced&mdash;who stumble across or
+      seek out the forbidden secrets of taint in arcane libraries. Others are
+      adepts who learn tainted magic from an older practitioner. Some are
+      <a style="color: #579eb5" href="cleric.html">clerics</a> or <a style="color: #579eb5" href="druid.html">druids</a> of evil cults who learn from their elders, in the same
+      way that their cult has passed on knowledge for centuries.
+    </p>
+    <p>
+      NPC tainted sorcerers are everywhere, though they usually hide very
+      carefully.
+    </p>
+    <b><a id="table-the-tainted-sorcerer"></a>Table: The Tainted Sorcerer</b>
+    <table cellspacing="0" cellpadding="0" border="0" style="width: 100%">
+      <tr>
+        <th>
+          Level
+        </th>
+        <th>
+          Base<br />
+          Attack
+          Bonus
+        </th>
+        <th>
+          Fort<br />
+          Save
+        </th>
+
+        <th>
+          Ref<br />
+          Save
+        </th>
+        <th>
+          Will<br />
+          Save
+        </th>
+        <th align="left">
+          Special
+        </th>
+        <th align="left">
+          Spells per Day/Spells Known
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          1st
+        </td>
+
+        <td align="center">
+          +0
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td align="center">
+
+          +0
+        </td>
+        <td>
+          Blood component,<br />
+          taint suppression,<br />
+          tainted metamagic,<br />
+          tainted spellcasting
+        </td>
+
+        <td>
+          +1 level of existing spellcasting class
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          2nd
+        </td>
+        <td align="center">
+          +1
+        </td>
+
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td>
+          +1 level of existing spellcasting class
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          3rd
+        </td>
+
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td align="center">
+
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td>
+          +1 level of existing spellcasting class
+        </td>
+      </tr>
+      <tr>
+
+        <td align="center">
+          4th
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +4
+        </td>
+        <td align="center">
+
+          +1
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td>
+          +1 level of existing spellcasting class
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          5th
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +4
+        </td>
+
+        <td align="center">
+          +1
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td>
+
+          +1 level of existing spellcasting class
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          6th
+        </td>
+        <td align="center">
+          +4
+        </td>
+
+        <td align="center">
+          +5
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td>
+          +1 level of existing spellcasting class
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          7th
+        </td>
+
+        <td align="center">
+          +5
+        </td>
+        <td align="center">
+          +5
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+
+          +2
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td>
+          +1 level of existing spellcasting class
+        </td>
+      </tr>
+      <tr>
+
+        <td align="center">
+          8th
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td align="center">
+
+          +2
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td>
+          +1 level of existing spellcasting class
+        </td>
+
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          9th
+        </td>
+        <td align="center">
+          +6
+        </td>
+        <td align="center">
+          +6
+        </td>
+
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td>
+
+          +1 level of existing spellcasting class
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          10th
+        </td>
+        <td align="center">
+          +7
+        </td>
+
+        <td align="center">
+          +7
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+        <td>
+          +1 level of existing spellcasting class
+        </td>
+      </tr>
+    </table>
+    <p><b>Hit Die:</b> d8.
+    </p>
+    <h6><a id="tainted-sorcerer-requirements"></a>
+      Requirements
+    </h6>
+      To qualify to become a tainted sorcerer, a character must fulfill all the
+      following criteria.
+    <p><b>Alignment:</b> Any nongood.
+    </p>
+    <p><b>Base Will Save:</b> +4.
+    </p>
+    <p><b>Skills:</b> <a style="color: #579eb5" href="skillsAll.html#concentration">Concentration</a> 8 ranks, <a style="color: #579eb5" href="skillsAll.html#knowledge">Knowledge</a> (arcana) 4 ranks.
+    </p>
+    <p><b>Spells:</b> Ability to cast 1st-level spells.
+    </p>
+    <p><b>Taint:</b> character's taint score must be 4 or higher.
+    </p>
+    <p><b>Special:</b> Must have learned the basics of taint magic from a tainted sorcerer of at
+      least 4th level, or must have summoned a demon or devil to gain
+      instruction.
+    </p>
+    <h6><a id="tainted-sorcerer-class-skills"></a>
+      Class Skills
+    </h6>
+      The tainted sorcerer's class skills (and the key ability for each skill)
+      are <a style="color: #579eb5" href="skillsAll.html#bluff">Bluff</a> (Cha), <a style="color: #579eb5" href="skillsAll.html#concentration">Concentration</a> (Con), <a style="color: #579eb5" href="skillsAll.html#disguise">Disguise</a> (Cha), <a style="color: #579eb5" href="skillsAll.html#hide">Hide</a> (Dex),
+      <a style="color: #579eb5" href="skillsAll.html#knowledge">Knowledge</a> (arcana) (Int), Knowledge (the planes) (Int), and <a style="color: #579eb5" href="skillsAll.html#spellcraft">Spellcraft</a>
+      (Int).
+    <p><b>Skill Points at Each Level:</b> 2 + Int modifier
+    </p>
+    <h6><a id="tainted-sorcerer-class-features"></a>
+      Class Features
+    </h6>
+      The following are class features of the tainted sorcerer.
+    <p><b>Weapon and Armor Proficiency:</b> Tainted sorcerers are proficient with all simple weapons. They are not
+      proficient with any type of armor or shield. Armor of any type interferes
+      with a tainted sorcerer's arcane gestures, which can cause her spells to
+      fail (if those spells have somatic components).
+    </p>
+    <p><b>Spells per Day/ Spells Known:</b>When a new tainted sorcerer level is gained, the character gains new
+      spells known and spells per day as if she had also gained a level in a
+      spellcasting class she belonged to before she added the prestige class.
+      She does not, however, gain any other benefit a character of that class
+      would have gained. This essentially means that she adds the level of
+      tainted sorcerer to the level of whatever other spellcasting class she
+      has, then determines spells known, spells per day, and caster level
+      accordingly.
+    </p>
+    <b><a id="tainted-sorcerer-blood-componenet"></a><a id="table-blood-component"></a>Blood Component:</b>
+    <table cellspacing="0" style="width: 40%">
+      <tr>
+        <th>
+          Component Cost
+        </th>
+
+        <th>
+          Damage Dealt
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          50 gp or less
+        </td>
+        <td align="center">
+          5
+        </td>
+
+      </tr>
+      <tr>
+        <td align="center">
+          51 gp-300 gp
+        </td>
+        <td align="center">
+          11
+        </td>
+      </tr>
+      <tr class="odd-row">
+
+        <td align="center">
+          301 gp-750 gp
+        </td>
+        <td align="center">
+          17
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          751 gp or more
+        </td>
+
+        <td align="center">
+          23
+        </td>
+      </tr>
+    </table>
+    <p>
+      A tainted sorcerer must use blood in place of any spell's material
+      component (if the spell has no material component, ignore this cost). She
+      has two choices for a source of blood: herself or someone else.
+    </p>
+    <p>
+      If she uses her own blood, the minor knife cut to draw the requisite blood
+      is a free action that becomes a normal part of casting the spell. Using
+      this ability deals 1 point of damage to the tainted sorcerer, but the
+      character does not need to make a <a style="color: #579eb5" href="skillsAll.html#concentration">Concentration</a> check to successfully cast
+      the spell, despite the wound.
+    </p>
+    <p>
+      Substituting blood for a costly material component requires drawing a
+      greater amount of blood. A tainted sorcerer deals more damage to herself
+      when drawing a large amount of blood, as shown on the table below. Also,
+      when using blood to replace a costly component in this way, the tainted
+      sorcerer must make a <a style="color: #579eb5" href="skillsAll.html#concentration">Concentration</a> check (DC 10 + damage taken + spell
+      level) to successfully cast the spell.
+    </p>
+    <p>
+      If the tainted sorcerer draws someone else's blood to use as a material
+      component, the rules given above generally apply. If the source of blood
+      is willing (or helpless) and is adjacent to the tainted sorcerer, she can
+      make a minor knife cut to obtain a small amount of blood as a free action
+      during the casting of the spell. (If the source is not willing or helpless
+      and not adjacent, how long it takes to draw blood depends entirely on the
+      circumstances.)
+    </p>
+    <p>
+      No single source of blood can be used to replace a costly material
+      component unless the character or creature's current hit point total is
+      high enough to absorb all the damage without falling below -10. For
+      example, the blood of an orc with 6 hit points remaining is not sufficient
+      to replace a component that costs 301 gp or more, because the orc cannot
+      take the necessary 17 points of damage before it is dead.
+    </p>
+    <p><a id="tainted-sorcerer-taint-suppression"></a><b>Taint Suppression:</b>
+    While a tainted sorcerer is likely to accumulate a high taint score over
+      the course of her life, this taint is not immediately obvious to
+      onlookers. A tainted sorcerer's taint manifests in mental
+      effects&mdash;insanity, rage, and nightmares&mdash;and in internal physical effects.
+      If a tainted sorcerer is split open, the character's internal corruption
+      is obvious: Her body is full of bloody pus and strange growths, even
+      internal limbs. If a tainted sorcerer enters a tainted area, her
+      corruption immediately manifests externally as well. Barring these two
+      conditions, it is impossible to detect a tainted sorcerer based on
+      appearance.
+    </p>
+    <p>
+      A tainted sorcerer no longer applies her taint score as a penalty to her
+      Constitution, and only applies one-half her taint score as a penalty to
+      her Wisdom.
+    </p>
+    <p><a id="tainted-sorcerer-tainted-magic"></a><b>Tainted Metamagic:</b>
+    A tainted sorcerer who learns metamagic feats can apply them by paying an
+      additional cost in blood. By draining blood, a tainted sorcerer can
+      enhance her spells without using a higher-level spell slot. The cost is a
+      number of points of <a style="color: #579eb5" href="abilitiesAndConditions.html#ability-damage">Constitution damage</a> equal to the spell slot adjustment
+      of the metamagic feat. Thus, casting an <a style="color: #579eb5" href="featsAll.html#empower-spell">empowered</a> <a style="color: #579eb5" href="spellsTtoZ.html#vampiric-touch">vampiric touch</a> spell
+      costs a tainted sorcerer 2 points of Constitution damage, because an
+      empowered spell uses up a spell slot two levels higher than normal. A
+      tainted sorcerer cannot enhance a spell to a level higher than she can
+      cast by this means. For example, a tainted sorcerer must be at least a
+      9th-level caster to cast an empowered vampiric touch spell (or at least
+      10th level, if the character is casting as a <a style="color: #579eb5" href="sorcerer.html">sorcerer</a>), since the
+      empowered spell requires a 5th-level spell slot.
+    </p>
+    <p>
+      A tainted sorcerer without a Constitution score cannot use this ability.
+    </p>
+    <p><a id="tainted-sorcerer-tainted-spellcasting"></a><b>Tainted Spellcasting (Su):</b>
+    Rather than using a key ability score for spellcasting, a tainted sorcerer
+      uses her taint score. To cast a spell, a tainted sorcerer must have a
+      taint score at least equal to the spell's level. Tainted sorcerer bonus
+      spells are based on a number equal to the character's taint score + 10,
+      and saving throws against tainted sorcerer spells have a DC of 10 + spell
+      level + the tainted sorcerer's taint score.
+    </p>
+    <p>
+      A tainted sorcerer accumulates taint for casting her spells. All spells a
+      tainted sorcerer casts are evil spells. She must make a Fortitude save (DC
+      10 + spell level) or increase her taint score by 1.
+    </p>
+    <p><a id="tainted-sorcerer-level-advancement"></a><b>Level Advancement:</b>
+    The power of taint is seductive. Once a character has tasted its
+      attractions, it is hard to resist. Whenever a tainted sorcerer gains a new
+      level and wishes to advance a level in some other class, she must succeed
+      on a Will saving throw (DC 10 + taint score). If she fails the saving
+      throw, she must advance her tainted sorcerer level. If she succeeds on
+      this saving throw, she can advance a level in some other class.
+    </p>
+
+    <h5><a id="tainted-warrior"></a>
+      TAINTED WARRIOR
+    </h5>
+    <a id="table-tainted-warrior"></a>
+    <table cellspacing="0" style="width: 100%">
+      <tr>
+        <th>
+          Level
+        </th>
+
+        <th>
+          Base<br />
+          Attack
+          Bonus
+        </th>
+        <th>
+          Fort<br />
+          Save
+        </th>
+
+        <th>
+          Ref<br />
+          Save
+        </th>
+        <th>
+          Will<br />
+          Save
+        </th>
+        <th>
+
+          Special
+        </th>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          1st
+        </td>
+        <td align="center">
+          +1
+        </td>
+
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td>
+
+          Taint suppression
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          2nd
+        </td>
+        <td align="center">
+          +2
+        </td>
+
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td align="center">
+          +0
+        </td>
+        <td>
+
+          Damage reduction 1/good
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          3rd
+        </td>
+        <td align="center">
+          +3
+        </td>
+
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+
+          Tainted strike 1/day
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          4th
+        </td>
+        <td align="center">
+          +4
+        </td>
+
+        <td align="center">
+          +4
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+
+          Damage reduction 2/good
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          5th
+        </td>
+        <td align="center">
+          +5
+        </td>
+
+        <td align="center">
+          +4
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td align="center">
+          +1
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          6th
+        </td>
+        <td align="center">
+          +6
+        </td>
+
+        <td align="center">
+          +5
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+
+          Damage reduction 3/good
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          7th
+        </td>
+        <td align="center">
+          +7
+        </td>
+
+        <td align="center">
+          +5
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+
+          Tainted strike 2/day
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          8th
+        </td>
+        <td align="center">
+          +8
+        </td>
+
+        <td align="center">
+          +6
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td align="center">
+          +2
+        </td>
+        <td>
+
+          Damage reduction 4/good
+        </td>
+      </tr>
+      <tr class="odd-row">
+        <td align="center">
+          9th
+        </td>
+        <td align="center">
+          +9
+        </td>
+
+        <td align="center">
+          +6
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+          &mdash;
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          10th
+        </td>
+        <td align="center">
+          +10
+        </td>
+
+        <td align="center">
+          +7
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td align="center">
+          +3
+        </td>
+        <td>
+
+          Damage reduction 5/good
+        </td>
+      </tr>
+    </table>
+    <p>
+    <a href="http://www.wizards.com/dnd/images/UnA_Gallery/79208.jpg"><img
+ class="art-wide" src="pict.jpg" title="" alt="pict"
+ style="border: 0px solid ; width: 73px; height: 75px;" /></a>
+      When a character's taint threatens to exceed the capacity of his body and
+      soul to contain it, he may become possessed by its evil power and
+      transformed into a creature of taint. Such characters feel an irresistible
+      urge to travel to regions of taint, often walking until their feet bleed,
+      slaughtering anyone in the way. The lucky ones are killed by adventurers,
+      militias, or monsters. The unlucky ones are guided by evil cults and
+      become transformed into living servants of evil.
+    </p>
+    <p>
+      Most tainted warriors were barbarians, fighters, or rangers before their
+      taint overcame them, although a member of any race or character class can
+      adopt this prestige class. Clerics, druids, sorcerers, and wizards are
+      usually seduced by the <a style="color: #579eb5" href="#tainted-sorcerer">tainted sorcerer</a> class instead.
+    </p>
+    <p>
+      NPC tainted warriors are found near regions of taint, often serving as
+      commanders for small groups of evil humanoids.
+    </p>
+    <p><b>Hit Die:</b> d12.
+    </p>
+    <h6><a id="tainted-warrior-requirements"></a>
+      Requirements
+    </h6>
+      To qualify to become a tainted warrior, a character must fulfill all the
+      following criteria.
+    <p><b>Alignment:</b> Any nongood.
+    </p>
+    <p><b>Base Attack Bonus:</b> +5.
+    </p>
+    <p><b>Taint:</b> character's taint score must be 10 or more.
+    </p>
+    <p><b>Special:</b> Character must locate and join a temple devoted to an evil deity.
+    </p>
+    <h6><a id="tainted-warrior-class-skills"></a>
+      Class Skills
+    </h6>
+      The tainted warrior's class skills (and the key ability for each skill)
+      are <a style="color: #579eb5" href="skillsAll.html#climb">Climb</a> (Str), <a style="color: #579eb5" href="skillsAll.html#intermediate">Intimidate</a> (Cha), <a style="color: #579eb5" href="skillsAll.html#jump">Jump</a> (Str), <a style="color: #579eb5" href="skillsAll.html#ride">Ride</a> (Dex), <a style="color: #579eb5" href="skillsAll.html#sense-motive">Sense Motive</a>
+      (Wis), and <a style="color: #579eb5" href="skillsAll.html#swim">Swim</a> (Str).
+
+    <p><b>Skill Points at Each Level:</b> 2 + Int modifier.
+    </p>
+    <h6><a id="tainted-warrior-class-features"></a>
+      Class Features
+    </h6>
+      The following are class features of the tainted warrior.
+    <p><b>Weapon and Armor Proficiency:</b> Tainted warriors do not gain any additional weapon or armor proficiencies.
+    </p>
+    <p><b><a id="tainted-warrior-taint-suppression"></a>Taint Suppression:</b>
+      By definition, a tainted warrior is overwhelmed with taint, but this taint
+      is not immediately obvious to onlookers. A tainted warrior's taint
+      manifests in mental effects&mdash;delirium, anger, and cruelty&mdash;and in internal
+      physical effects. If a tainted warrior is split open, the internal
+      corruption is obvious: His body is full of vile liquids and distorted
+      growths, even internal limbs. If a tainted warrior enters a tainted area,
+      his corruption immediately manifests externally as well. Barring these two
+      conditions, it is impossible to detect a tainted warrior based on
+      appearance.
+    </p>
+    <p>
+      A tainted warrior no longer applies his taint score as a penalty to his
+      Constitution, and only applies one-half his taint score as a penalty to
+      his Wisdom.
+    </p>
+    <p><b><a id="tainted-warrior-damage-reduction"></a>Damage Reduction (Ex):</b>
+      At 2nd level, a tainted warrior gains <a style="color: #579eb5" href="monsterTypes.html#DR">damage reduction</a> 1/good. The value
+      of the character's damage reduction increases by 1 point at every
+      even-numbered level thereafter.
+    </p>
+    <p><b><a id="tainted-warrior-tainted-strike"></a>Tainted Strike (Ex):</b>
+      A tainted warrior of 3rd level or higher can infuse a melee attack with
+      the power of his taint. The character adds his taint score to the damage
+      dealt by the melee attack, and the target's taint score increases by 1.
+    </p>
+    <p>
+      If a tainted warrior strikes a creature immune to the effects of taint
+      (such as an <a style="color: #579eb5" href="monsterTypes.html#undead">undead creature</a> or a creature with the <a style="color: #579eb5" href="monsterTypes.html#evil">evil subtype</a>), the
+      tainted strike has no effect.
+    </p>
+    <p>
+      A tainted warrior can use this ability once per day upon attaining 3rd
+      level and one additional time per day for every four levels gained
+      thereafter.
+    </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

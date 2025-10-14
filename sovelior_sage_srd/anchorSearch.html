@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+  <HEAD>
+    <TITLE>
+      SRD 3.5 Index Search
+    </TITLE>
+    <LINK rel="stylesheet" type="text/css" href="style.css">
+    <TABLE cellspacing=20 cellpadding=0 border=0 width=100% height=100%>
+     <TR>
+      <TD valign=top>
+       <SCRIPT LANGUAGE="JavaScript" src="anchorSearch.js">
+       </SCRIPT>
+       <SCRIPT LANGUAGE="JavaScript" src="anchorList.js">
+       </SCRIPT>
+       <script language="JavaScript">
+       <!--
+       function runSearch() {
+        var query = location.search;
+        if(query.length > 1){
+        query = query.substring (1, query.length);
+        i = 1;
+        for(i=1; i < 30; i++){
+         if(query.indexOf('%20') > -1){
+          query = query.replace('%20',' ');
+         }
+         else {
+         i = 30;
+         }
+        }
+        document.form1.name.value = query;
+         if(query !=' '){
+          searchAnchor(document.form1, anchorlist);
+          return false;
+         }
+        }
+       }
+       -->
+       </script>
+	   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+    </HEAD>
+  <BODY onLoad="runSearch()">
+
+  <H2>
+    Index&nbsp;Search
+  </H2>
+  <FORM name="form1" onSubmit="searchAnchor(document.form1, anchorlist); return false">
+    <TABLE border="0" cellspacing="0">
+      <TR class="odd-row">
+        <TD valign="center">
+          <B>
+            Search text in Name&nbsp;&nbsp;&nbsp;
+          </B>
+        </TD>
+        <TD valign="center">
+          <INPUT maxLength=60 size=30 value="" name="name">
+          &nbsp;&nbsp;&nbsp;
+        </TD>
+        <TD valign="center">
+        <SELECT name="stop">
+          <OPTION value="0">
+          Don't stop search 
+          <OPTION value="30">
+          Stop search at 30 results 
+          <OPTION value="50" selected>
+          Stop search at 50 results 
+          <OPTION value="100">
+          Stop search at 100 results 
+          <OPTION value="200">
+          Stop search at 200 results 
+        </SELECT>
+        </TD>
+        <TD>
+        </TD>
+      </TR>
+      
+    </TABLE>
+    <INPUT type="submit" name="search" value="Search">
+    <INPUT type="reset" name="clear" value="Clear form" />
+  </FORM>
+  <BR>
+  <BR>
+  <TABLE border=0 cellspacing=0>
+    <TBODY>
+  </TABLE>
+</TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

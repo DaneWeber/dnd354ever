@@ -1,0 +1,136 @@
+<HTML>
+  <HEAD>
+    <TITLE>SRD 3.5 Power Search</TITLE>
+    <LINK rel="stylesheet" type="text/css" href="style.css">
+      <TABLE cellspacing=20 cellpading=0 border=0 width=100% height=100%><TR><TD valign=top>
+<!-- Sviluppato da Mauro Donati -->
+<!-- Modified by Jason O. Jensen and Eric Jensen -->
+    <SCRIPT LANGUAGE="JavaScript" src="powerSearch.js"></SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" src="powerList.js"></SCRIPT>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+  </HEAD>
+  <BODY>
+    <H2>Power Search</H2>
+    <FORM name=form1 onSubmit="searchPower(document.form1, powerlist); return false">
+      <TABLE border=0 cellspacing=0>
+        <TR class="odd-row">
+          <TD valign=center><B>Search text in Name&nbsp;&nbsp;&nbsp;</B></TD>
+          <TD><INPUT id="input" maxLength=60 size=30 value="" name="name">&nbsp;&nbsp;&nbsp;</TD>
+          <TD valign=center><B>Also Search Descriptions</B>&nbsp;&nbsp;&nbsp;</TD>
+          <TD><INPUT type=checkbox name=shortd></TD>
+          <TD></TD>
+        </TR>
+        <TR>
+          <TD valign=center><B>Search by Discipline</B></TD>
+          <TD>
+      <SELECT name=discipline>
+        <OPTION value="">Any Discipline</OPTION>
+<OPTION value='Psychometabolism'>Psychometabolism</OPTION>
+<OPTION value='Healing'>Psychometabolism (Healing)</OPTION>
+<OPTION value='Psychokinesis'>Psychokinesis</OPTION>
+<OPTION value='Psychoportation'>Psychoportation</OPTION>
+<OPTION value='Teleportation'>Psychoportation (Teleportation)</OPTION>
+<OPTION value='Clairsentience'>Clairsentience</OPTION>
+<OPTION value='Scrying'>Clairsentience (Scrying)</OPTION>
+<OPTION value='Metacreativity'>Metacreativity</OPTION>
+<OPTION value='Creation'>Metacreativity (Creation)</OPTION>
+<OPTION value='Telepathy'>Telepathy</OPTION>
+<OPTION value='Charm'>Telepathy (Charm)</OPTION>
+<OPTION value='Compulsion'>Telepathy (Compulsion)</OPTION>
+      </SELECT>
+          </TD>
+          <TD valign=center><B>By Descriptor</B></TD>
+          <TD>
+      <SELECT name=descriptor>
+        <OPTION value="">Any or No Descriptors</OPTION>
+<OPTION value='Good'>Good</OPTION>
+<OPTION value='Evil'>Evil</OPTION>
+<OPTION value='Acid'>Acid</OPTION>
+<OPTION value='Cold'>Cold</OPTION>
+<OPTION value='Electricity'>Electricity</OPTION>
+<OPTION value='Fire'>Fire</OPTION>
+<OPTION value='Sonic'>Sonic</OPTION>
+<OPTION value='Force'>Force</OPTION>
+<OPTION value='Death'>Death</OPTION>
+<OPTION value='Light'>Light</OPTION>
+<OPTION value='Language-Dependent'>Language-Dependent</OPTION>
+<OPTION value='Mind-Affecting'>Mind-Affecting</OPTION>
+      </SELECT>
+          </TD>
+        </TR>
+        <TR class="odd-row">
+          <TD valign=center><B>By Class and Level</B></TD>
+          <TD>
+      <SELECT name=cl>
+        <OPTION value="">Any Classes</OPTION>
+<OPTION value='Psion/Wilder'>Psion/Wilder</OPTION>
+<OPTION value='Psychic Warrior'>Psychic Warrior</OPTION>
+<OPTION value='Egoist'>Egoist</OPTION>
+<OPTION value='Kineticist'>Kineticist</OPTION>
+<OPTION value='Nomad'>Nomad</OPTION>
+<OPTION value='Seer'>Seer</OPTION>
+<OPTION value='Shaper'>Shaper</OPTION>
+<OPTION value='Telepath'>Telepath</OPTION>
+      </SELECT>
+      <SELECT name=level>
+        <OPTION value="">Any Levels</OPTION>
+<OPTION value='1'>1</OPTION>
+<OPTION value='2'>2</OPTION>
+<OPTION value='3'>3</OPTION>
+<OPTION value='4'>4</OPTION>
+<OPTION value='5'>5</OPTION>
+<OPTION value='6'>6</OPTION>
+<OPTION value='7'>7</OPTION>
+<OPTION value='8'>8</OPTION>
+<OPTION value='9'>9</OPTION>
+      </SELECT>
+          </TD>
+          <TD valign=center><B>By Display</B></TD>
+          <TD>
+      <SELECT name=display>
+        <OPTION value="">Any Display</OPTION>
+<OPTION value='Auditory'>Auditory</OPTION>
+<OPTION value='Material'>Material</OPTION>
+<OPTION value='Mental'>Mental</OPTION>
+<OPTION value='Olfactory'>Olfactory</OPTION>
+<OPTION value='Visual'>Visual</OPTION>
+<OPTION value='None'>None</OPTION>
+      </SELECT>
+          </TD>
+        </TR>
+        <TR>
+          <TD valign=center><B>N. of Results</B></TD>
+          <TD>
+      <SELECT name=stop>
+        <OPTION value="0">Don't stop search</OPTION>
+        <OPTION value="30">Stop search at 30 results</OPTION>
+        <OPTION value="50" selected>Stop search at 50 results</OPTION>
+        <OPTION value="100">Stop search at 100 results</OPTION>
+        <OPTION value="200">Stop search at 200 results</OPTION>
+      </SELECT><BR>
+          </TD>
+        </TR>
+      </TABLE>
+      <INPUT type="submit" name="search"  value="Search">
+      <INPUT type="reset"  name="clear" value="Clear form" />
+    </FORM>
+
+    <BR><BR>
+    <TABLE width=100% border=0 cellspacing=0>
+      <TBODY>
+      </TBODY>
+    </TABLE>
+    </TD></TR></TABLE>
+    <script type="text/javascript">
+document.getElementById('input').focus();
+</script>
+  </BODY>
+</HTML>

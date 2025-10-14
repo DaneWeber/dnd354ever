@@ -1,0 +1,1214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=windows-1250" http-equiv="content-type" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>
+      SRD - Power Description Format
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37B02YKY0S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-37B02YKY0S');
+</script>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+      <tbody>
+        <tr>
+          <td style="width: 170px; text-align: right">
+            <img alt="d20 Logo" src="d20.jpg" />
+          </td>
+          <td style="width: 30px"></td>
+          <td colspan="3" id="title">
+            System Reference Document v3.5
+          </td>
+          <td rowspan="3" style="background-color: #8B2323; width: 15px"></td>
+        </tr>
+        <tr>
+          <td colspan="3" style="height: 15px"></td>
+          <td rowspan="2" style="width: 15px"></td>
+        </tr>
+        <tr valign="top">
+          <td>
+            <!-- left-hand navigation / menu -->
+<table width="170px">
+<tr><td style="width: 100%; background-color: #8b2323">
+<div class="menu2">
+<ul>
+<li><a href="home.html">SRD Home</a>
+ <ul> 
+ <li><a href="tips.html">Tips and Stuff</a></li>
+ <li><a href="siteMap.html">Site Map</a></li>
+ </ul>
+</li>
+<li><a href="legal.html">Legal Information</a></li>
+<li><a href="tools.html">Tools</a>
+ <ul>
+ <li><a href="toolsScreen.html">DM Screen</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('anchorSearch.html', 'anchor_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+     Site Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('spellSearch.html', 'spell_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Spell Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('powerSearch.html', 'power_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Power Search</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="toolsSpellIndex.html">Spell Index</a></li>
+ <li><a href="toolsPowerIndex.html">Power Index</a></li>
+ <li><a href="toolsMonsterIndex.html">Monster Index</a></li>
+ <li><a href="toolsMagicItemIndex.html">Wondrous Item Index</a></li>
+ <li><a href="#" onclick="
+                    var w = window.open('toolsDiceSage.html', 'dicesage', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=300px,height=500px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    DiceSage</a></li>
+ </ul>
+</li>
+<li><a href="basics.html">Basics &amp; Ability Scores</a></li>
+<li><a href="description.html">Alignment &amp; Description</a></li>
+<li><a href="races.html">Races</a></li>
+<li><a href="classes.html">Character Classes</a>
+ <ul>
+ <li><a href="barbarian.html">Barbarian</a></li>
+ <li><a href="bard.html">Bard</a></li>
+ <li><a href="cleric.html">Cleric</a></li>
+ <li><a href="druid.html">Druid</a></li>
+ <li><a href="fighter.html">Fighter</a></li>
+ <li><a href="monk.html">Monk</a></li>
+ <li><a href="paladin.html">Paladin</a></li>
+ <li><a href="ranger.html">Ranger</a></li>
+ <li><a href="rogue.html">Rogue</a></li>
+ <li><a href="sorcerer.html">Sorcerer</a></li>
+ <li><a href="wizard.html">Wizard</a></li>
+ </ul>
+</li>
+<li><a href="skills.html">Skills</a>
+ <ul>
+ <li><a href="skillsAll.html">In Alphabetical Order</a></li>
+ <li><a href="skillsStr.html">Strength-Based</a></li>
+ <li><a href="skillsDex.html">Dexterity-Based</a></li>
+ <li><a href="skillsCon.html">Constitution-Based</a></li>
+ <li><a href="skillsInt.html">Intelligence-Based</a></li>
+ <li><a href="skillsWis.html">Wisdom-Based</a></li>
+ <li><a href="skillsCha.html">Charisma-Based</a></li>
+ <li><a href="skillsTro.html">Trained Only</a></li>
+ <li><a href="skillsAcp.html">With Armor Check Penalty</a></li>
+ </ul>
+</li>
+<li><a href="feats.html">Feats</a>
+ <ul>
+ <li><a href="featsAll.html">In Alphabetical Order</a></li>
+ <li><a href="featsGen.html">General</a></li>
+ <li><a href="featsFtb.html">Fighter Bonus</a></li>
+ <li><a href="featsItc.html">Item Creation</a></li>
+ <li><a href="featsMtm.html">Metamagic</a></li>
+ <li><a href="featsList.html">Compiled</a></li>
+ </ul>
+</li>
+<li><a href="equipment.html">Equipment</a>
+ <ul>
+ <li><a href="weapons.html">Weapons</a></li>
+ <li><a href="armor.html">Armor</a></li>
+ <li><a href="goodsAndServices.html">Goods &amp; Services</a></li>
+ </ul>
+</li>
+<li><a href="specialMaterials.html">Special Materials</a></li>
+<li><a href="combat.html">Combat</a>
+ <ul>
+ <li><a href="initiativeAndAoO.html">Initiative &amp; Attacks of Opportunity</a></li>
+ <li><a href="actionsInCombat.html">Actions In Combat</a></li>
+ <li><a href="injuryAndDeath.html">Injury &amp; Death</a></li>
+ <li><a href="movement.html">Movement, Position, &amp; Distance</a></li>
+ <li><a href="combatModifiers.html">Combat Modifiers</a></li>
+ <li><a href="specialAttacks.html">Special Attacks</a></li>
+ <li><a href="initiativeActions.html">Special Initiative Actions</a></li>
+ </ul>
+</li>
+<li><a href="abilitiesAndConditions.html">Special Abilities &amp; Conditions</a></li>
+<li><a href="npcClasses.html">NPC Classes</a></li>
+<li><a href="prestigeClasses.html">Prestige Classes</a>
+ <ul>
+ <li><a href="arcaneArcher.html">Arcane Archer</a></li>
+ <li><a href="arcaneTrickster.html">Arcane Trickster</a></li>
+ <li><a href="archmage.html">Archmage</a></li>
+ <li><a href="assassin.html">Assassin</a></li>
+ <li><a href="blackguard.html">Blackguard</a></li>
+ <li><a href="dragonDisciple.html">Dragon Disciple</a></li>
+ <li><a href="duelist.html">Duelist</a></li>
+ <li><a href="dwarvenDefender.html">Dwarven Defender</a></li>
+ <li><a href="eldritchKnight.html">Eldritch Knight</a></li>
+ <li><a href="hierophant.html">Hierophant</a></li>
+ <li><a href="horizonWalker.html">Horizon Walker</a></li>
+ <li><a href="loremaster.html">Loremaster</a></li>
+ <li><a href="mysticTheurge.html">Mystic Theurge</a></li>
+ <li><a href="shadowdancer.html">Shadowdancer</a></li>
+ <li><a href="thaumaturgist.html">Thaumaturgist</a></li>
+ </ul>
+</li>
+<li><a href="epicLevels.html">Epic Levels</a>
+ <ul>
+ <li><a href="epicClasses.html">Epic Classes</a></li>
+ <li><a href="epicSkills.html">Epic Skills</a></li>
+ <li><a href="epicFeats.html">Epic Feats</a></li>
+ <li><a href="epicPrestigeClasses.html">Epic Prestige Classes</a>
+  <ul>
+  <li><a href="agentRetriever.html">Agent Retriever</a></li>
+  <li><a href="cosmicDescryer.html">Cosmic Descryer</a></li>
+  <li><a href="divineEmissary.html">Divine Emissary</a></li>
+  <li><a href="epicInfiltrator.html">Epic Infiltrator</a></li>
+  <li><a href="guardianParamount.html">Guardian Paramount</a></li>
+  <li><a href="highProselytizer.html">High Proselytizer</a></li>
+  <li><a href="legendaryDreadnought.html">Legendary Dreadnought</a></li>
+  <li><a href="perfectWight.html">Perfect Wight</a></li>
+  <li><a href="unionSentinel.html">Union Sentinel</a></li>
+  </ul>
+ </li>
+ <li><a href="epicSpells.html">Epic Spells</a>
+  <ul>
+  <li><a href="epicSpellDevelopment.html">Developing</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMagicItems.html">Epic Magic Items</a>
+  <ul>
+  <li><a href="epicMagicItemsOther.html">Other Items</a></li>
+  <li><a href="epicArtifacts.html">Intelligent Items and Artifacts</a></li>
+  </ul>
+ </li>
+ <li><a href="epicMonsters.html">Epic Monsters</a>
+  <ul>
+  <li><a href="epicNonAbominations.html">Non-Abominations</a></li>
+  </ul>
+ </li>
+ <li><a href="epicObstacles.html">Epic Obstacles</a></li>
+ </ul>
+</li>
+<li><a href="magicOverview.html">Magic Overview</a>
+ <ul>
+ <li><a href="magicSchools.html">Schools of Magic</a></li>
+ <li><a href="arcaneSpells.html">Arcane Magic</a></li>
+ <li><a href="divineSpells.html">Divine Magic</a></li>
+ <li><a href="specialAbilities.html">Special Abilities</a></li>
+ </ul>
+</li>
+<li><a href="spellList.html">Spell List</a>
+ <ul>
+ <li><a href="#" onclick="var w = window.open('spellSearch.html', 'spell_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false">Spell Search</a></li>
+ <li><a href="bardSpells.html">Bard Spells</a></li>
+ <li><a href="clericSpells.html">Cleric Spells</a></li>
+ <li><a href="clericDomains.html">Cleric Domains</a></li>
+ <li><a href="druidSpells.html">Druid Spells</a></li>
+ <li><a href="paladinSpells.html">Paladin Spells</a></li>
+ <li><a href="rangerSpells.html">Ranger Spells</a></li>
+ <li><a href="wizardSpells.html">Sorcerer/Wizard Spells</a></li>
+ <li><a href="spellsAtoZ.html">Spells A to Z</a>
+  <ul>
+  <li><a href="spellsAtoB.html">Acid Arrow &mdash; Burning&nbsp;Hands</a></li>
+  <li><a href="spellsC.html">Call Lightning &mdash; Curse&nbsp;Water</a></li>
+  <li><a href="spellsDtoE.html">Dancing Lights &mdash; Eyebite</a></li>
+  <li><a href="spellsFtoG.html">Fabricate &mdash; Gust&nbsp;of&nbsp;Wind</a></li>
+  <li><a href="spellsHtoL.html">Hallow &mdash; Lullaby</a></li>
+  <li><a href="spellsMtoO.html">Mage Armor &mdash; Owl's&nbsp;Wisdom</a></li>
+  <li><a href="spellsPtoR.html">Passwall &mdash; Rusting&nbsp;Grasp</a></li>
+  <li><a href="spellsS.html">Sanctuary &mdash; Sympathy</a></li>
+  <li><a href="spellsTtoZ.html">Telekinesis &mdash; Zone&nbsp;of&nbsp;Truth</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+<li><a href="magicItems.html">Magic Items</a>
+ <ul>
+ <li><a href="magicItemsCreation.html">Creating Magic Items</a></li>
+ <li><a href="magicItemsAW.html#armor">Armor</a></li>
+ <li><a href="magicItemsPRR.html#potions">Potions</a></li>
+ <li><a href="magicItemsPRR.html#rings">Rings</a></li>
+ <li><a href="magicItemsPRR.html#rods">Rods</a></li>
+ <li><a href="magicItemsSSW.html#scrolls">Scrolls</a></li>
+ <li><a href="magicItemsSSW.html#staffs">Staffs</a></li>
+ <li><a href="magicItemsSSW.html#wands">Wands</a></li>
+ <li><a href="magicItemsAW.html#weapons">Weapons</a></li>
+ <li><a href="magicItemsWI.html">Wondrous Items</a></li>
+ <li><a href="magicItemsICA.html">Intelligent, Cursed, &amp; Artifacts</a></li>
+ </ul>
+</li>
+<li><a href="monsters.html">Monsters</a>
+ <ul>
+ <li><a href="#" onclick="
+                    var w = window.open('monsterSearch.html', 'monster_search', 'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10'); w.focus(); return false">
+                    Monster Search</a></li>
+ <li><a href="monstersAtoZ.html">Monsters A to Z</a>
+  <ul>
+  <li><a href="monstersA.html">Aboleth &mdash; Azer</a></li>
+  <li><a href="monstersBtoC.html">Barghest &mdash; Couatl</a></li>
+  <li><a href="monstersDtoDe.html">Dark&nbsp;Mantle &mdash; Devourer</a></li>
+  <li><a href="monstersDitoDo.html">Digester &mdash; Doppleganger</a></li>
+  <li><a href="monstersDrtoDw.html">Dragon &mdash; Dwarf</a></li>
+  <li><a href="monstersEtoF.html">Eagle &mdash; Fungus</a></li>
+  <li><a href="monstersG.html">Gargoyle &mdash; Grimlock</a></li>
+  <li><a href="monstersHtoI.html">Hag &mdash; Invisible&nbsp;Stalker</a></li>
+  <li><a href="monstersKtoL.html">Kobold &mdash; Lycanthrope</a></li>
+  <li><a href="monstersMtoN.html">Magmin &mdash; Nymph</a></li>
+  <li><a href="monstersOtoR.html">Ogre &mdash; Rust&nbsp;Monster</a></li>
+  <li><a href="monstersS.html">Sahuagin &mdash; Swarm</a></li>
+  <li><a href="monstersTtoZ.html">Tarrasque &mdash; Zombie</a></li>
+  </ul>
+ </li>
+ <li><a href="monstersAnimal.html">Animals</a></li>
+ <li><a href="monstersVermin.html">Vermin</a></li>
+ <li><a href="monsterTypes.html">Types, Subtypes, &amp; Special Abilities</a></li>
+ <li><a href="improvingMonsters.html">Improving Monsters</a></li>
+ <li><a href="monsterFeats.html">Monster Feats</a></li>
+ <li><a href="monstersAsRaces.html">Monsters as Races</a></li>
+ </ul>
+</li>
+<li><a href="carryingAndExploration.html">Carrying, Movement, and Exploration</a></li>
+<li><a href="treasure.html">Treasure</a></li>
+<li><a href="wildernessAndEnvironment.html">Wilderness, Weather, and Environment</a></li>
+<li><a href="traps.html">Traps</a></li>
+<li><a href="planes.html">Planes</a></li>
+<li><a href="psionic.html">Psionic</a></li>
+ <li><a href="psionicRaces.html"><div style="margin-left: 10px">Races</div></a></li>
+ <li><a href="psionicClasses.html"><div style="margin-left: 10px">Classes</div></a>
+  <ul>
+  <li><a href="psionicPsion.html">Psion</a></li>
+  <li><a href="psionicPsychicWarrior.html">Psychic Warrior</a></li>
+  <li><a href="psionicSoulknife.html">Soulknife</a></li>
+  <li><a href="psionicWilder.html">Wilder</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicSkills.html"><div style="margin-left: 10px">Skills</div></a></li>
+ <li><a href="psionicFeats.html"><div style="margin-left: 10px">Feats</div></a></li>
+ <li><a href="psionicPrestigeClasses.html"><div style="margin-left: 10px">Prestige Classes</div></a>
+  <ul>
+  <li><a href="psionicCerebremancer.html">Cerebremancer</a></li>
+  <li><a href="psionicElocater.html">Elocater</a></li>
+  <li><a href="psionicFist.html">Psionic Fist</a></li>
+  <li><a href="psionicSlayer.html">Slayer</a></li>
+  <li><a href="psionicMetamind.html">Metamind</a></li>
+  <li><a href="psionicPsionUncarnate.html">Psion Uncarnate</a></li>
+  <li><a href="psionicPyrokineticist.html">Pyrokineticist</a></li>
+  <li><a href="psionicThrallherd.html">Thrallherd</a></li>
+  <li><a href="psionicWarMind.html">War Mind</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicPowers.html"><div style="margin-left: 10px">Powers</div></a></li>
+  <li><a href="#" onclick="
+var w = window.open('powerSearch.html', 'power_search',
+'scrollbars=yes,resizable=yes,toolbar=no,status=no,location=no,directories=no,width=900px,height=600px,screenX=10,screenY=20,top=20,left=10');
+w.focus(); return false"><div style="margin-left: 20px">Power Search</div></a></li>
+  <li class="selected"><a href="psionicDescriptions.html"><div style="margin-left: 20px">Descriptions Format</div></a></li>
+  <li><a href="psionicPsionList.html"><div style="margin-left: 20px">Psion/Wilder List</div></a></li>
+  <li><a href="psionicDisciplineList.html"><div style="margin-left: 20px">Discipline List</div></a></li>
+  <li><a href="psionicWarriorList.html"><div style="margin-left: 20px">Psychic Warrior List</div></a></li>
+  <li><a href="psionicPowersAtoC.html"><div style="margin-left: 20px">Adapt Body &mdash; Crystallize</div></a></li>
+  <li><a href="psionicPowersDtoF.html"><div style="margin-left: 20px">Danger Sense &mdash; Fusion</div></a></li>
+  <li><a href="psionicPowersGtoP.html"><div style="margin-left: 20px">Genesis &mdash; Psychofeedback</div></a></li>
+  <li><a href="psionicPowersQtoW.html"><div style="margin-left: 20px">Quintessence &mdash; Weapon of Energy</div></a></li>
+ <li><a href="psionicItems.html"><div style="margin-left: 10px">Psionic Items</div></a>
+  <ul>
+  <li><a href="psionicItemsAW.html">Armor &amp; Weapons</a></li>
+  <li><a href="psionicItemsCCDT.html">Cognizance Crystals, Dorjes &amp; Tatoos</a></li>
+  <li><a href="psionicItemsPSP.html">Power Stones &amp; Psicrowns</a></li>
+  <li><a href="psionicItemsU.html">Universal Items</a></li>
+  <li><a href="psionicItemsCA.html">Cursed &amp; Aritfacts</a></li>
+  </ul>
+ </li>
+ <li><a href="psionicMonsters.html"><div style="margin-left: 10px">Monsters</div></a></li>
+<li><a href="divine.html">Divine</a>
+ <ul>
+ <li><a href="salientAbilities.html">Salient Divine Abilities</a></li>
+ <li><a href="divineFeats.html">Feats</a></li>
+ <li><a href="divineDomains.html">Domains</a></li>
+ <li><a href="divineNewSpells.html">Spells</a></li>
+ <li><a href="divineMinions.html">Minions</a></li>
+ </ul>
+</li>
+<li><a href="unearthedArcana.html">Unearthed Arcana</a>
+ <ul>
+ <li><a href="unearthedCharacter.html">Character</a>
+  <ul>
+  <li><a href="unearthedContacts.html">Contacts</a></li>
+  <li><a href="unearthedReputation.html">Reputation</a></li>
+  <li><a href="unearthedHonor.html">Honor</a></li>
+  <li><a href="unearthedTaint.html">Taint</a></li>
+  <li><a href="unearthedSanity.html">Sanity</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedRaces.html">Racial Variants</a>
+  <ul>
+  <li><a href="unearthedEnvironmentalVariants.html">Environmental Variants</a></li>
+  <li><a href="unearthedElementalVariants.html">Elemental Variants</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedBloodlines.html">Bloodlines</a></li>
+ <li><a href="unearthedClasses.html">Class Variants</a>
+  <ul>
+  <li><a href="unearthedCoreClass.html">Core Class Variants</a></li>
+  <li><a href="unearthedSpecialist.html">Specialist Wizard Variants</a></li>
+  <li><a href="unearthedGestalt.html">Gestalt Characters</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedNewClasses.html">New Classes</a>
+  <ul>
+  <li><a href="unearthedPrestige.html">Prestigious Classes</a></li>
+  <li><a href="unearthedParagon.html">Racial Paragon Classes</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedSkills.html">Skills Variants</a>
+  <ul>
+  <li><a href="unearthedAlternativeSkills.html">Alternative Skill Systems</a></li>
+  <li><a href="unearthedCraftPoints.html">Craft Points</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedFeats.html">Feats Variants</a>
+  <ul>
+  <li><a href="unearthedTraits.html">Traits</a></li>
+  <li><a href="unearthedFlaws.html">Flaws</a></li>
+  <li><a href="unearthedSpelltouchedFeats.html">Spelltouched Feats</a></li>
+  <li><a href="unearthedTests.html">Test-Based Prerequisites</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedCombat.html">Combat Variants</a>
+  <ul>
+  <li><a href="unearthedFacing.html">Facing and Hex Grids</a></li>
+  <li><a href="unearthedDefence.html">Defence and Armor</a></li>
+  <li><a href="unearthedInjury.html">Injury and Death</a></li>
+  <li><a href="unearthedRolls.html">Rolls and Modifiers</a></li>
+  </ul>
+ </li>
+ <li><a href="unearthedMagic.html">Magic</a>
+  <ul>
+  <li><a href="unearthedRecharge.html">Recharge Magic</a></li>
+  <li><a href="unearthedSpellPoints.html">Spell Points</a></li>
+  <li><a href="unearthedMetamagic.html">Metamagic Variants</a></li>
+  <li><a href="unearthedSummon.html">Summon Monster Variants</a></li>
+  <li><a href="unearthedIncantations.html">Incantations</a></li>
+  <li><a href="unearthedItems.html">Magic Items</a></li>
+  </ul>
+ </li>
+ </ul>
+</li>
+</ul>
+</div>
+</td><td></td></tr></table>
+    </td>
+          <td style="width: 30px"></td>
+          <td>
+            <!-- main contents -->
+      <a id="psionic-powers"></a><h2>Psionic Powers<br />
+      </h2>
+      <a id="power-descriptions"></a><h3>POWER DESCRIPTIONS</h3>
+      <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+        <tbody>
+          <tr>
+            <td class="line"></td>
+          </tr>
+        </tbody>
+      </table>
+The description of each power is presented in a standard format. Each
+category of information is explained and defined below.<br />
+      <a id="power-name"></a><h5>NAME</h5>
+The first line of every power description gives the name by which the
+power is generally known. A power might be known by other names in some
+locales, and specific manifesters might have names of their own for
+their powers.<br />
+      <a id="discipline-subdiscipline"></a><h5>DISCIPLINE (SUBDISCIPLINE)</h5>
+Beneath the power name is a line giving the discipline (and the
+subdiscipline in parentheses, if appropriate) that the power belongs to.<br />
+Every power is associated with one of six disciplines. A discipline is
+a group of related powers that work in similar ways. Each of the
+disciplines is discussed below.<br />
+      <a id="clairsentience"></a><h6>Clairsentience</h6>
+Clairsentience powers enable you to learn secrets long forgotten, to
+glimpse the immediate future and predict the far future, to find hidden
+objects, and to know what is normally unknowable.<br />
+      <p>For the purpose of psionics-magic transparency, clairsentience
+powers are equivalent to powers of the divination school (thus,
+creatures immune to divination spells are also immune to clairsentience
+powers).</p>
+      <p>Many clairsentience powers have cone-shaped areas. These move
+with you and extend in the direction you look. The cone defines the
+area that you can sweep each round. If you study the same area for
+multiple rounds, you can often gain additional information, as noted in
+the descriptive text for the power.</p>
+      <a id="scrying"></a><p><span style="font-weight: bold;">Scrying:</span> A power of
+the scrying subdiscipline creates an invisible sensor that sends you
+information. Unless noted otherwise, the sensor has the same powers of
+sensory acuity that you possess. This includes any powers or effects
+that target you, but not powers or effects that emanate from you.
+However, the sensor is treated as a separate, independent sensory organ
+of yours, and thus functions normally even if you have been <a
+ href="abilitiesAndConditions.html#blinded"
+ style="color: rgb(87, 158, 182);">blinded</a>, <a
+ href="abilitiesAndConditions.html#deafened"
+ style="color: rgb(87, 158, 182);">deafened</a>, or otherwise suffered
+sensory impairment. Any creature with an Intelligence score of 12 or
+higher can notice the sensor by making a DC 20 Intelligence check. The
+sensor can be <a href="psionicPowersDtoF.html#dispel-psionics"
+ style="color: rgb(87, 158, 182);">dispelled</a> as if it were an
+active power. Lead sheeting or psionic protection blocks scrying
+powers, and you sense that the power is so blocked.</p>
+      <a id="metacreativity"></a><h6>Metacreativity</h6>
+Metacreativity powers create objects, creatures, or some form of
+matter. Creatures you create usually, but not always, obey your
+commands.<br />
+A metacreativity power draws raw ectoplasm from the Astral Plane to
+create an object or creature in the place the psionic character
+designates (subject to the limits noted above). Objects created in this
+fashion are as solid and durable as normal objects, despite their
+originally diaphanous substance. Psionic creatures created with
+metacreativity powers are considered constructs, not outsiders.<br />
+      <p>A creature or object brought into being cannot appear inside
+another creature or object, nor can it appear floating in an empty
+space. It must arrive in an open location on a surface capable of
+supporting it. The creature or object must appear within the
+power&rsquo;s
+range, but it does not have to remain within the range.</p>
+      <p>For the purpose of psionics-magic transparency, metacreativity
+powers are equivalent to powers of the conjuration school (thus,
+creatures immune to conjuration spells are also immune to
+metacreativity powers).</p>
+      <a id="creation"></a><p><span style="font-weight: bold;">Creation:</span> A power of
+the creation subdiscipline creates an object or creature in the place
+the manifester designates (subject to the limits noted above). If the
+power has a duration other than instantaneous, psionic energy holds the
+creation together, and when the power ends, the created creature or
+object vanishes without a trace, except for a thin film of glistening
+ectoplasm that quickly evaporates. If the power has an instantaneous
+duration, the created object or creature is merely assembled through
+psionics. It lasts indefinitely and does not depend on psionics for its
+existence.</p>
+      <a id="psychokinesis"></a><h6>Psychokinesis</h6>
+Psychokinesis powers manipulate energy or tap the power of the mind to
+produce a desired end. Many of these powers produce spectacular effects
+above and beyond the power&rsquo;s standard display (see <a
+ style="color: rgb(87, 158, 182);" href="#display">Display</a>,
+below), such as moving, melting, transforming, or blasting a target.
+Psychokinesis powers can deal large amounts of damage.<br />
+      <p>For the purpose of psionics-magic transparency, psychokinesis
+powers are equivalent to powers of the evocation school (thus,
+creatures immune to evocation spells are also immune to psychokinesis
+powers).</p>
+      <a id="psychometabolism"></a><h6>Psychometabolism</h6>
+Psychometabolism powers change the physical properties of some
+creature, thing, or condition. <br />
+      <p>For the purpose of psionics- magic transparency,
+psychometabolism powers are equivalent to powers of the transmutation
+school (thus, creatures immune to transmutation spells are also immune
+to psychometabolism powers).</p>
+      <a id="healing"></a><p><span style="font-weight: bold;">Healing:</span>
+Psychometabolism powers of the healing subdiscipline can remove damage
+from creatures. However, psionic healing usually falls short of divine
+magical healing, in direct comparisons. </p>
+      <a id="psychoportation"></a><h6>Psychoportation</h6>
+Psychoportation powers move the manifester, an object, or another
+creature through space and time.<br />
+      <p>For the purpose of psionics-magic transparency,
+psychoportation powers do not have an equivalent school.</p>
+      <a id="teleportation"></a><p><span style="font-weight: bold;">Teleportation:</span> A power
+of the teleportation subdiscipline transports one or more creatures or
+objects a great distance. The most potent of these powers can cross
+planar boundaries. Usually the transportation is one-way (unless
+otherwise noted) and not dispellable. Teleportation is instantaneous
+travel through the Astral Plane. Anything that blocks astral travel
+also blocks teleportation.</p>
+      <a id="telepathy"></a><h6>Telepathy</h6>
+Telepathy powers can spy on and affect the minds of others, influencing
+or controlling their behavior.<br />
+      <p>Most telepathy powers are mind-affecting.</p>
+      <p>For the purpose of psionics-magic transparency, telepathy
+powers are equivalent to powers of the enchantment school (thus,
+creatures resistant to enchantment spells are equally resistant to
+telepathy powers).</p>
+      <a id="charm"></a><p><span style="font-weight: bold;">Charm:</span> A power of the
+charm subdiscipline changes the way the subject views you, typically
+making it see you as a good friend.</p>
+      <a id="compulsion"></a><p><span style="font-weight: bold;">Compulsion:</span> A power of
+the compulsion subdiscipline forces the subject to act in some manner
+or changes the way her mind works. Some compulsion powers determine the
+subject&rsquo;s actions or the effects on the subject, some allow you
+to
+determine the subject&rsquo;s actions when you manifest them, and
+others give
+you ongoing control over the subject.</p>
+      <a id="descriptor"></a><h5>[DESCRIPTOR]</h5>
+Appearing on the same line as the discipline and subdiscipline (when
+applicable) is a descriptor that further categorizes the power in some
+way. Some powers have more than one descriptor.<br />
+      <p>The descriptors that apply to powers are acid, cold, death,
+electricity, evil, fire, force, good, language-dependent, light,
+mind-affecting, and sonic.</p>
+      <p>Most of these descriptors have no game effect by themselves,
+but they govern how the power interacts with other powers, with spells,
+with special abilities, with unusual creatures, with alignment, and so
+on.</p>
+      <p>A language-dependent power uses intelligible language as a
+medium. </p>
+      <p>A mind-affecting power works only against creatures with an
+Intelligence score of 1 or higher.</p>
+      <a id="level"></a><h5>LEVEL</h5>
+The next line of the power description gives a power&rsquo;s level, a
+number
+between 1 and 9 that defines the power&rsquo;s relative strength. This
+number
+is preceded by the name of the class whose members can manifest the
+power. If a power is part of a discipline&rsquo;s list instead of the
+psion&rsquo;s
+general power list, this will be indicated by the name of the
+discipline&rsquo;s specialist. The specialists a power can be
+associated with
+include Egoist (psychometabolism), Kineticist (psychokinesis), Nomad
+(psychoportation), Seer (clairsentience), Shaper (metacreativity), and
+Telepath (telepathy). <br />
+      <h5><a id="display"></a>DISPLAY</h5>
+When a power is manifested, a display may accompany the primary effect.
+This secondary effect may be auditory, material, mental, olfactory, or
+visual. No power&rsquo;s display is significant enough to create
+consequences
+for the psionic creatures, allies, or opponents during combat. The
+secondary effect for a power occurs only if the power&rsquo;s
+description
+indicates it. If multiple powers with similar displays are in effect
+simultaneously, the displays do not necessary become more intense.
+Instead, the overall display remains much the same, though with minute
+spikes in intensity. A <a href="psionicSkills.html#psicraft"
+ style="color: rgb(87, 158, 182);">Psicraft</a> check (DC 10 + 1 per
+additional power in use) reveals the exact number of simultaneous
+powers in play.<br />
+      <a id="dispense-with-displays"></a><p><span style="font-weight: bold;">Dispense with Displays:</span>
+Despite the fact that almost every power has a display, a psionic
+character can always choose to manifest the power without the flashy
+accompaniment. To manifest a power without any display (no matter how
+many displays it might have), a manifester must make a <a
+ href="psionicSkills.html#concentration"
+ style="color: rgb(87, 158, 182);">Concentration</a> check (DC 15 + the
+level of the power). This check is part of the action of manifesting
+the power. If the check is unsuccessful, the power manifests normally
+with its display.</p>
+      <p>Even if a manifester manifests a power without a display, he
+is still subject to attacks of opportunity in appropriate
+circumstances. (Of course, another Concentration check can be made as
+normal to either manifest defensively or maintain the power if
+attacked.)</p>
+      <a id="auditory"></a><p><span style="font-weight: bold;">Auditory:</span> A
+bass-pitched hum issues from the manifester&rsquo;s vicinity or in the
+vicinity of the power&rsquo;s subject (manifester&rsquo;s choice),
+eerily akin to
+many deep-pitched voices. The sound grows in a second from hardly
+noticeable to as loud as a shout strident enough to be heard within 100
+feet. At the manifester&rsquo;s option, the instantaneous sound can be
+so
+soft that it can be heard only within 15 feet with a successful DC 10 <a
+ href="skillsAll.html#listen" style="color: rgb(87, 158, 182);">Listen</a>
+check. Some powers describe unique auditory displays.</p>
+      <a id="material"></a><p><span style="font-weight: bold;">Material:</span> The subject
+or the area is briefly slicked with a translucent, shimmering
+substance. The glistening substance evaporates after 1 round regardless
+of the power&rsquo;s duration. Sophisticated psions recognize the
+material as
+ectoplasmic seepage from the Astral Plane; this substance is completely
+inert.</p>
+      <a id="mental"></a><p><span style="font-weight: bold;">Mental:</span> A subtle chime
+rings once in the minds of creatures within 15 feet of either the
+manifester or the subject (at the manifester&rsquo;s option). At the
+manifester&rsquo;s option, the chime can ring continuously for the
+power&rsquo;s
+duration. Some powers describe unique mental displays. </p>
+      <a id="olfactory"></a><p><span style="font-weight: bold;">Olfactory:</span> An odd but
+familiar odor brings to mind a brief mental flash of a long-buried
+memory. The scent is difficult to pin down, and no two individuals ever
+describe it the same way. The odor originates from the manifester and
+spreads to a distance of 20 feet, then fades in less than a second (or
+lasts for the duration, at the manifester&rsquo;s option).</p>
+      <a id="visual"></a><p><span style="font-weight: bold;">Visual:</span> The
+manifester&rsquo;s eyes burn like points of silver fire while the power
+remains in effect. A rainbow-flash of light sweeps away from the
+manifester to a distance of 5 feet and then dissipates, unless a unique
+visual display is described. This is the case when the Display entry
+includes &ldquo;see text,&rdquo; which means that a visual effect is
+described
+somewhere in the text of the power. </p>
+      <a id="manifesting-time"></a><h5>MANIFESTING TIME</h5>
+Most powers have a manifesing time of 1 standard action. Others take 1
+round or more, while a few require only a free action.<br />
+      <p>A power that takes 1 round to manifest requires a full-round
+action. It comes into effect just before the beginning of your turn in
+the round after you began manifesting the power. You then act normally
+after the power is completed. </p>
+      <p>A power that takes 1 minute to manifest comes into effect just
+before your turn 1 minute later (and for each of those 10 rounds, you
+are manifesting a power as a full-round action, as noted above for
+1-round manifesting times). These actions must be consecutive and
+uninterrupted, or the power points are lost and the power fails.</p>
+      <p>When you use a power that takes 1 round or longer to manifest,
+you must continue the concentration from the current round to just
+before your turn in the next round (at least). If you lose
+concentration before the manifesting time is complete, the power points
+are lost and the power fails.</p>
+      <p>You make all pertinent decisions about a power (range, target,
+area, effect, version, and so forth) when the power comes into effect. </p>
+      <a id="new-action-types"></a><h6>New Action Types</h6>
+      <a id="swift-action"></a><span style="font-weight: bold;">Swift Action:</span> A swift
+action consumes a very small amount of time, but represents a larger
+expenditure of effort and energy than a free action. You can perform
+one swift action per turn without affecting your ability to perform
+other actions. In that regard, a swift action is like a free action.
+However, you can perform only a single swift action per turn,
+regardless of what other actions you take. You can take a swift action
+any time you would normally be allowed to take a free action. Swift
+actions usually involve psionics or the activation of psionic items;
+many characters (especially those who don&rsquo;t use psionics) never
+have an
+opportunity to take a swift action.<br />
+Manifesting a quickened power is a swift action. In addition,
+manifesting any power with a casting time of 1 swift action is a swift
+action.<br />
+Manifesting a power with a manifesting time of 1 swift action does not
+provoke attacks of opportunity. <br />
+      <a id="immediate-action"></a><p><span style="font-weight: bold;">Immediate Action:</span> Much
+like a swift action, an immediate action consumes a very small amount
+of time, but represents a larger expenditure of effort and energy than
+a free action. However, unlike a swift action, an immediate action can
+be performed at any time - even if it&rsquo;s not your turn. Using an
+immediate action on your turn is the same as using a swift action, and
+counts as your swift action for that turn. You cannot use another
+immediate action or a swift action until after your next turn if you
+have used an immediate action when it is not currently your turn
+(effectively, using an immediate action before your turn is equivalent
+to using your swift action for the coming turn). You also cannot use an
+immediate action if you are currently flat-footed.</p>
+      <a id="range"></a><h5>RANGE</h5>
+A power&rsquo;s range indicates how far from you it can reach, as
+defined in
+the Range entry of the power description. A power&rsquo;s range is the
+maximum distance from you that the power&rsquo;s effect can occur, as
+well as
+the maximum distance at which you can designate the power&rsquo;s point
+of
+origin. If any portion of the area would extend beyond the range, that
+area is wasted. Standard ranges include the following.<br />
+      <a id="range-personal"></a><p><span style="font-weight: bold;">Personal:</span> The power
+affects only you.</p>
+      <a id="range-touch"></a><p><span style="font-weight: bold;">Touch:</span> You must touch
+a creature or object to affect it. A touch power that deals damage can
+score a critical hit just as a weapon can. A touch power threatens a
+critical hit on a natural roll of 20 and deals double damage on a
+successful critical hit. Some touch powers allow you to touch multiple
+targets. You can touch as many willing targets as you can reach, but
+all targets of the spell must be touched in the same round that you
+manifest the power.</p>
+      <a id="range-close"></a><p><span style="font-weight: bold;">Close:</span> The power
+reaches as far as 25 feet away from you. The maximum range increases 5
+feet for every two manifester levels you have.</p>
+      <a id="range-medium"></a><p><span style="font-weight: bold;">Medium:</span> The power
+reaches as far as 100 feet + 10 feet per manifester level.</p>
+      <a id="range-long"></a><p><span style="font-weight: bold;">Long:</span> The power
+reaches as far as 400 feet + 40 feet per manifester level.</p>
+      <a id="range-expressed-in-feet"></a><p><span style="font-weight: bold;">Range Expressed in Feet:</span>
+Some powers have no standard range category, just a range expressed in
+feet.</p>
+      <a id="aiming-a-power"></a><h5>AIMING A POWER</h5>
+You must make some choice about whom the power is to affect or where
+the power&rsquo;s effect is to originate, depending on the type of
+power. The
+next entry in a power description defines the power&rsquo;s target (or
+targets), its effect, or its area, as appropriate.<br />
+      <a id="target-or-targets"></a><p><span style="font-weight: bold;">Target or Targets:</span>
+Some powers have a target or targets. You manifest these powers on
+creatures or objects, as defined by the power itself. You must be able
+to see or touch the target, and you must specifically choose that
+target. However, you do not have to select your target until you finish
+manifesting the power.</p>
+      <p>If you manifest a targeted power on the wrong type of target
+the power has no effect. If the target of a power is yourself (the
+power description has a line that reads &ldquo;Target: You&rdquo;), you
+do not
+receive a saving throw and power resistance does not apply. The Saving
+Throw and Power Resistance lines are omitted from such powers.</p>
+      <p>Some powers can be manifested only on willing targets.
+Declaring yourself as a willing target is something that can be done at
+any time (even if you&rsquo;re flat-footed or it isn&rsquo;t your
+turn). <a href="abilitiesAndConditions.html#unconscious"
+ style="color: rgb(87, 158, 182);">Unconscious</a> creatures are
+automatically considered willing, but a character who is conscious but
+immobile or <a href="abilitiesAndConditions.html#helpless"
+ style="color: rgb(87, 158, 182);">helpless</a> (such as one who is
+bound, <a href="abilitiesAndConditions.html#cowering"
+ style="color: rgb(87, 158, 182);">cowering</a>, <a
+ href="abilitiesAndConditions.html#grappling"
+ style="color: rgb(87, 158, 182);">grappling</a>, <a
+ href="abilitiesAndConditions.html#paralyzed"
+ style="color: rgb(87, 158, 182);">paralyzed</a>, <a
+ href="abilitiesAndConditions.html#pinned"
+ style="color: rgb(87, 158, 182);">pinned</a>, or <a
+ href="abilitiesAndConditions.html#stunned"
+ style="color: rgb(87, 158, 182);">stunned</a>) is not automatically
+willing. The Saving Throw and Power Resistance lines are usually
+omitted from such powers, since only willing subjects can be targeted.</p>
+      <a id="effect"></a><p><span style="font-weight: bold;">Effect:</span> Some powers,
+such as most metacreativity powers, create things rather than affect
+things that are already present. Unless otherwise noted in the power
+description, you must designate the location where these things are to
+appear, either by seeing it or defining it. Range determines how far
+away an effect can appear, but if the effect is mobile, it can move
+regardless of the power&rsquo;s range once created.</p>
+      <a id="ray"></a><p><span style="font-weight: bold;">Ray:</span> Some effects are
+rays. You aim a ray as if using a ranged weapon, though typically you
+make a ranged touch attack rather than a normal ranged attack. As with
+a ranged weapon, you can fire into the dark or at an <a
+ href="abilitiesAndConditions.html#invisible"
+ style="color: rgb(87, 158, 182);">invisible</a> creature and hope you
+hit something. You don&rsquo;t have to see the creature you&rsquo;re
+trying to hit,
+as you do with a targeted power. Intervening creatures and obstacles,
+however, can block your line of sight or provide cover for the creature
+you&rsquo;re aiming at.</p>
+      <p>If a ray power has a duration, it&rsquo;s the duration of the
+effect
+that the ray causes, not the length of time the ray itself persists.</p>
+      <p>If a ray power deals damage, you can score a critical hit just
+as if it were a weapon. A ray power threatens a critical hit on a
+natural roll of 20 and deals double damage on a successful critical hit.</p>
+      <a id="spread"></a><p><span style="font-weight: bold;">Spread:</span> Some effects
+spread out from a point of origin (which may be a grid intersection, or
+may be the manifester) to a distance described in the power. The effect
+can extend around corners and into areas that you can&rsquo;t see.
+Figure
+distance by actual distance traveled, taking into account turns the
+effect may take. When determining distance for spread effects, count
+around walls, not through them. As with movement, do not trace
+diagonals across corners. You must designate the point of origin for
+such an effect (unless the effect is centered on you), but you need not
+have line of effect (see below) to all portions of the effect.</p>
+      <a id="shapeable"></a><p><span style="font-weight: bold;">(S) Shapeable:</span> If an
+Effect line ends with &ldquo;(S)&rdquo; you can shape the power. A
+shaped effect
+can have no dimension smaller than 10 feet.</p>
+      <a id="area"></a><p><span style="font-weight: bold;">Area:</span> Some powers
+affect an area. Sometimes a power description specifies a specially
+defined area, but usually an area falls into one of the categories
+defined below.</p>
+      <p>Regardless of the shape of the area, you select the point
+where the power originates, but otherwise you usually don&rsquo;t
+control
+which creatures or objects the power affects. The point of origin of a
+power that affects an area is always a grid intersection. When
+determining whether a given creature is within the area of a power,
+count out the distance from the point of origin in squares just as you
+do when moving a character or when determining the range for a ranged
+attack. The only difference is that instead of counting from the center
+of one square to the center of the next, you count from intersection to
+intersection.</p>
+      <p>You can count diagonally across a square, but every second
+diagonal counts as 2 squares of distance. If the far edge of a square
+is within the power&rsquo;s area, anything within that square is within
+the
+power&rsquo;s area. If the power&rsquo;s area touches only the near
+edge of a
+square, however, anything within that square is unaffected by the power.</p>
+      <a id="burst-emanation-or-spread"></a><p><span style="font-style: italic;">Burst, Emanation, or Spread:</span>
+Most powers that affect an area function as a burst, an emanation, or a
+spread. In each case, you select the power&rsquo;s point of origin and
+measure its effect from that point. A burst power affects whatever it
+catches in its area, even including creatures that you can&rsquo;t see.
+It
+can&rsquo;t affect creatures with total cover from its point of origin
+(in
+other words, its effects don&rsquo;t extend around corners). The
+default
+shape for a burst effect is a sphere, but some burst powers are
+specifically described as cone-shaped.</p>
+      <p>A burst&rsquo;s area defines how far from the point of origin
+the
+power&rsquo;s effect extends.</p>
+      <p>An emanation power functions like a burst power, except that
+the effect continues to radiate from the point of origin for the
+duration of the power.</p>
+      <p>A spread power spreads out like a burst but can turn corners.
+You select the point of origin, and the power spreads out a given
+distance in all directions. Figure the area the power effect fills by
+taking into account any turns the effect takes.</p>
+      <a id="cone-line-or-sphere"></a><p><span style="font-style: italic;">Cone, Line, or Sphere:</span>
+Most powers that affect an area have a particular shape, such as a
+cone, line, or sphere. A cone-shaped power shoots away from you in a
+quarter-circle in the direction you designate. It starts from any
+corner of your square and widens out as it goes. Most cones are either
+bursts or emanations (see above), and thus won&rsquo;t go around
+corners.</p>
+      <p>A line-shaped power shoots away from you in a line in the
+direction you designate. It starts from any corner of your square and
+extends to the limit of its range or until it strikes a barrier that
+blocks line of effect. A line-shaped power affects all creatures in
+squares that the line passes through or touches.</p>
+      <p>A sphere-shaped power expands from its point of origin to fill
+a spherical area. Spheres may be bursts, emanations, or spreads.</p>
+      <a id="area-other"></a><p><span style="font-style: italic;">Other:</span> A power can
+have a unique area, as defined in its description.</p>
+      <a id="line-of-effect"></a><p><span style="font-weight: bold;">Line of Effect:</span> A line
+of effect is a straight, unblocked path that indicates what a power can
+affect. A solid barrier cancels a line of effect, but it is not blocked
+by fog, darkness, and other factors that limit normal sight. You must
+have a clear line of effect to any target that you manifest a power on
+or to any space in which you wish to create an effect. You must have a
+clear line of effect to the point of origin of any power you manifest.</p>
+      <p>A burst, cone, or emanation power affects only an area,
+creatures, or objects to which it has line of effect from its origin (a
+spherical burst&rsquo;s center point, a cone-shaped burst&rsquo;s
+starting point,
+or an emanation&rsquo;s point of origin). An otherwise solid barrier
+with a
+hole of at least 1 square foot through it does not block a
+power&rsquo;s line
+of effect. Such an opening means that the 5-foot length of wall
+containing the hole is no longer considered a barrier for the purpose
+of determining a power&rsquo;s line of effect.</p>
+      <a id="duration"></a><h5>DURATION</h5>
+A power&rsquo;s Duration line tells you how long the psionic energy of
+the
+power lasts.<br />
+      <a id="timed-durations"></a><p><span style="font-weight: bold;">Timed Durations:</span> Many
+durations are measured in rounds, minutes, hours,
+or some other increment. When the time is up, the psionic energy
+sustaining the effect fades, and the power ends. If a power&rsquo;s
+duration
+is variable it is rolled secretly.</p>
+      <a id="duration-instantaneous"></a><p><span style="font-weight: bold;">Instantaneous:</span> The
+psionic energy comes and goes the instant the power
+is manifested, though the consequences might be long-lasting.</p>
+      <a id="duration-permanent"></a><p><span style="font-weight: bold;">Permanent:</span> The energy
+remains as long as the effect does. This means
+the power is vulnerable to <a
+ href="psionicPowersDtoF.html#dispel-psionics"
+ style="color: rgb(87, 158, 182);">dispel psionics</a>.</p>
+      <p><span style="font-weight: bold;">Concentration:</span> The
+power lasts as long as you concentrate on it.
+Concentrating to maintain a power is a standard action that does not
+provoke attacks of opportunity. Anything that could break your
+concentration when manifesting a power can also break your
+concentration while you&rsquo;re maintaining one, causing the power to
+end.
+You can&rsquo;t manifest a power while concentrating on another one.
+Some
+powers may last for a short time after you cease concentrating. In such
+a case, the power keeps going for the given length of time after you
+stop concentrating, but no longer. Otherwise, you must concentrate to
+maintain the power, but you can&rsquo;t maintain it for more than a
+stated
+duration in any event. If a target moves out of range, the power reacts
+as if your concentration had been broken.</p>
+      <a id="subjects-effects-and-areas"></a><p><span style="font-weight: bold;">Subjects, Effects, and Areas:</span>
+If the power affects creatures directly
+the result travels with the subjects for the power&rsquo;s duration. If
+the
+power creates an effect, the effect lasts for the duration. The effect
+might move or remain still. Such an effect can be destroyed prior to
+when its duration ends. If the power affects an area then the power
+stays with that area for its duration. Creatures become subject to the
+power when they enter the area and are no longer subject to it when
+they leave.</p>
+      <a id="touch-powers-and--holding-the-charge"></a><p><span style="font-weight: bold;">Touch Powers and Holding the
+Charge:</span> In most cases, if you don&rsquo;t
+discharge a touch power on the round you manifest it, you can hold the
+charge (postpone the discharge of the power) indefinitely. You can make
+touch attacks round after round. If you touch anything with your hand
+while holding a charge, the power discharges. If you manifest another
+power, the touch power dissipates.</p>
+      <p>Some touch powers allow you to touch multiple targets as part
+of the
+power. You can&rsquo;t hold the charge of such a power; you must touch
+all
+the targets of the power in the same round that you finish manifesting
+the power. You can touch one friend (or yourself) as a standard action
+or as many as six friends as a full round action.</p>
+      <a id="discharge"></a><p><span style="font-weight: bold;">Discharge:</span>
+Occasionally a power lasts for a set duration or until
+triggered or discharged.</p>
+      <a id="dismissible"></a><p><span style="font-weight: bold;">(D) Dismissible:</span> If
+the Duration line ends with &ldquo;(D),&rdquo; you can dismiss
+the power at will. You must be within range of the power&rsquo;s effect
+and
+must mentally will the dismissal, which causes the same display as when
+you first manifested the power. Dismissing a power is a standard action
+that does not provoke attacks of opportunity. A power that depends on
+concentration is dismissible by its very nature, and dismissing it does
+not take an action or cause a display, since all you have to do to end
+the power is to stop concentrating on your turn.</p>
+      <a id="saving-throw"></a><h5>SAVING THROW</h5>
+Usually a harmful power allows a target to make a saving throw to avoid
+some or all of the effect. The Saving Throw line in a power description
+defines which type of saving throw the power allows and describes how
+saving throws against the power work.<br />
+      <a id="saving-throw-negates"></a><p><span style="font-weight: bold;">Negates:</span> The power has
+no effect on a subject that makes a successful
+saving throw.</p>
+      <a id="saving-throw-partial"></a><p><span style="font-weight: bold;">Partial:</span> The power
+causes an effect on its subject, such as death. A
+successful saving throw means that some lesser effect occurs (such as
+being dealt damage rather than being killed).</p>
+      <a id="saving-throw-half"></a><p><span style="font-weight: bold;">Half:</span> The power deals
+damage, and a successful saving throw halves the
+damage taken (round down). </p>
+      <a id="saving-throw-none"></a><p><span style="font-weight: bold;">None:</span> No saving throw
+is allowed.</p>
+      <a id="saving-throw-object"></a><p><span style="font-weight: bold;">(object):</span> The power
+can be manifested on objects, which receive saving
+throws only if they are psionic or if they are attended (held, worn,
+grasped, or the like) by a creature resisting the power, in which case
+the object uses the creature&rsquo;s saving throw bonus unless its own
+bonus
+is greater. (This notation does not mean that a power can be manifested
+only on objects. Some powers of this sort can be manifested on
+creatures or objects.) A psionic item&rsquo;s saving throw bonuses are
+each
+equal to 2 + one-half the item&rsquo;s manifester level.</p>
+      <a id="saving-throw-harmless"></a><p><span style="font-weight: bold;">(harmless):</span> The power
+is usually beneficial, not harmful, but a
+targeted creature can attempt a saving throw if it desires.</p>
+      <a id="saving-throw-difficulty-class"></a><p><span style="font-weight: bold;">Saving Throw Difficulty Class:</span>
+A saving throw against your power has a
+DC 10 + the level of the power + your key ability modifier
+(Intelligence for a psion, Wisdom for a psychic warrior, or Charisma
+for a wilder). A power&rsquo;s level can vary depending on your class.
+Always
+use the power level applicable to your class.</p>
+      <a id="succeeding-on-a-saving-throw"></a><p><span style="font-weight: bold;">Succeeding on a Saving Throw:</span>
+A creature that successfully saves
+against a power that has no obvious physical effects feels a hostile
+force or a tingle, but cannot deduce the exact nature of the attack.
+Likewise, if a creature&rsquo;s saving throw succeeds against a
+targeted
+power you sense that the power has failed. You do not sense when
+creatures succeed on saves against effect and area powers.</p>
+      <a id="failing-a-saving-throw-against-mind-affecting-powers"></a><p><span style="font-weight: bold;">Failing a Saving Throw
+against Mind-Affecting Powers:</span> If you fail your
+save, you are unaware that you have been affected by a power.</p>
+      <a id="automatic-failures-and-successes"></a><p><span style="font-weight: bold;">Automatic Failures and
+Successes:</span> A natural 1 (the d20 comes up 1) on a
+saving throw is always a failure, and the power may deal damage to
+exposed items (see Items Surviving after a Saving Throw, below). A
+natural 20 (the d20 comes up 20) is always a success.</p>
+      <a id="voluntarily-giving-up-a-saving-throw"></a><p><span style="font-weight: bold;">Voluntarily Giving up a
+Saving Throw:</span> A creature can voluntarily forego
+a saving throw and willingly accept a power&rsquo;s result. Even a
+character
+with a special resistance to psionics can suppress this quality.</p>
+      <a id="items-surviving-after-a-saving-throw"></a><p><span style="font-weight: bold;">Items Surviving after a
+Saving Throw:</span> Unless the descriptive text for
+the power specifies otherwise, all items carried or worn by a creature
+are assumed to survive a psionic attack. If a creature rolls a natural
+1 on its saving throw against the effect, however, an exposed item is
+harmed (if the attack can harm objects). Refer to Table: Items Affected
+by Psionic Attacks.</p>
+      <p>Determine which four objects carried or worn by the creature
+are most
+likely to be affected and roll randomly among them. The randomly
+determined item must make a saving throw against the attack form or
+take whatever damage the attack deals.</p>
+      <a id="table-items-affected-by-psionic-attacks"></a><span style="font-weight: bold;">Table: Items Affected by Psionic
+Attacks</span>&nbsp;&nbsp;&nbsp; <br />
+      <table border="0" cellpadding="1" cellspacing="0">
+        <tbody>
+          <tr valign="bottom">
+            <th style="width: 75px">Order<sup>1</sup></th>
+            <th>Item</th>
+          </tr>
+          <tr class="odd-row">
+            <td>1st</td>
+            <td>Shield</td>
+          </tr>
+          <tr>
+            <td>2nd</td>
+            <td>Armor</td>
+          </tr>
+          <tr class="odd-row">
+            <td>3rd</td>
+            <td>Psionic or magic helmet, or psicrown<br />
+            </td>
+          </tr>
+          <tr>
+            <td>4th</td>
+            <td>Item in hand (including weapon, dorje, or the like)</td>
+          </tr>
+          <tr class="odd-row">
+            <td>5th</td>
+            <td>Psionic or magic cloak</td>
+          </tr>
+          <tr>
+            <td>6th</td>
+            <td>Stowed or sheathed weapon</td>
+          </tr>
+          <tr class="odd-row">
+            <td>7th</td>
+            <td>Psionic or magic bracers</td>
+          </tr>
+          <tr>
+            <td>8th</td>
+            <td>Psionic or magic clothing</td>
+          </tr>
+          <tr class="odd-row">
+            <td>9th</td>
+            <td>Psionic or magic jewelry (including rings)</td>
+          </tr>
+          <tr>
+            <td class="last-row">10th</td>
+            <td class="last-row">Anything else</td>
+          </tr>
+          <tr>
+            <td colspan="2">1 <i>In order of most likely to least
+likely to be affected.</i></td>
+          </tr>
+        </tbody>
+      </table>
+      <a id="power-resistance"></a><h5>POWER RESISTANCE</h5>
+Power resistance is a special defensive ability. If your power is being
+resisted by a creature with power resistance, you must make a
+manifester level check (d20 + manifester level) at least equal to the
+creature&rsquo;s power resistance for the power to affect that
+creature. The
+defender&rsquo;s power resistance functions like an Armor Class against
+psionic attacks. Spell resistance is equivalent to power resistance
+unless the Psionics Is Different option is in use. Include any
+adjustments to your manifester level on this manifester level check.
+      <p>The Power Resistance line and the descriptive text of a power
+description tell you whether power resistance protects creatures from
+the power. In many cases, power resistance applies only when a
+resistant creature is targeted by the power, not when a resistant
+creature encounters a power that is already in place.</p>
+      <p>The terms &ldquo;object&rdquo; and &ldquo;harmless&rdquo; mean
+the same thing for
+power
+resistance as they do for saving throws. A creature with power
+resistance must voluntarily lower the resistance (a standard action) to
+be affected by a power noted as harmless. In such a case, you do not
+need to make the manifester level check described above.</p>
+      <a id="power-points"></a><h5>POWER POINTS</h5>
+All powers have a Power Points line, indicating the power&rsquo;s cost.<br />
+      <p>The psionic character class tables show how many power points
+a
+character has access to each day, depending on level.</p>
+      <p>A power&rsquo;s cost is determined by its level, as shown
+below.
+Every
+power&rsquo;s cost is noted in its description for ease of reference.</p>
+      <a id="table-power-points-by-power-level"></a><span style="font-weight: bold;">Table: Power Points by Power
+Level&nbsp;&nbsp;&nbsp; <br />
+      </span>
+      <table border="0" cellpadding="1" cellspacing="0">
+        <tbody>
+          <tr class="odd-row">
+            <td><span style="font-weight: bold;">Power Level</span><br />
+            </td>
+            <td
+ style="font-weight: bold; width: 20px; text-align: center;">1<br />
+            </td>
+            <td
+ style="vertical-align: top; font-weight: bold; width: 20px; text-align: center;">2<br />
+            </td>
+            <td
+ style="vertical-align: top; font-weight: bold; width: 20px; text-align: center;">3<br />
+            </td>
+            <td
+ style="vertical-align: top; font-weight: bold; width: 20px; text-align: center;">4<br />
+            </td>
+            <td
+ style="vertical-align: top; font-weight: bold; width: 20px; text-align: center;">5<br />
+            </td>
+            <td
+ style="vertical-align: top; font-weight: bold; width: 20px; text-align: center;">6<br />
+            </td>
+            <td
+ style="vertical-align: top; font-weight: bold; width: 20px; text-align: center;">7<br />
+            </td>
+            <td
+ style="vertical-align: top; font-weight: bold; width: 20px; text-align: center;">8<br />
+            </td>
+            <td
+ style="vertical-align: top; font-weight: bold; width: 20px; text-align: center;">9<br />
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"><span
+ style="font-weight: bold;">Power Point Cost</span><br />
+            </td>
+            <td style="text-align: center;">1<br />
+            </td>
+            <td style="vertical-align: top; text-align: center;">3<br />
+            </td>
+            <td style="vertical-align: top; text-align: center;">5<br />
+            </td>
+            <td style="vertical-align: top; text-align: center;">7<br />
+            </td>
+            <td style="vertical-align: top; text-align: center;">9<br />
+            </td>
+            <td style="vertical-align: top; text-align: center;">11<br />
+            </td>
+            <td style="vertical-align: top; text-align: center;">13<br />
+            </td>
+            <td style="vertical-align: top; text-align: center;">15<br />
+            </td>
+            <td style="vertical-align: top; text-align: center;">17<br />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <a id="power-point-limit"></a><span style="font-weight: bold;">Power Point Limit:</span> Some
+powers allow you to spend more than their base
+cost to achieve an improved effect, or augment the power. The maximum
+number of points you can spend on a power (for any reason) is equal to
+your manifester level.<br />
+      <a id="xp-cost"></a><p><span style="font-weight: bold;">XP Cost (XP):</span> On the
+same line that the power point cost of a power is
+indicated, the power&rsquo;s experience point cost, if any, is noted.
+Particularly powerful effects entail an experience point cost to you.
+No spell or power can restore XP lost in this manner. You cannot spend
+so much XP that you lose a level, so you cannot manifest a power with
+an XP cost unless you have enough XP to spare. However, you can, on
+gaining enough XP to attain a new level, use those XP for manifesting a
+power rather than keeping them and advancing a level. The XP are
+expended when you manifest the power, whether or not the manifestation
+succeeds.</p>
+      <a id="descriptive-text"></a><h5>DESCRIPTIVE TEXT</h5>
+This portion of a power description details what the power does and how
+it works. If one of the previous lines in the description included
+&ldquo;see
+text,&rdquo; this is where the explanation is found. If the power
+you&rsquo;re
+reading about is based on another power you might have to refer to a
+different power for the &ldquo;see text&rdquo; information. If a power
+is the
+equivalent of a spell an entry of &ldquo;see spell text&rdquo; directs
+you to the
+appropriate spell description.<br />
+      <a id="augment"></a><p><span style="font-weight: bold;">Augment:</span> Many powers
+have variable effects based on the number of power
+points you spend when you manifest them. The more points spent, the
+more powerful the manifestation. How this extra expenditure affects a
+power is specific to the power. Some augmentations allow you to
+increase the number of damage dice, while others extend a power&rsquo;s
+duration or modify a power in unique ways. Each power that can be
+augmented includes an entry giving how many power points it costs to
+augment and the effects of doing so. However, you can spend only a
+total number of points on a power equal to your manifester level.</p>
+      <p>Augmenting a power takes place as part of another action
+(manifesting a
+power). Unless otherwise noted in the Augment section of an individual
+power description, you can augment a power only at the time you
+manifest it.</p>
+      <br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
