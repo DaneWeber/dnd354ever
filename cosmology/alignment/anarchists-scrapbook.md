@@ -1,0 +1,135 @@
+# Book of Infinite Change
+
+Law and Chaos are oppositions that define the multiverse at least as much as Good and Evil.
+
+There are four books that explore these alignments in depth: the Book of Exalted Deeds (Good), the Book of Vile Darkness (Evil), the Book of Perfect Order (Law), and the Book of Infinite Change (Chaos).
+
+## Table of Contents
+
+- Introduction
+- Chapter 1: The Nature of Chaos
+  - Defining Chaos
+  - Chaotic Acts
+  - Chaotic Gods
+  - The Role of Chaos in Society
+  - Creating Chaotic Characters
+  - Chaotic Organizations
+  - Unruly Sites
+  - The Balance of Law and Chaos
+  - The Impact of Chaos on the Multiverse
+  - Chaotic Adventures
+  - Chaotic Characters
+- Chapter 2: Variant Rules
+  - Anarchy and Rebellion
+  - Chaotic Magic
+  - Unpredictable Events
+  - Chaotic Cohorts
+- Chapter 3: Chaotic Equipment
+  - Symbols of Chaos
+  - Chaotic Artifacts
+  - Unstable Devices
+  - Material Components for Chaotic Spells
+- Chapter 4: Feats
+  - Chaotic Feats
+  - Feat Descriptions
+- Chapter 5: Prestige Classes
+  - Agent of Chaos
+  - Berserker of the Void
+  - Chaos Champion
+  - Harbinger of Ruin
+  - Mad Prophet
+  - Seer of the Unseen
+  - Twisted Savant
+  - Wielder of the Maelstrom
+- Chapter 6: Chaos Monsters
+  - Chaos Beast
+  - Elemental Horror
+  - Madcap Fiend
+  - Riftspawn
+  - Void Stalker
+  - Warped Abomination
+  - Chaos Dragon
+  - Eldritch Horror
+  - Nightmare Fiend
+  - Temporal Anomaly
+  - Void Wraith
+  - Warped Construct
+  - Chaos Golem
+  - Reality Bender
+  - Time Wraith
+  - Void Titan
+  - Warped Colossus
+- Chapter 7: Notable Chaotic Entities
+  - Tzeentch, the Changer of Ways
+  - The Laughing God
+  - The Mad Prophet
+  - The Void King
+- Chapter 8: Chaotic Locations
+  - The Shifting Labyrinth
+  - The Chaos Wastes
+  - The Rift of Madness
+  - The Temple of the Mad God
+- Chapter 9: Magic
+  - Chaotic Spells
+  - Spell Lists
+  - Sorcerer Wild Shapes
+  - Magic Items
+  - Unstable Magic Items
+  - Irredeemable Lawful Items
+  - Redeeming Lawful Magic Items
+  - Spell Descriptions
+
+## Spell Index
+
+List of spells introduced in this book, generally with a Chaos descriptor:
+
+- Aberrate
+- Anarchic Burst
+- Chaotic Convergence
+- Chaotic Detonation
+- Chaotic Feedback
+- Chaotic Fury
+- Chaotic Grasp
+- Chaotic Haze
+- Chaos Bolt
+- Chaos Shield
+- Chaotic Infusion
+- Chaotic Surge
+- Confounding Mirage
+- Corrosive Chaos
+- Disruptive Blast
+- Disruptive Wave
+- Entropic Touch
+- Flux Field
+- Fractured Reality
+- Gambler's Luck
+- Hallucination Sphere
+- Implosive Wave
+- Madcap's Mirth
+- Madcap's Gambit
+- Reality Ripple
+- Riftwalk
+- Schism Strike
+- Shifting Chaos
+- Temporal Anomaly
+- Temporal Distortion
+- Unstable Form
+- Void Step
+- Warp Reality
+- Winds of Chaos
+- Wrath of Chaos
+- Zephyr of Madness
+- Zigzag Bolt
+- Zonal Chaos
+- Zuggtmoy's Embrace
+- Zybilna's Whimsy
+- Zyxx's Chaos Dance
+- Zz'rot's Rift
+- Zz'thoth's Madness
+- Zz'ul's Chaotic Surge
+- Zz'zar's Warp
+- Zz'zor's Temporal Distortion
+- Zz'zoth's Reality Ripple
+- Zz'zul's Unstable Form
+- Zz'zyth's Winds of Chaos
+- Zz'zzoth's Wrath of Chaos
