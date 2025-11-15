@@ -1,0 +1,296 @@
+# Book of Exalted Deeds
+
+## Table of Contents
+
+- Introduction
+  - Hide This Book!
+  - Evil in the Game Session
+  - What’s Inside
+  - Author’s Note
+- Chapter 1: The Nature of Evil
+  - Evil in Your Game
+  - Defining Evil
+  - Evil Acts
+  - Fetishes and Addictions
+  - Vile Gods
+    - Karaan
+    - Rallaster
+    - The Patient One
+    - Scahrossar
+    - The Xammux
+    - Yeathan
+  - Vile Races and Cultures
+    - Vashar
+    - Jerren
+  - Creating Villains
+    - Example Villains
+    - The Dread Emperor
+    - Siddal and Gauderis
+    - Enesstrere, the Demon-Possessed Dragon
+  - Malign Sites
+    - The Azure Vale
+    - The Goblin Pits of Io-Rach
+- Chapter 2: Variant Rules
+  - Possession
+  - Sacrifice
+  - Curses
+  - Diseases
+  - Other Aspects of Evil
+    - The Calling
+    - Dark Chant
+    - Dark Speech
+    - Souls as Power
+    - Pain as Power
+    - Hivemind
+    - Vile Damage
+    - Evil Weather
+  - Lingering Effects of Evil
+- Chapter 3: Evil Equipment
+  - Torture Devices
+  - Execution Equipment
+  - Armor/Equipment Traps
+  - Alchemical and Quasi-Magical Items
+  - Drugs
+  - Poison
+  - Material Components
+- Chapter 4: Feats
+- Chapter 5: Prestige Classes
+  - Cancer Mage
+  - Demonologist
+  - Diabolist
+  - Disciple of Asmodeus
+  - Disciple of Baalzebul
+  - Disciple of Dispater
+  - Disciple of Mammon
+  - Disciple of Mephistopheles
+  - Lifedrinker
+  - Mortal Hunter
+  - Soul Eater
+  - Thrall of Demogorgon
+  - Thrall of Graz’zt
+  - Thrall of Juiblex
+  - Thrall of Orcus
+  - Ur-Priest
+  - Vermin Lord
+  - Warrior of Darkness
+- Chapter 6: Magic
+  - Evil Spells
+    - What’s Evil?
+    - Corrupt Magic
+  - Spell Lists
+    - Corrupt Spells
+    - Assassin Spells
+    - Bard Spells
+    - Blackguard Spells
+    - Cleric Spells
+    - Cleric Domains
+    - Druid Spells
+    - Sorcerer and Wizard Spells
+  - Spell Descriptions
+  - Evil Magic Items
+    - Armor Special Abilities
+    - Specific Armors
+    - Weapon Special Abilities
+    - Specific Weapons
+    - Rings
+    - Rods
+    - Staffs
+    - Wondrous Items
+  - Artifacts
+    - Minor Artifacts
+    - Diabolic Engines and Demonic Devices
+    - Major Artifacts
+- Chapter 7: Lords of Evil
+  - Archfiends and Clerics
+  - The Lower Planes
+  - The Blood War
+  - The Demon Lords
+    - Demogorgon
+    - Graz’zt
+    - Juiblex
+    - Orcus
+    - Yeenoghu
+  - Archdevils
+    - Bel
+    - Dispater
+    - Mammon
+    - Belial/Fierna
+    - Levistus
+    - The Hag Countess
+    - Baalzebul
+    - Mephistopheles
+    - Asmodeus
+- Chapter 8: Evil Monsters
+  - Demon
+    - Mane
+    - Rutterkin
+    - Bar-lgura
+    - Babau
+    - Shadow Demon
+    - Chasme
+  - Devil
+    - Kocrachon
+    - Ghargatula
+  - Eye of Fear and Flame
+  - Kython
+    - Broodling
+    - Juvenile
+    - Adult
+    - Impaler
+    - Slaymaster
+    - Slaughterking
+  - Vaath
+  - Vilewight
+  - Bone Creature
+  - Corpse Creature
+  - Corrupted Creature
+- Appendix: Evil PCs
+  - A Single Evil PC
+  - An Evil Party
+  - The Evil Campaign
+  - Conclusion
+- Index
+
+## Spell Index
+
+List of spells introduced in this book, generally with an Evil descriptor:
+
+- Aberrate
+- Absorb Mind
+- Absorb Strength
+- Abyssal Might
+- Addiction
+- Alert Bebilith
+- Angry Ache
+- Apocalypse from the Sky
+- Befoul
+- Bestow Greater Curse
+- Bestow Wound
+- Black Bag
+- Bodak Birth
+- Boneblade
+- Boneblast
+- Call Dretch Horde
+- Call Lemure Horde
+- Call Nightmare
+- Charnel Fire
+- Cheat
+- Circle of Nausea
+- Claws of the Bebilith
+- Claws of the Savage
+- Cloud of the Achaierai
+- Clutch of Orcus
+- Consume Likeness
+- Cruel Disappointment
+- Crushing Fist of Spite
+- Curse of the Putrid Husk
+- Damning Darkness
+- Dance of Ruin
+- Dancing Chains
+- Darkbolt
+- Darklight
+- Death by Thorns
+- Death Grimace
+- Demon Wings
+- Demoncall
+- Demonflesh
+- Despoil
+- Devil's Ego
+- Devil's Eye
+- Devil's Tail
+- Devil's Tongue
+- Distort Summons
+- Dread Word
+- Drown
+- Drug Resistance
+- Ectoplasmic Enhancement
+- Entice Gift
+- Eternity of Torture
+- Evil Eye
+- Evil Weather
+- Extract Drug
+- Eye of the Beholder
+- Eyes of the Zombie
+- False Sending
+- Fangs of the Vampire King
+- Fiendish Clarity
+- Fiendish Quickening
+- Flesh Armor
+- Flesh Ripper
+- Forbidden Speech
+- Glimpse of Truth
+- Graz'zt's Long Grasp
+- Grim Revenge
+- Gutwrench
+- Heartache
+- Heartclutch
+- Hell's Power
+- Hellfire
+- Hellfire Storm
+- Identify Transgressor
+- Impotent Possessor
+- Imprison Possessor
+- Imprison Soul
+- Lahm's Finger Darts
+- Liquid Pain
+- Love's Pain
+- Masochism
+- Mindrape
+- Mirror Sending
+- Morality Undone
+- Nether Trail
+- No Light
+- Pestilence
+- Phantasmal Thief
+- Plague of Nightmares
+- Power Leech
+- Pox
+- Preserve Organ
+- Psychic Poison
+- Rapture of Rupture
+- Reality Blind
+- Red Fester
+- Resonating Resistance
+- Rotting Curse of Urfestra
+- Sacrificial Skill
+- Sadism
+- Sap Strength
+- Seething Eyebane
+- Serpents of Theggeron
+- Shriveling
+- Slash Tongue
+- Slow Consumption
+- Snare Astral Traveler
+- Song of Festering Death
+- Sorrow
+- Soul Shackles
+- Soul's Treasure Lost
+- Spider Hand
+- Spider Legs
+- Spread of Savagery
+- Steal Life
+- Stop Heart
+- Stunning Screech
+- Stupor
+- Suspend Disease
+- Thousand Needles
+- Tongue of Baalzebul
+- Tongue Serpents
+- Tongue Tendrils
+- Touch of Juiblex
+- Unheavened
+- Unliving Weapon
+- Unnerving Gaze
+- Utterdark
+- Vile Lance
+- Wall of Chains
+- Wall of Deadly Chains
+- Wall of Eyes
+- Wall of Ooze
+- Wave of Grief
+- Wave of Pain
+- Were-doom
+- Whirlwind of Teeth
+- Wither Limb
+- Wrack
+- Wretched Blight

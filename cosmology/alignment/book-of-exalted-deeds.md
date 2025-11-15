@@ -1,0 +1,291 @@
+# Book of Exalted Deeds
+
+## Table of Contents
+
+- Introduction
+- Chapter 1: The Nature of Good
+  - Exalted Deeds
+    - Helping Others
+    - Charity
+    - Healing
+    - Personal Sacrifice
+    - Worshiping Good Deities
+    - Casting Good Spells
+    - Mercy
+    - Forgiveness
+    - Bringing Hope
+    - Reedeming Evil
+  - The Straight and Narrow
+  - Law, Chaos, and Good
+  - Playing a Hero
+  - Exalted Characters
+  - Sin and Atonement
+  - Exalted Adventures
+- Chapter 2: Variant Rules
+  - Channeling
+  - Exalted Cohorts
+  - Exalted Gods
+  - Exorcism
+  - Heroes of the Heavens
+  - Heroic Sacrifice and Martyrdom
+  - Mercy, Prisoners, and Redemption
+  - Sainthood
+  - Tithes and Offerings
+  - Voluntary Poverty
+  - Waging Peace
+  - Words of Creation
+- Chapter 3: Exalted Equipment
+  - Sanctified Weapons
+  - Nonlethal Weapons
+  - Ravages and Afflictions
+  - Relics
+  - Optional Material Components
+  - Special Materials
+- Chapter 4: Feats
+  - Exalted Feats
+  - Feat Descriptions
+- Chapter 5: Prestige Classes
+  - Anointed Knight
+  - Apostle of Peace
+  - Beloved of Valarian
+  - Celestial Mystic
+  - Champion of Gwynharwyf
+  - Defender of Sealtiel
+  - Emissary of Barachiel
+  - Exalted Arcanist
+  - Fist of Raziel
+  - Initiate of Pistis Sophia
+  - Lion of Talisid
+  - Prophet of Erathaol
+  - Risen Martyr
+  - Sentinel of Bharrai
+  - Skylord
+  - Slayer of Domiel
+  - Stalker of Kharash
+  - Swanmay
+  - Sword of Righteousness
+  - Troubadour of Stars
+  - Vassal of Bahamut
+  - Wonderworker
+- Chapter 6: Magic
+  - Good Spells
+  - Spell Lists
+  - Cleric Domains
+  - Spell Descriptions
+  - Magic Items
+  - Redeeming Evil Magic Items
+  - Irredeemable Evil Items
+- Chapter 7: Celestial Paragons
+  - Celestial Paragons In Your Game
+  - Celestial Paragons and Clerics
+  - The Upper Planes
+  - Law and Chaos in the Heavens
+  - The Celestial Hebdomad
+  - Talisid and the Five Companions
+  - The Court of Stars
+  - Celestial Planar Allies
+- Chapter 8: Monsters
+  - The Deathless Type
+  - Aleax
+  - Archon
+    - Owl Archon
+    - Sword Archon
+    - Throne Archon
+    - Warden Archon
+  - Asura
+  - Bariaur
+  - Crypt Warden
+  - Eladrin
+    - Coure
+    - Firre
+    - Shiradi
+    - Tulani
+  - Guardinal
+    - Equinal
+    - Musteval
+    - Ursinal
+  - Hollyphant
+  - Leskylor
+  - Moon Dog
+  - Quesar
+  - Rhek
+  - Sacred Watcher
+  - Saint
+  - Sanctified Creature
+  - Swarm, Divine Wrath
+    - Apocalypse Frog Swarm
+    - Bronze Locust Swarm
+    - Deathraven Swarm
+    - Sunfly Swarm
+
+- Appendix: Index of Celestials
+  - Celestial Creatures
+  - Celestial-Related Templates
+  - Celestials by Challenge Rating
+
+- Sidebars
+  - Exalted Deeds and Vile Darkness
+  - Exalted Versus Epic
+  - Celestial Monster Classes
+  - Skylord’s Mounts
+  - Sample Skylord’s Mounts
+  - Expanded Summoning Tables
+
+- Tables
+  - Table 2–1: Example Special Cohorts
+  - Table 2–2: Half-Celestial Level Adjustments
+  - Table 2–3: Voluntary Poverty
+  - Table 3–1: Nonlethal Weapons
+  - Table 3–2: Ravages
+  - Table 3–3: Afflictions
+  - Table 3–4: Good Spell Components
+  - Table 4–1: Feats
+  - Table 4–1: Feats (cont)
+  - Table 4–2: Ancestral Relic
+  - Table 5–1: The Anointed Knight
+  - Table 5–2: The Apostle of Peace
+  - Table 5–3: The Beloved of Valarian
+  - Table 5–4: The Celestial Mystic
+  - Table 5–5: The Champion of Gwynharwyf
+  - Table 5–6: The Defender of Sealtiel
+  - Table 5–7: The Emissary of Barachiel
+  - Table 5–8: Emissary of Barachiel Spells Known
+  - Table 5–9: The Exalted Arcanist
+  - Table 5–10: The Fist of Raziel
+  - Table 5–11: The Initiate of Pistis Sophia
+  - Table 5–12: The Lion of Talisid
+  - Table 5–13: The Prophet of Erathaol
+  - Table 5–14: The Risen Martyr
+  - Table 5–15: The Sentinel of Bharrai
+  - Table 5–16: The Skylord
+  - Table 5–17: The Slayer of Domiel
+  - Table 5–18: The Stalker of Kharash
+  - Table 5–19: The Swanmay
+  - Table 5–20: The Sword of Righteousness
+  - Table 5–21: The Troubadour of Stars
+  - Table 5–22: The Vassal of Bahamut
+  - Table 5–23: The Wonderworker
+  - Table 7–1: Channel Celestial Paragon Conferred Qualities
+  - Table 7–2: Channel Celestial Paragon Costs
+
+## Spell Index
+
+List of spells introduced in this book, generally either with a Good descriptor or particularly useful for Good and Exalted deeds:
+
+- Affliction
+- Amber Sarcophagus
+- Armageddon
+- Aspect of the Deity
+- Aspect of the Deity, Greater
+- Aspect of the Deity, Lesser
+- Axiomatic Creature
+- Ayailla's Radiant Burst
+- Bastion of Good
+- Blessed Sight
+- Blinding Beauty
+- Blinding Glory
+- Blood of the Martyr
+- Bolt of Glory
+- Brilliant Emanation
+- Call Faithful Servants
+- Call Mount
+- Celestial Aspect
+- Celestial Blood
+- Celestial Brilliance
+- Chaav's Laugh
+- Channel Celestial
+- Channel Greater Celestial
+- Constricting Chains
+- Convert Wand
+- Crown of Brilliance
+- Crown of Flame
+- Crown of Glory
+- Cry of Ysgard
+- Curtain of Light
+- Distilled Joy
+- Divine Inspiration
+- Divine Sacrifice
+- Dolorous Motes
+- Dragon Cloud
+- Ease Pain
+- Eladrin Form
+- Elation
+- Emerald Burst
+- Empyreal Ecstasy
+- End to Strife
+- Energetic Healing
+- Energize Potion
+- Estanna's Stew
+- Exalted Fury
+- Exalted Raiment
+- Glorious Raiment
+- Glory of the Martyr
+- Hammer of Righteousness
+- Healing Touch
+- Heart's Ease
+- Heaven's Trumpet
+- Heavenly Lightning
+- Heavenly Lightning Storm
+- Inquisition
+- Inspired Aim
+- Lantern Light
+- Last Judgment
+- Lastai's Caress
+- Leonal's Roar
+- Luminous Armor
+- Luminous Armor, Greater
+- Mind Bond
+- Moment of Clarity
+- Path of the Exalted
+- Perfect Summons
+- Phieran's Resolve
+- Phoenix Fire
+- Quickshift
+- Radiant Fog
+- Radiant Shield
+- Rain of Black Tulips
+- Rain of Embers
+- Rain of Roses
+- Ray of Hope
+- Refreshment
+- Remove Addiction
+- Remove Fatigue
+- Remove Nausea
+- Restore Soul's Treasure
+- Righteous Glare
+- Righteous Smite
+- Sacred Guardian
+- Sacred Haven
+- Sanctify the Wicked
+- Second Wind
+- Secure Corpse
+- Shield of the Archons
+- Sicken Evil
+- Silvered Claws
+- Silvered Weapon
+- Smite Heretic
+- Spear of Valarian
+- Spread of Contentment
+- Starmantle
+- Stars of Arvandor
+- Status, Greater
+- Storm of Shards
+- Sublime Revelry
+- Sunmantle
+- Sustain
+- Sword of Conscience
+- Telepathy Block
+- Telepathy Tap
+- Tomb of Light
+- Touch of Adamantine
+- Twilight Luck
+- Unearthly Beauty
+- Valiant Steed
+- Vanishing Weapon
+- Vengeance Halo
+- Vision of Heaven
+- Wages of Sin
+- Warcry
+- Warding Gems
+- Winged Mount
+- Yoke of Mercy
