@@ -12,7 +12,7 @@ Type: Large Outsider (Extraplanar)
 Alignment: Always neutral
 Initiative: +4
 Senses: Listen +26 and Spot +26
-AC: 36 (-1 size, +1 Dex, +12 +4 full plate, +14 natural), touch 10, flat-footed 35
+AC: 36 (-1 size, +1 Dex, +12 _+4 full plate_, +14 natural), touch 10, flat-footed 35
 Hit Dice: 16d8+112 (184 hp)
 DR: 15/good or evil or lawful or chaotic
 Saves: Fort +17, Ref +14, Will +17
@@ -40,7 +40,10 @@ Outsider Traits: Rilmani have darkvision (60-foot range), and they cannot be rai
 
 Rilmani Traits: Rilmani are immune to electricity and poison, and they have acid and sonic resistance 20.
 
-Spell-like Abilities: At will - comprehend languages, detect chaos, detect evil, detect good, detect law, detect magic, detect thoughts, feather fall, sanctuary, tongues, charm monster, cone of cold, greater dispelling, magic circle against chaos, magic circle against evil, magic circle against good, magic circle against law, magic missile, mass suggestion, teleport without error (self plus maximum load of objects only); 3/day - dismissal, fly, forbiddance, heal, mind blank, prismatic spray, true seeing. Caster level 17th; save DC 18 + spell level.
+Spell-like Abilities:
+At will - charm monster, comprehend languages, cone of cold, detect chaos, detect evil, detect good, detect law, detect magic, detect thoughts, feather fall, greater dispelling, magic circle against chaos, magic circle against evil, magic circle against good, magic circle against law, magic missile, mass suggestion, sanctuary, teleport without error (self plus maximum load of objects only), tongues;
+3/day - dismissal, fly, forbiddance, heal, mind blank, prismatic spray, true seeing.
+Caster level 17th; save DC 18 + spell level.
 
 Summon Rilmani (Sp): Rilmani can summon other rilmani as though casting a summon monster spell. Once per day, an aurumach can automatically summon 2d4 ferrumachs or 1d2 cuprilachs (aurumach's choice). Summoned creatures automatically return whence they came after 1 hour. A summoned rilmani cannot use its own summon ability for 1 hour.
 

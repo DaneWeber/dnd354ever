@@ -43,15 +43,16 @@ Rilmani Traits: Rilmani are immune to electricity and poison, and they have acid
 
 Cuprilachs vary what tactics they use depending upon the nature and urgency of their mission. Most cuprilachs prefer simple "seek and destroy" missions that allows them to use their magic to locate a target and get close before unleashing deadly hail of arrows. At other times cuprilachs use their skills to infiltrate an organization or an individual's life, and then they ply their victims with lies to lure the rilmani's foes into a dangerous situation that eliminates them.
 
-A cuprilach can be summoned using a summon monster IX spell.
+~A cuprilach can be summoned using a summon monster IX spell.~
 
-Change Shape (Su): A rilmani can assume the form of any Small or Medium humanoid.
-
-Sneak Attack (Ex): Anytime a cuprilach's target is denied a Dexterity bonus, or when a target is flanked by a cuprilach, the cuprilach deals an additional 3d6 points of damage on a successful melee attack.
-
-Spell-like Abilities: At will - detect thoughts, knock, locate creature, Melf's acid arrow, misdirection, see invisibility, comprehend languages, detect chaos, detect evil, detect good, detect law, detect magic, detect thoughts, feather fall, sanctuary, tongues; 3/day - dimension door, enervation, mislead, poison. Caster level 12th, save DC 16 + spell level.
+Spell-like Abilities:
+At will - detect thoughts, knock, locate creature, Melf's acid arrow, misdirection, see invisibility, comprehend languages, detect chaos, detect evil, detect good, detect law, detect magic, detect thoughts, feather fall, sanctuary, tongues;
+3/day - dimension door, enervation, mislead, poison.
+Caster level 12th, save DC 16 + spell level.
 
 Summon Rilmani (Sp): Once per day, a cuprilach can summon 1d3 ferrumachs with a 75% chance of success. On a failure, no rilmani answer the summons. Summoned creatures automatically return whence they came after 1 hour. A summoned rilmani cannot use its own summon ability for 1 hour.
+
+Sneak Attack (Ex): Anytime a cuprilach's target is denied a Dexterity bonus, or when a target is flanked by a cuprilach, the cuprilach deals an additional 3d6 points of damage on a successful melee attack.
 
 Swift Strikes (Ex): A cuprilach can use a standard action make a full attack, firing all its arrows for the round before one the first hits its mark or stabbing several times with a rapier before a foe has time to recognize it has been struck. This ability makes the cuprilach fiendishly effective in a surprise situation or when it strikes first in a combat, since in can reveal itself and execute a full attack, dealing sneak attack damage with each hit. A cuprilach is fatigued for 1d4 rounds after using the swift strikes ability, and it cannot use the swift strikes ability while fatigued.
 

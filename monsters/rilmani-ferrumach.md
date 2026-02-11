@@ -12,7 +12,7 @@ Type: Medium Outsider (Extraplanar)
 Alignment: Always neutral
 Initiative: +1 (Dex)
 Senses: Listen +16 and Spot +16
-AC: 30 (+1 Dex, +7 natural, +9 +1 full plate, +3 +1 large steel shield) touch 11, flat-footed 29
+AC: 30 (+1 Dex, +7 natural, +9 _+1 full plate_, +3 _+1 large steel shield_) touch 11, flat-footed 29
 Hit Dice: 8d8+72 (108 hp)
 DR: 10/good or evil or lawful or chaotic
 Saves: Fort +15, Ref +7, Will +7
@@ -40,17 +40,18 @@ Outsider Traits: Rilmani have darkvision (60-foot range), and they cannot be rai
 
 Rilmani Traits: Rilmani are immune to electricity and poison, and they have acid and sonic resistance 20.
 
+Spell-like Abilities:
+At will - blur, command, obscuring mist, see invisibility, silence, comprehend languages, detect chaos, detect evil, detect good, detect law, detect magic, detect thoughts, feather fall, sanctuary, tongues;
+3/day - cure moderate wounds, dispel magic, ice storm, phantom steed.
+Caster level 9th; save DC 15 + spell level.
+
 Summon Rilmani (Sp): Once per day, a ferrumach can summon 1d2 ferrumachs with a 35% chance of success. On a failure, no rilmani answer the summons. Summoned creatures automatically return whence they came after 1 hour. A summoned rilmani cannot use its own summon ability for 1 hour.
 
 Although the most martial and aggressive of the rilmani, ferrumachs would rather have creatures obey their commands and observe rilmani ideals than fight them. Ferrumachs often attempt to intimidate and frighten away foes before resorting to violence. Even so, ferrumachs are well equipped to use force to carry out the aurumachs' orders.
 
-A ferrumach can be summoned using a summon monster VII spell.
-
-Change Shape (Su): A rilmani can assume the form of any Small or Medium humanoid.
+~A ferrumach can be summoned using a summon monster VII spell.~
 
 Fear Aura (Su): As a free action, a ferrumach can produce a fear effect. This ability functions like a fear spell (caster level 10th; save DC 19), except that in affects all creatures within a 15-foot radius around the ferrumach. Any creature that makes a successful saving throw against the effect cannot be affected again by that ferrumach's fear aura for one day. All rilmani and any creatures the ferrumach chooses are immune to its fear aura.
-
-Spell-like Abilities: At will - blur, command, obscuring mist, see invisibility, silence, comprehend languages, detect chaos, detect evil, detect good, detect law, detect magic, detect thoughts, feather fall, sanctuary, tongues; 3/day - cure moderate wounds, dispel magic, ice storm, phantom steed. Caster level 9th; save DC 15 + spell level.
 
 Rilmani traits:
 
