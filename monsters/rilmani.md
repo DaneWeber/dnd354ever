@@ -1,3 +1,17 @@
+## Hit Dice
+
+| Rilmani   | 3.5E HD | 2E HD | Metal       |
+| --------- | ------- | ----- | ----------- |
+| Aurumach  | 16      | 12    | Gold        |
+| Argenach  | 14*     | 9     | Silver      |
+| Cuprilach | 12      | 8     | Copper      |
+| Stannach  | 10*     | --    | Tin         |
+| Ferrumach | 8       | 6     | Iron        |
+| Abiorach  | 6*      | 5     | Quicksilver |
+| Plumach   | 4*      | 4     | Lead        |
+
+* = HD not published by Wizards of the Coast.
+
 ## 3.5e Stat Block
 
 COMBAT

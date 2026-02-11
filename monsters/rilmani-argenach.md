@@ -11,7 +11,7 @@ Alignment: Always neutral
 Initiative: +4 (Dex)
 Senses: Listen +18 and Spot +18
 AC: 34 (+4 Dex, +10 natural, +10 +3 full plate, +3 +2 large steel shield) touch 11, flat-footed 30
-Hit Dice: 12d8+96 (150 hp)
+Hit Dice: 14d8+112 (168 hp)
 DR: 10/good or evil or lawful or chaotic
 Saves: Fort +16, Ref +9, Will +10
 Speed: 30 ft. (20 ft. in +3 full plate)
@@ -42,6 +42,18 @@ Beams (Su): An argenach can fire two rays of silvery light per round, to a range
 Spell-like Abilities: At will - charm monster, comprehend languages, cone of cold (9d4+9 points of damage), detect magic, detect invisibility, ESP, fly , hallucinatory terrain, invisibility, mass charm, mirror image, slow, solid fog, suggestion; 3/day - advanced illusion, dismissal, geas, legend lore, prismatic spray, wall of fire. Caster level 15th; save DC 17 + spell level.
 Lay on Hands (Su): Once per day, an argenach can lay on hands, duplicating the effects of a heal spell except that no more than 36 points of damage can be cured.
 
+Rilmani traits:
+
+Outsider Traits: Rilmani have darkvision (60-foot range), and they cannot be raised or resurrected (though a wish or miracle spell can restore life).
+
+Rilmani Traits: Rilmani are immune to electricity and poison, and they have acid and sonic resistance 20.
+
+Change Shape (Su): A rilmani can assume the form of any Small or Medium Humanoid.
+
+Spell-Like Abilities: At will—comprehend language detect chaos, detect evil, detect good, detect law, detect magic, detect thoughts, feather fall, sanctuary, tongues. Caster level 17th (aurumach), 12th (cuprilach), 9th (ferrumach); save DC 18 + spell level (aurumach), 16 + spell level(cuprilach), 15 + spell level (ferrumach).
+In addition all rilmani have spell-like abilities unique to their kind (see below).
+
+Summon Rilmani (Sp): Rilmani can summon other rilmani as though casting a summon monster spell, but they have varying degrees of success. Roll d% and compare the result to the die range given in the rilmani’s specific description (if the summoning is not automatic): On a failure, no rilmani answer the summons. Summoned creatures automatically return whence they came after 1 hour. A summoned rilmani cannot use its own summon ability for 1 hour.
 
 ## 2e Stat Block
 
@@ -78,3 +90,25 @@ Argenachs can fire two rays per round, to a range of 60 yards. Argenachs are dec
 Argenachs also command a battery of formidable spell-like powers, which they can use one at a time, once per round. These include: advanced illusion, cone of cold (9d4+9 points of damage, 3/day), detect magic, detect invisibility, ESP, fly , geas (1/week), hallucinatory terrain, invisibility, legend lore (1/day), mass charm, mirror image, prismatic spray (1/day), slow, solid fog, suggestion, and wall of fire. An argenach can also lay on hands once per day, duplicating the effects of a heal spell except that no more than 36 points of damage can be cured.
 
 Argenachs can be damaged only by +3 or better weapons. They prefer to use their spell-like powers of charm, illusion, or suggestion to avoid physical confrontations, but fight with ruthless efficiency when required. Once per day argenachs can open a gate (75% chance of success), bringing 1 to 4 fenumachs (60% chance) or 1 other argenach (40% chance) to their aid.
+
+Rilmani traits:
+
+Combat: All rilmani share several spell-like powers that may be employed at will. These include: continual light or darkness, dismissal, hold monster, know alignment (always active), polymorph self, and teleport without error. In addition, rilmani are capable of gating their fellows to their aid. (See the individual rilmani descriptions.)
+
+All rilmani possess an innate telepathy ability that allows them to communicate with any intelligent creature. With nonintelligent monsters or normal monsters, the rilmani telapathy is empathic. Rilmani cannot be attacked by telepathic psionics, but they can be physically injured by psychokinetic or psychimetabolic powers. All rilmani can be damaged only by enchanted weapons and have no special vulnerability to silver or cold-wrought iron weapons.
+
+Rilmani are affected by the following attack forms:
+
+| Attack        | Damage |
+| ------------- | ------ |
+| Acid          | Half   |
+| Cold          | Full   |
+| Electricity   | None   |
+| Fire          | Full   |
+| Gas           | Half   |
+| Magic missile | Full   |
+| Poison        | Half   |
+
+Planar Travel: Rilmani can travel to any of the Outer Planes or the Astral Plane freely, but they can’t enter the Prime Material Plane unless a creature of similar status is summoned at the same time. In other words, if a powerful prime-material mage summons a glabrezu tanar’ri, a window is opened by which a rilmani can enter that same world. There isn’t always a rilmani ready to drop what he’s doing and go investigate, but there’s always a chance that a rilmani’ll take an interest and “piggyback” on the other creature’s summoning just to keep an eye on what’s going on.
+
+Rilmani can’t be summoned directly by any spell.
