@@ -51,3 +51,39 @@ Change Shape (Su): A rilmani can assume the form of any Small or Medium humanoid
 Fear Aura (Su): As a free action, a ferrumach can produce a fear effect. This ability functions like a fear spell (caster level 10th; save DC 19), except that in affects all creatures within a 15-foot radius around the ferrumach. Any creature that makes a successful saving throw against the effect cannot be affected again by that ferrumach's fear aura for one day. All rilmani and any creatures the ferrumach chooses are immune to its fear aura.
 
 Spell-like Abilities: At will - blur, command, obscuring mist, see invisibility, silence, comprehend languages, detect chaos, detect evil, detect good, detect law, detect magic, detect thoughts, feather fall, sanctuary, tongues; 3/day - cure moderate wounds, dispel magic, ice storm, phantom steed. Caster level 9th; save DC 15 + spell level.
+
+## 2e Stat Block
+
+From: https://mojobob.com/roleplay/monstrousmanual/r/rilmferr.html
+
+```yaml
+Climate/Terrain:	The Spire, any Outer Planes
+Frequency:	Uncommon
+Organization:	Platoon
+Activity Cycle:	Any
+Diet:	Omnivore
+Intelligence:	High (13-14)
+Treasure:	R
+Alignment:	Neutral
+No. Appearing:	4-16
+Armor Class:	3 (-4 in armor)
+Movement:	12
+Hit Dice:	6
+THAC0:	15
+No. of Attacks:	3 per 2 rounds
+Damage/Attack:	1d10+9 (weapon) or 1d3+7 (fists)
+Special Attacks:	Specialization
+Special Defenses:	Struck only by +1 or better weapons
+Magic Resistance:	35%
+Size:	M (6ï¿½’ tall)
+Morale:	Fanatic (17-18)
+XP Value:	4,000
+```
+
+Ferrumachs wear heavy suits of dark, spiked plate armor. Their powerful builds allow them to wear armor of unusual strength and weight. Halberds, two-handed axes, and great flails are popular among their ranks.
+
+Combat: Physical conflict is the forte of the ferrumachs, and they’ll not hesitate to wade into any battle that concerns the cause of neutrality. Ferrumachs’re extremely strong, with a Strength of 19, and they’re quite skilled with their weapon of choice. Because of this specialization, ferrumachs attack 3 times per 2 rounds (once in the first round, twice in the second, once in the third, and so on) with their halberds or axes +1. If disarmed, ferrumachs can still strike for 1d3+7 points of damage with their heavy, armored fists.
+
+Since fenumachs exist to solve problems through physical combat, their spell-like abilities are minimal compared to those of other rilmani. Once per round, they can use the powers of blur, detect invisibility, silence 15’ radius, and wall of fog. Three times per day, a fenumach can dispel magic or create an ice storm. Fenumachs can lay on hands once per day, which cures disease, neutralizes poison, and heals up to 18 points of damage.
+
+Fenumachs can be struck only by +1 or better weapons. They can gate in 2 to 8 more ferrumachs or 1 argenach with a chance of success equal to 10% for every ferrumach who participates in the summoning.

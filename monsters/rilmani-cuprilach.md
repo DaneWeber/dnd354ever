@@ -62,3 +62,37 @@ Trap Sense (Ex): A cuprilach gains a +2 bonus on Reflex saves made to avoid trap
 Uncanny Dodge (Ex): A cuprilach retains its Dexterity bonus to Armor Class even when flat-footed or struck by an invisible attacker, and it cannot be flanked except by a rogue 16th level or higher.
 
 Skills: Cuprilachs have a +8 racial bonus on Climb checks and can always choose to take 10 on Climb checks, even if rushed or threatened.
+
+## 2e Stat Block
+
+From: https://mojobob.com/roleplay/monstrousmanual/r/rilmcupr.html
+
+```yaml
+Climate/Terrain:	The Spire, any Outer Planes
+Frequency:	Rare
+Organization:	Band
+Activity Cycle:	Any
+Diet:	Omnivore
+Intelligence:	Exceptional (15-16)
+Treasure:	R,W
+Alignment:	Neutral
+No. Appearing:	1-2 (1-6 on the Spire)
+Armor Class:	0
+Movement:	18
+Hit Dice:	8
+THAC0:	13
+No. of Attacks:	2
+Damage/Attack:	1d6+7 (short sword +2) or 1d4+5 (throwing star +1) or 1d8 (bare fists)
+Special Attacks:	Backstab, acid, quickness
+Special Defenses:	Struck only by +2 or better weapons
+Magic Resistance:	45%
+Size:	M (5ï¿½’ tall)
+Morale:	Fanatic (17-18)
+XP Value:	9,000
+```
+
+Combat: Cuprilachs don’t fight fair. They’re killers, not warriors, and they do whatever it takes to silence the opposition quickly and efficiently. Cuprilachs’re fond of striking with two coppery short swords +2 in melee combat. The cuprilach’s native grace and speed confers quickness to his hand-to-hand attacks, and he always attacks first in a round. Cuprilachs have a Strength of 18/76 despite their slight build and agility. They also use special throwing stars +1 with a range of 50 feet. The stars return if they miss. A word of caution: Don’t assume that an unarmed cuprilach ain’t dangerous. They’re skilled martial artists and wrestlers who can strike twice per round for 1d8 points of damage even without their weapons.
+
+Cuprilachs can perform all thief functions, including backstabbing, as if they were 12th-level thieves. They command the following spell-like abilities: charm person, delude, detect invisibility, enervation (2 levels), ESP, fog cloud, forget, improved invisibility, poison, and wraithform. Once per day a cuprilach can create a fan-shaped spray of acid 20 feet long and 10 feet wide that causes 5d4+5 points of damage to any creature who fails a saving throw versus spell.
+
+Cuprilachs can be damaged only by +2 or better weapons. Once per day they may attempt to gate in 1d3 more cuprilachs with a 40% chance of success.
