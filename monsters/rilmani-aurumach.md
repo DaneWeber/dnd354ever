@@ -58,3 +58,36 @@ Summon Weapon (Su): An aurumach can be armed in an instant by magically summonin
 
 ## 2e Stat Block
 
+From: https://mojobob.com/roleplay/monstrousmanual/r/rilmauru.html
+
+```yaml
+Climate/Terrain:	The Spire
+Frequency:	Very rare
+Organization:	Solitary
+Activity Cycle:	Any
+Diet:	Omnivore
+Intelligence:	Godlike (21+)
+Treasure:	R,U,Vï¿½2
+Alignment:	Neutral
+No. Appearing:	1 (1-3 on the Spire)
+Armor Class:	-3 (-7 in armor)
+Movement:	15
+Hit Dice:	12
+THAC0:	9
+No. of Attacks:	3
+Damage/Attack:	1d10+11 (weapon +3, Strength bonus) or 2d8 (bare fists)
+Special Attacks:	Aura, spells
+Special Defenses:	Aura, struck only by +4 or better weapons
+Magic Resistance:	65%
+Size:	L (10’ tall)
+Morale:	Fanatic (17-18)
+XP Value:	27,000
+```
+
+Combat: Although they’re the size of ogres, aurumachs are far faster and more graceful than even the most agile humans. They wield mighty enchanted vorpal swords +3 with astounding speed and strength, striking 3 times per round with a +6 attack bonus. The aurumach’s weapon is created by an act of will and materializes in her hand with a thought — she can never be disarmed or caught off-guard. An aurumach’s armor is the equivalent of field plate +4 and can be summoned in a similar fashion to her weapon. Aurumachs have an effective Strength of 20 and can strike for 2d8 points of damage even without their great swords.
+
+Aurumachs can attack with golden energy similar to the rays cast by an argenach. This energy automatically assumes a form that exploits an enemy’s vulnerabilities: fire, ice, positive, negative, etc. Unlike that of the argcnach, this energy is not directed in rays, but instead takes the form of a golden halo surrounding the aurumach at a 15-foot radius. Any hostile creature entering this area must successfully save vs. spell or suffer 2d12 points of damage from the aurumach’s aura. The aura also functions as a globe of invulnerability with an added bonus: it stops missile attacks of any kind.
+
+Aurumachs detect magic and invisibility by sight and can call upon the following spell-like powers: advanced illusion, cone of cold (12d4+12 points of damage), ESP, fly, geas (1/day), hallucinatory terrain, improved invisibility, mass charm, mass suggestion, mirror image, prismatic spray, slow, solid fog or death fog, and wall of fire, of ice, of iron, or of force. Once per day the aurumach can use any symbol or time stop, once per year she can grant another’s wish. Aurumachs can lay on hands three times per day, combining the effects of heal, regeneration, and restoration.
+
+Aurumachs can be damaged only by weapons of +4 or better enchantment. At will they can gate in 1 to 8 ferrumachs (75%) or 1 to 3 argenachs (25%) with an 80% chance of success.
