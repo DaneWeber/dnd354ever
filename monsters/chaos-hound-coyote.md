@@ -12,7 +12,7 @@ AC: x, touch x, flat-footed x (+3 Dex, +3 natural)
 hp: 13 (3d8 HD)
 Resist: acid 5, electricity 5; SR 13
 Saves: Fort +3, Ref +6, Will +2
-Speed: 40 ft. (8 squares), fly 20 ft. (4 squares)
+Speed: 40 ft. (8 squares), fly 20 ft. (4 squares, perfect)
 Melee: arms +4 (0) and
 Melee: bite -1 (1d6+1)
 Space/Reach: 5 ft./5 ft.
@@ -47,7 +47,7 @@ The coyote can be corporeal on either side of a solid object, thus increasing it
 
 **Spell-like Abilities (Sp):**
 Attack: confusion (as touch attack); lullaby; word of chaos; erase;
-Recon: dancing lights; detect law; faerie fire; 
-Defense: antimagic field; cloak of chaos; mind blank; reduce person (can also target self); enlarge person (can also target self); 
+Recon: dancing lights; detect law; faerie fire;
+Defense: antimagic field; cloak of chaos; mind blank; reduce person (can also target self); enlarge person (can also target self);
 Travel: dimension door; plane-shift (only to outer planes that are chaos-aligned); etherealness; shadow walk; word of recall (its sanctuary can be set as a full-round action)
 Caster Level: 10+HD; save DC 10 + spell level
