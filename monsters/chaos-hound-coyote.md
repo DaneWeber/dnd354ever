@@ -20,7 +20,7 @@ Base Atk: +3
 Grapple: +8*
 Atk Options: (good at grappling/tripping); hostile transportation
 Special Actions: spell-like abilities
-Special Qualities: evaporate, graspable, eventual immunity to transformation
+Special Qualities: evaporate, graspable, eventual immunity to transformation, regeneration 10, incorporeal traits
 Abilities: Str 14, Dex 17, Con 11, Int 3, Wis 12, Cha 2
 Feats: Alertness, Endurance
 Skills: Climb +10
@@ -48,6 +48,6 @@ The coyote can be corporeal on either side of a solid object, thus increasing it
 **Spell-like Abilities (Sp):**
 Attack: confusion (as touch attack); lullaby; word of chaos; erase;
 Recon: dancing lights; detect law; faerie fire;
-Defense: antimagic field; cloak of chaos; mind blank; reduce person (can also target self); enlarge person (can also target self);
+Defense: antimagic field; cloak of chaos; freedom; freedom of movement; mind blank; reduce person (can also target self); enlarge person (can also target self);
 Travel: dimension door; plane-shift (only to outer planes that are chaos-aligned); etherealness; shadow walk; word of recall (its sanctuary can be set as a full-round action)
 Caster Level: 10+HD; save DC 10 + spell level
