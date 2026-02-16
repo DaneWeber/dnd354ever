@@ -16,4 +16,4 @@ Rear: the rear of the chest has an obvious latch. When the latch is turned, the 
 
 The chest can also magically pack all of a rooms furniture and other non-living accouterments into its extradimensional space and later magically unpack them.
 
-Strong transmutation and conjuration; CL 14th; Craft Wondrous Item,; Price XX,000 gp; Weight 200 lbs.
+Strong transmutation and conjuration; CL 14th; Craft Wondrous Item,; Price 14,000 gp; Weight 200 lbs.
