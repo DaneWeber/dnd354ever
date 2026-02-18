@@ -1,15 +1,166 @@
-import { useState, useMemo } from 'react';
-import type { CharacterClass, Spell } from './types';
+import { useState, useMemo, useEffect } from 'react';
+import type { CharacterClass, Spell, SavedSpellbook } from './types';
 import { ALL_CLASSES } from './types';
 import { SPELLS } from './spellData';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import './App.css';
 
+const STORAGE_KEY = 'dnd-spellbooks';
+
 function App() {
+  // Spellbook management state
+  const [spellbooks, setSpellbooks] = useState<SavedSpellbook[]>([]);
+  const [currentSpellbookId, setCurrentSpellbookId] = useState<string | null>(null);
+  const [showSpellbookManager, setShowSpellbookManager] = useState(false);
+
+  // Current working state
   const [selectedClass, setSelectedClass] = useState<CharacterClass | null>(null);
   const [selectedSpells, setSelectedSpells] = useState<Set<string>>(new Set());
   const [sortOrder, setSortOrder] = useState<'level' | 'alphabetical'>('level');
+
+  // Load spellbooks from localStorage on mount
+  useEffect(() => {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      try {
+        const parsed = JSON.parse(stored);
+        setSpellbooks(parsed.spellbooks || []);
+        setCurrentSpellbookId(parsed.currentSpellbookId || null);
+
+        // Load the current spellbook if it exists
+        if (parsed.currentSpellbookId && parsed.spellbooks) {
+          const current = parsed.spellbooks.find(
+            (sb: SavedSpellbook) => sb.id === parsed.currentSpellbookId
+          );
+          if (current) {
+            setSelectedClass(current.characterClass);
+            setSelectedSpells(new Set(current.selectedSpells));
+          }
+        }
+      } catch (e) {
+        console.error('Failed to load spellbooks from localStorage:', e);
+      }
+    }
+  }, []);
+
+  // Save to localStorage whenever spellbooks or selections change
+  useEffect(() => {
+    if (currentSpellbookId) {
+      // Update the current spellbook
+      const updatedSpellbooks = spellbooks.map(sb =>
+        sb.id === currentSpellbookId
+          ? {
+              ...sb,
+              characterClass: selectedClass,
+              selectedSpells: Array.from(selectedSpells),
+              updatedAt: new Date().toISOString(),
+            }
+          : sb
+      );
+      
+      // Only update if something actually changed
+      if (JSON.stringify(updatedSpellbooks) !== JSON.stringify(spellbooks)) {
+        setSpellbooks(updatedSpellbooks);
+        localStorage.setItem(
+          STORAGE_KEY,
+          JSON.stringify({ spellbooks: updatedSpellbooks, currentSpellbookId })
+        );
+      }
+    }
+  }, [selectedClass, selectedSpells, currentSpellbookId]);
+
+  // Save spellbooks list when it changes
+  useEffect(() => {
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({ spellbooks, currentSpellbookId })
+    );
+  }, [spellbooks, currentSpellbookId]);
+
+  const createNewSpellbook = (name: string) => {
+    const newSpellbook: SavedSpellbook = {
+      id: `sb-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      name,
+      characterClass: null,
+      selectedSpells: [],
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+    setSpellbooks([...spellbooks, newSpellbook]);
+    setCurrentSpellbookId(newSpellbook.id);
+    setSelectedClass(null);
+    setSelectedSpells(new Set());
+  };
+
+  const loadSpellbook = (id: string) => {
+    const spellbook = spellbooks.find(sb => sb.id === id);
+    if (spellbook) {
+      setCurrentSpellbookId(id);
+      setSelectedClass(spellbook.characterClass);
+      setSelectedSpells(new Set(spellbook.selectedSpells));
+    }
+  };
+
+  const deleteSpellbook = (id: string) => {
+    const filtered = spellbooks.filter(sb => sb.id !== id);
+    setSpellbooks(filtered);
+    if (currentSpellbookId === id) {
+      setCurrentSpellbookId(null);
+      setSelectedClass(null);
+      setSelectedSpells(new Set());
+    }
+  };
+
+  const renameSpellbook = (id: string, newName: string) => {
+    setSpellbooks(
+      spellbooks.map(sb =>
+        sb.id === id
+          ? { ...sb, name: newName, updatedAt: new Date().toISOString() }
+          : sb
+      )
+    );
+  };
+
+  const exportSpellbook = (id: string) => {
+    const spellbook = spellbooks.find(sb => sb.id === id);
+    if (!spellbook) return;
+
+    const dataStr = JSON.stringify(spellbook, null, 2);
+    const dataBlob = new Blob([dataStr], { type: 'application/json' });
+    const url = URL.createObjectURL(dataBlob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${spellbook.name.replace(/[^a-z0-9]/gi, '_')}.json`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
+  const importSpellbook = (file: File) => {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const imported = JSON.parse(e.target?.result as string) as SavedSpellbook;
+        // Generate new ID to avoid conflicts
+        const newSpellbook: SavedSpellbook = {
+          ...imported,
+          id: `sb-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+        };
+        setSpellbooks([...spellbooks, newSpellbook]);
+        alert(`Imported spellbook: ${newSpellbook.name}`);
+      } catch (error) {
+        alert('Failed to import spellbook. Please check the file format.');
+        console.error('Import error:', error);
+      }
+    };
+    reader.readAsText(file);
+  };
+
+  const currentSpellbook = spellbooks.find(sb => sb.id === currentSpellbookId);
 
   // Filter spells available for the selected class
   const availableSpells = useMemo(() => {
@@ -94,6 +245,103 @@ function App() {
         <h1>D&D 3.5 Spellbook Generator</h1>
         <p>Select your class, toggle the spells you want, and print your custom spellbook.</p>
       </header>
+
+      {/* Spellbook Manager */}
+      <div className="spellbook-manager no-print">
+        <div className="manager-header">
+          <h2>Saved Spellbooks</h2>
+          <button
+            className="toggle-manager-button"
+            onClick={() => setShowSpellbookManager(!showSpellbookManager)}
+          >
+            {showSpellbookManager ? '▼ Hide' : '▶ Show'} Manager
+          </button>
+        </div>
+
+        {showSpellbookManager && (
+          <div className="manager-content">
+            <div className="manager-actions">
+              <button
+                className="action-button create-button"
+                onClick={() => {
+                  const name = prompt('Enter spellbook name:');
+                  if (name) createNewSpellbook(name);
+                }}
+              >
+                ➕ New Spellbook
+              </button>
+              <label className="action-button import-button">
+                📁 Import Spellbook
+                <input
+                  type="file"
+                  accept=".json"
+                  style={{ display: 'none' }}
+                  onChange={(e) => {
+                    const file = e.target.files?.[0];
+                    if (file) importSpellbook(file);
+                    e.target.value = ''; // Reset input
+                  }}
+                />
+              </label>
+            </div>
+
+            <div className="spellbook-list">
+              {spellbooks.length === 0 ? (
+                <p className="empty-message">No saved spellbooks. Create one to get started!</p>
+              ) : (
+                spellbooks.map(sb => (
+                  <div
+                    key={sb.id}
+                    className={`spellbook-item ${currentSpellbookId === sb.id ? 'active' : ''}`}
+                  >
+                    <div className="spellbook-info" onClick={() => loadSpellbook(sb.id)}>
+                      <div className="spellbook-name">{sb.name}</div>
+                      <div className="spellbook-details">
+                        {sb.characterClass || 'No class selected'} • {sb.selectedSpells.length} spells
+                      </div>
+                    </div>
+                    <div className="spellbook-actions">
+                      <button
+                        className="icon-button"
+                        title="Rename"
+                        onClick={() => {
+                          const newName = prompt('Enter new name:', sb.name);
+                          if (newName) renameSpellbook(sb.id, newName);
+                        }}
+                      >
+                        ✏️
+                      </button>
+                      <button
+                        className="icon-button"
+                        title="Export"
+                        onClick={() => exportSpellbook(sb.id)}
+                      >
+                        💾
+                      </button>
+                      <button
+                        className="icon-button delete-button"
+                        title="Delete"
+                        onClick={() => {
+                          if (confirm(`Delete "${sb.name}"?`)) deleteSpellbook(sb.id);
+                        }}
+                      >
+                        🗑️
+                      </button>
+                    </div>
+                  </div>
+                ))
+              )}
+            </div>
+          </div>
+        )}
+
+        {currentSpellbook && (
+          <div className="current-spellbook-indicator">
+            <strong>Current:</strong> {currentSpellbook.name}
+            {currentSpellbook.characterClass && ` (${currentSpellbook.characterClass})`}
+          </div>
+        )}
+      </div>
 
       {/* Class Selection */}
       <div className="class-selection no-print">

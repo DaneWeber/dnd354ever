@@ -45,3 +45,12 @@ export const ALL_CLASSES: CharacterClass[] = [
   "Sorcerer",
   "Wizard",
 ];
+
+export interface SavedSpellbook {
+  id: string;
+  name: string;
+  characterClass: CharacterClass | null;
+  selectedSpells: string[];
+  createdAt: string;
+  updatedAt: string;
+}
