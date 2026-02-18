@@ -3,7 +3,7 @@
 ## Bite of the Weretiger
 
 *   Transmutation
-*   **Level:** Druid 5, sorcerer/wizard 6
+*   **Level:** Druid 5, Sorcerer/Wizard 6
 *   **Components:** V, S, M
 *   **Casting Time:** 1 standard action
 *   **Range:** Personal
@@ -21,7 +21,7 @@ _Material Component:_ A tiger’s claw.
 ## Wall of Good
 
 *   Abjuration \[Good\]
-*   **Level:** Cleric 4, sorcerer/wizard 4
+*   **Level:** Cleric 4, Sorcerer/Wizard 4
 *   **Components:** V, S, M/DF
 *   **Casting Time:** 1 standard action
 *   **Range:** Close (25 ft. + 5 ft./2 levels)

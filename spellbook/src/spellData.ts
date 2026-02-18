@@ -1,6 +1,6 @@
 import type { Spell } from "./types";
-import { HOMEBREW_SPELLS } from "./homebrewSpells";
+import { HOMEBREW_SPELLS } from "./homebrewSpellsGenerated";
 import { SRD_SPELLS } from "./srdSpellsGenerated";
 
-// Combine SRD spells (527 spells from the d20 SRD) with homebrew spells
+// Combine SRD spells with homebrew spells parsed from markdown
 export const SPELLS: Spell[] = [...SRD_SPELLS, ...HOMEBREW_SPELLS];
