@@ -83,7 +83,7 @@ jobs:
         env:
           # Set base path for GitHub Pages
           # Adjust this if your Pages site is at a different path
-          BASE_URL: /dnd354ever/spellbook/
+          BASE_URL: /dnd354ever/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
