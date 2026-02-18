@@ -266,7 +266,8 @@ function parseMarkdownSpells(filePath) {
       }
     }
 
-    spell.description = cleanText(descriptionLines.join(" "));
+    // Preserve markdown formatting in description - join with newlines and only trim
+    spell.description = descriptionLines.join("\n\n").trim();
 
     // Only add spells that have at least one class level
     if (Object.keys(spell.level).length > 0) {

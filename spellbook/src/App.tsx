@@ -2,6 +2,8 @@ import { useState, useMemo } from 'react';
 import type { CharacterClass, Spell } from './types';
 import { ALL_CLASSES } from './types';
 import { SPELLS } from './spellData';
+import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import './App.css';
 
 function App() {
@@ -206,7 +208,7 @@ function App() {
               </div>
 
               <div className="spell-description">
-                <p>{spell.description}</p>
+                <Markdown remarkPlugins={[remarkGfm]}>{spell.description}</Markdown>
               </div>
 
               {(spell.materialComponent || spell.focus || spell.arcaneFocus || spell.arcaneMaterialComponent || spell.xpCost) && (
