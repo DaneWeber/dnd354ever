@@ -2512,14 +2512,14 @@ _Aura Power:_ An evil aura’s power depends on the type of evil creature or obj
 
 | **Creature/Object**                                                           | **Faint**    | **Moderate** | **Strong** | **Overwhelming** |
 | ----------------------------------------------------------------------------- | ------------ | ------------ | ---------- | ---------------- |
-| Evil creature **<sup>1</sup>** (HD)                                           | 10 or lower  | 11–25        | 26–50      | 51 or higher     |
+| Evil creature [^1] (HD)                                                       | 10 or lower  | 11–25        | 26–50      | 51 or higher     |
 | Undead (HD)                                                                   | 2 or lower   | 3–8          | 9–20       | 21 or higher     |
 | Evil outsider (HD)                                                            | 1 or lower   | 2–4          | 5–10       | 11 or higher     |
-| Cleric of an evil deity **<sup>2</sup>** (class levels)                       | 1            | 2–4          | 5–10       | 11 or higher     |
+| Cleric of an evil deity [^2] (class levels)                                   | 1            | 2–4          | 5–10       | 11 or higher     |
 | Evil magic item or spell (caster level)                                       | 2nd or lower | 3rd–8th      | 9th–20th   | 21st or higher   |
 | 1 Except for undead and outsiders, which have their own entries on the table. |
-1 Except for undead and outsiders, which have their own entries on the table.
-2 Some characters who are not clerics may radiate an aura of equivalent power. The class description will indicate whether this applies.
+[^1]: Except for undead and outsiders, which have their own entries on the table.
+[^2]: Some characters who are not clerics may radiate an aura of equivalent power. The class description will indicate whether this applies.
 
 _Lingering Aura:_ An evil aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a creature or magic item). If _detect evil_ is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:
 
@@ -7285,20 +7285,18 @@ _Prismatic sphere_ can be made permanent with a _permanency_ spell.
 This spell causes seven shimmering, intertwined, multicolored beams of light to spray from your hand. Each beam has a different power. Creatures in the area of the spell with 8 HD or less are automatically blinded for 2d4 rounds. Every creature in the area is randomly struck by one or more beams, which have additional effects.
 
 
-| **1d8** | **Color of Beam**                                              | **Effect**                                                               |
-| ------- | -------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| 1       | Red                                                            | 20 points fire damage (Reflex half)                                      |
-| 2       | Orange                                                         | 40 points acid damage (Reflex half)                                      |
-| 3       | Yellow                                                         | 80 points electricity damage (Reflex half)                               |
-| 4       | Green                                                          | Poison (Kills; Fortitude partial, take 1d6 points of Con damage instead) |
-| 5       | Blue                                                           | Turned to stone (Fortitude negates)                                      |
-| 6       | Indigo                                                         | Insane, as _insanity_ spell (Will negates)                               |
-| 7       | Violet                                                         | Sent to another plane (Will negates)                                     |
-| 8       | Struck by two rays; roll twice more, ignoring any “8” results. |                                                                          |
+| **1d8** | **Color of Beam** | **Effect**                                                               |
+| ------- | ----------------- | ------------------------------------------------------------------------ |
+| 1       | Red               | 20 points fire damage (Reflex half)                                      |
+| 2       | Orange            | 40 points acid damage (Reflex half)                                      |
+| 3       | Yellow            | 80 points electricity damage (Reflex half)                               |
+| 4       | Green             | Poison (Kills; Fortitude partial, take 1d6 points of Con damage instead) |
+| 5       | Blue              | Turned to stone (Fortitude negates)                                      |
+| 6       | Indigo            | Insane, as _insanity_ spell (Will negates)                               |
+| 7       | Violet            | Sent to another plane (Will negates)                                     |
+| 8       |                   | Struck by two rays; roll twice more, ignoring any “8” results.           |
 
-| 1 The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above). |
-
-Struck by two rays; roll twice more, ignoring any “8” results.
+1 The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above).
 
 ## Prismatic Wall
 
@@ -8270,17 +8268,19 @@ Direct observation may allow a save (as per a normal illusion), if there is caus
 
 You can see and hear some creature, which may be at any distance. If the subject succeeds on a Will save, the scrying attempt simply fails. The difficulty of the save depends on how well you know the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save.
 
-| Knowledge                                                                       | Will Save Modifier |
-| ------------------------------------------------------------------------------- | ------------------ |
-| None**<sup>1</sup>**                                                            | +10                |
-| Secondhand (you have heard of the subject)                                      | +5                 |
-| Firsthand (you have met the subject)                                            | +0                 |
-| Familiar (you know the subject well)                                            | –5                 |
-| 1 You must have some sort of connection to a creature you have no knowledge of. |
-| **Connection**                                                                  | Will Save Modifier |
-| Likeness or picture                                                             | –2                 |
-| Possession or garment                                                           | –4                 |
-| Body part, lock of hair, bit of nail, etc.                                      | –10                |
+| Knowledge                                  | Will Save Modifier |
+| ------------------------------------------ | ------------------ |
+| None[^1]                                   | +10                |
+| Secondhand (you have heard of the subject) | +5                 |
+| Firsthand (you have met the subject)       | +0                 |
+| Familiar (you know the subject well)       | –5                 |
+[^1]: You must have some sort of connection to a creature you have no knowledge of.
+
+| **Connection**                             | Will Save Modifier |
+| ------------------------------------------ | ------------------ |
+| Likeness or picture                        | –2                 |
+| Possession or garment                      | –4                 |
+| Body part, lock of hair, bit of nail, etc. | –10                |
 
 If the save fails, you can see and hear the subject and the subject’s immediate surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.
 
@@ -9468,6 +9468,24 @@ A summoned monster cannot summon or otherwise conjure another creature, nor can 
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
+| **1st Level**                        |     |
+| ------------------------------------ | --- |
+| Celestial dog                        | LG  |
+| Celestial owl                        | LG  |
+| Celestial giant fire beetle          | NG  |
+| Celestial porpoise[^1]               | NG  |
+| Celestial badger                     | CG  |
+| Celestial monkey                     | CG  |
+| Fiendish dire rat                    | LE  |
+| Fiendish raven                       | LE  |
+| Fiendish monstrous centipede, Medium | NE  |
+| Fiendish monstrous scorpion, Small   | NE  |
+| Fiendish hawk                        | CE  |
+| Fiendish monstrous spider, Small     | CE  |
+| Fiendish octopus[^1]                 | CE  |
+| Fiendish snake, Small viper          | CE  |
+[^1]: May be summoned only into an aquatic or watery environment.
+
 _Arcane Focus:_ A tiny bag and a small (not necessarily lit) candle.
 
 ## Summon Monster II
@@ -9478,6 +9496,22 @@ _Arcane Focus:_ A tiny bag and a small (not necessarily lit) candle.
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 2nd-level list or 1d3 creatures of the same kind from the 1st-level list.
 
+| **2nd Level**                       |     |
+| ----------------------------------- | --- |
+| Celestial giant bee                 | LG  |
+| Celestial giant bombardier beetle   | NG  |
+| Celestial riding dog                | NG  |
+| Celestial eagle                     | CG  |
+| Lemure (devil)                      | LE  |
+| Fiendish squid[^1]                  | LE  |
+| Fiendish wolf                       | LE  |
+| Fiendish monstrous centipede, Large | NE  |
+| Fiendish monstrous scorpion, Medium | NE  |
+| Fiendish shark, Medium[^1]          | NE  |
+| Fiendish monstrous spider, Medium   | CE  |
+| Fiendish snake, Medium viper        | CE  |
+[^1]: May be summoned only into an aquatic or watery environment.
+
 ## Summon Monster III
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
@@ -9485,6 +9519,25 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 *   **Effect:** One or more summoned creatures, no two of which can be more than 30 ft. apart
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 3rd-level list, 1d3 creatures of the same kind from the 2nd-level list, or 1d4+1 creatures of the same kind from the 1st-level list.
+
+| **3rd Level**                      |     |
+| ---------------------------------- | --- |
+| Celestial black bear               | LG  |
+| Celestial bison                    | NG  |
+| Celestial dire badger              | CG  |
+| Celestial hippogriff               | CG  |
+| Elemental, Small (any)             | N   |
+| Fiendish ape                       | LE  |
+| Fiendish dire weasel               | LE  |
+| Hell hound                         | LE  |
+| Fiendish snake, constrictor        | LE  |
+| Fiendish boar                      | NE  |
+| Fiendish dire bat                  | NE  |
+| Fiendish monstrous centipede, Huge | NE  |
+| Fiendish crocodile                 | CE  |
+| Dretch (demon)                     | CE  |
+| Fiendish snake, Large viper        | CE  |
+| Fiendish wolverine                 | CE  |
 
 ## Summon Monster IV
 
@@ -9494,6 +9547,23 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 4th-level list, 1d3 creatures of the same kind from the 3rd-level list, or 1d4+1 creatures of the same kind from a lower-level list.
 
+| **4th Level**                    |     |
+| -------------------------------- | --- |
+| Archon, lantern                  | LG  |
+| Celestial giant owl              | LG  |
+| Celestial giant eagle            | CG  |
+| Celestial lion                   | CG  |
+| Mephit (any)                     | N   |
+| Fiendish dire wolf               | LE  |
+| Fiendish giant wasp              | LE  |
+| Fiendish giant praying mantis    | NE  |
+| Fiendish shark, Large[^1]        | NE  |
+| Yeth hound                       | NE  |
+| Fiendish monstrous spider, Large | CE  |
+| Fiendish snake, Huge viper       | CE  |
+| Howler                           | CE  |
+[^1]: May be summoned only into an aquatic or watery environment.
+
 ## Summon Monster V
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
@@ -9501,6 +9571,27 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 *   **Effect:** One or more summoned creatures, no two of which can be more than 30 ft. apart
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 5th-level list, 1d3 creatures of the same kind from the 4th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+
+| **5th Level**                      |     |
+| ---------------------------------- | --- |
+| Archon, hound                      | LG  |
+| Celestial brown bear               | LG  |
+| Celestial giant stag beetle        | NG  |
+| Celestial sea cat[^1]              | NG  |
+| Celestial griffon                  | CG  |
+| Elemental, Medium (any)            | N   |
+| Achaierai                          | LE  |
+| Devil, bearded                     | LE  |
+| Fiendish deinonychus               | LE  |
+| Fiendish dire ape                  | LE  |
+| Fiendish dire boar                 | NE  |
+| Fiendish shark, Huge               | NE  |
+| Fiendish monstrous scorpion, Large | NE  |
+| Shadow mastiff                     | NE  |
+| Fiendish dire wolverine            | CE  |
+| Fiendish giant crocodile           | CE  |
+| Fiendish tiger                     | CE  |
+[^1]: May be summoned only into an aquatic or watery environment.
 
 ## Summon Monster VI
 
@@ -9510,109 +9601,10 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 
 This spell functions like _summon monster I,_ except you can summon one creature from the 6th-level list, 1d3 creatures of the same kind from the 5th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
 
-## Summon Monster VII
-
-*   Conjuration (Summoning) \[see text for _summon monster I_\]
-*   **Level:** Clr 7, Sor/Wiz 7
-
-This spell functions like _summon monster I,_ except that you can summon one creature from the 7th-level list, 1d3 creatures of the same kind from the 6th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
-
-## Summon Monster VIII
-
-*   Conjuration (Summoning) \[see text for _summon monster I_\]
-*   **Level:** Clr 8, Sor/Wiz 8
-
-This spell functions like _summon monster I,_ except that you can summon one creature from the 8th-level list, 1d3 creatures of the same kind from the 7th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
-
-## Summon Monster IX
-
-*   Conjuration (Summoning) \[see text for _summon monster I_\]
-*   **Level:** Chaos 9, Clr 9, Evil 9, Good 9, Law 9, Sor/Wiz 9
-
-This spell functions like _summon monster I,_ except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
-
-| **Summon Monster**                       |     |
-| ---------------------------------------- | --- |
-| **1st Level**                            |     |
-| Celestial dog                            | LG  |
-| Celestial owl                            | LG  |
-| Celestial giant fire beetle              | NG  |
-| Celestial porpoise**<sup>1</sup>**       | NG  |
-| Celestial badger                         | CG  |
-| Celestial monkey                         | CG  |
-| Fiendish dire rat                        | LE  |
-| Fiendish raven                           | LE  |
-| Fiendish monstrous centipede, Medium     | NE  |
-| Fiendish monstrous scorpion, Small       | NE  |
-| Fiendish hawk                            | CE  |
-| Fiendish monstrous spider, Small         | CE  |
-| Fiendish octopus**<sup>1</sup>**         | CE  |
-| Fiendish snake, Small viper              | CE  |
-| **2nd Level**                            |     |
-| Celestial giant bee                      | LG  |
-| Celestial giant bombardier beetle        | NG  |
-| Celestial riding dog                     | NG  |
-| Celestial eagle                          | CG  |
-| Lemure (devil)                           | LE  |
-| Fiendish squid**<sup>1</sup>**           | LE  |
-| Fiendish wolf                            | LE  |
-| Fiendish monstrous centipede, Large      | NE  |
-| Fiendish monstrous scorpion, Medium      | NE  |
-| Fiendish shark, Medium**<sup>1</sup>**   | NE  |
-| Fiendish monstrous spider, Medium        | CE  |
-| Fiendish snake, Medium viper             | CE  |
-| **3rd Level**                            |     |
-| Celestial black bear                     | LG  |
-| Celestial bison                          | NG  |
-| Celestial dire badger                    | CG  |
-| Celestial hippogriff                     | CG  |
-| Elemental, Small (any)                   | N   |
-| Fiendish ape                             | LE  |
-| Fiendish dire weasel                     | LE  |
-| Hell hound                               | LE  |
-| Fiendish snake, constrictor              | LE  |
-| Fiendish boar                            | NE  |
-| Fiendish dire bat                        | NE  |
-| Fiendish monstrous centipede, Huge       | NE  |
-| Fiendish crocodile                       | CE  |
-| Dretch (demon)                           | CE  |
-| Fiendish snake, Large viper              | CE  |
-| Fiendish wolverine                       | CE  |
-| **4th Level**                            |     |
-| Archon, lantern                          | LG  |
-| Celestial giant owl                      | LG  |
-| Celestial giant eagle                    | CG  |
-| Celestial lion                           | CG  |
-| Mephit (any)                             | N   |
-| Fiendish dire wolf                       | LE  |
-| Fiendish giant wasp                      | LE  |
-| Fiendish giant praying mantis            | NE  |
-| Fiendish shark, Large**<sup>1</sup>**    | NE  |
-| Yeth hound                               | NE  |
-| Fiendish monstrous spider, Large         | CE  |
-| Fiendish snake, Huge viper               | CE  |
-| Howler                                   | CE  |
-| **5th Level**                            |     |
-| Archon, hound                            | LG  |
-| Celestial brown bear                     | LG  |
-| Celestial giant stag beetle              | NG  |
-| Celestial sea cat**<sup>1</sup>**        | NG  |
-| Celestial griffon                        | CG  |
-| Elemental, Medium (any)                  | N   |
-| Achaierai                                | LE  |
-| Devil, bearded                           | LE  |
-| Fiendish deinonychus                     | LE  |
-| Fiendish dire ape                        | LE  |
-| Fiendish dire boar                       | NE  |
-| Fiendish shark, Huge                     | NE  |
-| Fiendish monstrous scorpion, Large       | NE  |
-| Shadow mastiff                           | NE  |
-| Fiendish dire wolverine                  | CE  |
-| Fiendish giant crocodile                 | CE  |
-| Fiendish tiger                           | CE  |
 | **6th Level**                            |     |
+| ---------------------------------------- | --- |
 | Celestial polar bear                     | LG  |
-| Celestial orca whale**<sup>1</sup>**     | NG  |
+| Celestial orca whale[^1]                 | NG  |
 | Bralani (eladrin)                        | CG  |
 | Celestial dire lion                      | CG  |
 | Elemental, Large (any)                   | N   |
@@ -9622,48 +9614,78 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 | Xill                                     | LE  |
 | Fiendish monstrous centipede, Gargantuan | NE  |
 | Fiendish rhinoceros                      | NE  |
-| Fiendish elasmosaurus**<sup>1</sup>**    | CE  |
+| Fiendish elasmosaurus[^1]                | CE  |
 | Fiendish monstrous spider, Huge          | CE  |
 | Fiendish snake, giant constrictor        | CE  |
-| **7th Level**                            |     |
-| Celestial elephant                       | LG  |
-| Avoral (guardinal)                       | NG  |
-| Celestial baleen whale**<sup>1</sup>**   | NG  |
-| Djinni (genie)                           | CG  |
-| Elemental, Huge (any)                    | N   |
-| Invisible stalker                        | N   |
-| Devil, bone                              | LE  |
-| Fiendish megaraptor                      | LE  |
-| Fiendish monstrous scorpion, Huge        | NE  |
-| Babau (demon)                            | CE  |
-| Fiendish giant octopus**<sup>1</sup>**   | CE  |
-| Fiendish girallon                        | CE  |
-| **8th Level**                            |     |
-| Celestial dire bear                      | LG  |
-| Celestial cachalot whale**<sup>1</sup>** | NG  |
-| Celestial triceratops                    | NG  |
-| Lillend                                  | CG  |
-| Elemental, greater (any)                 | N   |
-| Fiendish giant squid**<sup>1</sup>**     | LE  |
-| Hellcat                                  | LE  |
-| Fiendish monstrous centipede, Colossal   | NE  |
-| Fiendish dire tiger                      | CE  |
-| Fiendish monstrous spider, Gargantuan    | CE  |
-| Fiendish tyrannosaurus                   | CE  |
-| Vrock (demon)                            | CE  |
-| **9th Level**                            |     |
-| Couatl                                   | LG  |
-| Leonal (guardinal)                       | NG  |
-| Celestial roc                            | CG  |
-| Elemental, elder (any)                   | N   |
-| Devil, barbed                            | LE  |
-| Fiendish dire shark**<sup>1</sup>**      | NE  |
-| Fiendish monstrous scorpion, Gargantuan  | NE  |
-| Night hag                                | NE  |
-| Bebilith (demon)                         | CE  |
-| Fiendish monstrous spider, Colossal      | CE  |
-| Hezrou (demon)                           | CE  |
-1 May be summoned only into an aquatic or watery environment.
+[^1]: May be summoned only into an aquatic or watery environment.
+
+## Summon Monster VII
+
+*   Conjuration (Summoning) \[see text for _summon monster I_\]
+*   **Level:** Clr 7, Sor/Wiz 7
+
+This spell functions like _summon monster I,_ except that you can summon one creature from the 7th-level list, 1d3 creatures of the same kind from the 6th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+
+| **7th Level**                     |     |
+| --------------------------------- | --- |
+| Celestial elephant                | LG  |
+| Avoral (guardinal)                | NG  |
+| Celestial baleen whale[^1]        | NG  |
+| Djinni (genie)                    | CG  |
+| Elemental, Huge (any)             | N   |
+| Invisible stalker                 | N   |
+| Devil, bone                       | LE  |
+| Fiendish megaraptor               | LE  |
+| Fiendish monstrous scorpion, Huge | NE  |
+| Babau (demon)                     | CE  |
+| Fiendish giant octopus[^1]        | CE  |
+| Fiendish girallon                 | CE  |
+[^1]: May be summoned only into an aquatic or watery environment.
+
+## Summon Monster VIII
+
+*   Conjuration (Summoning) \[see text for _summon monster I_\]
+*   **Level:** Clr 8, Sor/Wiz 8
+
+This spell functions like _summon monster I,_ except that you can summon one creature from the 8th-level list, 1d3 creatures of the same kind from the 7th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+
+| **8th Level**                          |     |
+| -------------------------------------- | --- |
+| Celestial dire bear                    | LG  |
+| Celestial cachalot whale[^1]           | NG  |
+| Celestial triceratops                  | NG  |
+| Lillend                                | CG  |
+| Elemental, greater (any)               | N   |
+| Fiendish giant squid[^1]               | LE  |
+| Hellcat                                | LE  |
+| Fiendish monstrous centipede, Colossal | NE  |
+| Fiendish dire tiger                    | CE  |
+| Fiendish monstrous spider, Gargantuan  | CE  |
+| Fiendish tyrannosaurus                 | CE  |
+| Vrock (demon)                          | CE  |
+[^1]: May be summoned only into an aquatic or watery environment.
+
+## Summon Monster IX
+
+*   Conjuration (Summoning) \[see text for _summon monster I_\]
+*   **Level:** Chaos 9, Clr 9, Evil 9, Good 9, Law 9, Sor/Wiz 9
+
+This spell functions like _summon monster I,_ except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+
+| **9th Level**                           |     |
+| --------------------------------------- | --- |
+| Couatl                                  | LG  |
+| Leonal (guardinal)                      | NG  |
+| Celestial roc                           | CG  |
+| Elemental, elder (any)                  | N   |
+| Devil, barbed                           | LE  |
+| Fiendish dire shark[^1]                 | NE  |
+| Fiendish monstrous scorpion, Gargantuan | NE  |
+| Night hag                               | NE  |
+| Bebilith (demon)                        | CE  |
+| Fiendish monstrous spider, Colossal     | CE  |
+| Hezrou (demon)                          | CE  |
+[^1]: May be summoned only into an aquatic or watery environment.
 
 ## Summon Nature’s Ally I
 
@@ -9683,6 +9705,19 @@ A summoned monster cannot summon or otherwise conjure another creature, nor can 
 
 The spell conjures one of the creatures from the 1st-level list on the accompanying Summon Nature’s Ally table. You choose which kind of creature to summon, and you can change that choice each time you cast the spell. All the creatures on the table are neutral unless otherwise noted.
 
+| **1st Level**               |
+| --------------------------- |
+| Dire rat                    |
+| Eagle (animal)              |
+| Monkey (animal)             |
+| Octopus [^1] (animal)       |
+| Owl (animal)                |
+| Porpoise [^1] (animal)      |
+| Snake, Small viper (animal) |
+| Wolf (animal)               |
+
+[^1]: May be summoned only into an aquatic or watery environment.
+
 ## Summon Nature’s Ally II
 
 *   Conjuration (Summoning)
@@ -9690,6 +9725,20 @@ The spell conjures one of the creatures from the 1st-level list on the accompany
 *   **Effect:** One or more creatures, no two of which can be more than 30 ft. apart
 
 This spell functions like _summon nature’s ally I,_ except that you can summon one 2nd-level creature or 1d3 1st-level creatures of the same kind.
+
+| **2nd Level**                |
+| ---------------------------- |
+| Bear, black (animal)         |
+| Crocodile (animal)           |
+| Dire badger                  |
+| Dire bat                     |
+| Elemental, Small (any)       |
+| Hippogriff                   |
+| Shark, Medium[^1] (animal)   |
+| Snake, Medium viper (animal) |
+| Squid[^1] (animal)           |
+| Wolverine (animal)           |
+[^1]: May be summoned only into an aquatic or watery environment.
 
 ## Summon Nature’s Ally III
 
@@ -9701,6 +9750,21 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
+| **3rd Level**               |
+| --------------------------- |
+| Ape (animal)                |
+| Dire weasel                 |
+| Dire wolf                   |
+| Eagle, giant [NG]           |
+| Lion                        |
+| Owl, giant [NG]             |
+| Satyr [CN; without pipes]   |
+| Shark, Large[^1] (animal)   |
+| Snake, constrictor (animal) |
+| Snake, Large viper (animal) |
+| Thoqqua                     |
+[^1]: May be summoned only into an aquatic or watery environment.
+
 ## Summon Nature’s Ally IV
 
 *   Conjuration (Summoning) \[see text\]
@@ -9710,6 +9774,26 @@ When you use a summoning spell to summon an air, chaotic, earth, evil, fire, goo
 This spell functions like _summon nature’s ally I,_ except that you can summon one 4th-level creature, 1d3 3rd-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+
+| **4th Level**                 |
+| ----------------------------- |
+| Arrowhawk, juvenile           |
+| Bear, brown (animal)          |
+| Crocodile, giant (animal)     |
+| Deinonychus (dinosaur)        |
+| Dire ape                      |
+| Dire boar                     |
+| Dire wolverine                |
+| Elemental, Medium (any)       |
+| Salamander, flamebrother [NE] |
+| Sea cat[^1]                   |
+| Shark, Huge[^1] (animal)      |
+| Snake, Huge viper (animal)    |
+| Tiger (animal)                |
+| Tojanida, juvenile[^1]        |
+| Unicorn [CG]                  |
+| Xorn, minor                   |
+[^1]: May be summoned only into an aquatic or watery environment.
 
 ## Summon Nature’s Ally V
 
@@ -9721,6 +9805,23 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
+| **5th Level**                     |
+| --------------------------------- |
+| Arrowhawk, adult                  |
+| Bear, polar (animal)              |
+| Dire lion                         |
+| Elasmosaurus[^1] (dinosaur)       |
+| Elemental, Large (any)            |
+| Griffon                           |
+| Janni (genie)                     |
+| Rhinoceros (animal)               |
+| Satyr [CN; with pipes]            |
+| Snake, giant constrictor (animal) |
+| Nixie (sprite)                    |
+| Tojanida, adult[^1]               |
+| Whale, orca[^1] (animal)          |
+[^1]: May be summoned only into an aquatic or watery environment.
+
 ## Summon Nature’s Ally VI
 
 *   Conjuration (Summoning) \[see text\]
@@ -9730,6 +9831,21 @@ When you use a summoning spell to summon an air, chaotic, earth, evil, fire, goo
 This spell functions like _summon nature’s ally I,_ except that you can summon one 6th-level creature, 1d3 5th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+
+| **6th Level**                            |
+| ---------------------------------------- |
+| Dire bear                                |
+| Elemental, Huge (any)                    |
+| Elephant (animal)                        |
+| Girallon                                 |
+| Megaraptor (dinosaur)                    |
+| Octopus, giant[^1] (animal)              |
+| Pixie\* (sprite) [NG; no special arrows] |
+| Salamander, average [NE]                 |
+| Whale, baleen[^1]                        |
+| Xorn, average                            |
+| \*Can’t cast _irresistible dance_        |
+[^1]: May be summoned only into an aquatic or watery environment.
 
 ## Summon Nature’s Ally VII
 
@@ -9741,6 +9857,22 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
+| **7th Level**                              |
+| ------------------------------------------ |
+| Arrowhawk, elder                           |
+| Dire tiger                                 |
+| Elemental, greater (any)                   |
+| Djinni (genie) \[NG\]                      |
+| Invisible stalker                          |
+| Pixie\* (sprite) \[NG; with sleep arrows\] |
+| Squid, giant[^1] (animal)                  |
+| Triceratops (dinosaur)                     |
+| Tyrannosaurus (dinosaur)                   |
+| Whale, cachalot[^1] (animal)               |
+| Xorn, elder                                |
+| \*Can’t cast _irresistible dance_          |
+[^1]: May be summoned only into an aquatic or watery environment.
+
 ## Summon Nature’s Ally VIII
 
 *   Conjuration (Summoning) \[see text\]
@@ -9750,6 +9882,14 @@ When you use a summoning spell to summon an air, chaotic, earth, evil, fire, goo
 This spell functions like _summon nature’s ally I,_ except that you can summon one 8th-level creature, 1d3 7th-level creatures of the same kind, or 1d4+1 lower-level creatures of the same kind.
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+
+| **8th Level**          |
+| ---------------------- |
+| Dire shark[^1]         |
+| Roc                    |
+| Salamander, noble [NE] |
+| Tojanida, elder        |
+[^1]: May be summoned only into an aquatic or watery environment.
 
 ## Summon Nature’s Ally IX
 
@@ -9761,108 +9901,14 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
-| **Summon Nature’s Ally**                                 |
-| -------------------------------------------------------- |
-| **1st Level**                                            |
-| Dire rat                                                 |
-| Eagle (animal)                                           |
-| Monkey (animal)                                          |
-| Octopus**<sup>1</sup>** (animal)                         |
-| Owl (animal)                                             |
-| Porpoise**<sup>1</sup>** (animal)                        |
-| Snake, Small viper (animal)                              |
-| Wolf (animal)                                            |
-| **2nd Level**                                            |
-| Bear, black (animal)                                     |
-| Crocodile (animal)                                       |
-| Dire badger                                              |
-| Dire bat                                                 |
-| Elemental, Small (any)                                   |
-| Hippogriff                                               |
-| Shark, Medium**<sup>1</sup>** (animal)                   |
-| Snake, Medium viper (animal)                             |
-| Squid**<sup>1</sup>** (animal)                           |
-| Wolverine (animal)                                       |
-| **3rd Level**                                            |
-| Ape (animal)                                             |
-| Dire weasel                                              |
-| Dire wolf                                                |
-| Eagle, giant [NG]                                        |
-| Lion                                                     |
-| Owl, giant [NG]                                          |
-| Satyr [CN; without pipes]                                |
-| Shark, Large**<sup>1</sup>** (animal)                    |
-| Snake, constrictor (animal)                              |
-| Snake, Large viper (animal)                              |
-| Thoqqua                                                  |
-| **4th Level**                                            |
-| Arrowhawk, juvenile                                      |
-| Bear, brown (animal)                                     |
-| Crocodile, giant (animal)                                |
-| Deinonychus (dinosaur)                                   |
-| Dire ape                                                 |
-| Dire boar                                                |
-| Dire wolverine                                           |
-| Elemental, Medium (any)                                  |
-| Salamander, flamebrother [NE]                            |
-| Sea cat**<sup>1</sup>**                                  |
-| Shark, Huge**<sup>1</sup>** (animal)                     |
-| Snake, Huge viper (animal)                               |
-| Tiger (animal)                                           |
-| Tojanida, juvenile**<sup>1</sup>**                       |
-| Unicorn [CG]                                             |
-| Xorn, minor                                              |
-| **5th Level**                                            |
-| Arrowhawk, adult                                         |
-| Bear, polar (animal)                                     |
-| Dire lion                                                |
-| Elasmosaurus**<sup>1</sup>** (dinosaur)                  |
-| Elemental, Large (any)                                   |
-| Griffon                                                  |
-| Janni (genie)                                            |
-| Rhinoceros (animal)                                      |
-| Satyr [CN; with pipes]                                   |
-| Snake, giant constrictor (animal)                        |
-| Nixie (sprite)                                           |
-| Tojanida, adult**<sup>1</sup>**                          |
-| Whale, orca**<sup>1</sup>** (animal)                     |
-| **6th Level**                                            |
-| Dire bear                                                |
-| Elemental, Huge (any)                                    |
-| Elephant (animal)                                        |
-| Girallon                                                 |
-| Megaraptor (dinosaur)                                    |
-| Octopus, giant**<sup>1</sup>** (animal)                  |
-| Pixie\* (sprite) [NG; no special arrows]                 |
-| Salamander, average [NE]                                 |
-| Whale, baleen**<sup>1</sup>**                            |
-| Xorn, average                                            |
-| \*Can’t cast _irresistible dance_                        |
-| **7th Level**                                            |
-| Arrowhawk, elder                                         |
-| Dire tiger                                               |
-| Elemental, greater (any)                                 |
-| Djinni (genie) [NG]                                      |
-| Invisible stalker                                        |
-| Pixie\* (sprite) [NG; with sleep arrows]                 |
-| Squid, giant**<sup>1</sup>** (animal)                    |
-| Triceratops (dinosaur)                                   |
-| Tyrannosaurus (dinosaur)                                 |
-| Whale, cachalot**<sup>1</sup>** (animal)                 |
-| Xorn, elder                                              |
-| \*Can’t cast _irresistible dance_                        |
-| **8th Level**                                            |
-| Dire shark**<sup>1</sup>**                               |
-| Roc                                                      |
-| Salamander, noble [NE]                                   |
-| Tojanida, elder                                          |
 | **9th Level**                                            |
+| -------------------------------------------------------- |
 | Elemental, elder                                         |
 | Grig [NG; with fiddle] (sprite)                          |
 | Pixie\* (sprite) [NG; with sleep and memory loss arrows] |
 | Unicorn, celestial charger                               |
 | \*Can cast _irresistible dance_                          |
-1 May be summoned only into an aquatic or watery environment.
+[^1]: May be summoned only into an aquatic or watery environment.
 
 ## Summon Swarm
 
@@ -11156,13 +11202,12 @@ enchantment effect.
 
 _Killed:_ Living creatures die. Undead creatures are destroyed.
 
-| Familiarity                 | On Target | Off Target | Similar Area | Mishap |
-| --------------------------- | --------- | ---------- | ------------ | ------ |
-| Very familiar               | 01–97     | 98–99      | 100          | —      |
-| Studied carefully           | 01–94     | 95–97      | 98–99        | 100    |
-| Seen casually               | 01–88     | 89–94      | 95–98        | 99–100 |
-| Viewed once                 | 01–76     | 77–88      | 89–96        | 97–100 |
-| False destination (1d20+80) | —         | —          | 81–92        | 93–100 |
+| HD                     | Effect                              |
+| ---------------------- | ----------------------------------- |
+| Equal to caster level  | Deafened                            |
+| Up to caster level -1  | Stunned, deafened                   |
+| Up to caster level -5  | Confused, stunned, deafened         |
+| Up to caster level -10 | Killed, confused, stunned, deafened |
 
 Furthermore, if you are on your home plane when you cast this spell, nonchaotic extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the _word of chaos._ The banishment effect allows a Will save (at a –4 penalty) to negate.
 
