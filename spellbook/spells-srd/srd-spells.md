@@ -2273,7 +2273,7 @@ _Daylight_ brought into an area of magical darkness (or vice versa) is temporari
 
 _Daylight_ counters or dispels any darkness spell of equal or lower level, such as _darkness._
 
-### Daze
+## Daze
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
 *   **Level:** Brd 0, Sor/Wiz 0
@@ -8167,7 +8167,7 @@ _Note:_ Striking at an opponent’s weapon provokes an attack of opportunity. Al
 Against a ferrous creature, _rusting grasp_ instantaneously deals 3d6 points of damage +1 per caster level (maximum +15) per successful attack. The spell lasts for 1 round per level, and you can make one melee touch attack per round.
 
 
-### Sanctuary
+## Sanctuary
 
 *   Abjuration
 *   **Level::** Clr 1, Protection 1
@@ -8198,7 +8198,7 @@ This spell functions like _cause fear,_ except that it causes all targeted creat
 
 _Material Component:_ A bit of bone from an undead skeleton, zombie, ghoul, ghast, or mummy.
 
-### Scintillating Pattern
+## Scintillating Pattern
 
 *   Illusion (Pattern) \[Mind-Affecting\]
 *   **Level::** Sor/Wiz 8
@@ -8222,7 +8222,7 @@ Sightless creatures are not affected by _scintillating pattern_.
 
 _Material Component:_ A small crystal prism.
 
-### Scorching Ray
+## Scorching Ray
 
 *   Evocation \[Fire\]
 *   **Level::** Sor/Wiz 2
@@ -8238,7 +8238,7 @@ You blast your enemies with fiery rays. You may fire one ray, plus one additiona
 
 The rays may be fired at the same or different targets, but all bolts must be aimed at targets within 30 feet of each other and fired simultaneously.
 
-### Screen
+## Screen
 
 *   Illusion (Glamer)
 *   **Level::** Sor/Wiz 8, Trickery 7
@@ -8256,7 +8256,7 @@ Attempts to scry the area automatically detect the image stated by you with no s
 
 Direct observation may allow a save (as per a normal illusion), if there is cause to disbelieve what is seen. Even entering the area does not cancel the illusion or necessarily allow a save, assuming that hidden beings take care to stay out of the way of those affected by the illusion.
 
-### Scrying
+## Scrying
 
 *   Divination (Scrying)
 *   **Level::** Brd 3, Clr 5, Drd 4, Sor/Wiz 4
@@ -8270,17 +8270,17 @@ Direct observation may allow a save (as per a normal illusion), if there is caus
 
 You can see and hear some creature, which may be at any distance. If the subject succeeds on a Will save, the scrying attempt simply fails. The difficulty of the save depends on how well you know the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save.
 
-| Knowledge                                                                       | Will Save Modifier     |
-| ------------------------------------------------------------------------------- | ---------------------- |
-| None**<sup>1</sup>**                                                            | +10                    |
-| Secondhand (you have heard of the subject)                                      | +5                     |
-| Firsthand (you have met the subject)                                            | +0                     |
-| Familiar (you know the subject well)                                            | –5                     |
+| Knowledge                                                                       | Will Save Modifier |
+| ------------------------------------------------------------------------------- | ------------------ |
+| None**<sup>1</sup>**                                                            | +10                |
+| Secondhand (you have heard of the subject)                                      | +5                 |
+| Firsthand (you have met the subject)                                            | +0                 |
+| Familiar (you know the subject well)                                            | –5                 |
 | 1 You must have some sort of connection to a creature you have no knowledge of. |
-| **Connection**                                                                  | ### Will Save Modifier |
-| Likeness or picture                                                             | –2                     |
-| Possession or garment                                                           | –4                     |
-| Body part, lock of hair, bit of nail, etc.                                      | –10                    |
+| **Connection**                                                                  | Will Save Modifier |
+| Likeness or picture                                                             | –2                 |
+| Possession or garment                                                           | –4                 |
+| Body part, lock of hair, bit of nail, etc.                                      | –10                |
 
 If the save fails, you can see and hear the subject and the subject’s immediate surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.
 
@@ -8296,7 +8296,7 @@ _Cleric Focus:_ A holy water font costing not less than 100 gp.
 
 _Druid Focus:_ A natural pool of water.
 
-### Scrying, Greater
+## Scrying, Greater
 
 *   Divination (Scrying)
 *   **Level::** Brd 6, Clr 7, Drd 7, Sor/Wiz 7
@@ -8306,7 +8306,7 @@ _Druid Focus:_ A natural pool of water.
 
 This spell functions like _scrying_, except as noted above. Additionally, all of the following spells function reliably through the sensor: _detect chaos_, _detect evil_, _detect good_, _detect law_, _detect magic_, _message_, _read magic_, and _tongues_.
 
-### Sculpt Sound
+## Sculpt Sound
 
 *   Transmutation
 *   **Level::** Brd 3
@@ -8324,7 +8324,7 @@ You can change the qualities of sounds but cannot create words with which you ar
 
 A spellcaster whose voice is changed dramatically is unable to cast spells with verbal components.
 
-### Searing Light
+## Searing Light
 
 *   Evocation
 *   **Level::** Clr 3, Sun 3
@@ -8338,7 +8338,7 @@ A spellcaster whose voice is changed dramatically is unable to cast spells with 
 
 Focusing divine power like a ray of the sun, you project a blast of light from your open palm. You must succeed on a ranged touch attack to strike your target. A creature struck by this ray of light takes 1d8 points of damage per two caster levels (maximum 5d8). An undead creature takes 1d6 points of damage per caster level (maximum 10d6), and an undead creature particularly vulnerable to bright light takes 1d8 points of damage per caster level (maximum 10d8). A construct or inanimate object takes only 1d6 points of damage per two caster levels (maximum 5d6).
 
-### Secret Chest
+## Secret Chest
 
 *   Conjuration (Summoning)
 *   **Level::** Sor/Wiz 5
@@ -8360,7 +8360,7 @@ Living things in the chest eat, sleep, and age normally, and they die if they ru
 
 _Focus:_ The chest and its replica.
 
-### Secret Page
+## Secret Page
 
 *   Transmutation
 *   **Level::** Brd 3, Sor/Wiz 3
@@ -8378,7 +8378,7 @@ A _comprehend languages_ spell alone cannot reveal a _secret page_’s contents.
 
 _Material Component:_ Powdered herring scales and will-o’-wisp essence.
 
-### Secure Shelter
+## Secure Shelter
 
 *   Conjuration (Creation)
 *   **Level::** Brd 4, Sor/Wiz 4
@@ -8402,7 +8402,7 @@ _Material Component:_ A square chip of stone, crushed lime, a few grains of sand
 
 _Focus:_ The focus of the _alarm_ spell (silver wire and a tiny bell) if this benefit is to be included.
 
-### See Invisibility
+## See Invisibility
 
 *   Divination
 *   **Level::** Brd 3, Sor/Wiz 2
@@ -8420,7 +8420,7 @@ _See invisibility_ can be made permanent with a _permanency_ spell.
 
 _Material Component:_ A pinch of talc and a small sprinkling of powdered silver.
 
-### Seeming
+## Seeming
 
 *   Illusion (Glamer)
 *   **Level::** Brd 5, Sor/Wiz 5
@@ -8436,7 +8436,7 @@ This spell functions like _disguise self,_ except that you can change the appear
 
 Unwilling targets can negate the spell’s effect on them by making Will saves or with spell resistance.
 
-### Sending
+## Sending
 
 *   Evocation
 *   **Level::** Clr 4, Sor/Wiz 5
@@ -8454,7 +8454,7 @@ If the creature in question is not on the same plane of existence as you are, th
 
 _Arcane Material Component:_ A short piece of fine copper wire.
 
-### Sepia Snake Sigil
+## Sepia Snake Sigil
 
 *   Conjuration (Creation) \[Force\]
 *   **Level::** Brd 3, Sor/Wiz 3
@@ -8480,7 +8480,7 @@ _Sepia snake sigil_ can be cast in combination with other spells that hide or ga
 
 _Material Component:_ 500 gp worth of powdered amber, a scale from any snake, and a pinch of mushroom spores.
 
-### Sequester
+## Sequester
 
 *   Abjuration
 *   **Level::** Sor/Wiz 7
@@ -8498,14 +8498,14 @@ _Note:_ The Will save prevents an attended or magical object from being _sequest
 
 _Material Component:_ A basilisk eyelash, gum arabic, and a dram of whitewash.
 
-### Shades
+## Shades
 
 *   Illusion (Shadow)
 *   **Level::** Sor/Wiz 9
 
 This spell functions like _shadow conjuration,_ except that it mimics sorcerer and wizard conjuration spells of 8th level or lower. The illusory conjurations created deal four-fifths (80%) damage to nonbelievers, and nondamaging effects are 80% likely to work against nonbelievers.
 
-### Shadow Conjuration
+## Shadow Conjuration
 
 *   Illusion (Shadow)
 *   **Level::** Brd 4, Sor/Wiz 4
@@ -8533,14 +8533,14 @@ A creature that succeeds on its save sees the _shadow conjurations_ as transpare
 
 Objects automatically succeed on their Will saves against this spell.
 
-### Shadow Conjuration, Greater
+## Shadow Conjuration, Greater
 
 *   Illusion (Shadow)
 *   **Level::** Sor/Wiz 7
 
 This spell functions like _shadow conjuration,_ except that it can duplicate any sorcerer or wizard conjuration (summoning) or conjuration (creation) spell of 6th level or lower. The illusory conjurations created deal three-fifths (60%) damage to nonbelievers, and nondamaging effects are 60% likely to work against nonbelievers.
 
-### Shadow Evocation
+## Shadow Evocation
 
 *   Illusion (Shadow)
 *   **Level::** Brd 5, Sor/Wiz 5
@@ -8560,14 +8560,14 @@ Nondamaging effects have normal effects except against those who disbelieve them
 
 Objects automatically succeed on their Will saves against this spell.
 
-### Shadow Evocation, Greater
+## Shadow Evocation, Greater
 
 *   Illusion (Shadow)
 *   **Level::** Sor/Wiz 8
 
 This spell functions like _shadow evocation,_ except that it enables you to create partially real, illusory versions of sorcerer or wizard evocation spells of 7th level or lower. If recognized as a _greater shadow evocation_, a damaging spell deals only three-fifths (60%) damage.
 
-### Shadow Walk
+## Shadow Walk
 
 *   Illusion (Shadow)
 *   **Level::** Brd 5, Sor/Wiz 6
@@ -8591,7 +8591,7 @@ Any creatures touched by you when _shadow walk_ is cast also make the transition
 
 They may opt to follow you, wander off through the plane, or stumble back into the Material Plane (50% chance for either of the latter results if they are lost or abandoned by you). Creatures unwilling to accompany you into the Plane of Shadow receive a Will saving throw, negating the effect if successful.
 
-### Shambler
+## Shambler
 
 *   Conjuration (Creation)
 *   **Level::** Drd 9, Plant 9
@@ -8607,7 +8607,7 @@ The _shambler_ spell creates 1d4+2 shambling mounds with 11 HD each. The creatur
 
 The shamblers have resistance to fire as normal shambling mounds do only if the terrain is rainy, marshy, or damp.
 
-### Shapechange
+## Shapechange
 
 *   Transmutation
 *   **Level::** Animal 9, Drd 9, Sor/Wiz 9
@@ -8625,7 +8625,7 @@ You can become just about anything you are familiar with. You can change form on
 
 _Focus:_ A jade circlet worth no less than 1,500 gp, which you must place on your head when casting the spell. (The focus melds into your new form when you change shape.)
 
-### Shatter
+## Shatter
 
 *   Evocation \[Sonic\]
 *   **Level::** Brd 2, Chaos 2, Clr 2, Destruction 2, Sor/Wiz 2
@@ -8645,7 +8645,7 @@ Alternatively, you can target _shatter_ against a single solid object, regardles
 
 _Arcane Material Component:_ A chip of mica.
 
-### Shield
+## Shield
 
 *   Abjuration \[Force\]
 *   **Level::** Sor/Wiz 1
@@ -8657,7 +8657,7 @@ _Arcane Material Component:_ A chip of mica.
 
 _Shield_ creates an invisible, tower shield-sized mobile disk of force that hovers in front of you. It negates _magic missile_ attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The _shield_ has no armor check penalty or arcane spell failure chance. Unlike with a normal tower shield, you can’t use the _shield_ spell for cover.
 
-### Shield of Faith
+## Shield of Faith
 
 *   Abjuration
 *   **Level::** Clr 1
@@ -8673,7 +8673,7 @@ This spell creates a shimmering, magical field around the touched creature that 
 
 _Material Component:_ A small parchment with a bit of holy text written upon it.
 
-### Shield of Law
+## Shield of Law
 
 *   Abjuration \[Lawful\]
 *   **Level::** Clr 8, Law 8
@@ -8697,7 +8697,7 @@ Finally, if a chaotic creature succeeds on a melee attack against a warded creat
 
 _Focus:_ A tiny reliquary containing some sacred relic, such as a scrap of parchment from a lawful text. The reliquary costs at least 500 gp.
 
-### Shield Other
+## Shield Other
 
 *   Abjuration
 *   **Level::** Clr 2, Pal 2, Protection 2
@@ -8715,7 +8715,7 @@ If you and the subject of the spell move out of range of each other, the spell e
 
 _Focus:_ A pair of platinum rings (worth at least 50 gp each) worn by both you and the warded creature.
 
-### Shillelagh
+## Shillelagh
 
 *   Transmutation
 *   **Level::** Drd 1
@@ -8729,7 +8729,7 @@ _Focus:_ A pair of platinum rings (worth at least 50 gp each) worn by both you a
 
 Your own nonmagical club or quarterstaff becomes a weapon with a +1 enhancement bonus on attack and damage rolls. (A quarterstaff gains this enhancement for both ends of the weapon.) It deals damage as if it were two size categories larger (a Small club or quarterstaff so transmuted deals 1d8 points of damage, a Medium 2d6, and a Large 3d6), +1 for its enhancement bonus. These effects only occur when the weapon is wielded by you. If you do not wield it, the weapon behaves as if unaffected by this spell.
 
-### Shocking Grasp
+## Shocking Grasp
 
 *   Evocation \[Electricity\]
 *   **Level::** Sor/Wiz 1
@@ -8760,7 +8760,7 @@ You emit an ear-splitting yell that deafens and damages creatures in its path. A
 
 A _shout_ spell cannot penetrate a _silence_ spell.
 
-### Shout, Greater
+## Shout, Greater
 
 *   Evocation \[Sonic\]
 *   **Level::** Brd 6, Sor/Wiz 8
@@ -8772,7 +8772,7 @@ This spell functions like _shout,_ except that the cone deals 10d6 points of son
 
 _Arcane Focus:_ A small metal or ivory horn.
 
-### Shrink Item
+## Shrink Item
 
 *   Transmutation
 *   **Level::** Sor/Wiz 3
@@ -8788,7 +8788,7 @@ You are able to shrink one nonmagical item (if it is within the size limit) to 1
 
 _Shrink item_ can be made permanent with a _permanency_ spell, in which case the affected object can be shrunk and expanded an indefinite number of times, but only by the original caster.
 
-### Silence
+## Silence
 
 *   Illusion (Glamer)
 *   **Level::** Brd 2, Clr 2
@@ -8802,7 +8802,7 @@ _Shrink item_ can be made permanent with a _permanency_ spell, in which case the
 
 Upon the casting of this spell, complete silence prevails in the affected area. All sound is stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise whatsoever issues from, enters, or passes through the area. The spell can be cast on a point in space, but the effect is stationary unless cast on a mobile object. The spell can be centered on a creature, and the effect then radiates from the creature and moves as it moves. An unwilling creature can attempt a Will save to negate the spell and can use spell resistance, if any. Items in a creature’s possession or magic items that emit sound receive the benefits of saves and spell resistance, but unattended objects and points in space do not. This spell provides a defense against sonic or language-based attacks.
 
-### Silent Image
+## Silent Image
 
 *   Illusion (Figment)
 *   **Level::** Brd 1, Sor/Wiz 1
@@ -8818,7 +8818,7 @@ This spell creates the visual illusion of an object, creature, or force, as visu
 
 _Focus:_ A bit of fleece.
 
-### Simulacrum
+## Simulacrum
 
 *   Illusion (Shadow)
 *   **Level::** Sor/Wiz 7
@@ -8838,7 +8838,7 @@ _Material Component:_ The spell is cast over the rough snow or ice form, and som
 
 _XP Cost:_ 100 XP per HD of the simulacrum to be created (minimum 1,000 XP).
 
-### Slay Living
+## Slay Living
 
 *   Necromancy \[Death\]
 *   **Level::** Clr 5, Death 5
@@ -8875,7 +8875,7 @@ _Sleep_ does not target unconscious creatures, constructs, or undead creatures.
 
 _Material Component:_ A pinch of fine sand, rose petals, or a live cricket.
 
-### Sleet Storm
+## Sleet Storm
 
 *   Conjuration (Creation) \[Cold\]
 *   **Level::** Drd 3, Sor/Wiz 3
@@ -8931,7 +8931,7 @@ If a strong and supple tree is nearby, the snare can be fastened to it. The spel
 
 The snare is magical. To escape, a trapped creature must make a DC 23 Escape Artist check or a DC 23 Strength check that is a full-round action. The snare has AC 7 and 5 hit points. A successful escape from the snare breaks the loop and ends the spell.
 
-### Soften Earth and Stone
+## Soften Earth and Stone
 
 *   Transmutation \[Earth\]
 *   **Level::** Drd 2, Earth 2
@@ -8955,7 +8955,7 @@ While _soften earth and stone_ does not affect dressed or worked stone, cavern c
 
 A moderate amount of structural damage can be dealt to a manufactured structure by softening the ground beneath it, causing it to settle. However, most well-built structures will only be damaged by this spell, not destroyed.
 
-### Solid Fog
+## Solid Fog
 
 *   Conjuration (Creation)
 *   **Level::** Sor/Wiz 4
@@ -8971,7 +8971,7 @@ _Solid fog_ can be made permanent with a _permanency_ spell. A permanent _solid 
 
 _Material Component:_ A pinch of dried, powdered peas combined with powdered animal hoof.
 
-### Song of Discord
+## Song of Discord
 
 *   Enchantment (Compulsion) \[Mind-Affecting, Sonic\]
 *   **Level::** Brd 5
@@ -8987,7 +8987,7 @@ This spell causes those within the area to turn on each other rather than attack
 
 Creatures forced by a _song of discord_ to attack their fellows employ all methods at their disposal, choosing their deadliest spells and most advantageous combat tactics. They do not, however, harm targets that have fallen unconscious.
 
-### Soul Bind
+## Soul Bind
 
 *   Necromancy
 *   **Level::** Clr 9, Sor/Wiz 9
@@ -9003,7 +9003,7 @@ You draw the soul from a newly dead body and imprison it in a black sapphire gem
 
 _Focus:_ A black sapphire of at least 1,000 gp value for every Hit Die possessed by the creature whose soul is to be bound. If the gem is not valuable enough, it shatters when the binding is attempted. (While creatures have no concept of level or Hit Dice as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as creatures gain more Hit Dice.)
 
-### Sound Burst
+## Sound Burst
 
 *   Evocation \[Sonic\]
 *   **Level::** Brd 2, Clr 2
@@ -9021,7 +9021,7 @@ Creatures that cannot hear are not stunned but are still damaged.
 
 _Arcane Focus:_ A musical instrument.
 
-### Speak with Animals
+## Speak with Animals
 
 *   Divination
 *   **Level::** Brd 3, Drd 1, Rgr 1
@@ -9033,7 +9033,7 @@ _Arcane Focus:_ A musical instrument.
 
 You can comprehend and communicate with animals. You are able to ask questions of and receive answers from animals, although the spell doesn’t make them any more friendly or cooperative than normal. Furthermore, wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments. If an animal is friendly toward you, it may do some favor or service for you.
 
-### Speak with Dead
+## Speak with Dead
 
 *   Necromancy \[Language-Dependent\]
 *   **Level::** Clr 3
@@ -9055,7 +9055,7 @@ Indeed, it can’t even remember being questioned.
 
 This spell does not affect a corpse that has been turned into an undead creature.
 
-### Speak with Plants
+## Speak with Plants
 
 *   Divination
 *   **Level::** Brd 4, Drd 3, Rgr 2
@@ -9069,7 +9069,7 @@ You can comprehend and communicate with plants, including both normal plants and
 
 The spell doesn’t make plant creatures any more friendly or cooperative than normal. Furthermore, wary and cunning plant creatures are likely to be terse and evasive, while the more stupid ones may make inane comments. If a plant creature is friendly toward you, it may do some favor or service for you.
 
-### Spectral Hand
+## Spectral Hand
 
 *   Necromancy
 *   **Level::** Sor/Wiz 2
@@ -9085,7 +9085,7 @@ A ghostly, glowing hand shaped from your life force materializes and moves as yo
 
 The hand is incorporeal and thus cannot be harmed by normal weapons. It has improved evasion (half damage on a failed Reflex save and no damage on a successful save), your save bonuses, and an AC of at least 22. Your Intelligence modifier applies to the hand’s AC as if it were the hand’s Dexterity modifier. The hand has 1 to 4 hit points, the same number that you lost in creating it.
 
-### Spell Immunity
+## Spell Immunity
 
 *   Abjuration
 *   **Level::** Clr 4, Protection 4, Strength 4
@@ -9103,7 +9103,7 @@ Only a particular spell can be protected against, not a certain domain or school
 
 A creature can have only one _spell immunity_ or _greater spell immunity_ spell in effect on it at a time.
 
-### Spell Immunity, Greater
+## Spell Immunity, Greater
 
 *   Abjuration
 *   **Level::** Clr 8
@@ -9112,7 +9112,7 @@ This spell functions like _spell immunity_, except the immunity applies to spell
 
 A creature can have only one _spell immunity_ or _greater spell immunity_ spell in effect on it at a time.
 
-### Spell Resistance
+## Spell Resistance
 
 *   Abjuration
 *   **Level::** Clr 5, Magic 5, Protection 5
@@ -9126,7 +9126,7 @@ A creature can have only one _spell immunity_ or _greater spell immunity_ spell 
 
 The creature gains spell resistance equal to 12 + your caster level.
 
-### Spellstaff
+## Spellstaff
 
 *   Transmutation
 *   **Level::** Drd 6
@@ -9142,7 +9142,7 @@ You store one spell that you can normally cast in a wooden quarterstaff. Only on
 
 _Focus:_ The staff that stores the spell.
 
-### Spell Turning
+## Spell Turning
 
 *   Abjuration
 *   **Level::** Luck 7, Magic 7, Sor/Wiz 7
@@ -9171,7 +9171,7 @@ Roll randomly to determine the result.
 
 _Arcane Material Component:_ A small silver mirror.
 
-### Spider Climb
+## Spider Climb
 
 *   Transmutation
 *   **Level::** Drd 2, Sor/Wiz 2
@@ -9187,7 +9187,7 @@ The subject can climb and travel on vertical surfaces or even traverse ceilings 
 
 _Material Component:_ A drop of bitumen and a live spider, both of which must be eaten by the subject.
 
-### Spike Growth
+## Spike Growth
 
 *   Transmutation
 *   **Level::** Drd 3, Rgr 2
@@ -9209,7 +9209,7 @@ _Spike growth_ can’t be disabled with the Disable Device skill.
 
 _Note:_ Magic traps such as _spike growth_ are hard to detect. A rogue (only) can use the Search skill to find a _spike growth_. The DC is 25 + spell level, or DC 28 for _spike growth_ (or DC 27 for _spike growth_ cast by a ranger).
 
-### Spike Stones
+## Spike Stones
 
 *   Transmutation \[Earth\]
 *   **Level::** Drd 4, Earth 4
@@ -9233,7 +9233,7 @@ _Spike stones_ is a magic trap that can’t be disabled with the Disable Device 
 
 _Note:_ Magic traps such as _spike stones_ are hard to detect. A rogue (only) can use the Search skill to find _spike stones_. The DC is 25 + spell level, or DC 29 for _spike stones_.
 
-### Spiritual Weapon
+## Spiritual Weapon
 
 *   Evocation \[Force\]
 *   **Level::** Clr 2, War 2
@@ -9263,7 +9263,7 @@ _Good:_ Warhammer
 
 _Law:_ Longsword,
 
-### Statue
+## Statue
 
 *   Transmutation
 *   **Level::** Sor/Wiz 7
@@ -9283,7 +9283,7 @@ The subject of a _statue_ spell can return to its normal state, act, and then re
 
 _Material Component:_ Lime, sand, and a drop of water stirred by an iron bar, such as a nail or spike.
 
-### Status
+## Status
 
 *   Divination
 *   **Level::** Clr 2
@@ -9297,7 +9297,7 @@ _Material Component:_ Lime, sand, and a drop of water stirred by an iron bar, su
 
 When you need to keep track of comrades who may get separated, _status_ allows you to mentally monitor their relative positions and general condition. You are aware of direction and distance to the creatures and any conditions affecting them: unharmed, wounded, disabled, staggered, unconscious, dying, nauseated, panicked, stunned, poisoned, diseased, _confused,_ or the like. Once the spell has been cast upon the subjects, the distance between them and the caster does not affect the spell as long as they are on the same plane of existence. If a subject leaves the plane, or if it dies, the spell ceases to function for it.
 
-### Stinking Cloud
+## Stinking Cloud
 
 *   Conjuration (Creation)
 *   **Level::** Sor/Wiz 3
@@ -9315,7 +9315,7 @@ _Stinking cloud_ can be made permanent with a _permanency_ spell. A permanent _s
 
 _Material Component:_ A rotten egg or several skunk cabbage leaves.
 
-### Stone Shape
+## Stone Shape
 
 *   Transmutation \[Earth\]
 *   **Level::** Clr 3, Drd 3, Earth 3, Sor/Wiz 4
@@ -9331,7 +9331,7 @@ You can form an existing piece of stone into any shape that suits your purpose. 
 
 _Arcane Material Component:_ Soft clay, which must be worked into roughly the desired shape of the stone object and then touched to the stone while the verbal component is uttered.
 
-### Stoneskin
+## Stoneskin
 
 *   Abjuration
 *   **Level::** Drd 5, Earth 6, Sor/Wiz 4, Strength 6
@@ -9347,7 +9347,7 @@ The warded creature gains resistance to blows, cuts, stabs, and slashes. The sub
 
 _Material Component:_ Granite and 250 gp worth of diamond dust sprinkled on the target’s skin.
 
-### Stone Tell
+## Stone Tell
 
 *   Divination
 *   **Level::** Drd 6
@@ -9361,7 +9361,7 @@ You gain the ability to speak with stones, which relate to you who or what has t
 
 You can speak with natural or worked stone.
 
-### Stone to Flesh
+## Stone to Flesh
 
 *   Transmutation
 *   **Level::** Sor/Wiz 6
@@ -9379,7 +9379,7 @@ The spell also can convert a mass of stone into a fleshy substance. Such flesh i
 
 _Material Component:_ A pinch of earth and a drop of blood.
 
-### Storm of Vengeance
+## Storm of Vengeance
 
 *   Conjuration (Summoning)
 *   **Level::** Drd 9, Clr 9
@@ -9405,7 +9405,7 @@ _5th through 10th Rounds:_ Violent rain and wind gusts reduce visibility. The ra
 
 Ranged attacks within the area of the storm are impossible. Spells cast within the area are disrupted unless the caster succeeds on a Concentration check against a DC equal to the _storm of vengeance_’s save DC + the level of the spell the caster is trying to cast.
 
-### Suggestion
+## Suggestion
 
 *   Enchantment (Compulsion) \[Language-Dependent, Mind-Affecting\]
 *   **Level::** Brd 2, Sor/Wiz 3
@@ -9425,7 +9425,7 @@ A very reasonable _suggestion_ causes the save to be made with a penalty (such a
 
 _Material Component:_ A snake’s tongue and either a bit of honeycomb or a drop of sweet oil.
 
-### Suggestion, Mass
+## Suggestion, Mass
 
 *   Enchantment (Compulsion) \[Language-Dependent, Mind-Affecting\]
 *   **Level::** Brd 5, Sor/Wiz 6
@@ -9434,7 +9434,7 @@ _Material Component:_ A snake’s tongue and either a bit of honeycomb or a drop
 
 This spell functions like _suggestion_, except that it can affect more creatures. The same _suggestion_ applies to all these creatures.
 
-### Summon Instrument
+## Summon Instrument
 
 *   Conjuration (Summoning)
 *   **Level::** Brd 0
@@ -9448,7 +9448,7 @@ This spell functions like _suggestion_, except that it can affect more creatures
 
 This spell summons one handheld musical instrument of your choice. This instrument appears in your hands or at your feet (your choice). The instrument is typical for its type. Only one instrument appears per casting, and it will play only for you. You can’t summon an instrument too large to be held in two hands.
 
-### Summon Monster I
+## Summon Monster I
 
 *   Conjuration (Summoning) \[see text\]
 *   **Level::** Brd 1, Clr 1, Sor/Wiz 1
@@ -9470,7 +9470,7 @@ When you use a summoning spell to summon an air, chaotic, earth, evil, fire, goo
 
 _Arcane Focus:_ A tiny bag and a small (not necessarily lit) candle.
 
-### Summon Monster II
+## Summon Monster II
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
 *   **Level::** Brd 2, Clr 2, Sor/Wiz 2
@@ -9478,7 +9478,7 @@ _Arcane Focus:_ A tiny bag and a small (not necessarily lit) candle.
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 2nd-level list or 1d3 creatures of the same kind from the 1st-level list.
 
-### Summon Monster III
+## Summon Monster III
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
 *   **Level::** Brd 3, Clr 3, Sor/Wiz 3
@@ -9486,7 +9486,7 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 3rd-level list, 1d3 creatures of the same kind from the 2nd-level list, or 1d4+1 creatures of the same kind from the 1st-level list.
 
-### Summon Monster IV
+## Summon Monster IV
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
 *   **Level::** Brd 4, Clr 4, Sor/Wiz 4
@@ -9494,7 +9494,7 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 4th-level list, 1d3 creatures of the same kind from the 3rd-level list, or 1d4+1 creatures of the same kind from a lower-level list.
 
-### Summon Monster V
+## Summon Monster V
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
 *   **Level::** Brd 5, Clr 5, Sor/Wiz 5
@@ -9502,7 +9502,7 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 5th-level list, 1d3 creatures of the same kind from the 4th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
 
-### Summon Monster VI
+## Summon Monster VI
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
 *   **Level::** Brd 6, Clr 6, Sor/Wiz 6
@@ -9510,21 +9510,21 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 
 This spell functions like _summon monster I,_ except you can summon one creature from the 6th-level list, 1d3 creatures of the same kind from the 5th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
 
-### Summon Monster VII
+## Summon Monster VII
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
 *   **Level::** Clr 7, Sor/Wiz 7
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 7th-level list, 1d3 creatures of the same kind from the 6th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
 
-### Summon Monster VIII
+## Summon Monster VIII
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
 *   **Level::** Clr 8, Sor/Wiz 8
 
 This spell functions like _summon monster I,_ except that you can summon one creature from the 8th-level list, 1d3 creatures of the same kind from the 7th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
 
-### Summon Monster IX
+## Summon Monster IX
 
 *   Conjuration (Summoning) \[see text for _summon monster I_\]
 *   **Level::** Chaos 9, Clr 9, Evil 9, Good 9, Law 9, Sor/Wiz 9
@@ -9665,7 +9665,7 @@ This spell functions like _summon monster I,_ except that you can summon one cre
 | Hezrou (demon)                           | CE  |
 1 May be summoned only into an aquatic or watery environment.
 
-### Summon Nature’s Ally I
+## Summon Nature’s Ally I
 
 *   Conjuration (Summoning)
 *   **Level::** Drd 1, Rgr 1
@@ -9683,7 +9683,7 @@ A summoned monster cannot summon or otherwise conjure another creature, nor can 
 
 The spell conjures one of the creatures from the 1st-level list on the accompanying Summon Nature’s Ally table. You choose which kind of creature to summon, and you can change that choice each time you cast the spell. All the creatures on the table are neutral unless otherwise noted.
 
-### Summon Nature’s Ally II
+## Summon Nature’s Ally II
 
 *   Conjuration (Summoning)
 *   **Level::** Drd 2, Rgr 2
@@ -9691,7 +9691,7 @@ The spell conjures one of the creatures from the 1st-level list on the accompany
 
 This spell functions like _summon nature’s ally I,_ except that you can summon one 2nd-level creature or 1d3 1st-level creatures of the same kind.
 
-### Summon Nature’s Ally III
+## Summon Nature’s Ally III
 
 *   Conjuration (Summoning) \[see text\]
 *   **Level::** Drd 3, Rgr 3
@@ -9701,7 +9701,7 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
-### Summon Nature’s Ally IV
+## Summon Nature’s Ally IV
 
 *   Conjuration (Summoning) \[see text\]
 *   **Level::** Animal 4, Drd 4, Rgr 4
@@ -9711,7 +9711,7 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
-### Summon Nature’s Ally V
+## Summon Nature’s Ally V
 
 *   Conjuration (Summoning) \[see text\]
 *   **Level::** Drd 5
@@ -9721,7 +9721,7 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
-### Summon Nature’s Ally VI
+## Summon Nature’s Ally VI
 
 *   Conjuration (Summoning) \[see text\]
 *   **Level::** Drd 6
@@ -9731,7 +9731,7 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
-### Summon Nature’s Ally VII
+## Summon Nature’s Ally VII
 
 *   Conjuration (Summoning) \[see text\]
 *   **Level::** Drd 7
@@ -9741,7 +9741,7 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
-### Summon Nature’s Ally VIII
+## Summon Nature’s Ally VIII
 
 *   Conjuration (Summoning) \[see text\]
 *   **Level::** Animal 8, Drd 8
@@ -9751,7 +9751,7 @@ This spell functions like _summon nature’s ally I,_ except that you can summon
 
 When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
-### Summon Nature’s Ally IX
+## Summon Nature’s Ally IX
 
 *   Conjuration (Summoning) \[see text\]
 *   **Level::** Drd 9
@@ -9864,7 +9864,7 @@ When you use a summoning spell to summon an air, chaotic, earth, evil, fire, goo
 | \*Can cast _irresistible dance_                          |
 1 May be summoned only into an aquatic or watery environment.
 
-### Summon Swarm
+## Summon Swarm
 
 *   Conjuration (Summoning)
 *   **Level::** Brd 2, Drd 2, Sor/Wiz 2
@@ -9880,7 +9880,7 @@ You summon a swarm of bats, rats, or spiders (your choice), which attacks all ot
 
 _Arcane Material Component:_ A square of red cloth.
 
-### Sunbeam
+## Sunbeam
 
 *   Evocation \[Light\]
 *   **Level::** Drd 7, Sun 7
@@ -9900,7 +9900,7 @@ An undead creature caught within the beam takes 1d6 points of damage per caster 
 
 The ultraviolet light generated by the spell deals damage to fungi, mold, oozes, and slimes just as if they were undead creatures.
 
-### Sunburst
+## Sunburst
 
 *   Evocation \[Light\]
 *   **Level::** Drd 8, Sor/Wiz 8, Sun 8
@@ -9922,7 +9922,7 @@ _Sunburst_ dispels any darkness spells of lower than 9th level within its area.
 
 _Arcane Material Component:_ A piece of sunstone and a naked flame.
 
-### Symbol of Death
+## Symbol of Death
 
 *   Necromancy \[Death\]
 *   **Level::** Clr 8, Sor/Wiz 8
@@ -9958,7 +9958,7 @@ _Note:_ Magic traps such as _symbol of death_ are hard to detect and disable. A 
 
 _Material Component:_ Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp each.
 
-### Symbol of Fear
+## Symbol of Fear
 
 *   Necromancy \[Fear, Mind-Affecting\]
 *   **Level::** Clr 6, Sor/Wiz 6
@@ -9970,7 +9970,7 @@ _Note:_ Magic traps such as _symbol of fear_ are hard to detect and disable. A r
 
 _Material Component:_ Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 1,000 gp.
 
-### Symbol of Insanity
+## Symbol of Insanity
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
 *   **Level::** Clr 8, Sor/Wiz 8
@@ -9984,7 +9984,7 @@ _Note:_ Magic traps such as _symbol of insanity_ are hard to detect and disable.
 
 _Material Component:_ Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp.
 
-### Symbol of Pain
+## Symbol of Pain
 
 *   Necromancy \[Evil\]
 *   **Level::** Clr 5, Sor/Wiz 5
@@ -9997,7 +9997,7 @@ _Note:_ Magic traps such as _symbol of pain_ are hard to detect and disable. A r
 
 _Material Component:_ Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 1,000 gp.
 
-### Symbol of Persuasion
+## Symbol of Persuasion
 
 *   Enchantment (Charm) \[Mind-Affecting\]
 *   **Level::** Clr 6, Sor/Wiz 6
@@ -10011,7 +10011,7 @@ _Note:_ Magic traps such as _symbol of persuasion_ are hard to detect and disabl
 
 _Material Component:_ Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp.
 
-### Symbol of Sleep
+## Symbol of Sleep
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
 *   **Level::** Clr 5, Sor/Wiz 5
@@ -10025,7 +10025,7 @@ _Note:_ Magic traps such as _symbol of sleep_ are hard to detect and disable. A 
 
 _Material Component:_ Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 1,000 gp.
 
-### Symbol of Stunning
+## Symbol of Stunning
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
 *   **Level::** Clr 7, Sor/Wiz 7
@@ -10037,7 +10037,7 @@ _Note:_ Magic traps such as _symbol of stunning_ are hard to detect and disable.
 
 _Material Component:_ Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp.
 
-### Symbol of Weakness
+## Symbol of Weakness
 
 *   Necromancy
 *   **Level::** Clr 7, Sor/Wiz 7
@@ -10050,7 +10050,7 @@ _Note:_ Magic traps such as _symbol of weakness_ are hard to detect and disable.
 
 _Material Component:_ Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp.
 
-### Sympathetic Vibration
+## Sympathetic Vibration
 
 *   Evocation \[Sonic\]
 *   **Level::** Brd 6
@@ -10068,7 +10068,7 @@ _Sympathetic vibration_ cannot affect creatures (including constructs). Since a 
 
 _Focus:_ A tuning fork.
 
-### Sympathy
+## Sympathy
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
 *   **Level::** Drd 9, Sor/Wiz 8
