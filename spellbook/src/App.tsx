@@ -125,7 +125,10 @@ function App() {
                       checked={selectedSpells.has(spell.id)}
                       onChange={() => toggleSpell(spell.id)}
                     />
-                    <span className="spell-name">{spell.name}</span>
+                    <span className="spell-name">
+                      {spell.name}
+                      {spell.homebrew && <span className="homebrew-badge">Homebrew</span>}
+                    </span>
                     <span className="spell-school">({spell.school})</span>
                   </label>
                 ))}
@@ -147,7 +150,10 @@ function App() {
 
           {selectedSpellsData.map(spell => (
             <div key={spell.id} className="spell-card">
-              <h2 className="spell-title">{spell.name}</h2>
+              <h2 className="spell-title">
+                {spell.name}
+                {spell.homebrew && <span className="homebrew-badge-large">Homebrew</span>}
+              </h2>
 
               <div className="spell-meta">
                 <div className="spell-school">

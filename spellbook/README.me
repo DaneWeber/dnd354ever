@@ -50,6 +50,53 @@ The app will automatically hide the selection interface when printing, showing o
 - **Print-Optimized**: CSS is optimized for printing with proper page breaks and formatting
 - **Quick Selection**: "Select All" / "Deselect All" buttons for each spell level
 - **Persistent Selection**: Your spell selections stay active while browsing
+- **Homebrew Spell Support**: Add your own custom spells with clear visual indicators
+
+## Adding Homebrew Spells
+
+Homebrew spells are stored as TypeScript files in the [spells-homebrew/](spells-homebrew/) directory. The app automatically loads all `.ts` files from this directory.
+
+### Quick Start
+
+1. Create a new `.ts` file in `spells-homebrew/` (e.g., `my-spells.ts`)
+2. Use this template:
+
+```typescript
+import type { Spell } from '../src/types';
+
+export const spells: Spell[] = [
+  {
+    id: 'my-custom-spell',
+    name: 'My Custom Spell',
+    school: 'Evocation',
+    level: { 'Wizard': 3 },
+    components: 'V, S',
+    castingTime: '1 standard action',
+    range: 'Medium (100 ft. + 10 ft./level)',
+    target: 'One creature',
+    duration: 'Instantaneous',
+    savingThrow: 'Reflex half',
+    spellResistance: 'Yes',
+    description: 'Your spell description goes here...',
+    homebrew: true
+  }
+];
+```
+
+3. Save the file - your spells will automatically appear in the app!
+
+### Organization
+
+You can organize spell files however you like:
+- By theme: `nature-spells.ts`, `fire-spells.ts`
+- By source: `campaign-spells.ts`, `custom-spells.ts`
+- By caster type: `arcane-spells.ts`, `divine-spells.ts`
+
+See [spells-homebrew/README.md](spells-homebrew/README.md) for complete documentation and examples.
+
+### Visual Indicators
+
+Homebrew spells are automatically marked with a purple "HOMEBREW" badge for easy identification.
 
 ## References
 

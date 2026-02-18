@@ -162,6 +162,33 @@ header p {
   font-size: 0.9rem;
 }
 
+.homebrew-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.4rem;
+  background: #6b4ba1;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.homebrew-badge-large {
+  display: inline-block;
+  margin-left: 1rem;
+  padding: 0.25rem 0.6rem;
+  background: #6b4ba1;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+}
+
 /* Spellbook Display */
 .spellbook {
   margin-top: 3rem;

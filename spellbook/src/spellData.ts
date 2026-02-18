@@ -1,8 +1,9 @@
 import type { Spell } from "./types";
+import { HOMEBREW_SPELLS } from "./homebrewSpells";
 
 // Sample spell data - this will be expanded with more spells
 // For a full implementation, you would parse the HTML files in spells-srd directory
-export const SPELLS: Spell[] = [
+const SRD_SPELLS: Spell[] = [
   {
     id: "acid-arrow",
     name: "Acid Arrow",
@@ -170,3 +171,6 @@ export const SPELLS: Spell[] = [
       "A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage. The missile strikes unerringly, even if the target is in melee combat or has less than total cover or total concealment. For every two caster levels beyond 1st, you gain an additional missile—two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher.",
   },
 ];
+
+// Combine SRD spells with homebrew spells
+export const SPELLS: Spell[] = [...SRD_SPELLS, ...HOMEBREW_SPELLS];

@@ -19,6 +19,7 @@ export interface Spell {
   focus?: string;
   arcaneFocus?: string;
   arcaneMaterialComponent?: string;
+  homebrew?: boolean;
 }
 
 export interface SpellLevel {
