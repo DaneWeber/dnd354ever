@@ -10,7 +10,7 @@
  * - localStorage persistence
  */
 
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import type { SavedSpellbook } from '../types';
 
 const STORAGE_KEY = 'dnd-spellbooks';

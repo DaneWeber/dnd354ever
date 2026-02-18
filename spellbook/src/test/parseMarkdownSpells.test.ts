@@ -6,12 +6,6 @@
  */
 
 import { describe, it, expect } from 'vitest';
-import * as fs from 'fs';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 // Import the parser functions - we'll need to extract them to a testable module
 // For now, we'll copy the parsing logic here as helper functions
