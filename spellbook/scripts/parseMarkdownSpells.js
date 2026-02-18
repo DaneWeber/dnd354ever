@@ -249,7 +249,9 @@ function parseMarkdownSpells(filePath) {
 
       // If we've finished parsing stat blocks and haven't hit a component section,
       // we're in the description
-      if (!line.startsWith("*") && !line.startsWith("##")) {
+      // Note: Stat blocks starting with * or - have already been handled above with continue,
+      // so lines starting with * or - here are description content (like bullet points)
+      if (!line.startsWith("##")) {
         // Skip component detail lines (already handled above)
         if (
           line.match(
