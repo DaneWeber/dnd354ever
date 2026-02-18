@@ -29,7 +29,7 @@ function parseSpellLevels(levelStr) {
   for (const part of parts) {
     const trimmed = part.trim();
 
-    // Handle different class abbreviations
+    // Handle different class abbreviations and cleric domains
     const classMap = {
       "Sor/Wiz": ["Sorcerer", "Wizard"],
       Sor: ["Sorcerer"],
@@ -39,6 +39,29 @@ function parseSpellLevels(levelStr) {
       Brd: ["Bard"],
       Pal: ["Paladin"],
       Rgr: ["Ranger"],
+      // Cleric domains - treat as cleric spells
+      Air: ["Cleric"],
+      Animal: ["Cleric"],
+      Chaos: ["Cleric"],
+      Death: ["Cleric"],
+      Destruction: ["Cleric"],
+      Earth: ["Cleric"],
+      Evil: ["Cleric"],
+      Fire: ["Cleric"],
+      Good: ["Cleric"],
+      Healing: ["Cleric"],
+      Knowledge: ["Cleric"],
+      Law: ["Cleric"],
+      Luck: ["Cleric"],
+      Magic: ["Cleric"],
+      Plant: ["Cleric"],
+      Protection: ["Cleric"],
+      Strength: ["Cleric"],
+      Sun: ["Cleric"],
+      Travel: ["Cleric"],
+      Trickery: ["Cleric"],
+      War: ["Cleric"],
+      Water: ["Cleric"],
     };
 
     // Try to match class and level
