@@ -198,6 +198,126 @@ function App() {
     URL.revokeObjectURL(url);
   };
 
+  const exportSpellbookToMarkdown = (id: string) => {
+    const spellbook = spellbooks.find(sb => sb.id === id);
+    if (!spellbook) return;
+
+    // Get selected spell objects
+    const selectedSpellsData = SPELLS.filter(spell =>
+      spellbook.selectedSpells.includes(spell.id)
+    );
+
+    if (selectedSpellsData.length === 0) {
+      alert('No spells selected to export.');
+      return;
+    }
+
+    // Group spells by level for the character class
+    const spellsByLevel = new Map<number, typeof selectedSpellsData>();
+    selectedSpellsData.forEach(spell => {
+      if (spellbook.characterClass && spellbook.characterClass in spell.level) {
+        const level = spell.level[spellbook.characterClass];
+        if (!spellsByLevel.has(level)) {
+          spellsByLevel.set(level, []);
+        }
+        spellsByLevel.get(level)!.push(spell);
+      }
+    });
+
+    // Sort spells within each level alphabetically
+    spellsByLevel.forEach(spells => {
+      spells.sort((a, b) => a.name.localeCompare(b.name));
+    });
+
+    // Build markdown content
+    let markdown = `# ${spellbook.name}\n\n`;
+
+    if (spellbook.characterClass) {
+      markdown += `**Class:** ${spellbook.characterClass}\n\n`;
+    }
+
+    markdown += `**Spells:** ${selectedSpellsData.length}\n\n`;
+    markdown += `---\n\n`;
+
+    // Add spells grouped by level
+    const sortedLevels = Array.from(spellsByLevel.keys()).sort((a, b) => a - b);
+
+    sortedLevels.forEach(level => {
+      const spells = spellsByLevel.get(level)!;
+      const levelName = level === 0
+        ? (spellbook.characterClass === 'Cleric' || spellbook.characterClass === 'Druid' ? 'Orisons' : 'Cantrips')
+        : `Level ${level}`;
+
+      markdown += `## ${levelName}\n\n`;
+
+      spells.forEach(spell => {
+        markdown += `### ${spell.name}\n\n`;
+
+        // School and descriptors
+        let schoolLine = `**School:** ${spell.school}`;
+        if (spell.subschool) schoolLine += ` (${spell.subschool})`;
+        if (spell.descriptor) schoolLine += ` [${spell.descriptor}]`;
+        markdown += `${schoolLine}\n\n`;
+
+        // Level info
+        const levelEntries = Object.entries(spell.level)
+          .map(([cls, lvl]) => `${cls} ${lvl}`)
+          .join(', ');
+        markdown += `**Level:** ${levelEntries}\n\n`;
+
+        // Components and casting details
+        markdown += `**Components:** ${spell.components}\n\n`;
+        markdown += `**Casting Time:** ${spell.castingTime}\n\n`;
+        markdown += `**Range:** ${spell.range}\n\n`;
+
+        if (spell.target) markdown += `**Target:** ${spell.target}\n\n`;
+        if (spell.area) markdown += `**Area:** ${spell.area}\n\n`;
+        if (spell.effect) markdown += `**Effect:** ${spell.effect}\n\n`;
+
+        markdown += `**Duration:** ${spell.duration}\n\n`;
+        markdown += `**Saving Throw:** ${spell.savingThrow}\n\n`;
+        markdown += `**Spell Resistance:** ${spell.spellResistance}\n\n`;
+
+        // Description
+        markdown += `${spell.description}\n\n`;
+
+        // Additional components
+        if (spell.materialComponent) {
+          markdown += `**Material Component:** ${spell.materialComponent}\n\n`;
+        }
+        if (spell.focus) {
+          markdown += `**Focus:** ${spell.focus}\n\n`;
+        }
+        if (spell.arcaneFocus) {
+          markdown += `**Arcane Focus:** ${spell.arcaneFocus}\n\n`;
+        }
+        if (spell.arcaneMaterialComponent) {
+          markdown += `**Arcane Material Component:** ${spell.arcaneMaterialComponent}\n\n`;
+        }
+        if (spell.xpCost) {
+          markdown += `**XP Cost:** ${spell.xpCost}\n\n`;
+        }
+
+        if (spell.homebrew) {
+          markdown += `*This is a homebrew spell.*\n\n`;
+        }
+
+        markdown += `---\n\n`;
+      });
+    });
+
+    // Create and download the file
+    const blob = new Blob([markdown], { type: 'text/markdown' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${spellbook.name.replace(/[^a-z0-9]/gi, '_')}.md`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
   const importSpellbook = (file: File) => {
     const reader = new FileReader();
     reader.onload = (e) => {
@@ -439,10 +559,17 @@ function App() {
                       </button>
                       <button
                         className="icon-button"
-                        title="Export"
+                        title="Export to JSON"
                         onClick={() => exportSpellbook(sb.id)}
                       >
                         💾
+                      </button>
+                      <button
+                        className="icon-button"
+                        title="Export to Markdown"
+                        onClick={() => exportSpellbookToMarkdown(sb.id)}
+                      >
+                        📝
                       </button>
                       <button
                         className="icon-button delete-button"
