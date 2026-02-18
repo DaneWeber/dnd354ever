@@ -205,15 +205,21 @@ function App() {
                     .map(([cls, lvl]) => `${cls} ${lvl}`)
                     .join(', ')}
                 </div>
-                <div className="stat-row">
-                  <strong>Components:</strong> {spell.components}
-                </div>
-                <div className="stat-row">
-                  <strong>Casting Time:</strong> {spell.castingTime}
-                </div>
-                <div className="stat-row">
-                  <strong>Range:</strong> {spell.range}
-                </div>
+                {spell.components && (
+                  <div className="stat-row">
+                    <strong>Components:</strong> {spell.components}
+                  </div>
+                )}
+                {spell.castingTime && (
+                  <div className="stat-row">
+                    <strong>Casting Time:</strong> {spell.castingTime}
+                  </div>
+                )}
+                {spell.range && (
+                  <div className="stat-row">
+                    <strong>Range:</strong> {spell.range}
+                  </div>
+                )}
                 {spell.target && (
                   <div className="stat-row">
                     <strong>Target:</strong> {spell.target}
@@ -229,15 +235,21 @@ function App() {
                     <strong>Effect:</strong> {spell.effect}
                   </div>
                 )}
-                <div className="stat-row">
-                  <strong>Duration:</strong> {spell.duration}
-                </div>
-                <div className="stat-row">
-                  <strong>Saving Throw:</strong> {spell.savingThrow}
-                </div>
-                <div className="stat-row">
-                  <strong>Spell Resistance:</strong> {spell.spellResistance}
-                </div>
+                {spell.duration && (
+                  <div className="stat-row">
+                    <strong>Duration:</strong> {spell.duration}
+                  </div>
+                )}
+                {spell.savingThrow && (
+                  <div className="stat-row">
+                    <strong>Saving Throw:</strong> {spell.savingThrow}
+                  </div>
+                )}
+                {spell.spellResistance && (
+                  <div className="stat-row">
+                    <strong>Spell Resistance:</strong> {spell.spellResistance}
+                  </div>
+                )}
               </div>
 
               <div className="spell-description">
