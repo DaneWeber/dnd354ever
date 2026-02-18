@@ -310,39 +310,60 @@ function App() {
 
   return (
     <div className="app">
-      {/* Floating Navigation */}
-      <nav className="floating-nav no-print">
-        <button
-          className="nav-button"
-          onClick={() => scrollToSection('spellbooks-section')}
-          title="Spellbooks"
-        >
-          📚
-        </button>
-        <button
-          className="nav-button"
-          onClick={() => scrollToSection('class-section')}
-          title="Class Selection"
-        >
-          🎓
-        </button>
-        {selectedClass && (
+      {/* Unified Navigation */}
+      <nav className="unified-nav no-print">
+        <div className="nav-sections">
           <button
             className="nav-button"
-            onClick={() => scrollToSection('selection-section')}
-            title="Spell Selection"
+            onClick={() => scrollToSection('spellbooks-section')}
+            title="Spellbooks"
           >
-            ✨
+            📚
           </button>
-        )}
-        {selectedClass && selectedSpellsData.length > 0 && (
           <button
             className="nav-button"
-            onClick={() => scrollToSection('printable-section')}
-            title="Printable Spellbook"
+            onClick={() => scrollToSection('class-section')}
+            title="Class Selection"
           >
-            📖
+            🎓
           </button>
+          {selectedClass && (
+            <button
+              className="nav-button"
+              onClick={() => scrollToSection('selection-section')}
+              title="Spell Selection"
+            >
+              ✨
+            </button>
+          )}
+          {selectedClass && selectedSpellsData.length > 0 && (
+            <button
+              className="nav-button"
+              onClick={() => scrollToSection('printable-section')}
+              title="Printable Spellbook"
+            >
+              📖
+            </button>
+          )}
+        </div>
+
+        {/* Level Navigation - shown when class is selected */}
+        {selectedClass && spellsByLevel.size > 0 && (
+          <>
+            <div className="nav-divider"></div>
+            <div className="nav-levels">
+              {[...spellsByLevel.keys()].map((level) => (
+                <button
+                  key={level}
+                  className="nav-button nav-level-button"
+                  onClick={() => scrollToSection(`level-${level}`)}
+                  title={`Level ${level}`}
+                >
+                  {level}
+                </button>
+              ))}
+            </div>
+          </>
         )}
       </nav>
 
@@ -476,22 +497,6 @@ function App() {
           <p className="info">
             Click on spell names to toggle them. Selected spells will appear in your printable spellbook below.
           </p>
-
-          {/* Level Navigation */}
-          <div className="level-nav">
-            {[...spellsByLevel.keys()].map((level) => (
-              <button
-                key={level}
-                className="level-nav-button"
-                onClick={() => scrollToSection(`level-${level}`)}
-                title={`Jump to Level ${level}`}
-              >
-                {level === 0
-                  ? (selectedClass === 'Cleric' || selectedClass === 'Druid' ? '0' : '0')
-                  : level}
-              </button>
-            ))}
-          </div>
 
           {[...spellsByLevel.entries()].map(([level, spells]) => (
             <div key={level} id={`level-${level}`} className="spell-level-group">

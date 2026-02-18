@@ -316,12 +316,12 @@ describe('App Component - Navigation', () => {
     Element.prototype.scrollIntoView = vi.fn();
   });
 
-  it('should render floating navigation with base buttons', () => {
+  it('should render unified navigation with base buttons', () => {
     render(<App />);
 
-    // The floating nav buttons don't have accessible text, they use emojis
+    // The unified nav buttons don't have accessible text, they use emojis
     // Check for the nav container instead
-    const navButtons = document.querySelectorAll('.floating-nav .nav-button');
+    const navButtons = document.querySelectorAll('.unified-nav .nav-button');
     // Should have at least 2 base buttons (Spellbooks and Class)
     expect(navButtons.length).toBeGreaterThanOrEqual(2);
   });
@@ -333,7 +333,7 @@ describe('App Component - Navigation', () => {
     render(<App />);
 
     // Initial nav buttons
-    let navButtons = document.querySelectorAll('.floating-nav .nav-button');
+    let navButtons = document.querySelectorAll('.unified-nav .nav-button');
     const initialCount = navButtons.length;
 
     // Expand manager and create spellbook
@@ -349,7 +349,7 @@ describe('App Component - Navigation', () => {
 
     // Should show spell selection nav button after class selection
     await waitFor(() => {
-      navButtons = document.querySelectorAll('.floating-nav .nav-button');
+      navButtons = document.querySelectorAll('.unified-nav .nav-button');
       expect(navButtons.length).toBeGreaterThan(initialCount);
     });
   });
@@ -381,8 +381,8 @@ describe('App Component - Navigation', () => {
 
     // Should now show printable section nav button
     await waitFor(() => {
-      const navButtons = document.querySelectorAll('.floating-nav .nav-button');
-      expect(navButtons.length).toBe(4); // All 4 nav buttons should be visible
+      const navButtons = document.querySelectorAll('.unified-nav .nav-button');
+      expect(navButtons.length).toBeGreaterThan(3); // At least section buttons + level buttons
     });
   });
 
@@ -393,7 +393,7 @@ describe('App Component - Navigation', () => {
     render(<App />);
 
     // No level nav initially
-    expect(document.querySelector('.level-nav')).not.toBeInTheDocument();
+    expect(document.querySelector('.nav-levels')).not.toBeInTheDocument();
 
     // Setup spellbook and class
     const toggleButton = screen.getByText(/Show.*Manager/i);
@@ -407,7 +407,7 @@ describe('App Component - Navigation', () => {
 
     // Level nav should now appear
     await waitFor(() => {
-      expect(document.querySelector('.level-nav')).toBeInTheDocument();
+      expect(document.querySelector('.nav-levels')).toBeInTheDocument();
     });
   });
 
@@ -429,7 +429,7 @@ describe('App Component - Navigation', () => {
 
     // Check for level navigation buttons (Wizard has spells from level 0-9)
     await waitFor(() => {
-      const levelButtons = document.querySelectorAll('.level-nav-button');
+      const levelButtons = document.querySelectorAll('.nav-levels .nav-button');
       expect(levelButtons.length).toBeGreaterThan(0);
       // Wizard should have multiple spell levels
       expect(levelButtons.length).toBeGreaterThanOrEqual(10); // 0-9
@@ -457,11 +457,11 @@ describe('App Component - Navigation', () => {
 
     // Wait for level nav to appear
     await waitFor(() => {
-      expect(document.querySelector('.level-nav')).toBeInTheDocument();
+      expect(document.querySelector('.nav-levels')).toBeInTheDocument();
     });
 
     // Click a level button
-    const levelButtons = document.querySelectorAll('.level-nav-button');
+    const levelButtons = document.querySelectorAll('.nav-levels .nav-button');
     if (levelButtons.length > 0) {
       await user.click(levelButtons[0] as HTMLElement);
 
@@ -479,11 +479,13 @@ describe('App Component - Navigation', () => {
 
     render(<App />);
 
-    // Find and click the class nav button (second button - index 1)
-    const navButtons = document.querySelectorAll('.floating-nav .nav-button');
-    expect(navButtons.length).toBeGreaterThanOrEqual(2);
+    // Find and click the class nav button (second button in nav-sections)
+    const navSections = document.querySelector('.nav-sections');
+    const navButtons = navSections?.querySelectorAll('.nav-button');
+    expect(navButtons).toBeDefined();
+    expect(navButtons!.length).toBeGreaterThanOrEqual(2);
 
-    await user.click(navButtons[1] as HTMLElement);
+    await user.click(navButtons![1] as HTMLElement);
 
     // Should call scrollIntoView on the class section
     await waitFor(() => {

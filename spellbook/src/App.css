@@ -21,21 +21,93 @@ header p {
   font-size: 1.1rem;
 }
 
-/* Floating Navigation */
-.floating-nav {
+/* Unified Navigation */
+.unified-nav {
   position: fixed;
-  right: 2rem;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
   z-index: 1000;
   background: white;
-  padding: 0.75rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border: 2px solid #8b2323;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Mobile (portrait) - top horizontal bar */
+@media (max-width: 768px), (max-height: 768px) and (orientation: portrait) {
+  .unified-nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    border-radius: 0 0 8px 8px;
+    border-top: none;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-sections {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-divider {
+    width: 2px;
+    background: #8b2323;
+    margin: 0.25rem 0;
+  }
+  
+  .nav-levels {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .app {
+    padding-top: 5rem; /* Space for fixed nav */
+  }
+}
+
+/* Desktop (landscape) - right side vertical bar */
+@media (min-width: 769px) and (orientation: landscape), (min-height: 769px) {
+  .unified-nav {
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.75rem;
+    border-radius: 12px;
+    flex-direction: column;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  .nav-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .nav-divider {
+    height: 2px;
+    width: 100%;
+    background: #8b2323;
+    margin: 0.5rem 0;
+  }
+  
+  .nav-levels {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+/* Larger desktops */
+@media (min-width: 1400px) {
+  .unified-nav {
+    right: 2rem;
+  }
 }
 
 .nav-button {
@@ -51,10 +123,12 @@ header p {
   justify-content: center;
   transition: all 0.2s;
   padding: 0;
+  flex-shrink: 0;
 }
 
 .nav-button:hover {
   background: #8b2323;
+  color: white;
   transform: scale(1.1);
   box-shadow: 0 2px 8px rgba(139, 35, 35, 0.3);
 }
@@ -63,17 +137,11 @@ header p {
   transform: scale(0.95);
 }
 
-/* Hide floating nav on smaller screens */
-@media (max-width: 1400px) {
-  .floating-nav {
-    right: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .floating-nav {
-    display: none;
-  }
+.nav-level-button {
+  font-size: 1.1rem;
+  font-weight: 600;
+  min-width: 48px;
+  padding: 0 0.5rem;
 }
 
 /* Spellbook Manager */
@@ -293,7 +361,8 @@ header p {
   padding: 1.5rem;
   background: #fafafa;
   border-radius: 8px;
-  border: 1px solid #ddd;  scroll-margin-top: 20px;  scroll-margin-top: 20px;
+  border: 1px solid #ddd;
+  scroll-margin-top: 20px;
 }
 
 .spell-selection h2 {
@@ -307,57 +376,13 @@ header p {
   margin-bottom: 1.5rem;
 }
 
-/* Level Navigation */
-.level-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  background: white;
-  border-radius: 6px;
-  border: 2px solid #8b2323;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.level-nav-button {
-  min-width: 48px;
-  height: 48px;
-  padding: 0 1rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  border: 2px solid #8b2323;
-  background: white;
-  color: #8b2323;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.level-nav-button:hover {
-  background: #8b2323;
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 2px 6px rgba(139, 35, 35, 0.3);
-}
-
-.level-nav-button:active {
-  transform: translateY(0);
-}
-
 .spell-level-group {
   margin-bottom: 1.5rem;
   background: white;
   padding: 1rem;
   border-radius: 6px;
   border: 1px solid #ddd;
-  scroll-margin-top: 120px; /* Account for sticky level nav */
+  scroll-margin-top: 100px; /* Account for fixed nav on mobile */
 }
 
 .level-header {
