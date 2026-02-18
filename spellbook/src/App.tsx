@@ -478,6 +478,21 @@ function App() {
               key={className}
               className={`class-button ${selectedClass === className ? 'selected' : ''}`}
               onClick={() => {
+                // Skip if clicking the same class
+                if (selectedClass === className) {
+                  return;
+                }
+
+                // Warn if changing classes with selected spells
+                if (selectedClass && selectedSpells.size > 0) {
+                  const confirmed = confirm(
+                    `Changing classes will deselect all ${selectedSpells.size} spell${selectedSpells.size === 1 ? '' : 's'}. Continue?`
+                  );
+                  if (!confirmed) {
+                    return;
+                  }
+                }
+
                 const newSpells = new Set<string>();
                 setSelectedClass(className);
                 setSelectedSpells(newSpells);
