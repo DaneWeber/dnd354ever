@@ -51,14 +51,14 @@ function App() {
       const updatedSpellbooks = spellbooks.map(sb =>
         sb.id === currentSpellbookId
           ? {
-              ...sb,
-              characterClass: selectedClass,
-              selectedSpells: Array.from(selectedSpells),
-              updatedAt: new Date().toISOString(),
-            }
+            ...sb,
+            characterClass: selectedClass,
+            selectedSpells: Array.from(selectedSpells),
+            updatedAt: new Date().toISOString(),
+          }
           : sb
       );
-      
+
       // Only update if something actually changed
       if (JSON.stringify(updatedSpellbooks) !== JSON.stringify(spellbooks)) {
         setSpellbooks(updatedSpellbooks);
