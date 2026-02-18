@@ -124,8 +124,13 @@ function parseMarkdownSpells(filePath) {
       if (!line && !inDescription) continue;
 
       // Parse school line (first bullet point, no bold) - handle escaped brackets
-      if (line.startsWith("*") && !line.includes("**") && !spell.school) {
-        const schoolStr = line.replace(/^\*\s+/, "").replace(/\\/g, "");
+      // Handle both * and - as bullet markers
+      if (
+        (line.startsWith("*") || line.startsWith("-")) &&
+        !line.includes("**") &&
+        !spell.school
+      ) {
+        const schoolStr = line.replace(/^[*-]\s+/, "").replace(/\\/g, "");
         const schoolInfo = parseSchool(schoolStr);
         spell.school = schoolInfo.school;
         if (schoolInfo.subschool) spell.subschool = schoolInfo.subschool;
@@ -133,8 +138,8 @@ function parseMarkdownSpells(filePath) {
         continue;
       }
 
-      // Parse stat block lines - handle both single and double colons
-      const statMatch = line.match(/^\*\s+\*\*([^*:]+)::?\*\*\s*(.+)$/);
+      // Parse stat block lines - handle both single and double colons, and both * and - bullets
+      const statMatch = line.match(/^[*-]\s+\*\*([^*:]+)::?\*\*\s*(.+)$/);
       if (statMatch) {
         const key = statMatch[1].trim();
         const value = statMatch[2].trim();
@@ -221,11 +226,16 @@ function parseMarkdownSpells(filePath) {
 
       // If we've finished parsing stat blocks and haven't hit a component section,
       // we're in the description
-      if (
-        !line.startsWith("*") &&
-        !line.startsWith("_") &&
-        !line.startsWith("##")
-      ) {
+      if (!line.startsWith("*") && !line.startsWith("##")) {
+        // Skip component detail lines (already handled above)
+        if (
+          line.match(
+            /^_(Material Component|Focus|Arcane Material Component|Arcane Focus|XP Cost)::?_/,
+          )
+        ) {
+          continue;
+        }
+
         inDescription = true;
         if (line) {
           descriptionLines.push(line);
