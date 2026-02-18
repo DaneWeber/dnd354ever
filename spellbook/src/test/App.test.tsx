@@ -34,6 +34,21 @@ describe('App Component - Basic Rendering', () => {
     render(<App />);
     expect(screen.getByText(/Saved Spellbooks/i)).toBeInTheDocument();
   });
+
+  it('should create a default spellbook on first load', async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    // Expand manager to see spellbooks
+    const toggleButton = screen.getByText(/Show.*Manager/i);
+    await user.click(toggleButton);
+
+    // Should have a default spellbook "My Spellbook"
+    await waitFor(() => {
+      const spellbooks = screen.getAllByText('My Spellbook');
+      expect(spellbooks.length).toBeGreaterThan(0);
+    });
+  });
 });
 
 describe('App Component - Spellbook Management', () => {

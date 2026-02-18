@@ -8,34 +8,61 @@ import './App.css';
 
 const STORAGE_KEY = 'dnd-spellbooks';
 
+// Helper function to create a default spellbook
+const createDefaultSpellbook = (): SavedSpellbook => ({
+  id: `sb-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+  name: 'My Spellbook',
+  characterClass: null,
+  selectedSpells: [],
+  createdAt: new Date().toISOString(),
+  updatedAt: new Date().toISOString(),
+});
+
 function App() {
   // Load initial state from localStorage using lazy initialization
-  const [spellbooks, setSpellbooks] = useState<SavedSpellbook[]>(() => {
+  // We need to compute spellbooks and currentSpellbookId together
+  const getInitialState = () => {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) {
       try {
         const parsed = JSON.parse(stored);
-        return parsed.spellbooks || [];
+        const loadedSpellbooks = parsed.spellbooks || [];
+
+        // Always ensure at least one spellbook exists
+        if (loadedSpellbooks.length === 0) {
+          const defaultBook = createDefaultSpellbook();
+          return {
+            spellbooks: [defaultBook],
+            currentSpellbookId: defaultBook.id,
+          };
+        }
+
+        // Return loaded spellbooks with current ID
+        const currentId = parsed.currentSpellbookId || loadedSpellbooks[0].id;
+        return {
+          spellbooks: loadedSpellbooks,
+          currentSpellbookId: currentId,
+        };
       } catch (e) {
         console.error('Failed to load spellbooks from localStorage:', e);
-        return [];
+        const defaultBook = createDefaultSpellbook();
+        return {
+          spellbooks: [defaultBook],
+          currentSpellbookId: defaultBook.id,
+        };
       }
     }
-    return [];
-  });
+    // No stored data - create default spellbook
+    const defaultBook = createDefaultSpellbook();
+    return {
+      spellbooks: [defaultBook],
+      currentSpellbookId: defaultBook.id,
+    };
+  };
 
-  const [currentSpellbookId, setCurrentSpellbookId] = useState<string | null>(() => {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored) {
-      try {
-        const parsed = JSON.parse(stored);
-        return parsed.currentSpellbookId || null;
-      } catch {
-        return null;
-      }
-    }
-    return null;
-  });
+  const initialState = getInitialState();
+  const [spellbooks, setSpellbooks] = useState<SavedSpellbook[]>(initialState.spellbooks);
+  const [currentSpellbookId, setCurrentSpellbookId] = useState<string | null>(initialState.currentSpellbookId);
 
   const [showSpellbookManager, setShowSpellbookManager] = useState(false);
 
