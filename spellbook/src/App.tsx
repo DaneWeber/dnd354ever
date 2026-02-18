@@ -25,6 +25,7 @@ function App() {
     if (stored) {
       try {
         const parsed = JSON.parse(stored);
+        // Initial state hydration from localStorage on mount
         setSpellbooks(parsed.spellbooks || []);
         setCurrentSpellbookId(parsed.currentSpellbookId || null);
 
@@ -44,29 +45,24 @@ function App() {
     }
   }, []);
 
-  // Save to localStorage whenever spellbooks or selections change
+  // Update current spellbook when selections change
   useEffect(() => {
     if (currentSpellbookId) {
-      // Update the current spellbook
-      const updatedSpellbooks = spellbooks.map(sb =>
-        sb.id === currentSpellbookId
-          ? {
-            ...sb,
-            characterClass: selectedClass,
-            selectedSpells: Array.from(selectedSpells),
-            updatedAt: new Date().toISOString(),
-          }
-          : sb
-      );
-
-      // Only update if something actually changed
-      if (JSON.stringify(updatedSpellbooks) !== JSON.stringify(spellbooks)) {
-        setSpellbooks(updatedSpellbooks);
-        localStorage.setItem(
-          STORAGE_KEY,
-          JSON.stringify({ spellbooks: updatedSpellbooks, currentSpellbookId })
+      // Use functional update to avoid dependency on spellbooks
+      setSpellbooks(prev => {
+        const updated = prev.map(sb =>
+          sb.id === currentSpellbookId
+            ? {
+              ...sb,
+              characterClass: selectedClass,
+              selectedSpells: Array.from(selectedSpells),
+              updatedAt: new Date().toISOString(),
+            }
+            : sb
         );
-      }
+        // Only update if something actually changed
+        return JSON.stringify(updated) !== JSON.stringify(prev) ? updated : prev;
+      });
     }
   }, [selectedClass, selectedSpells, currentSpellbookId]);
 

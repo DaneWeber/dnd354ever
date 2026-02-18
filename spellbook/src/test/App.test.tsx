@@ -8,7 +8,7 @@
  * - localStorage integration
  */
 
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { render, screen, waitFor } from './testUtils';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
@@ -43,7 +43,7 @@ describe('App Component - Spellbook Management', () => {
 
   it('should create new spellbook', async () => {
     const user = userEvent.setup();
-    (window.prompt as any).mockReturnValue('My Spellbook');
+    (window.prompt as unknown as ReturnType<typeof vi.fn>).mockReturnValue('My Spellbook');
 
     render(<App />);
 
@@ -85,7 +85,7 @@ describe('App Component - Class Selection', () => {
 
   it('should allow selecting a class', async () => {
     const user = userEvent.setup();
-    (window.prompt as any).mockReturnValue('Test Book');
+    (window.prompt as unknown as ReturnType<typeof vi.fn>).mockReturnValue('Test Book');
 
     render(<App />);
 
@@ -109,7 +109,7 @@ describe('App Component - Class Selection', () => {
 
   it('should display available spells when class is selected', async () => {
     const user = userEvent.setup();
-    (window.prompt as any).mockReturnValue('Test Book');
+    (window.prompt as unknown as ReturnType<typeof vi.fn>).mockReturnValue('Test Book');
 
     render(<App />);
 
@@ -140,7 +140,7 @@ describe('App Component - localStorage Integration', () => {
 
   it('should persist spellbook to localStorage', async () => {
     const user = userEvent.setup();
-    (window.prompt as any).mockReturnValue('Persisted Book');
+    (window.prompt as unknown as ReturnType<typeof vi.fn>).mockReturnValue('Persisted Book');
 
     render(<App />);
 
@@ -215,12 +215,12 @@ describe('App Component - Spell Selection and Display', () => {
 
   it('should allow toggling spell selection', async () => {
     const user = userEvent.setup();
-    (window.prompt as any).mockReturnValue('Test Book');
+    (window.prompt as unknown as ReturnType<typeof vi.fn>).mockReturnValue('Test Book');
 
     render(<App />);
 
     // Expand manager first
-    let toggleButton = screen.getByText(/Show.*Manager/i);
+    const toggleButton = screen.getByText(/Show.*Manager/i);
     await user.click(toggleButton);
 
     // Setup - create spellbook
@@ -253,7 +253,7 @@ describe('App Component - Spell Selection and Display', () => {
 
   it('should show print button when spells are selected', async () => {
     const user = userEvent.setup();
-    (window.prompt as any).mockReturnValue('Test Book');
+    (window.prompt as unknown as ReturnType<typeof vi.fn>).mockReturnValue('Test Book');
 
     render(<App />);
 

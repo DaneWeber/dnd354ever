@@ -89,7 +89,7 @@ function parseSchool(schoolStr: string): {
   };
 
   // Match school(subschool) [descriptor]
-  const match = schoolStr.match(/^([^(\[]+)(?:\(([^)]+)\))?(?:\s*\[([^\]]+)\])?/);
+  const match = schoolStr.match(/^([^([]+)(?:\(([^)]+)\))?(?:\s*\[([^\]]+)\])?/);
   if (match) {
     result.school = match[1].trim();
     if (match[2]) {
