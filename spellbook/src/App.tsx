@@ -274,15 +274,58 @@ function App() {
     }
   }, [selectedSpells, sortOrder, selectedClass]);
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="app">
+      {/* Floating Navigation */}
+      <nav className="floating-nav no-print">
+        <button
+          className="nav-button"
+          onClick={() => scrollToSection('spellbooks-section')}
+          title="Spellbooks"
+        >
+          📚
+        </button>
+        <button
+          className="nav-button"
+          onClick={() => scrollToSection('class-section')}
+          title="Class Selection"
+        >
+          🎓
+        </button>
+        {selectedClass && (
+          <button
+            className="nav-button"
+            onClick={() => scrollToSection('selection-section')}
+            title="Spell Selection"
+          >
+            ✨
+          </button>
+        )}
+        {selectedClass && selectedSpellsData.length > 0 && (
+          <button
+            className="nav-button"
+            onClick={() => scrollToSection('printable-section')}
+            title="Printable Spellbook"
+          >
+            📖
+          </button>
+        )}
+      </nav>
+
       <header className="no-print">
         <h1>D&D 3.5 Spellbook Generator</h1>
         <p>Select your class, toggle the spells you want, and print your custom spellbook.</p>
       </header>
 
       {/* Spellbook Manager */}
-      <div className="spellbook-manager no-print">
+      <div id="spellbooks-section" className="spellbook-manager no-print">
         <div className="manager-header">
           <h2>Saved Spellbooks</h2>
           <button
@@ -379,7 +422,7 @@ function App() {
       </div>
 
       {/* Class Selection */}
-      <div className="class-selection no-print">
+      <div id="class-section" className="class-selection no-print">
         <h2>Select Your Class</h2>
         <div className="class-buttons">
           {ALL_CLASSES.map(className => (
@@ -401,14 +444,30 @@ function App() {
 
       {/* Spell Selection */}
       {selectedClass && (
-        <div className="spell-selection no-print">
+        <div id="selection-section" className="spell-selection no-print">
           <h2>{selectedClass} Spells</h2>
           <p className="info">
             Click on spell names to toggle them. Selected spells will appear in your printable spellbook below.
           </p>
 
+          {/* Level Navigation */}
+          <div className="level-nav">
+            {[...spellsByLevel.keys()].map((level) => (
+              <button
+                key={level}
+                className="level-nav-button"
+                onClick={() => scrollToSection(`level-${level}`)}
+                title={`Jump to Level ${level}`}
+              >
+                {level === 0
+                  ? (selectedClass === 'Cleric' || selectedClass === 'Druid' ? '0' : '0')
+                  : level}
+              </button>
+            ))}
+          </div>
+
           {[...spellsByLevel.entries()].map(([level, spells]) => (
-            <div key={level} className="spell-level-group">
+            <div key={level} id={`level-${level}`} className="spell-level-group">
               <div className="level-header">
                 <h3>
                   Level {level} {level === 0 ? `(${selectedClass === 'Cleric' || selectedClass === 'Druid' ? 'Orisons' : 'Cantrips'})` : ''}
@@ -443,7 +502,7 @@ function App() {
 
       {/* Printable Spellbook */}
       {selectedClass && selectedSpellsData.length > 0 && (
-        <div className="spellbook">
+        <div id="printable-section" className="spellbook">
           <div className="spellbook-header">
             <h1>{selectedClass} Spellbook</h1>
             <div className="spellbook-controls">
