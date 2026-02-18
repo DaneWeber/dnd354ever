@@ -19,6 +19,7 @@ export interface Spell {
   focus?: string;
   arcaneFocus?: string;
   arcaneMaterialComponent?: string;
+  xpCost?: string;
   homebrew?: boolean;
 }
 

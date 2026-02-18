@@ -209,7 +209,7 @@ function App() {
                 <p>{spell.description}</p>
               </div>
 
-              {(spell.materialComponent || spell.focus || spell.arcaneFocus || spell.arcaneMaterialComponent) && (
+              {(spell.materialComponent || spell.focus || spell.arcaneFocus || spell.arcaneMaterialComponent || spell.xpCost) && (
                 <div className="spell-components-detail">
                   {spell.materialComponent && (
                     <p><em>Material Component:</em> {spell.materialComponent}</p>
@@ -222,6 +222,9 @@ function App() {
                   )}
                   {spell.arcaneMaterialComponent && (
                     <p><em>Arcane Material Component:</em> {spell.arcaneMaterialComponent}</p>
+                  )}
+                  {spell.xpCost && (
+                    <p><em>XP Cost:</em> {spell.xpCost}</p>
                   )}
                 </div>
               )}
