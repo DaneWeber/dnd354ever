@@ -2212,6 +2212,7 @@ _Material Component:_ 5 pounds of powdered silver (worth 25 gp).
 Depending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The _dancing lights_ must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.
 
 _Dancing lights_ can be made permanent with a _permanency_ spell.
+
 ## Darkness
 
 *   Evocation \[Darkness\]
@@ -2233,6 +2234,7 @@ If _darkness_ is cast on a small object that is then placed inside or under a li
 _Darkness_ counters or dispels any light spell of equal or lower spell level.
 
 _Arcane Material Component:_ A bit of bat fur and either a drop of pitch or a piece of coal.
+
 ## Darkvision
 
 *   Transmutation
@@ -2250,6 +2252,7 @@ The subject gains the ability to see 60 feet even in total darkness. Darkvision 
 _Darkvision_ can be made permanent with a _permanency_ spell.
 
 _Material Component:_ Either a pinch of dried carrot or an agate.
+
 ## Daylight
 
 *   Evocation \[Light\]
@@ -2285,6 +2288,7 @@ _Daylight_ counters or dispels any darkness spell of equal or lower level, such 
 This enchantment clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes no actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers get no special advantage against it.
 
 _Material Component:_ A pinch of wool or similar substance.
+
 ## Daze Monster
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -2293,6 +2297,7 @@ _Material Component:_ A pinch of wool or similar substance.
 *   **Target:** One living creature of 6 HD or less
 
 This spell functions like _daze,_ but _daze monster_ can affect any one living creature of any type. Creatures of 7 or more HD are not affected.
+
 ## Death Knell
 
 *   Necromancy \[Death, Evil\]
@@ -2306,6 +2311,7 @@ This spell functions like _daze,_ but _daze monster_ can affect any one living c
 *   **Spell Resistance:** Yes
 
 You draw forth the ebbing life force of a creature and use it to fuel your own power. Upon casting this spell, you touch a living creature that has –1 or fewer hit points. If the subject fails its saving throw, it dies, and you gain 1d8 temporary hit points and a +2 bonus to Strength. Additionally, your effective caster level goes up by +1, improving spell effects dependent on caster level. (This increase in effective caster level does not grant you access to more spells.) These effects last for 10 minutes per HD of the subject creature.
+
 ## Death Ward
 
 *   Necromancy
@@ -2323,6 +2329,7 @@ The subject is immune to all death spells, magical death effects, energy drain, 
 This spell doesn’t remove negative levels that the subject has already gained, nor does it affect the saving throw necessary 24 hours after gaining a negative level.
 
 _Death ward_ does not protect against other sorts of attacks even if those attacks might be lethal.
+
 ## Deathwatch
 
 *   Necromancy \[Evil\]
@@ -2338,6 +2345,7 @@ _Death ward_ does not protect against other sorts of attacks even if those attac
 Using the foul sight granted by the powers of unlife, you can determine the condition of creatures near death within the spell’s range. You instantly know whether each creature within the area is dead, fragile (alive and wounded, with 3 or fewer hit points left), fighting off death (alive with 4 or more hit points), undead, or neither alive nor dead (such as a construct).
 
 _Deathwatch_ sees through any spell or ability that allows creatures to feign death.
+
 ## Deep Slumber
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -2345,6 +2353,7 @@ _Deathwatch_ sees through any spell or ability that allows creatures to feign de
 *   **Range:** Close (25 ft. + 5 ft./2 levels)
 
 This spell functions like _sleep,_ except that it affects 10 HD of creatures.
+
 ## Deeper Darkness
 
 *   Evocation \[Darkness\]
@@ -2356,6 +2365,7 @@ This spell functions like _darkness_, except that the object radiates shadowy il
 _Daylight_ brought into an area of _deeper darkness_ (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect.
 
 _Deeper darkness_ counters and dispels any light spell of equal or lower level, including _daylight_ and _light._
+
 ## Delay Poison
 
 *   Conjuration (Healing)
@@ -2369,6 +2379,7 @@ _Deeper darkness_ counters and dispels any light spell of equal or lower level, 
 *   **Spell Resistance:** Yes (harmless)
 
 The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell’s duration does not affect the subject until the spell’s duration has expired. _Delay poison_ does not cure any damage that poison may have already done.
+
 ## Delayed Blast Fireball
 
 *   Evocation \[Fire\]
@@ -2378,6 +2389,7 @@ The subject becomes temporarily immune to poison. Any poison in its system or an
 This spell functions like _fireball,_ except that it is more powerful and can detonate up to 5 rounds after the spell is cast. The burst of flame deals 1d6 points of fire damage per caster level (maximum 20d6).
 
 The glowing bead created by _delayed blast fireball_ can detonate immediately if you desire, or you can choose to delay the burst for as many as 5 rounds. You select the amount of delay upon completing the spell, and that time cannot change once it has been set unless someone touches the bead (see below). If you choose a delay, the glowing bead sits at its destination until it detonates. A creature can pick up and hurl the bead as a thrown weapon (range increment 10 feet). If a creature handles and moves the bead within 1 round of its detonation, there is a 25% chance that the bead detonates while being handled.
+
 ## Demand
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -2390,6 +2402,7 @@ This spell functions like _sending,_ but the message can also contain a _suggest
 The _demand_’s message to the creature must be twenty-five words or less, including the _suggestion._ The creature can also give a short reply immediately.
 
 _Material Component:_ A short piece of copper wire and some small part of the subject—a hair, a bit of nail, or the like.
+
 ## Desecrate
 
 *   Evocation \[Evil\]
@@ -2413,6 +2426,7 @@ If the area contains an altar, shrine, or other permanent fixture of a deity, pa
 _Desecrate_ counters and dispels _consecrate_.
 
 _Material Component:_ A vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area.
+
 ## Destruction
 
 *   Necromancy \[Death\]
@@ -2428,6 +2442,7 @@ _Material Component:_ A vial of unholy water and 25 gp worth (5 pounds) of silve
 This spell instantly slays the subject and consumes its remains (but not its equipment and possessions) utterly. If the target’s Fortitude saving throw succeeds, it instead takes 10d6 points of damage. The only way to restore life to a character who has failed to save against this spell is to use _true resurrection_, a carefully worded _wish_ spell followed by _resurrection_, or _miracle_.
 
 _Focus:_ A special holy (or unholy) symbol of silver marked with verses of anathema (cost 500 gp).
+
 ## Detect Animals or Plants
 
 *   Divination
@@ -2461,12 +2476,14 @@ Weak: 0 or fewer hit points remaining, afflicted with a disease in the terminal 
 If a creature falls into more than one category, the spell indicates the weaker of the two.
 
 Each round you can turn to detect a kind of animal or plant in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+
 ## Detect Chaos
 
 *   Divination
 *   **Level:** Clr 1
 
 This spell functions like _detect evil_, except that it detects the auras of chaotic creatures, clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an overwhelming chaotic aura if you are lawful.
+
 ## Detect Evil
 
 *   Divination
@@ -2515,18 +2532,21 @@ _Lingering Aura:_ An evil aura lingers after its original source dissipates (in 
 Animals, traps, poisons, and other potential perils are not evil, and as such this spell does not detect them.
 
 Each round, you can turn to detect evil in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+
 ## Detect Good
 
 *   Divination
 *   **Level:** Clr 1
 
 This spell functions like _detect evil_, except that it detects the auras of good creatures, clerics or paladins of good deities, good spells, and good magic items, and you are vulnerable to an overwhelming good aura if you are evil. Healing potions, antidotes, and similar beneficial items are not good.
+
 ## Detect Law
 
 *   Divination
 *   **Level:** Clr 1
 
 This spell functions like _detect evil_, except that it detects the auras of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an overwhelming lawful aura if you are chaotic.
+
 ## Detect Magic
 
 *   Divination
@@ -2572,6 +2592,7 @@ Outsiders and elementals are not magical in themselves, but if they are summoned
 Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
 
 _Detect magic_ can be made permanent with a _permanency_ spell.
+
 ## Detect Poison
 
 *   Divination
@@ -2587,6 +2608,7 @@ _Detect magic_ can be made permanent with a _permanency_ spell.
 You determine whether a creature, object, or area has been poisoned or is poisonous. You can determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft (alchemy) check prior to the Wisdom check.
 
 The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+
 ## Detect Scrying
 
 *   Divination
@@ -2604,6 +2626,7 @@ You immediately become aware of any attempt to observe you by means of a divinat
 If the scrying attempt originates within the area, you also know its location; otherwise, you and the scrier immediately make opposed caster level checks (1d20 + caster level). If you at least match the scrier’s result, you get a visual image of the scrier and an accurate sense of his or her direction and distance from you.
 
 _Material Component:_ A small piece of mirror and a miniature brass hearing trumpet.
+
 ## Detect Secret Doors
 
 *   Divination
@@ -2623,6 +2646,7 @@ _1st Round:_ Presence or absence of secret doors.
 _2nd Round:_ Number of secret doors and the location of each. If an aura is outside your line of sight, then you discern its direction but not its exact location.
 
 _Each Additional Round:_ The mechanism or trigger for one particular secret portal closely examined by you. Each round, you can turn to detect secret doors in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+
 ## Detect Snares and Pits
 
 *   Divination
@@ -2648,6 +2672,7 @@ _2nd Round:_ Number of hazards and the location of each. If a hazard is outside 
 _Each Additional Round:_ The general type and trigger for one particular hazard closely examined by you.
 
 Each round, you can turn to detect snares and pits in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+
 ## Detect Thoughts
 
 *   Divination \[Mind-Affecting\]
@@ -2671,6 +2696,7 @@ _3rd Round:_ Surface thoughts of any mind in the area. A target’s Will save pr
 Each round, you can turn to detect thoughts in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
 
 _Arcane Focus:_ A copper piece.
+
 ## Detect Undead
 
 *   Divination
@@ -2712,6 +2738,7 @@ _Lingering Aura:_ An undead aura lingers after its original source is destroyed.
 Each round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
 
 _Arcane Material Component:_ A bit of earth from a grave.
+
 ## Dictum
 
 *   Evocation \[Lawful, Sonic\]
@@ -2746,6 +2773,7 @@ _Killed:_ Living creatures die. Undead creatures are destroyed.
 Furthermore, if you are on your home plane when you cast this spell, nonlawful extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the _dictum._ The banishment effect allows a Will save (at a –4 penalty) to negate.
 
 Creatures whose HD exceed your caster level are unaffected by _dictum._
+
 ## Dimension Door
 
 *   Conjuration (Teleportation)
@@ -2763,6 +2791,7 @@ You instantly transfer yourself from your current location to any other spot wit
 If you arrive in a place that is already occupied by a solid body, you and each creature traveling with you take 1d6 points of damage and are shunted to a random open space on a suitable surface within 100 feet of the intended location.
 
 If there is no free space within 100 feet, you and each creature traveling with you take an additional 2d6 points of damage and are shunted to a free space within 1,000 feet. If there is no free space within 1,000 feet, you and each creature travelling with you take an additional 4d6 points of damage and the spell simply fails.
+
 ## Dimensional Anchor
 
 *   Abjuration
@@ -2778,6 +2807,7 @@ If there is no free space within 100 feet, you and each creature traveling with 
 A green ray springs from your outstretched hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a _dimensional anchor_ include _astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport,_ and similar spell-like or psionic abilities. The spell also prevents the use of a _gate_ or _teleportation circle_ for the duration of the spell.
 
 A _dimensional anchor_ does not interfere with the movement of creatures already in ethereal or astral form when the spell is cast, nor does it block extradimensional perception or attack forms. Also, _dimensional anchor_ does not prevent summoned creatures from disappearing at the end of a summoning spell.
+
 ## Dimensional Lock
 
 *   Abjuration
@@ -2793,6 +2823,7 @@ A _dimensional anchor_ does not interfere with the movement of creatures already
 You create a shimmering emerald barrier that completely blocks extradimensional travel. Forms of movement barred include _astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport,_ and similar spell-like or psionic abilities. Once _dimensional lock_ is in place, extradimensional travel into or out of the area is not possible.
 
 A _dimensional lock_ does not interfere with the movement of creatures already in ethereal or astral form when the spell is cast, nor does it block extradimensional perception or attack forms. Also, the spell does not prevent summoned creatures from disappearing at the end of a summoning spell.
+
 ## Diminish Plants
 
 *   Transmutation
@@ -2818,6 +2849,7 @@ _Stunt Growth:_ This version targets normal plants within a range of 1/2 mile, r
 _Diminish plants_ counters _plant growth_.
 
 This spell has no effect on plant creatures.
+
 ## Discern Lies
 
 *   Divination
@@ -2833,6 +2865,7 @@ This spell has no effect on plant creatures.
 Each round, you concentrate on one subject, who must be within range. You know if the subject deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying. The spell does not reveal the truth, uncover unintentional inaccuracies, or necessarily reveal evasions.
 
 Each round, you may concentrate on a different subject.
+
 ## Discern Location
 
 *   Divination
@@ -2848,6 +2881,7 @@ Each round, you may concentrate on a different subject.
 A _discern location_ spell is among the most powerful means of locating creatures or objects. Nothing short of a _mind blank_ spell or the direct intervention of a deity keeps you from learning the exact location of a single individual or object. _Discern location_ circumvents normal means of protection from scrying or location. The spell reveals the name of the creature or object’s location (place, name, business name, building name, or the like), community, county (or similar political division), country, continent, and the plane of existence where the target lies.
 
 To find a creature with the spell, you must have seen the creature or have some item that once belonged to it. To find an object, you must have touched it at least once.
+
 ## Disguise Self
 
 *   Illusion (Glamer)
@@ -2865,6 +2899,7 @@ The spell does not provide the abilities or mannerisms of the chosen form, nor d
 If you use this spell to create a disguise, you get a +10 bonus on the Disguise check.
 
 A creature that interacts with the glamer gets a Will save to recognize it as an illusion.
+
 ## Disintegrate
 
 *   Transmutation
@@ -2886,6 +2921,7 @@ A creature or object that makes a successful Fortitude save is partially affecte
 Only the first creature or object struck can be affected; that is, the ray affects only one target per casting.
 
 _Arcane Material Component:_ A lodestone and a pinch of dust.
+
 ## Dismissal
 
 *   Abjuration
@@ -2899,12 +2935,14 @@ _Arcane Material Component:_ A lodestone and a pinch of dust.
 *   **Spell Resistance:** Yes
 
 This spell forces an extraplanar creature back to its proper plane if it fails a special Will save (DC = spell’s save DC – creature’s HD + your caster level). If the spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually sending the subject to a plane other than its own.
+
 ## Dispel Chaos
 
 *   Abjuration \[Lawful\]
 *   **Level:** Clr 5, Law 5, Pal 4
 
 This spell functions like _dispel evil_, except that you are surrounded by constant, blue, lawful energy, and the spell affects chaotic creatures and spells rather than evil ones.
+
 ## Dispel Evil
 
 *   Abjuration \[Good\]
@@ -2924,18 +2962,21 @@ First, you gain a +4 deflection bonus to AC against attacks by evil creatures.
 Second, on making a successful melee touch attack against an evil creature from another plane, you can choose to drive that creature back to its home plane. The creature can negate the effects with a successful Will save (spell resistance applies). This use discharges and ends the spell.
 
 Third, with a touch you can automatically dispel any one enchantment spell cast by an evil creature or any one evil spell. _Exception:_ Spells that can’t be dispelled by _dispel magic_ also can’t be dispelled by _dispel evil_. Saving throws and spell resistance do not apply to this effect. This use discharges and ends the spell.
+
 ## Dispel Good
 
 *   Abjuration \[Evil\]
 *   **Level:** Clr 5, Evil 5
 
 This spell functions like _dispel evil_, except that you are surrounded by dark, wavering, unholy energy, and the spell affects good creatures and spells rather than evil ones.
+
 ## Dispel Law
 
 *   Abjuration \[Chaotic\]
 *   **Level:** Chaos 5, Clr 5
 
 This spell functions like _dispel evil_, except that you are surrounded by flickering, yellow, chaotic energy, and the spell affects lawful creatures and spells rather than evil ones.
+
 ## Dispel Magic
 
 *   Abjuration
@@ -2977,6 +3018,7 @@ If an object or creature that is the effect of an ongoing spell (such as a monst
 You may choose to automatically succeed on dispel checks against any spell that you have cast.
 
 _Counterspell:_ When _dispel magic_ is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, _dispel magic_ may not work; you must make a dispel check to counter the other spellcaster’s spell.
+
 ## Dispel Magic, Greater
 
 *   Abjuration
@@ -2985,6 +3027,7 @@ _Counterspell:_ When _dispel magic_ is used in this way, the spell targets a spe
 This spell functions like _dispel magic_, except that the maximum caster level on your dispel check is +20 instead of +10.
 
 Additionally, _greater dispel magic_ has a chance to dispel any effect that _remove curse_ can remove, even if _dispel magic_ can’t dispel that effect.
+
 ## Displacement
 
 *   Illusion (Glamer)
@@ -3000,6 +3043,7 @@ Additionally, _greater dispel magic_ has a chance to dispel any effect that _rem
 The subject of this spell appears to be about 2 feet away from its true location. The creature benefits from a 50% miss chance as if it had total concealment. However, unlike actual total concealment, _displacement_ does not prevent enemies from targeting the creature normally. _True seeing_ reveals its true location.
 
 _Material Component:_ A small strip of leather twisted into a loop.
+
 ## Disrupt Undead
 
 *   Necromancy
@@ -3013,6 +3057,7 @@ _Material Component:_ A small strip of leather twisted into a loop.
 *   **Spell Resistance:** Yes
 
 You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.
+
 ## Disrupting Weapon
 
 *   Transmutation
@@ -3026,6 +3071,7 @@ You direct a ray of positive energy. You must make a ranged touch attack to hit,
 *   **Spell Resistance:** Yes (harmless, object)
 
 This spell makes a melee weapon deadly to undead. Any undead creature with HD equal to or less than your caster level must succeed on a Will save or be destroyed utterly if struck in combat with this weapon. Spell resistance does not apply against the destruction effect.
+
 ## Divination
 
 *   Divination
@@ -3041,6 +3087,7 @@ Similar to _augury_ but more powerful, a _divination_ spell can provide you with
 As with _augury_, multiple _divinations_ about the same topic by the same caster use the same dice result as the first _divination_ spell and yield the same answer each time.
 
 _Material Component:_ Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.
+
 ## Divine Favor
 
 *   Evocation
@@ -3052,6 +3099,7 @@ _Material Component:_ Incense and a sacrificial offering appropriate to your rel
 *   **Duration:** 1 minute
 
 Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +6). The bonus doesn’t apply to spell damage.
+
 ## Divine Power
 
 *   Evocation
@@ -3063,6 +3111,7 @@ Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on att
 *   **Duration:** 1 round/level
 
 Calling upon the divine power of your patron, you imbue yourself with strength and skill in combat. Your base attack bonus becomes equal to your character level (which may give you additional attacks), you gain a +6 enhancement bonus to Strength, and you gain 1 temporary hit point per caster level.
+
 ## Dominate Animal
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -3078,6 +3127,7 @@ Calling upon the divine power of your patron, you imbue yourself with strength a
 You can enchant an animal and direct it with simple commands such as “Attack,” “Run,” and “Fetch.” Suicidal or self-destructive commands (including an order to attack a creature two or more size categories larger than the _dominated_ animal) are simply ignored.
 
 _Dominate animal_ establishes a mental link between you and the subject creature. The animal can be directed by silent mental command as long as it remains in range. You need not see the creature to control it. You do not receive direct sensory input from the creature, but you know what it is experiencing. Because you are directing the animal with your own intelligence, it may be able to undertake actions normally beyond its own comprehension. You need not concentrate exclusively on controlling the creature unless you are trying to direct it to do something it normally couldn’t do. Changing your instructions or giving a _dominated_ creature a new command is the equivalent of redirecting a spell, so it is a move action.
+
 ## Dominate Monster
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -3085,6 +3135,7 @@ _Dominate animal_ establishes a mental link between you and the subject creature
 *   **Target:** One creature
 
 This spell functions like _dominate person,_ except that the spell is not restricted by creature type.
+
 ## Dominate Person
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -3150,6 +3201,7 @@ If the recipient is awake when the spell begins, the messenger can choose to wak
 Creatures who don’t sleep (such as elves, but not half-elves) or don’t dream cannot be contacted by this spell.
 
 The messenger is unaware of its own surroundings or of the activities around it while in the trance. It is defenseless both physically and mentally (always fails any saving throw) while in the trance.
+
 ## Eagle’s Splendor
 
 *   Transmutation
@@ -3165,6 +3217,7 @@ The messenger is unaware of its own surroundings or of the activities around it 
 The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Sorcerers and bards (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell’s effect do increase.
 
 _Arcane Material Component:_ A few feathers or a pinch of droppings from an eagle.
+
 ## Eagle’s Splendor, Mass
 
 *   Transmutation
@@ -3173,6 +3226,7 @@ _Arcane Material Component:_ A few feathers or a pinch of droppings from an eagl
 *   **Target:** One creature/level, no two of which can be more than 30 ft. apart
 
 This spell functions like _eagle’s splendor_, except that it affects multiple creatures.
+
 ## Earthquake
 
 *   Evocation \[Earth\]
@@ -3198,6 +3252,7 @@ _Structure:_ Any structure standing on open ground takes 100 points of damage, e
 _River, Lake, or Marsh:_ Fissures open underneath the water, draining away the water from that area and forming muddy ground. Soggy marsh or swampland becomes quicksand for the duration of the spell, sucking down creatures and structures. Each creature in the area must make a DC 15 Reflex save or sink down in the mud and quicksand. At the end of the spell, the rest of the body of water rushes in to replace the drained water, possibly drowning those caught in the mud.
 
 _Pinned beneath Rubble:_ Any creature pinned beneath rubble takes 1d6 points of nonlethal damage per minute while pinned. If a pinned character falls unconscious, he or she must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead.
+
 ## Elemental Swarm
 
 *   Conjuration (Summoning) \[see text\]
@@ -3217,6 +3272,7 @@ When the spell is complete, 2d4 Large elementals appear. Ten minutes later, 1d4 
 The elementals obey you explicitly and never attack you, even if someone else manages to gain control over them. You do not need to concentrate to maintain control over the elementals. You can dismiss them singly or in groups at any time.
 
 When you use a summoning spell to summon an air, earth, fire, or water creature, it is a spell of that type.
+
 ## Endure Elements
 
 *   Abjuration
@@ -3232,6 +3288,7 @@ When you use a summoning spell to summon an air, earth, fire, or water creature,
 A creature protected by _endure elements_ suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between –50 and 140 degrees Fahrenheit without having to make Fortitude saves). The creature’s equipment is likewise protected.
 
 _Endure elements_ doesn’t provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.
+
 ## Energy Drain
 
 *   Necromancy
@@ -3243,6 +3300,7 @@ This spell functions like _enervation,_ except that the creature struck gains 2d
 There is no saving throw to avoid gaining the negative levels, but 24 hours after gaining them, the subject must make a Fortitude saving throw (DC = _energy drain_ spell’s save DC) for each negative level. If the save succeeds, that negative level is removed. If it fails, the negative level also goes away, but one of the subject’s character levels is permanently drained.
 
 An undead creature struck by the ray gains 2d4x5 temporary hit points for 1 hour.
+
 ## Enervation
 
 *   Necromancy
@@ -3264,6 +3322,7 @@ Additionally, a spellcaster loses one spell or spell slot from his or her highes
 Assuming the subject survives, it regains lost levels after a number of hours equal to your caster level (maximum 15 hours). Usually, negative levels have a chance of permanently draining the victim’s levels, but the negative levels from _enervation_ don’t last long enough to do so.
 
 An undead creature struck by the ray gains 1d4x5 temporary hit points for 1 hour.
+
 ## Enlarge Person
 
 *   Transmutation
@@ -3291,6 +3350,7 @@ _Enlarge person_ counters and dispels _reduce person_.
 _Enlarge person_ can be made permanent with a _permanency_ spell.
 
 _Material Component:_ A pinch of powdered iron.
+
 ## Enlarge Person, Mass
 
 *   Transmutation
@@ -3298,6 +3358,7 @@ _Material Component:_ A pinch of powdered iron.
 *   **Target:** One humanoid creature/level, no two of which can be more than 30 ft. apart
 
 This spell functions like _enlarge person_, except that it affects multiple creatures.
+
 ## Entangle
 
 *   Transmutation
@@ -3313,6 +3374,7 @@ This spell functions like _enlarge person_, except that it affects multiple crea
 Grasses, weeds, bushes, and even trees wrap, twist, and entwine about creatures in the area or those that enter the area, holding them fast and causing them to become entangled. The creature can break free and move half its normal speed by using a full-round action to make a DC 20 Strength check or a DC 20 Escape Artist check. A creature that succeeds on a Reflex save is not entangled but can still move at only half speed through the area. Each round on your turn, the plants once again attempt to entangle all creatures that have avoided or escaped entanglement.
 
 _Note:_ The effects of the spell may be altered somewhat, based on the nature of the entangling plants.
+
 ## Enthrall
 
 *   Enchantment (Charm) \[Language Dependent, Mind-Affecting, Sonic\]
@@ -3334,6 +3396,7 @@ The effect lasts as long as you speak or sing, to a maximum of 1 hour. Those _en
 If those not _enthralled_ have unfriendly or hostile attitudes toward you, they can collectively make a Charisma check to try to end the spell by jeering and heckling. For this check, use the Charisma bonus of the creature with the highest Charisma in the group; others may make Charisma checks to assist. The heckling ends the spell if this check result beats your Charisma check result. Only one such challenge is allowed per use of the spell.
 
 If any member of the audience is attacked or subjected to some other overtly hostile act, the spell ends and the previously _enthralled_ members become immediately unfriendly toward you. Each creature with 4 or more HD or with a Wisdom score of 16 or higher becomes hostile.
+
 ## Entropic Shield
 
 *   Abjuration
@@ -3362,6 +3425,7 @@ A magical field appears around you, glowing with a chaotic blast of multicolored
 _Erase_ removes writings of either magical or mundane nature from a scroll or from one or two pages of paper, parchment, or similar surfaces. With this spell, you can remove _explosive runes,_ a _glyph of warding,_ a _sepia snake sigil,_ or an _arcane mark_, but not _illusory script_ or a _symbol_ spell. Nonmagical writing is automatically erased if you touch it and no one else is holding it. Otherwise, the chance of erasing nonmagical writing is 90%.
 
 Magic writing must be touched to be erased, and you also must succeed on a caster level check (1d20 + caster level) against DC 15. (A natural 1 or 2 is always a failure on this check.) If you fail to erase _explosive runes_, a _glyph of warding_, or a _sepia snake sigil_, you accidentally activate that writing instead.
+
 ## Ethereal Jaunt
 
 *   Transmutation
@@ -3381,6 +3445,7 @@ Force effects and abjurations affect an ethereal creature normally. Their effect
 Treat other ethereal creatures and ethereal objects as if they were material.
 
 If you end the spell and become material while inside a material object (such as a solid wall), you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet that you so travel.
+
 ## Etherealness
 
 *   Transmutation
@@ -3393,6 +3458,7 @@ If you end the spell and become material while inside a material object (such as
 This spell functions like _ethereal jaunt,_ except that you and other willing creatures joined by linked hands (along with their equipment) become ethereal. Besides yourself, you can bring one creature per three caster levels to the Ethereal Plane. Once ethereal, the subjects need not stay together.
 
 When the spell expires, all affected creatures on the Ethereal Plane return to material existence.
+
 ## Expeditious Retreat
 
 *   Transmutation
@@ -3404,6 +3470,7 @@ When the spell expires, all affected creatures on the Ethereal Plane return to m
 *   **Duration:** 1 min./level (D)
 
 This spell increases your base land speed by 30 feet. (This adjustment is treated as an enhancement bonus.) There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the Jump skill).
+
 ## Explosive Runes
 
 *   Abjuration \[Force\]
@@ -3421,6 +3488,7 @@ You trace these mystic runes upon a book, map, scroll, or similar object bearing
 You and any characters you specifically instruct can read the protected writing without triggering the _runes._ Likewise, you can remove the _runes_ whenever desired. Another creature can remove them with a successful _dispel magic_ or _erase_ spell, but attempting to dispel or erase the _runes_ and failing to do so triggers the explosion.
 
 _Note:_ Magic traps such as _explosive runes_ are hard to detect and disable. A rogue (only) can use the Search skill to find the _runes_ and Disable Device to thwart them. The DC in each case is 25 + spell level, or 28 for _explosive runes_.
+
 ## Eyebite
 
 *   Necromancy \[Evil\]
@@ -3460,6 +3528,7 @@ _Panicked:_ The subject becomes panicked for 1d4 rounds. Even after the panic en
 _Comatose:_ The subject falls into a catatonic coma for 10 minutes per caster level. During this time, it cannot be awakened by any means short of dispelling the effect. This is not a _sleep_ effect, and thus elves are not immune to it.
 
 The spell lasts for 1 round per three caster levels. You must spend a move action each round after the first to target a foe.
+
 ## Fabricate
 
 *   Transmutation
@@ -4506,6 +4575,7 @@ Spell effects that may be tied to a _hallowed_ site include _aid, bane, bless, c
 An area can receive only one _hallow_ spell (and its associated spell effect) at a time. _Hallow_ counters but does not dispel _unhallow_.
 
 _Material Component:_ Herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be included in the _hallowed_ area.
+
 ## Hallucinatory Terrain
 
 *   Illusion (Glamer)
@@ -4521,6 +4591,7 @@ _Material Component:_ Herbs, oils, and incense worth at least 1,000 gp, plus 1,0
 You make natural terrain look, sound, and smell like some other sort of natural terrain. Structures, equipment, and creatures within the area are not hidden or changed in appearance.
 
 _Material Component:_ A stone, a twig, and a bit of green plant.
+
 ## Halt Undead
 
 *   Necromancy
@@ -4597,6 +4668,7 @@ _Heal_ enables you to channel positive energy into a creature to wipe away injur
 _Heal_ does not remove negative levels, restore permanently drained levels, or restore permanently drained ability score points.
 
 If used against an undead creature, _heal_ instead acts like _harm_.
+
 ## Heal, Mass
 
 *   Conjuration (Healing)
@@ -4605,6 +4677,7 @@ If used against an undead creature, _heal_ instead acts like _harm_.
 *   **Targets:** One or more creatures, no two of which can be more than 30 ft. apart
 
 This spell functions like _heal,_ except as noted above. The maximum number of hit points restored to each creature is 250.
+
 ## Heal Mount
 
 *   Conjuration (Healing)
@@ -4618,6 +4691,7 @@ This spell functions like _heal,_ except as noted above. The maximum number of h
 *   **Spell Resistance:** Yes (harmless)
 
 This spell functions like _heal,_ but it affects only the paladin’s special mount (typically a warhorse).
+
 ## Heat Metal
 
 *   Transmutation \[Fire\]
@@ -4648,6 +4722,7 @@ On the first round of the spell, the metal becomes warm and uncomfortable to tou
 \Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, _heat metal_ deals half damage and boils the surrounding water.
 
 _Heat metal_ counters and dispels _chill metal_.
+
 ## Helping Hand
 
 *   Evocation
@@ -4683,6 +4758,7 @@ If more than one subject in a 5-mile radius meets the description, the hand loca
 If, at the end of 4 hours of searching, the hand has found no subject that matches the description within 5 miles, it returns to you, displays an outstretched palm (indicating that no such creature was found), and disappears.
 
 The ghostly hand has no physical form. It is invisible to anyone except you and a potential subject. It cannot engage in combat or execute any other task aside from locating a subject and leading it back to you. The hand can’t pass through solid objects but can ooze through small cracks and slits. The hand cannot travel more than 5 miles from the spot it appeared when you cast the spell.
+
 ## Heroes’ Feast
 
 *   Conjuration \[Creation\]
@@ -4698,6 +4774,7 @@ The ghostly hand has no physical form. It is invisible to anyone except you and 
 You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all diseases, sickness, and nausea; becomes immune to poison for 12 hours; and gains 1d8 temporary hit points +1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food that is consumed grants each creature that partakes a +1 morale bonus on attack rolls and Will saves and immunity to fear effects for 12 hours.
 
 If the feast is interrupted for any reason, the spell is ruined and all effects of the spell are negated.
+
 ## Heroism
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -4711,6 +4788,7 @@ If the feast is interrupted for any reason, the spell is ruined and all effects 
 *   **Spell Resistance:** Yes (harmless)
 
 This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks.
+
 ## Heroism, Greater
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -4718,6 +4796,7 @@ This spell imbues a single creature with great bravery and morale in battle. The
 *   **Duration:** 1 min./level
 
 This spell functions like _heroism,_ except the creature gains a +4 morale bonus on attack rolls, saves, and skill checks, immunity to fear effects, and temporary hit points equal to your caster level (maximum 20).
+
 ## Hide From Animals
 
 *   Abjuration
@@ -4731,6 +4810,7 @@ This spell functions like _heroism,_ except the creature gains a +4 morale bonus
 *   **Spell Resistance:** Yes
 
 Animals cannot see, hear, or smell the warded creatures. Even extraordinary or supernatural sensory capabilities, such as blindsense, blindsight, scent, and tremorsense, cannot detect or locate warded creatures. Animals simply act as though the warded creatures are not there. If a warded character touches an animal or attacks any creature, even with a spell, the spell ends for all recipients.
+
 ## Hide From Undead
 
 *   Abjuration
@@ -4744,6 +4824,7 @@ Animals cannot see, hear, or smell the warded creatures. Even extraordinary or s
 *   **Spell Resistance:** Yes
 
 Undead cannot see, hear, or smell the warded creatures. Even extraordinary or supernatural sensory capabilities, such as blindsense, blindsight, scent, and tremorsense, cannot detect or locate warded creatures. Nonintelligent undead creatures are automatically affected and act as though the warded creatures are not there. An intelligent undead creature gets a single Will saving throw. If it fails, the subject can’t see any of the warded creatures. However, if it has reason to believe unseen opponents are present, it can attempt to find or strike them. If a warded creature attempts to turn or command undead, touches an undead creature, or attacks any creature (even with a spell), the spell ends for all recipients.
+
 ## Hideous Laughter
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -4761,6 +4842,7 @@ This spell afflicts the subject with uncontrollable laughter. It collapses into 
 A creature with an Intelligence score of 2 or lower is not affected. A creature whose type is different from the caster’s receives a +4 bonus on its saving throw, because humor doesn’t “translate” well.
 
 _Material Component:_ Tiny tarts that are thrown at the target and a feather that is waved in the air.
+
 ## Hold Animal
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -4769,6 +4851,7 @@ _Material Component:_ Tiny tarts that are thrown at the target and a feather tha
 *   **Target:** One animal
 
 This spell functions like _hold person,_ except that it affects an animal instead of a humanoid.
+
 ## Hold Monster
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -4779,6 +4862,7 @@ This spell functions like _hold person,_ except that it affects an animal instea
 This spell functions like _hold person,_ except that it affects any living creature that fails its Will save.
 
 _Arcane Material Component:_ One hard metal bar or rod, which can be as small as a three-penny nail.
+
 ## Hold Monster, Mass
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -4786,6 +4870,7 @@ _Arcane Material Component:_ One hard metal bar or rod, which can be as small as
 *   **Targets:** One or more creatures, no two of which can be more than 30 ft. apart
 
 This spell functions like _hold person,_ except that it affects multiple creatures and holds any living creature that fails its Will save.
+
 ## Hold Person
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -4803,6 +4888,7 @@ The subject becomes paralyzed and freezes in place. It is aware and breathes nor
 A winged creature who is paralyzed cannot flap its wings and falls. A swimmer can’t swim and may drown.
 
 _Arcane Focus:_ A small, straight piece of iron.
+
 ## Hold Person, Mass
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -4810,6 +4896,7 @@ _Arcane Focus:_ A small, straight piece of iron.
 *   **Targets:** One or more humanoid creatures, no two of which can be more than 30 ft. apart
 
 This spell functions like _hold person,_ except as noted above.
+
 ## Hold Portal
 
 *   Abjuration
@@ -4825,6 +4912,7 @@ This spell functions like _hold person,_ except as noted above.
 This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A _knock_ spell or a successful _dispel magic_ spell can negate a _hold portal_ spell.
 
 For a portal affected by this spell, add 5 to the normal DC for forcing open the portal.
+
 ## Holy Aura
 
 *   Abjuration \[Good\]
@@ -4848,6 +4936,7 @@ Third, the abjuration blocks possession and mental influence, just as _protectio
 Finally, if an evil creature succeeds on a melee attack against a warded creature, the offending attacker is blinded (Fortitude save negates, as _blindness/deafness_, but against _holy aura’s_ save DC).
 
 _Focus:_ A tiny reliquary containing some sacred relic. The reliquary costs at least 500 gp.
+
 ## Holy Smite
 
 *   Evocation \[Good\]
@@ -4865,6 +4954,7 @@ You draw down holy power to smite your enemies. Only evil and neutral creatures 
 The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to each evil creature in the area (or 1d6 points of damage per caster level, maximum 10d6, to an evil outsider) and causes it to become blinded for 1 round. A successful Will saving throw reduces damage to half and negates the blinded effect.
 
 The spell deals only half damage to creatures who are neither good nor evil, and they are not blinded. Such a creature can reduce that damage by half (down to one-quarter of the roll) with a successful Will save.
+
 ## Holy Sword
 
 *   Evocation \[Good\]
@@ -4884,6 +4974,7 @@ If this spell is cast on a magic weapon, the powers of the spell supersede any t
 This spell does not work on artifacts.
 
 _Note:_ A masterwork weapon’s bonus to attack does not stack with an enhancement bonus to attack.
+
 ## Holy Word
 
 *   Evocation \[Good, Sonic\]
@@ -4919,6 +5010,7 @@ _Killed:_ Living creatures die. Undead creatures are destroyed.
 Furthermore, if you are on your home plane when you cast this spell, nongood extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the _holy word._ The banishment effect allows a Will save (at a –4 penalty) to negate.
 
 Creatures whose HD exceed your caster level are unaffected by _holy word._
+
 ## Horrid Wilting
 
 *   Necromancy
@@ -4934,6 +5026,7 @@ Creatures whose HD exceed your caster level are unaffected by _holy word._
 This spell evaporates moisture from the body of each subject living creature, dealing 1d6 points of damage per caster level (maximum 20d6). This spell is especially devastating to water elementals and plant creatures, which instead take 1d8 points of damage per caster level (maximum 20d8).
 
 _Arcane Material Component:_ A bit of sponge.
+
 ## Hypnotic Pattern
 
 *   Illusion (Pattern) \[Mind-Affecting\]
@@ -4951,6 +5044,7 @@ A twisting pattern of subtle, shifting colors weaves through the air, fascinatin
 A wizard or sorcerer need not utter a sound to cast this spell, but a bard must sing, play music, or recite a rhyme as a verbal component.
 
 _Material Component:_ A glowing stick of incense or a crystal rod filled with phosphorescent material.
+
 ## Hypnotism
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -4970,6 +5064,7 @@ If you use this spell in combat, each target gains a +2 bonus on its saving thro
 While the subject is fascinated by this spell, it reacts as though it were two steps more friendly in attitude. This allows you to make a single request of the affected creature (provided you can communicate with it). The request must be brief and reasonable. Even after the spell ends, the creature retains its new attitude toward you, but only with respect to that particular request.
 
 A creature that fails its saving throw does not remember that you enspelled it.
+
 ## Ice Storm
 
 *   Evocation \[Cold\]
@@ -4985,6 +5080,7 @@ A creature that fails its saving throw does not remember that you enspelled it.
 Great magical hailstones pound down for 1 full round, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. A –4 penalty applies to each Listen check made within the _ice storm_’s effect, and all land movement within its area is at half speed. At the end of the duration, the hail disappears, leaving no aftereffects (other than the damage dealt).
 
 _Arcane Material Component:_ A pinch of dust and a few drops of water.
+
 ## Identify
 
 *   Divination
@@ -5002,6 +5098,7 @@ The spell determines all magic properties of a single magic item, including how 
 _Identify_ does not function when used on an artifact.
 
 _Arcane Material Component:_ A pearl of at least 100 gp value, crushed and stirred into wine with an owl feather; the infusion must be drunk prior to spellcasting.
+
 ## Illusory Script
 
 *   Illusion (Phantasm) \[Mind-Affecting\]
@@ -5021,6 +5118,7 @@ Any unauthorized creature attempting to read the script triggers a potent illuso
 The casting time depends on how long a message you wish to write, but it is always at least 1 minute.
 
 _Material Component:_ A lead-based ink (cost of not less than 50 gp).
+
 ## Illusory Wall
 
 *   Illusion (Figment)
@@ -5034,6 +5132,7 @@ _Material Component:_ A lead-based ink (cost of not less than 50 gp).
 *   **Spell Resistance:** No
 
 This spell creates the illusion of a wall, floor, ceiling, or similar surface. It appears absolutely real when viewed, but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, any detection abilities that do not require sight work normally. Touch or a probing search reveals the true nature of the surface, though such measures do not cause the illusion to disappear.
+
 ## Imbue with Spell Ability
 
 *   Evocation
@@ -5069,6 +5168,7 @@ The transferred spell’s variable characteristics (range, duration, area, and t
 Once you cast _imbue with spell ability,_ you cannot prepare a new 4th-level spell to replace it until the recipient uses the imbued spells or is slain, or until you dismiss the _imbue with spell ability_ spell. In the meantime, you remain responsible to your deity or your principles for the use to which the spell is put. If the number of 4th-level spells you can cast decreases, and that number drops below your current number of active _imbue with spell ability_ spells, the more recently cast imbued spells are dispelled.
 
 To cast a spell with a verbal component, the subject must be able to speak. To cast a spell with a somatic component, it must have humanlike hands. To cast a spell with a material component or focus, it must have the materials or focus.
+
 ## Implosion
 
 *   Evocation
@@ -5086,6 +5186,7 @@ You create a destructive resonance in a corporeal creature’s body. For each ro
 You can target a particular creature only once with each casting of the spell.
 
 _Implosion_ has no effect on creatures in gaseous form or on incorporeal creatures.
+
 ## Imprisonment
 
 *   Abjuration
@@ -5099,6 +5200,7 @@ _Implosion_ has no effect on creatures in gaseous form or on incorporeal creatur
 *   **Spell Resistance:** Yes
 
 When you cast _imprisonment_ and touch a creature, it is entombed in a state of suspended animation (see the _temporal stasis_ spell) in a small sphere far beneath the surface of the earth. The subject remains there unless a _freedom_ spell is cast at the locale where the imprisonment took place. Magical search by a _crystal ball,_ a _locate object_ spell, or some other similar divination does not reveal the fact that a creature is imprisoned, but _discern location_ does. A _wish_ or _miracle_ spell will not free the recipient, but will reveal where it is entombed. If you know the target’s name and some facts about its life, the target takes a –4 penalty on its save.
+
 ## Incendiary Cloud
 
 *   Conjuration (Creation) \[Fire\]
@@ -5116,18 +5218,21 @@ An _incendiary cloud_ spell creates a cloud of roiling smoke shot through with w
 As with a _cloudkill_ spell, the smoke moves away from you at 10 feet per round. Figure out the smoke’s new spread each round based on its new point of origin, which is 10 feet farther away from where you were when you cast the spell. By concentrating, you can make the cloud (actually its point of origin) move as much as 60 feet each round. Any portion of the cloud that would extend beyond your maximum range dissipates harmlessly, reducing the remainder’s spread thereafter.
 
 As with _fog cloud_, wind disperses the smoke, and the spell can’t be cast underwater.
+
 ## Inflict Critical Wounds
 
 *   Necromancy
 *   **Level:** Clr 4, Destruction 4
 
 This spell functions like _inflict light wounds_, except that you deal 4d8 points of damage +1 point per caster level (maximum +20).
+
 ## Inflict Critical Wounds, Mass
 
 *   Necromancy
 *   **Level:** Clr 8
 
 This spell functions like _mass inflict light wounds_, except that it deals 4d8 points of damage +1 point per caster level (maximum +40).
+
 ## Inflict Light Wounds
 
 *   Necromancy
@@ -5143,6 +5248,7 @@ This spell functions like _mass inflict light wounds_, except that it deals 4d8 
 When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage +1 point per caster level (maximum +5).
 
 Since undead are powered by negative energy, this spell cures such a creature of a like amount of damage, rather than harming it.
+
 ## Inflict Light Wounds, Mass
 
 *   Necromancy
@@ -5158,6 +5264,7 @@ Since undead are powered by negative energy, this spell cures such a creature of
 Negative energy spreads out in all directions from the point of origin, dealing 1d8 points of damage +1 point per caster level (maximum +25) to nearby living enemies.
 
 Like other _inflict_ spells, _mass inflict light wounds_ cures undead in its area rather than damaging them. A cleric capable of spontaneously casting _inflict_ spells can also spontaneously cast _mass inflict_ spells.
+
 ## Inflict Minor Wounds
 
 *   Necromancy
@@ -5165,30 +5272,35 @@ Like other _inflict_ spells, _mass inflict light wounds_ cures undead in its are
 *   **Saving Throw:** Will negates
 
 This spell functions like _inflict light wounds,_ except that you deal 1 point of damage and a Will save negates the damage instead of halving it.
+
 ## Inflict Moderate Wounds
 
 *   Necromancy
 *   **Level:** Clr 2
 
 This spell functions like _inflict light wounds_, except that you deal 2d8 points of damage +1 point per caster level (maximum +10).
+
 ## Inflict Moderate Wounds, Mass
 
 *   Necromancy
 *   **Level:** Clr 6
 
 This spell functions like _mass inflict light wounds_, except that it deals 2d8 points of damage +1 point per caster level (maximum +30).
+
 ## Inflict Serious Wounds
 
 *   Necromancy
 *   **Level:** Clr 3
 
 This spell functions like _inflict light wounds_, except that you deal 3d8 points of damage +1 point per caster level (maximum +15).
+
 ## Inflict Serious Wounds, Mass
 
 *   Necromancy
 *   **Level:** Clr 7
 
 This spell functions like _mass inflict light wounds_, except that it deals 3d8 points of damage +1 point per caster level (maximum +35).
+
 ## Insanity
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -5204,6 +5316,7 @@ This spell functions like _mass inflict light wounds_, except that it deals 3d8 
 The affected creature suffers from a continuous _confusion_ effect, as the spell.
 
 _Remove curse_ does not remove _insanity_. _Greater restoration_, _heal_, _limited wish_, _miracle_, or _wish_ can restore the creature.
+
 ## Insect Plague
 
 *   Conjuration (Summoning)
@@ -5217,6 +5330,7 @@ _Remove curse_ does not remove _insanity_. _Greater restoration_, _heal_, _limit
 *   **Spell Resistance:** No
 
 You summon a number of swarms of locusts (one per three levels, to a maximum of six swarms at 18th level). The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). You may summon the locust swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned, and won’t pursue creatures that flee.
+
 ## Instant Summons
 
 *   Conjuration (Summoning)
@@ -5240,6 +5354,7 @@ The inscription on the gem is invisible. It is also unreadable, except by means 
 The item can be summoned from another plane, but only if no other creature has claimed ownership of it.
 
 _Material Component:_ A sapphire worth at least 1,000 gp.
+
 ## Interposing Hand
 
 *   Evocation \[Force\]
@@ -5265,6 +5380,7 @@ Any creature weighing 2,000 pounds or less that tries to push past the hand is s
 Directing the spell to a new target is a move action.
 
 _Focus:_ A soft glove.
+
 ## Invisibility
 
 *   Illusion (Glamer)
@@ -5286,6 +5402,7 @@ Of course, the subject is not magically _silenced,_ and certain other conditions
 _Invisibility_ can be made permanent (on objects only) with a _permanency_ spell.
 
 _Arcane Material Component:_ An eyelash encased in a bit of gum arabic.
+
 ## Invisibility, Greater
 
 *   Illusion (Glamer)
@@ -5296,6 +5413,7 @@ _Arcane Material Component:_ An eyelash encased in a bit of gum arabic.
 *   **Saving Throw:** Will negates (harmless)
 
 This spell functions like _invisibility_, except that it doesn’t end if the subject attacks.
+
 ## Invisibility, Mass
 
 *   Illusion (Glamer)
@@ -5307,6 +5425,7 @@ This spell functions like _invisibility_, except that it doesn’t end if the su
 This spell functions like _invisibility,_ except that the effect is mobile with the group and is broken when anyone in the group attacks. Individuals in the group cannot see each other. The spell is broken for any individual who moves more than 180 feet from the nearest member of the group. (If only two individuals are affected, the one moving away from the other one loses its invisibility. If both are moving away from each other, they both become visible when the distance between them exceeds 180 feet.)
 
 _Material Component:_ An eyelash encased in a bit of gum arabic.
+
 ## Invisibility Purge
 
 *   Evocation
@@ -5320,6 +5439,7 @@ _Material Component:_ An eyelash encased in a bit of gum arabic.
 You surround yourself with a sphere of power with a radius of 5 feet per caster level that negates all forms of invisibility.
 
 Anything invisible becomes visible while in the area.
+
 ## Invisibility Sphere
 
 *   Illusion (Glamer)
@@ -5330,6 +5450,7 @@ Anything invisible becomes visible while in the area.
 This spell functions like _invisibility,_ except that this spell confers invisibility upon all creatures within 10 feet of the recipient. The center of the effect is mobile with the recipient.
 
 Those affected by this spell can see each other and themselves as if unaffected by the spell. Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible. Affected creatures (other than the recipient) who attack negate the invisibility only for themselves. If the spell recipient attacks, the _invisibility sphere_ ends.
+
 ## Iron Body
 
 *   Transmutation
@@ -5351,6 +5472,7 @@ Your unarmed attacks deal damage equal to a club sized for you (1d4 for Small ch
 Your weight increases by a factor of ten, causing you to sink in water like a stone. However, you could survive the crushing pressure and lack of air at the bottom of the ocean—at least until the spell duration expires.
 
 _Arcane Material Component:_ A small piece of iron that was once part of either an iron golem, a hero’s armor, or a war machine.
+
 ## Ironwood
 
 *   Transmutation
@@ -5368,6 +5490,7 @@ _Ironwood_ is a magical substance created by druids from normal wood. While rema
 Further, if you make only half as much _ironwood_ as the spell would normally allow, any weapon, shield, or suit of armor so created is treated as a magic item with a +1 enhancement bonus.
 
 _Material Component:_ Wood shaped into the form of the intended _ironwood_ object.
+
 ## Irresistible Dance
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -5398,6 +5521,7 @@ The subject feels an undeniable urge to dance and begins doing so, complete with
 The subject gets a +10 enhancement bonus on Jump checks. The enhancement bonus increases to +20 at caster level 5th, and to +30 (the maximum) at caster level 9th.
 
 _Material Component:_ A grasshopper’s hind leg, which you break when the spell is cast.
+
 ## Keen Edge
 
 *   Transmutation
@@ -5428,6 +5552,7 @@ Multiple effects that increase a weapon’s threat range (such as the _keen edge
 *   **Spell Resistance:** No
 
 The _knock_ spell opens stuck, barred, locked, _held,_ or _arcane locked_ doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold closures shut). If used to open a _arcane locked_ door, the spell does not remove the _arcane lock_ but simply suspends its functioning for 10 minutes. In all other cases, the door does not relock itself or become stuck again on its own. _Knock_ does not raise barred gates or similar impediments (such as a portcullis), nor does it affect ropes, vines, and the like. The effect is limited by the area. Each spell can undo as many as two means of preventing egress.
+
 ## Know Direction
 
 *   Divination
@@ -5439,6 +5564,7 @@ The _knock_ spell opens stuck, barred, locked, _held,_ or _arcane locked_ doors.
 *   **Duration:** Instantaneous
 
 You instantly know the direction of north from your current position. The spell is effective in any environment in which “north” exists, but it may not work in extraplanar settings. Your knowledge of north is correct at the moment of casting, but you can get lost again within moments if you don’t find some external reference point to help you keep track of direction.
+
 ## Legend Lore
 
 *   Divination
@@ -5456,9 +5582,11 @@ During the casting, you cannot engage in other than routine activities: eating, 
 _Material Component:_ Incense worth at least 250 gp.
 
 _Focus:_ Four strips of ivory (worth 50 gp each) formed into a rectangle.
+
 ## Lesser (Spell Name)
 
 *   Any spell whose name begins with _lesser_ is alphabetized in this chapter according to the second word of the spell name. Thus, the description of a _lesser_ spell appears near the description of the spell on which it is based. Spell chains that have _lesser_ spells in them include those based on the spells _confusion, geas, globe of invulnerability, planar ally, planar binding,_ and _restoration._
+
 ## Levitate
 
 *   Transmutation
@@ -5495,6 +5623,7 @@ This spell causes an object to glow like a torch, shedding bright light in a 20-
 A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the darkness descriptor) of an equal or lower level.
 
 _Arcane Material Component:_ A firefly or a piece of phosphorescent moss.
+
 ## Lightning Bolt
 
 *   Evocation \[Electricity\]
@@ -5512,6 +5641,7 @@ You release a powerful stroke of electrical energy that deals 1d6 points of elec
 The _lightning bolt_ sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell’s range permits; otherwise, it stops at the barrier just as any other spell effect does.
 
 _Material Component:_ A bit of fur and an amber, crystal, or glass rod.
+
 ## Limited Wish
 
 *   Universal
@@ -5536,6 +5666,7 @@ A _limited wish_ lets you create nearly any type of effect. For example, a _limi
 A duplicated spell allows saving throws and spell resistance as normal (but the save DC is for a 7th-level spell). When a _limited wish_ duplicates a spell that has an XP cost, you must pay that cost or 300 XP, whichever is more. When a _limited wish_ spell duplicates a spell with a material component that costs more than 1,000 gp, you must provide that component.
 
 _XP Cost:_ 300 XP or more (see above).
+
 ## Liveoak
 
 *   Transmutation
@@ -5553,6 +5684,7 @@ This spell turns an oak tree into a protector or guardian. The spell can be cast
 _Liveoak_ must be cast on a healthy, Huge oak. A triggering phrase of up to one word per caster level is placed on the targeted oak. The _liveoak_ spell triggers the tree into animating as a treant.
 
 If _liveoak_ is dispelled, the tree takes root immediately, wherever it happens to be. If released by you, the tree tries to return to its original location before taking root.
+
 ## Locate Creature
 
 *   Divination
@@ -5569,6 +5701,7 @@ The spell can locate a creature of a specific kind or a specific creature known 
 Running water blocks the spell. It cannot detect objects. It can be fooled by _mislead_, _nondetection_, and _polymorph_ spells.
 
 _Material Component:_ A bit of fur from a bloodhound.
+
 ## Locate Object
 
 *   Divination
@@ -5586,6 +5719,7 @@ You sense the direction of a well-known or clearly visualized object. You can se
 The spell is blocked by even a thin sheet of lead. Creatures cannot be found by this spell. _Polymorph any object_ fools it.
 
 _Arcane Focus:_ A forked twig.
+
 ## Longstrider
 
 *   Transmutation
@@ -5599,6 +5733,7 @@ _Arcane Focus:_ A forked twig.
 This spell increases your base land speed by 10 feet. (This adjustment counts as an enhancement bonus.) It has no effect on other modes of movement, such as burrow, climb, fly, or swim.
 
 _Material Component:_ A pinch of dirt.
+
 ## Lullaby
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -5630,6 +5765,7 @@ An invisible but tangible field of force surrounds the subject of a _mage armor_
 Unlike mundane armor, _mage armor_ entails no armor check penalty, arcane spell failure chance, or speed reduction. Since _mage armor_ is made of force, incorporeal creatures can’t bypass it the way they do normal armor.
 
 _Focus_:: A piece of cured leather.
+
 ## Mage Hand
 
 *   Transmutation
@@ -5643,6 +5779,7 @@ _Focus_:: A piece of cured leather.
 *   **Spell Resistance::** No
 
 You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell’s range.
+
 ## Mage’s Disjunction
 
 *   Abjuration
@@ -5662,6 +5799,7 @@ You also have a 1% chance per caster level of destroying an _antimagic field._ I
 Even artifacts are subject to _disjunction,_ though there is only a 1% chance per caster level of actually affecting such powerful items. Additionally, if an artifact is destroyed, you must make a DC 25 Will save or permanently lose all spellcasting abilities. (These abilities cannot be recovered by mortal magic, not even _miracle_ or _wish_.)
 
 _Note:_ Destroying artifacts is a dangerous business, and it is 95% likely to attract the attention of some powerful being who has an interest in or connection with the device.
+
 ## Mage’s Faithful Hound
 
 *   Conjuration (Creation)
@@ -5683,6 +5821,7 @@ The dog is considered ready to bite intruders, so it delivers its first bite on 
 The spell lasts for 1 hour per caster level, but once the hound begins barking, it lasts only 1 round per caster level. If you are ever more than 100 feet distant from the hound, the spell ends.
 
 _Material Component:_ A tiny silver whistle, a piece of bone, and a thread.
+
 ## Mage’s Lucubration
 
 *   Transmutation
@@ -5696,6 +5835,7 @@ _Material Component:_ A tiny silver whistle, a piece of bone, and a thread.
 You instantly recall any one spell of 5th level or lower that you have used during the past 24 hours. The spell must have been actually cast during that period. The recalled spell is stored in your mind as through prepared in the normal fashion.
 
 If the recalled spell requires material components, you must provide them. The recovered spell is not usable until the material components are available.
+
 ## Mage’s Magnificent Mansion
 
 *   Conjuration (Creation)
@@ -5715,6 +5855,7 @@ You can create any floor plan you desire to the limit of the spell’s effect. T
 Since the place can be entered only through its special portal, outside conditions do not affect the mansion, nor do conditions inside it pass to the plane beyond.
 
 _Focus_:: A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon (each item worth 5 gp).
+
 ## Mage’s Private Sanctum
 
 *   Abjuration
@@ -5736,6 +5877,7 @@ The spell does not prevent creatures or objects from moving into and out of the 
 _Mage’s private sanctum_ can be made permanent with a _permanency_ spell.
 
 _Material Component:_ A thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite.
+
 ## Mage’s Sword
 
 *   Evocation \[Force\]
@@ -5759,6 +5901,7 @@ The sword cannot be attacked or harmed by physical attacks, but _dispel magic_, 
 If an attacked creature has spell resistance, the resistance is checked the first time _Mage’s sword_ strikes it. If the sword is successfully resisted, the spell is dispelled. If not, the sword has its normal full effect on that creature for the duration of the spell.
 
 _Focus_:: A miniature platinum sword with a grip and pommel of copper and zinc. It costs 250 gp to construct.
+
 ## Magic Aura
 
 *   Illusion (Glamer)
@@ -5780,12 +5923,14 @@ If the targeted item’s own aura is exceptionally powerful (if it is an artifac
 _Note:_ A magic weapon, shield, or suit of armor must be a masterwork item, so a sword of average make, for example, looks suspicious if it has a magical aura.
 
 _Focus_:: A small square of silk that must be passed over the object that receives the aura.
+
 ## Magic Circle Against Chaos
 
 *   Abjuration \[Lawful\]
 *   **Level::** Clr 3, Law 3, Pal 3, Sor/Wiz 3
 
 This spell functions like _magic circle against evil,_ except that it is similar to _protection from chaos_ instead of _protection from evil_, and it can imprison a nonlawful called creature.
+
 ## Magic Circle Against Evil
 
 *   Abjuration \[Good\]
@@ -5811,18 +5956,21 @@ A successful diagram allows you to cast a _dimensional anchor_ spell on the _mag
 This spell is not cumulative with _protection from evil_ and vice versa.
 
 _Arcane Material Component:_ A little powdered silver with which you trace a 3-footdiameter circle on the floor (or ground) around the creature to be warded.
+
 ## Magic Circle Against Good
 
 *   Abjuration \[Evil\]
 *   **Level::** Clr 3, Evil 3, Sor/Wiz 3
 
 This spell functions like _magic circle against evil,_ except that it is similar to _protection from good_ instead of _protection from evil_, and it can imprison a nonevil called creature.
+
 ## Magic Circle Against Law
 
 *   Abjuration \[Chaotic\]
 *   **Level::** Chaos 3, Clr 3, Sor/Wiz 3
 
 This spell functions like _magic circle against evil,_ except that it is similar to _protection from law_ instead of _protection from evil_, and it can imprison a nonchaotic called creature.
+
 ## Magic Fang
 
 *   Transmutation
@@ -5838,6 +5986,7 @@ This spell functions like _magic circle against evil,_ except that it is similar
 _Magic fang_ gives one natural weapon of the subject a +1 enhancement bonus on attack and damage rolls. The spell can affect a slam attack, fist, bite, or other natural weapon. (The spell does not change an unarmed strike’s damage from nonlethal damage to lethal damage.)
 
 _Magic fang_ can be made permanent with a _permanency_ spell.
+
 ## Magic Fang, Greater
 
 *   Transmutation
@@ -5851,6 +6000,7 @@ This spell functions like _magic fang_, except that the enhancement bonus on att
 Alternatively, you may imbue all of the creature’s natural weapons with a +1 enhancement bonus (regardless of your caster level).
 
 _Greater magic fang_ can be made permanent with a _permanency_ spell.
+
 ## Magic Jar
 
 *   Necromancy
@@ -5882,6 +6032,7 @@ If the host body is slain, you return to the _magic jar,_ if within range, and t
 If the spell ends while you are in the _magic jar,_ you return to your body (or die if your body is out of range or destroyed). If the spell ends while you are in a host, you return to your body (or die, if it is out of range of your current position), and the soul in the _magic jar_ returns to its body (or dies if it is out of range). Destroying the receptacle ends the spell, and the spell can be dispelled at either the _magic jar_ or at the host’s location.
 
 _Focus_:: A gem or crystal worth at least 100 gp.
+
 ## Magic Missile
 
 *   Evocation \[Force\]
@@ -5899,6 +6050,7 @@ A missile of magical energy darts forth from your fingertip and strikes its targ
 The missile strikes unerringly, even if the target is in melee combat or has less than total cover or total concealment. Specific parts of a creature can’t be singled out. Inanimate objects are not damaged by the spell.
 
 For every two caster levels beyond 1st, you gain an additional missile—two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher. If you shoot multiple missiles, you can have them strike a single creature or several creatures. A single missile can strike only one creature. You must designate targets before you check for spell resistance or roll damage.
+
 ## Magic Mouth
 
 *   Illusion (Glamer)
@@ -5920,6 +6072,7 @@ The range limit of a trigger is 15 feet per caster level, so a 6th-level caster 
 _Magic mouth_ can be made permanent with a _permanency_ spell.
 
 _Material Component:_ A small bit of honeycomb and jade dust worth 10 gp.
+
 ## Magic Stone
 
 *   Transmutation
@@ -5933,6 +6086,7 @@ _Material Component:_ A small bit of honeycomb and jade dust worth 10 gp.
 *   **Spell Resistance::** Yes (harmless, object)
 
 You transmute as many as three pebbles, which can be no larger than sling bullets, so that they strike with great force when thrown or slung. If hurled, they have a range increment of 20 feet. If slung, treat them as sling bullets (range increment 50 feet). The spell gives them a +1 enhancement bonus on attack and damage rolls. The user of the stones makes a normal ranged attack. Each stone that hits deals 1d6+1 points of damage (including the spell’s enhancement bonus), or 2d6+2 points against undead.
+
 ## Magic Vestment
 
 *   Transmutation
@@ -5948,6 +6102,7 @@ You transmute as many as three pebbles, which can be no larger than sling bullet
 You imbue a suit of armor or a shield with an enhancement bonus of +1 per four caster levels (maximum +5 at 20th level).
 
 An outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell.
+
 ## Magic Weapon
 
 *   Transmutation
@@ -5963,6 +6118,7 @@ An outfit of regular clothing counts as armor that grants no AC bonus for the pu
 _Magic weapon_ gives a weapon a +1 enhancement bonus on attack and damage rolls. (An enhancement bonus does not stack with a masterwork weapon’s +1 bonus on attack rolls.)
 
 You can’t cast this spell on a natural weapon, such as an unarmed strike (instead, see _magic fang_). A monk’s unarmed strike is considered a weapon, and thus it can be enhanced by this spell.
+
 ## Magic Weapon, Greater
 
 *   Transmutation
@@ -5980,6 +6136,7 @@ This spell functions like _magic weapon,_ except that it gives a weapon an enhan
 Alternatively, you can affect as many as fifty arrows, bolts, or bullets. The projectiles must be of the same kind, and they have to be together (in the same quiver or other container). Projectiles, but not thrown weapons, lose their transmutation when used. (Treat shuriken as projectiles, rather than as thrown weapons, for the purpose of this spell.)
 
 _Arcane Material Component:_ Powdered lime and carbon.
+
 ## Major Creation
 
 *   Conjuration (Creation)
@@ -6008,6 +6165,7 @@ This spell functions like _minor creation,_ except that you can also create an o
 This spell functions like _silent image,_ except that sound, smell, and thermal illusions are included in the spell effect. While concentrating, you can move the image within the range.
 
 The image disappears when struck by an opponent unless you cause the illusion to react appropriately.
+
 ## Make Whole
 
 *   Transmutation
@@ -6017,6 +6175,7 @@ The image disappears when struck by an opponent unless you cause the illusion to
 *   **Target::** One object of up to 10 cu. ft./ level
 
 This spell functions like _mending,_ except that _make whole_ completely repairs an object made of any substance, even one with multiple breaks, to be as strong as new. The spell does not restore the magical abilities of a broken magic item made whole, and it cannot mend broken magic rods, staffs, or wands. The spell does not repair items that have been warped, burned, disintegrated, ground to powder, melted, or vaporized, nor does it affect creatures (including constructs).
+
 ## Mark of Justice
 
 *   Necromancy
@@ -6034,6 +6193,7 @@ You draw an indelible mark on the subject and state some behavior on the part of
 Since this spell takes 10 minutes to cast and involves writing on the target, you can cast it only on a creature that is willing or restrained.
 
 Like the effect of _bestow curse_, a _mark of justice_ cannot be dispelled, but it can be removed with a _break enchantment_, _limited wish_, _miracle_, _remove curse_, or _wish_ spell. _Remove curse_ works only if its caster level is equal to or higher than your _mark of justice_ caster level. These restrictions apply regardless of whether the mark has activated.
+
 ## Mass (Spell Name)
 
 *   Any spell whose name begins with _mass_ is alphabetized in this chapter according to the second word of the spell name. Thus, the description of a _mass_ spell appears near the description of the spell on which it is based. Spell chains that have _mass_ spells in them include those based on the spells _bear’s endurance, bull’s strength, cat’s grace, charm monster, cure critical wounds, cure light wounds, cure moderate wounds, cure serious wounds, eagle’s splendor, enlarge person, fox’s cunning, heal, hold monster, hold person, inflict critical wounds, inflict light wounds, inflict moderate wounds, inflict serious wounds, invisibility, owl’s wisdom, reduce person,_ and _suggestion._
@@ -6054,6 +6214,7 @@ Like the effect of _bestow curse_, a _mark of justice_ cannot be dispelled, but 
 You banish the subject into an extradimensional labyrinth of force planes. Each round on its turn, it may attempt a DC 20 Intelligence check to escape the labyrinth as a full-round action. If the subject doesn’t escape, the maze disappears after 10 minutes, forcing the subject to leave.
 
 On escaping or leaving the maze, the subject reappears where it had been when the _maze_ spell was cast. If this location is filled with a solid object, the subject appears in the nearest open space. Spells and abilities that move a creature within a plane, such as _teleport_ and _dimension door,_ do not help a creature escape a _maze_ spell, although a _plane shift_ spell allows it to exit to whatever plane is designated in that spell. Minotaurs are not affected by this spell.
+
 ## Meld Into Stone
 
 *   Transmutation \[Earth\]
@@ -6071,6 +6232,7 @@ While in the stone, you remain in contact, however tenuous, with the face of the
 Any time before the duration expires, you can step out of the stone through the surface that you entered. If the spell’s duration expires or the effect is dispelled before you voluntarily exit the stone, you are violently expelled and take 5d6 points of damage.
 
 The following spells harm you if cast upon the stone that you are occupying: _Stone to flesh_ expels you and deals you 5d6 points of damage. _Stone shape_ deals you 3d6 points of damage but does not expel you. _Transmute rock to mud_ expels you and then slays you instantly unless you make a DC 18 Fortitude save, in which case you are merely expelled. Finally, _passwall_ expels you without damage.
+
 ## Mending
 
 *   Transmutation
@@ -6086,6 +6248,7 @@ The following spells harm you if cast upon the stone that you are occupying: _St
 _Mending_ repairs small breaks or tears in objects (but not warps, such as might be caused by a _warp wood_ spell). It will weld broken metallic objects such as a ring, a chain link, a medallion, or a slender dagger, providing but one break exists.
 
 Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A hole in a leather sack or a wineskin is completely healed over by _mending._ The spell can repair a magic item, but the item’s magical abilities are not restored. The spell cannot mend broken magic rods, staffs, or wands, nor does it affect creatures (including constructs).
+
 ## Message
 
 *   Transmutation \[Language-Dependent\]
@@ -6103,6 +6266,7 @@ You can whisper messages and receive whispered replies with little chance of bei
 _Note:_ To speak a message, you must mouth the words and whisper, possibly allowing observers the opportunity to read your lips.
 
 _Focus_:: A short piece of copper wire.
+
 ## Meteor Swarm
 
 *   Evocation \[Fire\]
@@ -6120,6 +6284,7 @@ _Meteor swarm_ is a very powerful and spectacular spell that is similar to _fire
 If you aim a sphere at a specific creature, you may make a ranged touch attack to strike the target with the meteor. Any creature struck by one of these spheres takes 2d6 points of bludgeoning damage (no save) and receives no saving throw against the sphere’s fire damage (see below). If a targeted sphere misses its target, it simply explodes at the nearest corner of the target’s space. You may aim more than one meteor at the same target.
 
 Once a sphere reaches its destination, it explodes in a 40-foot-radius spread, dealing 6d6 points of fire damage to each creature in the area. If a creature is within the area of more than one sphere, it must save separately against each. (Fire resistance applies to each sphere’s damage individually.)
+
 ## Mind Blank
 
 *   Abjuration
@@ -6133,6 +6298,7 @@ Once a sphere reaches its destination, it explodes in a 40-foot-radius spread, d
 *   **Spell Resistance::** Yes (harmless)
 
 The subject is protected from all devices and spells that detect, influence, or read emotions or thoughts. This spell protects against all mind-affecting spells and effects as well as information gathering by divination spells or effects. _Mind blank_ even foils _limited wish_, _miracle_, and _wish_ spells when they are used in such a way as to affect the subject’s mind or to gain information about it. In the case of scrying that scans an area the creature is in, such as _arcane eye,_ the spell works but the creature simply isn’t detected. Scrying attempts that are targeted specifically at the subject do not work at all.
+
 ## Mind Fog
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -6150,6 +6316,7 @@ _Mind fog_ produces a bank of thin mist that weakens the mental resistance of th
 A moderate wind (11+ mph) disperses the fog in four rounds; a strong wind (21+ mph) disperses the fog in 1 round.
 
 The fog is thin and does not significantly hamper vision.
+
 ## Minor Creation
 
 *   Conjuration (Creation)
@@ -6167,6 +6334,7 @@ You create a nonmagical, unattended object of nonliving, vegetable matter. The v
 Attempting to use any created object as a material component causes the spell to fail.
 
 _Material Component:_ A tiny piece of matter of the same sort of item you plan to create with _minor creation_.
+
 ## Minor Image
 
 *   Illusion (Figment)
@@ -6174,6 +6342,7 @@ _Material Component:_ A tiny piece of matter of the same sort of item you plan t
 *   **Duration::** Concentration +2 rounds
 
 This spell functions like _silent image_, except that _minor image_ includes some minor sounds but not understandable speech.
+
 ## Miracle
 
 *   Evocation
@@ -6208,6 +6377,7 @@ In any event, a request that is out of line with the deity’s (or alignment’s
 A duplicated spell allows saving throws and spell resistance as normal, but the save DCs are as for a 9th-level spell. When a _miracle_ duplicates a spell that has an XP cost, you must pay that cost. When a _miracle_ spell duplicates a spell with a material component that costs more than 100 gp, you must provide that component.
 
 _XP Cost:_ 5,000 XP (for some uses of the _miracle_ spell; see above).
+
 ## Mirage Arcana
 
 *   Illusion (Glamer)
@@ -6218,6 +6388,7 @@ _XP Cost:_ 5,000 XP (for some uses of the _miracle_ spell; see above).
 *   **Duration::** Concentration +1 hour/ level (D)
 
 This spell functions like _hallucinatory terrain_, except that it enables you to make any area appear to be something other than it is. The illusion includes audible, visual, tactile, and olfactory elements. Unlike _hallucinatory terrain,_ the spell can alter the appearance of structures (or add them where none are present). Still, it can’t disguise, conceal, or add creatures (though creatures within the area might hide themselves within the illusion just as they can hide themselves within a real location).
+
 ## Mirror Image
 
 *   Illusion (Figment)
@@ -6237,6 +6408,7 @@ Enemies attempting to attack you or cast spells at you must select from among in
 While moving, you can merge with and split off from figments so that enemies who have learned which image is real are again confounded.
 
 An attacker must be able to see the images to be fooled. If you are invisible or an attacker shuts his or her eyes, the spell has no effect. (Being unable to see carries the same penalties as being blinded.)
+
 ## Misdirection
 
 *   Illusion (Glamer)
@@ -6250,6 +6422,7 @@ An attacker must be able to see the images to be fooled. If you are invisible or
 *   **Spell Resistance::** No
 
 By means of this spell, you misdirect the information from divination spells that reveal auras (_detect evil, detect magic, discern lies,_ and the like). On casting the spell, you choose another object within range. For the duration of the spell, the subject of _misdirection_ is detected as if it were the other object. (Neither the subject nor the other object gets a saving throw against this effect.) Detection spells provide information based on the second object rather than on the actual target of the detection unless the caster of the detection succeeds on a Will save. For instance, you could make yourself detect as a tree if one were within range at casting: not evil, not lying, not magical, neutral in alignment, and so forth. This spell does not affect other types of divination magic (_augury, detect thoughts, clairaudience/clairvoyance,_ and the like).
+
 ## Mislead
 
 *   Illusion (Figment, Glamer)
@@ -6265,6 +6438,7 @@ By means of this spell, you misdirect the information from divination spells tha
 You become invisible (as _improved invisibility_, a glamer), and at the same time, an illusory double of you (as _major image,_ a figment) appears. You are then free to go elsewhere while your double moves away. The double appears within range but thereafter moves as you direct it (which requires concentration beginning on the first round after the casting). You can make the figment appear superimposed perfectly over your own body so that observers don’t notice an image appearing and you turning invisible. You and the figment can then move in different directions. The double moves at your speed and can talk and gesture as if it were real, but it cannot attack or cast spells, though it can pretend to do so.
 
 The illusory double lasts as long as you concentrate upon it, plus 3 additional rounds. After you cease concentration, the illusory double continues to carry out the same activity until the duration expires. The _improved invisibility_ lasts for 1 round per level, regardless of concentration.
+
 ## Mnemonic Enhancer
 
 *   Transmutation
@@ -6286,6 +6460,7 @@ In either event, the spell or spells prepared or retained fade after 24 hours (i
 _Material Component:_ A piece of string, and ink consisting of squid secretion with black dragon’s blood.
 
 _Focus_:: An ivory plaque of at least 50 gp value.
+
 ## Modify Memory
 
 *   Enchantment (Compulsion) \[Mind-Affecting\]
@@ -6308,6 +6483,7 @@ You reach into the subject’s mind and modify as many as 5 minutes of its memor
 Casting the spell takes 1 round. If the subject fails to save, you proceed with the spell by spending as much as 5 minutes (a period of time equal to the amount of memory time you want to modify) visualizing the memory you wish to modify in the subject. If your concentration is disturbed before the visualization is complete, or if the subject is ever beyond the spell’s range during this time, the spell is lost.
 
 A modified memory does not necessarily affect the subject’s actions, particularly if it contradicts the creature’s natural inclinations. An illogical modified memory is dismissed by the creature as a bad dream or a memory muddied by too much wine.
+
 ## Moment of Prescience
 
 *   Divination
@@ -6338,6 +6514,7 @@ You can’t have more than one _moment of prescience_ active on you at the same 
 You summon a light horse or a pony (your choice) to serve you as a mount. The steed serves willingly and well. The mount comes with a bit and bridle and a riding saddle.
 
 _Material Component:_ A bit of horse hair.
+
 ## Move Earth
 
 *   Transmutation \[Earth\]
@@ -6361,6 +6538,7 @@ The spell cannot be used for tunneling and is generally too slow to trap or bury
 This spell has no effect on earth creatures.
 
 _Material Component:_ A mixture of soils (clay, loam, and sand) in a small bag, and an iron blade.
+
 ## Neutralize Poison
 
 *   Conjuration (Healing)
@@ -6422,6 +6600,7 @@ If you choose to enter a trance, you are not aware of your surroundings or the a
 You are defenseless, both physically and mentally, while in the trance. (You always fail any saving throw, for example.)
 
 Creatures who don’t sleep (such as elves, but not half-elves) or dream are immune to this spell.
+
 ## Nondetection
 
 *   Abjuration
@@ -6439,6 +6618,7 @@ The warded creature or object becomes difficult to detect by divination spells s
 If cast on a creature, _nondetection_ wards the creature’s gear as well as the creature itself.
 
 _Material Component:_ A pinch of diamond dust worth 50 gp.
+
 ## Obscure Object
 
 *   Abjuration
@@ -6454,6 +6634,7 @@ _Material Component:_ A pinch of diamond dust worth 50 gp.
 This spell hides an object from location by divination (scrying) effects, such as the _scrying_ spell or a _crystal ball_. Such an attempt automatically fails (if the divination is targeted on the object) or fails to perceive the object (if the divination is targeted on a nearby location, object, or person).
 
 _Arcane Material Component:_ A piece of chameleon skin.
+
 ## Obscuring Mist
 
 *   Conjuration (Creation)
@@ -6471,6 +6652,7 @@ A misty vapor arises around you. It is stationary once created. The vapor obscur
 A moderate wind (11+ mph), such as from a _gust of wind_ spell, disperses the fog in 4 rounds. A strong wind (21+ mph) disperses the fog in 1 round. A _fireball, flame strike_, or similar spell burns away the fog in the explosive or fiery spell’s area. A _wall of fire_ burns away the fog in the area into which it deals damage.
 
 This spell does not function underwater.
+
 ## Open/Close
 
 *   Transmutation
@@ -6486,6 +6668,7 @@ This spell does not function underwater.
 You can open or close (your choice) a door, chest, box, window, bag, pouch, bottle, barrel, or other container. If anything resists this activity (such as a bar on a door or a lock on a chest), the spell fails. In addition, the spell can only open and close things weighing 30 pounds or less. Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell’s ability to affect.
 
 _Focus_:: A brass key.
+
 ## Order’s Wrath
 
 *   Evocation \[Lawful\]
@@ -6503,6 +6686,7 @@ You channel lawful power to smite enemies. The power takes the form of a three-d
 The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to chaotic creatures (or 1d6 points of damage per caster level, maximum 10d6, to chaotic outsiders) and causes them to be dazed for 1 round. A successful Will save reduces the damage to half and negates the daze effect.
 
 The spell deals only half damage to creatures who are neither chaotic nor lawful, and they are not dazed. They can reduce the damage in half again (down to one-quarter of the roll) with a successful Will save.
+
 ## Overland Flight
 
 *   Transmutation
@@ -6513,6 +6697,7 @@ The spell deals only half damage to creatures who are neither chaotic nor lawful
 *   **Duration::** 1 hour/level
 
 This spell functions like a _fly_ spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with average maneuverability. When using this spell for long-distance movement, you can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you can cover 64 miles in an eight-hour period of flight (or 48 miles at a speed of 30 feet).
+
 ## Owl’s Wisdom
 
 *   Transmutation
@@ -6528,6 +6713,7 @@ This spell functions like a _fly_ spell, except you can fly at a speed of 40 fee
 The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit to Wisdom-related skills. Clerics, druids, paladins, and rangers (and other Wisdom-based spellcasters) who receive _owl’s wisdom_ do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase.
 
 _Arcane Material Component:_ A few feathers, or a pinch of droppings, from an owl.
+
 ## Owl’s Wisdom, Mass
 
 *   Transmutation
@@ -6552,6 +6738,7 @@ This spell functions like _owl’s wisdom_, except that it affects multiple crea
 You create a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is 10 feet deep plus an additional 5 feet deep per three caster levels above 9th (15 feet at 12th, 20 feet at 15th, and a maximum of 25 feet deep at 18th level). If the wall’s thickness is more than the depth of the passage created, then a single _passwall_ simply makes a niche or short tunnel. Several _passwall_ spells can then form a continuing passage to breach very thick walls. When _passwall_ ends, creatures within the passage are ejected out the nearest exit. If someone dispels the _passwall_ or you dismiss it, creatures in the passage are ejected out the far exit, if there is one, or out the sole exit if there is only one.
 
 _Material Component:_ A pinch of sesame seeds.
+
 ## Pass Without Trace
 
 - Transmutation
@@ -6565,6 +6752,7 @@ _Material Component:_ A pinch of sesame seeds.
 - **Spell Resistance::** Yes (harmless)
 
 The subject or subjects can move through any type of terrain and leave neither footprints nor scent. Tracking the subjects is impossible by nonmagical means.
+
 ## Permanency
 
 - Universal
@@ -6645,6 +6833,7 @@ Additionally, the following spells can be cast upon objects or areas only and re
 Spells cast on other creatures, objects, or locations (not on you) are vulnerable to _dispel magic_ as normal.
 
 _XP Cost:_ See tables above.
+
 ## Permanent Image
 
 - Illusion (Figment)
@@ -6655,6 +6844,7 @@ _XP Cost:_ See tables above.
 This spell functions like _silent image,_ except that the figment includes visual, auditory, olfactory, and thermal elements, and the spell is permanent. By concentrating, you can move the image within the limits of the range, but it is static while you are not concentrating.
 
 _Material Component:_ A bit of fleece plus powdered jade worth 100 gp.
+
 ## Persistent Image
 
 - Illusion (Figment)
@@ -6664,6 +6854,7 @@ _Material Component:_ A bit of fleece plus powdered jade worth 100 gp.
 This spell functions like _silent image,_ except that the figment includes visual, auditory, olfactory, and thermal components, and the figment follows a script determined by you. The figment follows that script without your having to concentrate on it. The illusion can include intelligible speech if you wish.
 
 _Material Component:_ A bit of fleece and several grains of sand.
+
 ## Phantasmal Killer
 
 - Illusion (Phantasm) \[Fear, Mind-Affecting\]
@@ -6679,6 +6870,7 @@ _Material Component:_ A bit of fleece and several grains of sand.
 You create a phantasmal image of the most fearsome creature imaginable to the subject simply by forming the fears of the subject’s subconscious mind into something that its conscious mind can visualize: this most horrible beast. Only the spell’s subject can see the phantasmal killer. You see only a vague shape. The target first gets a Will save to recognize the image as unreal. If that save fails, the phantasm touches the subject, and the subject must succeed on a Fortitude save or die from fear. Even if the Fortitude save is successful, the subject takes 3d6 points of damage.
 
 If the subject of a _phantasmal killer_ attack succeeds in disbelieving and is wearing a _helm of telepathy,_ the beast can be turned upon you. You must then disbelieve it or become subject to its deadly fear attack.
+
 ## Phantom Steed
 
 - Conjuration (Creation)
@@ -6704,6 +6896,7 @@ _10th Level:_ The mount can use _water walk_ at will (as the spell, no action re
 _12th Level:_ The mount can use _air walk_ at will (as the spell, no action required to activate this ability) for up to 1 round at a time, after which it falls to the ground.
 
 _14th Level:_ The mount can fly at its speed (average maneuverability).
+
 ## Phantom Trap
 
 - Illusion (Glamer)
@@ -6721,6 +6914,7 @@ This spell makes a lock or other small mechanism seem to be trapped to anyone wh
 If another _phantom trap_ is active within 50 feet when the spell is cast, the casting fails.
 
 _Material Component:_ A piece of iron pyrite touched to the object to be trapped while the object is sprinkled with a special dust requiring 50 gp to prepare.
+
 ## Phase Door
 
 - Conjuration (Creation)
@@ -6740,6 +6934,7 @@ A _phase door_ is subject to _dispel magic._ If anyone is within the passage whe
 You can allow other creatures to use the _phase door_ by setting some triggering condition for the door. Such conditions can be as simple or elaborate as you desire. They can be based on a creature’s name, identity, or alignment, but otherwise must be based on observable actions or qualities. Intangibles such as level, class, Hit Dice, and hit points don’t qualify.
 
 _Phase door_ can be made permanent with a _permanency_ spell.
+
 ## Planar Ally
 
 - Conjuration (Calling) \[see text for _lesser planar ally_\]
@@ -6749,6 +6944,7 @@ _Phase door_ can be made permanent with a _permanency_ spell.
 This spell functions like _lesser planar ally_, except you may call a single creature of 12 HD or less, or two creatures of the same kind whose Hit Dice total no more than 12. The creatures agree to help you and request your return payment together.
 
 _XP Cost:_ 250 XP.
+
 ## Planar Ally, Greater
 
 - Conjuration (Calling) \[see text for _lesser planar ally_\]
@@ -6758,6 +6954,7 @@ _XP Cost:_ 250 XP.
 This spell functions like _lesser planar ally_, except that you may call a single creature of 18 HD or less, or up to three creatures of the same kind whose Hit Dice total no more than 18. The creatures agree to help you and request your return payment together.
 
 _XP Cost:_ 500 XP.
+
 ## Planar Ally, Lesser
 
 - Conjuration (Calling) \[see text\]
@@ -6785,6 +6982,7 @@ At the end of its task, or when the duration bargained for expires, the creature
 _Note:_ When you use a calling spell that calls an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
 
 _XP Cost:_ 100 XP.
+
 ## Planar Binding
 
 - Conjuration (Calling) \[see text for _lesser planar binding_\]
@@ -6793,6 +6991,7 @@ _XP Cost:_ 100 XP.
 - **Targets::** Up to three elementals or outsiders, totaling no more than 12 HD, no two of which can be more than 30 ft. apart when they appear
 
 This spell functions like _lesser planar binding,_ except that you may call a single creature of 12 HD or less, or up to three creatures of the same kind whose Hit Dice total no more than 12. Each creature gets a save, makes an independent attempt to escape, and must be individually persuaded to aid you.
+
 ## Planar Binding, Greater
 
 - Conjuration (Calling) \[see text for _lesser planar binding_\]
@@ -6801,6 +7000,7 @@ This spell functions like _lesser planar binding,_ except that you may call a si
 - **Targets::** Up to three elementals or outsiders, totaling no more than 18 HD, no two of which can be more than 30 ft. apart when they appear.
 
 This spell functions like _lesser planar binding,_ except that you may call a single creature of 18 HD or less, or up to three creatures of the same kind whose Hit Dice total no more than 18. Each creature gets a saving throw, makes independent attempts to escape, and must be persuaded to aid you individually.
+
 ## Planar Binding, Lesser
 
 - Conjuration (Calling) \[see text\]
@@ -6824,6 +7024,7 @@ If the creature does not break free of the trap, you can keep it bound for as lo
 Once the requested service is completed, the creature need only so inform you to be instantly sent back whence it came. The creature might later seek revenge. If you assign some open-ended task that the creature cannot complete though its own actions the spell remains in effect for a maximum of one day per caster level, and the creature gains an immediate chance to break free. Note that a clever recipient can subvert some instructions.
 
 When you use a calling spell to call an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.
+
 ## Plane Shift
 
 - Conjuration (Teleportation)
@@ -6841,6 +7042,7 @@ You move yourself or some other creature to another plane of existence or altern
 _Note: Plane shift_ transports creatures instantaneously and then ends. The creatures need to find other means if they are to travel back.
 
 _Focus:_ A small, forked metal rod. The size and metal type dictates to which plane of existence or alternate dimension the spell sends the affected creatures.
+
 ## Plant Growth
 
 - Transmutation
@@ -6866,6 +7068,7 @@ _Enrichment:_ This effect targets plants within a range of one-half mile, raisin
 _Plant growth_ counters _diminish plants_.
 
 This spell has no effect on plant creatures.
+
 ## Poison
 
 - Necromancy
@@ -6879,6 +7082,7 @@ This spell has no effect on plant creatures.
 - **Spell Resistance::** Yes
 
 Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee touch attack. The poison deals 1d10 points of temporary Constitution damage immediately and another 1d10 points of temporary Constitution damage 1 minute later. Each instance of damage can be negated by a Fortitude save (DC 10 + 1/2 your caster level + your Wis modifier).
+
 ## Polar Ray
 
 - Evocation \[Cold\]
@@ -6894,6 +7098,7 @@ Calling upon the venomous powers of natural predators, you infect the subject wi
 A blue-white ray of freezing air and ice springs from your hand. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d6 points of cold damage per caster level (maximum 25d6).
 
 _Focus:_ A small, white ceramic cone or prism.
+
 ## Polymorph
 
 - Transmutation
@@ -6915,6 +7120,7 @@ The subject gains the Strength, Dexterity, and Constitution scores of the new fo
 Incorporeal or gaseous creatures are immune to being _polymorphed_, and a creature with the shapechanger subtype can revert to its natural form as a standard action.
 
 _Material Component:_ An empty cocoon.
+
 ## Polymorph Any Object
 
 - Transmutation
@@ -6995,6 +7201,7 @@ You utter a single word of power that causes one creature of your choice to beco
 - **Spell Resistance::** Yes
 
 You utter a single word of power that instantly kills one creature of your choice, whether the creature can hear the word or not. Any creature that currently has 101 or more hit points is unaffected by _power word kill_.
+
 ## Power Word Stun
 
 - Enchantment (Compulsion) \[Mind-Affecting\]
@@ -7028,6 +7235,7 @@ You utter a single word of power that instantly causes one creature of your choi
 - **Spell Resistance::** Yes
 
 You bring special favor upon yourself and your allies while bringing disfavor to your enemies. You and your each of your allies gain a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks, while each of your foes takes a –1 penalty on such rolls.
+
 ## Prestidigitation
 
 - Universal
@@ -7041,6 +7249,7 @@ You bring special favor upon yourself and your allies while bringing disfavor to
 - **Spell Resistance::** No
 
 Prestidigitations are minor tricks that novice spellcasters use for practice. Once cast, a _prestidigitation_ spell enables you to perform simple magical effects for 1 hour. The effects are minor and have severe limitations. A prestidigitation can slowly lift 1 pound of material. It can color, clean, or soil items in a 1-foot cube each round. It can chill, warm, or flavor 1 pound of nonliving material. It cannot deal damage or affect the concentration of spellcasters. _Prestidigitation_ can create small objects, but they look crude and artificial. The materials created by a _prestidigitation_ spell are extremely fragile, and they cannot be used as tools, weapons, or spell components. Finally, a _prestidigitation_ lacks the power to duplicate any other spell effects. Any actual change to an object (beyond just moving, cleaning, or soiling it) persists only 1 hour.
+
 ## Prismatic Sphere
 
 - Abjuration
@@ -7060,6 +7269,7 @@ Typically, only the upper hemisphere of the globe will exist, since you are at t
 The colors of the sphere have the same effects as the colors of a _prismatic wall._
 
 _Prismatic sphere_ can be made permanent with a _permanency_ spell.
+
 ## Prismatic Spray
 
 - Evocation
@@ -7140,6 +7350,7 @@ Flames as bright as a torch appear in your open hand. The flames harm neither yo
 In addition to providing illumination, the flames can be hurled or used to touch enemies. You can strike an opponent with a melee touch attack, dealing fire damage equal to 1d6 +1 point per caster level (maximum +5). Alternatively, you can hurl the flames up to 120 feet as a thrown weapon. When doing so, you attack with a ranged touch attack (with no range penalty) and deal the same damage as with the melee attack. No sooner do you hurl the flames than a new set appears in your hand. Each attack you make reduces the remaining duration by 1 minute. If an attack reduces the remaining duration to 0 minutes or less, the spell ends after the attack resolves.
 
 This spell does not function underwater.
+
 ## Programmed Image
 
 - Illusion (Figment)
@@ -7152,6 +7363,7 @@ This spell functions like _silent image,_ except that this spell’s figment act
 You set the triggering condition (which may be a special word) when casting the spell. The event that triggers the illusion can be as general or as specific and detailed as desired but must be based on an audible, tactile, olfactory, or visual trigger. The trigger cannot be based on some quality not normally obvious to the senses, such as alignment. (See _magic mouth_ for more details about such triggers.)
 
 _Material Component:_ A bit of fleece and jade dust worth 25 gp.
+
 ## Project Image
 
 - Illusion (Shadow)
@@ -7175,6 +7387,7 @@ Objects are affected by the projected image as if they had succeeded on their Wi
 You must maintain line of effect to the projected image at all times. If your line of effect is obstructed, the spell ends. If you use _dimension door, teleport, plane shift,_ or a similar spell that breaks your line of effect, even momentarily, the spell ends.
 
 _Material Component:_ A small replica of you (a doll), which costs 5 gp to create.
+
 ## Protection From Arrows
 
 - Abjuration
@@ -7190,12 +7403,14 @@ _Material Component:_ A small replica of you (a doll), which costs 5 gp to creat
 The warded creature gains resistance to ranged weapons. The subject gains damage reduction 10/magic against ranged weapons. (This spell doesn’t grant you the ability to damage creatures with similar damage reduction.) Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged.
 
 _Focus:_ A piece of shell from a tortoise or a turtle.
+
 ## Protection From Chaos
 
 - Abjuration \[Lawful\]
 - **Level::** Clr 1, Law 1, Pal 1, Sor/Wiz 1
 
 This spell functions like _protection from evil_, except that the deflection and resistance bonuses apply to attacks from chaotic creatures, and chaotic summoned creatures cannot touch the subject.
+
 ## Protection From Energy
 
 - Abjuration
@@ -7211,6 +7426,7 @@ This spell functions like _protection from evil_, except that the deflection and
 _Protection from energy_ grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.
 
 _Note: Protection from energy_ overlaps (and does not stack with) _resist energy._ If a character is warded by _protection from energy_ and _resist energy,_ the _protection_ spell absorbs damage until its power is exhausted.
+
 ## Protection From Evil
 
 - Abjuration \[Good\]
@@ -7232,18 +7448,21 @@ Second, the barrier blocks any attempt to possess the warded creature (by a _mag
 Third, the spell prevents bodily contact by summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Good summoned creatures are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.
 
 _Arcane Material Component:_ A little powdered silver with which you trace a 3-foot -diameter circle on the floor (or ground) around the creature to be warded.
+
 ## Protection From Good
 
 - Abjuration \[Evil\]
 - **Level::** Clr 1, Evil 1, Sor/Wiz 1
 
 This spell functions like _protection from evil_, except that the deflection and resistance bonuses apply to attacks from good creatures, and good summoned creatures cannot touch the subject.
+
 ## Protection From Law
 
 - Abjuration \[Chaotic\]
 - **Level::** Chaos 1, Clr 1, Sor/Wiz 1
 
 This spell functions like _protection from evil_, except that the deflection and resistance bonuses apply to attacks from lawful creatures, and lawful summoned creatures cannot touch the subject.
+
 ## Protection From Spells
 
 - Abjuration
@@ -7261,6 +7480,7 @@ The subject gains a +8 resistance bonus on saving throws against spells and spel
 _Material Component:_ A diamond of at least 500 gp value, which must be crushed and sprinkled over the targets.
 
 _Focus:_ One 1,000 gp diamond per creature to be granted the protection. Each subject must carry one such gem for the duration of the spell. If a subject loses the gem, the spell ceases to affect him.
+
 ## Prying Eyes
 
 - Divination
@@ -7286,12 +7506,14 @@ If an eye ever gets more than 1 mile away from you, it instantly ceases to exist
 The eyes exist for up to 1 hour per caster level or until they return to you. _Dispel magic_ can destroy eyes. Roll separately for each eye caught in an area dispel. Of course, if an eye is sent into darkness, it could hit a wall or similar obstacle and destroy itself.
 
 _Material Component:_ A handful of crystal marbles.
+
 ## Prying Eyes, Greater
 
 - Divination
 - **Level::** Sor/Wiz 8
 
 This spell functions like _prying eyes,_ except that the eyes can see all things as they actually are, just as if they had _true seeing_ with a range of 120 feet. Thus, they can navigate darkened areas at full normal speed. Also, a _greater prying eye_’s maximum Spot modifier is +25 instead of +15.
+
 ## Purify Food and Drink
 
 - Transmutation
@@ -7307,6 +7529,7 @@ This spell functions like _prying eyes,_ except that the eyes can see all things
 This spell makes spoiled, rotten, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by _purify food and drink,_ but the spell has no effect on creatures of any type nor upon magic potions.
 
 _Note:_ Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.
+
 ## Pyrotechnics
 
 - Transmutation
@@ -7326,6 +7549,7 @@ _Fireworks:_ The fireworks are a flashing, fiery, momentary burst of glowing, co
 _Smoke Cloud:_ A writhing stream of smoke billows out from the source, forming a choking cloud. The cloud spreads 20 feet in all directions and lasts for 1 round per caster level. All sight, even darkvision, is ineffective in or through the cloud. All within the cloud take –4 penalties to Strength and Dexterity (Fortitude negates). These effects last for 1d4+1 rounds after the cloud dissipates or after the creature leaves the area of the cloud. Spell resistance does not apply.
 
 _Material Component:_ The spell uses one fire source, which is immediately extinguished. A fire so large that it exceeds a 20-foot cube is only partly extinguished. Magical fires are not extinguished, although a fire-based creature used as a source takes 1 point of damage per caster level.
+
 ## Quench
 
 - Transmutation
@@ -7358,6 +7582,7 @@ Alternatively, you can target the spell on a single magic item that creates or c
 - **Spell Resistance::** Yes
 
 Each affected creature gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a –2 penalty to AC. The effect is otherwise identical with a barbarian’s rage except that the subjects aren’t fatigued at the end of the rage.
+
 ## Rainbow Pattern
 
 - Illusion (Pattern) \[Mind-Affecting\]
@@ -7381,6 +7606,7 @@ _Verbal Component:_ A wizard or sorcerer need not utter a sound to cast this spe
 _Material Component:_ A piece of phosphor.
 
 _Focus:_ A crystal prism.
+
 ## Raise Dead
 
 - Conjuration (Healing)
@@ -7402,6 +7628,7 @@ A raised creature has a number of hit points equal to its current Hit Dice. Any 
 A creature who has been turned into an undead creature or killed by a death effect can’t be raised by this spell. Constructs, elementals, outsiders, and undead creatures can’t be raised. The spell cannot bring back a creature that has died of old age.
 
 _Material Component:_ Diamonds worth a total of least 5,000 gp.
+
 ## Ray of Enfeeblement
 
 - Necromancy
@@ -7415,6 +7642,7 @@ _Material Component:_ Diamonds worth a total of least 5,000 gp.
 - **Spell Resistance::** Yes
 
 A coruscating ray springs from your hand. You must succeed on a ranged touch attack to strike a target. The subject takes a penalty to Strength equal to 1d6+1 per two caster levels (maximum 1d6+5). The subject’s Strength score cannot drop below 1.
+
 ## Ray of Exhaustion
 
 - Necromancy
@@ -7436,6 +7664,7 @@ A character that is already fatigued instead becomes exhausted.
 This spell has no effect on a creature that is already exhausted. Unlike normal exhaustion or fatigue, the effect ends as soon as the spell’s duration expires.
 
 _Material Component:_ A drop of sweat.
+
 ## Ray of Frost
 
 - Evocation \[Cold\]
@@ -7449,6 +7678,7 @@ _Material Component:_ A drop of sweat.
 - **Spell Resistance::** Yes
 
 A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.
+
 ## Read Magic
 
 - Divination
@@ -7464,6 +7694,7 @@ By means of _read magic,_ you can decipher magical inscriptions on objects—boo
 _Read magic_ can be made permanent with a _permanency_ spell.
 
 _Focus:_ A clear crystal or mineral prism.
+
 ## Reduce Animal
 
 - Transmutation
@@ -7477,6 +7708,7 @@ _Focus:_ A clear crystal or mineral prism.
 - **Spell Resistance::** No
 
 This spell functions like _reduce person,_ except that it affects a single willing animal. Reduce the damage dealt by the animal’s natural attacks as appropriate for its new size.
+
 ## Reduce Person
 
 - Transmutation
@@ -7504,6 +7736,7 @@ _Reduce person_ counters and dispels _enlarge person_.
 _Reduce person_ can be made permanent with a _permanency_ spell.
 
 _Material Component:_ A pinch of powdered iron.
+
 ## Reduce Person, Mass
 
 - Transmutation
@@ -7511,6 +7744,7 @@ _Material Component:_ A pinch of powdered iron.
 - **Target::** One humanoid creature/level, no two of which can be more than 30 ft. apart
 
 This spell functions like _reduce person_, except that it affects multiple creatures.
+
 ## Refuge
 
 - Conjuration (Teleportation)
@@ -7528,6 +7762,7 @@ You create powerful magic in some specially prepared object. This object contain
 You can alter the spell when casting it so that it transports you to within 10 feet of the possessor of the item when it is broken and the command word spoken. You will have a general idea of the location and situation of the item possessor at the time the _refuge_ spell is discharged, but once you decide to alter the spell in this fashion, you have no choice whether or not to be transported.
 
 _Material Component:_ The specially prepared object, whose construction requires gems worth 1,500 gp.
+
 ## Regenerate
 
 - Conjuration (Healing)
@@ -7543,6 +7778,7 @@ _Material Component:_ The specially prepared object, whose construction requires
 The subject’s severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of multiheaded creatures), broken bones, and ruined organs grow back. After the spell is cast, the physical regeneration is complete in 1 round if the severed members are present and touching the creature. It takes 2d10 rounds otherwise.
 
 _Regenerate_ also cures 4d8 points of damage +1 point per caster level (maximum +35), rids the subject of exhaustion and/or fatigue, and eliminates all nonlethal damage the subject has taken. It has no effect on nonliving creatures (including undead).
+
 ## Reincarnate
 
 - Transmutation
@@ -7590,6 +7826,7 @@ The reincarnated creature gains all abilities associated with its new form, incl
 A _wish_ or a _miracle_ spell can restore a reincarnated character to his or her original form.
 
 _Material Component:_ Rare oils and unguents worth a total of least 1,000 gp, spread over the remains.
+
 ## Remove Blindness/Deafness
 
 - Conjuration (Healing)
@@ -7605,6 +7842,7 @@ _Material Component:_ Rare oils and unguents worth a total of least 1,000 gp, sp
 _Remove blindness/deafness_ cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.
 
 _Remove blindness/deafness_ counters and dispels _blindness/deafness_.
+
 ## Remove Curse
 
 - Abjuration
@@ -7620,6 +7858,7 @@ _Remove blindness/deafness_ counters and dispels _blindness/deafness_.
 _Remove curse_ instantaneously removes all curses on an object or a creature. _Remove curse_ does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. Certain special curses may not be countered by this spell or may be countered only by a caster of a certain level or higher.
 
 _Remove curse_ counters and dispels _bestow curse_.
+
 ## Remove Disease
 
 - Conjuration (Healing)
@@ -7635,6 +7874,7 @@ _Remove curse_ counters and dispels _bestow curse_.
 _Remove disease_ cures all diseases that the subject is suffering from. The spell also kills parasites, including green slime and others. Certain special diseases may not be countered by this spell or may be countered only by a caster of a certain level or higher.
 
 _Note:_ Since the spell’s duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date.
+
 ## Remove Fear
 
 - Abjuration
@@ -7650,6 +7890,7 @@ _Note:_ Since the spell’s duration is instantaneous, it does not prevent reinf
 You instill courage in the subject, granting it a +4 morale bonus against _fear_ effects for 10 minutes. If the subject is under the influence of a _fear_ effect when receiving the spell, that effect is suppressed for the duration of the spell.
 
 _Remove fear_ counters and dispels _cause fear_.
+
 ## Remove Paralysis
 
 - Conjuration (Healing)
@@ -7665,6 +7906,7 @@ _Remove fear_ counters and dispels _cause fear_.
 You can free one or more creatures from the effects of any temporary paralysis or related magic, including a ghoul’s touch or a _slow_ spell. If the spell is cast on one creature, the paralysis is negated. If cast on two creatures, each receives another save with a +4 resistance bonus against the effect that afflicts it. If cast on three or four creatures, each receives another save with a +2 resistance bonus.
 
 The spell does not restore ability scores reduced by penalties, damage, or drain.
+
 ## Repel Metal or Stone
 
 - Abjuration \[Earth\]
@@ -7682,6 +7924,7 @@ Like _repel wood,_ this spell creates waves of invisible and intangible energy t
 Objects such as metal armor, swords, and the like are pushed back, dragging their bearers with them. Even magic items with metal components are repelled, although an _antimagic field_ blocks the effects.
 
 The waves of energy continue to sweep down the set path for the spell’s duration. After you cast the spell, the path is set, and you can then do other things or go elsewhere without affecting the spell’s power.
+
 ## Repel Vermin
 
 - Abjuration
@@ -7697,6 +7940,7 @@ The waves of energy continue to sweep down the set path for the spell’s durati
 An invisible barrier holds back vermin. A vermin with Hit Dice of less than one-third your level cannot penetrate the barrier.
 
 A vermin with Hit Dice of one-third your level or more can penetrate the barrier if it succeeds on a Will save. Even so, crossing the barrier deals the vermin 2d6 points of damage, and pressing against the barrier causes pain, which deters most vermin.
+
 ## Repel Wood
 
 - Transmutation
@@ -7714,6 +7958,7 @@ Waves of energy roll forth from you, moving in the direction that you determine,
 Objects such as wooden shields, spears, wooden weapon shafts and hafts, and arrows and bolts are pushed back, dragging those carrying them along. (A creature being dragged by an item it is carrying can let go. A creature being dragged by a shield can loose it as a move action and drop it as a free action.) If a spear is planted (set) to prevent this forced movement, it splinters. Even magic items with wooden sections are repelled, although an _antimagic field_ blocks the effects.
 
 The waves of energy continue to sweep down the set path for the spell’s duration. After you cast the spell, the path is set, and you can then do other things or go elsewhere without affecting the spell’s power.
+
 ## Repulsion
 
 - Abjuration
@@ -7731,6 +7976,7 @@ An invisible, mobile field surrounds you and prevents creatures from approaching
 They can fight other creatures and can cast spells and attack you with ranged weapons. If you move closer to an affected creature, nothing happens. (The creature is not forced back.) The creature is free to make melee attacks against you if you come within reach. If a repelled creature moves away from you and then tries to turn back toward you, it cannot move any closer if it is still within the spell’s area.
 
 _Arcane Focus:_ A pair of small iron bars attached to two small canine statuettes, one black and one white, the whole array worth 50 gp.
+
 ## Resilient Sphere
 
 - Evocation \[Force\]
@@ -7748,6 +7994,7 @@ A globe of shimmering force encloses a creature, provided the creature is small 
 The subject may struggle, but the sphere cannot be physically moved either by people outside it or by the struggles of those within.
 
 _Material Component:_ A hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic.
+
 ## Resistance
 
 - Abjuration
@@ -7765,6 +8012,7 @@ You imbue the subject with magical energy that protects it from harm, granting i
 _Resistance_ can be made permanent with a _permanency_ spell.
 
 _Arcane Material Component:_ A miniature cloak.
+
 ## Resist Energy
 
 - Abjuration
@@ -7782,6 +8030,7 @@ This abjuration grants a creature limited protection from damage of whichever on
 _Resist energy_ absorbs only damage. The subject could still suffer unfortunate side effects.
 
 _Note: Resist energy_ overlaps (and does not stack with) _protection from energy._ If a character is warded by _protection from energy_ and _resist energy,_ the _protection_ spell absorbs damage until its power is exhausted.
+
 ## Restoration
 
 - Conjuration (Healing)
@@ -7795,6 +8044,7 @@ _Restoration_ cures all temporary ability damage, and it restores all points per
 _Restoration_ does not restore levels or Constitution points lost due to death.
 
 _Material Component:_ Diamond dust worth 100 gp that is sprinkled over the target.
+
 ## Restoration, Greater
 
 - Conjuration (Healing)
@@ -7807,6 +8057,7 @@ This spell functions like _lesser restoration,_ except that it dispels all negat
 _Greater restoration_ also dispels all magical effects penalizing the creature’s abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes all forms of insanity, _confusion,_ and similar mental effects. _Greater restoration_ does not restore levels or Constitution points lost due to death.
 
 _XP Cost:_ 500 XP.
+
 ## Restoration, Lesser
 
 - Conjuration (Healing)
@@ -7820,6 +8071,7 @@ _XP Cost:_ 500 XP.
 - **Spell Resistance::** Yes (harmless)
 
 _Lesser restoration_ dispels any magical effects reducing one of the subject’s ability scores or cures 1d4 points of temporary ability damage to one of the subject’s ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain.
+
 ## Resurrection
 
 - Conjuration (Healing)
@@ -7835,6 +8087,7 @@ Upon completion of the spell, the creature is immediately restored to full hit p
 You can resurrect someone killed by a death effect or someone who has been turned into an undead creature and then destroyed. You cannot resurrect someone who has died of old age. Constructs, elementals, outsiders, and undead creatures can’t be resurrected.
 
 _Material Component:_ A sprinkle of holy water and diamonds worth a total of at least 10,000 gp.
+
 ## Reverse Gravity
 
 - Transmutation
@@ -7852,6 +8105,7 @@ This spell reverses gravity in an area, causing all unattached objects and creat
 Provided it has something to hold onto, a creature caught in the area can attempt a Reflex save to secure itself when the spell strikes. Creatures who can fly or levitate can keep themselves from falling.
 
 _Arcane Material Component:_ A lodestone and iron filings.
+
 ## Righteous Might
 
 - Transmutation
@@ -7869,6 +8123,7 @@ If insufficient room is available for the desired growth, you attain the maximum
 All equipment you wear or carry is similarly enlarged by the spell. Melee and projectile weapons deal more damage. Other magical properties are not affected by this spell. Any enlarged item that leaves your possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown weapons deal their normal damage (projectiles deal damage based on the size of the weapon that fired them).
 
 Multiple magical effects that increase size do not stack.
+
 ## Rope Trick
 
 - Transmutation
@@ -7888,6 +8143,7 @@ Spells cannot be cast across the extradimensional interface, nor can area effect
 _Note:_ It is hazardous to create an extradimensional space within an existing extradimensional space or to take an extradimensional space into an existing one.
 
 _Material Component:_ Powdered corn extract and a twisted loop of parchment.
+
 ## Rusting Grasp
 
 - Transmutation
@@ -9831,6 +10087,7 @@ Creatures of the specified kind or alignment feel elated and pleased to be in th
 _Sympathy_ counters and dispels _antipathy_.
 
 _Material Component:_ 1,500 gp worth of crushed pearls and a drop of honey.
+
 ## Telekinesis
 
 - Transmutation
@@ -9858,6 +10115,7 @@ _Violent Thrust::_ Alternatively, the spell energy can be spent in a single roun
 You must succeed on attack rolls (one per creature or object thrown) to hit the target with the items, using your base attack bonus + your Intelligence modifier (if a wizard) or Charisma modifier (if a sorcerer). Weapons cause standard damage (with no Strength bonus; note that arrows or bolts deal damage as daggers of their size when used in this manner). Other objects cause damage ranging from 1 point per 25 pounds (for less dangerous objects) to 1d6 points of damage per 25 pounds (for hard, dense objects).
 
 Creatures who fall within the weight capacity of the spell can be hurled, but they are allowed Will saves (and spell resistance) to negate the effect, as are those whose held possessions are targeted by the spell. If a telekinesed creature is hurled against a solid surface, it takes damage as if it had fallen 10 feet (1d6 points).
+
 ## Telekinetic Sphere
 
 - Evocation \[Force\]
@@ -9879,6 +10137,7 @@ The sphere falls at a rate of only 60 feet per round, which is not fast enough t
 You can move the sphere telekinetically even if you are in it.
 
 _Material Component::_ A hemispherical piece of clear crystal, a matching hemispherical piece of gum arabic, and a pair of small bar magnets.
+
 ## Telepathic Bond
 
 - Divination
@@ -9898,6 +10157,7 @@ If desired, you may leave yourself out of the telepathic bond forged. This decis
 _Telepathic bond_ can be made permanent with a _permanency_ spell, though it only bonds two creatures per casting of _permanency_.
 
 _Material Component::_ Pieces of eggshell from two different kinds of creatures.
+
 ## Teleport
 
 - Conjuration (Teleportation)
@@ -9951,12 +10211,14 @@ _Mishap::_ You and anyone else teleporting with you have gotten “scrambled.”
 This spell functions like _teleport,_ except that it teleports an object, not you. Creatures and magical forces cannot be teleported.
 
 If desired, the target object can be sent to a distant location on the Ethereal Plane. In this case, the point from which the object was teleported remains faintly magical until the item is retrieved. A successful targeted _dispel magic_ spell cast on that point brings the vanished item back from the Ethereal Plane.
+
 ## Teleport, Greater
 
 - Conjuration (Teleportation)
 - **Level::** Sor/Wiz 7, Travel 7
 
 This spell functions like _teleport,_ except that there is no range limit and there is no chance you arrive off target. In addition, you need not have seen the destination, but in that case you must have at least a reliable description of the place to which you are teleporting. If you attempt to teleport with insufficient information (or with misleading information), you disappear and simply reappear in your original location. Interplanar travel is not possible.
+
 ## Teleportation Circle
 
 - Conjuration (Teleportation)
@@ -9978,6 +10240,7 @@ _Teleportation circle_ can be made permanent with a _permanency_ spell. A perman
 _Note::_ Magic traps such as _teleportation circle_ are hard to detect and disable. A rogue (only) can use the Search skill to find the circle and Disable Device to thwart it. The DC in each case is 25 + spell level, or 34 in the case of _teleportation circle_.
 
 _Material Component::_ Amber dust to cover the area of the circle (cost 1,000 gp).
+
 ## Temporal Stasis
 
 - Transmutation
@@ -9993,6 +10256,7 @@ _Material Component::_ Amber dust to cover the area of the circle (cost 1,000 gp
 You must succeed on a melee touch attack. You place the subject into a state of suspended animation. For the creature, time ceases to flow and its condition becomes fixed. The creature does not grow older. Its body functions virtually cease, and no force or effect can harm it. This state persists until the magic is removed (such as by a successful _dispel magic_ spell or a _freedom_ spell).
 
 _Material Component::_ A powder composed of diamond, emerald, ruby, and sapphire dust with a total value of at least 5,000 gp.
+
 ## Time Stop
 
 - Transmutation
@@ -10008,6 +10272,7 @@ This spell seems to make time cease to flow for everyone but you. In fact, you s
 You cannot move or harm items held, carried, or worn by a creature stuck in normal time, but you can affect any item that is not in another creature’s possession.
 
 You are undetectable while _time stop_ lasts. You cannot enter an area protected by an _antimagic field_ while under the effect of _time stop._
+
 ## Tiny Hut
 
 - Evocation \[Force\]
@@ -10027,6 +10292,7 @@ The temperature inside the hut is 70° F if the exterior temperature is between 
 The interior of the hut is a hemisphere. You can illuminate it dimly upon command or extinguish the light as desired. Although the force field is opaque from the outside, it is transparent from within. Missiles, weapons, and most spell effects can pass through the hut without affecting it, although the occupants cannot be seen from outside the hut (they have total concealment).
 
 _Material Component::_ A small crystal bead that shatters when the spell duration expires or the _hut_ is dispelled.
+
 ## Tongues
 
 - Divination
@@ -10044,6 +10310,7 @@ This spell grants the creature touched the ability to speak and understand the l
 _Tongues_ can be made permanent with a _permanency_ spell.
 
 _Arcane Material Component::_ A small clay model of a ziggurat, which shatters when the verbal component is pronounced.
+
 ## Touch of Fatigue
 
 - Necromancy
@@ -10063,6 +10330,7 @@ The subject is immediately fatigued for the spell’s duration.
 This spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell’s duration expires.
 
 _Material Component::_ A drop of sweat.
+
 ## Touch of Idiocy
 
 - Enchantment (Compulsion) \[Mind-Affecting\]
@@ -10078,6 +10346,7 @@ _Material Component::_ A drop of sweat.
 With a touch, you reduce the target’s mental faculties. Your successful melee touch attack applies a 1d6 penalty to the target’s Intelligence, Wisdom, and Charisma scores. This penalty can’t reduce any of these scores below 1.
 
 This spell’s effect may make it impossible for the target to cast some or all of its spells, if the requisite ability score drops below the minimum required to cast spells of that level.
+
 ## Transformation
 
 - Transmutation
@@ -10095,6 +10364,7 @@ You gain a +4 enhancement bonus to Strength, Dexterity, and Constitution, a +4 n
 You lose your spellcasting ability, including your ability to use spell activation or spell completion magic items, just as if the spells were no longer on your class list.
 
 _Material Component::_ A _potion of bull’s strength_, which you drink (and whose effects are subsumed by the spell effects).
+
 ## Transmute Metal to Wood
 
 - Transmutation
@@ -10110,6 +10380,7 @@ _Material Component::_ A _potion of bull’s strength_, which you drink (and who
 This spell enables you to change all metal objects within its area to wood. Weapons, armor, and other metal objects carried by creatures are affected as well. A magic object made of metal effectively has spell resistance equal to 20 + its caster level against this spell. Artifacts cannot be transmuted. Weapons converted from metal to wood take a –2 penalty on attack and damage rolls. The armor bonus of any armor converted from metal to wood is reduced by 2. Weapons changed by this spell splinter and break on any natural attack roll of 1 or 2, and armor changed by this spell loses an additional point of armor bonus every time it is struck with a natural attack roll of 19 or 20.
 
 Only _limited wish, miracle, wish,_ or similar magic can restore a transmuted object to its metallic state.
+
 ## Transmute Mud to Rock
 
 - Transmutation \[Earth\]
@@ -10129,6 +10400,7 @@ Any creature in the mud is allowed a Reflex save to escape before the area is ha
 _Transmute mud to rock_ counters and dispels _transmute rock to mud_.
 
 _Arcane Material Component::_ Sand, lime, and water.
+
 ## Transmute Rock to Mud
 
 - Transmutation \[Earth\]
@@ -10150,6 +10422,7 @@ Castles and large stone buildings are generally immune to the effect of the spel
 The mud remains until a successful _dispel magic_ or _transmute mud to rock_ spell restores its substance—but not necessarily its form. Evaporation turns the mud to normal dirt over a period of days. The exact time depends on exposure to the sun, wind, and normal drainage.
 
 _Arcane Material Component::_ Clay and water.
+
 ## Transport via Plants
 
 - Conjuration (Teleportation)
@@ -10169,6 +10442,7 @@ You can bring along objects as long as their weight doesn’t exceed your maximu
 You can’t use this spell to travel through plant creatures.
 
 The destruction of an occupied plant slays you and any creatures you have brought along, and ejects the bodies and all carried objects from the tree.
+
 ## Trap the Soul
 
 - Conjuration (Summoning)
@@ -10192,6 +10466,7 @@ _Trigger Object::_ The second method is far more insidious, for it tricks the su
 _Material Component::_ Before the actual casting of _trap the soul,_ you must procure a gem of at least 1,000 gp value for every Hit Die possessed by the creature to be trapped. If the gem is not valuable enough, it shatters when the entrapment is attempted. (While creatures have no concept of level or Hit Dice as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as creatures gain more Hit Dice.)
 
 _Focus (Trigger Object Only)::_ If the trigger object method is used, a special trigger object, prepared as described above, is needed.
+
 ## Tree Shape
 
 - Transmutation
@@ -10205,6 +10480,7 @@ _Focus (Trigger Object Only)::_ If the trigger object method is used, a special 
 By means of this spell, you are able to assume the form of a Large living tree or shrub or a Large dead tree trunk with a small number of limbs. The closest inspection cannot reveal that the tree in question is actually a magically concealed creature. To all normal tests you are, in fact, a tree or shrub, although a _detect magic_ spell reveals a faint transmutation on the tree. While in tree form, you can observe all that transpires around you just as if you were in your normal form, and your hit points and save bonuses remain unaffected. You gain a +10 natural armor bonus to AC but have an effective Dexterity score of 0 and a speed of 0 feet. You are immune to critical hits while in tree form. All clothing and gear carried or worn changes with you.
 
 You can dismiss _tree shape_ as a free action (instead of as a standard action).
+
 ## Tree Stride
 
 - Conjuration (Teleportation)
@@ -10227,6 +10503,7 @@ You gain the ability to enter trees and move from inside one tree to inside anot
 You may move into a tree up to one time per caster level (passing from one tree to another counts only as moving into one tree). The spell lasts until the duration expires or you exit a tree. Each transport is a full-round action.
 
 You can, at your option, remain within a tree without transporting yourself, but you are forced out when the spell ends. If the tree in which you are concealed is chopped down or burned, you are slain if you do not exit before the process is complete.
+
 ## True Resurrection
 
 - Conjuration (Healing)
@@ -10242,6 +10519,7 @@ You can revive someone killed by a death effect or someone who has been turned i
 Even _true resurrection_ can’t restore to life a creature who has died of old age.
 
 _Material Component::_ A sprinkle of holy water and diamonds worth a total of at least 25,000 gp.
+
 ## True Seeing
 
 - Divination
@@ -10259,6 +10537,7 @@ You confer on the subject the ability to see all things as they actually are. Th
 _True seeing_, however, does not penetrate solid objects. It in no way confers X-ray vision or its equivalent. It does not negate concealment, including that caused by fog and the like. _True seeing_ does not help the viewer see through mundane disguises, spot creatures who are simply hiding, or notice secret doors hidden by mundane means. In addition, the spell effects cannot be further enhanced with known magic, so one cannot use _true seeing_ through a _crystal ball_ or in conjunction with _clairaudience/clairvoyance_.
 
 _Material Component::_ An ointment for the eyes that costs 250 gp and is made from mushroom powder, saffron, and fat.
+
 ## True Strike
 
 - Divination
@@ -10272,6 +10551,7 @@ _Material Component::_ An ointment for the eyes that costs 250 gp and is made fr
 You gain temporary, intuitive insight into the immediate future during your next attack. Your next single attack roll (if it is made before the end of the next round) gains a +20 insight bonus. Additionally, you are not affected by the miss chance that applies to attackers trying to strike a concealed target.
 
 _Focus::_ A small wooden replica of an archery target.
+
 ## Undeath to Death
 
 - Necromancy
@@ -10283,6 +10563,7 @@ _Focus::_ A small wooden replica of an archery target.
 This spell functions like _circle of death_, except that it destroys undead creatures as noted above.
 
 _Material Component::_ The powder of a crushed diamond worth at least 500 gp.
+
 ## Undetectable Alignment
 
 - Abjuration
@@ -10296,6 +10577,7 @@ _Material Component::_ The powder of a crushed diamond worth at least 500 gp.
 - **Spell Resistance::** Yes (object)
 
 An _undetectable alignment_ spell conceals the alignment of an object or a creature from all forms of divination.
+
 ## Unhallow
 
 - Evocation \[Evil\]
@@ -10325,6 +10607,7 @@ An area can receive only one _unhallow_ spell (and its associated spell effect) 
 _Unhallow_ counters but does not dispel _hallow_.
 
 _Material Component::_ Herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be tied to the _unhallowed_ area.
+
 ## Unholy Aura
 
 - Abjuration \[Evil\]
@@ -10348,6 +10631,7 @@ Third, the abjuration blocks possession and mental influence, just as _protectio
 Finally, if a good creature succeeds on a melee attack against a warded creature, the offending attacker takes 1d6 points of temporary Strength damage (Fortitude negates).
 
 _Focus::_ A tiny reliquary containing some sacred relic, such as a piece of parchment from an unholy text. The reliquary costs at least 500 gp.
+
 ## Unholy Blight
 
 - Evocation \[Evil\]
@@ -10367,6 +10651,7 @@ Only good and neutral (not evil) creatures are harmed by the spell.
 The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to a good creature (or 1d6 per caster level, maximum 10d6, to a good outsider) and causes it to be sickened for 1d4 rounds. A successful Will save reduces damage to half and negates the sickened effect. The effects cannot be negated by _remove disease_ or _heal,_ but _remove curse_ is effective.
 
 The spell deals only half damage to creatures who are neither evil nor good, and they are not sickened. Such a creature can reduce the damage in half again (down to one-quarter) with a successful Will save.
+
 ## Unseen Servant
 
 - Conjuration (Creation)
@@ -10384,6 +10669,7 @@ An _unseen servant_ is an invisible, mindless, shapeless force that performs sim
 The servant cannot attack in any way; it is never allowed an attack roll. It cannot be killed, but it dissipates if it takes 6 points of damage from area attacks. (It gets no saves against attacks.) If you attempt to send it beyond the spell’s range (measured from your current position), the servant ceases to exist.
 
 _Material Component::_ A piece of string and a bit of wood.
+
 ## Vampiric Touch
 
 - Necromancy
@@ -10414,6 +10700,7 @@ You must succeed on a melee touch attack. Your touch deals 1d6 points of damage 
 You instantly change the appearance of the subjects and then maintain that appearance for the spell’s duration. You can make the subjects appear to be anything you wish. The subjects look, feel, and smell just like the creatures the spell makes them resemble. Affected creatures resume their normal appearances if slain. You must succeed on a Disguise check to duplicate the appearance of a specific individual. This spell gives you a +10 bonus on the check.
 
 Unwilling targets can negate the spell’s effect on them by making Will saves or with spell resistance. Those who interact with the subjects can attempt Will disbelief saves to see through the glamer, but spell resistance doesn’t help.
+
 ## Ventriloquism
 
 - Illusion (Figment)
@@ -10429,6 +10716,7 @@ Unwilling targets can negate the spell’s effect on them by making Will saves o
 You can make your voice (or any sound that you can normally make vocally) seem to issue from someplace else. You can speak in any language you know. With respect to such voices and sounds, anyone who hears the sound and rolls a successful save recognizes it as illusory (but still hears it).
 
 _Focus::_ A parchment rolled up into a small cone.
+
 ## Virtue
 
 - Transmutation
@@ -10442,6 +10730,7 @@ _Focus::_ A parchment rolled up into a small cone.
 - **Spell Resistance::** Yes (harmless)
 
 The subject gains 1 temporary hit point.
+
 ## Vision
 
 - Divination
@@ -10452,6 +10741,7 @@ The subject gains 1 temporary hit point.
 This spell functions like _legend lore,_ except that it works more quickly but produces some strain on you. You pose a question about some person, place, or object, then cast the spell. If the person or object is at hand or if you are in the place in question, you receive a vision about it by succeeding on a caster level check (1d20 +1 per caster level; maximum +25) against DC 20. If only detailed information on the person, place, or object is known, the DC is 25, and the information gained is incomplete. If only rumors are known, the DC is 30, and the information gained is vague.
 
 _XP Cost::_ 100 XP.
+
 ## Wail of the Banshee
 
 - Necromancy \[Death, Sonic\]
@@ -10465,6 +10755,7 @@ _XP Cost::_ 100 XP.
 - **Spell Resistance::** Yes
 
 You emit a terrible scream that kills creatures that hear it (except for yourself ). Creatures closest to the point of origin are affected first.
+
 ## Wall of Fire
 
 - Evocation \[Fire\]
@@ -10484,6 +10775,7 @@ If you evoke the wall so that it appears where creatures are, each creature take
 _Wall of fire_ can be made permanent with a _permanency_ spell. A permanent _wall of fire_ that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.
 
 _Arcane Material Component::_ A small piece of phosphorus.
+
 ## Wall of Force
 
 - Evocation \[Force\]
@@ -10503,6 +10795,7 @@ The caster can form the wall into a flat, vertical plane whose area is up to one
 _Wall of force_ can be made permanent with a _permanency_ spell.
 
 _Material Component::_ A pinch of powder made from a clear gem.
+
 ## Wall of Ice
 
 - Evocation \[Cold\]
@@ -10526,6 +10819,7 @@ Even when the ice has been broken through, a sheet of frigid air remains. Any cr
 _Hemisphere::_ The wall takes the form of a hemisphere whose maximum radius is 3 feet + 1 foot per caster level. The _hemisphere_ is as hard to break through as the _ice plane_ form, but it does not deal damage to those who go through a breach.
 
 _Material Component::_ A small piece of quartz or similar rock crystal.
+
 ## Wall of Iron
 
 - Conjuration (Creation)
@@ -10547,6 +10841,7 @@ If you desire, the wall can be created vertically resting on a flat surface but 
 Like any iron wall, this wall is subject to rust, perforation, and other natural phenomena.
 
 _Material Component::_ A small piece of sheet iron plus gold dust worth 50 gp (1 pound of gold dust).
+
 ## Wall of Stone
 
 - Conjuration (Creation) \[Earth\]
@@ -10568,6 +10863,7 @@ Like any other stone wall, this one can be destroyed by a _disintegrate_ spell o
 It is possible, but difficult, to trap mobile opponents within or under a _wall of stone_, provided the wall is shaped so it can hold the creatures. Creatures can avoid entrapment with successful Reflex saves.
 
 _Arcane Material Component::_ A small block of granite.
+
 ## Wall of Thorns
 
 - Conjuration (Creation)
@@ -10591,6 +10887,7 @@ Any creature within the area of the spell when it is cast takes damage as if it 
 A _wall of thorns_ can be breached by slow work with edged weapons. Chopping away at the wall creates a safe passage 1 foot deep for every 10 minutes of work. Normal fire cannot harm the barrier, but magical fire burns it away in 10 minutes.
 
 Despite its appearance, a _wall of thorns_ is not actually a living plant, and thus is unaffected by spells that affect plants.
+
 ## Warp Wood
 
 - Transmutation
@@ -10612,6 +10909,7 @@ Alternatively, you can unwarp wood (effectively warping it back to normal) with 
 You can combine multiple consecutive _warp wood_ spells to warp (or unwarp) an object that is too large for you to warp with a single spell.
 
 Until the object is completely warped, it suffers no ill effects.
+
 ## Water Breathing
 
 - Transmutation
@@ -10629,6 +10927,7 @@ The transmuted creatures can breathe water freely. Divide the duration evenly am
 The spell does not make creatures unable to breathe air.
 
 _Arcane Material Component::_ A short reed or piece of straw.
+
 ## Water Walk
 
 - Transmutation \[Water\]
@@ -10644,6 +10943,7 @@ _Arcane Material Component::_ A short reed or piece of straw.
 The transmuted creatures can tread on any liquid as if it were firm ground. Mud, oil, snow, quicksand, running water, ice, and even lava can be traversed easily, since the subjects’ feet hover an inch or two above the surface. (Creatures crossing molten lava still take damage from the heat because they are near it.) The subjects can walk, run, charge, or otherwise move across the surface as if it were normal ground.
 
 If the spell is cast underwater (or while the subjects are partially or wholly submerged in whatever liquid they are in), the subjects are borne toward the surface at 60 feet per round until they can stand on it.
+
 ## Waves of Exhaustion
 
 - Necromancy
@@ -10657,6 +10957,7 @@ If the spell is cast underwater (or while the subjects are partially or wholly s
 - **Spell Resistance::** Yes
 
 Waves of negative energy cause all living creatures in the spell’s area to become exhausted. This spell has no effect on a creature that is already exhausted.
+
 ## Waves of Fatigue
 
 - Necromancy
@@ -10670,6 +10971,7 @@ Waves of negative energy cause all living creatures in the spell’s area to bec
 - **Spell Resistance::** Yes
 
 Waves of negative energy render all living creatures in the spell’s area fatigued. This spell has no effect on a creature that is already fatigued.
+
 ## Web
 
 - Conjuration (Creation)
@@ -10693,6 +10995,7 @@ The strands of a _web_ spell are flammable. A magic _flaming sword_ can slash th
 _Web_ can be made permanent with a _permanency_ spell. A permanent _web_ that is damaged (but not destroyed) regrows in 10 minutes.
 
 _Material Component::_ A bit of spider web.
+
 ## Weird
 
 - Illusion (Phantasm) \[Fear, Mind-Affecting\]
@@ -10702,6 +11005,7 @@ _Material Component::_ A bit of spider web.
 This spell functions like _phantasmal killer_, except it can affect more than one creature. Only the affected creatures see the phantasmal creatures attacking them, though you see the attackers as shadowy shapes.
 
 If a subject’s Fortitude save succeeds, it still takes 3d6 points of damage and is stunned for 1 round. The subject also takes 1d4 points of temporary Strength damage.
+
 ## Whirlwind
 
 - Evocation \[Air\]
@@ -10717,6 +11021,7 @@ If a subject’s Fortitude save succeeds, it still takes 3d6 points of damage an
 This spell creates a powerful cyclone of raging wind that moves through the air, along the ground, or over water at a speed of 60 feet per round. You can concentrate on controlling the cyclone’s every movement or specify a simple program. Directing the cyclone’s movement or changing its programmed movement is a standard action for you. The cyclone always moves during your turn. If the cyclone exceeds the spell’s range, it moves in a random, uncontrolled fashion for 1d3 rounds and then dissipates. (You can’t regain control of the cyclone, even if comes back within range.)
 
 Any Large or smaller creature that comes in contact with the spell effect must succeed on a Reflex save or take 3d6 points of damage. A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the cyclone and held suspended in its powerful winds, taking 1d8 points of damage each round on your turn with no save allowed. You may direct the cyclone to eject any carried creatures whenever you wish, depositing the hapless souls wherever the cyclone happens to be when they are released.
+
 ## Whispering Wind
 
 - Transmutation \[Air\]
@@ -10734,6 +11039,7 @@ You send a message or sound on the wind to a designated spot. The _whispering wi
 You can prepare the spell to bear a message of no more than twenty-five words, cause the spell to deliver other sounds for 1 round, or merely have the _whispering wind_ seem to be a faint stirring of the air. You can likewise cause the _whispering wind_ to move as slowly as 1 mile per hour or as quickly as 1 mile per 10 minutes.
 
 When the spell reaches its objective, it swirls and remains in place until the message is delivered. As with _magic mouth, whispering wind_ cannot speak verbal components, use command words, or activate magical effects.
+
 ## Wind Walk
 
 - Transmutation \[Air\]
@@ -10753,6 +11059,7 @@ Normally, a _wind walker_ flies at a speed of 10 feet with perfect maneuverabili
 A _wind walker_ can regain its physical form as desired and later resume the cloud form. Each change to and from vaporous form takes 5 rounds, which counts toward the duration of the spell (as does any time spent in physical form). As noted above, you can dismiss the spell, and you can even dismiss it for individual wind walkers and not others.
 
 For the last minute of the spell’s duration, a _wind walker_ in cloud form automatically descends 60 feet per round (for a total of 600 feet), though it may descend faster if it wishes. This descent serves as a warning that the spell is about to end.
+
 ## Wind Wall
 
 - Evocation \[Air\]
@@ -10770,6 +11077,7 @@ An invisible vertical curtain of wind appears. It is 2 feet thick and of conside
 While the wall must be vertical, you can shape it in any continuous path along the ground that you like. It is possible to create cylindrical or square wind walls to enclose specific points.
 
 _Arcane Material Component::_ A tiny fan and a feather of exotic origin.
+
 ## Wish
 
 - Universal
@@ -10808,6 +11116,7 @@ Duplicated spells allow saves and spell resistance as normal (but save DCs are f
 _Material Component::_ When a _wish_ duplicates a spell with a material component that costs more than 10,000 gp, you must provide that component.
 
 _XP Cost::_ The minimum XP cost for casting _wish_ is 5,000 XP. When a _wish_ duplicates a spell that has an XP cost, you must pay 5,000 XP or that cost, whichever is more. When a _wish_ creates or improves a magic item, you must pay twice the normal XP cost for crafting or improving the item, plus an additional 5,000 XP.
+
 ## Wood Shape
 
 - Transmutation
@@ -10821,6 +11130,7 @@ _XP Cost::_ The minimum XP cost for casting _wish_ is 5,000 XP. When a _wish_ du
 - **Spell Resistance::** Yes (object)
 
 _Wood shape_ enables you to form one existing piece of wood into any shape that suits your purpose. While it is possible to make crude coffers, doors, and so forth, fine detail isn’t possible. There is a 30% chance that any shape that includes moving parts simply doesn’t work.
+
 ## Word of Chaos
 
 - Evocation \[Chaotic, Sonic\]
@@ -10857,6 +11167,7 @@ _Killed::_ Living creatures die. Undead creatures are destroyed.
 Furthermore, if you are on your home plane when you cast this spell, nonchaotic extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the _word of chaos._ The banishment effect allows a Will save (at a –4 penalty) to negate.
 
 Creatures whose HD exceed your caster level are unaffected by _word of chaos._
+
 ## Word of Recall
 
 - Conjuration (Teleportation)
@@ -10873,6 +11184,7 @@ _Word of recall_ teleports you instantly back to your sanctuary when the word is
 designate the sanctuary when you prepare the spell, and it must be a very familiar place. The actual point of arrival is a designated area no larger than 10 feet by 10 feet. You can be transported any distance within a plane but cannot travel between planes. You can transport, in addition to yourself, any objects you carry, as long as their weight doesn’t exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you. Exceeding this limit causes the spell to fail.
 
 An unwilling creature can’t be teleported by _word of recall._ Likewise, a creature’s Will save (or spell resistance) prevents items in its possession from being teleported. Unattended, nonmagical objects receive no saving throw.
+
 ## Zone of Silence
 
 - Illusion (Glamer)
@@ -10884,6 +11196,7 @@ An unwilling creature can’t be teleported by _word of recall._ Likewise, a cre
 - **Duration::** 1 hour/level (D)
 
 By casting _zone of silence_, you manipulate sound waves in your immediate vicinity so that you and those within the spell’s area can converse normally, yet no one outside can hear your voices or any other noises from within, including language-dependent or sonic spell effects. This effect is centered on you and moves with you. Anyone who enters the zone immediately becomes subject to its effects, but those who leave are no longer affected. Note, however, that a successful Spot check to read lips can still reveal what’s said inside a _zone of silence._
+
 ## Zone of Truth
 
 - Enchantment (Compulsion) \[Mind-Affecting\]
