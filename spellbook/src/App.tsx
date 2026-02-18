@@ -183,100 +183,102 @@ function App() {
             </div>
           </div>
 
-          {selectedSpellsData.map(spell => (
-            <div key={spell.id} className="spell-card">
-              <h2 className="spell-title">
-                {spell.name}
-                {spell.homebrew && <span className="homebrew-badge-large">Homebrew</span>}
-              </h2>
+          <div className="spell-cards-container">
+            {selectedSpellsData.map(spell => (
+              <div key={spell.id} className="spell-card">
+                <h2 className="spell-title">
+                  {spell.name}
+                  {spell.homebrew && <span className="homebrew-badge-large">Homebrew</span>}
+                </h2>
 
-              <div className="spell-meta">
-                <div className="spell-school">
-                  <strong>{spell.school}</strong>
-                  {spell.subschool && ` (${spell.subschool})`}
-                  {spell.descriptor && ` [${spell.descriptor}]`}
+                <div className="spell-meta">
+                  <div className="spell-school">
+                    <strong>{spell.school}</strong>
+                    {spell.subschool && ` (${spell.subschool})`}
+                    {spell.descriptor && ` [${spell.descriptor}]`}
+                  </div>
                 </div>
-              </div>
 
-              <div className="spell-stats">
-                <div className="stat-row">
-                  <strong>Level:</strong>{' '}
-                  {Object.entries(spell.level)
-                    .map(([cls, lvl]) => `${cls} ${lvl}`)
-                    .join(', ')}
-                </div>
-                {spell.components && (
+                <div className="spell-stats">
                   <div className="stat-row">
-                    <strong>Components:</strong> {spell.components}
+                    <strong>Level:</strong>{' '}
+                    {Object.entries(spell.level)
+                      .map(([cls, lvl]) => `${cls} ${lvl}`)
+                      .join(', ')}
                   </div>
-                )}
-                {spell.castingTime && (
-                  <div className="stat-row">
-                    <strong>Casting Time:</strong> {spell.castingTime}
-                  </div>
-                )}
-                {spell.range && (
-                  <div className="stat-row">
-                    <strong>Range:</strong> {spell.range}
-                  </div>
-                )}
-                {spell.target && (
-                  <div className="stat-row">
-                    <strong>Target:</strong> {spell.target}
-                  </div>
-                )}
-                {spell.area && (
-                  <div className="stat-row">
-                    <strong>Area:</strong> {spell.area}
-                  </div>
-                )}
-                {spell.effect && (
-                  <div className="stat-row">
-                    <strong>Effect:</strong> {spell.effect}
-                  </div>
-                )}
-                {spell.duration && (
-                  <div className="stat-row">
-                    <strong>Duration:</strong> {spell.duration}
-                  </div>
-                )}
-                {spell.savingThrow && (
-                  <div className="stat-row">
-                    <strong>Saving Throw:</strong> {spell.savingThrow}
-                  </div>
-                )}
-                {spell.spellResistance && (
-                  <div className="stat-row">
-                    <strong>Spell Resistance:</strong> {spell.spellResistance}
-                  </div>
-                )}
-              </div>
-
-              <div className="spell-description">
-                <Markdown remarkPlugins={[remarkGfm]}>{spell.description}</Markdown>
-              </div>
-
-              {(spell.materialComponent || spell.focus || spell.arcaneFocus || spell.arcaneMaterialComponent || spell.xpCost) && (
-                <div className="spell-components-detail">
-                  {spell.materialComponent && (
-                    <p><em>Material Component:</em> {spell.materialComponent}</p>
+                  {spell.components && (
+                    <div className="stat-row">
+                      <strong>Components:</strong> {spell.components}
+                    </div>
                   )}
-                  {spell.focus && (
-                    <p><em>Focus:</em> {spell.focus}</p>
+                  {spell.castingTime && (
+                    <div className="stat-row">
+                      <strong>Casting Time:</strong> {spell.castingTime}
+                    </div>
                   )}
-                  {spell.arcaneFocus && (
-                    <p><em>Arcane Focus:</em> {spell.arcaneFocus}</p>
+                  {spell.range && (
+                    <div className="stat-row">
+                      <strong>Range:</strong> {spell.range}
+                    </div>
                   )}
-                  {spell.arcaneMaterialComponent && (
-                    <p><em>Arcane Material Component:</em> {spell.arcaneMaterialComponent}</p>
+                  {spell.target && (
+                    <div className="stat-row">
+                      <strong>Target:</strong> {spell.target}
+                    </div>
                   )}
-                  {spell.xpCost && (
-                    <p><em>XP Cost:</em> {spell.xpCost}</p>
+                  {spell.area && (
+                    <div className="stat-row">
+                      <strong>Area:</strong> {spell.area}
+                    </div>
+                  )}
+                  {spell.effect && (
+                    <div className="stat-row">
+                      <strong>Effect:</strong> {spell.effect}
+                    </div>
+                  )}
+                  {spell.duration && (
+                    <div className="stat-row">
+                      <strong>Duration:</strong> {spell.duration}
+                    </div>
+                  )}
+                  {spell.savingThrow && (
+                    <div className="stat-row">
+                      <strong>Saving Throw:</strong> {spell.savingThrow}
+                    </div>
+                  )}
+                  {spell.spellResistance && (
+                    <div className="stat-row">
+                      <strong>Spell Resistance:</strong> {spell.spellResistance}
+                    </div>
                   )}
                 </div>
-              )}
-            </div>
-          ))}
+
+                <div className="spell-description">
+                  <Markdown remarkPlugins={[remarkGfm]}>{spell.description}</Markdown>
+                </div>
+
+                {(spell.materialComponent || spell.focus || spell.arcaneFocus || spell.arcaneMaterialComponent || spell.xpCost) && (
+                  <div className="spell-components-detail">
+                    {spell.materialComponent && (
+                      <p><em>Material Component:</em> {spell.materialComponent}</p>
+                    )}
+                    {spell.focus && (
+                      <p><em>Focus:</em> {spell.focus}</p>
+                    )}
+                    {spell.arcaneFocus && (
+                      <p><em>Arcane Focus:</em> {spell.arcaneFocus}</p>
+                    )}
+                    {spell.arcaneMaterialComponent && (
+                      <p><em>Arcane Material Component:</em> {spell.arcaneMaterialComponent}</p>
+                    )}
+                    {spell.xpCost && (
+                      <p><em>XP Cost:</em> {spell.xpCost}</p>
+                    )}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       )}
 
