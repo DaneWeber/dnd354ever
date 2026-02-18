@@ -5764,7 +5764,7 @@ An invisible but tangible field of force surrounds the subject of a _mage armor_
 
 Unlike mundane armor, _mage armor_ entails no armor check penalty, arcane spell failure chance, or speed reduction. Since _mage armor_ is made of force, incorporeal creatures can’t bypass it the way they do normal armor.
 
-_Focus_:: A piece of cured leather.
+_Focus_: A piece of cured leather.
 
 ## Mage Hand
 
@@ -5854,7 +5854,7 @@ You can create any floor plan you desire to the limit of the spell’s effect. T
 
 Since the place can be entered only through its special portal, outside conditions do not affect the mansion, nor do conditions inside it pass to the plane beyond.
 
-_Focus_:: A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon (each item worth 5 gp).
+_Focus_: A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon (each item worth 5 gp).
 
 ## Mage’s Private Sanctum
 
@@ -5900,7 +5900,7 @@ The sword cannot be attacked or harmed by physical attacks, but _dispel magic_, 
 
 If an attacked creature has spell resistance, the resistance is checked the first time _Mage’s sword_ strikes it. If the sword is successfully resisted, the spell is dispelled. If not, the sword has its normal full effect on that creature for the duration of the spell.
 
-_Focus_:: A miniature platinum sword with a grip and pommel of copper and zinc. It costs 250 gp to construct.
+_Focus_: A miniature platinum sword with a grip and pommel of copper and zinc. It costs 250 gp to construct.
 
 ## Magic Aura
 
@@ -5922,7 +5922,7 @@ If the targeted item’s own aura is exceptionally powerful (if it is an artifac
 
 _Note:_ A magic weapon, shield, or suit of armor must be a masterwork item, so a sword of average make, for example, looks suspicious if it has a magical aura.
 
-_Focus_:: A small square of silk that must be passed over the object that receives the aura.
+_Focus_: A small square of silk that must be passed over the object that receives the aura.
 
 ## Magic Circle Against Chaos
 
@@ -6031,7 +6031,7 @@ If the host body is slain, you return to the _magic jar,_ if within range, and t
 
 If the spell ends while you are in the _magic jar,_ you return to your body (or die if your body is out of range or destroyed). If the spell ends while you are in a host, you return to your body (or die, if it is out of range of your current position), and the soul in the _magic jar_ returns to its body (or dies if it is out of range). Destroying the receptacle ends the spell, and the spell can be dispelled at either the _magic jar_ or at the host’s location.
 
-_Focus_:: A gem or crystal worth at least 100 gp.
+_Focus_: A gem or crystal worth at least 100 gp.
 
 ## Magic Missile
 
@@ -6265,7 +6265,7 @@ You can whisper messages and receive whispered replies with little chance of bei
 
 _Note:_ To speak a message, you must mouth the words and whisper, possibly allowing observers the opportunity to read your lips.
 
-_Focus_:: A short piece of copper wire.
+_Focus_: A short piece of copper wire.
 
 ## Meteor Swarm
 
@@ -6459,7 +6459,7 @@ In either event, the spell or spells prepared or retained fade after 24 hours (i
 
 _Material Component:_ A piece of string, and ink consisting of squid secretion with black dragon’s blood.
 
-_Focus_:: An ivory plaque of at least 50 gp value.
+_Focus_: An ivory plaque of at least 50 gp value.
 
 ## Modify Memory
 
@@ -6667,7 +6667,7 @@ This spell does not function underwater.
 
 You can open or close (your choice) a door, chest, box, window, bag, pouch, bottle, barrel, or other container. If anything resists this activity (such as a bar on a door or a lock on a chest), the spell fails. In addition, the spell can only open and close things weighing 30 pounds or less. Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell’s ability to affect.
 
-_Focus_:: A brass key.
+_Focus_: A brass key.
 
 ## Order’s Wrath
 
@@ -10102,15 +10102,15 @@ _Material Component:_ 1,500 gp worth of crushed pearls and a drop of honey.
 
 You move objects or creatures by concentrating on them. Depending on the version selected, the spell can provide a gentle, sustained force, perform a variety of combat maneuvers, or exert a single short, violent thrust.
 
-_Sustained Force::_ A sustained force moves an object weighing no more than 25 pounds per caster level (maximum 375 pounds at 15th level) up to 20 feet per round. A creature can negate the effect on an object it possesses with a successful Will save or with spell resistance.
+_Sustained Force:_ A sustained force moves an object weighing no more than 25 pounds per caster level (maximum 375 pounds at 15th level) up to 20 feet per round. A creature can negate the effect on an object it possesses with a successful Will save or with spell resistance.
 
 This version of the spell can last 1 round per caster level, but it ends if you cease concentration. The weight can be moved vertically, horizontally, or in both directions. An object cannot be moved beyond your range. The spell ends if the object is forced beyond the range. If you cease concentration for any reason, the object falls or stops.
 
 An object can be telekinetically manipulated as if with one hand. For example, a lever or rope can be pulled, a key can be turned, an object rotated, and so on, if the force required is within the weight limitation. You might even be able to untie simple knots, though delicate activities such as these require Intelligence checks.
 
-_Combat Maneuver::_ Alternatively, once per round, you can use _telekinesis_ to perform a bull rush, disarm, grapple (including pin), or trip. Resolve these attempts as normal, except that they don’t provoke attacks of opportunity, you use your caster level in place of your base attack bonus (for disarm and grapple), you use your Intelligence modifier (if a wizard) or Charisma modifier (if a sorcerer) in place of your Strength or Dexterity modifier, and a failed attempt doesn’t allow a reactive attempt by the target (such as for disarm or trip). No save is allowed against these attempts, but spell resistance applies normally. This version of the spell can last 1 round per caster level, but it ends if you cease concentration.
+_Combat Maneuver:_ Alternatively, once per round, you can use _telekinesis_ to perform a bull rush, disarm, grapple (including pin), or trip. Resolve these attempts as normal, except that they don’t provoke attacks of opportunity, you use your caster level in place of your base attack bonus (for disarm and grapple), you use your Intelligence modifier (if a wizard) or Charisma modifier (if a sorcerer) in place of your Strength or Dexterity modifier, and a failed attempt doesn’t allow a reactive attempt by the target (such as for disarm or trip). No save is allowed against these attempts, but spell resistance applies normally. This version of the spell can last 1 round per caster level, but it ends if you cease concentration.
 
-_Violent Thrust::_ Alternatively, the spell energy can be spent in a single round. You can hurl one object or creature per caster level (maximum 15) that are within range and all within 10 feet of each other toward any target within 10 feet per level of all the objects. You can hurl up to a total weight of 25 pounds per caster level (maximum 375 pounds at 15th level).
+_Violent Thrust:_ Alternatively, the spell energy can be spent in a single round. You can hurl one object or creature per caster level (maximum 15) that are within range and all within 10 feet of each other toward any target within 10 feet per level of all the objects. You can hurl up to a total weight of 25 pounds per caster level (maximum 375 pounds at 15th level).
 
 You must succeed on attack rolls (one per creature or object thrown) to hit the target with the items, using your base attack bonus + your Intelligence modifier (if a wizard) or Charisma modifier (if a sorcerer). Weapons cause standard damage (with no Strength bonus; note that arrows or bolts deal damage as daggers of their size when used in this manner). Other objects cause damage ranging from 1 point per 25 pounds (for less dangerous objects) to 1d6 points of damage per 25 pounds (for hard, dense objects).
 
@@ -10136,7 +10136,7 @@ The sphere falls at a rate of only 60 feet per round, which is not fast enough t
 
 You can move the sphere telekinetically even if you are in it.
 
-_Material Component::_ A hemispherical piece of clear crystal, a matching hemispherical piece of gum arabic, and a pair of small bar magnets.
+_Material Component:_ A hemispherical piece of clear crystal, a matching hemispherical piece of gum arabic, and a pair of small bar magnets.
 
 ## Telepathic Bond
 
@@ -10156,7 +10156,7 @@ If desired, you may leave yourself out of the telepathic bond forged. This decis
 
 _Telepathic bond_ can be made permanent with a _permanency_ spell, though it only bonds two creatures per casting of _permanency_.
 
-_Material Component::_ Pieces of eggshell from two different kinds of creatures.
+_Material Component:_ Pieces of eggshell from two different kinds of creatures.
 
 ## Teleport
 
@@ -10176,19 +10176,19 @@ You must have some clear idea of the location and layout of the destination. The
 
 To see how well the teleportation works, roll d% and consult the Teleport table. Refer to the following information for definitions of the terms on the table.
 
-_Familiarity::_ “Very familiar” is a place where you have been very often and where you feel at home. “Studied carefully” is a place you know well, either because you can currently see it, you’ve been there often, or you have used other means (such as _scrying_) to study the place for at least one hour. “Seen casually” is a place that you have seen more than once but with which you are not very familiar. “Viewed once” is a place that you have seen once, possibly using magic.
+_Familiarity:_ “Very familiar” is a place where you have been very often and where you feel at home. “Studied carefully” is a place you know well, either because you can currently see it, you’ve been there often, or you have used other means (such as _scrying_) to study the place for at least one hour. “Seen casually” is a place that you have seen more than once but with which you are not very familiar. “Viewed once” is a place that you have seen once, possibly using magic.
 
 “False destination” is a place that does not truly exist or if you are teleporting to an otherwise familiar location that no longer exists as such or has been so completely altered as to no longer be familiar to you. When traveling to a false destination, roll 1d20+80 to obtain results on the table, rather than rolling d%, since there is no real destination for you to hope to arrive at or even be off target from.
 
-_On Target::_ You appear where you want to be.
+_On Target:_ You appear where you want to be.
 
-_Off Target::_ You appear safely a random distance away from the destination in a random direction. Distance off target is 1d10x1d10% of the distance that was to be traveled. The direction off target is determined randomly
+_Off Target:_ You appear safely a random distance away from the destination in a random direction. Distance off target is 1d10x1d10% of the distance that was to be traveled. The direction off target is determined randomly
 
-_Similar Area::_ You wind up in an area that’s visually or thematically similar to the target area.
+_Similar Area:_ You wind up in an area that’s visually or thematically similar to the target area.
 
 Generally, you appear in the closest similar place within range. If no such area exists within the spell’s range, the spell simply fails instead.
 
-_Mishap::_ You and anyone else teleporting with you have gotten “scrambled.” You each take 1d10 points of damage, and you reroll on the chart to see where you wind up. For these rerolls, roll 1d20+80. Each time “Mishap” comes up, the characters take more damage and must reroll.
+_Mishap:_ You and anyone else teleporting with you have gotten “scrambled.” You each take 1d10 points of damage, and you reroll on the chart to see where you wind up. For these rerolls, roll 1d20+80. Each time “Mishap” comes up, the characters take more damage and must reroll.
 
 | Familiarity                 | On Target | Off Target | Similar Area | Mishap |
 | --------------------------- | --------- | ---------- | ------------ | ------ |
@@ -10237,9 +10237,9 @@ The circle itself is subtle and nearly impossible to notice. If you intend to ke
 
 _Teleportation circle_ can be made permanent with a _permanency_ spell. A permanent _teleportation circle_ that is disabled becomes inactive for 10 minutes, then can be triggered again as normal.
 
-_Note::_ Magic traps such as _teleportation circle_ are hard to detect and disable. A rogue (only) can use the Search skill to find the circle and Disable Device to thwart it. The DC in each case is 25 + spell level, or 34 in the case of _teleportation circle_.
+_Note:_ Magic traps such as _teleportation circle_ are hard to detect and disable. A rogue (only) can use the Search skill to find the circle and Disable Device to thwart it. The DC in each case is 25 + spell level, or 34 in the case of _teleportation circle_.
 
-_Material Component::_ Amber dust to cover the area of the circle (cost 1,000 gp).
+_Material Component:_ Amber dust to cover the area of the circle (cost 1,000 gp).
 
 ## Temporal Stasis
 
@@ -10255,7 +10255,7 @@ _Material Component::_ Amber dust to cover the area of the circle (cost 1,000 gp
 
 You must succeed on a melee touch attack. You place the subject into a state of suspended animation. For the creature, time ceases to flow and its condition becomes fixed. The creature does not grow older. Its body functions virtually cease, and no force or effect can harm it. This state persists until the magic is removed (such as by a successful _dispel magic_ spell or a _freedom_ spell).
 
-_Material Component::_ A powder composed of diamond, emerald, ruby, and sapphire dust with a total value of at least 5,000 gp.
+_Material Component:_ A powder composed of diamond, emerald, ruby, and sapphire dust with a total value of at least 5,000 gp.
 
 ## Time Stop
 
@@ -10291,7 +10291,7 @@ The temperature inside the hut is 70° F if the exterior temperature is between 
 
 The interior of the hut is a hemisphere. You can illuminate it dimly upon command or extinguish the light as desired. Although the force field is opaque from the outside, it is transparent from within. Missiles, weapons, and most spell effects can pass through the hut without affecting it, although the occupants cannot be seen from outside the hut (they have total concealment).
 
-_Material Component::_ A small crystal bead that shatters when the spell duration expires or the _hut_ is dispelled.
+_Material Component:_ A small crystal bead that shatters when the spell duration expires or the _hut_ is dispelled.
 
 ## Tongues
 
@@ -10309,7 +10309,7 @@ This spell grants the creature touched the ability to speak and understand the l
 
 _Tongues_ can be made permanent with a _permanency_ spell.
 
-_Arcane Material Component::_ A small clay model of a ziggurat, which shatters when the verbal component is pronounced.
+_Arcane Material Component:_ A small clay model of a ziggurat, which shatters when the verbal component is pronounced.
 
 ## Touch of Fatigue
 
@@ -10329,7 +10329,7 @@ The subject is immediately fatigued for the spell’s duration.
 
 This spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the effect ends as soon as the spell’s duration expires.
 
-_Material Component::_ A drop of sweat.
+_Material Component:_ A drop of sweat.
 
 ## Touch of Idiocy
 
@@ -10363,7 +10363,7 @@ You gain a +4 enhancement bonus to Strength, Dexterity, and Constitution, a +4 n
 
 You lose your spellcasting ability, including your ability to use spell activation or spell completion magic items, just as if the spells were no longer on your class list.
 
-_Material Component::_ A _potion of bull’s strength_, which you drink (and whose effects are subsumed by the spell effects).
+_Material Component:_ A _potion of bull’s strength_, which you drink (and whose effects are subsumed by the spell effects).
 
 ## Transmute Metal to Wood
 
@@ -10399,7 +10399,7 @@ Any creature in the mud is allowed a Reflex save to escape before the area is ha
 
 _Transmute mud to rock_ counters and dispels _transmute rock to mud_.
 
-_Arcane Material Component::_ Sand, lime, and water.
+_Arcane Material Component:_ Sand, lime, and water.
 
 ## Transmute Rock to Mud
 
@@ -10421,7 +10421,7 @@ Castles and large stone buildings are generally immune to the effect of the spel
 
 The mud remains until a successful _dispel magic_ or _transmute mud to rock_ spell restores its substance—but not necessarily its form. Evaporation turns the mud to normal dirt over a period of days. The exact time depends on exposure to the sun, wind, and normal drainage.
 
-_Arcane Material Component::_ Clay and water.
+_Arcane Material Component:_ Clay and water.
 
 ## Transport via Plants
 
@@ -10437,7 +10437,7 @@ _Arcane Material Component::_ Clay and water.
 
 You can enter any normal plant (Medium or larger) and pass any distance to a plant of the same kind in a single round, regardless of the distance separating the two. The entry plant must be alive. The destination plant need not be familiar to you, but it also must be alive. If you are uncertain of the location of a particular kind of destination plant, you need merely designate direction and distance and the _transport via plants_ spell moves you as close as possible to the desired location. If a particular destination plant is desired but the plant is not living, the spell fails and you are ejected from the entry plant.
 
-You can bring along objects as long as their weight doesn’t exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. Use the following equivalents to determine the maximum number of larger creatures you can bring along:: A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.
+You can bring along objects as long as their weight doesn’t exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. Use the following equivalents to determine the maximum number of larger creatures you can bring along: A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.
 
 You can’t use this spell to travel through plant creatures.
 
@@ -10459,13 +10459,13 @@ _Trap the soul_ forces a creature’s life force (and its material body) into a 
 
 Depending on the version selected, the spell can be triggered in one of two ways.
 
-_Spell Completion::_ First, the spell can be completed by speaking its final word as a standard action as if you were casting a regular spell at the subject. This allows spell resistance (if any) and a Will save to avoid the effect. If the creature’s name is spoken as well, any spell resistance is ignored and the save DC increases by 2. If the save or spell resistance is successful, the gem shatters.
+_Spell Completion:_ First, the spell can be completed by speaking its final word as a standard action as if you were casting a regular spell at the subject. This allows spell resistance (if any) and a Will save to avoid the effect. If the creature’s name is spoken as well, any spell resistance is ignored and the save DC increases by 2. If the save or spell resistance is successful, the gem shatters.
 
-_Trigger Object::_ The second method is far more insidious, for it tricks the subject into accepting a trigger object inscribed with the final spell word, automatically placing the creature’s soul in the trap. To use this method, both the creature’s name and the trigger word must be inscribed on the trigger object when the gem is enspelled. A _sympathy_ spell can also be placed on the trigger object. As soon as the subject picks up or accepts the trigger object, its life force is automatically transferred to the gem without the benefit of spell resistance or a save.
+_Trigger Object:_ The second method is far more insidious, for it tricks the subject into accepting a trigger object inscribed with the final spell word, automatically placing the creature’s soul in the trap. To use this method, both the creature’s name and the trigger word must be inscribed on the trigger object when the gem is enspelled. A _sympathy_ spell can also be placed on the trigger object. As soon as the subject picks up or accepts the trigger object, its life force is automatically transferred to the gem without the benefit of spell resistance or a save.
 
-_Material Component::_ Before the actual casting of _trap the soul,_ you must procure a gem of at least 1,000 gp value for every Hit Die possessed by the creature to be trapped. If the gem is not valuable enough, it shatters when the entrapment is attempted. (While creatures have no concept of level or Hit Dice as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as creatures gain more Hit Dice.)
+_Material Component:_ Before the actual casting of _trap the soul,_ you must procure a gem of at least 1,000 gp value for every Hit Die possessed by the creature to be trapped. If the gem is not valuable enough, it shatters when the entrapment is attempted. (While creatures have no concept of level or Hit Dice as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as creatures gain more Hit Dice.)
 
-_Focus (Trigger Object Only)::_ If the trigger object method is used, a special trigger object, prepared as described above, is needed.
+_Focus (Trigger Object Only):_ If the trigger object method is used, a special trigger object, prepared as described above, is needed.
 
 ## Tree Shape
 
@@ -10518,7 +10518,7 @@ You can revive someone killed by a death effect or someone who has been turned i
 
 Even _true resurrection_ can’t restore to life a creature who has died of old age.
 
-_Material Component::_ A sprinkle of holy water and diamonds worth a total of at least 25,000 gp.
+_Material Component:_ A sprinkle of holy water and diamonds worth a total of at least 25,000 gp.
 
 ## True Seeing
 
@@ -10536,7 +10536,7 @@ You confer on the subject the ability to see all things as they actually are. Th
 
 _True seeing_, however, does not penetrate solid objects. It in no way confers X-ray vision or its equivalent. It does not negate concealment, including that caused by fog and the like. _True seeing_ does not help the viewer see through mundane disguises, spot creatures who are simply hiding, or notice secret doors hidden by mundane means. In addition, the spell effects cannot be further enhanced with known magic, so one cannot use _true seeing_ through a _crystal ball_ or in conjunction with _clairaudience/clairvoyance_.
 
-_Material Component::_ An ointment for the eyes that costs 250 gp and is made from mushroom powder, saffron, and fat.
+_Material Component:_ An ointment for the eyes that costs 250 gp and is made from mushroom powder, saffron, and fat.
 
 ## True Strike
 
@@ -10550,7 +10550,7 @@ _Material Component::_ An ointment for the eyes that costs 250 gp and is made fr
 
 You gain temporary, intuitive insight into the immediate future during your next attack. Your next single attack roll (if it is made before the end of the next round) gains a +20 insight bonus. Additionally, you are not affected by the miss chance that applies to attackers trying to strike a concealed target.
 
-_Focus::_ A small wooden replica of an archery target.
+_Focus:_ A small wooden replica of an archery target.
 
 ## Undeath to Death
 
@@ -10562,7 +10562,7 @@ _Focus::_ A small wooden replica of an archery target.
 
 This spell functions like _circle of death_, except that it destroys undead creatures as noted above.
 
-_Material Component::_ The powder of a crushed diamond worth at least 500 gp.
+_Material Component:_ The powder of a crushed diamond worth at least 500 gp.
 
 ## Undetectable Alignment
 
@@ -10606,7 +10606,7 @@ An area can receive only one _unhallow_ spell (and its associated spell effect) 
 
 _Unhallow_ counters but does not dispel _hallow_.
 
-_Material Component::_ Herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be tied to the _unhallowed_ area.
+_Material Component:_ Herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be tied to the _unhallowed_ area.
 
 ## Unholy Aura
 
@@ -10630,7 +10630,7 @@ Third, the abjuration blocks possession and mental influence, just as _protectio
 
 Finally, if a good creature succeeds on a melee attack against a warded creature, the offending attacker takes 1d6 points of temporary Strength damage (Fortitude negates).
 
-_Focus::_ A tiny reliquary containing some sacred relic, such as a piece of parchment from an unholy text. The reliquary costs at least 500 gp.
+_Focus:_ A tiny reliquary containing some sacred relic, such as a piece of parchment from an unholy text. The reliquary costs at least 500 gp.
 
 ## Unholy Blight
 
@@ -10668,7 +10668,7 @@ An _unseen servant_ is an invisible, mindless, shapeless force that performs sim
 
 The servant cannot attack in any way; it is never allowed an attack roll. It cannot be killed, but it dissipates if it takes 6 points of damage from area attacks. (It gets no saves against attacks.) If you attempt to send it beyond the spell’s range (measured from your current position), the servant ceases to exist.
 
-_Material Component::_ A piece of string and a bit of wood.
+_Material Component:_ A piece of string and a bit of wood.
 
 ## Vampiric Touch
 
@@ -10715,7 +10715,7 @@ Unwilling targets can negate the spell’s effect on them by making Will saves o
 
 You can make your voice (or any sound that you can normally make vocally) seem to issue from someplace else. You can speak in any language you know. With respect to such voices and sounds, anyone who hears the sound and rolls a successful save recognizes it as illusory (but still hears it).
 
-_Focus::_ A parchment rolled up into a small cone.
+_Focus:_ A parchment rolled up into a small cone.
 
 ## Virtue
 
@@ -10740,7 +10740,7 @@ The subject gains 1 temporary hit point.
 
 This spell functions like _legend lore,_ except that it works more quickly but produces some strain on you. You pose a question about some person, place, or object, then cast the spell. If the person or object is at hand or if you are in the place in question, you receive a vision about it by succeeding on a caster level check (1d20 +1 per caster level; maximum +25) against DC 20. If only detailed information on the person, place, or object is known, the DC is 25, and the information gained is incomplete. If only rumors are known, the DC is 30, and the information gained is vague.
 
-_XP Cost::_ 100 XP.
+_XP Cost:_ 100 XP.
 
 ## Wail of the Banshee
 
@@ -10774,7 +10774,7 @@ If you evoke the wall so that it appears where creatures are, each creature take
 
 _Wall of fire_ can be made permanent with a _permanency_ spell. A permanent _wall of fire_ that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.
 
-_Arcane Material Component::_ A small piece of phosphorus.
+_Arcane Material Component:_ A small piece of phosphorus.
 
 ## Wall of Force
 
@@ -10794,7 +10794,7 @@ The caster can form the wall into a flat, vertical plane whose area is up to one
 
 _Wall of force_ can be made permanent with a _permanency_ spell.
 
-_Material Component::_ A pinch of powder made from a clear gem.
+_Material Component:_ A pinch of powder made from a clear gem.
 
 ## Wall of Ice
 
@@ -10810,15 +10810,15 @@ _Material Component::_ A pinch of powder made from a clear gem.
 
 This spell creates an anchored plane of ice or a hemisphere of ice, depending on the version selected. A _wall of ice_ cannot form in an area occupied by physical objects or creatures. Its surface must be smooth and unbroken when created. Any creature adjacent to the wall when it is created may attempt a Reflex save to disrupt the wall as it is being formed. A successful save indicates that the spell automatically fails. Fire can melt a _wall of ice,_ and it deals full damage to the wall (instead of the normal half damage taken by objects). Suddenly melting a _wall of ice_ creates a great cloud of steamy fog that lasts for 10 minutes.
 
-_Ice Plane::_ A sheet of strong, hard ice appears. The wall is 1 inch thick per caster level. It covers up to a 10-foot-square area per caster level (so a 10th-level wizard can create a wall of ice 100 feet long and 10 feet high, a wall 50 feet long and 20 feet high, or some other combination of length and height that does not exceed 1,000 square feet). The plane can be oriented in any fashion as long as it is anchored. A vertical wall need only be anchored on the floor, while a horizontal or slanting wall must be anchored on two opposite sides.
+_Ice Plane:_ A sheet of strong, hard ice appears. The wall is 1 inch thick per caster level. It covers up to a 10-foot-square area per caster level (so a 10th-level wizard can create a wall of ice 100 feet long and 10 feet high, a wall 50 feet long and 20 feet high, or some other combination of length and height that does not exceed 1,000 square feet). The plane can be oriented in any fashion as long as it is anchored. A vertical wall need only be anchored on the floor, while a horizontal or slanting wall must be anchored on two opposite sides.
 
 Each 10-foot square of wall has 3 hit points per inch of thickness. Creatures can hit the wall automatically. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 15 + caster level.
 
 Even when the ice has been broken through, a sheet of frigid air remains. Any creature stepping through it (including the one who broke through the wall) takes 1d6 points of cold damage +1 point per caster level (no save).
 
-_Hemisphere::_ The wall takes the form of a hemisphere whose maximum radius is 3 feet + 1 foot per caster level. The _hemisphere_ is as hard to break through as the _ice plane_ form, but it does not deal damage to those who go through a breach.
+_Hemisphere:_ The wall takes the form of a hemisphere whose maximum radius is 3 feet + 1 foot per caster level. The _hemisphere_ is as hard to break through as the _ice plane_ form, but it does not deal damage to those who go through a breach.
 
-_Material Component::_ A small piece of quartz or similar rock crystal.
+_Material Component:_ A small piece of quartz or similar rock crystal.
 
 ## Wall of Iron
 
@@ -10840,7 +10840,7 @@ If you desire, the wall can be created vertically resting on a flat surface but 
 
 Like any iron wall, this wall is subject to rust, perforation, and other natural phenomena.
 
-_Material Component::_ A small piece of sheet iron plus gold dust worth 50 gp (1 pound of gold dust).
+_Material Component:_ A small piece of sheet iron plus gold dust worth 50 gp (1 pound of gold dust).
 
 ## Wall of Stone
 
@@ -10862,7 +10862,7 @@ Like any other stone wall, this one can be destroyed by a _disintegrate_ spell o
 
 It is possible, but difficult, to trap mobile opponents within or under a _wall of stone_, provided the wall is shaped so it can hold the creatures. Creatures can avoid entrapment with successful Reflex saves.
 
-_Arcane Material Component::_ A small block of granite.
+_Arcane Material Component:_ A small block of granite.
 
 ## Wall of Thorns
 
@@ -10926,7 +10926,7 @@ The transmuted creatures can breathe water freely. Divide the duration evenly am
 
 The spell does not make creatures unable to breathe air.
 
-_Arcane Material Component::_ A short reed or piece of straw.
+_Arcane Material Component:_ A short reed or piece of straw.
 
 ## Water Walk
 
@@ -10994,7 +10994,7 @@ The strands of a _web_ spell are flammable. A magic _flaming sword_ can slash th
 
 _Web_ can be made permanent with a _permanency_ spell. A permanent _web_ that is damaged (but not destroyed) regrows in 10 minutes.
 
-_Material Component::_ A bit of spider web.
+_Material Component:_ A bit of spider web.
 
 ## Weird
 
@@ -11076,7 +11076,7 @@ An invisible vertical curtain of wind appears. It is 2 feet thick and of conside
 
 While the wall must be vertical, you can shape it in any continuous path along the ground that you like. It is possible to create cylindrical or square wind walls to enclose specific points.
 
-_Arcane Material Component::_ A tiny fan and a feather of exotic origin.
+_Arcane Material Component:_ A tiny fan and a feather of exotic origin.
 
 ## Wish
 
@@ -11103,7 +11103,7 @@ A _wish_ can produce any one of the following effects.
 - Undo the harmful effects of many other spells, such as _geas/quest_ or _insanity_.
 - Create a nonmagical item of up to 25,000 gp in value.
 - Create a magic item, or add to the powers of an existing magic item.
-- Grant a creature a +1 inherent bonus to an ability score. Two to five _wish_ spells cast in immediate succession can grant a creature a +2 to +5 inherent bonus to an ability score (two wishes for a +2 inherent bonus, three for a +3 inherent bonus, and so on). Inherent bonuses are instantaneous, so they cannot be dispelled. _Note::_ An inherent bonus may not exceed +5 for a single ability score, and inherent bonuses to a particular ability score do not stack, so only the best one applies.
+- Grant a creature a +1 inherent bonus to an ability score. Two to five _wish_ spells cast in immediate succession can grant a creature a +2 to +5 inherent bonus to an ability score (two wishes for a +2 inherent bonus, three for a +3 inherent bonus, and so on). Inherent bonuses are instantaneous, so they cannot be dispelled. _Note:_ An inherent bonus may not exceed +5 for a single ability score, and inherent bonuses to a particular ability score do not stack, so only the best one applies.
 - Remove injuries and afflictions. A single _wish_ can aid one creature per caster level, and all subjects are cured of the same kind of affliction. For example, you could heal all the damage you and your companions have taken, or remove all poison effects from everyone in the party, but not do both with the same _wish_. A _wish_ can never restore the experience point loss from casting a spell or the level or Constitution loss from being raised from the dead.
 - Revive the dead. A _wish_ can bring a dead creature back to life by duplicating a _resurrection_ spell. A _wish_ can revive a dead creature whose body has been destroyed, but the task takes two _wishes,_ one to recreate the body and another to infuse the body with life again. A _wish_ cannot prevent a character who was brought back to life from losing an experience level.
 - Transport travelers. A _wish_ can lift one creature per caster level from anywhere on any plane and place those creatures anywhere else on any plane regardless of local conditions. An unwilling target gets a Will save to negate the effect, and spell resistance (if any) applies.
@@ -11113,9 +11113,9 @@ You may try to use a _wish_ to produce greater effects than these, but doing so 
 
 Duplicated spells allow saves and spell resistance as normal (but save DCs are for 9th-level spells).
 
-_Material Component::_ When a _wish_ duplicates a spell with a material component that costs more than 10,000 gp, you must provide that component.
+_Material Component:_ When a _wish_ duplicates a spell with a material component that costs more than 10,000 gp, you must provide that component.
 
-_XP Cost::_ The minimum XP cost for casting _wish_ is 5,000 XP. When a _wish_ duplicates a spell that has an XP cost, you must pay 5,000 XP or that cost, whichever is more. When a _wish_ creates or improves a magic item, you must pay twice the normal XP cost for crafting or improving the item, plus an additional 5,000 XP.
+_XP Cost:_ The minimum XP cost for casting _wish_ is 5,000 XP. When a _wish_ duplicates a spell that has an XP cost, you must pay 5,000 XP or that cost, whichever is more. When a _wish_ creates or improves a magic item, you must pay twice the normal XP cost for crafting or improving the item, plus an additional 5,000 XP.
 
 ## Wood Shape
 
@@ -11147,14 +11147,14 @@ Any nonchaotic creature within the area who hears the _word of chaos_ suffers th
 
 The effects are cumulative and concurrent. No saving throw is allowed against these effects.
 
-_Deafened::_ The creature is deafened for `dice: 1d4` rounds.
+_Deafened:_ The creature is deafened for `dice: 1d4` rounds.
 
-_Stunned::_ The creature is stunned for 1 round.
+_Stunned:_ The creature is stunned for 1 round.
 
-_Confused::_ The creature is _confused,_ as by the _confusion_ spell, for `dice: 1d10` minutes. This is a mind-affecting 
+_Confused:_ The creature is _confused,_ as by the _confusion_ spell, for `dice: 1d10` minutes. This is a mind-affecting 
 enchantment effect.
 
-_Killed::_ Living creatures die. Undead creatures are destroyed.
+_Killed:_ Living creatures die. Undead creatures are destroyed.
 
 | Familiarity                 | On Target | Off Target | Similar Area | Mishap |
 | --------------------------- | --------- | ---------- | ------------ | ------ |
