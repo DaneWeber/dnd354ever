@@ -1,4 +1,4 @@
-# Homebrew Spells
+# Dragonvale (DV) Spells
 
 ## Wrinkle Reality
 

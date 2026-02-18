@@ -1,4 +1,4 @@
-# Spell Compendium
+# Spell Compendium (SC) Spells
 
 ## Bite of the Weretiger
 
