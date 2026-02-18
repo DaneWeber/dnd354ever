@@ -268,8 +268,24 @@ function parseMarkdownSpells(filePath) {
       }
     }
 
-    // Preserve markdown formatting in description - join with newlines and only trim
-    spell.description = descriptionLines.join("\n\n").trim();
+    // Smart join for description: table rows get single newlines, everything else gets double newlines
+    let description = "";
+    for (let i = 0; i < descriptionLines.length; i++) {
+      const line = descriptionLines[i];
+      const nextLine = descriptionLines[i + 1];
+
+      description += line;
+
+      if (nextLine !== undefined) {
+        // If both current and next line are table rows, use single newline
+        if (line.startsWith("|") && nextLine.startsWith("|")) {
+          description += "\n";
+        } else {
+          description += "\n\n";
+        }
+      }
+    }
+    spell.description = description.trim();
 
     // Only add spells that have at least one class level
     if (Object.keys(spell.level).length > 0) {
