@@ -9,62 +9,99 @@ import './App.css';
 const STORAGE_KEY = 'dnd-spellbooks';
 
 function App() {
-  // Spellbook management state
-  const [spellbooks, setSpellbooks] = useState<SavedSpellbook[]>([]);
-  const [currentSpellbookId, setCurrentSpellbookId] = useState<string | null>(null);
-  const [showSpellbookManager, setShowSpellbookManager] = useState(false);
-
-  // Current working state
-  const [selectedClass, setSelectedClass] = useState<CharacterClass | null>(null);
-  const [selectedSpells, setSelectedSpells] = useState<Set<string>>(new Set());
-  const [sortOrder, setSortOrder] = useState<'level' | 'alphabetical'>('level');
-
-  // Load spellbooks from localStorage on mount
-  useEffect(() => {
+  // Load initial state from localStorage using lazy initialization
+  const [spellbooks, setSpellbooks] = useState<SavedSpellbook[]>(() => {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) {
       try {
         const parsed = JSON.parse(stored);
-        // Initial state hydration from localStorage on mount
-        setSpellbooks(parsed.spellbooks || []);
-        setCurrentSpellbookId(parsed.currentSpellbookId || null);
+        return parsed.spellbooks || [];
+      } catch (e) {
+        console.error('Failed to load spellbooks from localStorage:', e);
+        return [];
+      }
+    }
+    return [];
+  });
 
-        // Load the current spellbook if it exists
+  const [currentSpellbookId, setCurrentSpellbookId] = useState<string | null>(() => {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      try {
+        const parsed = JSON.parse(stored);
+        return parsed.currentSpellbookId || null;
+      } catch {
+        return null;
+      }
+    }
+    return null;
+  });
+
+  const [showSpellbookManager, setShowSpellbookManager] = useState(false);
+
+  // Current working state - load from current spellbook if it exists
+  const [selectedClass, setSelectedClass] = useState<CharacterClass | null>(() => {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      try {
+        const parsed = JSON.parse(stored);
         if (parsed.currentSpellbookId && parsed.spellbooks) {
           const current = parsed.spellbooks.find(
             (sb: SavedSpellbook) => sb.id === parsed.currentSpellbookId
           );
           if (current) {
-            setSelectedClass(current.characterClass);
-            setSelectedSpells(new Set(current.selectedSpells));
+            return current.characterClass;
           }
         }
-      } catch (e) {
-        console.error('Failed to load spellbooks from localStorage:', e);
+      } catch {
+        return null;
       }
     }
-  }, []);
+    return null;
+  });
 
-  // Update current spellbook when selections change
-  useEffect(() => {
+  const [selectedSpells, setSelectedSpells] = useState<Set<string>>(() => {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      try {
+        const parsed = JSON.parse(stored);
+        if (parsed.currentSpellbookId && parsed.spellbooks) {
+          const current = parsed.spellbooks.find(
+            (sb: SavedSpellbook) => sb.id === parsed.currentSpellbookId
+          );
+          if (current) {
+            return new Set(current.selectedSpells);
+          }
+        }
+      } catch {
+        return new Set();
+      }
+    }
+    return new Set();
+  });
+
+  const [sortOrder, setSortOrder] = useState<'level' | 'alphabetical'>('level');
+
+  // Helper function to update spellbook when selections change
+  const updateCurrentSpellbook = (
+    newClass: CharacterClass | null,
+    newSpells: Set<string>
+  ) => {
     if (currentSpellbookId) {
-      // Use functional update to avoid dependency on spellbooks
-      setSpellbooks(prev => {
-        const updated = prev.map(sb =>
+      setSpellbooks(prev =>
+        prev.map(sb =>
           sb.id === currentSpellbookId
             ? {
               ...sb,
-              characterClass: selectedClass,
-              selectedSpells: Array.from(selectedSpells),
+              characterClass: newClass,
+              selectedSpells: Array.from(newSpells),
               updatedAt: new Date().toISOString(),
             }
             : sb
-        );
-        // Only update if something actually changed
-        return JSON.stringify(updated) !== JSON.stringify(prev) ? updated : prev;
-      });
+        )
+      );
     }
-  }, [selectedClass, selectedSpells, currentSpellbookId]);
+  };
 
   // Save spellbooks list when it changes
   useEffect(() => {
@@ -199,6 +236,7 @@ function App() {
       newSelected.add(spellId);
     }
     setSelectedSpells(newSelected);
+    updateCurrentSpellbook(selectedClass, newSelected);
   };
 
   const toggleAllInLevel = (spells: Spell[]) => {
@@ -214,6 +252,7 @@ function App() {
     });
 
     setSelectedSpells(newSelected);
+    updateCurrentSpellbook(selectedClass, newSelected);
   };
 
   const selectedSpellsData = useMemo(() => {
@@ -348,8 +387,10 @@ function App() {
               key={className}
               className={`class-button ${selectedClass === className ? 'selected' : ''}`}
               onClick={() => {
+                const newSpells = new Set<string>();
                 setSelectedClass(className);
-                setSelectedSpells(new Set());
+                setSelectedSpells(newSpells);
+                updateCurrentSpellbook(className, newSpells);
               }}
             >
               {className}
