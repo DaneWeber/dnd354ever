@@ -9,6 +9,7 @@ import './App.css';
 function App() {
   const [selectedClass, setSelectedClass] = useState<CharacterClass | null>(null);
   const [selectedSpells, setSelectedSpells] = useState<Set<string>>(new Set());
+  const [sortOrder, setSortOrder] = useState<'level' | 'alphabetical'>('level');
 
   // Filter spells available for the selected class
   const availableSpells = useMemo(() => {
@@ -53,7 +54,7 @@ function App() {
     setSelectedSpells(newSelected);
   };
 
-  const toggleAllInLevel = (level: number, spells: Spell[]) => {
+  const toggleAllInLevel = (spells: Spell[]) => {
     const newSelected = new Set(selectedSpells);
     const allSelected = spells.every(spell => selectedSpells.has(spell.id));
 
@@ -69,8 +70,23 @@ function App() {
   };
 
   const selectedSpellsData = useMemo(() => {
-    return SPELLS.filter(spell => selectedSpells.has(spell.id));
-  }, [selectedSpells]);
+    const spells = SPELLS.filter(spell => selectedSpells.has(spell.id));
+
+    if (sortOrder === 'alphabetical') {
+      return spells.sort((a, b) => a.name.localeCompare(b.name));
+    } else {
+      // Sort by level (for the selected class), then alphabetically
+      return spells.sort((a, b) => {
+        if (!selectedClass) return a.name.localeCompare(b.name);
+
+        const levelA = a.level[selectedClass] ?? 99;
+        const levelB = b.level[selectedClass] ?? 99;
+
+        if (levelA !== levelB) return levelA - levelB;
+        return a.name.localeCompare(b.name);
+      });
+    }
+  }, [selectedSpells, sortOrder, selectedClass]);
 
   return (
     <div className="app">
@@ -114,13 +130,13 @@ function App() {
                 </h3>
                 <button
                   className="toggle-all-button"
-                  onClick={() => toggleAllInLevel(level, spells)}
+                  onClick={() => toggleAllInLevel(spells)}
                 >
-                  {spells.every(s => selectedSpells.has(s.id)) ? 'Deselect All' : 'Select All'}
+                  {spells.every((s: Spell) => selectedSpells.has(s.id)) ? 'Deselect All' : 'Select All'}
                 </button>
               </div>
               <div className="spell-list">
-                {spells.map(spell => (
+                {spells.map((spell: Spell) => (
                   <label key={spell.id} className="spell-checkbox">
                     <input
                       type="checkbox"
@@ -145,9 +161,26 @@ function App() {
         <div className="spellbook">
           <div className="spellbook-header">
             <h1>{selectedClass} Spellbook</h1>
-            <button className="print-button no-print" onClick={() => window.print()}>
-              🖨️ Print Spellbook
-            </button>
+            <div className="spellbook-controls">
+              <div className="sort-buttons no-print">
+                <label>Sort by:</label>
+                <button
+                  className={`sort-button ${sortOrder === 'level' ? 'active' : ''}`}
+                  onClick={() => setSortOrder('level')}
+                >
+                  Level
+                </button>
+                <button
+                  className={`sort-button ${sortOrder === 'alphabetical' ? 'active' : ''}`}
+                  onClick={() => setSortOrder('alphabetical')}
+                >
+                  Alphabetical
+                </button>
+              </div>
+              <button className="print-button no-print" onClick={() => window.print()}>
+                🖨️ Print Spellbook
+              </button>
+            </div>
           </div>
 
           {selectedSpellsData.map(spell => (
