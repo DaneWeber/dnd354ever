@@ -3503,21 +3503,11 @@ _Note:_ Magic traps such as _explosive runes_ are hard to detect and disable. A 
 
 Each round, you may target a single living creature, striking it with waves of evil power. Depending on the target’s HD, this attack has as many as three effects.
 
-HD
-
-Effect
-
-10 or more
-
-Sickened
-
-5–9
-
-Panicked, sickened
-
-4 or less
-
-Comatose, panicked, sickened
+| HD         | Effect                       |
+| ---------- | ---------------------------- |
+| 10 or more | Sickened                     |
+| 5–9        | Panicked, sickened           |
+| 4 or less  | Comatose, panicked, sickened |
 
 The effects are cumulative and concurrent.
 
@@ -5147,21 +5137,11 @@ This spell creates the illusion of a wall, floor, ceiling, or similar surface. I
 
 You transfer some of your currently prepared spells, and the ability to cast them, to another creature. Only a creature with an Intelligence score of at least 5 and a Wisdom score of at least 9 can receive this bestowal. Only cleric spells from the schools of abjuration, divination, and conjuration (healing) can be transferred. The number and level of spells that the subject can be granted depends on its Hit Dice; even multiple castings of _imbue with spell ability_ can’t exceed this limit.
 
-HD of Recipient
-
-Spells Imbued
-
-2 or lower
-
-One 1st-level spell
-
-3–4
-
-One or two 1st-level spells
-
-5 or higher
-
-One or two 1st-level spells and one 2nd-level spell
+| HD of Recipient | Spells Imbued                                       |
+| --------------- | --------------------------------------------------- |
+| 2 or lower      | One 1st-level spell                                 |
+| 3–4             | One or two 1st-level spells                         |
+| 5 or higher     | One or two 1st-level spells and one 2nd-level spell |
 
 The transferred spell’s variable characteristics (range, duration, area, and the like) function according to your level, not the level of the recipient.
 
