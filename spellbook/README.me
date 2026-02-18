@@ -4,8 +4,63 @@ This app is a browser-only printable spellbook generator for Dungeons & Dragons 
 
 It is built using React and TypeScript. The static site is generated using Vite and deployed on GitHub Pages.
 
+## Getting Started
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+This will start the development server at http://localhost:5173/ (or another port if 5173 is in use).
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+The built site will be in the `dist/` directory.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## How to Use
+
+1. **Select Your Class**: Click on one of the class buttons (Wizard, Cleric, Druid, etc.)
+2. **Toggle Spells**: Check the boxes next to the spells you want in your spellbook
+3. **Print**: Once you've selected your spells, click the "Print Spellbook" button or use your browser's print function (Ctrl+P / Cmd+P)
+
+The app will automatically hide the selection interface when printing, showing only your selected spells in a clean, print-friendly format.
+
+## Features
+
+- **Class-Based Filtering**: Only see spells available to your selected class
+- **Level Organization**: Spells are automatically grouped by level
+- **Full Spell Details**: Each spell shows all stats (level, components, range, duration, etc.) and descriptions
+- **Print-Optimized**: CSS is optimized for printing with proper page breaks and formatting
+- **Quick Selection**: "Select All" / "Deselect All" buttons for each spell level
+- **Persistent Selection**: Your spell selections stay active while browsing
+
 ## References
 
 The `./spells-srd` directory contains the spells from the System Reference Document (SRD) for Dungeons & Dragons 3.5th Edition. The spells are grouped together in large HTML files, but we intend to change them to JSON, YAML, or even Markdown files in the future.
 
 The `./spells-homebrew` directory contains the homebrew spells that we have created ourselves. These spells are not part of the official SRD, but they are still available for use in our spellbook generator.
+
+## Future Enhancements
+
+- Parse all spells from the SRD HTML files
+- Add homebrew spell support
+- Allow saving/loading spell selections
+- Add filters by school, level, or search
+- Export to PDF directly
