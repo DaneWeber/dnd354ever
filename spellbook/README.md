@@ -1,8 +1,10 @@
 # Spellbook
 
+[![Deploy to GitHub Pages](https://github.com/DaneWeber/dnd354ever/actions/workflows/deploy-spellbook.yml/badge.svg)](https://github.com/DaneWeber/dnd354ever/actions/workflows/deploy-spellbook.yml)
+
 This app is a browser-only printable spellbook generator for Dungeons & Dragons 3.5th Edition.
 
-It is built using React and TypeScript. The static site is generated using Vite and deployed on GitHub Pages.
+It is built using React and TypeScript. The static site is generated using Vite and deployed automatically to GitHub Pages via GitHub Actions.
 
 ## Getting Started
 
@@ -20,6 +22,16 @@ npm run dev
 
 This will start the development server at http://localhost:5173/ (or another port if 5173 is in use).
 
+### Testing
+
+```bash
+npm test              # Run tests in watch mode
+npm run test:run      # Run tests once
+npm run test:ui       # Run tests with UI
+```
+
+See [TESTING.md](TESTING.md) for detailed testing documentation.
+
 ### Building for Production
 
 ```bash
@@ -33,6 +45,17 @@ The built site will be in the `dist/` directory.
 ```bash
 npm run preview
 ```
+
+## Deployment
+
+The app is automatically deployed to GitHub Pages when changes are pushed to the `main` branch. The deployment workflow:
+
+1. ✅ Runs all tests
+2. ✅ Runs the linter
+3. 🏗️ Builds the production bundle
+4. 🚀 Deploys to GitHub Pages
+
+See [.github-pages-info.md](.github-pages-info.md) for deployment configuration details.
 
 ## How to Use
 
