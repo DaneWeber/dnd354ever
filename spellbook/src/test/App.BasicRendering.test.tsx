@@ -2,7 +2,7 @@
  * Tests for App Component - Basic Rendering
  */
 
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 import { render, screen, waitFor } from './testUtils';
 import userEvent from '@testing-library/user-event';
 import App from '../App';

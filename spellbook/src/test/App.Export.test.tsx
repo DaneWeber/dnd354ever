@@ -97,7 +97,6 @@ describe('App Component - Export Functionality', () => {
 
   it('should show alert when exporting Markdown with no spells', async () => {
     const user = userEvent.setup();
-    const alertMock = globalThis.alert as ReturnType<typeof vi.fn>;
     (window.prompt as unknown as ReturnType<typeof vi.fn>).mockReturnValue('Empty Test');
 
     render(<App />);
@@ -138,6 +137,7 @@ describe('App Component - Export Functionality', () => {
     // Capture the Blob content
     let blobContent = '';
     const originalBlob = globalThis.Blob;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (globalThis as any).Blob = class extends originalBlob {
       constructor(parts?: BlobPart[], options?: BlobPropertyBag) {
         super(parts || [], options);

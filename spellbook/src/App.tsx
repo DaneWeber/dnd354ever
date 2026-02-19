@@ -203,7 +203,7 @@ function App() {
     if (!spellbook) return;
 
     // Get selected spell objects
-    let selectedSpellsData = SPELLS.filter(spell =>
+    const selectedSpellsData = SPELLS.filter(spell =>
       spellbook.selectedSpells.includes(spell.id)
     );
 
