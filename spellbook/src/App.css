@@ -711,6 +711,85 @@ header p {
   font-size: 1.1rem;
 }
 
+/* Spell Summary Page - Visible on screen and in print */
+.spell-summary-page {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: white;
+  border: 2px solid #8b2323;
+  border-radius: 8px;
+}
+
+.spell-summary-page h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #8b2323;
+}
+
+/* Container for all level groups - uses CSS columns for top-to-bottom flow */
+.summary-columns-container {
+  column-count: 2;
+  column-gap: 1.5rem;
+}
+
+.summary-level-group {
+  break-inside: auto;
+  page-break-inside: auto;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.summary-level-group h3 {
+  font-size: 1.3rem;
+  margin: 0 0 0.75rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #8b2323;
+  color: #8b2323;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.summary-spell-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.summary-spell-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+.summary-spell-name {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.summary-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-left: 1rem;
+  width: 2.8rem;
+}
+
+.checkbox-box {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid #8b2323;
+  text-align: center;
+  line-height: 1.2rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  background: white;
+}
+
 /* Print Styles - Two-Column Landscape Layout */
 @media print {
   @page {
@@ -740,6 +819,90 @@ header p {
 
   .spellbook-header h1 {
     display: none;
+  }
+
+  /* Spell Summary Page - Prints on separate page */
+  .spell-summary-page {
+    display: block;
+    page-break-before: always;
+    page-break-after: always;
+    margin: 0;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .spell-summary-page h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #8b2323;
+  }
+
+  .summary-columns-container {
+    column-count: 4;
+    column-gap: 1rem;
+    column-fill: auto;
+    height: 100vh;
+  }
+
+  .summary-level-group {
+    break-inside: auto;
+    page-break-inside: auto;
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .summary-level-group h3 {
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem 0;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #333;
+    color: #8b2323;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .summary-spell-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .summary-spell-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0;
+    break-inside: avoid;
+    background: transparent;
+    border-radius: 0;
+  }
+
+  .summary-spell-name {
+    flex: 1;
+    font-size: 0.9rem;
+  }
+
+  .summary-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-left: 1rem;
+    width: 1.3rem;
+  }
+
+  .checkbox-box {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 1.5px solid #000;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 0;
+    background: white;
   }
 
   /* Two-column layout for spell cards */

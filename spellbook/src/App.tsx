@@ -546,6 +546,15 @@ function App() {
               📖
             </button>
           )}
+          {selectedClass && selectedSpellsData.length > 0 && (
+            <button
+              className="nav-button"
+              onClick={() => scrollToSection('summary-section')}
+              title="Spell Tracker"
+            >
+              ✓
+            </button>
+          )}
         </div>
 
         {/* Level Navigation - shown when class is selected */}
@@ -886,6 +895,59 @@ function App() {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Spell Summary for Tracking */}
+          <div id="summary-section" className="spell-summary-page">
+            <h2>Spell Preparation & Casting Tracker</h2>
+            <div className="summary-columns-container">
+              {(() => {
+                // Group spells by level for the selected class
+                const spellsByLevel = new Map<number, typeof selectedSpellsData>();
+                selectedSpellsData.forEach(spell => {
+                  if (selectedClass && selectedClass in spell.level) {
+                    const level = spell.level[selectedClass];
+                    if (!spellsByLevel.has(level)) {
+                      spellsByLevel.set(level, []);
+                    }
+                    spellsByLevel.get(level)!.push(spell);
+                  }
+                });
+
+                // Sort spells within each level alphabetically
+                spellsByLevel.forEach(spells => {
+                  spells.sort((a, b) => a.name.localeCompare(b.name));
+                });
+
+                const sortedLevels = Array.from(spellsByLevel.keys()).sort((a, b) => a - b);
+
+                return sortedLevels.map(level => {
+                  const spells = spellsByLevel.get(level)!;
+                  const levelName = level === 0
+                    ? (selectedClass === 'Cleric' || selectedClass === 'Druid' ? 'Orisons' : 'Cantrips')
+                    : `Level ${level}`;
+
+                  return (
+                    <div key={level} className="summary-level-group">
+                      <h3>{levelName}</h3>
+                      <div className="summary-spell-list">
+                        {spells.map(spell => (
+                          <div key={spell.id} className="summary-spell-row">
+                            <span className="summary-spell-name">{spell.name}</span>
+                            <div className="summary-checkboxes">
+                              <span className="checkbox-box"> </span>
+                              <span className="checkbox-box"> </span>
+                              <span className="checkbox-box"> </span>
+                              <span className="checkbox-box"> </span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                });
+              })()}
+            </div>
           </div>
         </div>
       )}

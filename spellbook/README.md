@@ -136,9 +136,10 @@ The `./spells-homebrew` directory contains the homebrew spells that we have crea
 - Navigation by section and spell level
 - Always start with a default spellbook
 - Export to Markdown
+- Add a field for spell source (e.g., PHB, Frostburn, Spell Compendium, homebrew, etc.)
 
 ## Future Enhancements
 
-- Add a field for spell source (e.g., PHB, Frostburn, Spell Compendium, homebrew, etc.)
+- Summary of spells in spellbook by level with squares for marking which are prepared and then cast
 - Add filters by school, level, or search
 - Add support for Cleric domains
