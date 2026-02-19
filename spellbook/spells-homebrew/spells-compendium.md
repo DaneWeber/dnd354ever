@@ -69,6 +69,23 @@ You call upon the protective energies of magical power, surrounding your subject
 This spell functions like resist energy (PH 272), except that it affects all targeted creatures.
 
 
+## Righteous Wrath of the Faithful
+
+*   Enchantment (Compulsion) \[Mind-Affecting\]
+*   **Level:** Cleric 5, Purification 7
+*   **Components:** V, S, DF
+*   **Casting Time:** 1 standard action
+*   **Range:** 30 ft.
+*   **Targets:** Allies within a 30-ft.-radius burst centered on you
+*   **Duration:** 1 round/level
+*   **Saving Throw:** None
+*   **Spell Resistance:** Yes
+
+When you cast this spell, you fire your allies and companions with a divine madness or fury, greatly enhancing their combat ability.
+
+Allies gain one additional melee attack each round, at their highest attack bonus, when making a full attack. (This additional attack is not cumulative with other effects that grant extra attacks, such as a haste spell.) They also gain a +3 morale bonus on melee attack rolls and damage rolls. (This bonus on melee attack rolls does stack with the bonus provided by haste.)
+
+
 ## Wall of Good
 
 *   Abjuration \[Good\]
