@@ -49,6 +49,24 @@ _Abstinence Component:_ The character must abstain from casting Conjuration spel
 You become a blazingly hot beacon of the powers of good, searing all evil outsiders, evil undead, and evil fey within 10 feet of you. Affected creatures take 2d6 points of damage per round.
 
 
+## Dancing Web
+
+*   Evocation \[Good\]
+*   **Level:** Cleric 5, druid 5, sorcerer/wizard 4
+*   **Components:** V, S, M/DF
+*   **Casting Time:** 1 standard action
+*   **Range:** Medium (100 ft. + 10 ft./level)
+*   **Area:** 20-ft.-radius burst
+*   **Duration:** Instantaneous
+*   **Saving Throw:** Reflex half; see text
+*   **Spell Resistance:** Yes
+
+This spell creates a burst of magical energy that deals 1d6 points per level of nonlethal damage (maximum 10d6). Further, evil creatures that fail their saving throw become entangled by lingering threads of magical energy for 1d6 rounds. An entangled creature takes a –2 penalty on attack rolls and a –4 penalty to effective Dexterity; the entangled target can move at half speed but can’t run or charge. An entangled creature that attempts to cast a spell must succeed on a DC 15 Concentration check or lose the spell. This spell affects only creatures—objects are unharmed.
+
+_Arcane Material Component:_ A bit of
+spider’s web.
+
+
 ## Elation
 
 *   Enchantment \[Mind-Affecting\]

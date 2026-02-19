@@ -86,6 +86,39 @@ When you cast this spell, you fire your allies and companions with a divine madn
 Allies gain one additional melee attack each round, at their highest attack bonus, when making a full attack. (This additional attack is not cumulative with other effects that grant extra attacks, such as a haste spell.) They also gain a +3 morale bonus on melee attack rolls and damage rolls. (This bonus on melee attack rolls does stack with the bonus provided by haste.)
 
 
+## Snake's Swiftness
+
+*   Transmutation
+*   **Level:** Druid 1, sorcerer/wizard 2
+*   **Components:** V, S, M/DF
+*   **Casting Time:** 1 standard action
+*   **Range:** Close (25 ft. + 5 ft./2 levels)
+*   **Target:** One allied creature
+*   **Duration:** Instantaneous
+*   **Saving Throw:** Will negates (harmless)
+*   **Spell Resistance:** Yes (harmless)
+
+You toss the scales into the air, and they vanish in a sparkling mist as you indicate your target. Without hesitating, that creature draws and fires an arrow into the fray.
+
+The subject can immediately make one melee or ranged attack. Taking this action doesn’t affect the subject’s normal place in the initiative order. This is a single attack and follows the standard rules for attacking.
+
+This spell does not allow the subject to make more than one additional attack in a round. If the subject has already made an additional attack, due to a prior casting of this spell, from the haste spell, or from any other source, this spell fails.
+
+_Arcane Material Component:_ A few scales from a snake.
+
+
+## Snake’s Swiftness, Mass
+
+*   Transmutation
+*   **Level:** Druid 2, sorcerer/wizard 3
+*   **Range:** Medium (100 ft. + 10 ft./level)
+*   **Targets:** Allied creatures in a 20-ft.-radius burst
+
+You hold the snake scales high overhead, and they evaporate in a flash of light. That radiance carries to every ally in your command—and as one, they unleash a volley of attacks.
+
+This spell functions like snake’s swiftness, except that it affects multiple allies out to medium range.
+
+
 ## Wall of Good
 
 *   Abjuration \[Good\]
