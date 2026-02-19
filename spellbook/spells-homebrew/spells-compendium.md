@@ -22,6 +22,7 @@ The effects of gravity traits, alignment traits, and magic traits aren’t negat
 
 The spell does not provide protection against creatures, native or otherwise, nor does it protect against spells, special abilities, or extreme and nonnatural formations within the plane. This spell allows you to survive on the Elemental Plane of Earth, for instance, but it won’t protect you if you walk into a pool of magma on that same plane.
 
+
 ## Bite of the Weretiger
 
 *   Transmutation
@@ -38,6 +39,7 @@ You gain a +12 enhancement bonus to Strength, a +4 enhancement bonus to Dexterit
 
 _Material Component:_ A tiger’s claw.
 
+
 ## Blessed Aim
 
 *   Divination
@@ -53,6 +55,19 @@ _Material Component:_ A tiger’s claw.
 With the blessing of your deity, you bolsteryour allies’ aim with an exhortation.
 
 This spell grants your allies within the spread a +2 morale bonus on ranged attack rolls.
+
+
+## Resist Energy, Mass
+
+*   Abjuration
+*   **Level:** Cleric 3, druid 3, sorcerer/wizard 4
+*   **Range:** Close (25 ft. + 5 ft./2 levels)
+*   **Targets:** One creature/level, no two of which are more than 30 ft. apart
+
+You call upon the protective energies of magical power, surrounding your subjects in temporarily visible fields of energy. Although the fields fade from view, you can still just barely sense their existence.
+
+This spell functions like resist energy (PH 272), except that it affects all targeted creatures.
+
 
 ## Wall of Good
 
