@@ -685,7 +685,7 @@ header p {
 }
 
 .spell-source {
-  margin-top: 0.75rem;
+  margin-top: 0.25rem;
   font-size: 0.5em;
   color: #666;
   font-style: italic;
@@ -739,9 +739,7 @@ header p {
   }
 
   .spellbook-header h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 0;
+    display: none;
   }
 
   /* Two-column layout for spell cards */
@@ -753,17 +751,24 @@ header p {
 
   .spell-card {
     margin-bottom: 1rem;
-    padding: 0.75rem;
-    border: 1.5px solid #000;
+    padding: 0;
+    border: none;
     display: block;
     width: 100%;
+    /* Prefer keeping cards together, but allow breaks if necessary */
+    break-inside: auto;
+    page-break-inside: auto; /* Older browser support */
   }
 
   .spell-title {
     font-size: 1.1rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-top: 0; 
+    margin-bottom: 0.1rem;
+    /* Keep title with following content */
     break-after: avoid;
+    page-break-after: avoid;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .homebrew-badge-large {
@@ -772,8 +777,23 @@ header p {
   }
 
   .spell-meta {
-    margin-bottom: 0.5rem;
-    break-after: avoid;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border-top: 2px solid #8b2323;
+    border-left: 2px solid #8b2323;
+    border-right: 2px solid #8b2323;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .spell-body {
+    margin-top: 0;
+    padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+    border-bottom: 2px solid #8b2323;
+    border-left: 2px solid #8b2323;
+    border-right: 2px solid #8b2323;
+    border-radius: 0 0 8px 8px;
   }
 
   .spell-school {
@@ -782,31 +802,31 @@ header p {
 
   .spell-stats {
     background: #f5f5f5;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
+    padding: 0.1rem 0 0.4rem 0;
     font-size: 0.85rem;
+    margin-bottom: 0;
+    /* Allow breaking within stats if needed, but keep first row with header */
     break-inside: auto;
   }
 
   .stat-row {
     margin: 0.25rem 0;
     line-height: 1.3;
-    break-inside: auto;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
-  .stat-row:first-child {
-    break-before: avoid;
-  }
 
   .spell-description {
     font-size: 0.85rem;
     line-height: 1.4;
-    break-inside: auto;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .spell-description p {
     margin: 0.4rem 0;
-    break-inside: auto;
+    break-inside: avoid;
   }
 
   .spell-description table {
@@ -826,6 +846,12 @@ header p {
 
   .spell-components-detail p {
     margin: 0.25rem 0;
+  }
+
+  .spell-source {
+    margin-top: 0;
+    break-before: avoid;
+    page-break-before: avoid;
   }
 
   body {
