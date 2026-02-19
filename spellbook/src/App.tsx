@@ -198,12 +198,12 @@ function App() {
     URL.revokeObjectURL(url);
   };
 
-  const exportSpellbookToMarkdown = (id: string) => {
+  const exportSpellbookToMarkdown = (id: string, sortOrder: 'level' | 'alphabetical' = 'level') => {
     const spellbook = spellbooks.find(sb => sb.id === id);
     if (!spellbook) return;
 
     // Get selected spell objects
-    const selectedSpellsData = SPELLS.filter(spell =>
+    let selectedSpellsData = SPELLS.filter(spell =>
       spellbook.selectedSpells.includes(spell.id)
     );
 
@@ -211,23 +211,6 @@ function App() {
       alert('No spells selected to export.');
       return;
     }
-
-    // Group spells by level for the character class
-    const spellsByLevel = new Map<number, typeof selectedSpellsData>();
-    selectedSpellsData.forEach(spell => {
-      if (spellbook.characterClass && spellbook.characterClass in spell.level) {
-        const level = spell.level[spellbook.characterClass];
-        if (!spellsByLevel.has(level)) {
-          spellsByLevel.set(level, []);
-        }
-        spellsByLevel.get(level)!.push(spell);
-      }
-    });
-
-    // Sort spells within each level alphabetically
-    spellsByLevel.forEach(spells => {
-      spells.sort((a, b) => a.name.localeCompare(b.name));
-    });
 
     // Build markdown content
     let markdown = `# ${spellbook.name}\n\n`;
@@ -239,63 +222,62 @@ function App() {
     markdown += `**Spells:** ${selectedSpellsData.length}\n\n`;
     markdown += `---\n\n`;
 
-    // Add spells grouped by level
-    const sortedLevels = Array.from(spellsByLevel.keys()).sort((a, b) => a - b);
+    if (sortOrder === 'alphabetical') {
+      // Sort spells alphabetically
+      selectedSpellsData.sort((a, b) => a.name.localeCompare(b.name));
 
-    sortedLevels.forEach(level => {
-      const spells = spellsByLevel.get(level)!;
-      const levelName = level === 0
-        ? (spellbook.characterClass === 'Cleric' || spellbook.characterClass === 'Druid' ? 'Orisons' : 'Cantrips')
-        : `Level ${level}`;
-
-      markdown += `## ${levelName}\n\n`;
-
-      spells.forEach(spell => {
-        markdown += `### ${spell.name}\n\n`;
+      // Add all spells in alphabetical order without level grouping
+      selectedSpellsData.forEach(spell => {
+        markdown += `## ${spell.name}\n\n`;
 
         // School and descriptors
-        let schoolLine = `**School:** ${spell.school}`;
+        let schoolLine = `- **School:** ${spell.school}`;
         if (spell.subschool) schoolLine += ` (${spell.subschool})`;
         if (spell.descriptor) schoolLine += ` [${spell.descriptor}]`;
-        markdown += `${schoolLine}\n\n`;
+        markdown += `${schoolLine}\n`;
 
         // Level info
         const levelEntries = Object.entries(spell.level)
           .map(([cls, lvl]) => `${cls} ${lvl}`)
           .join(', ');
-        markdown += `**Level:** ${levelEntries}\n\n`;
+        markdown += `- **Level:** ${levelEntries}\n`;
 
         // Components and casting details
-        markdown += `**Components:** ${spell.components}\n\n`;
-        markdown += `**Casting Time:** ${spell.castingTime}\n\n`;
-        markdown += `**Range:** ${spell.range}\n\n`;
+        markdown += `- **Components:** ${spell.components}\n`;
+        markdown += `- **Casting Time:** ${spell.castingTime}\n`;
+        markdown += `- **Range:** ${spell.range}\n`;
 
-        if (spell.target) markdown += `**Target:** ${spell.target}\n\n`;
-        if (spell.area) markdown += `**Area:** ${spell.area}\n\n`;
-        if (spell.effect) markdown += `**Effect:** ${spell.effect}\n\n`;
+        if (spell.target) markdown += `- **Target:** ${spell.target}\n`;
+        if (spell.area) markdown += `- **Area:** ${spell.area}\n`;
+        if (spell.effect) markdown += `- **Effect:** ${spell.effect}\n`;
 
-        markdown += `**Duration:** ${spell.duration}\n\n`;
-        markdown += `**Saving Throw:** ${spell.savingThrow}\n\n`;
-        markdown += `**Spell Resistance:** ${spell.spellResistance}\n\n`;
+        markdown += `- **Duration:** ${spell.duration}\n`;
+        if (spell.savingThrow && spell.savingThrow.trim()) markdown += `- **Saving Throw:** ${spell.savingThrow}\n`;
+        if (spell.spellResistance && spell.spellResistance.trim()) markdown += `- **Spell Resistance:** ${spell.spellResistance}\n`;
+
+        markdown += `\n`;
 
         // Description
         markdown += `${spell.description}\n\n`;
 
         // Additional components
         if (spell.materialComponent) {
-          markdown += `**Material Component:** ${spell.materialComponent}\n\n`;
+          markdown += `- **Material Component:** ${spell.materialComponent}\n`;
         }
         if (spell.focus) {
-          markdown += `**Focus:** ${spell.focus}\n\n`;
+          markdown += `- **Focus:** ${spell.focus}\n`;
         }
         if (spell.arcaneFocus) {
-          markdown += `**Arcane Focus:** ${spell.arcaneFocus}\n\n`;
+          markdown += `- **Arcane Focus:** ${spell.arcaneFocus}\n`;
         }
         if (spell.arcaneMaterialComponent) {
-          markdown += `**Arcane Material Component:** ${spell.arcaneMaterialComponent}\n\n`;
+          markdown += `- **Arcane Material Component:** ${spell.arcaneMaterialComponent}\n`;
         }
         if (spell.xpCost) {
-          markdown += `**XP Cost:** ${spell.xpCost}\n\n`;
+          markdown += `- **XP Cost:** ${spell.xpCost}\n`;
+        }
+        if (spell.materialComponent || spell.focus || spell.arcaneFocus || spell.arcaneMaterialComponent || spell.xpCost) {
+          markdown += `\n`;
         }
 
         if (spell.homebrew) {
@@ -304,7 +286,96 @@ function App() {
 
         markdown += `---\n\n`;
       });
-    });
+    } else {
+      // Group spells by level for the character class
+      const spellsByLevel = new Map<number, typeof selectedSpellsData>();
+      selectedSpellsData.forEach(spell => {
+        if (spellbook.characterClass && spellbook.characterClass in spell.level) {
+          const level = spell.level[spellbook.characterClass];
+          if (!spellsByLevel.has(level)) {
+            spellsByLevel.set(level, []);
+          }
+          spellsByLevel.get(level)!.push(spell);
+        }
+      });
+
+      // Sort spells within each level alphabetically
+      spellsByLevel.forEach(spells => {
+        spells.sort((a, b) => a.name.localeCompare(b.name));
+      });
+
+      // Add spells grouped by level
+      const sortedLevels = Array.from(spellsByLevel.keys()).sort((a, b) => a - b);
+
+      sortedLevels.forEach(level => {
+        const spells = spellsByLevel.get(level)!;
+        const levelName = level === 0
+          ? (spellbook.characterClass === 'Cleric' || spellbook.characterClass === 'Druid' ? 'Orisons' : 'Cantrips')
+          : `Level ${level}`;
+
+        markdown += `## ${levelName}\n\n`;
+
+        spells.forEach(spell => {
+          markdown += `### ${spell.name}\n\n`;
+
+          // School and descriptors
+          let schoolLine = `- **School:** ${spell.school}`;
+          if (spell.subschool) schoolLine += ` (${spell.subschool})`;
+          if (spell.descriptor) schoolLine += ` [${spell.descriptor}]`;
+          markdown += `${schoolLine}\n`;
+
+          // Level info
+          const levelEntries = Object.entries(spell.level)
+            .map(([cls, lvl]) => `${cls} ${lvl}`)
+            .join(', ');
+          markdown += `- **Level:** ${levelEntries}\n`;
+
+          // Components and casting details
+          markdown += `- **Components:** ${spell.components}\n`;
+          markdown += `- **Casting Time:** ${spell.castingTime}\n`;
+          markdown += `- **Range:** ${spell.range}\n`;
+
+          if (spell.target) markdown += `- **Target:** ${spell.target}\n`;
+          if (spell.area) markdown += `- **Area:** ${spell.area}\n`;
+          if (spell.effect) markdown += `- **Effect:** ${spell.effect}\n`;
+
+          markdown += `- **Duration:** ${spell.duration}\n`;
+          if (spell.savingThrow && spell.savingThrow.trim()) markdown += `- **Saving Throw:** ${spell.savingThrow}\n`;
+          if (spell.spellResistance && spell.spellResistance.trim()) markdown += `- **Spell Resistance:** ${spell.spellResistance}\n`;
+
+          markdown += `\n`;
+
+          // Description
+          markdown += `${spell.description}\n\n`;
+
+          // Additional components
+          if (spell.materialComponent) {
+            markdown += `- **Material Component:** ${spell.materialComponent}\n`;
+          }
+          if (spell.focus) {
+            markdown += `- **Focus:** ${spell.focus}\n`;
+          }
+          if (spell.arcaneFocus) {
+            markdown += `- **Arcane Focus:** ${spell.arcaneFocus}\n`;
+          }
+          if (spell.arcaneMaterialComponent) {
+            markdown += `- **Arcane Material Component:** ${spell.arcaneMaterialComponent}\n`;
+          }
+          if (spell.xpCost) {
+            markdown += `- **XP Cost:** ${spell.xpCost}\n`;
+          }
+          if (spell.materialComponent || spell.focus || spell.arcaneFocus || spell.arcaneMaterialComponent || spell.xpCost) {
+            markdown += `\n`;
+          }
+
+          if (spell.homebrew) {
+            markdown += `*This is a homebrew spell.*\n\n`;
+          }
+
+          markdown += `---\n\n`;
+        });
+      });
+    }
 
     // Create and download the file
     const blob = new Blob([markdown], { type: 'text/markdown' });
@@ -565,13 +636,6 @@ function App() {
                         💾
                       </button>
                       <button
-                        className="icon-button"
-                        title="Export to Markdown"
-                        onClick={() => exportSpellbookToMarkdown(sb.id)}
-                      >
-                        📝
-                      </button>
-                      <button
                         className="icon-button delete-button"
                         title="Delete"
                         onClick={() => {
@@ -695,9 +759,17 @@ function App() {
                   Alphabetical
                 </button>
               </div>
-              <button className="print-button no-print" onClick={() => window.print()}>
-                🖨️ Print Spellbook
-              </button>
+              <div className="export-buttons no-print">
+                <button className="print-button" onClick={() => window.print()}>
+                  🖨️ Print Spellbook
+                </button>
+                <button
+                  className="print-button"
+                  onClick={() => currentSpellbook && exportSpellbookToMarkdown(currentSpellbook.id, sortOrder)}
+                >
+                  📝 Export to Markdown
+                </button>
+              </div>
             </div>
           </div>
 

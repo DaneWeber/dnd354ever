@@ -82,16 +82,16 @@ describe('App Component - Export Functionality', () => {
     const checkboxes = screen.getAllByRole('checkbox');
     await user.click(checkboxes[0]);
 
-    // Find the export Markdown button (📝)
+    // Find the export Markdown button (now visible in printable section with selected spells)
     await waitFor(() => {
-      const exportButtons = screen.getAllByTitle('Export to Markdown');
-      expect(exportButtons.length).toBeGreaterThan(0);
+      const exportButton = screen.queryByText(/Export to Markdown/i);
+      expect(exportButton).toBeInTheDocument();
     });
 
-    const exportButtons = screen.getAllByTitle('Export to Markdown');
+    const exportButton = screen.getByText(/Export to Markdown/i);
 
     // Clicking should not throw an error
-    await user.click(exportButtons[0]);
+    await user.click(exportButton);
     // If we reach here, the test passed (no error was thrown)
   });
 
@@ -110,23 +110,22 @@ describe('App Component - Export Functionality', () => {
     const newButton = screen.getByText(/New Spellbook/i);
     await user.click(newButton);
 
-    // Select class
+    // Select class - this will show spell selection but export button won't be visible without spells
     const wizardButton = screen.getByRole('button', { name: /^Wizard$/i });
     await user.click(wizardButton);
 
-    // Find the export Markdown button (📝)
+    // Wait for spells to load but don't select any
     await waitFor(() => {
-      const exportButtons = screen.getAllByTitle('Export to Markdown');
-      expect(exportButtons.length).toBeGreaterThan(0);
+      const checkboxes = screen.queryAllByRole('checkbox');
+      expect(checkboxes.length).toBeGreaterThan(0);
     });
 
-    const exportButtons = screen.getAllByTitle('Export to Markdown');
-    await user.click(exportButtons[0]);
+    // Export markdown button should not be visible without selected spells
+    const exportButton = screen.queryByText(/Export to Markdown/i);
+    expect(exportButton).not.toBeInTheDocument();
 
-    // Verify alert was shown
-    await waitFor(() => {
-      expect(alertMock).toHaveBeenCalledWith('No spells selected to export.');
-    });
+    // We can't test the alert since the button is only shown when spells are selected
+    // This test now verifies that the button is properly hidden when no spells are selected
   });
 
   // Skipped: Testing Blob content creation is unreliable in happy-dom test environment.
