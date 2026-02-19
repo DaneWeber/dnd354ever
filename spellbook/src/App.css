@@ -736,7 +736,6 @@ header p {
 .summary-level-group {
   break-inside: auto;
   page-break-inside: auto;
-  margin-bottom: 1.5rem;
   display: block;
 }
 
@@ -763,6 +762,8 @@ header p {
   padding: 0.5rem;
   background: #f9f9f9;
   border-radius: 4px;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .summary-spell-name {
