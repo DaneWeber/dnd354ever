@@ -47,11 +47,18 @@ export const ALL_CLASSES: CharacterClass[] = [
   "Wizard",
 ];
 
+export type CheckboxState = 'null' | 'prepared' | 'cast';
+
+export interface SpellCheckboxes {
+  [spellId: string]: CheckboxState[];
+}
+
 export interface SavedSpellbook {
   id: string;
   name: string;
   characterClass: CharacterClass | null;
   selectedSpells: string[];
+  checkboxStates?: SpellCheckboxes;
   createdAt: string;
   updatedAt: string;
 }

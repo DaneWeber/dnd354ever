@@ -788,6 +788,27 @@ header p {
   font-size: 1rem;
   border-radius: 3px;
   background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.checkbox-box:hover {
+  transform: scale(1.1);
+}
+
+.checkbox-null {
+  border-color: #ccc;
+  background: white;
+}
+
+.checkbox-prepared {
+  border-color: #000;
+  background: white;
+}
+
+.checkbox-cast {
+  border-color: #000;
+  background: #ddd;
 }
 
 /* Print Styles - Two-Column Landscape Layout */
@@ -903,6 +924,21 @@ header p {
     font-size: 0.9rem;
     border-radius: 0;
     background: white;
+  }
+
+  .checkbox-null {
+    border-color: #999;
+    background: white;
+  }
+
+  .checkbox-prepared {
+    border-color: #000;
+    background: white;
+  }
+
+  .checkbox-cast {
+    border-color: #000;
+    background: #ccc;
   }
 
   /* Two-column layout for spell cards */

@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import type { CharacterClass, Spell, SavedSpellbook } from './types';
+import type { CharacterClass, Spell, SavedSpellbook, CheckboxState } from './types';
 import { ALL_CLASSES } from './types';
 import { SPELLS } from './spellData';
 import Markdown from 'react-markdown';
@@ -14,9 +14,22 @@ const createDefaultSpellbook = (): SavedSpellbook => ({
   name: 'My Spellbook',
   characterClass: null,
   selectedSpells: [],
+  checkboxStates: {},
   createdAt: new Date().toISOString(),
   updatedAt: new Date().toISOString(),
 });
+
+// Helper function to initialize checkboxes for a spell (1 prepared, 3 null)
+const initializeCheckboxes = (): CheckboxState[] => ['prepared', 'null', 'null', 'null'];
+
+// Helper function to cycle checkbox state
+const cycleCheckboxState = (state: CheckboxState): CheckboxState => {
+  switch (state) {
+    case 'null': return 'prepared';
+    case 'prepared': return 'cast';
+    case 'cast': return 'null';
+  }
+};
 
 function App() {
   // Load initial state from localStorage using lazy initialization
@@ -109,6 +122,40 @@ function App() {
 
   const [sortOrder, setSortOrder] = useState<'level' | 'alphabetical'>('level');
 
+  // Get current spellbook for easy access
+  const currentSpellbook = spellbooks.find(sb => sb.id === currentSpellbookId);
+
+  // Get checkbox states from current spellbook
+  const getCheckboxStates = (spellId: string): CheckboxState[] => {
+    if (!currentSpellbook?.checkboxStates) return initializeCheckboxes();
+    return currentSpellbook.checkboxStates[spellId] || initializeCheckboxes();
+  };
+
+  // Update checkbox state for a specific spell and checkbox index
+  const updateCheckboxState = (spellId: string, checkboxIndex: number) => {
+    if (!currentSpellbookId) return;
+
+    setSpellbooks(prev =>
+      prev.map(sb => {
+        if (sb.id !== currentSpellbookId) return sb;
+
+        const currentStates = sb.checkboxStates || {};
+        const spellStates = currentStates[spellId] || initializeCheckboxes();
+        const newSpellStates = [...spellStates];
+        newSpellStates[checkboxIndex] = cycleCheckboxState(spellStates[checkboxIndex]);
+
+        return {
+          ...sb,
+          checkboxStates: {
+            ...currentStates,
+            [spellId]: newSpellStates,
+          },
+          updatedAt: new Date().toISOString(),
+        };
+      })
+    );
+  };
+
   // Helper function to update spellbook when selections change
   const updateCurrentSpellbook = (
     newClass: CharacterClass | null,
@@ -144,6 +191,7 @@ function App() {
       name,
       characterClass: null,
       selectedSpells: [],
+      checkboxStates: {},
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
     };
@@ -420,8 +468,6 @@ function App() {
     };
     reader.readAsText(file);
   };
-
-  const currentSpellbook = spellbooks.find(sb => sb.id === currentSpellbookId);
 
   // Filter spells available for the selected class
   const availableSpells = useMemo(() => {
@@ -931,17 +977,25 @@ function App() {
                     <div key={level} className="summary-level-group">
                       <h3>{levelName}</h3>
                       <div className="summary-spell-list">
-                        {spells.map(spell => (
-                          <div key={spell.id} className="summary-spell-row">
-                            <span className="summary-spell-name">{spell.name}</span>
-                            <div className="summary-checkboxes">
-                              <span className="checkbox-box"> </span>
-                              <span className="checkbox-box"> </span>
-                              <span className="checkbox-box"> </span>
-                              <span className="checkbox-box"> </span>
+                        {spells.map(spell => {
+                          const checkboxStates = getCheckboxStates(spell.id);
+                          return (
+                            <div key={spell.id} className="summary-spell-row">
+                              <span className="summary-spell-name">{spell.name}</span>
+                              <div className="summary-checkboxes">
+                                {checkboxStates.map((state, index) => (
+                                  <span
+                                    key={index}
+                                    className={`checkbox-box checkbox-${state}`}
+                                    onClick={() => updateCheckboxState(spell.id, index)}
+                                  >
+                                    {' '}
+                                  </span>
+                                ))}
+                              </div>
                             </div>
-                          </div>
-                        ))}
+                          );
+                        })}
                       </div>
                     </div>
                   );
