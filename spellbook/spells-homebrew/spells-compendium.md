@@ -57,6 +57,31 @@ With the blessing of your deity, you bolsteryour allies’ aim with an exhortati
 This spell grants your allies within the spread a +2 morale bonus on ranged attack rolls.
 
 
+## Enhance Wild Shape
+
+*   Transmutation
+*   **Level:** Druid 4
+*   **Components:** V, S
+*   **Casting Time:** 1 minute
+*   **Range:** Personal
+*   **Target:** You
+*   **Duration:** 1 hour/level
+
+You call upon the primordial energies of nature to fill you with the raw power of nature. A feral feeling grows within you, seeking release.
+
+This spell infuses your wild shape ability with magical energy, magnifying and enhancing its power. The type of enhancement must be chosen at the time the spell is cast and cannot be changed once the spell is in effect. The next time you activate your wild shape ability (during the duration of enhance wild shape), this spell enhances your new form in the way you selected. The enhancement to your wild shape remains as long as you stay in that form (or until the spell’s duration expires) but does not apply to your next wild shape form. If you do not activate your wild shape ability during the duration of enhance wild shape, the spell has no effect.
+
+You select one of the following enhancements when you cast this spell.
+
+* Assume the form of a plant with your next wild shape.
+* Gain the extraordinary abilities of the new form.
+* The new form assumed is stronger than normal and gains a +2 bonus to Strength.
+* The new form assumed is more agile than normal and gains a +2 bonus to Dexterity.
+* The new form assumed is healthier than normal and gains a +2 bonus to Constitution.
+
+A druid can be affected by more than one enhance wild shape spell at a time, but a different wild shape enhancement must be chosen each time.
+
+
 ## Resist Energy, Mass
 
 *   Abjuration
@@ -119,6 +144,45 @@ You hold the snake scales high overhead, and they evaporate in a flash of light.
 This spell functions like snake’s swiftness, except that it affects multiple allies out to medium range.
 
 
+## Vigor, Lesser
+
+*   Conjuration (Healing)
+*   **Level:** Cleric 1, druid 1
+*   **Components:** V, S
+*   **Casting Time:** 1 standard action
+*   **Range:** Touch
+*   **Target:** Living creature touched
+*   **Duration:** 10 rounds + 1 round/level (max 15 rounds)
+*   **Saving Throw:** Will negates (harmless)
+*   **Spell Resistance:** Yes (harmless)
+
+The sounds of battle ring in your ears as you lay hands on your fallen comrade. You can spare neither time nor magic to do more right now, but the blood flow slows to a trickle and her breathing becomes less labored, even as you are called to the aid of another.
+
+The subject gains fast healing 1, enabling it to heal 1 hit point per round until the spell ends and automatically becoming stabilized if it begins dying from hit point loss during that time. Lesser vigor does not restore hit points lost from starvation, thirst, or suffocation, nor does it allow a creature to regrow or attach lost body parts.
+
+The effects of multiple vigor spells do not stack; only the highest-level effect applies.
+
+
+## Vigor, Mass Lesser
+
+*   Conjuration (Healing)
+*   **Level:** Cleric 3, druid 3
+*   **Range:** 20 ft.
+*   **Target:** One creature/2 levels, no two of which are more than 30 ft. apart
+*   **Duration:** 10 rounds +1 round/level (max 25 rounds)
+
+This spell functions like lesser vigor, except that it affects multiple creatures.
+
+
+## Vigorous Circle
+
+*   Conjuration (Healing)
+*   **Level:** Cleric 6, druid 6
+*   **Duration:** 10 rounds + 1 round/level (max 40 rounds)
+
+This spell functions like mass lesser vigor, except as noted here and that it grants fast healing 3.
+
+
 ## Wall of Good
 
 *   Abjuration \[Good\]
@@ -138,3 +202,20 @@ You create an immobile barrier that inhibits evil creatures. An evil summoned cr
 A wall of good must be continuous and unbroken when formed. If it is cast so that an object or creature breaks its surface, the spell fails.
 
 _Arcane Material Component:_ Powdered silver worth 25 gp.
+
+
+## Winter's Embrace
+
+*   Evocation \[Cold\]
+*   **Level:** Druid 2
+*   **Components:** V, S
+*   **Casting Time:** 1 standard action
+*   **Range:** Close (25 ft. + 5 ft./2 levels)
+*   **Target:** One creature
+*   **Duration:** 1 round/level
+*   **Saving Throw:** Fortitude negates
+*   **Spell Resistance:** Yes
+
+You clutch at the air as though grabbing a nearby creature, and then you blow on your fist. As you do so, ice and snow appear around your foe.
+
+A target that fails its save takes 1d8 points of cold damage per round at the beginning of your turn. Each round, the subject can make a new Fortitude saving throw to avoid taking damage that round. The second time a subject takes damage from a single casting of winter’s embrace, it becomes fatigued. The fourth time it takes damage from the same spell, it becomes exhausted.
