@@ -124,6 +124,13 @@ function parseMarkdownSpells(filePath) {
   const content = fs.readFileSync(filePath, "utf-8");
   const spells = [];
 
+  // Extract the level 1 header (# ...) as the source
+  let source = undefined;
+  const headerMatch = content.match(/^#\s+(.+)$/m);
+  if (headerMatch) {
+    source = cleanText(headerMatch[1]);
+  }
+
   // Split into spell sections by ## headers
   const spellSections = content.split(/^## /m).slice(1); // Skip the first empty section
 
@@ -147,6 +154,11 @@ function parseMarkdownSpells(filePath) {
       spellResistance: "",
       description: "",
     };
+
+    // Add source if extracted
+    if (source) {
+      spell.source = source;
+    }
 
     let inDescription = false;
     const descriptionLines = [];

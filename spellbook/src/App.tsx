@@ -242,6 +242,11 @@ function App() {
           .join(', ');
         markdown += `- **Level:** ${levelEntries}\n`;
 
+        // Source
+        if (spell.source) {
+          markdown += `- **Source:** ${spell.source}\n`;
+        }
+
         // Components and casting details
         markdown += `- **Components:** ${spell.components}\n`;
         markdown += `- **Casting Time:** ${spell.castingTime}\n`;
@@ -329,6 +334,11 @@ function App() {
             .map(([cls, lvl]) => `${cls} ${lvl}`)
             .join(', ');
           markdown += `- **Level:** ${levelEntries}\n`;
+
+          // Source
+          if (spell.source) {
+            markdown += `- **Source:** ${spell.source}\n`;
+          }
 
           // Components and casting details
           markdown += `- **Components:** ${spell.components}\n`;
@@ -846,6 +856,12 @@ function App() {
                 <div className="spell-description">
                   <Markdown remarkPlugins={[remarkGfm]}>{spell.description}</Markdown>
                 </div>
+
+                {spell.source && (
+                  <div className="spell-source">
+                    Source: {spell.source}
+                  </div>
+                )}
 
                 {(spell.materialComponent || spell.focus || spell.arcaneFocus || spell.arcaneMaterialComponent || spell.xpCost) && (
                   <div className="spell-components-detail">

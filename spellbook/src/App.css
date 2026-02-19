@@ -684,6 +684,14 @@ header p {
   padding: 0;
 }
 
+.spell-source {
+  margin-top: 0.75rem;
+  font-size: 0.5em;
+  color: #666;
+  font-style: italic;
+  text-align: right;
+}
+
 .spell-components-detail {
   margin-top: 1rem;
   padding-top: 1rem;

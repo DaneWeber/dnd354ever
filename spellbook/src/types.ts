@@ -21,6 +21,7 @@ export interface Spell {
   arcaneMaterialComponent?: string;
   xpCost?: string;
   homebrew?: boolean;
+  source?: string;
 }
 
 export interface SpellLevel {
