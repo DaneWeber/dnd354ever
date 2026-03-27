@@ -17,3 +17,11 @@ Rear: the rear of the chest has an obvious latch. When the latch is turned, the 
 The chest can also magically pack all of a rooms furniture and other non-living accouterments into its extradimensional space and later magically unpack them.
 
 Strong transmutation and conjuration; CL 14th; Craft Wondrous Item,; Price 14,000 gp; Weight 200 lbs.
+
+## Amulet of Freedom of Speech
+
+Source: ["An Icy Heart" web module from WotC via the Internet Archive](https://web.archive.org/web/20181008022833/http://archive.wizards.com/default.asp?x=dnd/oa/20020125a)
+
+This amulet allows the wearer to verbally communicate despite lacking the physical ability to do so. For example, an awakened animal or plant that could not normally form words can do so while wearing this item. Note that the amulet does not impart any language ability -- the wearer must have something to say.
+
+Caster Level: 7th; Prerequisites: Craft Wondrous Item; Market Price: 5,000.
