@@ -129,52 +129,52 @@ This paste, which smells like tobacco, is refined from the stalks and leaves of 
 
 The alchemy DC to make one stick of witchweed is 20.
 
-| Item | Cost | Weight |
-| --- | --- | --- |
-| Alchemist's Mineral Acid | 20 gp | 1 lb. |
-| Alchemical Silence | 350 gp | 1/2 lb. |
-| Alchemical sleep gas | 30 gp | 1 1/4 lb. |
-| Blackwater | 100 gp | 1 lb. |
-| Darkoil (vial) | 25 gp | - |
-| Darkvision-invisible paint (jar) | 20 gp | 1/2 lb. |
-| Disappearing ink | 5 gp | - |
-| Flashpellet | 50 gp | - |
-| Glowpowder | 40 gp | - |
-| Healing salve | 50 gp | - |
-| Herbs | - | - |
-| Cassil (1 dose) | 1 gp | - |
-| Nararoot (1 dose) | 2 sp | - |
-| Phantom ink | - | - |
-| Firelight | 10 gp | - |
-| Magical light | 10 gp | - |
-| Moonlight | 10 gp | - |
-| Starlight | 10 gp | - |
-| Powderhorn (full) | 55 gp | 3 lb. |
-| Powderkeg (full) | 400 gp | 20 lb. |
-| Scentbreaker | 5 gp | - |
-| Shriek paste (flask) | 50 gp | 1 lb. |
-| Smoke Powder | 25 gp | 1 lb. |
-| Snakebite | 600 gp | 1 vial. |
-| Suregrip* | 20 gp | - |
-| Witchweed stick | 40 gp | - |
+| Item                             | Cost   | Weight    |
+| -------------------------------- | ------ | --------- |
+| Alchemist's Mineral Acid         | 20 gp  | 1 lb.     |
+| Alchemical Silence               | 350 gp | 1/2 lb.   |
+| Alchemical sleep gas             | 30 gp  | 1 1/4 lb. |
+| Blackwater                       | 100 gp | 1 lb.     |
+| Darkoil (vial)                   | 25 gp  | -         |
+| Darkvision-invisible paint (jar) | 20 gp  | 1/2 lb.   |
+| Disappearing ink                 | 5 gp   | -         |
+| Flashpellet                      | 50 gp  | -         |
+| Glowpowder                       | 40 gp  | -         |
+| Healing salve                    | 50 gp  | -         |
+| Herbs                            | -      | -         |
+| Cassil (1 dose)                  | 1 gp   | -         |
+| Nararoot (1 dose)                | 2 sp   | -         |
+| Phantom ink                      | -      | -         |
+| Firelight                        | 10 gp  | -         |
+| Magical light                    | 10 gp  | -         |
+| Moonlight                        | 10 gp  | -         |
+| Starlight                        | 10 gp  | -         |
+| Powderhorn (full)                | 55 gp  | 3 lb.     |
+| Powderkeg (full)                 | 400 gp | 20 lb.    |
+| Scentbreaker                     | 5 gp   | -         |
+| Shriek paste (flask)             | 50 gp  | 1 lb.     |
+| Smoke Powder                     | 25 gp  | 1 lb.     |
+| Snakebite                        | 600 gp | 1 vial.   |
+| Suregrip\*                       | 20 gp  | -         |
+| Witchweed stick                  | 40 gp  | -         |
 
 Extraordinary Natural items of Faerûn
 The magic of the Weave suffuses the natural world as well, creating objects with extraordinary characteristics that border on the magical. Sages theorize that these substances act as collectors of the magical energies of the land, while others hold less fanciful opinions. These items occur naturally, without any alchemical or magical process needed to harness their abilities. A Knowledge (nature) check (DC 20) can identify any of these items and its effect. A Survival check (DC 20, 30, or higher) can allow a character to find such a substance or item in the appropriate location, assuming the conditions are appropriate.
 
 Unless otherwise noted, the special abilities inherent in these substances and items are extraordinary abilities, and they remain in effect even in areas where magic does not function.
 
-| Item | Cost | Weight |
-| --- | --- | --- |
-| Darkberry | 5 gp | - |
-| Fairy dust (1 ounce) | 100 gp | - |
-| Felsul flower oil (1 ounce) | 100 gp | - |
-| Fog rock | 5 gp | - |
-| Mule pollen | 50 gp | - |
-| Red helmthorn berry | 1 sp | - |
-| Shadowtop torch | 1 sp | 1 lb. |
-| Silverbark sap (1 ounce) | 20 gp | - |
-| Sleepweed pod | 50 gp | - |
-| Weirwood | 50 gp/lb. | as item |
+| Item                        | Cost      | Weight  |
+| --------------------------- | --------- | ------- |
+| Darkberry                   | 5 gp      | -       |
+| Fairy dust (1 ounce)        | 100 gp    | -       |
+| Felsul flower oil (1 ounce) | 100 gp    | -       |
+| Fog rock                    | 5 gp      | -       |
+| Mule pollen                 | 50 gp     | -       |
+| Red helmthorn berry         | 1 sp      | -       |
+| Shadowtop torch             | 1 sp      | 1 lb.   |
+| Silverbark sap (1 ounce)    | 20 gp     | -       |
+| Sleepweed pod               | 50 gp     | -       |
+| Weirwood                    | 50 gp/lb. | as item |
 
 Darkberry
 These small, purple berries grow deep in hidden clumps in the many forests surrounding the Sea of Fallen Stars. Only a few berries manage to ripen from a bush each fall, and they become more rare every year. Darkberries actually contain shadowstuff within their skins. When a ripe darkberry is broken or crushed, it creates a 5-foot-diameter circle of blackness for 2 rounds.
@@ -238,13 +238,13 @@ Some items have the taint of evil magic about them, though they aren't magic ite
 
 Alchemical And Quasi-magical Items
 
-| Item | Price | Alchemy DC |
-| --- | --- | --- |
-| Feather powder | 70 gp | 25 |
-| Festering bomb | 50 gp | 22 |
-| Karras stone knife | 250 gp | - |
-| Violated horn | 3,000 gp | - |
-| Weeping stone | 100 gp | 25 |
+| Item               | Price    | Alchemy DC |
+| ------------------ | -------- | ---------- |
+| Feather powder     | 70 gp    | 25         |
+| Festering bomb     | 50 gp    | 22         |
+| Karras stone knife | 250 gp   | -          |
+| Violated horn      | 3,000 gp | -          |
+| Weeping stone      | 100 gp   | 25         |
 
 Feather Powder
 Originally designed as a weapon against devas and lammasus, this dark red alchemical powder comes in a small glass vial thrown as a grenadelike weapon. Anyone struck or splashed by the powder must succeed at a Fortitude saving throw (DC 15) or take a -1 circumstance penalty on attack and damage rolls, saving throws, skill checks, and ability checks for 1 minute due to irritation and itching. Creatures with feathers are particularly susceptible, taking a -2 circumstance penalty on the Fortitude save against feather powder and suffering double the effect (-2 penalty) if they fail the save.
@@ -266,15 +266,16 @@ The drow have created several innovative alchemical substances to help them nego
 
 Drow Alchemical Items
 
-| Item | Cost | Weight |
-| --- | --- | --- |
-| Bile droppings (flask) | 50 gp | 1 lb. |
-| Darkvision powder (vial) | 10 gp | - |
-| Dwarfblind stone | 50 gp | 1 lb. |
-| Shedden (jar) | 75 gp¹ | 1/2 lb. |
-| Spelunker's oil (flask) | 15 gp | 1 lb. |
-| Stoneburn acid (flask) | 10 gp | 1 lb. |
-| Vilegrip (vial) | 50 gp | - |
+| Item                     | Cost   | Weight  |
+| ------------------------ | ------ | ------- |
+| Bile droppings (flask)   | 50 gp  | 1 lb.   |
+| Darkvision powder (vial) | 10 gp  | -       |
+| Dwarfblind stone         | 50 gp  | 1 lb.   |
+| Shedden (jar)            | 75 gp¹ | 1/2 lb. |
+| Spelunker's oil (flask)  | 15 gp  | 1 lb.   |
+| Stoneburn acid (flask)   | 10 gp  | 1 lb.   |
+| Vilegrip (vial)          | 50 gp  | -       |
+
 ¹ See item description for additional costs.
 
 Bile Droppings
@@ -320,16 +321,16 @@ Alchemical Items from the Frostfell
 
 Frostfell Alchemical Items
 
-| Alchemical Items | Craft DC | Cost | Weight |
-| --- | --- | --- | --- |
-| Armor insulation (flask) | 25 | 50 gp | 2 lb. |
-| Freeze powder (vial) | 25 | 100 gp | 1 lb. |
-| Frostbite salve (jar) | 20 | 50 gp | 1 lb. |
-| Icechalk | 15 | 20 gp | - |
-| Melt powder (vial) | 20 | 25 gp | 1 lb. |
-| Polar skin (flask) | 25 | 25 gp | 1 lb. |
-| Razor ice powder (vial) | 25 | 50 gp | 1 lb. |
-| Whale grease (flask) | 25 | 75 gp | 2 lb. |
+| Alchemical Items         | Craft DC | Cost   | Weight |
+| ------------------------ | -------- | ------ | ------ |
+| Armor insulation (flask) | 25       | 50 gp  | 2 lb.  |
+| Freeze powder (vial)     | 25       | 100 gp | 1 lb.  |
+| Frostbite salve (jar)    | 20       | 50 gp  | 1 lb.  |
+| Icechalk                 | 15       | 20 gp  | -      |
+| Melt powder (vial)       | 20       | 25 gp  | 1 lb.  |
+| Polar skin (flask)       | 25       | 25 gp  | 1 lb.  |
+| Razor ice powder (vial)  | 25       | 50 gp  | 1 lb.  |
+| Whale grease (flask)     | 25       | 75 gp  | 2 lb.  |
 
 Armor Insulation
 This thick red syrupy mixture is applied with a brush to the inner surface of a suit of armor. When the mixture comes in contact with body heat and sweat, it puffs up to trap body heat, insulating the wearer against the effects of cold. For 24 hours after application, the wearer of a suit of armor treated with armor insulation gains a +5 circumstance bonus on Fortitude saving throws against exposure to cold weather.
@@ -392,14 +393,14 @@ Spreading liquid night over a creature's body requires a full-round action. A si
 
 Alchemical Items
 
-| Alchemical Items | Cost | Weight | Craft DC |
-| --- | --- | --- | --- |
-| Brittlebone | 30 gp | 8 oz. | DC 20 (alchemy) |
-| Bullet, priest's (glassblowing) | 20 gp | 10 oz. | DC 15 |
-| Embalming fire | 20 gp | 8 oz. | DC 20 (alchemy) |
-| Ghostoil | 50 gp | 1 lb. | DC 25 (alchemy) |
-| Holy water sprinkler | 62 gp | 8 lb. | as weapon +5 (weaponsmithing) |
-| Liquid night | 150 gp | 8 oz. | DC 25 (alchemy) |
+| Alchemical Items                | Cost   | Weight | Craft DC                      |
+| ------------------------------- | ------ | ------ | ----------------------------- |
+| Brittlebone                     | 30 gp  | 8 oz.  | DC 20 (alchemy)               |
+| Bullet, priest's (glassblowing) | 20 gp  | 10 oz. | DC 15                         |
+| Embalming fire                  | 20 gp  | 8 oz.  | DC 20 (alchemy)               |
+| Ghostoil                        | 50 gp  | 1 lb.  | DC 25 (alchemy)               |
+| Holy water sprinkler            | 62 gp  | 8 lb.  | as weapon +5 (weaponsmithing) |
+| Liquid night                    | 150 gp | 8 oz.  | DC 25 (alchemy)               |
 
 Positoxins
 Positoxins are special alchemical substances distilled from holy water and laced with positive energy. To a corporeal undead creature, a positoxin functions much like a poison, usually dealing initial and secondary ability damage or drain when the target fails a Fortitude save. The ability damage or drain dealt by most positoxins can't reduce an undead creature's ability score below 1
@@ -414,9 +415,9 @@ The characteristics of positoxins are summarized below.
 
 Type: The positoxin's method of delivery, and the Fortitude save DC to avoid the positoxin's damage. Most positoxins are delivered by contact or injury, since undead typically don't ingest or inhale substances.
 
-Initial Damage: The damage the undead creature takes immediately upon failing its saving throw against the positoxin. Ability score reductions are temporary (ability damage) unless an entry is marked with an asterisk (*), in which case the loss is permanent (ability drain).
+Initial Damage: The damage the undead creature takes immediately upon failing its saving throw against the positoxin. Ability score reductions are temporary (ability damage) unless an entry is marked with an asterisk (\*), in which case the loss is permanent (ability drain).
 
-Secondary Damage: The amount of damage the undead creature takes 1 minute after exposure to the positoxin, if it fails a second saving throw. Ability score reductions are temporary (ability damage) unless an entry is marked with an asterisk (*), in which case the loss is permanent (ability drain).
+Secondary Damage: The amount of damage the undead creature takes 1 minute after exposure to the positoxin, if it fails a second saving throw. Ability score reductions are temporary (ability damage) unless an entry is marked with an asterisk (\*), in which case the loss is permanent (ability drain).
 
 Price: The cost of one dose (one vial) of the positoxin. It is not possible to use or apply positoxin in any quantity smaller than one dose. Unlike poisons, positoxins are not illegal, though their cost and the difficulty in creating such substances can limit their availability. (In societies controlled by undead, positoxins are as illegal as poisons are in a typical society.)
 
@@ -424,18 +425,20 @@ Craft: The Craft (alchemy) DC required to create the positoxin. Positoxins are v
 
 Positoxins
 
-| Positoxin | Type | Initial Damage | Secondary Damage | Price | Craft DC |
-| --- | --- | --- | --- | --- | --- |
-| Gravedust | Contact DC 10 | 1 Dex* | 1d4 Dex* | 100 gp | DC 20 |
-| Boneshard paste | Contact DC 13 | 1 Str* | 1d4 Str* | 750 gp | DC 26 |
-| Sunlight oil | Contact DC 16 | 1d3 Str* | 1d3 Dex* + 1d3 Str* | 1,300 gp | DC 32 |
-| Bloodwine | Injury DC 11** | 1d4 Cha | 2d4 Cha | 250 gp | DC 22 |
-| Celestial essence | Injury DC 14 | 1d6 Wis | 2d6 Wis | 400 gp | DC 28 |
-| Lichbane | Injury DC 17 | 1 Int* + 1 Wis* + 1 Cha* | 1d4 Int + 1d4 Wis + 1d4 Cha | 650 gp | DC 34 |
-| Liquid mortality | Injury DC 20 | 1d4 Str* | 2d4 Str* | 1,250 gp | DC 40 |
+| Positoxin         | Type             | Initial Damage            | Secondary Damage            | Price    | Craft DC |
+| ----------------- | ---------------- | ------------------------- | --------------------------- | -------- | -------- |
+| Gravedust         | Contact DC 10    | 1 Dex\*                   | 1d4 Dex\*                   | 100 gp   | DC 20    |
+| Boneshard paste   | Contact DC 13    | 1 Str\*                   | 1d4 Str\*                   | 750 gp   | DC 26    |
+| Sunlight oil      | Contact DC 16    | 1d3 Str\*                 | 1d3 Dex* + 1d3 Str*         | 1,300 gp | DC 32    |
+| Bloodwine         | Injury DC 11\*\* | 1d4 Cha                   | 2d4 Cha                     | 250 gp   | DC 22    |
+| Celestial essence | Injury DC 14     | 1d6 Wis                   | 2d6 Wis                     | 400 gp   | DC 28    |
+| Lichbane          | Injury DC 17     | 1 Int* + 1 Wis* + 1 Cha\* | 1d4 Int + 1d4 Wis + 1d4 Cha | 650 gp   | DC 34    |
+| Liquid mortality  | Injury DC 20     | 1d4 Str\*                 | 2d4 Str\*                   | 1,250 gp | DC 40    |
 
-*Ability drain, not ability damage.
-**Or ingestion DC 9; see text.
+\*Ability drain, not ability damage.
+
+\*\*Or ingestion DC 9; see text.
+
 Bloodwine
 This thick, crimson positoxin includes garlic in its creation, making it particularly harmful to vampires and other undead with a vulnerability to garlic. Such creatures take a -2 penalty on their Fortitude saves to resist damage. Though normally delivered by injury, it can also be consumed by a living creature to deliver it to a vampire or similar blood-draining creature via ingestion. A single dose, if consumed by a living creature, remains in the bloodstream for 12 hours. Any undead creature draining blood from a creature that has ingested bloodwine must make a Fortitude save as if it had been injured by a weapon bearing the positoxin, though the save DC drops to 9.
 
@@ -460,19 +463,19 @@ A thin, slippery liquid, sunlight oil lasts only 24 hours in conditions other th
 Alchemical Items from the Wastes
 Wasteland Alchemical Items
 
-| Alchemical Items | Craft DC | Cost | Weight |
-| --- | --- | --- | --- |
-| Armorbright (flask) | 50 gp | 25 | 1 lb. |
-| Asherati sand sculpture | varies | - | varies |
-| Blackeye (vial) | 1 gp | 15 | 1/2 lb. |
-| Deep draught | 10 gp | 15 | 1/2 lb. |
-| Ironthorn extract (flask) | 25 gp | 20 | 1 lb. |
-| Keepcool salve (pot) | 50 gp | 20 | 1/2 lb. |
-| Liquid salt (flask) | 200 gp | - | 1 lb. |
-| Oleum (flask) | 30 gp | - | 1 lb. |
-| Shapesand (jug) | 100 gp | 25 | 12 lb. |
-| Slumber sand (flask) | 50 gp | 12 | 1 lb. |
-| Sunshade lotion (flask) | 20 gp | 20 | 1 lb. |
+| Alchemical Items          | Craft DC | Cost | Weight  |
+| ------------------------- | -------- | ---- | ------- |
+| Armorbright (flask)       | 50 gp    | 25   | 1 lb.   |
+| Asherati sand sculpture   | varies   | -    | varies  |
+| Blackeye (vial)           | 1 gp     | 15   | 1/2 lb. |
+| Deep draught              | 10 gp    | 15   | 1/2 lb. |
+| Ironthorn extract (flask) | 25 gp    | 20   | 1 lb.   |
+| Keepcool salve (pot)      | 50 gp    | 20   | 1/2 lb. |
+| Liquid salt (flask)       | 200 gp   | -    | 1 lb.   |
+| Oleum (flask)             | 30 gp    | -    | 1 lb.   |
+| Shapesand (jug)           | 100 gp   | 25   | 12 lb.  |
+| Slumber sand (flask)      | 50 gp    | 12   | 1 lb.   |
+| Sunshade lotion (flask)   | 20 gp    | 20   | 1 lb.   |
 
 The waste holds as many unusual materials as it does reasons to innovate.
 Many of the substances here can be made by a spellcaster with the Craft (alchemy) skill, as indicated above.
@@ -511,15 +514,15 @@ Shapesand
 Shapesand is a special kind of wasteland soil that is psychoreactive; it can be sculpted into any form according to your will. The new object is made of sand, but serves as a normal item of the same sort. A shapesand hammer functions just like an ordinary hammer, and a shapesand waterskin is just as watertight as an ordinary skin.
 Controlling shapesand is an exercise in willpower. A DC 16 Wisdom check establishes control of a volume of sand based on the shaper's Wisdom score:
 
-| Wisdom Score | Controllable Volume |
-| --- | --- |
-| 1-3 | None |
-| 4-7 | 1-ft. cube |
-| 8-11 | 2-1/2-ft. cube |
-| 12-15 | 5-ft. cube |
-| 16-19 | 7-1/2-ft. cube |
-| 20-23 | 10-ft. cube |
-| 24+ | +2-1/2 ft per 4 points of Wisdom |
+| Wisdom Score | Controllable Volume              |
+| ------------ | -------------------------------- |
+| 1-3          | None                             |
+| 4-7          | 1-ft. cube                       |
+| 8-11         | 2-1/2-ft. cube                   |
+| 12-15        | 5-ft. cube                       |
+| 16-19        | 7-1/2-ft. cube                   |
+| 20-23        | 10-ft. cube                      |
+| 24+          | +2-1/2 ft per 4 points of Wisdom |
 
 If your Wisdom check succeeds, you can reshape the volume of sand as you desire. Once control is established, the shape lasts as long as you remain within 100 feet of it. Thus, those with sufficient patience and strong enough will can construct small fortresses out of shapesand, even if they must do so a few cubic feet at a time.
 Another character can wrest control of a shapesand item away from you by succeeding on an opposed Wisdom check, though the winner's Wisdom score must be high enough to shape an item the size of the one contested. For example, if two characters are attempting to control a 5-foot cube of shapesand, the challenger must not only beat his opponent's roll, but must also have a Wisdom score of at least 12.
@@ -596,22 +599,23 @@ A touchstone blade is a nonmagical masterwork sword or other weapon forged from 
 
 Special Substances And Items
 
-| Item | Cost | Craft DC | Weight |
-| --- | --- | --- | --- |
-| Anarchic water | 50 gp | n/a | 1 lb. |
-| Antitrait grease (vial)¹ | 50 gp | 20 (alchemy) | - |
-| Atramen oil (flask)¹ | 50 gp | 20 (alchemy) | 1 lb. |
-| Axiomatic water | 50 gp | n/a | 1 lb. |
-| Bahamut's breath (flask)¹ | 120 gp | 25 (alchemy) | 1 lb. |
-| Celestial cloak | 1,000 gp | 25 (leatherworking) | 1 lb. |
-| Chaos flask | 100 gp | n/a | 1/2 lb. |
-| Elemental loadstone | 200 gp | n/a | 50 lb. |
-| Liquid embers (flask)¹ | 600 gp | 25 (alchemy) | 1 lb. |
-| Mechanuseye | 100 gp | n/a | - |
-| Ocanthus knife¹ | 450 gp | 25 (alchemy) | 1 lb. |
-| Pure element¹ | 1,000 gp | 25 (alchemy) | 1 lb. |
-| Red tidewater | 25 gp | n/a | 1/2 lb. |
-| Touchstone blade | +500 gp | n/a | - |
+| Item                      | Cost     | Craft DC            | Weight  |
+| ------------------------- | -------- | ------------------- | ------- |
+| Anarchic water            | 50 gp    | n/a                 | 1 lb.   |
+| Antitrait grease (vial)¹  | 50 gp    | 20 (alchemy)        | -       |
+| Atramen oil (flask)¹      | 50 gp    | 20 (alchemy)        | 1 lb.   |
+| Axiomatic water           | 50 gp    | n/a                 | 1 lb.   |
+| Bahamut's breath (flask)¹ | 120 gp   | 25 (alchemy)        | 1 lb.   |
+| Celestial cloak           | 1,000 gp | 25 (leatherworking) | 1 lb.   |
+| Chaos flask               | 100 gp   | n/a                 | 1/2 lb. |
+| Elemental loadstone       | 200 gp   | n/a                 | 50 lb.  |
+| Liquid embers (flask)¹    | 600 gp   | 25 (alchemy)        | 1 lb.   |
+| Mechanuseye               | 100 gp   | n/a                 | -       |
+| Ocanthus knife¹           | 450 gp   | 25 (alchemy)        | 1 lb.   |
+| Pure element¹             | 1,000 gp | 25 (alchemy)        | 1 lb.   |
+| Red tidewater             | 25 gp    | n/a                 | 1/2 lb. |
+| Touchstone blade          | +500 gp  | n/a                 | -       |
+
 ¹ You must be a spellcaster to craft any of these items.
 
 Alchemy Begins in the Forest
@@ -667,16 +671,16 @@ Elf Hazel: The sap of the elven willow is the main component in a fluid called e
 
 Health and Healing Substances
 
-| Item | Cost | Craft DC |
-| --- | --- | --- |
+| Item            | Cost  | Craft DC     |
+| --------------- | ----- | ------------ |
 | Wittlewort Brew | 30 gp | 15 (alchemy) |
-| Purebalm | 75 gp | 35 (alchemy) |
-| Burn Salve | 15 gp | 10 (alchemy) |
-| Frost Lotion | 15 gp | 10 (alchemy) |
-| Senses | 50 gp | 25 (alchemy) |
-| Vine Oil | 50 gp | 15 (alchemy) |
-| Gash Glue | 40 gp | 20 (alchemy) |
-| Elf Hazel | 5 gp | 10 (alchemy) |
+| Purebalm        | 75 gp | 35 (alchemy) |
+| Burn Salve      | 15 gp | 10 (alchemy) |
+| Frost Lotion    | 15 gp | 10 (alchemy) |
+| Senses          | 50 gp | 25 (alchemy) |
+| Vine Oil        | 50 gp | 15 (alchemy) |
+| Gash Glue       | 40 gp | 20 (alchemy) |
+| Elf Hazel       | 5 gp  | 10 (alchemy) |
 
 Poisons And Malefics
 The following substances, while not dangerous on their own, mix well with poisons, making the poisons harder to resist or adding dangerous side effects. When adding one of these substances to a poison, a character without the poison use ability has a 5% chance of exposing himself to the poison, much like the exposure chance one risks when applying the poison to a weapon. When applying an enhanced poison to a weapon or otherwise readying it for use, the character risks exposure normally. If either exposure chance is failed, the poison is treated as if enhanced by the alchemical substance when it affects the user. Only one alchemical substance may be added to a dose of poison. The prices listed reflect the cost of enhancing one dose of poison.
@@ -703,11 +707,11 @@ White Sanguine: Powdered meadow giant stem is the principle ingredient in white 
 
 Poisons And Malefics
 
-| Item | Cost | Craft DC |
-| --- | --- | --- |
-| Oakdeath | 100 gp | 25 (alchemy) |
-| Night Venom | 500 gp | 30 (alchemy) |
-| Mindfire | 200 gp | 30 (alchemy) |
+| Item           | Cost   | Craft DC     |
+| -------------- | ------ | ------------ |
+| Oakdeath       | 100 gp | 25 (alchemy) |
+| Night Venom    | 500 gp | 30 (alchemy) |
+| Mindfire       | 200 gp | 30 (alchemy) |
 | White Sanguine | 100 gp | 20 (alchemy) |
 
 Mundane Alchemy
@@ -781,29 +785,29 @@ Alchemy DC to Create: 20.
 
 Mundane Alchemical Items
 
-| Alchemy Item | Ingredient | DC | Cost | Effect |
-| --- | --- | --- | --- | --- |
-| Burn salve | Muck muddle | 10 | 15 gp | 1d6 fire damage becomes subdual |
-| Devil's soap | Stygian pumpkin | 20 | 25 gp | Provides fire resistance 2 |
-| Dragon brew | Spotty dragonfire | 25 | 15 gp | +1 to Fortitude saves |
-| Elf hazel | Elven willow | 10 | 5 gp | Removes scars |
-| Frost lotion | Tyrant's sword | 10 | 15 gp | 1d6 cold damage becomes subdual |
-| Gash glue | Old man's friend | 15 | 40 gp | Stabilizes dying creature |
-| Goblin ink | Goblin rogue | 10 | 20 gp | Waterproof ink |
-| Icewalker oil | Ice lotus | 35 | 75 gp | Spider climb on ice only |
-| Journeyman's Friend | Wolfweed | 5 | 5 gp | +2 on Constitution checks from forced march |
-| Lantern stars | Cave star | 10 | 10 gp | Steady, heatless light |
-| Memorybind | Pixie table | 30 | 300 gp | Bonus 1st-level spell, -2 to spell DCs |
-| Mindfire | Wild fireclover | 30 | 200 gp | -2 Will save, Concentration to cast |
-| Night venom | Orticusp | 35 | 500 gp | Add sleep effect to poison |
-| Oakdeath | Dwarven oak | 25 | 100 gp | Poison DC increases by 2 |
-| Purebalm | Cotsbalm | 25 | 175 gp | +8 vs. secondary poison |
-| Senses | Prickly tea | 25 | 50 gp | +1 to Spot and Listen checks |
-| Shinewater | Halfling thistle | 5 | 10 gp | Polishes metal easily |
-| Titan gum | Darkroot | 15 | 25 gp | Powerful glue |
-| Vine oil | Sand vine | 15 | 50 gp | Function below o hp |
-| White sanguine | Meadow giant | 20 | 100 gp | Wounds continue to bleed |
-| Wittlewort brew | Wittlewort | 15 | 30 gp | Chance to break Enchantment effect |
+| Alchemy Item        | Ingredient        | DC  | Cost   | Effect                                      |
+| ------------------- | ----------------- | --- | ------ | ------------------------------------------- |
+| Burn salve          | Muck muddle       | 10  | 15 gp  | 1d6 fire damage becomes subdual             |
+| Devil's soap        | Stygian pumpkin   | 20  | 25 gp  | Provides fire resistance 2                  |
+| Dragon brew         | Spotty dragonfire | 25  | 15 gp  | +1 to Fortitude saves                       |
+| Elf hazel           | Elven willow      | 10  | 5 gp   | Removes scars                               |
+| Frost lotion        | Tyrant's sword    | 10  | 15 gp  | 1d6 cold damage becomes subdual             |
+| Gash glue           | Old man's friend  | 15  | 40 gp  | Stabilizes dying creature                   |
+| Goblin ink          | Goblin rogue      | 10  | 20 gp  | Waterproof ink                              |
+| Icewalker oil       | Ice lotus         | 35  | 75 gp  | Spider climb on ice only                    |
+| Journeyman's Friend | Wolfweed          | 5   | 5 gp   | +2 on Constitution checks from forced march |
+| Lantern stars       | Cave star         | 10  | 10 gp  | Steady, heatless light                      |
+| Memorybind          | Pixie table       | 30  | 300 gp | Bonus 1st-level spell, -2 to spell DCs      |
+| Mindfire            | Wild fireclover   | 30  | 200 gp | -2 Will save, Concentration to cast         |
+| Night venom         | Orticusp          | 35  | 500 gp | Add sleep effect to poison                  |
+| Oakdeath            | Dwarven oak       | 25  | 100 gp | Poison DC increases by 2                    |
+| Purebalm            | Cotsbalm          | 25  | 175 gp | +8 vs. secondary poison                     |
+| Senses              | Prickly tea       | 25  | 50 gp  | +1 to Spot and Listen checks                |
+| Shinewater          | Halfling thistle  | 5   | 10 gp  | Polishes metal easily                       |
+| Titan gum           | Darkroot          | 15  | 25 gp  | Powerful glue                               |
+| Vine oil            | Sand vine         | 15  | 50 gp  | Function below o hp                         |
+| White sanguine      | Meadow giant      | 20  | 100 gp | Wounds continue to bleed                    |
+| Wittlewort brew     | Wittlewort        | 15  | 30 gp  | Chance to break Enchantment effect          |
 
 Animal Alchemy (Dragon #357)
 Many huntsmen and falconers have discovered the value of combining alchemy with their traditional practices. The alchemical items here expand the options available to such trainers, but many also require that animals learn a particular trick in order to use such items properly.
@@ -830,14 +834,14 @@ This cloying yellow paste, if daubed directly on the nose of a creature with sce
 Silent Bells
 Bathed in exotic solutions, these tiny round bells chime on a frequency beyond that which most humanoids can hear, but which canines can hear perfectly well. If strung to a door, footpath, or similar location, they automatically alert any canine within 120 feet when someone trips them without alerting the trespasser. Silent bells require a DC 25 Craft (alchemy) check to create.
 
-| Item | Cost | Weight |
-| --- | --- | --- |
-| Bird bomb (dust) | 25 gp | 1/2 lb. |
-| Bird bomb (reek) | 40 gp | 1/2 lb. |
-| Dog smoke | 75 gp | 2 lb. |
-| Hound snuff (10 pinches) | 90 gp | 1 lb. |
-| Mad foam | 25 gp | 1/4 lb. |
-| Silent bells (set of six) | 50 gp | 1 lb. |
+| Item                      | Cost  | Weight  |
+| ------------------------- | ----- | ------- |
+| Bird bomb (dust)          | 25 gp | 1/2 lb. |
+| Bird bomb (reek)          | 40 gp | 1/2 lb. |
+| Dog smoke                 | 75 gp | 2 lb.   |
+| Hound snuff (10 pinches)  | 90 gp | 1 lb.   |
+| Mad foam                  | 25 gp | 1/4 lb. |
+| Silent bells (set of six) | 50 gp | 1 lb.   |
 
 Psionic Alchemy (Dragon #358)
 Psionics are rare on Faerûn and largely unknown except in areas where psionic monsters live. Such areas include the South, where the yuan-ti have influence (particularly the city of Hlondeth on the Vilhon Reach) and the Underdark (thanks to the influence of the mind flayers). Waterdeep undoubtedly holds a few characters with psionic abilities, as do large urban areas such as Amn and Calimshan. These alchemical items will most likely be found in those areas.
@@ -845,14 +849,14 @@ Psionics are rare on Faerûn and largely unknown except in areas where psionic m
 Aura Gel
 To activate this clear, viscous gel, you must first tear away the vial's thin lead covering and expose it to a psionic aura. When within 60 feet of active psionic powers or psi-like abilities, the gel emits a colorful glow, with the color based on the strongest aura within range (lesser auras are ignored). The glow increases or fades as it moves closer to nor farther from a psionic aura, regardless of the strength of the strongest aura. After 1 minute of exposure to psionic energy, the gel turns to dust. Aura gel reacts only to psionic energy; it does not react in the presence of magic.
 
-| Discipline | Color |
-| --- | --- |
-| Clairsentience | Yellow |
-| Metacreativity | Gray |
-| Psychokinesis | Red |
-| Psychometabolism | Blue |
-| Psychoportation | Black |
-| Telepathy | White |
+| Discipline       | Color  |
+| ---------------- | ------ |
+| Clairsentience   | Yellow |
+| Metacreativity   | Gray   |
+| Psychokinesis    | Red    |
+| Psychometabolism | Blue   |
+| Psychoportation  | Black  |
+| Telepathy        | White  |
 
 Cerebral Serum
 Few concoctions boast as vile and acrid a taste as cerebral serum. The serum, black as tar and lumpy as oatmeal, helps inoculate the imbiber against psionic mental attacks and effects. If you drink the serum, you gain a +2 alchemical bonus on Will saves against mind-affecting psionic powers and psi-like abilities for 1 hour.
@@ -883,18 +887,18 @@ This blood-colored liquid contains the essence of a xeph's speed burst. When you
 
 Psionic Alchemical Substances
 
-| Goods | Cost | Weight | Craft DC |
-| --- | --- | --- | --- |
-| Aura gel (flask) | 25 gp | - | 20 |
-| Cerebral serum (vial) | 150 gp | - | 30 |
-| Ectoplasmic skin (flask) | 75 gp | 1 lb. | 25 |
-| Intuition vapor (vial) | 75 gp | - | 30 |
-| Liquid stone (flask) | 25 gp | 1 lb. | 15 |
-| Mimic clay | 30 gp | 1 lb. | 25 |
-| Psi block | 25 gp | 1 lb. | 20 |
-| Psionic ichor (flask) | 60 gp | 1 lb. | 30 |
-| Rejuvenation essence (vial) | 30 gp | - | 20 |
-| Xeph's blood (vial) | 40 gp | - | 30 |
+| Goods                       | Cost   | Weight | Craft DC |
+| --------------------------- | ------ | ------ | -------- |
+| Aura gel (flask)            | 25 gp  | -      | 20       |
+| Cerebral serum (vial)       | 150 gp | -      | 30       |
+| Ectoplasmic skin (flask)    | 75 gp  | 1 lb.  | 25       |
+| Intuition vapor (vial)      | 75 gp  | -      | 30       |
+| Liquid stone (flask)        | 25 gp  | 1 lb.  | 15       |
+| Mimic clay                  | 30 gp  | 1 lb.  | 25       |
+| Psi block                   | 25 gp  | 1 lb.  | 20       |
+| Psionic ichor (flask)       | 60 gp  | 1 lb.  | 30       |
+| Rejuvenation essence (vial) | 30 gp  | -      | 20       |
+| Xeph's blood (vial)         | 40 gp  | -      | 30       |
 
 For the Dungeoneer (Dungeonscape)
 Experienced dungeoneers know the value of alchemy. Nonmagical solutions to common dungeon problems remain effective in anti-magic areas, and they cannot be detected or dispelled by enemy spell-casters. While few adventurers would eschew magic entirely, a good selection of alchemically derived tools can work wonders.
@@ -999,17 +1003,16 @@ Price: 90 gp.
 
 Alchemical Substances for the Dungeoneer
 
-| Goods | Cost | Weight |
-| --- | --- | --- |
-| Acid neutralizer | 50 gp | 1 lb. |
-| Bottled air | 50 gp | - |
-| Firmament stone | no gp | 1/2 lb. |
-| Ghostwall shellac, bottle | 150 gp | 1 lb. |
-| Lava stone | 24 gp | - |
-| Greater | 144 gp | 1 lb. |
-| Lockslick, can | 180 gp | 1/2 lb. |
-| Trollbane, vial | 90 gp | - |
-
+| Goods                     | Cost   | Weight  |
+| ------------------------- | ------ | ------- |
+| Acid neutralizer          | 50 gp  | 1 lb.   |
+| Bottled air               | 50 gp  | -       |
+| Firmament stone           | no gp  | 1/2 lb. |
+| Ghostwall shellac, bottle | 150 gp | 1 lb.   |
+| Lava stone                | 24 gp  | -       |
+| Greater                   | 144 gp | 1 lb.   |
+| Lockslick, can            | 180 gp | 1/2 lb. |
+| Trollbane, vial           | 90 gp  | -       |
 
 # Alchemical Charms
 
@@ -1087,30 +1090,31 @@ Also called belladonna, this toxic plant allegedly repels lycanthropes. In addit
 Crafting Alchemical Items
 Creating charms uses the standard Craft rules. The DC for creating the items presented in this article are provided on the included table. Like any alchemical creation, charms require alchemical equipment and a spellcaster to craft. Wolfsbane does not require any alchemical treatments, but the plant must be reasonably fresh to function (picked within the last week). A DC 15 Knowledge (nature) or Survival check is required to find and harvest wolfsbane in the wilderness correctly.
 
-| Item | Craft Skill | Craft DC |
-| --- | --- | --- |
-| Garlic Charm | Alchemy | 15 |
-| Anarchic charm*, axiomatic charm*, cold iron charm, garlic draught, holy charm*, silver charm, unholy charm* | Alchemy | 20 |
-| Anarchic draught*, anti-disease tonic, axiomatic draught*, cold iron draught, combination draught*, holy draught*, silver draught, unholy draught* | Alchemy | 25 |
-| Combination draught* | Alchemy | 30 |
-*In addition, ingredients for these items must be blessed by a divine spellcaster of the appropriate alignment to function. This involves a simple prayer, not an actual spell.
+| Item                                                                                                                                                | Craft Skill | Craft DC |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | -------- |
+| Garlic Charm                                                                                                                                        | Alchemy     | 15       |
+| Anarchic charm*, axiomatic charm*, cold iron charm, garlic draught, holy charm*, silver charm, unholy charm*                                        | Alchemy     | 20       |
+| Anarchic draught*, anti-disease tonic, axiomatic draught*, cold iron draught, combination draught*, holy draught*, silver draught, unholy draught\* | Alchemy     | 25       |
+| Combination draught\*                                                                                                                               | Alchemy     | 30       |
 
-| Item | Cost | Weight |
-| --- | --- | --- |
-| Anti-disease tonic | 100 gp | - |
-| Charm, axiomatic/anarchic | 30 gp | 1 lb. |
-| Charm, cold iron | 30 gp | 1 lb. |
-| Charm, combination | 40 gp | 1 lb. |
-| Charm, garlic | 5 gp | 1 lb. |
-| Charm, holy/unholy | 30 gp | 1 lb. |
-| Charm, silver | 30 gp | 1 lb. |
-| Draught, axiomatic/anarchic | 50 gp | - |
-| Draught, cold iron | 75 gp | - |
-| Draught, combination | 150 gp | - |
-| Draught, garlic | 50 gp | - |
-| Draught, holy/unholy | 50 gp | - |
-| Draught, silver | 75 gp | - |
-| Wolfsbane | 5 gp | - |
+\*In addition, ingredients for these items must be blessed by a divine spellcaster of the appropriate alignment to function. This involves a simple prayer, not an actual spell.
+
+| Item                        | Cost   | Weight |
+| --------------------------- | ------ | ------ |
+| Anti-disease tonic          | 100 gp | -      |
+| Charm, axiomatic/anarchic   | 30 gp  | 1 lb.  |
+| Charm, cold iron            | 30 gp  | 1 lb.  |
+| Charm, combination          | 40 gp  | 1 lb.  |
+| Charm, garlic               | 5 gp   | 1 lb.  |
+| Charm, holy/unholy          | 30 gp  | 1 lb.  |
+| Charm, silver               | 30 gp  | 1 lb.  |
+| Draught, axiomatic/anarchic | 50 gp  | -      |
+| Draught, cold iron          | 75 gp  | -      |
+| Draught, combination        | 150 gp | -      |
+| Draught, garlic             | 50 gp  | -      |
+| Draught, holy/unholy        | 50 gp  | -      |
+| Draught, silver             | 75 gp  | -      |
+| Wolfsbane                   | 5 gp   | -      |
 
 Ecology And Society
 In a society where alchemical charms exist, people rely on charm sellers to protect them against both real and supposed dangers. Almost every village and hamlet possesses a simple wise-woman or knowledgeable hermit, an elder versed in the use of charms and amulets. A DC 20 Knowledge (arcana), Knowledge (religion), or bardic knowledge check reveals the properties of the common, nonmagical charms. The typical village alchemist has ranks in one or more of these skills, and perhaps some Craft (alchemy) ranks to create the items, although that role might rest with a separate, regional alchemist.
