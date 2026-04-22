@@ -1404,7 +1404,7 @@ Alchemy DC 15 to create. Market Price: 5 gp. (Source: Dragon #280)
 
 Alchemy DC 30 to create. Market Price: 75 gp. (Source: Dragon #358)
 
-**Ironbane acid:** DESCRIPTION UNAVAILABLE.
+**Ironbane acid:** Splash/grenade; ranged touch attack. Damage: 0 vs. organic or stone, 2d6 vs. metal and metallic creatures, ignoring hardness of metal. 1pt splash damage to adjacent targets it can affect.
 
 Alchemy DC – to create. Market Price: 30 gp. (Source: Dragon #359)
 
@@ -1580,9 +1580,9 @@ Alchemy DC – to create. Market Price: 40 gp. (Source: Dragon #316)
 
 Alchemy DC – to create. Market Price: 100 gp. (Source: Dragon #279)
 
-**Stonebreaker acid:** DESCRIPTION UNAVAILABLE.
+**Stonebreaker acid:** Splash/grenade; ranged touch attack. Damage: 0 vs. organic or metal, 3d10 vs. stone and stone creatures in round 1, 2d10 additional round 2, ignoring hardness of stone. 1pt splash damage to adjacent targets it can affect.
 
-Alchemy DC 20 to create. Market Price: 20 gp. (Source: Dragon #359)
+Alchemy DC 20 to create. Market Price: 20 gp. (Source: Dragon #359; or Arms and Equipment Guide)
 
 **Stoneburn acid:** DESCRIPTION UNAVAILABLE.
 

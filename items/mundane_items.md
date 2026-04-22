@@ -51,3 +51,11 @@ _Homebrew extrapolation (~1.5x price) and expansion_
 
 **Vial Bandolier, Reinforced:** This masterwork vial bandolier is reinforced with padding and metal fittings to provide protection against breaking or crushing the vials when hit in the chest or falling prone (either immune or +4 on save).
 150 gp, 2 lbs. (source: Homebrew)
+
+## Workman's Harness
+
+**Workman's Harness:** A sturdy leather harness designed to hold tools and equipment securely while allowing easy access. It features multiple pouches and loops for carrying various items, storing the same contents as two bandoliers (16 small items) and a potion belt (6 vials). There are loops and rings for safety ropes, attaching toolbelts, or tying items. It can suspend the wearer's weight safely.
+8 gp, 4 lbs. (source: Homebrew)
+
+**Workman's Harness, Masterwork:** An extremely well-made workman's harness. It stores the same contents as two masterwork bandoliers (24 small items) and a masterwork potion belt (10 vials).
+150 gp, 4 lbs. (source: Homebrew)
