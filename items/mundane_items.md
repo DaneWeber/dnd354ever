@@ -54,8 +54,8 @@ _Homebrew extrapolation (~1.5x price) and expansion_
 
 ## Workman's Harness
 
-**Workman's Harness:** A sturdy leather harness designed to hold tools and equipment securely while allowing easy access. It features multiple pouches and loops for carrying various items, storing the same contents as two bandoliers (16 small items) and a potion belt (6 vials). There are loops and rings for safety ropes, attaching toolbelts, or tying items. It can suspend the wearer's weight safely.
+**Workman's Harness:** A sturdy leather harness designed to hold tools and equipment securely while providing safety while working with a significant risk of falling. It features multiple pouches and loops for carrying various items, storing the same contents as two bandoliers (16 small items) and a potion belt (6 vials). There are loops and rings for safety ropes, attaching toolbelts, or tying items. The harness straps securely around the wearer's legs and torso so it can suspend the wearer's weight safely.
 8 gp, 4 lbs. (source: Homebrew)
 
-**Workman's Harness, Masterwork:** An extremely well-made workman's harness. It stores the same contents as two masterwork bandoliers (24 small items) and a masterwork potion belt (10 vials).
-150 gp, 4 lbs. (source: Homebrew)
+**Workman's Harness, Masterwork:** An extremely well-made workman's harness, generally for dwarven sculptors. It stores the same contents as two masterwork bandoliers (24 small items) and a masterwork potion belt (10 vials).
+175 gp, 4 lbs. (source: Homebrew)
