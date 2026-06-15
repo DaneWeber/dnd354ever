@@ -13,3 +13,21 @@ Mercane offered a price indicating it has a 15,000gp market value.
 ## Abyssal Brain Fungus
 
 Infects the blood and then the brain. Causes the host to continuously mutter obscenities and blasphemies and to become completely still when near movement. When the infection is complete, the host finds a dark location and hugs its knees. The fungus sprouts from the host’s head, killing it. The sprouted fungus has whip-like tentacles with 10ft reach that make surprise attacks (+5/1d3-2) against creatures that move nearby (blindsense). A successful infliction of damage infects the victim with spores (Disease, Injury, DC 18, 1d3 days incubation, 1d6 Int damage). The fungus has SR 20 vs. Remove Disease and similar curative spells.
+
+## Protean Mushroom of Dimension
+
+- New fruiting body each day, effective for three days, although only effective within 12 hours of being plucked.
+- Each fruiting body has two halves.
+  - Consuming the right half causes Compression (as per psionic power) for 90 minutes.
+  - Consuming the left half causes Expansion (as per psionic power) for 90 minutes.
+  - Consuming multiple of the same half stacks.
+  - Consuming an opposing half cancels the effect rather than stacking.
+- A half can be held in the mouth for some time without consuming it so that it can be consumed as a Swift Action.
+- The mushroom can be transported in a small container where it lives indefinitely, fruiting daily, so long as it is kept moist, illuminated by a source of psychometabolism aura, and fed shed skin, hair, nails, or similar organic material.
+- The mycelium cannot be split into multiple instances. Reproduction is only possible when the spore of two different Protean Mushrooms combine in Limbo or similarly chaos-infused soil in darkness with stale air. 
+
+Other Protean Mushrooms affect coloration (Chameleon), sensation (Synesthete), skin thickness (Thicken Skin), density (body equilibrium), shape (Metamorphosis), and possibly more.
+
+Planter value is 20gp, containing a psionic Shard worth 10gp.
+
+Plant value is 7,200gp (9pp * 600gp (boots of stomping) * 2 halves * 2/3 for reduced weekly usage * 2 for no slot * 0.5 for unknown side of mushroom)
