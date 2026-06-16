@@ -16,14 +16,22 @@ Infects the blood and then the brain. Causes the host to continuously mutter obs
 
 ## Protean Mushroom of Dimension
 
-This lidded, pill-shaped container opens to reveal three flat-topped bright yellow mushrooms sprouting from a flaky, translucent mass. These mushrooms have the ability to temporarily alter the dimensions of the consumer's body.
+This lidded, metal, pill-shaped container the size of a melon opens to reveal three flat-topped bright yellow mushrooms sprouting from a flaky, translucent mass. Each mushroom has the ability to temporarily alter the dimensions of the consumer's body: one side will make you grow taller, and the other side will make you grow shorter.
 
+Instructions:
+- Keep the base moist and full of shed skin, hair, fingernails, etc.
+- Do not remove the crystal or the mycelium will die.
+- A new mushroom will grow each day and shrivel after three days.
+- Eat the correct half within 12 hours of plucking to either double or halve your size for an hour and a half.
+
+Rules:
 - New fruiting body each day, effective for three days, although only effective within 12 hours of being plucked.
 - Each fruiting body has two halves.
   - Consuming the right half causes Compression (as per psionic power) for 90 minutes.
   - Consuming the left half causes Expansion (as per psionic power) for 90 minutes.
-  - Consuming multiple of the same half stacks.
+  - Consuming multiple of the same sort stacks.
   - Consuming an opposing half cancels the effect rather than stacking.
+  - The halves cannot be easily distinguished. DC 20 Wisdom check to identify which half is which. Failure results in the same certainty, but random selection. +2 for 5 ranks in Knowledge (nature), Knowledge (planes), or Survival. +4 if Chaotic-aligned. -4 if Lawful-aligned. +2 for each successful identification (until it can be done with certainty). Speak with Plants provides unhelpful comments about the right and left and not wanting to be eaten.
 - A half can be held in the mouth for some time without consuming it so that it can be consumed as a Swift Action.
 - The mushroom can be transported in a small container where it lives indefinitely, fruiting daily, so long as it is kept moist, illuminated by a source of psychometabolism aura, and fed shed skin, hair, nails, or similar organic material.
 - The mycelium cannot be split into multiple instances. Reproduction is only possible when the spore of two different Protean Mushrooms combine in Limbo or similarly chaos-infused soil in darkness with stale air.
