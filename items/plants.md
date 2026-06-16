@@ -16,6 +16,8 @@ Infects the blood and then the brain. Causes the host to continuously mutter obs
 
 ## Protean Mushroom of Dimension
 
+This lidded, pill-shaped container opens to reveal three flat-topped bright yellow mushrooms sprouting from a flaky, translucent mass. These mushrooms have the ability to temporarily alter the dimensions of the consumer's body.
+
 - New fruiting body each day, effective for three days, although only effective within 12 hours of being plucked.
 - Each fruiting body has two halves.
   - Consuming the right half causes Compression (as per psionic power) for 90 minutes.
@@ -24,7 +26,7 @@ Infects the blood and then the brain. Causes the host to continuously mutter obs
   - Consuming an opposing half cancels the effect rather than stacking.
 - A half can be held in the mouth for some time without consuming it so that it can be consumed as a Swift Action.
 - The mushroom can be transported in a small container where it lives indefinitely, fruiting daily, so long as it is kept moist, illuminated by a source of psychometabolism aura, and fed shed skin, hair, nails, or similar organic material.
-- The mycelium cannot be split into multiple instances. Reproduction is only possible when the spore of two different Protean Mushrooms combine in Limbo or similarly chaos-infused soil in darkness with stale air. 
+- The mycelium cannot be split into multiple instances. Reproduction is only possible when the spore of two different Protean Mushrooms combine in Limbo or similarly chaos-infused soil in darkness with stale air.
 
 Other Protean Mushrooms affect coloration (Chameleon), sensation (Synesthete), skin thickness (Thicken Skin), density (body equilibrium), shape (Metamorphosis), and possibly more.
 
