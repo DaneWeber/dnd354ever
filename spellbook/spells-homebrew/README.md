@@ -23,7 +23,7 @@ import type { Spell } from '../src/types';
 
 /**
  * My Custom Spells
- * 
+ *
  * Description of this spell collection
  */
 
@@ -48,6 +48,21 @@ export const spells: Spell[] = [
   // Add more spells here...
 ];
 ```
+
+## Converting from Markdown
+
+If you have spells written in markdown format, you can convert them to TypeScript files automatically:
+
+1. Create or update markdown files in `spells-homebrew/` with your spell definitions
+2. Run the parser from the project root:
+   ```bash
+   npm run parse-spells
+   # or
+   pnpm parse-spells
+   ```
+3. The parser will generate `src/homebrewSpellsGenerated.ts` with all your spells
+
+For markdown spell file structure, see the `spells-srd/srd-spells.md` file for examples.
 
 ## Included Example Files
 

@@ -23,6 +23,19 @@ The effects of gravity traits, alignment traits, and magic traits aren’t negat
 The spell does not provide protection against creatures, native or otherwise, nor does it protect against spells, special abilities, or extreme and nonnatural formations within the plane. This spell allows you to survive on the Elemental Plane of Earth, for instance, but it won’t protect you if you walk into a pool of magma on that same plane.
 
 
+## Assay Spell Resistance
+
+*   Divination
+*   **Level:** Cleric 4, Sorcerer 4, Wizard 4
+*   **Components:** V, S
+*   **Casting Time:** 1 swift action
+*   **Range:** Personal
+*   **Target:** You
+*   **Duration:** 1 round/level
+
+This spell gives you a +10 bonus on caster level checks to overcome the spell resistance of a specific creature. Assay resistance is effective against only one specific creature per casting, and you must be able to see the creature when you cast the spell.
+
+
 ## Bite of the Weretiger
 
 *   Transmutation
@@ -99,6 +112,25 @@ You select one of the following enhancements when you cast this spell.
 A druid can be affected by more than one enhance wild shape spell at a time, but a different wild shape enhancement must be chosen each time.
 
 
+## Lucent Lance
+
+*   Transmutation [Light]
+*   **Level:** Sorcerer 5, Wizard 5, Cleric 6
+*   **Components:** V, S, AF
+*   **Casting Time:** 1 standard action
+*   **Range:** Close (25 ft. + 5 ft./2 levels)
+*   **Effect:** Ray
+*   **Duration:** Instantaneous
+*   **Saving Throw:** None
+*   **Spell Resistance:** Yes; see text
+
+You must succeed on a ranged touch attack with the ray to strike a target. A creature struck is blinded for 1 round, and dazzled for 1 round per caster level. A creature sensitive to bright light (such as a drow, duergar, or kuo-toa) takes penalties as if it had been exposed to full daylight for 1 round if struck by the beam, even if it resists the spell's other effects.
+
+In addition to this dazzling effect, lucent lance deals damage based on the level of light available within your square. In bright light, it deals 1d6 points of damage per caster level (maximum 15d6). In shadowy illumination, it deals 1d4 points of damage per caster level (maximum 15d4). If no light is present in your square, the spell cannot be cast at all.
+
+_Focus:_ A clear glass or crystal rod.
+
+
 ## Resist Energy, Mass
 
 *   Abjuration
@@ -159,6 +191,21 @@ _Arcane Material Component:_ A few scales from a snake.
 You hold the snake scales high overhead, and they evaporate in a flash of light. That radiance carries to every ally in your command—and as one, they unleash a volley of attacks.
 
 This spell functions like snake’s swiftness, except that it affects multiple allies out to medium range.
+
+
+## Sound Lance
+
+*   Evocation [Sonic]
+*   **Level:** Cleric 3, Sorcerer 3, Wizard 3
+*   **Components:** V, S
+*   **Casting Time:** 1 action
+*   **Range:** Medium (100 ft. + 10 ft./level)
+*   **Target:** One creature or object
+*   **Duration:** Instantaneous
+*   **Saving Throw:** Fortitude half
+*   **Spell Resistance:** Yes
+
+Sound lance causes a projectile of intense sonic energy sound to leap unerringly from you to a target within range. The sound does 1d6 points of sonic damage per caster level, to a maximum of 10d6. The sound lance strikes unerringly, unless the target has total cover or total concealment. A sound lance cannot penetrate the area of a silence spell.
 
 
 ## Vigor, Lesser
