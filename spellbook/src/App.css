@@ -44,27 +44,27 @@ header p {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .nav-sections {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .nav-divider {
     width: 2px;
     background: #8b2323;
     margin: 0.25rem 0;
   }
-  
+
   .nav-levels {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .app {
     padding-top: 5rem; /* Space for fixed nav */
   }
@@ -82,20 +82,20 @@ header p {
     max-height: 90vh;
     overflow-y: auto;
   }
-  
+
   .nav-sections {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
   }
-  
+
   .nav-divider {
     height: 2px;
     width: 100%;
     background: #8b2323;
     margin: 0.5rem 0;
   }
-  
+
   .nav-levels {
     display: flex;
     flex-direction: column;
@@ -770,24 +770,15 @@ header p {
   font-size: 1rem;
 }
 
-.summary-checkboxes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
+.summary-usage-field {
   margin-left: 1rem;
-  width: 2.8rem;
-}
-
-.checkbox-box {
-  display: inline-block;
-  width: 1.2rem;
-  height: 1.2rem;
-  border: 2px solid #8b2323;
-  text-align: center;
-  line-height: 1.2rem;
+  min-width: 4.5rem;
+  text-align: right;
+  font-family: "Courier New", Courier, monospace;
   font-size: 1rem;
-  border-radius: 3px;
-  background: white;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #8b2323;
 }
 
 /* Print Styles - Two-Column Landscape Layout */
@@ -885,24 +876,12 @@ header p {
     font-size: 0.9rem;
   }
 
-  .summary-checkboxes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3rem;
-    margin-left: 1rem;
-    width: 1.3rem;
-  }
-
-  .checkbox-box {
-    display: inline-block;
-    width: 0.5rem;
-    height: 0.5rem;
-    border: 1.5px solid #000;
-    text-align: center;
-    line-height: 0.5rem;
-    font-size: 0.9rem;
-    border-radius: 0;
-    background: white;
+  .summary-usage-field {
+    margin-left: 0.75rem;
+    min-width: 3.6rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
   }
 
   /* Two-column layout for spell cards */
@@ -922,7 +901,7 @@ header p {
 
   .spell-title {
     font-size: 1.1rem;
-    margin-top: 0; 
+    margin-top: 0;
     margin-bottom: 0.1rem;
     /* Keep title with following content */
     break-after: avoid;

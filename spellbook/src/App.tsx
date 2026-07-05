@@ -934,12 +934,7 @@ function App() {
                         {spells.map(spell => (
                           <div key={spell.id} className="summary-spell-row">
                             <span className="summary-spell-name">{spell.name}</span>
-                            <div className="summary-checkboxes">
-                              <span className="checkbox-box"> </span>
-                              <span className="checkbox-box"> </span>
-                              <span className="checkbox-box"> </span>
-                              <span className="checkbox-box"> </span>
-                            </div>
+                            <span className="summary-usage-field" aria-label="Used versus prepared">__ / __</span>
                           </div>
                         ))}
                       </div>
