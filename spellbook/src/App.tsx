@@ -509,6 +509,15 @@ function App() {
     }
   };
 
+  const handlePrint = (target: 'spellbook' | 'summary') => {
+    const app = document.querySelector('.app');
+    if (!app) return;
+
+    app.setAttribute('data-print-target', target);
+    window.print();
+    app.removeAttribute('data-print-target');
+  };
+
   return (
     <div className="app">
       {/* Unified Navigation */}
@@ -779,8 +788,11 @@ function App() {
                 </button>
               </div>
               <div className="export-buttons no-print">
-                <button className="print-button" onClick={() => window.print()}>
+                <button className="print-button" onClick={() => handlePrint('spellbook')}>
                   🖨️ Print Spellbook
+                </button>
+                <button className="print-button" onClick={() => handlePrint('summary')}>
+                  🖨️ Print Tracker
                 </button>
                 <button
                   className="print-button"
@@ -896,10 +908,21 @@ function App() {
               </div>
             ))}
           </div>
+        </div>
+      )}
 
-          {/* Spell Summary for Tracking */}
-          <div id="summary-section" className="spell-summary-page">
-            <h2>Spell Preparation & Casting Tracker</h2>
+      {selectedClass && selectedSpellsData.length > 0 && (
+        <div id="summary-section" className="spellbook">
+          <div className="spellbook-header">
+            <h1>{selectedClass} Spell Preparation & Casting Tracker</h1>
+            <div className="spellbook-controls no-print">
+              <button className="print-button" onClick={() => handlePrint('summary')}>
+                🖨️ Print Tracker
+              </button>
+            </div>
+          </div>
+
+          <div className="spell-summary-page">
             <div className="summary-columns-container">
               {(() => {
                 // Group spells by level for the selected class
