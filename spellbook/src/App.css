@@ -783,12 +783,6 @@ header p {
 
 /* Print Styles - Two-Column Landscape Layout */
 @media print {
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
   @page {
     size: landscape;
   }
@@ -798,11 +792,8 @@ header p {
   }
 
   .app {
-    margin: 0;
     padding: 0;
     max-width: 100%;
-    width: 100%;
-    background: red;
   }
 
   /* Hide summary section when printing spellbook */
@@ -827,7 +818,6 @@ header p {
     padding-top: 0;
     padding-bottom: 0;
     border-top: none;
-    background: purple;
   }
 
   .spellbook-header {
@@ -842,13 +832,11 @@ header p {
   /* Spell Summary Page - Prints on separate page */
   .spell-summary-page {
     display: block;
-    width: 100%;
     margin: 0;
     padding: 0;
     border: none;
     border-radius: 0;
-    background: cyan;
-    box-sizing: border-box;
+    background: transparent;
   }
 
   .spell-summary-page h2 {
@@ -856,14 +844,9 @@ header p {
   }
 
   .summary-columns-container {
-    width: 100%;
-    margin: 0;
-    padding: 0;
     column-count: 4;
     column-gap: 1rem;
-    column-fill: balance;
-    background: magenta;
-    box-sizing: border-box;
+    column-fill: auto;
   }
 
   .summary-level-group {
@@ -871,7 +854,6 @@ header p {
     page-break-inside: auto;
     margin-bottom: 1rem;
     display: block;
-    background: lime;
   }
 
   .summary-level-group h3 {
