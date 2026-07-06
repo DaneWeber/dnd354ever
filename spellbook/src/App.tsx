@@ -957,7 +957,7 @@ function App() {
                         {spells.map(spell => (
                           <div key={spell.id} className="summary-spell-row">
                             <span className="summary-spell-name">{spell.name}</span>
-                            <span className="summary-usage-field" aria-label="Used versus prepared">__ / __</span>
+                            <span className="summary-usage-field" aria-label="Used versus prepared">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
                           </div>
                         ))}
                       </div>

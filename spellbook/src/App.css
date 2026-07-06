@@ -773,6 +773,7 @@ header p {
 .summary-usage-field {
   margin-left: 1rem;
   min-width: 4.5rem;
+  text-decoration: underline;
   text-align: right;
   font-family: "Courier New", Courier, monospace;
   font-size: 1rem;
