@@ -783,6 +783,12 @@ header p {
 
 /* Print Styles - Two-Column Landscape Layout */
 @media print {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   @page {
     size: landscape;
     margin: 0.25in;
@@ -793,8 +799,13 @@ header p {
   }
 
   .app {
+    margin: 0;
     padding: 0;
     max-width: 100%;
+    width: 100%;
+    background: red;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
   }
 
   /* Hide summary section when printing spellbook */
@@ -819,6 +830,9 @@ header p {
     padding-top: 0;
     padding-bottom: 0;
     border-top: none;
+    background: purple;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   .spellbook-header {
@@ -833,11 +847,15 @@ header p {
   /* Spell Summary Page - Prints on separate page */
   .spell-summary-page {
     display: block;
+    width: 100%;
     margin: 0;
     padding: 0;
     border: none;
     border-radius: 0;
-    background: transparent;
+    background: cyan;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    box-sizing: border-box;
   }
 
   .spell-summary-page h2 {
@@ -845,9 +863,16 @@ header p {
   }
 
   .summary-columns-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
     column-count: 4;
     column-gap: 1rem;
     column-fill: auto;
+    background: magenta;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    box-sizing: border-box;
   }
 
   .summary-level-group {
@@ -855,6 +880,7 @@ header p {
     page-break-inside: auto;
     margin-bottom: 1rem;
     display: block;
+    background: lime;
   }
 
   .summary-level-group h3 {
