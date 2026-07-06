@@ -791,7 +791,6 @@ header p {
 
   @page {
     size: landscape;
-    margin: 0.25in;
   }
 
   .no-print {
@@ -804,8 +803,6 @@ header p {
     max-width: 100%;
     width: 100%;
     background: red;
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
   }
 
   /* Hide summary section when printing spellbook */
@@ -831,8 +828,6 @@ header p {
     padding-bottom: 0;
     border-top: none;
     background: purple;
-    break-inside: avoid;
-    page-break-inside: avoid;
   }
 
   .spellbook-header {
@@ -853,8 +848,6 @@ header p {
     border: none;
     border-radius: 0;
     background: cyan;
-    break-inside: avoid;
-    page-break-inside: avoid;
     box-sizing: border-box;
   }
 
@@ -868,10 +861,8 @@ header p {
     padding: 0;
     column-count: 4;
     column-gap: 1rem;
-    column-fill: auto;
+    column-fill: balance;
     background: magenta;
-    break-inside: avoid;
-    page-break-inside: avoid;
     box-sizing: border-box;
   }
 
