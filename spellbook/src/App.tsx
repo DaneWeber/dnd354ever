@@ -951,6 +951,7 @@ function App() {
                     : `Level ${level}`;
 
                   return (
+                    <div key={level} className="summary-level-group-outer">
                     <div key={level} className="summary-level-group">
                       <h3>{levelName}</h3>
                       <div className="summary-spell-list">
@@ -961,6 +962,7 @@ function App() {
                           </div>
                         ))}
                       </div>
+                    </div>
                     </div>
                   );
                 });
