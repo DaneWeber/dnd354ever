@@ -52,6 +52,7 @@ export interface SavedSpellbook {
   name: string;
   characterClass: CharacterClass | null;
   selectedSpells: string[];
+  spellSlots?: { [level: number]: number };
   createdAt: string;
   updatedAt: string;
 }

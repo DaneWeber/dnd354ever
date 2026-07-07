@@ -4,6 +4,10 @@
   padding: 2rem;
 }
 
+.print-only {
+  display: none;
+}
+
 header {
   text-align: center;
   margin-bottom: 2rem;
@@ -769,6 +773,54 @@ header p {
   page-break-after: avoid;
 }
 
+.summary-level-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #8b2323;
+}
+
+.summary-level-header h3 {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.spell-slots-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.spell-slots-input label {
+  font-weight: 600;
+}
+
+.slots-number-input {
+  width: 4rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.slots-number-input:focus {
+  outline: none;
+  border-color: #8b2323;
+  box-shadow: 0 0 0 2px rgba(139, 35, 35, 0.1);
+}
+
+.spell-slots-display {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #8b2323;
+}
+
 .summary-spell-list {
   display: flex;
   flex-direction: column;
@@ -811,6 +863,10 @@ header p {
 
   .no-print {
     display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
   }
 
   .app {

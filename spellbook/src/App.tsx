@@ -14,6 +14,7 @@ const createDefaultSpellbook = (): SavedSpellbook => ({
   name: 'My Spellbook',
   characterClass: null,
   selectedSpells: [],
+  spellSlots: {},
   createdAt: new Date().toISOString(),
   updatedAt: new Date().toISOString(),
 });
@@ -112,7 +113,8 @@ function App() {
   // Helper function to update spellbook when selections change
   const updateCurrentSpellbook = (
     newClass: CharacterClass | null,
-    newSpells: Set<string>
+    newSpells: Set<string>,
+    newSpellSlots?: { [level: number]: number }
   ) => {
     if (currentSpellbookId) {
       setSpellbooks(prev =>
@@ -122,6 +124,7 @@ function App() {
               ...sb,
               characterClass: newClass,
               selectedSpells: Array.from(newSpells),
+              spellSlots: newSpellSlots !== undefined ? newSpellSlots : sb.spellSlots,
               updatedAt: new Date().toISOString(),
             }
             : sb
@@ -144,6 +147,7 @@ function App() {
       name,
       characterClass: null,
       selectedSpells: [],
+      spellSlots: {},
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
     };
@@ -408,6 +412,7 @@ function App() {
         const newSpellbook: SavedSpellbook = {
           ...imported,
           id: `sb-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+          spellSlots: imported.spellSlots || {},
           createdAt: new Date().toISOString(),
           updatedAt: new Date().toISOString(),
         };
@@ -516,6 +521,31 @@ function App() {
     app.setAttribute('data-print-target', target);
     window.print();
     app.removeAttribute('data-print-target');
+  };
+
+  const updateSpellSlots = (level: number, count: string) => {
+    if (!currentSpellbookId) return;
+
+    const currentBook = spellbooks.find(sb => sb.id === currentSpellbookId);
+    if (!currentBook) return;
+
+    const newSpellSlots = { ...(currentBook.spellSlots || {}) };
+
+    if (count === '' || count === null || count === undefined) {
+      // Remove the entry if blank
+      delete newSpellSlots[level];
+    } else {
+      const numCount = parseInt(count, 10);
+      if (!isNaN(numCount) && numCount >= 0) {
+        newSpellSlots[level] = numCount;
+      }
+    }
+
+    updateCurrentSpellbook(
+      currentBook.characterClass,
+      new Set(currentBook.selectedSpells),
+      newSpellSlots
+    );
   };
 
   return (
@@ -950,19 +980,38 @@ function App() {
                     ? (selectedClass === 'Cleric' || selectedClass === 'Druid' ? 'Orisons' : 'Cantrips')
                     : `Level ${level}`;
 
+                  const currentSlots = currentSpellbook?.spellSlots?.[level];
+
                   return (
                     <div key={level} className="summary-level-group-outer">
-                    <div key={level} className="summary-level-group">
-                      <h3>{levelName}</h3>
-                      <div className="summary-spell-list">
-                        {spells.map(spell => (
-                          <div key={spell.id} className="summary-spell-row">
-                            <span className="summary-spell-name">{spell.name}</span>
-                            <span className="summary-usage-field" aria-label="Used versus prepared">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+                      <div key={level} className="summary-level-group">
+                        <div className="summary-level-header">
+                          <h3>{levelName}</h3>
+                          <div className="spell-slots-input no-print">
+                            <label htmlFor={`slots-${level}`}>Slots:</label>
+                            <input
+                              id={`slots-${level}`}
+                              type="number"
+                              min="0"
+                              value={currentSlots ?? ''}
+                              onChange={(e) => updateSpellSlots(level, e.target.value)}
+                              placeholder="#"
+                              className="slots-number-input"
+                            />
                           </div>
-                        ))}
+                          <div className="spell-slots-display print-only">
+                            Slots: {currentSlots ?? '___'}
+                          </div>
+                        </div>
+                        <div className="summary-spell-list">
+                          {spells.map(spell => (
+                            <div key={spell.id} className="summary-spell-row">
+                              <span className="summary-spell-name">{spell.name}</span>
+                              <span className="summary-usage-field" aria-label="Used versus prepared">&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                    </div>
                     </div>
                   );
                 });
