@@ -1,5 +1,27 @@
 # Cramped Spaces
 
+From pp. 110-112 of _Underdark_
+
+Many natural caves are extremely difficult to navigate. Narrow fissures, corkscrew passages, and low ceilings are common obstacles in the limestone caves of the Underdark. Table 7–3: Tunnel Constriction summarizes the information related below.
+
+Any creature fighting in a cramped space loses its Dexterity bonus (if any) to Armor Class. Beyond that, the following adjustments apply, depending upon the prevailing conditions.
+
+* Narrow or Low: An area that is smaller horizontally than the creature’s space or smaller vertically than its height falls into this category, so long as the constricted dimension is at least one-half the creature’s space or height, respectively. A creature in such a space moves at one-half its normal speed because of the cramped conditions, and running and charging are impossible. The cramped creature takes a –2 circumstance penalty on attack rolls with light weapons and a –4 circumstance penalty on attack rolls with one-handed weapons. It cannot use twohanded weapons at all.
+* Narrow and Low: An area that is smaller in both the horizontal and vertical dimensions than the creature’s space falls into this category, so long as each of the constricted dimensions is at least one-half the creature’s space or height, respectively. A creature in these conditions moves at one-quarter normal speed and takes attack penalties equal to twice those above.
+* Crawl-Navigable. An area less than one-half but at least one-quarter of the creature’s height is crawl-navigable. The creature can move through such a space by falling prone and crawling at a speed of 5 feet (1 square), but it must remove medium and heavy armor, backpacks, and other bulky equipment (although these can be dragged along behind). The normal penalties for lying prone apply. The only ranged weapon a creature in a crawl-navigable space can use is a crossbow.
+* Awkward Space. An awkward space is narrower than narrow, lower than low, or smaller than crawl-navigable, but not quite a tight squeeze. For example, a fissure 2 feet wide is less than one-half the space of a Medium creature and is therefore more cramped than a narrow space, but any Medium creature should be able to wriggle through with a little work. A creature in such a space can move 5 feet (1 square) with a DC 15 Escape Artist check. Fighting in an awkward space is possible only with light weapons, and the creature takes a –8 circumstance penalty on its attack rolls. The only ranged weapon a creature in an awkward space can use is a crossbow.
+* Tight Squeeze. A tight squeeze is an area larger than the creature’s head but smaller than its shoulders, as described in the Escape Artist skill description. The creature can move 1 square with a DC 30 Escape Artist check. Fighting in a tight squeeze is impossible.
+
+WEAPONS IN CRAMPED SPACES
+
+Some weapons are more suitable for limited space than others. Piercing weapons that jab rather than slice at an opponent are treated as one size category smaller than normal for the purpose of calculating the penalty on attack rolls. Such weapons include the dagger, short sword, rapier, spear (any type), and trident, but not the pick, scythe, gnome hooked hammer, or spiked chain.
+
+Attacks with ranged weapons take penalties appropriate to their sizes in narrow or low conditions. Crossbows are the only ranged weapons usable in crawl-navigable and awkward spaces, but attacks made with it still take size-appropriate penalties.
+
+Table 7-3 is the same as Table 6–1: Cramped Spaces from _Drow of the Underdark_.
+
+---
+
 From p. 159 of _Drow of the Underdark_
 
 Cramped Spaces
@@ -13,8 +35,7 @@ Five main kinds of cramped spaces exist:
 * Spaces that are awkward (narrower than narrow, lower than low, and smaller than crawl-navigable, but not quite a tight squeeze).
 * Spaces that are a tight squeeze (big enough for a creature’s head but too small for its shoulders; see the Escape Artist skill, PH 73).
 
-The effects of these various kinds of cramped spaces are sum-
-marized on Table 6–1.
+The effects of these various kinds of cramped spaces are summarized on Table 6–1.
 
 ## Table 6–1: Cramped Spaces
 
