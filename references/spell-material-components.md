@@ -50,7 +50,7 @@
 - Soft clay, which must be worked into roughly the desired shape of the stone object and then touched to the stone while the verbal component is uttered.
 - The eye of a hawk, an eagle, or a roc, plus nitric acid, copper, and zinc.
 - The ground dust of a piece of jade worth at least 250 gp, which is sprinkled into the air when the spell is cast.
-- The shell of an egg."
+- The shell of an egg.
 - 1,500 gp worth of crushed pearls and a drop of honey.
 - 5 pounds of powdered silver (worth 25 gp).
 - 500 gp worth of powdered amber, a scale from any snake, and a pinch of mushroom spores.
@@ -68,7 +68,7 @@
 - A bit of spider web.
 - A bit of wool or a small lump of wax.
 - A clay pot filled with grave dirt and another filled with brackish water. The spell must be cast on a dead body. You must place a black onyx gem worth at least 50 gp per HD of the undead to be created into the mouth or eye socket of each corpse. The magic of the spell turns these gems into worthless shells.
-- A diamond of at least 500 gp value, which must be crushed and sprinkled over the targets."
+- A diamond of at least 500 gp value, which must be crushed and sprinkled over the targets.
 - A drop of bitumen and a live spider, both of which must be eaten by the subject.
 - A drop of mercury.
 - A drop of molasses.
@@ -88,7 +88,7 @@
 - A mixture of soils (clay, loam, and sand) in a small bag, and an iron blade.
 - A morsel of food the animal likes.
 - A piece of iron pyrite touched to the object to be trapped while the object is sprinkled with a special dust requiring 50 gp to prepare.
-- A piece of phosphor."
+- A piece of phosphor.
 - A piece of string and a bit of wood.
 - A piece of string, and ink consisting of squid secretion with black dragon’s blood.
 - A piece of tentacle from a giant octopus or a giant squid.
@@ -126,7 +126,7 @@
 - A sprinkle of holy water and diamonds worth a total of at least 10,000 gp.
 - A sprinkle of holy water and diamonds worth a total of at least 25,000 gp.
 - A sprinkling of holy water and rare incenses worth at least 1,500 gp, plus 1,500 gp per 60-foot cube. If a password is desired, this requires the burning of additional rare incenses worth at least 1,000 gp, plus 1,000 gp per 60-foot cube.
-- A square chip of stone, crushed lime, a few grains of sand, a sprinkling of water, and several splinters of wood. These must be augmented by the components of the _unseen servant_ spell (string and a bit of wood) if this benefit is to be included."
+- A square chip of stone, crushed lime, a few grains of sand, a sprinkling of water, and several splinters of wood. These must be augmented by the components of the _unseen servant_ spell (string and a bit of wood) if this benefit is to be included.
 - A stone, a twig, and a bit of green plant.
 - A thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite.
 - A tiny ball of bat guano and sulfur.
@@ -139,8 +139,8 @@
 - An empty cocoon.
 - An ointment for the eyes that costs 250 gp and is made from mushroom powder, saffron, and fat.
 - Before the actual casting of _trap the soul,_ you must procure a gem of at least 1,000 gp value for every Hit Die possessed by the creature to be trapped. If the gem is not valuable enough, it shatters when the entrapment is attempted. (While creatures have no concept of level or Hit Dice as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as creatures gain more Hit Dice.)
-- Burning incense, a small measure of brimstone and oil, a knotted string, and a small amount of blood."
-- Burning incense."
+- Burning incense, a small measure of brimstone and oil, a knotted string, and a small amount of blood.
+- Burning incense.
 - Diamond dust worth 100 gp that is sprinkled over the target.
 - Diamonds worth a total of least 5,000 gp.
 - Either a pinch of dried carrot or an agate.
@@ -150,10 +150,10 @@
 - Ground mica.
 - Herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be included in the _hallowed_ area.
 - Herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the spell to be tied to the _unhallowed_ area.
-- Holy (or unholy) water and incense."
+- Holy (or unholy) water and incense.
 - Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.
-- Incense worth at least 25 gp."
-- Incense worth at least 250 gp."
+- Incense worth at least 25 gp.
+- Incense worth at least 250 gp.
 - Lime, sand, and a drop of water stirred by an iron bar, such as a nail or spike.
 - Lime, water, and earth.
 - Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 1,000 gp.
@@ -162,20 +162,20 @@
 - Pieces of eggshell from two different kinds of creatures.
 - Powdered corn extract and a twisted loop of parchment.
 - Powdered herring scales and will-o’-wisp essence.
-- Powdered rhubarb leaf and an adder’s stomach."
+- Powdered rhubarb leaf and an adder’s stomach.
 - Rare oils and unguents worth a total of least 1,000 gp, spread over the remains.
 - Ruby dust worth 1,500 gp, which is tossed into the air and disappears when you cast the spell.
-- That of the companion spell, plus quicksilver and an eyelash of an ogre mage, rakshasa, or similar spell-using creature."
+- That of the companion spell, plus quicksilver and an eyelash of an ogre mage, rakshasa, or similar spell-using creature.
 - The acorns or holly berries.
 - The original material, which costs the same amount as the raw materials required to craft the item to be created.
-- The piece of flesh and various laboratory supplies (cost 1,000 gp)."
+- The piece of flesh and various laboratory supplies (cost 1,000 gp).
 - The powder of a crushed black pearl with a minimum value of 500 gp.
 - The powder of a crushed diamond worth at least 500 gp.
 - The specially prepared object, whose construction requires gems worth 1,500 gp.
-- The spell is cast over the rough snow or ice form, and some piece of the creature to be duplicated (hair, nail, or the like) must be placed inside the snow or ice. Additionally, the spell requires powdered ruby worth 100 gp per HD of the simulacrum to be created."
+- The spell is cast over the rough snow or ice form, and some piece of the creature to be duplicated (hair, nail, or the like) must be placed inside the snow or ice. Additionally, the spell requires powdered ruby worth 100 gp per HD of the simulacrum to be created.
 - The spell uses one fire source, which is immediately extinguished. A fire so large that it exceeds a 20-foot cube is only partly extinguished. Magical fires are not extinguished, although a fire-based creature used as a source takes 1 point of damage per caster level.
 - Tiny tarts that are thrown at the target and a feather that is waved in the air.
-- When a _wish_ duplicates a spell with a material component that costs more than 10,000 gp, you must provide that component."
+- When a _wish_ duplicates a spell with a material component that costs more than 10,000 gp, you must provide that component.
 - Wood shaped into the form of the intended _ironwood_ object.
 - You must place a black onyx gem worth at least 25 gp per Hit Die of the undead into the mouth or eye socket of each corpse you intend to animate. The magic of the spell turns these gems into worthless, burned-out shells.
 - You sprinkle ruby dust (worth 50 gp) on the item that is to carry the flame.
@@ -183,3 +183,214 @@
 - You trace the _glyph_ with incense, which must first be sprinkled with powdered diamond worth at least 400 gp.
 
 ## SRD Consolidated List of Material Componenets
+
+- Acorns
+- Adder’s stomach
+- Agate
+- Alcohol or distilled spirits
+- Alum
+- Amber dust
+- Amber, powdered
+- Animal hoof, powdered
+- Basilisk eyelash
+- Bat fur
+- Bat guano
+- Bead, Glass or crystal
+- Bitumen
+- Blood
+- Bone
+- Bone piece
+- Bone splinter
+- Brass hearing trumpet, miniature
+- Brimstone
+- Butter
+- Carbon, powdered
+- Carrot, dried
+- Charcoal
+- Chrysolite, powdered
+- Clay
+- Clay model of a ziggurat
+- Clay pot
+- Clay, soft
+- Clear crystal, hemispherical piece
+- Clear gem, powder
+- Cloak, miniature
+- Cloth from ghoul clothing
+- Cloth, red
+- Coal
+- Cocoon, empty
+- Colored powder or sand (red, yellow, and blue)
+- Copper
+- Copper piece
+- Copper wire
+- Copper wire, fine
+- Corn extract
+- Cotton wad
+- Cricket, live
+- Crystal or glass cone
+- Crystal prism
+- Crystal rod filled with phosphorescent material
+- Diamond
+- Diamond dust
+- Diamond powdered
+- Diamond, powdered
+- Dirt
+- Dirt, grave
+- Droppings, Eagle
+- Droppings, owl
+- Dung, Bull
+- Dung, fox
+- Dust
+- Earth
+- Earth from ghoul’s lair
+- Egg, rotten
+- Eggshells
+- Emerald dust
+- Eye of a hawk, eagle, or roc
+- Eyelash encased in gum arabic
+- Eyelash of an ogre mage, rakshasa, or similar spell-using creature
+- Fan, tiny
+- Feather
+- Feather, exotic
+- Feather, hummingbird
+- Feather, white
+- Feathers, Eagle
+- Feathers, owl
+- Fire source
+- Fireflies, live
+- Fleece
+- Flesh piece
+- Flint
+- Food morsel for an animal
+- Fur
+- Fur, Bloodhound
+- Fur, Cat
+- Garlic, powdered
+- Gauze
+- Glass, opaque
+- Glowworms, live
+- Gold dust
+- Granite, block
+- Grasshopper hind leg
+- Gum arabic
+- Gum arabic, hemispherical piece
+- Hair, Bull
+- Hair, fox
+- Heart, hen
+- Herbs
+- Herring scales, powdered
+- Holly berries
+- Holy water
+- Holy water font
+- Honey
+- Honeycomb
+- Horse hair
+- Incense
+- Incense, rare
+- Ink made from squid secretion and black dragon’s blood
+- Ink, lead-based
+- Iron bar
+- Iron blade
+- Iron filings
+- Iron from an iron golem, hero’s armor, or war machine
+- Iron pyrite
+- Iron, piece of sheet
+- Iron, powdered
+- Jacinth
+- Jade dust
+- Jade dust
+- Laboratory supplies
+- Lead, sheet of
+- Leather strip twisted into a loop
+- Leather thong
+- Licorice root
+- Lime
+- Lime, crushed
+- Lime, powdered
+- Lodestone
+- Magnets, pair of small bars
+- Marbles (clay, crystal, glass, or mineral)
+- Meat shred
+- Meat, raw
+- Mercury
+- Mica
+- Mirror of finely wrought and highly polished silver
+- Mirror piece
+- Molasses
+- Mushroom spores
+- Nail
+- Nitric acid
+- Nut shells
+- Oil
+- Ointment for the eyes (made from mushroom powder, saffron, and fat)
+- Onyx gem, black
+- Opal, powdered
+- Parchment with holy text
+- Parchment, twisted loop
+- Pearl
+- Pearl, powdered, black
+- Pearls, crushed
+- Peas, powdered
+- Phosphor
+- Phosphorescent moss
+- Phosphorus
+- Plant, green
+- Pork rind
+- Quartz
+- Quicksilver
+- Replica doll of caster
+- Rhubarb leaf, powdered
+- Rod of amber, crystal, or glass
+- Rose petals
+- Ruby dust
+- Ruby, powdered
+- Sacrificial offering
+- Salt
+- Sand
+- Sand, fine
+- Sapphire
+- Sapphire dust
+- Sesame seeds
+- Silver bar
+- Silver mirror
+- Silver whistle, tiny
+- Silver, powdered
+- Skin, Chameleon
+- Skunk cabbage leaves
+- Smoke
+- Snake scale
+- Snake tongue
+- Snow or ice form, rough
+- Soils, mixture (clay, loam, and sand)
+- Soot
+- Specially prepared object
+- Spider web
+- Spider, live
+- Sponge
+- Stick of incense, glowing
+- Stone
+- Straw, fine
+- String
+- String, knotted
+- Sulfur
+- Sunstone
+- Sweat
+- Sweet oil
+- Talc
+- Tallow
+- Tarts, tiny
+- Tears (in a vial)
+- Tentacle from a giant octopus or giant squid
+- Thread
+- Twig
+- Unguents
+- Unholy water
+- Vinegar
+- Water
+- Wax
+- Whitewash
+- Will-o’-wisp essence
+- Wood
+- Wood splinters
+- Wool
+- Zinc
