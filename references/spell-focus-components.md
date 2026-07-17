@@ -64,3 +64,74 @@
 - The staff that stores the spell.
 
 ## SRD Consolidated List of Material Componenets
+
+- Amber piece
+- Candle, small
+- Canine statuettes, small, black
+- Canine statuettes, small, white
+- Ceramic cone or prism, small, white
+- Chest and its replica
+- Copper piece
+- Copper wire, short piece of
+- Crystal
+- Crystal rod
+- Crystal sphere, small
+- Dart
+- Diamond
+- Divination counters
+- Feather, from any bird's wing
+- Fleece
+- Forked metal rod, small
+- Fur
+- Gem
+- Glass eye
+- Glass piece
+- Glove, leather
+- Glove, snakeskin
+- Glove, soft
+- Glove, sturdy, leather or heavy cloth
+- Golden wire
+- Holy water font
+- Horn, small
+- Horn, small, ivory
+- Horn, small, metal
+- Iron bars, small
+- Iron, straight piece, small
+- Ivory plaque
+- Ivory strips
+- Jade circlet
+- Key, brass
+- Leather, cured, piece of
+- Lens of ruby or sapphire set in a small golden loop, tiny
+- Marble, polished, small piece of
+- Marked bones
+- Marked sticks
+- Miniature platinum sword with a grip and pommel of copper and zinc
+- Miniature portal carved from ivory
+- Mirror of finely wrought and highly polished silver costing
+- Musical instrument
+- Natural pool of water
+- Parchment rolled up into a small cone
+- Platinum rings, pair
+- Prayer beads
+- Prism, clear crystal or mineral
+- Prism, crystal
+- Quarterstaff, specially prepared
+- Reliquary containing some sacred relic, tiny
+- Sapphire, black
+- Shell, tortoise, piece of
+- Shell, turtle, piece of
+- Silk square, small
+- Silver pins
+- Silver rod, small
+- Silver wire, fine
+- Small leather loop
+- Special holy (or unholy) symbol of silver marked with verses of anathema (cost 500 gp).
+- Special laboratory equipment
+- Spoon, tiny silver
+- Statuette of you carved from elephant ivory and decorated with gems
+- Tiny bag
+- Tiny bell
+- Tuning fork
+- Twig, forked
+- Wooden replica of an archery target
