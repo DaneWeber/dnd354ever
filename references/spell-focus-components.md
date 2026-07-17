@@ -1,0 +1,67 @@
+# Spell Focus Components
+
+## SRD Focus Components
+
+- _Cleric Focus:_ A holy water font costing not less than 100 gp.
+- _Druid Focus:_ A natural pool of water.
+- _Wizard, Sorcerer, or Bard Focus:_ A mirror of finely wrought and highly polished silver costing not less than 1,000 gp. The mirror must be at least 2 feet by 4 feet.
+- A bit of fleece.
+- A bit of fur; a piece of amber, glass, or a crystal rod; plus one silver pin for each of your caster levels.
+- A black sapphire of at least 1,000 gp value for every Hit Die possessed by the creature whose soul is to be bound. If the gem is not valuable enough, it shatters when the binding is attempted. (While creatures have no concept of level or Hit Dice as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as creatures gain more Hit Dice.)
+- A brass key.
+- A clear crystal or mineral prism.
+- A copper piece.
+- A crystal prism.
+- A dart.
+- A forked twig.
+- A gem or crystal worth at least 100 gp.
+- A glove of snakeskin.
+- A jade circlet worth no less than 1,500 gp, which you must place on your head when casting the spell. (The focus melds into your new form when you change shape.)
+- A leather glove.
+- A leather glove.
+- A miniature platinum sword with a grip and pommel of copper and zinc. It costs 250 gp to construct.
+- A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon (each item worth 5 gp).
+- A musical instrument.
+- A pair of platinum rings (worth at least 50 gp each) worn by both you and the warded creature.
+- A pair of small iron bars attached to two small canine statuettes, one black and one white, the whole array worth 50 gp.
+- A parchment rolled up into a small cone.
+- A piece of cured leather.
+- A piece of shell from a tortoise or a turtle.
+- A set of divination counters of the sort you favor.
+- A set of marked sticks, bones, or similar tokens of at least 25 gp value.
+- A short piece of copper wire.
+- A small crystal sphere.
+- A small horn (for hearing) or a glass eye (for seeing).
+- A small metal or ivory horn.
+- A small silver rod.
+- A small square of silk that must be passed over the object that receives the aura.
+- A small wooden replica of an archery target.
+- A small, forked metal rod. The size and metal type dictates to which plane of existence or alternate dimension the spell sends the affected creatures.
+- A small, straight piece of iron.
+- A small, white ceramic cone or prism.
+- A soft glove.
+- A special holy (or unholy) symbol of silver marked with verses of anathema (cost 500 gp).
+- A statuette of you carved from elephant ivory and decorated with gems (worth at least 1,500 gp). You must carry the focus for the _contingency_ to work.
+- A sturdy glove made of leather or heavy cloth.
+- A tiny bag and a small (not necessarily lit) candle.
+- A tiny bell and a piece of very fine silver wire
+- A tiny lens of ruby or sapphire set in a small golden loop. The gemstone must be worth at least 1,500 gp.
+- A tiny reliquary containing some sacred relic, such as a piece of parchment from an unholy text. The reliquary costs at least 500 gp.
+- A tiny reliquary containing some sacred relic, such as a scrap of parchment from a chaotic text. The reliquary costs at least 500 gp.
+- A tiny reliquary containing some sacred relic, such as a scrap of parchment from a lawful text. The reliquary costs at least 500 gp.
+- A tiny reliquary containing some sacred relic. The reliquary costs at least 500 gp.
+- A tuning fork.
+- A wing feather from any bird.
+- An ivory plaque of at least 50 gp value.
+- Any item that is distasteful to the subject (optional, see above).
+- Either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end.
+- Four strips of ivory (worth 50 gp each) formed into a rectangle.
+- In addition to your holy symbol or normal divine focus, you need a set of prayer beads (or other prayer device, such as a prayer wheel or prayer book) worth at least 500 gp.
+- One 1,000 gp diamond per creature to be granted the protection. Each subject must carry one such gem for the duration of the spell. If a subject loses the gem, the spell ceases to affect him.
+- Special laboratory equipment (cost 500 gp).
+- The chest and its replica.
+- The focus of the _alarm_ spell (silver wire and a tiny bell) if this benefit is to be included.
+- The quarterstaff, which must be specially prepared. The staff must be a sound limb cut from an ash, oak, or yew, then cured, shaped, carved, and polished (a process requiring twenty-eight days).
+- The staff that stores the spell.
+
+## SRD Consolidated List of Material Componenets
