@@ -1,7 +1,6 @@
 # Spell Material Components
 
 ## SRD Material Components
-
 - A bit of bat fur and either a drop of pitch or a piece of coal.
 - A bit of charcoal.
 - A bit of earth from a grave.
@@ -27,7 +26,6 @@
 - A piece of chameleon skin.
 - A piece of sunstone and a naked flame.
 - A pinch of dried, powdered peas combined with powdered animal hoof.
-- A pinch of dust and a few drops of water.
 - A pinch of dust and a few drops of water.
 - A pinch of powdered iron or iron filings.
 - A pinch of salt, and a copper piece for each eye the corpse has (or had).
@@ -55,7 +53,6 @@
 - The shell of an egg."
 - 1,500 gp worth of crushed pearls and a drop of honey.
 - 5 pounds of powdered silver (worth 25 gp).
-- 5 pounds of powdered silver (worth 25 gp).
 - 500 gp worth of powdered amber, a scale from any snake, and a pinch of mushroom spores.
 - A _potion of bull’s strength_, which you drink (and whose effects are subsumed by the spell effects).
 - A basilisk eyelash, gum arabic, and a dram of whitewash.
@@ -76,7 +73,6 @@
 - A drop of mercury.
 - A drop of molasses.
 - A drop of oil and a small piece of flint.
-- A drop of sweat.
 - A drop of sweat.
 - A glass or crystal bead that shatters at the expiration of the spell.
 - A glowing stick of incense or a crystal rod filled with phosphorescent material.
@@ -100,11 +96,9 @@
 - A pinch of cat fur.
 - A pinch of diamond dust worth 50 gp.
 - A pinch of dirt.
-- A pinch of dried, powdered peas combined with powdered animal hoof.
 - A pinch of earth and a drop of blood.
 - A pinch of fine sand, rose petals, or a live cricket.
 - A pinch of powder made from a clear gem.
-- A pinch of powdered iron.
 - A pinch of powdered iron.
 - A pinch of sesame seeds.
 - A pinch of sulfur and powdered garlic.
@@ -143,7 +137,6 @@
 - A vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area.
 - Amber dust to cover the area of the circle (cost 1,000 gp).
 - An empty cocoon.
-- An eyelash encased in a bit of gum arabic.
 - An ointment for the eyes that costs 250 gp and is made from mushroom powder, saffron, and fat.
 - Before the actual casting of _trap the soul,_ you must procure a gem of at least 1,000 gp value for every Hit Die possessed by the creature to be trapped. If the gem is not valuable enough, it shatters when the entrapment is attempted. (While creatures have no concept of level or Hit Dice as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as creatures gain more Hit Dice.)
 - Burning incense, a small measure of brimstone and oil, a knotted string, and a small amount of blood."
@@ -164,12 +157,7 @@
 - Lime, sand, and a drop of water stirred by an iron bar, such as a nail or spike.
 - Lime, water, and earth.
 - Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 1,000 gp.
-- Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 1,000 gp.
-- Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 1,000 gp.
 - Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp each.
-- Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp.
-- Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp.
-- Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp.
 - Mercury and phosphorus, plus powdered diamond and opal with a total value of at least 5,000 gp.
 - Pieces of eggshell from two different kinds of creatures.
 - Powdered corn extract and a twisted loop of parchment.

@@ -18,7 +18,6 @@
 - A glove of snakeskin.
 - A jade circlet worth no less than 1,500 gp, which you must place on your head when casting the spell. (The focus melds into your new form when you change shape.)
 - A leather glove.
-- A leather glove.
 - A miniature platinum sword with a grip and pommel of copper and zinc. It costs 250 gp to construct.
 - A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon (each item worth 5 gp).
 - A musical instrument.
