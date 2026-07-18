@@ -81,7 +81,6 @@
 - Divination counters
 - Feather, from any bird's wing
 - Fleece
-- Forked metal rod, small
 - Fur
 - Gem
 - Glass eye
@@ -126,7 +125,7 @@
 - Silver rod, small
 - Silver wire, fine
 - Small leather loop
-- Special holy (or unholy) symbol of silver marked with verses of anathema (cost 500 gp).
+- Special holy (or unholy) symbol of silver marked with verses of anathema
 - Special laboratory equipment
 - Spoon, tiny silver
 - Statuette of you carved from elephant ivory and decorated with gems
