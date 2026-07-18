@@ -63,7 +63,7 @@
 - The quarterstaff, which must be specially prepared. The staff must be a sound limb cut from an ash, oak, or yew, then cured, shaped, carved, and polished (a process requiring twenty-eight days).
 - The staff that stores the spell.
 
-## SRD Consolidated List of Material Componenets
+## SRD Consolidated List of Focus Components
 
 - Amber piece
 - Candle, small
