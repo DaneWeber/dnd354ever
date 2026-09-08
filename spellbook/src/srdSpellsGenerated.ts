@@ -5085,7 +5085,7 @@ export const SRD_SPELLS: Spell[] = [
       "Sorcerer": 1,
       "Wizard": 1
     },
-    "components": "",
+    "components": "V",
     "castingTime": "1 standard action",
     "range": "Medium (100 ft. + 10 ft./level)",
     "duration": "1 min./level (D)",
