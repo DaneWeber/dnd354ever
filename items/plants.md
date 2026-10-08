@@ -55,3 +55,32 @@ Other Protean Mushrooms affect coloration (Chameleon), sensation (Synesthete), s
 Planter value is 20gp, containing a psionic Shard worth 10gp.
 
 Plant value is 7,200gp (9pp * 600gp (boots of stomping) * 2 halves * 2/3 for reduced weekly usage * 2 for no slot * 0.5 for unknown side of mushroom)
+
+## Pink Mold
+
+(can be found in Pandemonium)
+
+- absorbs sound, empowered by sonic damage
+- A patch of pink mold is measured by its hit points.
+  - 5 hit points is sufficient for a medium-sized patch that covers a 5-foot-square with a thin layer.
+  - 
+- damaged by acid, fire, electricity, and negative energy
+- _remove disease_ safely kills all spores and mold within or in contact with the creature cured.
+- spores are released when damaged, physically touched, or warmed (such as with body heat) 
+- spores begin growing and having a silence effect
+- inhaled spores are poison: 1d3 WIS / 1D3 WIS; affected daily if exposed regularly 
+- can be safely eaten after dissolving in acidic water (squeeze of lemon)
+
+## Whirligig
+
+(can be found in Pandemonium)
+
+- collects kinetic energy from the wind
+- plant has fronds that whip and spin about
+- stores electrical energy that is released when damaged
+- a thick enough patch can set each other off, causing a high damage explosion of lightning 
+- eating requires gently uprooting and drying while held still until they change color
+
+## Mandrake
+
+(can be found in Pandemonium)
