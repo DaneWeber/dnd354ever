@@ -84,3 +84,29 @@ Plant value is 7,200gp (9pp * 600gp (boots of stomping) * 2 halves * 2/3 for red
 ## Mandrake
 
 (can be found in Pandemonium)
+
+- Tiny Plant-type creature; 1-5 HD, 1 being small/young and 5 being over 1 year and mature.
+  - Young: STR 4, DEX 2, CON 12, INT -, WIS 1, CHA 1
+  - Mature: STR 4, DEX 2, CON 20, INT -, WIS 1, CHA 1
+  - Move 5 ft.; burrow 1 ft.
+    - Can dig itself back into the ground in one round
+  - HD: 1d8+1, 2d8+4, 3d8+9, 4d8+16, 5d8+25
+  - HP: 6/13/24/34/49
+  - AC: 10/12/14/16/18 (tiny 2, dex -4, natural HDx2)
+- Shriek when uprooted, 60-ft radius, two effects.
+  - 1d4 sonic damage per HD of the plant (up to 5d4)
+  - Fort save DC 11/13/14/16/17 (10 + 1/2 HD of the plant + CON modifier) or dazed for 1 round
+  - Repeats each round; at/will
+- Traits
+  - Low-light vision.
+  - Immunity to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects).
+  - Immunity to poison, sleep effects, paralysis, polymorph, and stunning.
+  - Not subject to critical hits.
+  - Proficient with its natural weapons only.
+  - Proficient with no armor.
+  - Plants breathe and eat, but do not sleep.
+
+Reference 5e Open Gaming material:
+
+https://www.5esrd.com/database/creature/mandrake-2 / https://5esrd.old.opengamingnetwork.com/database/creature/mandrake-2/
+https://www.5esrd.com/database/creature/mandrake / https://5esrd.old.opengamingnetwork.com/database/creature/mandrake/
