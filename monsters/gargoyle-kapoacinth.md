@@ -81,7 +81,7 @@ Kapoacinth:
   Base Attack/Grapple: +7/+17
   Attack: Claw +12 melee (1d6+6)
   Full Attack: 2 claws +12 melee (1d6+6) and bite +10 melee (1d8+3) and gore +10 melee (1d8+3)
-  Space/Reach: 5 ft./5 ft.
+  Space/Reach: 10 ft./10 ft.
   Special Attacks: —
   Special Qualities: Damage reduction 10/magic, darkvision 60 ft., freeze
   Saves: Fort +8, Ref +6, Will +5
@@ -111,7 +111,7 @@ Kapoacinth:
   Base Attack/Grapple: +12/+22
   Attack: Claw +18 melee (1d6+6)
   Full Attack: 2 claws +18 melee (1d6+6) and bite +16 melee (1d8+3) and gore +16 melee (1d8+3)
-  Space/Reach: 5 ft./5 ft.
+  Space/Reach: 10 ft./10 ft.
   Special Attacks: —
   Special Qualities: Damage reduction 10/magic, darkvision 60 ft., freeze
   Saves: Fort +10, Ref +9, Will +8
@@ -135,23 +135,23 @@ Advanced to 6 HD, elite array, Fighter 4
 ```yaml
 Kapoacinth:
   Type: Medium Monstrous Humanoid (Aquatic)
-  Hit Dice: 6d8+33 (60 hp)
+  Hit Dice: 4d10+6d8+53 (102 hp)
   Initiative: +2
   Speed: 40 ft. (8 squares), swim 60 ft.
   Armor Class: 18 (+3 Dex, +5 natural), touch 13, flat-footed 15
-  Base Attack/Grapple: +6/+10
-  Attack: Claw +10 melee (1d4+4)
-  Full Attack: 2 claws +10 melee (1d4+4) and bite +8 melee (1d6+3) and gore +8 melee (1d6+3)
+  Base Attack/Grapple: +10/+14
+  Attack: Claw +15 melee (1d4+6)
+  Full Attack: 2 claws +15 melee (1d4+6) and bite +12 melee (1d6+3) and gore +12 melee (1d6+3)
   Space/Reach: 5 ft./5 ft.
   Special Attacks: —
   Special Qualities: Damage reduction 10/magic, darkvision 60 ft., freeze
-  Saves: Fort +6, Ref +7, Will +7
+  Saves: Fort +10, Ref +9, Will +8
   Abilities: Str 19, Dex 16, Con 21, Int 6, Wis 14, Cha 4
-  Skills: Hide +8*, Listen +7, Spot +7, Swim +12
-  Feats: Multiattack, Toughness, Improved Natural Armor
+  Skills: Climb +6, Hide +8*, Jump +6, Listen +7, Spot +7, Swim +12
+  Feats: Multiattack, Toughness, Improved Natural Armor, Blind Fight, Weapon Focus (claw), Weapon Specialization (claw)
   Environment: Any aquatic
   Organization: Solitary, pair, or pack (5–16)
-  Challenge Rating: 6
+  Challenge Rating: 9
   Treasure: Standard
   Alignment: Usually chaotic evil
   Advancement: 5–6 HD (Medium); 7–12 HD (Large)
