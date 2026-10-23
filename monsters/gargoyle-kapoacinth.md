@@ -74,19 +74,19 @@ Advanced to 7 HD.
 ```yaml
 Kapoacinth:
   Type: Medium Monstrous Humanoid (Aquatic)
-  Hit Dice: 6d8+27 (54 hp)
+  Hit Dice: 7d8+31 (62 hp)
   Initiative: +2
   Speed: 40 ft. (8 squares), swim 60 ft.
   Armor Class: 16 (+2 Dex, +5 natural), touch 12, flat-footed 15
-  Base Attack/Grapple: +6/+8
-  Attack: Claw +8 melee (1d4+2)
-  Full Attack: 2 claws +8 melee (1d4+2) and bite +6 melee (1d6+1) and gore +6 melee (1d6+1)
+  Base Attack/Grapple: +7/+9
+  Attack: Claw +9 melee (1d4+2)
+  Full Attack: 2 claws +9 melee (1d4+2) and bite +7 melee (1d6+1) and gore +7 melee (1d6+1)
   Space/Reach: 5 ft./5 ft.
   Special Attacks: —
   Special Qualities: Damage reduction 10/magic, darkvision 60 ft., freeze
   Saves: Fort +6, Ref +7, Will +5
   Abilities: Str 15, Dex 14, Con 18, Int 6, Wis 11, Cha 7
-  Skills: Hide +7*, Listen +5, Spot +5, Swim +10
+  Skills: Hide +8*, Listen +5, Spot +5, Swim +10
   Feats: Multiattack, Toughness, Improved Natural Armor
   Environment: Any aquatic
   Organization: Solitary, pair, or pack (5–16)
