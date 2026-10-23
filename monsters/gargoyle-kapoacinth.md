@@ -97,3 +97,34 @@ Kapoacinth:
   Level Adjustment: +5
 ```
 
+## Large-Sized Kapoacinth
+
+Advanced to 12 HD.
+
+```yaml
+Kapoacinth:
+  Type: Large Monstrous Humanoid (Aquatic)
+  Hit Dice: 7d8+45 (76 hp)
+  Initiative: +2
+  Speed: 40 ft. (8 squares), swim 60 ft.
+  Armor Class: 17 (+1 Dex, +7 natural, -1 size), touch 10, flat-footed 16
+  Base Attack/Grapple: +7/+13
+  Attack: Claw +12 melee (1d6+6)
+  Full Attack: 2 claws +12 melee (1d6+6) and bite +10 melee (1d8+3) and gore +10 melee (1d8+3)
+  Space/Reach: 5 ft./5 ft.
+  Special Attacks: —
+  Special Qualities: Damage reduction 10/magic, darkvision 60 ft., freeze
+  Saves: Fort +6, Ref +7, Will +5
+  Abilities: Str 23, Dex 12, Con 22, Int 6, Wis 11, Cha 7
+  Skills: Hide +4*, Listen +5, Spot +5, Swim +10
+  Feats: Multiattack, Toughness, Improved Natural Armor
+  Environment: Any aquatic
+  Organization: Solitary, pair, or pack (5–16)
+  Challenge Rating: 6
+  Treasure: Standard
+  Alignment: Usually chaotic evil
+  Advancement: 5–6 HD (Medium); 7–12 HD (Large)
+  Level Adjustment: +5
+```
+
+
