@@ -86,7 +86,7 @@ Kapoacinth:
   Special Qualities: Damage reduction 10/magic, darkvision 60 ft., freeze
   Saves: Fort +8, Ref +6, Will +5
   Abilities: Str 23, Dex 12, Con 22, Int 6, Wis 11, Cha 7
-  Skills: Hide +4*, Listen +5, Spot +5, Swim +10
+  Skills: Hide +3*, Listen +5, Spot +5, Swim +14
   Feats: Multiattack, Toughness, Improved Natural Armor
   Environment: Any aquatic
   Organization: Solitary, pair, or pack (5–16)
@@ -116,7 +116,7 @@ Kapoacinth:
   Special Qualities: Damage reduction 10/magic, darkvision 60 ft., freeze
   Saves: Fort +10, Ref +9, Will +8
   Abilities: Str 23, Dex 12, Con 22, Int 6, Wis 11, Cha 7
-  Skills: Hide +7*, Listen +6, Spot +6, Swim +10
+  Skills: Hide +6*, Listen +6, Spot +6, Swim +14
   Feats: Multiattack, Toughness, Improved Natural Armor, Improved Natural Armor, Improved Natural Armor
   Environment: Any aquatic
   Organization: Solitary, pair, or pack (5–16)
@@ -135,27 +135,25 @@ Advanced to 6 HD, elite array, Fighter 4
 ```yaml
 Kapoacinth:
   Type: Medium Monstrous Humanoid (Aquatic)
-  Hit Dice: 6d8+27 (54 hp)
+  Hit Dice: 6d8+33 (60 hp)
   Initiative: +2
   Speed: 40 ft. (8 squares), swim 60 ft.
-  Armor Class: 17 (+2 Dex, +5 natural), touch 12, flat-footed 15
-  Base Attack/Grapple: +6/+8
-  Attack: Claw +8 melee (1d4+2)
-  Full Attack: 2 claws +8 melee (1d4+2) and bite +6 melee (1d6+1) and gore +6 melee (1d6+1)
+  Armor Class: 18 (+3 Dex, +5 natural), touch 13, flat-footed 15
+  Base Attack/Grapple: +6/+10
+  Attack: Claw +10 melee (1d4+4)
+  Full Attack: 2 claws +10 melee (1d4+4) and bite +8 melee (1d6+3) and gore +8 melee (1d6+3)
   Space/Reach: 5 ft./5 ft.
   Special Attacks: —
   Special Qualities: Damage reduction 10/magic, darkvision 60 ft., freeze
-  Saves: Fort +6, Ref +7, Will +5
-  Abilities: Str 15, Dex 14, Con 18, Int 6, Wis 11, Cha 7
-  Skills: Hide +7*, Listen +5, Spot +5, Swim +10
+  Saves: Fort +6, Ref +7, Will +7
+  Abilities: Str 19, Dex 16, Con 21, Int 6, Wis 14, Cha 4
+  Skills: Hide +8*, Listen +7, Spot +7, Swim +12
   Feats: Multiattack, Toughness, Improved Natural Armor
   Environment: Any aquatic
   Organization: Solitary, pair, or pack (5–16)
-  Challenge Rating: 5
+  Challenge Rating: 6
   Treasure: Standard
   Alignment: Usually chaotic evil
   Advancement: 5–6 HD (Medium); 7–12 HD (Large)
   Level Adjustment: +5
 ```
-
-
