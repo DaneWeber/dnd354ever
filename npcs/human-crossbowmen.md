@@ -29,7 +29,8 @@ Howler-Crossbowman:
   Special Qualities: —
   Saves: Fort +4, Ref +3, Will +1
   Abilities: Str 12, Dex 14, Con 10, Int 9, Wis 11, Cha 8
-  Skills: Climb +8, Intimidate +6
+  Armor Check Penalty: -1
+  Skills: Climb +7, Intimidate +6
   Feats: Rapid Reload (Heavy Crossbow), Weapon Focus (Heavy Crossbow)
   Possessions: Heavy crossbow, 20 bolts, longspear, armor spikes, 
     studded leather, pavise (tower shield), backpack, dagger,
