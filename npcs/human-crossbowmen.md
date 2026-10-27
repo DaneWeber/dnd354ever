@@ -15,17 +15,24 @@ Howler-Crossbowman:
   Hit Dice: 4d8 (18 hp)
   Initiative: +2
   Speed: 30 ft.
-  Armor Class: 16 (dex +2, Studded Leather +3, buckler +1), touch 12, flat-footed 14
+  Armor Class: 16 (dex +2, Studded Leather +3, buckler +1),
+    touch 12, flat-footed 14
   Base Attack/Grapple: +4/+5
-  Attack: +5 melee (1d8+1/x3, longspear) or +5 melee (1d6+1, armor spikes) or +7 ranged (1d10/19-20, heavy crossbow)
+  Attack: +5 melee (1d8+1/x3, longspear)
+    or +5 melee (1d6+1, armor spikes)
+    or +7 ranged (1d10/19-20, heavy crossbow)
   Space/Reach: 5 ft./5 ft.
-  Special Attacks: (prop up Pavise, Longspear reach, Heavy Crossbow rapid reload)
+  Special Attacks: (prop up Pavise, Longspear reach,
+    Heavy Crossbow rapid reload)
   Special Qualities: —
   Saves: Fort +4, Ref +3, Will +1
   Abilities: Str 12, Dex 14, Con 10, Int 9, Wis 11, Cha 8
   Skills: Climb +8, Intimidate +6
   Feats: Rapid Reload (Heavy Crossbow), Weapon Focus (Heavy Crossbow)
-  Possessions: Heavy crossbow, 20 bolts, longspear, armor spikes, studded leather, buckler, pavise (tower shield), backpack, dagger, rations (1 week), waterskin, bedroll, rope (50 ft.), bulls-eye lantern, oil flask, flint and steel
+  Possessions: Heavy crossbow, 20 bolts, longspear, armor spikes, 
+    studded leather, buckler, pavise (tower shield), backpack, dagger,
+    rations (1 week), waterskin, bedroll, rope (50 ft.),
+    bulls-eye lantern, oil flask, flint and steel
   Environment: Any
   Organization: Squad of 10, Mercenary troop of 100
   Challenge Rating: 3
