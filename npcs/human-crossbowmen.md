@@ -2,12 +2,14 @@
 
 Elite mercenary troop of a hundred human crossbowmen, the "Hundred Howlers."
 
-Rates:
-- Guard duty per squad (10): 15gp/day; 400gp/month
-- Safe/highway travel per squad (10): 10gp/day
-- Dangerous/off-road travel per squad (10): 20gp/day
-- Siege support per squad (10): 30gp/day
-- Combat per squad (10): 50gp per battle (of no more than 4 hours)
+Mercenary rates per squad of 10 crossbowmen:
+- Guard duty: 15gp/day; 400gp/month
+- Safe/highway travel: 10gp/day
+- Dangerous/off-road travel: 20gp/day
+- Siege support: 30gp/day
+- Combat: 50gp per battle (of no more than 4 hours)
+
+The Hundred Howlers wear a distinctive uniform of spike-covered studded leather armor and a matching helmet, making them easily recognizable on the battlefield.
 
 ```yaml
 Howler-Crossbowman:
@@ -15,8 +17,8 @@ Howler-Crossbowman:
   Hit Dice: 4d8 (18 hp)
   Initiative: +2
   Speed: 30 ft.
-  Armor Class: 16 (dex +2, Studded Leather +3, buckler +1),
-    touch 12, flat-footed 14
+  Armor Class: 15 (dex +2, Studded Leather +3),
+    touch 12, flat-footed 13; (+4 AC when fighting from behind cover)
   Base Attack/Grapple: +4/+5
   Attack: +5 melee (1d8+1/x3, longspear)
     or +5 melee (1d6+1, armor spikes)
@@ -30,7 +32,7 @@ Howler-Crossbowman:
   Skills: Climb +8, Intimidate +6
   Feats: Rapid Reload (Heavy Crossbow), Weapon Focus (Heavy Crossbow)
   Possessions: Heavy crossbow, 20 bolts, longspear, armor spikes, 
-    studded leather, buckler, pavise (tower shield), backpack, dagger,
+    studded leather, pavise (tower shield), backpack, dagger,
     rations (1 week), waterskin, bedroll, rope (50 ft.),
     bulls-eye lantern, oil flask, flint and steel
   Environment: Any
