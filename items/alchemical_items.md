@@ -1120,7 +1120,10 @@ Alchemy DC 25 to create. Market Price: 30 gp. (Source: Player’s Handbook)
 
 Alchemy DC 20 to create. Market Price: 1 gp. (Source: Player’s Handbook)
 
-**Titan Gum:** Fast setting glue. Bonds in one round and can support 5000 pounds. Str check vs DC20 to separate glued items.
+**Titan Gum:** Fast setting glue. Bonds in one round and can support 500 pounds. Str check vs DC20 to separate glued items.
+
+(Made from Darkroot according to [Realmshelp](https://www.realmshelps.net/magic/items/alchemy.shtml)):
+Darkroot is a large, black, twisted root found near waterfalls and in other damp environments such as bogs. The root grows to over 10 feet in length and can be up to 2 feet thick. Herbalists and village wise women advocate chewing darkroot as a way of purging the stomach after drinking or eating poisons. The root tastes vile and causes vomiting immediately upon swallowing.
 
 Alchemy DC 15 to create. Market Price: 25 gp. (Source: Dragon #301)
 
